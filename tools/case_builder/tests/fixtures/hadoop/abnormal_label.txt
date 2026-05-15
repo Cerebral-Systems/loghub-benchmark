@@ -1,0 +1,14 @@
+The fixture mimics Loghub's abnormal_label.txt layout (headings ending in colon).
+
+Normal:
++ application_1_0001
++ application_1_0002
+
+Machine down:
++ application_1_0003
+
+Network disconnection:
++ application_1_0004
+
+Disk full:
++ application_1_0005

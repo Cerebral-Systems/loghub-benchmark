@@ -1,0 +1,2 @@
+2015-10-17 18:00:00,000 INFO main MRAppMaster: Created MRAppMaster for application_1_0004
+2015-10-17 18:00:30,000 ERROR main NM: Connection refused to /10.0.0.7

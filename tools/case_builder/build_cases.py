@@ -21,10 +21,12 @@ from dataclasses import asdict
 from pathlib import Path
 
 from .adapters import AdapterBase
+from .adapters.hadoop import HadoopAdapter
 from .adapters.hdfs import HDFSAdapter
 
 ADAPTERS: dict[str, type[AdapterBase]] = {
     "hdfs": HDFSAdapter,
+    "hadoop": HadoopAdapter,
 }
 
 

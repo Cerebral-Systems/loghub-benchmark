@@ -48,11 +48,27 @@ The zip contains the raw `HDFS.log` plus a `preprocessed/` directory with
 templates, and an HDFS.npz. The case-builder only reads `HDFS.log` and
 `preprocessed/anomaly_label.csv`.
 
+### Hadoop
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `/home/buildout/loghub-full/Hadoop/Hadoop.zip` | 48.61 MiB | `79e63c6521e90ae164754a29d13e04e0c6c5e782490a7fe1e2b124f4f5737ced` |
+| `/home/buildout/loghub-full/Hadoop/abnormal_label.txt` | 2.2 KiB (55 jobs) | `b23800ec91f89ea403d18b6d6bce94d30b57092dbcfa523582357929c2be9414` |
+| `/home/buildout/loghub-full/Hadoop/application_*/container_*.log` | 52 MiB extracted | per-file; not pinned |
+
+Source: <https://zenodo.org/records/8196385/files/Hadoop.zip?download=1>.
+
+Distribution after extraction: 55 application directories (11 normal /
+44 anomalous: 26 machine_down, 11 disk_full, 7 network_disconnect across
+WordCount + PageRank workloads). The Hadoop adapter pairs each anomalous
+job with a deterministically-chosen normal job (seed-mixed) into one
+concatenated slice.
+
 ### Other datasets
 
-Not yet downloaded. The corresponding adapters land in M2b-M2e. When
-needed, fetch from `https://zenodo.org/records/8196385/` (HDFS_v1.zip,
-Hadoop.zip, BGL.zip, Thunderbird.tar.gz, OpenStack.tar.gz) into
+Not yet downloaded. The remaining adapters land in M2c-M2e. When needed,
+fetch from `https://zenodo.org/records/8196385/` (BGL.zip,
+Thunderbird.tar.gz, OpenStack.tar.gz) into
 `/home/buildout/loghub-full/<dataset>/` and record sizes + SHA-256 here.
 
 ## License
