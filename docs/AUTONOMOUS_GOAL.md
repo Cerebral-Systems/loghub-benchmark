@@ -14,7 +14,7 @@ You are running unattended in a long-lived session on Mesh's `mesh-test` VM. You
 - After each milestone:
   1. Run any tests/checks required by that milestone's Definition of Done.
   2. Commit with a clear message tagged `(M<n>)`.
-  3. Push to `origin/<branch>` if `gh auth status` shows authentication is configured.
+  3. **Do NOT push.** The remote PAT lacks Contents:write scope. Commit locally; the user will pull via SSH and push from their laptop. (If/when push is later enabled, this instruction will be updated.)
   4. Move to the next milestone.
 - **One milestone per work session is acceptable.** Don't rush. Quality matters more than speed for a benchmark we intend to upstream.
 - **Stop and write `STATUS.md` when blocked** on any of:
