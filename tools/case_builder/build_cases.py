@@ -24,6 +24,7 @@ from .adapters import AdapterBase
 from .adapters.bgl import BGLAdapter
 from .adapters.hadoop import HadoopAdapter
 from .adapters.hdfs import HDFSAdapter
+from .adapters.openstack import OpenStackAdapter
 from .adapters.thunderbird import ThunderbirdAdapter
 
 ADAPTERS: dict[str, type[AdapterBase]] = {
@@ -31,6 +32,7 @@ ADAPTERS: dict[str, type[AdapterBase]] = {
     "hadoop": HadoopAdapter,
     "bgl": BGLAdapter,
     "thunderbird": ThunderbirdAdapter,
+    "openstack": OpenStackAdapter,
 }
 
 

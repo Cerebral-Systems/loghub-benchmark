@@ -101,12 +101,28 @@ streams the log: one pass to count lines + load tag positions, a second
 pass to fill per-slice buffers. RSS stays under ~3 GB during whole-corpus
 runs.
 
-### Other datasets
+### OpenStack
 
-Not yet downloaded. The remaining adapter lands in M2e (OpenStack). When
-needed, fetch from `https://zenodo.org/records/8196385/files/OpenStack.tar.gz`
-into `/home/buildout/loghub-full/OpenStack/` and record sizes + SHA-256
-here.
+| File | Size | SHA-256 |
+|---|---|---|
+| `/home/buildout/loghub-full/OpenStack/openstack_normal1.log` | 14.8 MiB (52,312 lines) | `4e4d47347bdae198056bb3b0a8a755e1cb0100d6c6a30bbd4058684234769199` |
+| `/home/buildout/loghub-full/OpenStack/openstack_abnormal.log` | 5.2 MiB (18,434 lines) | `7ab718fbb2f2b804893955cecf37ad9533cfa0efaf5b03009474d5bb019b6af4` |
+| `/home/buildout/loghub-full/OpenStack/openstack_normal2.log` | 38.6 MiB (137,074 lines) | `3c51741dcea1fb0731d1f86588b12587707e7abea01e725ee16c9441b8b68db7` |
+| `/home/buildout/loghub-full/OpenStack/anomaly_labels.txt` | 243 B (4 UUIDs) | `0882aa484f285e3dda476ff39ed739603c446f27b76bb113e284cda6ebb09d0b` |
+| `/home/buildout/loghub-full/OpenStack/OpenStack.tar.gz` | 5.1 MiB | `87c98c5ed03262e05cdb7a6f3717033df76d88fda0f7d2db23bd9fa4200f1879` |
+
+Source: <https://zenodo.org/records/8196385/files/OpenStack.tar.gz?download=1>.
+
+The OpenStack corpus has only **4 anomalous VM UUIDs** by design — the
+faults are injected per-instance in `openstack_abnormal.log`. To reach
+the ≥10 candidate-case threshold from 4 instances, `OpenStackAdapter`
+generates `VARIANTS_PER_INSTANCE` slice variants (default 3) per UUID
+by mixing the seed with the variant index, yielding 12 cases at
+`--max-cases 12 --seed 0`. The published anomaly type is uniform across
+all 4 instances (rapid VM destruction after creation), so the heuristic
+classifier returns `vm_task_failure` for every variant; the
+`network_error` / `image_pull_failure` slugs in the taxonomy are kept
+for future corpora.
 
 ## License
 
