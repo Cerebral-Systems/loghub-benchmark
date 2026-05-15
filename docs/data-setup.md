@@ -80,12 +80,33 @@ alert categories used by the adapter are documented in
 [`tools/case_builder/adapters/bgl_taxonomy.md`](../tools/case_builder/adapters/bgl_taxonomy.md);
 anything outside that list collapses to `other_alert`.
 
+### Thunderbird
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `/home/buildout/loghub-full/Thunderbird/Thunderbird.log` | 29.6 GiB (211,212,192 lines) | `3e8659d6efdf048bca6d682d376c74cf742a43cac66cb2a514241a103284f289` |
+| `/home/buildout/loghub-full/Thunderbird/Thunderbird.tar.gz` | 1.9 GiB | `228f8589b7cd569b727c5da654c647aa538dd3dd95541e675a40523c5fff37cf` |
+
+Source: <https://zenodo.org/records/8196385/files/Thunderbird.tar.gz?download=1>.
+
+Like BGL, alerts are inline (0th-column tag). Vocabulary is closed — only
+10 distinct alert codes appear across the corpus, dominated by VAPI
+(3.23M of 3.25M anomalies = ~99.6%). See
+[`tools/case_builder/adapters/thunderbird_taxonomy.md`](../tools/case_builder/adapters/thunderbird_taxonomy.md).
+The adapter subclasses `BGLAdapter` and overrides only the taxonomy
+and the log filename.
+
+Because Thunderbird.log is 30 GB, the adapter family (BGL + Thunderbird)
+streams the log: one pass to count lines + load tag positions, a second
+pass to fill per-slice buffers. RSS stays under ~3 GB during whole-corpus
+runs.
+
 ### Other datasets
 
-Not yet downloaded. The remaining adapters land in M2d-M2e. When needed,
-fetch from `https://zenodo.org/records/8196385/` (Thunderbird.tar.gz,
-OpenStack.tar.gz) into `/home/buildout/loghub-full/<dataset>/` and record
-sizes + SHA-256 here.
+Not yet downloaded. The remaining adapter lands in M2e (OpenStack). When
+needed, fetch from `https://zenodo.org/records/8196385/files/OpenStack.tar.gz`
+into `/home/buildout/loghub-full/OpenStack/` and record sizes + SHA-256
+here.
 
 ## License
 

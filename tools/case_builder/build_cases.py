@@ -24,11 +24,13 @@ from .adapters import AdapterBase
 from .adapters.bgl import BGLAdapter
 from .adapters.hadoop import HadoopAdapter
 from .adapters.hdfs import HDFSAdapter
+from .adapters.thunderbird import ThunderbirdAdapter
 
 ADAPTERS: dict[str, type[AdapterBase]] = {
     "hdfs": HDFSAdapter,
     "hadoop": HadoopAdapter,
     "bgl": BGLAdapter,
+    "thunderbird": ThunderbirdAdapter,
 }
 
 

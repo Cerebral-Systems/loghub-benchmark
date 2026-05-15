@@ -1,0 +1,14 @@
+- 1131523501 2005.11.09 aadmin1 Nov 10 00:05:01 src@aadmin1 in.tftpd[14620]: tftp: client does not accept options
+- 1131524071 2005.11.09 tbird-admin1 Nov 10 00:14:31 local@tbird-admin1 postfix/postdrop[10896]: warning: routine event
+VAPI 1131524073 2005.11.09 cn001 Nov 10 00:14:33 hw@cn001 vapi: link down on port 3
+- 1131524075 2005.11.09 cn001 Nov 10 00:14:35 src@cn001 routine line
+VAPI 1131524077 2005.11.09 cn001 Nov 10 00:14:37 hw@cn001 vapi: link down on port 4
+- 1131524079 2005.11.09 cn001 Nov 10 00:14:39 src@cn001 routine line
+ECC 1131524081 2005.11.09 cn003 Nov 10 00:14:41 hw@cn003 ecc: single-bit error corrected on DIMM 2
+- 1131524083 2005.11.09 cn003 Nov 10 00:14:43 src@cn003 routine line
+CPU 1131524085 2005.11.09 cn005 Nov 10 00:14:45 hw@cn005 cpu: thermal threshold exceeded
+- 1131524087 2005.11.09 cn005 Nov 10 00:14:47 src@cn005 routine line
+NETWORK 1131524089 2005.11.09 cn007 Nov 10 00:14:49 net@cn007 network: interface eth0 went down
+- 1131524091 2005.11.09 cn007 Nov 10 00:14:51 src@cn007 routine line
+SOMETHING_RARE 1131524093 2005.11.09 cn009 Nov 10 00:14:53 misc@cn009 rare: unusual event
+- 1131524095 2005.11.09 cn009 Nov 10 00:14:55 src@cn009 routine line
