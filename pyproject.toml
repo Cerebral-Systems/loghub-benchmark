@@ -3,9 +3,9 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "loghub-sre-benchmark"
+name = "loghub-sre-benchmark-tools"
 version = "0.1.0"
-description = "Harbor-style SRE log investigation benchmark built from Loghub datasets"
+description = "Internal tooling for the Loghub SRE Harbor benchmark (case-builder, exporters, leaderboard). The benchmark itself lives in tasks/."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
@@ -14,6 +14,9 @@ authors = [
   { name = "Mesh Intelligence Contributors" },
 ]
 keywords = ["sre", "benchmark", "loghub", "harbor", "observability", "incident-response"]
+classifiers = [
+  "Private :: Do Not Upload",
+]
 
 [project.scripts]
 loghub-benchmark = "loghub_benchmark.cli:main"
