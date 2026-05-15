@@ -64,12 +64,28 @@ WordCount + PageRank workloads). The Hadoop adapter pairs each anomalous
 job with a deterministically-chosen normal job (seed-mixed) into one
 concatenated slice.
 
+### BGL
+
+| File | Size | SHA-256 |
+|---|---|---|
+| `/home/buildout/loghub-full/BGL/BGL.log` | 743 MiB (4,747,963 lines) | `666130b15ef44eb32fd02bd053e6c6e007c37696b5e7e8b9d8e45b729876a5d2` |
+| `/home/buildout/loghub-full/BGL/BGL.zip` | 55 MiB | `d67fd82a711aea0157a9b83175892c6ee60e384a2ddf5bc51f39118453816da8` |
+
+Source: <https://zenodo.org/records/8196385/files/BGL.zip?download=1>.
+
+BGL has no separate label file; the 0th whitespace-delimited column is
+the alert tag (`-` for normal, otherwise codes like `KERNDTLB`,
+`APPSEV`, `KERNSTOR`). 348,460 of 4.75M lines are non-`-`. The top-10
+alert categories used by the adapter are documented in
+[`tools/case_builder/adapters/bgl_taxonomy.md`](../tools/case_builder/adapters/bgl_taxonomy.md);
+anything outside that list collapses to `other_alert`.
+
 ### Other datasets
 
-Not yet downloaded. The remaining adapters land in M2c-M2e. When needed,
-fetch from `https://zenodo.org/records/8196385/` (BGL.zip,
-Thunderbird.tar.gz, OpenStack.tar.gz) into
-`/home/buildout/loghub-full/<dataset>/` and record sizes + SHA-256 here.
+Not yet downloaded. The remaining adapters land in M2d-M2e. When needed,
+fetch from `https://zenodo.org/records/8196385/` (Thunderbird.tar.gz,
+OpenStack.tar.gz) into `/home/buildout/loghub-full/<dataset>/` and record
+sizes + SHA-256 here.
 
 ## License
 
