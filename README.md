@@ -6,8 +6,18 @@ Each task ships a Docker environment with 3–6 partitioned log files
 totalling 5k–30k lines and asks the agent to **locate the anomaly**,
 **cite verbatim evidence** as `(file, line, snippet)` tuples,
 **classify the root cause** against a dataset-specific taxonomy, and
-**recommend a safe SRE action**. The verifier checks
-`/app/answer.json` end-to-end — there is no partial credit.
+**recommend a safe SRE action**. The verifier writes a fractional reward (`passed_tests / total_tests`) to `/logs/verifier/reward.txt`, so partial-correct answers register on a continuous 0–1 scale.
+
+## Headline: Mesh ensemble on Loghub-SRE-v1
+
+This benchmark is the testing ground for **Mesh**, the multi-agent SRE orchestrator from Mesh Intelligence. See [docs/MESH_BENCHMARK.md](docs/MESH_BENCHMARK.md) for the experiment design, reproduction commands, and current numbers.
+
+The short version:
+- Single-agent baseline: mini-swe-agent + Kimi K2.6, one attempt per task.
+- Mesh ensemble: same agent, 3 attempts per task, score = best-of-3 (faithful to Mesh's `_collect_attempts` pattern).
+- Compare via `python3 tools/analysis/compare_runs.py baselines/baseline-kimi-k2_6 baselines/mesh-ensemble-k3`.
+
+Live results land in `docs/MESH_BENCHMARK.md` as soon as both runs complete.
 
 ## What's in the box
 
@@ -28,7 +38,7 @@ tasks/<slug>/
 ├── instruction.md       # what the agent sees
 ├── task.toml            # Harbor metadata (adapter-spec schema)
 ├── environment/
-│   ├── Dockerfile       # ubuntu:24.04 + python3-pytest, allow_internet=false
+│   ├── Dockerfile       # ubuntu:24.04 + python3-pytest, allow_internet=true
 │   └── data/
 │       ├── <component-1>.log
 │       └── <component-N>.log
