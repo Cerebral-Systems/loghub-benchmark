@@ -10,3 +10,6 @@ build/
 *.egg-info/
 .benchmark/
 .env
+jobs/
+baselines/
+pilot-jobs/
