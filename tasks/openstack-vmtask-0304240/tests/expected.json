@@ -1,0 +1,46 @@
+{
+  "allowed_root_causes": [
+    "vm_task_failure",
+    "network_error",
+    "image_pull_failure",
+    "other"
+  ],
+  "anomaly_line_ids": [
+    1477,
+    1478,
+    1479,
+    1480,
+    1481,
+    1482,
+    1483,
+    1484,
+    1486,
+    1517,
+    1518,
+    1519,
+    1537,
+    1538,
+    1539,
+    1540,
+    1541,
+    1542,
+    1554,
+    1556,
+    1558,
+    1559,
+    1560,
+    1562,
+    1591
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "vm_task_failure",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v1"
+}
