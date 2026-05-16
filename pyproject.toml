@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 dependencies = []
 license = { text = "MIT" }
 authors = [
-  { name = "Mesh Intelligence Contributors" },
+  { name = "Madhav Goyal", email = "madhav@campnetwork.xyz" },
 ]
 keywords = ["sre", "benchmark", "loghub", "harbor", "observability", "incident-response"]
 classifiers = [
@@ -19,10 +19,14 @@ classifiers = [
 ]
 
 [project.scripts]
-loghub-benchmark = "loghub_benchmark.cli:main"
+loghub-build-cases = "tools.case_builder.build_cases:main"
+loghub-export = "tools.case_builder.export_to_harbor:main"
+loghub-stress-pack = "tools.stress_pack_generator.__main__:main"
+loghub-rubric-check = "tools.rubric_check.moonshot_check:main"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["tools*"]
 
 [tool.ruff]
 target-version = "py311"
