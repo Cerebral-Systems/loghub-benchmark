@@ -21,7 +21,7 @@ Write **`/app/answer.json`** with this shape:
   "is_incident": true,
   "evidence": [
     {
-      "file": "<one of the /app/*.log files>",
+      "file": "<basename only, e.g. bgl-racks-a.log — NO /app/ prefix>",
       "line": <1-based line number in that file>,
       "snippet": "<verbatim excerpt of that line>"
     }
@@ -34,8 +34,7 @@ Write **`/app/answer.json`** with this shape:
 
 Rules:
 
-- `evidence[*].file` must be one of the files listed above (no other
-  paths, no hallucinated filenames).
+- `evidence[*].file` must be the **basename only** (e.g. `bgl-racks-a.log`) — NOT `/app/bgl-racks-a.log` — and must be one of the files listed above (no other paths, no hallucinated filenames).
 - `evidence[*].line` must be a valid 1-based line number in that file.
 - `evidence[*].snippet` must appear verbatim on that line in that file.
   Crossing line numbers between files (citing line N of file A while the
