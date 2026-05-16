@@ -40,7 +40,7 @@ ROOT_CAUSE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
 
 class HDFSAdapter(AdapterBase):
     dataset_name = "HDFS_v1"
-    adapter_version = "1"
+    adapter_version = "2"  # v2 caps slice span to MIN..MAX (no auto-expand for block lifetime); invalidates v1 case_ids
     root_cause_taxonomy = (
         "replication_failure",
         "data_corruption",
@@ -166,29 +166,30 @@ class HDFSAdapter(AdapterBase):
         anomaly_indices: list[int],
         seed: int,
     ) -> LogSlice:
+        """Pick a MIN..MAX-sized window anchored on the first anomaly mention.
+
+        Earlier versions expanded the window to cover the full span of
+        a block's mentions, which exploded for blocks that recur over
+        millions of log lines. The current rule keeps the window size
+        bounded; mentions of the same block that fall outside the
+        window are simply not part of this case's anomaly set (the
+        instance whose first mention anchored the window is still
+        anomalous, and the agent only has to cite anomalies inside
+        the slice it actually sees).
+        """
         if not anomaly_indices:
             raise ValueError("select_slice requires at least one anomaly index")
         n = len(full_log)
         if n == 0:
             raise ValueError("full_log is empty")
 
-        # Window size chosen deterministically from the seed.
         size = MIN_SLICE_LINES + (seed % (MAX_SLICE_LINES - MIN_SLICE_LINES + 1))
         size = min(size, n)
 
-        first_anomaly = min(anomaly_indices)
-        last_anomaly = max(anomaly_indices)
-        span = last_anomaly - first_anomaly + 1
-        if span > size:
-            # All anomalies must fit. Pick a window centered on the first
-            # anomaly and extending to at least the last; cap at full_log.
-            size = min(n, span + MIN_SLICE_LINES // 4)
-
-        # Padding before the first anomaly is in [0, size - span]; pick
-        # deterministically from the seed.
-        max_pad_before = size - span
+        anchor = min(anomaly_indices)
+        max_pad_before = size - 1
         pad_before = (seed >> 8) % (max_pad_before + 1) if max_pad_before > 0 else 0
-        offset = max(0, first_anomaly - pad_before)
+        offset = max(0, anchor - pad_before)
         end = offset + size
         if end > n:
             end = n

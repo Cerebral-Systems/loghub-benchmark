@@ -3,17 +3,19 @@
 # Exit on error
 set -e
 
-# CUSTOMIZE VALIDATION PIPELINE — add or remove required task.toml fields
-# Required fields in task.toml files
+# Required task.toml fields for the Loghub SRE benchmark.
+#
+# Schema follows the Harbor adapter-spec corrections recorded in
+# CLAUDE.md (2026-05-15). NOTE: this supersedes the upstream
+# benchmark-template field list (which still references
+# difficulty_explanation, solution_explanation, etc.) — those fields
+# were retired when we re-targeted Harbor's adapter flow.
 REQUIRED_FIELDS=(
     "author_name"
     "author_email"
-    "difficulty_explanation"
-    "solution_explanation"
-    "verification_explanation"
+    "difficulty"
     "category"
     "tags"
-    "expert_time_estimate_hours"
 )
 
 # Get list of files to check
@@ -43,13 +45,20 @@ for file in $FILES_TO_CHECK; do
 
     echo "Checking $file..."
 
-    # Check each required field
+    # New schema: [task] section with `name = "<org>/<slug>"` is required.
+    if ! grep -qE '^\[task\]' "$file"; then
+        echo "FAIL $file: missing required [task] section"
+        FAILED=1
+    elif ! grep -qE '^name[[:space:]]*=' "$file"; then
+        echo "FAIL $file: missing required [task].name"
+        FAILED=1
+    fi
+
+    # Check each required metadata field (top-level OR under [metadata]).
     for field in "${REQUIRED_FIELDS[@]}"; do
         field_found=false
-        # Check at top level
         if grep -q "^${field}" "$file"; then
             field_found=true
-        # Check under [metadata] if it exists
         elif grep -q "^\[metadata\]" "$file" && grep -A 20 "^\[metadata\]" "$file" | grep -q "^${field}"; then
             field_found=true
         fi

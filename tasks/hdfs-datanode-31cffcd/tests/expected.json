@@ -1,0 +1,27 @@
+{
+  "allowed_root_causes": [
+    "replication_failure",
+    "data_corruption",
+    "datanode_unreachable",
+    "namenode_error",
+    "timeout",
+    "other"
+  ],
+  "anomaly_line_ids": [
+    1964,
+    2041,
+    2292,
+    2458
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "datanode_unreachable",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v1"
+}

@@ -1,10 +1,17 @@
 #!/bin/bash
 
-# Fails if task.toml sets [environment].allow_internet = false.
-# This benchmark runs tasks with open internet access by default; tasks that
-# disable network would diverge from the rest of the benchmark and break
-# agents that rely on internet to install dependencies, fetch data, or hit
-# live APIs. Remove this check or invert it if your benchmark is offline-only.
+# Fails if task.toml sets [environment].allow_internet = true.
+#
+# The Loghub SRE benchmark is intentionally offline: agents investigate
+# log slices baked into the image, and giving them internet creates a
+# "look up the answer" leak vector and a flakiness source (verifier
+# fetching uv at runtime). Every task must set allow_internet = false
+# explicitly, and the Dockerfile must pre-install everything the test
+# harness needs.
+#
+# This is the inverse of the upstream Harbor benchmark-template policy;
+# the file is otherwise identical so future template syncs are easy to
+# rebase.
 
 set -e
 
@@ -48,8 +55,12 @@ with open(path, "rb") as f:
     data = tomllib.load(f)
 
 value = data.get("environment", {}).get("allow_internet")
-if value is False:
-    print("environment.allow_internet=false; this benchmark requires internet access")
+if value is None:
+    # Default is True per harbor.models.task.config.EnvironmentConfig.
+    print("environment.allow_internet not set; Loghub SRE tasks must declare false explicitly")
+    sys.exit(1)
+if value is True:
+    print("environment.allow_internet=true; Loghub SRE tasks must run offline")
     sys.exit(1)
 PYEOF
     ) || {
@@ -63,10 +74,10 @@ done
 
 if [ $FAILED -eq 1 ]; then
     echo ""
-    echo "Some task.toml files set environment.allow_internet = false."
-    echo "This benchmark runs tasks with open internet access. Remove the"
-    echo "line (default is true) or set allow_internet = true."
+    echo "Some task.toml files allow internet access."
+    echo "Loghub SRE tasks must set [environment].allow_internet = false"
+    echo "and pre-install all verifier dependencies in the Dockerfile."
     exit 1
 fi
 
-echo "All task.toml files allow internet access"
+echo "All task.toml files run offline (allow_internet = false)"
