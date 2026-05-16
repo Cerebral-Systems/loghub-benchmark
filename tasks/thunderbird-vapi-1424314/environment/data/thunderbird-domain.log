@@ -1,0 +1,807 @@
+- 1150700259 2006.06.18 dn361 Jun 18 23:57:39 dn361/dn361 sshd(pam_unix)[3248]: session opened for user root by (uid=0)
+- 1150700259 2006.06.18 dn361 Jun 18 23:57:39 dn361/dn361 sshd(pam_unix)[3249]: session opened for user root by (uid=0)
+- 1150700259 2006.06.18 dn361 Jun 18 23:57:39 dn361/dn361 sshd[3244]: Accepted publickey for root from ::ffff:10.100.26.105 port 54569 ssh2
+- 1150700259 2006.06.18 dn361 Jun 18 23:57:39 dn361/dn361 sshd[3245]: Accepted publickey for root from ::ffff:10.100.26.105 port 54570 ssh2
+- 1150700259 2006.06.18 dn363 Jun 18 23:57:39 dn363/dn363 sshd(pam_unix)[3299]: session opened for user root by (uid=0)
+- 1150700259 2006.06.18 dn363 Jun 18 23:57:39 dn363/dn363 sshd(pam_unix)[3300]: session opened for user root by (uid=0)
+- 1150700259 2006.06.18 dn363 Jun 18 23:57:39 dn363/dn363 sshd[3295]: Accepted publickey for root from ::ffff:10.100.26.107 port 54134 ssh2
+- 1150700259 2006.06.18 dn363 Jun 18 23:57:39 dn363/dn363 sshd[3296]: Accepted publickey for root from ::ffff:10.100.26.107 port 54135 ssh2
+- 1150700261 2006.06.18 dn361 Jun 18 23:57:41 dn361/dn361 sshd(pam_unix)[3336]: session opened for user root by (uid=0)
+- 1150700261 2006.06.18 dn361 Jun 18 23:57:41 dn361/dn361 sshd(pam_unix)[3353]: session opened for user root by (uid=0)
+- 1150700261 2006.06.18 dn361 Jun 18 23:57:41 dn361/dn361 sshd[3332]: Accepted publickey for root from ::ffff:10.100.26.105 port 54574 ssh2
+- 1150700261 2006.06.18 dn361 Jun 18 23:57:41 dn361/dn361 sshd[3334]: Accepted publickey for root from ::ffff:10.100.26.105 port 54575 ssh2
+- 1150700261 2006.06.18 dn363 Jun 18 23:57:41 dn363/dn363 sshd(pam_unix)[3387]: session opened for user root by (uid=0)
+- 1150700261 2006.06.18 dn363 Jun 18 23:57:41 dn363/dn363 sshd(pam_unix)[3404]: session opened for user root by (uid=0)
+- 1150700261 2006.06.18 dn363 Jun 18 23:57:41 dn363/dn363 sshd[3383]: Accepted publickey for root from ::ffff:10.100.26.107 port 54139 ssh2
+- 1150700261 2006.06.18 dn363 Jun 18 23:57:41 dn363/dn363 sshd[3385]: Accepted publickey for root from ::ffff:10.100.26.107 port 54140 ssh2
+- 1150700263 2006.06.18 dn361 Jun 18 23:57:43 dn361/dn361 sshd(pam_unix)[3423]: session opened for user root by (uid=0)
+- 1150700263 2006.06.18 dn361 Jun 18 23:57:43 dn361/dn361 sshd(pam_unix)[3430]: session opened for user root by (uid=0)
+- 1150700263 2006.06.18 dn361 Jun 18 23:57:43 dn361/dn361 sshd[3419]: Accepted publickey for root from ::ffff:10.100.26.105 port 54579 ssh2
+- 1150700263 2006.06.18 dn361 Jun 18 23:57:43 dn361/dn361 sshd[3421]: Accepted publickey for root from ::ffff:10.100.26.105 port 54580 ssh2
+- 1150700263 2006.06.18 dn363 Jun 18 23:57:43 dn363/dn363 sshd(pam_unix)[3474]: session opened for user root by (uid=0)
+- 1150700263 2006.06.18 dn363 Jun 18 23:57:43 dn363/dn363 sshd(pam_unix)[3491]: session opened for user root by (uid=0)
+- 1150700263 2006.06.18 dn363 Jun 18 23:57:43 dn363/dn363 sshd[3470]: Accepted publickey for root from ::ffff:10.100.26.107 port 54144 ssh2
+- 1150700263 2006.06.18 dn363 Jun 18 23:57:43 dn363/dn363 sshd[3472]: Accepted publickey for root from ::ffff:10.100.26.107 port 54145 ssh2
+- 1150700265 2006.06.18 dn361 Jun 18 23:57:45 dn361/dn361 sshd(pam_unix)[3510]: session opened for user root by (uid=0)
+- 1150700265 2006.06.18 dn361 Jun 18 23:57:45 dn361/dn361 sshd(pam_unix)[3525]: session opened for user root by (uid=0)
+- 1150700265 2006.06.18 dn361 Jun 18 23:57:45 dn361/dn361 sshd[3506]: Accepted publickey for root from ::ffff:10.100.26.105 port 54584 ssh2
+- 1150700265 2006.06.18 dn361 Jun 18 23:57:45 dn361/dn361 sshd[3508]: Accepted publickey for root from ::ffff:10.100.26.105 port 54585 ssh2
+- 1150700265 2006.06.18 dn363 Jun 18 23:57:45 dn363/dn363 sshd(pam_unix)[3561]: session opened for user root by (uid=0)
+- 1150700265 2006.06.18 dn363 Jun 18 23:57:45 dn363/dn363 sshd(pam_unix)[3568]: session opened for user root by (uid=0)
+- 1150700265 2006.06.18 dn363 Jun 18 23:57:45 dn363/dn363 sshd[3557]: Accepted publickey for root from ::ffff:10.100.26.107 port 54149 ssh2
+- 1150700265 2006.06.18 dn363 Jun 18 23:57:45 dn363/dn363 sshd[3559]: Accepted publickey for root from ::ffff:10.100.26.107 port 54150 ssh2
+- 1150700280 2006.06.18 dn657 Jun 18 23:58:00 dn657/dn657 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1150700289 2006.06.18 dn753 Jun 18 23:58:09 dn753/dn753 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1150700294 2006.06.18 dn124 Jun 18 23:58:14 dn124/dn124 ntpd[2276]: synchronized to 10.100.28.250, stratum 3
+- 1150700296 2006.06.18 dn366 Jun 18 23:58:16 dn366/dn366 sshd(pam_unix)[3735]: session opened for user root by (uid=0)
+- 1150700296 2006.06.18 dn366 Jun 18 23:58:16 dn366/dn366 sshd(pam_unix)[3736]: session opened for user root by (uid=0)
+- 1150700296 2006.06.18 dn366 Jun 18 23:58:16 dn366/dn366 sshd[3731]: Accepted publickey for root from ::ffff:10.100.26.110 port 51703 ssh2
+- 1150700296 2006.06.18 dn366 Jun 18 23:58:16 dn366/dn366 sshd[3732]: Accepted publickey for root from ::ffff:10.100.26.110 port 51704 ssh2
+- 1150700299 2006.06.18 dn366 Jun 18 23:58:19 dn366/dn366 sshd(pam_unix)[3822]: session opened for user root by (uid=0)
+- 1150700299 2006.06.18 dn366 Jun 18 23:58:19 dn366/dn366 sshd(pam_unix)[3823]: session opened for user root by (uid=0)
+- 1150700299 2006.06.18 dn366 Jun 18 23:58:19 dn366/dn366 sshd[3818]: Accepted publickey for root from ::ffff:10.100.26.110 port 51708 ssh2
+- 1150700299 2006.06.18 dn366 Jun 18 23:58:19 dn366/dn366 sshd[3819]: Accepted publickey for root from ::ffff:10.100.26.110 port 51709 ssh2
+- 1150700301 2006.06.18 dn366 Jun 18 23:58:21 dn366/dn366 sshd(pam_unix)[3909]: session opened for user root by (uid=0)
+- 1150700301 2006.06.18 dn366 Jun 18 23:58:21 dn366/dn366 sshd(pam_unix)[3926]: session opened for user root by (uid=0)
+- 1150700301 2006.06.18 dn366 Jun 18 23:58:21 dn366/dn366 sshd[3905]: Accepted publickey for root from ::ffff:10.100.26.110 port 51713 ssh2
+- 1150700301 2006.06.18 dn366 Jun 18 23:58:21 dn366/dn366 sshd[3907]: Accepted publickey for root from ::ffff:10.100.26.110 port 51714 ssh2
+- 1150700303 2006.06.18 dn366 Jun 18 23:58:23 dn366/dn366 sshd(pam_unix)[3996]: session opened for user root by (uid=0)
+- 1150700303 2006.06.18 dn366 Jun 18 23:58:23 dn366/dn366 sshd(pam_unix)[3999]: session opened for user root by (uid=0)
+- 1150700303 2006.06.18 dn366 Jun 18 23:58:23 dn366/dn366 sshd[3992]: Accepted publickey for root from ::ffff:10.100.26.110 port 51718 ssh2
+- 1150700303 2006.06.18 dn366 Jun 18 23:58:23 dn366/dn366 sshd[3993]: Accepted publickey for root from ::ffff:10.100.26.110 port 51719 ssh2
+- 1150700316 2006.06.18 dn824 Jun 18 23:58:36 dn824/dn824 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1150700317 2006.06.18 dn659 Jun 18 23:58:37 dn659/dn659 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150700318 2006.06.18 dn288 Jun 18 23:58:38 dn288/dn288 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1150700328 2006.06.18 dn915 Jun 18 23:58:48 dn915/dn915 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1150700333 2006.06.18 dn936 Jun 18 23:58:53 dn936/dn936 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1150700355 2006.06.18 dn525 Jun 18 23:59:15 dn525/dn525 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1150700375 2006.06.18 dn1022 Jun 18 23:59:35 dn1022/dn1022 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1150700382 2006.06.18 dn239 Jun 18 23:59:42 dn239/dn239 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1150700386 2006.06.18 dn218 Jun 18 23:59:46 dn218/dn218 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1150700394 2006.06.18 dn19 Jun 18 23:59:54 dn19/dn19 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+- 1150700394 2006.06.18 dn19 Jun 18 23:59:54 dn19/dn19 snmpd[14537]: Got trap from peer on fd 13
+- 1150700398 2006.06.18 dn527 Jun 18 23:59:58 dn527/dn527 ntpd[2287]: synchronized to 10.100.26.250, stratum 3
+- 1150700400 2006.06.19 dn535 Jun 19 00:00:00 dn535/dn535 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1150700407 2006.06.19 dn762 Jun 19 00:00:07 dn762/dn762 ntpd[2283]: synchronized to 10.100.30.250, stratum 3
+- 1150700409 2006.06.19 dn863 Jun 19 00:00:09 dn863/dn863 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1150700410 2006.06.19 dn425 Jun 19 00:00:10 dn425/dn425 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1150700413 2006.06.19 dn936 Jun 19 00:00:13 dn936/dn936 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1150700417 2006.06.19 dn274 Jun 19 00:00:17 dn274/dn274 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150700419 2006.06.19 dn271 Jun 19 00:00:19 dn271/dn271 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 21 Celsius since last report
+- 1150700419 2006.06.19 dn272 Jun 19 00:00:19 dn272/dn272 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 21 Celsius since last report
+- 1150700420 2006.06.19 dn270 Jun 19 00:00:20 dn270/dn270 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1150700423 2006.06.19 dn832 Jun 19 00:00:23 dn832/dn832 ntpd[2276]: synchronized to 10.100.24.250, stratum 3
+- 1150700434 2006.06.19 dn75 Jun 19 00:00:34 dn75/dn75 ntpd[2268]: synchronized to 10.100.24.250, stratum 3
+- 1150700444 2006.06.19 dn331 Jun 19 00:00:44 dn331/dn331 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150700445 2006.06.19 dn333 Jun 19 00:00:45 dn333/dn333 smartd[1994]: Device: /dev/sda, Temperature changed 2 Celsius to 30 Celsius since last report
+- 1150700447 2006.06.19 dn389 Jun 19 00:00:47 dn389/dn389 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1150700448 2006.06.19 dn367 Jun 19 00:00:48 dn367/dn367 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150700452 2006.06.19 dn315 Jun 19 00:00:52 dn315/dn315 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1150700453 2006.06.19 dn65 Jun 19 00:00:53 dn65/dn65 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1150700454 2006.06.19 dn937 Jun 19 00:00:54 dn937/dn937 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1150700461 2006.06.19 dn1 Jun 19 00:01:01 dn1/dn1 crond(pam_unix)[3393]: session closed for user root
+- 1150700461 2006.06.19 dn1 Jun 19 00:01:01 dn1/dn1 crond(pam_unix)[3393]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn1 Jun 19 00:01:01 dn1/dn1 crond[3394]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn1002 Jun 19 00:01:01 dn1002/dn1002 crond(pam_unix)[4277]: session closed for user root
+- 1150700461 2006.06.19 dn1002 Jun 19 00:01:01 dn1002/dn1002 crond[4278]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn1004 Jun 19 00:01:01 dn1004/dn1004 crond(pam_unix)[4990]: session closed for user root
+- 1150700461 2006.06.19 dn1004 Jun 19 00:01:01 dn1004/dn1004 crond(pam_unix)[4990]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn1007 Jun 19 00:01:01 dn1007/dn1007 crond[4319]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn1008 Jun 19 00:01:01 dn1008/dn1008 crond(pam_unix)[11504]: session closed for user root
+- 1150700461 2006.06.19 dn1010 Jun 19 00:01:01 dn1010/dn1010 crond[3931]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn1012 Jun 19 00:01:01 dn1012/dn1012 crond(pam_unix)[4167]: session closed for user root
+- 1150700461 2006.06.19 dn1012 Jun 19 00:01:01 dn1012/dn1012 crond(pam_unix)[4167]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn1012 Jun 19 00:01:01 dn1012/dn1012 crond[4168]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn1015 Jun 19 00:01:01 dn1015/dn1015 crond(pam_unix)[1481]: session closed for user root
+- 1150700461 2006.06.19 dn1017 Jun 19 00:01:01 dn1017/dn1017 crond(pam_unix)[3885]: session closed for user root
+- 1150700461 2006.06.19 dn1018 Jun 19 00:01:01 dn1018/dn1018 crond[1289]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn1020 Jun 19 00:01:01 dn1020/dn1020 crond(pam_unix)[8338]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn1023 Jun 19 00:01:01 dn1023/dn1023 crond(pam_unix)[6267]: session closed for user root
+- 1150700461 2006.06.19 dn1023 Jun 19 00:01:01 dn1023/dn1023 crond(pam_unix)[6267]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn103 Jun 19 00:01:01 dn103/dn103 crond(pam_unix)[3483]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn107 Jun 19 00:01:01 dn107/dn107 crond[3141]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn113 Jun 19 00:01:01 dn113/dn113 crond(pam_unix)[3300]: session closed for user root
+- 1150700461 2006.06.19 dn113 Jun 19 00:01:01 dn113/dn113 crond(pam_unix)[3300]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn113 Jun 19 00:01:01 dn113/dn113 crond[3301]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn118 Jun 19 00:01:01 dn118/dn118 crond(pam_unix)[31357]: session closed for user root
+- 1150700461 2006.06.19 dn118 Jun 19 00:01:01 dn118/dn118 crond(pam_unix)[31357]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn118 Jun 19 00:01:01 dn118/dn118 crond[31358]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn122 Jun 19 00:01:01 dn122/dn122 crond(pam_unix)[3684]: session closed for user root
+- 1150700461 2006.06.19 dn122 Jun 19 00:01:01 dn122/dn122 crond(pam_unix)[3684]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn122 Jun 19 00:01:01 dn122/dn122 crond[3685]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn123 Jun 19 00:01:01 dn123/dn123 crond(pam_unix)[21039]: session closed for user root
+- 1150700461 2006.06.19 dn123 Jun 19 00:01:01 dn123/dn123 crond(pam_unix)[21039]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn123 Jun 19 00:01:01 dn123/dn123 crond[21040]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn127 Jun 19 00:01:01 dn127/dn127 crond[3178]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn13 Jun 19 00:01:01 dn13/dn13 crond(pam_unix)[3231]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn131 Jun 19 00:01:01 dn131/dn131 crond(pam_unix)[3224]: session closed for user root
+- 1150700461 2006.06.19 dn135 Jun 19 00:01:01 dn135/dn135 crond(pam_unix)[3507]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn137 Jun 19 00:01:01 dn137/dn137 crond(pam_unix)[32369]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn140 Jun 19 00:01:01 dn140/dn140 crond(pam_unix)[3358]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn141 Jun 19 00:01:01 dn141/dn141 crond(pam_unix)[3276]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn142 Jun 19 00:01:01 dn142/dn142 crond[3285]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn147 Jun 19 00:01:01 dn147/dn147 crond(pam_unix)[3380]: session closed for user root
+- 1150700461 2006.06.19 dn149 Jun 19 00:01:01 dn149/dn149 crond(pam_unix)[3255]: session closed for user root
+- 1150700461 2006.06.19 dn149 Jun 19 00:01:01 dn149/dn149 crond(pam_unix)[3255]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn149 Jun 19 00:01:01 dn149/dn149 crond[3256]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn154 Jun 19 00:01:01 dn154/dn154 crond(pam_unix)[4479]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn157 Jun 19 00:01:01 dn157/dn157 crond(pam_unix)[3249]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn174 Jun 19 00:01:01 dn174/dn174 crond(pam_unix)[2993]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn176 Jun 19 00:01:01 dn176/dn176 crond(pam_unix)[2773]: session closed for user root
+- 1150700461 2006.06.19 dn177 Jun 19 00:01:01 dn177/dn177 crond[3082]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn184 Jun 19 00:01:01 dn184/dn184 crond(pam_unix)[3173]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn188 Jun 19 00:01:01 dn188/dn188 crond(pam_unix)[2814]: session closed for user root
+- 1150700461 2006.06.19 dn189 Jun 19 00:01:01 dn189/dn189 crond[3443]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn192 Jun 19 00:01:01 dn192/dn192 crond[3432]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn195 Jun 19 00:01:01 dn195/dn195 crond(pam_unix)[18392]: session closed for user root
+- 1150700461 2006.06.19 dn195 Jun 19 00:01:01 dn195/dn195 crond(pam_unix)[18392]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn195 Jun 19 00:01:01 dn195/dn195 crond[18393]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn196 Jun 19 00:01:01 dn196/dn196 crond[3162]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn199 Jun 19 00:01:01 dn199/dn199 crond(pam_unix)[3152]: session closed for user root
+- 1150700461 2006.06.19 dn199 Jun 19 00:01:01 dn199/dn199 crond(pam_unix)[3152]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn199 Jun 19 00:01:01 dn199/dn199 crond[3153]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn201 Jun 19 00:01:01 dn201/dn201 crond(pam_unix)[3282]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn203 Jun 19 00:01:01 dn203/dn203 crond[3302]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn206 Jun 19 00:01:01 dn206/dn206 crond(pam_unix)[3214]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn21 Jun 19 00:01:01 dn21/dn21 crond[12764]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn215 Jun 19 00:01:01 dn215/dn215 crond(pam_unix)[13651]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn216 Jun 19 00:01:01 dn216/dn216 crond(pam_unix)[3436]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn217 Jun 19 00:01:01 dn217/dn217 crond(pam_unix)[3459]: session closed for user root
+- 1150700461 2006.06.19 dn217 Jun 19 00:01:01 dn217/dn217 crond(pam_unix)[3459]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn229 Jun 19 00:01:01 dn229/dn229 crond(pam_unix)[3285]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn23 Jun 19 00:01:01 dn23/dn23 crond(pam_unix)[1794]: session closed for user root
+- 1150700461 2006.06.19 dn233 Jun 19 00:01:01 dn233/dn233 crond(pam_unix)[2839]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn237 Jun 19 00:01:01 dn237/dn237 crond(pam_unix)[2833]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn237 Jun 19 00:01:01 dn237/dn237 crond[2834]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn24 Jun 19 00:01:01 dn24/dn24 crond(pam_unix)[3246]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn243 Jun 19 00:01:01 dn243/dn243 crond(pam_unix)[2923]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn244 Jun 19 00:01:01 dn244/dn244 crond[2916]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn250 Jun 19 00:01:01 dn250/dn250 crond(pam_unix)[2609]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn250 Jun 19 00:01:01 dn250/dn250 crond[2610]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn257 Jun 19 00:01:01 dn257/dn257 crond(pam_unix)[11411]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn258 Jun 19 00:01:01 dn258/dn258 crond(pam_unix)[11751]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn262 Jun 19 00:01:01 dn262/dn262 crond(pam_unix)[11563]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn262 Jun 19 00:01:01 dn262/dn262 crond[11564]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn263 Jun 19 00:01:01 dn263/dn263 crond(pam_unix)[11745]: session closed for user root
+- 1150700461 2006.06.19 dn265 Jun 19 00:01:01 dn265/dn265 crond(pam_unix)[11625]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn266 Jun 19 00:01:01 dn266/dn266 crond[11499]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn268 Jun 19 00:01:01 dn268/dn268 crond(pam_unix)[1797]: session closed for user root
+- 1150700461 2006.06.19 dn268 Jun 19 00:01:01 dn268/dn268 crond(pam_unix)[1797]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn268 Jun 19 00:01:01 dn268/dn268 crond[1798]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn271 Jun 19 00:01:01 dn271/dn271 crond(pam_unix)[11536]: session closed for user root
+- 1150700461 2006.06.19 dn273 Jun 19 00:01:01 dn273/dn273 crond(pam_unix)[1479]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn273 Jun 19 00:01:01 dn273/dn273 crond[1480]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn275 Jun 19 00:01:01 dn275/dn275 crond(pam_unix)[11607]: session closed for user root
+- 1150700461 2006.06.19 dn280 Jun 19 00:01:01 dn280/dn280 crond(pam_unix)[13588]: session closed for user root
+- 1150700461 2006.06.19 dn285 Jun 19 00:01:01 dn285/dn285 crond(pam_unix)[11580]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn288 Jun 19 00:01:01 dn288/dn288 crond(pam_unix)[1634]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn289 Jun 19 00:01:01 dn289/dn289 crond[11141]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn291 Jun 19 00:01:01 dn291/dn291 crond[9355]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn303 Jun 19 00:01:01 dn303/dn303 crond[4761]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn304 Jun 19 00:01:01 dn304/dn304 crond(pam_unix)[1253]: session closed for user root
+- 1150700461 2006.06.19 dn308 Jun 19 00:01:01 dn308/dn308 crond[1122]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn324 Jun 19 00:01:01 dn324/dn324 crond(pam_unix)[1247]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn324 Jun 19 00:01:01 dn324/dn324 crond[1248]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn326 Jun 19 00:01:01 dn326/dn326 crond(pam_unix)[774]: session closed for user root
+- 1150700461 2006.06.19 dn326 Jun 19 00:01:01 dn326/dn326 crond(pam_unix)[774]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn326 Jun 19 00:01:01 dn326/dn326 crond[775]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn33 Jun 19 00:01:01 dn33/dn33 crond(pam_unix)[4112]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn330 Jun 19 00:01:01 dn330/dn330 crond(pam_unix)[4287]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn336 Jun 19 00:01:01 dn336/dn336 crond(pam_unix)[5857]: session closed for user root
+- 1150700461 2006.06.19 dn336 Jun 19 00:01:01 dn336/dn336 crond(pam_unix)[5857]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn336 Jun 19 00:01:01 dn336/dn336 crond[5858]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn339 Jun 19 00:01:01 dn339/dn339 crond[5079]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn341 Jun 19 00:01:01 dn341/dn341 crond(pam_unix)[5038]: session closed for user root
+- 1150700461 2006.06.19 dn341 Jun 19 00:01:01 dn341/dn341 crond(pam_unix)[5038]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn341 Jun 19 00:01:01 dn341/dn341 crond[5039]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn347 Jun 19 00:01:01 dn347/dn347 crond[355]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn349 Jun 19 00:01:01 dn349/dn349 crond[664]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn350 Jun 19 00:01:01 dn350/dn350 crond(pam_unix)[1457]: session closed for user root
+- 1150700461 2006.06.19 dn355 Jun 19 00:01:01 dn355/dn355 crond(pam_unix)[3335]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn355 Jun 19 00:01:01 dn355/dn355 crond[3336]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn359 Jun 19 00:01:01 dn359/dn359 crond(pam_unix)[3765]: session closed for user root
+- 1150700461 2006.06.19 dn360 Jun 19 00:01:01 dn360/dn360 crond(pam_unix)[3207]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn360 Jun 19 00:01:01 dn360/dn360 crond[3208]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn365 Jun 19 00:01:01 dn365/dn365 crond(pam_unix)[3878]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn367 Jun 19 00:01:01 dn367/dn367 crond(pam_unix)[4196]: session closed for user root
+- 1150700461 2006.06.19 dn370 Jun 19 00:01:01 dn370/dn370 crond(pam_unix)[4398]: session closed for user root
+- 1150700461 2006.06.19 dn370 Jun 19 00:01:01 dn370/dn370 crond(pam_unix)[4398]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn370 Jun 19 00:01:01 dn370/dn370 crond[4399]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn373 Jun 19 00:01:01 dn373/dn373 crond(pam_unix)[4802]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn375 Jun 19 00:01:01 dn375/dn375 crond(pam_unix)[32455]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn375 Jun 19 00:01:01 dn375/dn375 crond[32456]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn376 Jun 19 00:01:01 dn376/dn376 crond[32261]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn377 Jun 19 00:01:01 dn377/dn377 crond(pam_unix)[3857]: session closed for user root
+- 1150700461 2006.06.19 dn377 Jun 19 00:01:01 dn377/dn377 crond(pam_unix)[3857]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn377 Jun 19 00:01:01 dn377/dn377 crond[3858]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn380 Jun 19 00:01:01 dn380/dn380 crond(pam_unix)[4464]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn388 Jun 19 00:01:01 dn388/dn388 crond(pam_unix)[4067]: session closed for user root
+- 1150700461 2006.06.19 dn388 Jun 19 00:01:01 dn388/dn388 crond(pam_unix)[4067]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn395 Jun 19 00:01:01 dn395/dn395 crond(pam_unix)[306]: session closed for user root
+- 1150700461 2006.06.19 dn395 Jun 19 00:01:01 dn395/dn395 crond(pam_unix)[306]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn395 Jun 19 00:01:01 dn395/dn395 crond[307]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn396 Jun 19 00:01:01 dn396/dn396 crond(pam_unix)[9242]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn403 Jun 19 00:01:01 dn403/dn403 crond(pam_unix)[6339]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn408 Jun 19 00:01:01 dn408/dn408 crond(pam_unix)[8456]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn409 Jun 19 00:01:01 dn409/dn409 crond(pam_unix)[962]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn410 Jun 19 00:01:01 dn410/dn410 crond(pam_unix)[956]: session closed for user root
+- 1150700461 2006.06.19 dn410 Jun 19 00:01:01 dn410/dn410 crond(pam_unix)[956]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn418 Jun 19 00:01:01 dn418/dn418 crond(pam_unix)[970]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn419 Jun 19 00:01:01 dn419/dn419 crond(pam_unix)[1029]: session closed for user root
+- 1150700461 2006.06.19 dn419 Jun 19 00:01:01 dn419/dn419 crond(pam_unix)[1029]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn419 Jun 19 00:01:01 dn419/dn419 crond[1030]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn428 Jun 19 00:01:01 dn428/dn428 crond(pam_unix)[986]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn429 Jun 19 00:01:01 dn429/dn429 crond[907]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn43 Jun 19 00:01:01 dn43/dn43 crond(pam_unix)[3861]: session closed for user root
+- 1150700461 2006.06.19 dn43 Jun 19 00:01:01 dn43/dn43 crond[3862]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn430 Jun 19 00:01:01 dn430/dn430 crond(pam_unix)[1280]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn432 Jun 19 00:01:01 dn432/dn432 crond(pam_unix)[1148]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn432 Jun 19 00:01:01 dn432/dn432 crond[1149]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn433 Jun 19 00:01:01 dn433/dn433 crond(pam_unix)[32695]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn436 Jun 19 00:01:01 dn436/dn436 crond(pam_unix)[32130]: session closed for user root
+- 1150700461 2006.06.19 dn436 Jun 19 00:01:01 dn436/dn436 crond(pam_unix)[32130]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn436 Jun 19 00:01:01 dn436/dn436 crond[32131]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn438 Jun 19 00:01:01 dn438/dn438 crond(pam_unix)[32234]: session closed for user root
+- 1150700461 2006.06.19 dn438 Jun 19 00:01:01 dn438/dn438 crond(pam_unix)[32234]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn438 Jun 19 00:01:01 dn438/dn438 crond[32235]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn440 Jun 19 00:01:01 dn440/dn440 crond(pam_unix)[32247]: session closed for user root
+- 1150700461 2006.06.19 dn440 Jun 19 00:01:01 dn440/dn440 crond(pam_unix)[32247]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn440 Jun 19 00:01:01 dn440/dn440 crond[32248]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn45 Jun 19 00:01:01 dn45/dn45 crond(pam_unix)[3963]: session closed for user root
+- 1150700461 2006.06.19 dn451 Jun 19 00:01:01 dn451/dn451 crond(pam_unix)[4387]: session closed for user root
+- 1150700461 2006.06.19 dn451 Jun 19 00:01:01 dn451/dn451 crond(pam_unix)[4387]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn451 Jun 19 00:01:01 dn451/dn451 crond[4388]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn452 Jun 19 00:01:01 dn452/dn452 crond(pam_unix)[7652]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn452 Jun 19 00:01:01 dn452/dn452 crond[7653]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn453 Jun 19 00:01:01 dn453/dn453 crond(pam_unix)[4394]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn453 Jun 19 00:01:01 dn453/dn453 crond[4395]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn455 Jun 19 00:01:01 dn455/dn455 crond(pam_unix)[744]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn471 Jun 19 00:01:01 dn471/dn471 crond(pam_unix)[4133]: session closed for user root
+- 1150700461 2006.06.19 dn471 Jun 19 00:01:01 dn471/dn471 crond(pam_unix)[4133]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn471 Jun 19 00:01:01 dn471/dn471 crond[4134]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn472 Jun 19 00:01:01 dn472/dn472 crond(pam_unix)[3446]: session closed for user root
+- 1150700461 2006.06.19 dn472 Jun 19 00:01:01 dn472/dn472 crond(pam_unix)[3446]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn472 Jun 19 00:01:01 dn472/dn472 crond[3447]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn476 Jun 19 00:01:01 dn476/dn476 crond(pam_unix)[4872]: session closed for user root
+- 1150700461 2006.06.19 dn485 Jun 19 00:01:01 dn485/dn485 crond(pam_unix)[3706]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn485 Jun 19 00:01:01 dn485/dn485 crond[3707]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn493 Jun 19 00:01:01 dn493/dn493 crond(pam_unix)[32572]: session closed for user root
+- 1150700461 2006.06.19 dn493 Jun 19 00:01:01 dn493/dn493 crond(pam_unix)[32572]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn493 Jun 19 00:01:01 dn493/dn493 crond[32573]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn497 Jun 19 00:01:01 dn497/dn497 crond(pam_unix)[1850]: session closed for user root
+- 1150700461 2006.06.19 dn498 Jun 19 00:01:01 dn498/dn498 crond[32325]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn500 Jun 19 00:01:01 dn500/dn500 crond(pam_unix)[1987]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn51 Jun 19 00:01:01 dn51/dn51 crond(pam_unix)[3922]: session closed for user root
+- 1150700461 2006.06.19 dn51 Jun 19 00:01:01 dn51/dn51 crond(pam_unix)[3922]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn51 Jun 19 00:01:01 dn51/dn51 crond[3923]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn510 Jun 19 00:01:01 dn510/dn510 crond[32186]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn513 Jun 19 00:01:01 dn513/dn513 crond(pam_unix)[841]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn513 Jun 19 00:01:01 dn513/dn513 crond[842]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn514 Jun 19 00:01:01 dn514/dn514 crond(pam_unix)[954]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn522 Jun 19 00:01:01 dn522/dn522 crond(pam_unix)[32130]: session closed for user root
+- 1150700461 2006.06.19 dn523 Jun 19 00:01:01 dn523/dn523 crond[32111]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn527 Jun 19 00:01:01 dn527/dn527 crond(pam_unix)[740]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn527 Jun 19 00:01:01 dn527/dn527 crond[741]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn529 Jun 19 00:01:01 dn529/dn529 crond(pam_unix)[4063]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn529 Jun 19 00:01:01 dn529/dn529 crond[4064]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn53 Jun 19 00:01:01 dn53/dn53 crond(pam_unix)[3971]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn530 Jun 19 00:01:01 dn530/dn530 crond(pam_unix)[32242]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn532 Jun 19 00:01:01 dn532/dn532 crond[1254]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn534 Jun 19 00:01:01 dn534/dn534 crond[932]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn535 Jun 19 00:01:01 dn535/dn535 crond(pam_unix)[32395]: session closed for user root
+- 1150700461 2006.06.19 dn540 Jun 19 00:01:01 dn540/dn540 crond(pam_unix)[1308]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn541 Jun 19 00:01:01 dn541/dn541 crond(pam_unix)[32680]: session closed for user root
+- 1150700461 2006.06.19 dn545 Jun 19 00:01:01 dn545/dn545 crond[765]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn546 Jun 19 00:01:01 dn546/dn546 crond(pam_unix)[32375]: session closed for user root
+- 1150700461 2006.06.19 dn546 Jun 19 00:01:01 dn546/dn546 crond(pam_unix)[32375]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn546 Jun 19 00:01:01 dn546/dn546 crond[32376]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn55 Jun 19 00:01:01 dn55/dn55 crond(pam_unix)[4287]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn55 Jun 19 00:01:01 dn55/dn55 crond[4288]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn564 Jun 19 00:01:01 dn564/dn564 crond(pam_unix)[32613]: session closed for user root
+- 1150700461 2006.06.19 dn564 Jun 19 00:01:01 dn564/dn564 crond(pam_unix)[32613]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn564 Jun 19 00:01:01 dn564/dn564 crond[32614]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn565 Jun 19 00:01:01 dn565/dn565 crond(pam_unix)[32517]: session closed for user root
+- 1150700461 2006.06.19 dn567 Jun 19 00:01:01 dn567/dn567 crond(pam_unix)[737]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn567 Jun 19 00:01:01 dn567/dn567 crond[738]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn569 Jun 19 00:01:01 dn569/dn569 crond(pam_unix)[2139]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn573 Jun 19 00:01:01 dn573/dn573 crond[4615]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn582 Jun 19 00:01:01 dn582/dn582 crond(pam_unix)[5375]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn592 Jun 19 00:01:01 dn592/dn592 crond(pam_unix)[5914]: session closed for user root
+- 1150700461 2006.06.19 dn592 Jun 19 00:01:01 dn592/dn592 crond[5915]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn593 Jun 19 00:01:01 dn593/dn593 crond[32735]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn594 Jun 19 00:01:01 dn594/dn594 crond(pam_unix)[5813]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn6 Jun 19 00:01:01 dn6/dn6 crond(pam_unix)[3294]: session closed for user root
+- 1150700461 2006.06.19 dn6 Jun 19 00:01:01 dn6/dn6 crond(pam_unix)[3294]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn60 Jun 19 00:01:01 dn60/dn60 crond(pam_unix)[3769]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn605 Jun 19 00:01:01 dn605/dn605 crond(pam_unix)[3316]: session closed for user root
+- 1150700461 2006.06.19 dn605 Jun 19 00:01:01 dn605/dn605 crond(pam_unix)[3316]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn605 Jun 19 00:01:01 dn605/dn605 crond[3317]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn607 Jun 19 00:01:01 dn607/dn607 crond(pam_unix)[32461]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn607 Jun 19 00:01:01 dn607/dn607 crond[32462]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn612 Jun 19 00:01:01 dn612/dn612 crond(pam_unix)[3109]: session closed for user root
+- 1150700461 2006.06.19 dn612 Jun 19 00:01:01 dn612/dn612 crond[3110]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn619 Jun 19 00:01:01 dn619/dn619 crond(pam_unix)[1186]: session closed for user root
+- 1150700461 2006.06.19 dn619 Jun 19 00:01:01 dn619/dn619 crond[1187]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn62 Jun 19 00:01:01 dn62/dn62 crond(pam_unix)[3774]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn626 Jun 19 00:01:01 dn626/dn626 crond(pam_unix)[4113]: session closed for user root
+- 1150700461 2006.06.19 dn628 Jun 19 00:01:01 dn628/dn628 crond(pam_unix)[20981]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn631 Jun 19 00:01:01 dn631/dn631 crond(pam_unix)[32312]: session closed for user root
+- 1150700461 2006.06.19 dn632 Jun 19 00:01:01 dn632/dn632 crond(pam_unix)[30424]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn633 Jun 19 00:01:01 dn633/dn633 crond[1634]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn634 Jun 19 00:01:01 dn634/dn634 crond(pam_unix)[32548]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn634 Jun 19 00:01:01 dn634/dn634 crond[32549]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn637 Jun 19 00:01:01 dn637/dn637 crond[317]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn640 Jun 19 00:01:01 dn640/dn640 crond[29102]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn641 Jun 19 00:01:01 dn641/dn641 crond(pam_unix)[3801]: session closed for user root
+- 1150700461 2006.06.19 dn641 Jun 19 00:01:01 dn641/dn641 crond(pam_unix)[3801]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn642 Jun 19 00:01:01 dn642/dn642 crond(pam_unix)[2383]: session closed for user root
+- 1150700461 2006.06.19 dn646 Jun 19 00:01:01 dn646/dn646 crond(pam_unix)[32136]: session closed for user root
+- 1150700461 2006.06.19 dn649 Jun 19 00:01:01 dn649/dn649 crond(pam_unix)[1865]: session closed for user root
+- 1150700461 2006.06.19 dn649 Jun 19 00:01:01 dn649/dn649 crond(pam_unix)[1865]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn650 Jun 19 00:01:01 dn650/dn650 crond(pam_unix)[1336]: session closed for user root
+- 1150700461 2006.06.19 dn659 Jun 19 00:01:01 dn659/dn659 crond(pam_unix)[1529]: session closed for user root
+- 1150700461 2006.06.19 dn665 Jun 19 00:01:01 dn665/dn665 crond(pam_unix)[2042]: session closed for user root
+- 1150700461 2006.06.19 dn665 Jun 19 00:01:01 dn665/dn665 crond(pam_unix)[2042]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn666 Jun 19 00:01:01 dn666/dn666 crond(pam_unix)[2741]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn668 Jun 19 00:01:01 dn668/dn668 crond[3632]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn670 Jun 19 00:01:01 dn670/dn670 crond[3228]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn671 Jun 19 00:01:01 dn671/dn671 crond(pam_unix)[3457]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn674 Jun 19 00:01:01 dn674/dn674 crond(pam_unix)[3408]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn682 Jun 19 00:01:01 dn682/dn682 crond(pam_unix)[4077]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn685 Jun 19 00:01:01 dn685/dn685 crond(pam_unix)[31005]: session closed for user root
+- 1150700461 2006.06.19 dn685 Jun 19 00:01:01 dn685/dn685 crond(pam_unix)[31005]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn685 Jun 19 00:01:01 dn685/dn685 crond[31006]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn688 Jun 19 00:01:01 dn688/dn688 crond(pam_unix)[3672]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn689 Jun 19 00:01:01 dn689/dn689 crond(pam_unix)[6984]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn691 Jun 19 00:01:01 dn691/dn691 crond[3554]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn694 Jun 19 00:01:01 dn694/dn694 crond(pam_unix)[3790]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn698 Jun 19 00:01:01 dn698/dn698 crond(pam_unix)[1546]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn698 Jun 19 00:01:01 dn698/dn698 crond[1547]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn7 Jun 19 00:01:01 dn7/dn7 crond[3394]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn700 Jun 19 00:01:01 dn700/dn700 crond[1049]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn713 Jun 19 00:01:01 dn713/dn713 crond(pam_unix)[565]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn718 Jun 19 00:01:01 dn718/dn718 crond(pam_unix)[4168]: session closed for user root
+- 1150700461 2006.06.19 dn718 Jun 19 00:01:01 dn718/dn718 crond(pam_unix)[4168]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn72 Jun 19 00:01:01 dn72/dn72 crond(pam_unix)[3376]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn72 Jun 19 00:01:01 dn72/dn72 crond[3377]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn720 Jun 19 00:01:01 dn720/dn720 crond(pam_unix)[32451]: session closed for user root
+- 1150700461 2006.06.19 dn720 Jun 19 00:01:01 dn720/dn720 crond(pam_unix)[32451]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn720 Jun 19 00:01:01 dn720/dn720 crond[32452]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn726 Jun 19 00:01:01 dn726/dn726 crond[399]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn73 Jun 19 00:01:01 dn73/dn73 crond(pam_unix)[3500]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn732 Jun 19 00:01:01 dn732/dn732 crond(pam_unix)[12202]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn732 Jun 19 00:01:01 dn732/dn732 crond[12203]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn735 Jun 19 00:01:01 dn735/dn735 crond(pam_unix)[11358]: session closed for user root
+- 1150700461 2006.06.19 dn735 Jun 19 00:01:01 dn735/dn735 crond(pam_unix)[11358]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn736 Jun 19 00:01:01 dn736/dn736 crond(pam_unix)[11475]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn739 Jun 19 00:01:01 dn739/dn739 crond(pam_unix)[11644]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn744 Jun 19 00:01:01 dn744/dn744 crond(pam_unix)[10814]: session closed for user root
+- 1150700461 2006.06.19 dn745 Jun 19 00:01:01 dn745/dn745 crond(pam_unix)[25824]: session closed for user root
+- 1150700461 2006.06.19 dn745 Jun 19 00:01:01 dn745/dn745 crond(pam_unix)[25824]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn745 Jun 19 00:01:01 dn745/dn745 crond[25825]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn747 Jun 19 00:01:01 dn747/dn747 crond(pam_unix)[10787]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn750 Jun 19 00:01:01 dn750/dn750 crond(pam_unix)[10945]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn755 Jun 19 00:01:01 dn755/dn755 crond(pam_unix)[32337]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn756 Jun 19 00:01:01 dn756/dn756 crond(pam_unix)[32420]: session closed for user root
+- 1150700461 2006.06.19 dn761 Jun 19 00:01:01 dn761/dn761 crond(pam_unix)[663]: session closed for user root
+- 1150700461 2006.06.19 dn762 Jun 19 00:01:01 dn762/dn762 crond[2167]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn770 Jun 19 00:01:01 dn770/dn770 crond(pam_unix)[3798]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn775 Jun 19 00:01:01 dn775/dn775 crond(pam_unix)[2823]: session closed for user root
+- 1150700461 2006.06.19 dn776 Jun 19 00:01:01 dn776/dn776 crond(pam_unix)[6813]: session closed for user root
+- 1150700461 2006.06.19 dn776 Jun 19 00:01:01 dn776/dn776 crond(pam_unix)[6813]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn776 Jun 19 00:01:01 dn776/dn776 crond[6814]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn779 Jun 19 00:01:01 dn779/dn779 crond(pam_unix)[29146]: session closed for user root
+- 1150700461 2006.06.19 dn781 Jun 19 00:01:01 dn781/dn781 crond(pam_unix)[3131]: session closed for user root
+- 1150700461 2006.06.19 dn781 Jun 19 00:01:01 dn781/dn781 crond(pam_unix)[3131]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn781 Jun 19 00:01:01 dn781/dn781 crond[3132]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn784 Jun 19 00:01:01 dn784/dn784 crond[2871]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn786 Jun 19 00:01:01 dn786/dn786 crond[2618]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn787 Jun 19 00:01:01 dn787/dn787 crond(pam_unix)[26574]: session closed for user root
+- 1150700461 2006.06.19 dn787 Jun 19 00:01:01 dn787/dn787 crond(pam_unix)[26574]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn787 Jun 19 00:01:01 dn787/dn787 crond[26575]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn789 Jun 19 00:01:01 dn789/dn789 crond[2229]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn790 Jun 19 00:01:01 dn790/dn790 crond[2021]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn791 Jun 19 00:01:01 dn791/dn791 crond[2161]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn792 Jun 19 00:01:01 dn792/dn792 crond(pam_unix)[2063]: session closed for user root
+- 1150700461 2006.06.19 dn792 Jun 19 00:01:01 dn792/dn792 crond(pam_unix)[2063]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn792 Jun 19 00:01:01 dn792/dn792 crond[2064]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn793 Jun 19 00:01:01 dn793/dn793 crond[2698]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn798 Jun 19 00:01:01 dn798/dn798 crond(pam_unix)[1920]: session closed for user root
+- 1150700461 2006.06.19 dn801 Jun 19 00:01:01 dn801/dn801 crond(pam_unix)[2994]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn802 Jun 19 00:01:01 dn802/dn802 crond(pam_unix)[1886]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn805 Jun 19 00:01:01 dn805/dn805 crond[8312]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn808 Jun 19 00:01:01 dn808/dn808 crond(pam_unix)[3848]: session closed for user root
+- 1150700461 2006.06.19 dn808 Jun 19 00:01:01 dn808/dn808 crond(pam_unix)[3848]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn808 Jun 19 00:01:01 dn808/dn808 crond[3849]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn812 Jun 19 00:01:01 dn812/dn812 crond(pam_unix)[8709]: session closed for user root
+- 1150700461 2006.06.19 dn812 Jun 19 00:01:01 dn812/dn812 crond(pam_unix)[8709]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn812 Jun 19 00:01:01 dn812/dn812 crond[8710]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn819 Jun 19 00:01:01 dn819/dn819 crond(pam_unix)[582]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn821 Jun 19 00:01:01 dn821/dn821 crond(pam_unix)[8613]: session closed for user root
+- 1150700461 2006.06.19 dn821 Jun 19 00:01:01 dn821/dn821 crond(pam_unix)[8613]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn822 Jun 19 00:01:01 dn822/dn822 crond(pam_unix)[31058]: session closed for user root
+- 1150700461 2006.06.19 dn822 Jun 19 00:01:01 dn822/dn822 crond(pam_unix)[31058]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn822 Jun 19 00:01:01 dn822/dn822 crond[31059]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn824 Jun 19 00:01:01 dn824/dn824 crond(pam_unix)[8787]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn839 Jun 19 00:01:01 dn839/dn839 crond(pam_unix)[8621]: session closed for user root
+- 1150700461 2006.06.19 dn839 Jun 19 00:01:01 dn839/dn839 crond(pam_unix)[8621]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn839 Jun 19 00:01:01 dn839/dn839 crond[8622]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn842 Jun 19 00:01:01 dn842/dn842 crond(pam_unix)[8893]: session closed for user root
+- 1150700461 2006.06.19 dn844 Jun 19 00:01:01 dn844/dn844 crond(pam_unix)[9079]: session closed for user root
+- 1150700461 2006.06.19 dn844 Jun 19 00:01:01 dn844/dn844 crond[9080]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn845 Jun 19 00:01:01 dn845/dn845 crond(pam_unix)[5015]: session closed for user root
+- 1150700461 2006.06.19 dn845 Jun 19 00:01:01 dn845/dn845 crond(pam_unix)[5015]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn848 Jun 19 00:01:01 dn848/dn848 crond(pam_unix)[1479]: session closed for user root
+- 1150700461 2006.06.19 dn848 Jun 19 00:01:01 dn848/dn848 crond(pam_unix)[1479]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn853 Jun 19 00:01:01 dn853/dn853 crond(pam_unix)[1617]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn854 Jun 19 00:01:01 dn854/dn854 crond(pam_unix)[1986]: session closed for user root
+- 1150700461 2006.06.19 dn856 Jun 19 00:01:01 dn856/dn856 crond(pam_unix)[2230]: session closed for user root
+- 1150700461 2006.06.19 dn856 Jun 19 00:01:01 dn856/dn856 crond[2231]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn857 Jun 19 00:01:01 dn857/dn857 crond(pam_unix)[1639]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn858 Jun 19 00:01:01 dn858/dn858 crond(pam_unix)[1504]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn859 Jun 19 00:01:01 dn859/dn859 crond(pam_unix)[1768]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn86 Jun 19 00:01:01 dn86/dn86 crond(pam_unix)[3384]: session closed for user root
+- 1150700461 2006.06.19 dn86 Jun 19 00:01:01 dn86/dn86 crond[3385]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn860 Jun 19 00:01:01 dn860/dn860 crond(pam_unix)[2186]: session closed for user root
+- 1150700461 2006.06.19 dn865 Jun 19 00:01:01 dn865/dn865 crond(pam_unix)[1899]: session closed for user root
+- 1150700461 2006.06.19 dn865 Jun 19 00:01:01 dn865/dn865 crond[1900]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn867 Jun 19 00:01:01 dn867/dn867 crond(pam_unix)[1817]: session closed for user root
+- 1150700461 2006.06.19 dn867 Jun 19 00:01:01 dn867/dn867 crond(pam_unix)[1817]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn867 Jun 19 00:01:01 dn867/dn867 crond[1818]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn878 Jun 19 00:01:01 dn878/dn878 crond(pam_unix)[30943]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn878 Jun 19 00:01:01 dn878/dn878 crond[30944]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn88 Jun 19 00:01:01 dn88/dn88 crond(pam_unix)[3317]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn882 Jun 19 00:01:01 dn882/dn882 crond(pam_unix)[2312]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn882 Jun 19 00:01:01 dn882/dn882 crond[2313]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn888 Jun 19 00:01:01 dn888/dn888 crond[6533]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn89 Jun 19 00:01:01 dn89/dn89 crond(pam_unix)[3412]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn890 Jun 19 00:01:01 dn890/dn890 crond[2042]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn892 Jun 19 00:01:01 dn892/dn892 crond(pam_unix)[1856]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn893 Jun 19 00:01:01 dn893/dn893 crond(pam_unix)[1814]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn895 Jun 19 00:01:01 dn895/dn895 crond(pam_unix)[2051]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn897 Jun 19 00:01:01 dn897/dn897 crond(pam_unix)[26409]: session closed for user root
+- 1150700461 2006.06.19 dn9 Jun 19 00:01:01 dn9/dn9 crond(pam_unix)[3254]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn903 Jun 19 00:01:01 dn903/dn903 crond[2259]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn907 Jun 19 00:01:01 dn907/dn907 crond(pam_unix)[2374]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn91 Jun 19 00:01:01 dn91/dn91 crond(pam_unix)[3320]: session closed for user root
+- 1150700461 2006.06.19 dn910 Jun 19 00:01:01 dn910/dn910 crond[2074]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn914 Jun 19 00:01:01 dn914/dn914 crond[2986]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn915 Jun 19 00:01:01 dn915/dn915 crond(pam_unix)[12369]: session closed for user root
+- 1150700461 2006.06.19 dn924 Jun 19 00:01:01 dn924/dn924 crond(pam_unix)[12145]: session closed for user root
+- 1150700461 2006.06.19 dn924 Jun 19 00:01:01 dn924/dn924 crond(pam_unix)[12145]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn924 Jun 19 00:01:01 dn924/dn924 crond[12146]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn925 Jun 19 00:01:01 dn925/dn925 crond(pam_unix)[13117]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn926 Jun 19 00:01:01 dn926/dn926 crond(pam_unix)[4134]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn926 Jun 19 00:01:01 dn926/dn926 crond[4135]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn931 Jun 19 00:01:01 dn931/dn931 crond(pam_unix)[3117]: session closed for user root
+- 1150700461 2006.06.19 dn936 Jun 19 00:01:01 dn936/dn936 crond(pam_unix)[12018]: session closed for user root
+- 1150700461 2006.06.19 dn936 Jun 19 00:01:01 dn936/dn936 crond(pam_unix)[12018]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn938 Jun 19 00:01:01 dn938/dn938 crond(pam_unix)[12080]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn938 Jun 19 00:01:01 dn938/dn938 crond[12081]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn943 Jun 19 00:01:01 dn943/dn943 crond(pam_unix)[733]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn950 Jun 19 00:01:01 dn950/dn950 crond[2021]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn954 Jun 19 00:01:01 dn954/dn954 crond(pam_unix)[12355]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn96 Jun 19 00:01:01 dn96/dn96 crond(pam_unix)[3436]: session closed for user root
+- 1150700461 2006.06.19 dn96 Jun 19 00:01:01 dn96/dn96 crond(pam_unix)[3436]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn96 Jun 19 00:01:01 dn96/dn96 crond[3437]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn960 Jun 19 00:01:01 dn960/dn960 crond(pam_unix)[936]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn963 Jun 19 00:01:01 dn963/dn963 crond(pam_unix)[1126]: session closed for user root
+- 1150700461 2006.06.19 dn963 Jun 19 00:01:01 dn963/dn963 crond[1127]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn964 Jun 19 00:01:01 dn964/dn964 crond[625]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn971 Jun 19 00:01:01 dn971/dn971 crond[779]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 dn973 Jun 19 00:01:01 dn973/dn973 crond(pam_unix)[12572]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn987 Jun 19 00:01:01 dn987/dn987 crond(pam_unix)[12445]: session closed for user root
+- 1150700461 2006.06.19 dn987 Jun 19 00:01:01 dn987/dn987 crond(pam_unix)[12445]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn994 Jun 19 00:01:01 dn994/dn994 crond(pam_unix)[1467]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn997 Jun 19 00:01:01 dn997/dn997 crond(pam_unix)[1261]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 dn998 Jun 19 00:01:01 dn998/dn998 crond[1378]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn1009 Jun 19 00:01:02 dn1009/dn1009 crond(pam_unix)[590]: session closed for user root
+- 1150700462 2006.06.19 dn104 Jun 19 00:01:02 dn104/dn104 crond(pam_unix)[3508]: session closed for user root
+- 1150700462 2006.06.19 dn163 Jun 19 00:01:02 dn163/dn163 crond(pam_unix)[3507]: session closed for user root
+- 1150700462 2006.06.19 dn230 Jun 19 00:01:02 dn230/dn230 crond(pam_unix)[3136]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn236 Jun 19 00:01:02 dn236/dn236 crond[2782]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn242 Jun 19 00:01:02 dn242/dn242 crond(pam_unix)[3009]: session closed for user root
+- 1150700462 2006.06.19 dn314 Jun 19 00:01:02 dn314/dn314 crond(pam_unix)[4694]: session closed for user root
+- 1150700462 2006.06.19 dn327 Jun 19 00:01:02 dn327/dn327 crond(pam_unix)[597]: session closed for user root
+- 1150700462 2006.06.19 dn372 Jun 19 00:01:02 dn372/dn372 crond(pam_unix)[4456]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn383 Jun 19 00:01:02 dn383/dn383 crond(pam_unix)[4511]: session closed for user root
+- 1150700462 2006.06.19 dn383 Jun 19 00:01:02 dn383/dn383 crond(pam_unix)[4511]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn383 Jun 19 00:01:02 dn383/dn383 crond[4512]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn389 Jun 19 00:01:02 dn389/dn389 crond(pam_unix)[4640]: session closed for user root
+- 1150700462 2006.06.19 dn389 Jun 19 00:01:02 dn389/dn389 crond[4641]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn499 Jun 19 00:01:02 dn499/dn499 crond(pam_unix)[1412]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn504 Jun 19 00:01:02 dn504/dn504 crond(pam_unix)[2265]: session closed for user root
+- 1150700462 2006.06.19 dn504 Jun 19 00:01:02 dn504/dn504 crond(pam_unix)[2265]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn504 Jun 19 00:01:02 dn504/dn504 crond[2266]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn508 Jun 19 00:01:02 dn508/dn508 crond(pam_unix)[980]: session closed for user root
+- 1150700462 2006.06.19 dn508 Jun 19 00:01:02 dn508/dn508 crond(pam_unix)[980]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn508 Jun 19 00:01:02 dn508/dn508 crond[981]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn515 Jun 19 00:01:02 dn515/dn515 crond(pam_unix)[1184]: session closed for user root
+- 1150700462 2006.06.19 dn515 Jun 19 00:01:02 dn515/dn515 crond(pam_unix)[1184]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn515 Jun 19 00:01:02 dn515/dn515 crond[1185]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn523 Jun 19 00:01:02 dn523/dn523 crond(pam_unix)[32110]: session closed for user root
+- 1150700462 2006.06.19 dn542 Jun 19 00:01:02 dn542/dn542 crond(pam_unix)[437]: session closed for user root
+- 1150700462 2006.06.19 dn549 Jun 19 00:01:02 dn549/dn549 crond(pam_unix)[2200]: session closed for user root
+- 1150700462 2006.06.19 dn549 Jun 19 00:01:02 dn549/dn549 crond(pam_unix)[2200]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn549 Jun 19 00:01:02 dn549/dn549 crond[2201]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn551 Jun 19 00:01:02 dn551/dn551 crond(pam_unix)[736]: session closed for user root
+- 1150700462 2006.06.19 dn551 Jun 19 00:01:02 dn551/dn551 crond(pam_unix)[736]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn551 Jun 19 00:01:02 dn551/dn551 crond[737]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn554 Jun 19 00:01:02 dn554/dn554 crond(pam_unix)[31986]: session closed for user root
+- 1150700462 2006.06.19 dn557 Jun 19 00:01:02 dn557/dn557 crond(pam_unix)[840]: session closed for user root
+- 1150700462 2006.06.19 dn557 Jun 19 00:01:02 dn557/dn557 crond(pam_unix)[840]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn557 Jun 19 00:01:02 dn557/dn557 crond[841]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn562 Jun 19 00:01:02 dn562/dn562 crond(pam_unix)[1083]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn576 Jun 19 00:01:02 dn576/dn576 crond(pam_unix)[4854]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn576 Jun 19 00:01:02 dn576/dn576 crond[4855]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn583 Jun 19 00:01:02 dn583/dn583 crond(pam_unix)[9625]: session closed for user root
+- 1150700462 2006.06.19 dn583 Jun 19 00:01:02 dn583/dn583 crond[9626]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn624 Jun 19 00:01:02 dn624/dn624 crond(pam_unix)[6683]: session closed for user root
+- 1150700462 2006.06.19 dn624 Jun 19 00:01:02 dn624/dn624 crond(pam_unix)[6683]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn624 Jun 19 00:01:02 dn624/dn624 crond[6684]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn663 Jun 19 00:01:02 dn663/dn663 crond(pam_unix)[3239]: session closed for user root
+- 1150700462 2006.06.19 dn67 Jun 19 00:01:02 dn67/dn67 crond(pam_unix)[4344]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn672 Jun 19 00:01:02 dn672/dn672 crond(pam_unix)[3770]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn683 Jun 19 00:01:02 dn683/dn683 crond(pam_unix)[8106]: session closed for user root
+- 1150700462 2006.06.19 dn683 Jun 19 00:01:02 dn683/dn683 crond[8107]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn70 Jun 19 00:01:02 dn70/dn70 crond(pam_unix)[3416]: session closed for user root
+- 1150700462 2006.06.19 dn701 Jun 19 00:01:02 dn701/dn701 crond(pam_unix)[957]: session closed for user root
+- 1150700462 2006.06.19 dn727 Jun 19 00:01:02 dn727/dn727 crond[784]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn811 Jun 19 00:01:02 dn811/dn811 crond(pam_unix)[8885]: session closed for user root
+- 1150700462 2006.06.19 dn824 Jun 19 00:01:02 dn824/dn824 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1150700462 2006.06.19 dn928 Jun 19 00:01:02 dn928/dn928 crond(pam_unix)[7578]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn928 Jun 19 00:01:02 dn928/dn928 crond[7579]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn93 Jun 19 00:01:02 dn93/dn93 crond(pam_unix)[3745]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn955 Jun 19 00:01:02 dn955/dn955 crond(pam_unix)[1119]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 dn956 Jun 19 00:01:02 dn956/dn956 crond[737]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700462 2006.06.19 dn981 Jun 19 00:01:02 dn981/dn981 crond(pam_unix)[946]: session closed for user root
+- 1150700463 2006.06.19 dn204 Jun 19 00:01:03 dn204/dn204 crond(pam_unix)[12993]: session closed for user root
+- 1150700463 2006.06.19 dn372 Jun 19 00:01:03 dn372/dn372 crond(pam_unix)[4456]: session closed for user root
+- 1150700463 2006.06.19 dn372 Jun 19 00:01:03 dn372/dn372 crond[4457]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700463 2006.06.19 dn505 Jun 19 00:01:03 dn505/dn505 crond(pam_unix)[753]: session closed for user root
+- 1150700463 2006.06.19 dn505 Jun 19 00:01:03 dn505/dn505 crond(pam_unix)[753]: session opened for user root by (uid=0)
+- 1150700463 2006.06.19 dn505 Jun 19 00:01:03 dn505/dn505 crond[754]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700463 2006.06.19 dn639 Jun 19 00:01:03 dn639/dn639 crond(pam_unix)[3382]: session closed for user root
+- 1150700463 2006.06.19 dn639 Jun 19 00:01:03 dn639/dn639 crond(pam_unix)[3382]: session opened for user root by (uid=0)
+- 1150700463 2006.06.19 dn639 Jun 19 00:01:03 dn639/dn639 crond[3383]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700463 2006.06.19 dn928 Jun 19 00:01:03 dn928/dn928 crond(pam_unix)[7578]: session closed for user root
+- 1150700464 2006.06.19 dn576 Jun 19 00:01:04 dn576/dn576 crond(pam_unix)[4854]: session closed for user root
+- 1150700464 2006.06.19 dn729 Jun 19 00:01:04 dn729/dn729 crond(pam_unix)[1141]: session closed for user root
+- 1150700464 2006.06.19 dn729 Jun 19 00:01:04 dn729/dn729 crond(pam_unix)[1141]: session opened for user root by (uid=0)
+- 1150700464 2006.06.19 dn729 Jun 19 00:01:04 dn729/dn729 crond[1142]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700465 2006.06.19 dn506 Jun 19 00:01:05 dn506/dn506 crond(pam_unix)[851]: session closed for user root
+- 1150700465 2006.06.19 dn506 Jun 19 00:01:05 dn506/dn506 crond(pam_unix)[851]: session opened for user root by (uid=0)
+- 1150700465 2006.06.19 dn506 Jun 19 00:01:05 dn506/dn506 crond[852]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700465 2006.06.19 dn563 Jun 19 00:01:05 dn563/dn563 crond(pam_unix)[752]: session closed for user root
+- 1150700465 2006.06.19 dn563 Jun 19 00:01:05 dn563/dn563 crond(pam_unix)[752]: session opened for user root by (uid=0)
+- 1150700465 2006.06.19 dn563 Jun 19 00:01:05 dn563/dn563 crond[753]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700466 2006.06.19 dn292 Jun 19 00:01:06 dn292/dn292 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1150700468 2006.06.19 dn455 Jun 19 00:01:08 dn455/dn455 smartd[1978]: Device: /dev/sda, Temperature changed 2 Celsius to 37 Celsius since last report
+- 1150700472 2006.06.19 dn445 Jun 19 00:01:12 dn445/dn445 smartd[1986]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1150700473 2006.06.19 dn647 Jun 19 00:01:13 dn647/dn647 crond(pam_unix)[912]: session closed for user root
+- 1150700473 2006.06.19 dn647 Jun 19 00:01:13 dn647/dn647 crond(pam_unix)[912]: session opened for user root by (uid=0)
+- 1150700473 2006.06.19 dn647 Jun 19 00:01:13 dn647/dn647 crond[913]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700477 2006.06.19 dn548 Jun 19 00:01:17 dn548/dn548 crond(pam_unix)[641]: session opened for user root by (uid=0)
+- 1150700479 2006.06.19 dn358 Jun 19 00:01:19 dn358/dn358 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1150700480 2006.06.19 dn536 Jun 19 00:01:20 dn536/dn536 crond(pam_unix)[6062]: session closed for user root
+- 1150700480 2006.06.19 dn536 Jun 19 00:01:20 dn536/dn536 crond(pam_unix)[6062]: session opened for user root by (uid=0)
+- 1150700480 2006.06.19 dn536 Jun 19 00:01:20 dn536/dn536 crond[6067]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700480 2006.06.19 dn548 Jun 19 00:01:20 dn548/dn548 crond[646]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700481 2006.06.19 dn548 Jun 19 00:01:21 dn548/dn548 crond(pam_unix)[641]: session closed for user root
+- 1150700481 2006.06.19 dn715 Jun 19 00:01:21 dn715/dn715 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1150700483 2006.06.19 dn340 Jun 19 00:01:23 dn340/dn340 crond(pam_unix)[5039]: session opened for user root by (uid=0)
+- 1150700483 2006.06.19 dn340 Jun 19 00:01:23 dn340/dn340 crond[5040]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700484 2006.06.19 dn340 Jun 19 00:01:24 dn340/dn340 crond(pam_unix)[5039]: session closed for user root
+- 1150700484 2006.06.19 dn504 Jun 19 00:01:24 dn504/dn504 smartd[1971]: Device: /dev/sda, Temperature changed 2 Celsius to 30 Celsius since last report
+- 1150700487 2006.06.19 dn737 Jun 19 00:01:27 dn737/dn737 crond(pam_unix)[12508]: session closed for user root
+- 1150700487 2006.06.19 dn737 Jun 19 00:01:27 dn737/dn737 crond(pam_unix)[12508]: session opened for user root by (uid=0)
+- 1150700487 2006.06.19 dn737 Jun 19 00:01:27 dn737/dn737 crond[12511]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700487 2006.06.19 dn83 Jun 19 00:01:27 dn83/dn83 ntpd[2282]: synchronized to 10.100.30.250, stratum 3
+- 1150700488 2006.06.19 dn482 Jun 19 00:01:28 dn482/dn482 crond(pam_unix)[4295]: session opened for user root by (uid=0)
+- 1150700489 2006.06.19 dn482 Jun 19 00:01:29 dn482/dn482 crond[4300]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700489 2006.06.19 dn579 Jun 19 00:01:29 dn579/dn579 crond(pam_unix)[5134]: session closed for user root
+- 1150700489 2006.06.19 dn579 Jun 19 00:01:29 dn579/dn579 crond(pam_unix)[5134]: session opened for user root by (uid=0)
+- 1150700489 2006.06.19 dn579 Jun 19 00:01:29 dn579/dn579 crond[5135]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700490 2006.06.19 dn402 Jun 19 00:01:30 dn402/dn402 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1150700490 2006.06.19 dn482 Jun 19 00:01:30 dn482/dn482 crond(pam_unix)[4295]: session closed for user root
+- 1150700490 2006.06.19 dn482 Jun 19 00:01:30 dn482/dn482 smartd[1969]: Device: /dev/sda, Temperature changed 3 Celsius to 40 Celsius since last report
+- 1150700490 2006.06.19 dn503 Jun 19 00:01:30 dn503/dn503 crond(pam_unix)[32620]: session opened for user root by (uid=0)
+- 1150700491 2006.06.19 dn570 Jun 19 00:01:31 dn570/dn570 crond(pam_unix)[3014]: session closed for user root
+- 1150700491 2006.06.19 dn570 Jun 19 00:01:31 dn570/dn570 crond(pam_unix)[3014]: session opened for user root by (uid=0)
+- 1150700491 2006.06.19 dn570 Jun 19 00:01:31 dn570/dn570 crond[3016]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700492 2006.06.19 dn503 Jun 19 00:01:32 dn503/dn503 crond[32626]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700492 2006.06.19 dn590 Jun 19 00:01:32 dn590/dn590 crond(pam_unix)[6736]: session opened for user root by (uid=0)
+- 1150700493 2006.06.19 dn503 Jun 19 00:01:33 dn503/dn503 crond(pam_unix)[32620]: session closed for user root
+- 1150700495 2006.06.19 dn553 Jun 19 00:01:35 dn553/dn553 crond(pam_unix)[623]: session opened for user root by (uid=0)
+- 1150700496 2006.06.19 dn490 Jun 19 00:01:36 dn490/dn490 smartd[1979]: Device: /dev/sda, Temperature changed 2 Celsius to 32 Celsius since last report
+- 1150700496 2006.06.19 dn590 Jun 19 00:01:36 dn590/dn590 crond[6744]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700496 2006.06.19 dn738 Jun 19 00:01:36 dn738/dn738 crond(pam_unix)[12561]: session closed for user root
+- 1150700496 2006.06.19 dn738 Jun 19 00:01:36 dn738/dn738 crond(pam_unix)[12561]: session opened for user root by (uid=0)
+- 1150700496 2006.06.19 dn738 Jun 19 00:01:36 dn738/dn738 crond[12562]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700497 2006.06.19 dn490 Jun 19 00:01:37 dn490/dn490 crond(pam_unix)[970]: session closed for user root
+- 1150700497 2006.06.19 dn490 Jun 19 00:01:37 dn490/dn490 crond(pam_unix)[970]: session opened for user root by (uid=0)
+- 1150700497 2006.06.19 dn490 Jun 19 00:01:37 dn490/dn490 crond[986]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700497 2006.06.19 dn502 Jun 19 00:01:37 dn502/dn502 crond(pam_unix)[1857]: session opened for user root by (uid=0)
+- 1150700497 2006.06.19 dn547 Jun 19 00:01:37 dn547/dn547 smartd[1980]: Device: /dev/sda, Temperature changed 2 Celsius to 41 Celsius since last report
+- 1150700497 2006.06.19 dn553 Jun 19 00:01:37 dn553/dn553 crond[625]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700498 2006.06.19 dn502 Jun 19 00:01:38 dn502/dn502 crond[1866]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700498 2006.06.19 dn505 Jun 19 00:01:38 dn505/dn505 smartd[1974]: Device: /dev/sda, Temperature changed 4 Celsius to 30 Celsius since last report
+- 1150700499 2006.06.19 dn502 Jun 19 00:01:39 dn502/dn502 crond(pam_unix)[1857]: session closed for user root
+- 1150700499 2006.06.19 dn506 Jun 19 00:01:39 dn506/dn506 smartd[1977]: Device: /dev/sda, Temperature changed 3 Celsius to 30 Celsius since last report
+- 1150700500 2006.06.19 dn745 Jun 19 00:01:40 dn745/dn745 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1150700501 2006.06.19 dn553 Jun 19 00:01:41 dn553/dn553 crond(pam_unix)[623]: session closed for user root
+- 1150700502 2006.06.19 dn621 Jun 19 00:01:42 dn621/dn621 crond(pam_unix)[5035]: session closed for user root
+- 1150700502 2006.06.19 dn621 Jun 19 00:01:42 dn621/dn621 crond(pam_unix)[5035]: session opened for user root by (uid=0)
+- 1150700502 2006.06.19 dn621 Jun 19 00:01:42 dn621/dn621 crond[5037]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700504 2006.06.19 dn415 Jun 19 00:01:44 dn415/dn415 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1150700504 2006.06.19 dn545 Jun 19 00:01:44 dn545/dn545 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1150700504 2006.06.19 dn557 Jun 19 00:01:44 dn557/dn557 smartd[1970]: Device: /dev/sda, Temperature changed 2 Celsius to 32 Celsius since last report
+- 1150700504 2006.06.19 dn590 Jun 19 00:01:44 dn590/dn590 crond(pam_unix)[6736]: session closed for user root
+- 1150700507 2006.06.19 dn536 Jun 19 00:01:47 dn536/dn536 smartd[1986]: Device: /dev/sda, Temperature changed 2 Celsius to 31 Celsius since last report
+- 1150700507 2006.06.19 dn541 Jun 19 00:01:47 dn541/dn541 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150700510 2006.06.19 dn548 Jun 19 00:01:50 dn548/dn548 smartd[1984]: Device: /dev/sda, Temperature changed 2 Celsius to 43 Celsius since last report
+- 1150700510 2006.06.19 dn560 Jun 19 00:01:50 dn560/dn560 smartd[1970]: Device: /dev/sda, Temperature changed 2 Celsius to 31 Celsius since last report
+- 1150700513 2006.06.19 dn553 Jun 19 00:01:53 dn553/dn553 smartd[1970]: Device: /dev/sda, Temperature changed 4 Celsius to 35 Celsius since last report
+- 1150700514 2006.06.19 dn666 Jun 19 00:01:54 dn666/dn666 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1150700517 2006.06.19 dn669 Jun 19 00:01:57 dn669/dn669 crond(pam_unix)[2236]: session closed for user root
+- 1150700517 2006.06.19 dn669 Jun 19 00:01:57 dn669/dn669 crond(pam_unix)[2236]: session opened for user root by (uid=0)
+- 1150700517 2006.06.19 dn669 Jun 19 00:01:57 dn669/dn669 crond[2240]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700519 2006.06.19 dn429 Jun 19 00:01:59 dn429/dn429 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1150700521 2006.06.19 dn550 Jun 19 00:02:01 dn550/dn550 crond(pam_unix)[651]: session closed for user root
+- 1150700521 2006.06.19 dn550 Jun 19 00:02:01 dn550/dn550 crond(pam_unix)[651]: session opened for user root by (uid=0)
+- 1150700521 2006.06.19 dn550 Jun 19 00:02:01 dn550/dn550 crond[655]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700521 2006.06.19 dn550 Jun 19 00:02:01 dn550/dn550 smartd[1981]: Device: /dev/sda, Temperature changed 3 Celsius to 40 Celsius since last report
+- 1150700527 2006.06.19 dn276 Jun 19 00:02:07 dn276/dn276 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1150700528 2006.06.19 dn486 Jun 19 00:02:08 dn486/dn486 crond(pam_unix)[3988]: session closed for user root
+- 1150700528 2006.06.19 dn486 Jun 19 00:02:08 dn486/dn486 crond(pam_unix)[3988]: session opened for user root by (uid=0)
+- 1150700528 2006.06.19 dn486 Jun 19 00:02:08 dn486/dn486 crond[4018]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700534 2006.06.19 dn579 Jun 19 00:02:14 dn579/dn579 smartd[1982]: Device: /dev/sda, Temperature changed 2 Celsius to 35 Celsius since last report
+- 1150700538 2006.06.19 dn563 Jun 19 00:02:18 dn563/dn563 smartd[1981]: Device: /dev/sda, Temperature changed 3 Celsius to 31 Celsius since last report
+- 1150700538 2006.06.19 dn574 Jun 19 00:02:18 dn574/dn574 smartd[1988]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1150700538 2006.06.19 dn590 Jun 19 00:02:18 dn590/dn590 smartd[1981]: Device: /dev/sda, Temperature changed 2 Celsius to 25 Celsius since last report
+- 1150700539 2006.06.19 dn583 Jun 19 00:02:19 dn583/dn583 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1150700539 2006.06.19 dn609 Jun 19 00:02:19 dn609/dn609 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1150700539 2006.06.19 dn637 Jun 19 00:02:19 dn637/dn637 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1150700540 2006.06.19 dn570 Jun 19 00:02:20 dn570/dn570 smartd[1991]: Device: /dev/sda, Temperature changed 5 Celsius to 43 Celsius since last report
+- 1150700541 2006.06.19 dn479 Jun 19 00:02:21 dn479/dn479 smartd[1981]: Device: /dev/sda, Temperature changed 2 Celsius to 29 Celsius since last report
+- 1150700541 2006.06.19 dn576 Jun 19 00:02:21 dn576/dn576 smartd[1983]: Device: /dev/sda, Temperature changed 3 Celsius to 31 Celsius since last report
+- 1150700542 2006.06.19 dn639 Jun 19 00:02:22 dn639/dn639 smartd[1981]: Device: /dev/sda, Temperature changed 2 Celsius to 27 Celsius since last report
+- 1150700543 2006.06.19 dn219 Jun 19 00:02:23 dn219/dn219 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150700543 2006.06.19 dn598 Jun 19 00:02:23 dn598/dn598 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1150700548 2006.06.19 dn636 Jun 19 00:02:28 dn636/dn636 smartd[1974]: Device: /dev/sda, Temperature changed -2 Celsius to 21 Celsius since last report
+- 1150700550 2006.06.19 dn479 Jun 19 00:02:30 dn479/dn479 crond(pam_unix)[3697]: session opened for user root by (uid=0)
+- 1150700551 2006.06.19 dn315 Jun 19 00:02:31 dn315/dn315 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1150700553 2006.06.19 dn479 Jun 19 00:02:33 dn479/dn479 crond[3730]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700553 2006.06.19 dn580 Jun 19 00:02:33 dn580/dn580 smartd[1970]: Device: /dev/sda, Temperature changed 2 Celsius to 40 Celsius since last report
+- 1150700554 2006.06.19 dn406 Jun 19 00:02:34 dn406/dn406 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1150700556 2006.06.19 dn479 Jun 19 00:02:36 dn479/dn479 crond(pam_unix)[3697]: session closed for user root
+- 1150700557 2006.06.19 dn656 Jun 19 00:02:37 dn656/dn656 smartd[1970]: Device: /dev/sda, Temperature changed -3 Celsius to 30 Celsius since last report
+- 1150700560 2006.06.19 dn647 Jun 19 00:02:40 dn647/dn647 smartd[1989]: Device: /dev/sda, Temperature changed 3 Celsius to 29 Celsius since last report
+- 1150700561 2006.06.19 dn280 Jun 19 00:02:41 dn280/dn280 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1150700573 2006.06.19 dn100 Jun 19 00:02:53 dn100/dn100 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1150700573 2006.06.19 dn527 Jun 19 00:02:53 dn527/dn527 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1150700575 2006.06.19 dn738 Jun 19 00:02:55 dn738/dn738 smartd[1975]: Device: /dev/sda, Temperature changed 2 Celsius to 34 Celsius since last report
+- 1150700575 2006.06.19 dn749 Jun 19 00:02:55 dn749/dn749 smartd[1974]: Device: /dev/sda, Temperature changed -5 Celsius to 29 Celsius since last report
+- 1150700578 2006.06.19 dn343 Jun 19 00:02:58 dn343/dn343 ntpd[3383]: synchronized to 10.100.30.250, stratum 3
+- 1150700579 2006.06.19 dn434 Jun 19 00:02:59 dn434/dn434 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1150700588 2006.06.19 dn737 Jun 19 00:03:08 dn737/dn737 smartd[1985]: Device: /dev/sda, Temperature changed 2 Celsius to 41 Celsius since last report
+- 1150700592 2006.06.19 dn408 Jun 19 00:03:12 dn408/dn408 ntpd[2288]: synchronized to 10.100.30.250, stratum 3
+- 1150700594 2006.06.19 dn742 Jun 19 00:03:14 dn742/dn742 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1150700597 2006.06.19 dn261 Jun 19 00:03:17 dn261/dn261 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1150700598 2006.06.19 dn621 Jun 19 00:03:18 dn621/dn621 smartd[1983]: Device: /dev/sda, Temperature changed 2 Celsius to 25 Celsius since last report
+- 1150700616 2006.06.19 dn664 Jun 19 00:03:36 dn664/dn664 ntpd[2271]: synchronized to 10.100.30.250, stratum 3
+- 1150700618 2006.06.19 dn626 Jun 19 00:03:38 dn626/dn626 ntpd[2279]: synchronized to 10.100.24.250, stratum 3
+- 1150700625 2006.06.19 dn19 Jun 19 00:03:45 dn19/dn19 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+- 1150700625 2006.06.19 dn19 Jun 19 00:03:45 dn19/dn19 snmpd[14537]: Got trap from peer on fd 13
+- 1150700625 2006.06.19 dn372 Jun 19 00:03:45 dn372/dn372 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1150700627 2006.06.19 dn895 Jun 19 00:03:47 dn895/dn895 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1150700629 2006.06.19 dn535 Jun 19 00:03:49 dn535/dn535 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1150700641 2006.06.19 dn738 Jun 19 00:04:01 dn738/dn738 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1150700658 2006.06.19 dn507 Jun 19 00:04:18 dn507/dn507 ntpd[2270]: synchronized to 10.100.30.250, stratum 3
+- 1150700672 2006.06.19 dn549 Jun 19 00:04:32 dn549/dn549 ntpd[2282]: synchronized to 10.100.24.250, stratum 3
+- 1150700677 2006.06.19 dn218 Jun 19 00:04:37 dn218/dn218 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1150700677 2006.06.19 dn471 Jun 19 00:04:37 dn471/dn471 ntpd[2347]: synchronized to 10.100.30.250, stratum 3
+- 1150700679 2006.06.19 dn295 Jun 19 00:04:39 dn295/dn295 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1150700686 2006.06.19 dn297 Jun 19 00:04:46 dn297/dn297 ntpd[2293]: synchronized to 10.100.26.250, stratum 3
+- 1150700690 2006.06.19 dn277 Jun 19 00:04:50 dn277/dn277 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1150700700 2006.06.19 dn640 Jun 19 00:05:00 dn640/dn640 ntpd[2242]: synchronized to 10.100.30.250, stratum 3
+- 1150700703 2006.06.19 dn921 Jun 19 00:05:03 dn921/dn921 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1150700704 2006.06.19 dn753 Jun 19 00:05:04 dn753/dn753 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1150700723 2006.06.19 dn224 Jun 19 00:05:23 dn224/dn224 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150700730 2006.06.19 dn266 Jun 19 00:05:30 dn266/dn266 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1150700737 2006.06.19 dn857 Jun 19 00:05:37 dn857/dn857 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1150700739 2006.06.19 dn749 Jun 19 00:05:39 dn749/dn749 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1150700741 2006.06.19 dn743 Jun 19 00:05:41 dn743/dn743 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1150700746 2006.06.19 dn203 Jun 19 00:05:46 dn203/dn203 ntpd[2267]: synchronized to 10.100.24.250, stratum 3
+- 1150700746 2006.06.19 dn550 Jun 19 00:05:46 dn550/dn550 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1150700748 2006.06.19 dn427 Jun 19 00:05:48 dn427/dn427 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1150700753 2006.06.19 dn477 Jun 19 00:05:53 dn477/dn477 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1150700764 2006.06.19 dn19 Jun 19 00:06:04 dn19/dn19 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+- 1150700764 2006.06.19 dn19 Jun 19 00:06:04 dn19/dn19 snmpd[14537]: Got trap from peer on fd 13
+- 1150700771 2006.06.19 dn218 Jun 19 00:06:11 dn218/dn218 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1150700772 2006.06.19 dn405 Jun 19 00:06:12 dn405/dn405 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1150700773 2006.06.19 dn184 Jun 19 00:06:13 dn184/dn184 ntpd[2267]: synchronized to 10.100.30.250, stratum 3
+- 1150700779 2006.06.19 dn424 Jun 19 00:06:19 dn424/dn424 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1150700780 2006.06.19 dn469 Jun 19 00:06:20 dn469/dn469 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1150700781 2006.06.19 dn286 Jun 19 00:06:21 dn286/dn286 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1150700781 2006.06.19 dn491 Jun 19 00:06:21 dn491/dn491 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1150700787 2006.06.19 dn19 Jun 19 00:06:27 dn19/dn19 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+- 1150700787 2006.06.19 dn19 Jun 19 00:06:27 dn19/dn19 snmpd[14537]: Got trap from peer on fd 13
+- 1150700793 2006.06.19 dn219 Jun 19 00:06:33 dn219/dn219 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1150700802 2006.06.19 dn91 Jun 19 00:06:42 dn91/dn91 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1150700805 2006.06.19 dn91 Jun 19 00:06:45 dn91/dn91 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1150700809 2006.06.19 dn497 Jun 19 00:06:49 dn497/dn497 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1150700810 2006.06.19 dn19 Jun 19 00:06:50 dn19/dn19 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+- 1150700810 2006.06.19 dn19 Jun 19 00:06:50 dn19/dn19 snmpd[14537]: Got trap from peer on fd 13
+- 1150700813 2006.06.19 dn263 Jun 19 00:06:53 dn263/dn263 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1150700813 2006.06.19 dn355 Jun 19 00:06:53 dn355/dn355 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1150700814 2006.06.19 dn1003 Jun 19 00:06:54 dn1003/dn1003 sshd(pam_unix)[4227]: session opened for user root by (uid=0)
+- 1150700814 2006.06.19 dn1003 Jun 19 00:06:54 dn1003/dn1003 sshd(pam_unix)[4228]: session opened for user root by (uid=0)
+- 1150700814 2006.06.19 dn1003 Jun 19 00:06:54 dn1003/dn1003 sshd[4223]: Accepted publickey for root from ::ffff:10.100.31.107 port 51029 ssh2
+- 1150700814 2006.06.19 dn1003 Jun 19 00:06:54 dn1003/dn1003 sshd[4224]: Accepted publickey for root from ::ffff:10.100.31.107 port 51030 ssh2
+- 1150700815 2006.06.19 dn92 Jun 19 00:06:55 dn92/dn92 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1150700816 2006.06.19 dn1003 Jun 19 00:06:56 dn1003/dn1003 sshd(pam_unix)[4314]: session opened for user root by (uid=0)
+- 1150700816 2006.06.19 dn1003 Jun 19 00:06:56 dn1003/dn1003 sshd(pam_unix)[4327]: session opened for user root by (uid=0)
+- 1150700816 2006.06.19 dn1003 Jun 19 00:06:56 dn1003/dn1003 sshd[4310]: Accepted publickey for root from ::ffff:10.100.31.107 port 51034 ssh2
+- 1150700816 2006.06.19 dn1003 Jun 19 00:06:56 dn1003/dn1003 sshd[4312]: Accepted publickey for root from ::ffff:10.100.31.107 port 51035 ssh2
+- 1150700818 2006.06.19 dn1003 Jun 19 00:06:58 dn1003/dn1003 sshd(pam_unix)[4401]: session opened for user root by (uid=0)
+- 1150700818 2006.06.19 dn1003 Jun 19 00:06:58 dn1003/dn1003 sshd(pam_unix)[4418]: session opened for user root by (uid=0)
+- 1150700818 2006.06.19 dn1003 Jun 19 00:06:58 dn1003/dn1003 sshd[4397]: Accepted publickey for root from ::ffff:10.100.31.107 port 51039 ssh2
+- 1150700818 2006.06.19 dn1003 Jun 19 00:06:58 dn1003/dn1003 sshd[4399]: Accepted publickey for root from ::ffff:10.100.31.107 port 51040 ssh2
+- 1150700820 2006.06.19 dn1003 Jun 19 00:07:00 dn1003/dn1003 sshd(pam_unix)[4488]: session opened for user root by (uid=0)
+- 1150700820 2006.06.19 dn1003 Jun 19 00:07:00 dn1003/dn1003 sshd(pam_unix)[4502]: session opened for user root by (uid=0)
+- 1150700820 2006.06.19 dn1003 Jun 19 00:07:00 dn1003/dn1003 sshd[4484]: Accepted publickey for root from ::ffff:10.100.31.107 port 51044 ssh2
+- 1150700820 2006.06.19 dn1003 Jun 19 00:07:00 dn1003/dn1003 sshd[4486]: Accepted publickey for root from ::ffff:10.100.31.107 port 51045 ssh2
+- 1150700840 2006.06.19 dn505 Jun 19 00:07:20 dn505/dn505 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1150700842 2006.06.19 dn929 Jun 19 00:07:22 dn929/dn929 sshd(pam_unix)[4901]: session opened for user root by (uid=0)
+- 1150700842 2006.06.19 dn929 Jun 19 00:07:22 dn929/dn929 sshd(pam_unix)[4902]: session opened for user root by (uid=0)
+- 1150700842 2006.06.19 dn929 Jun 19 00:07:22 dn929/dn929 sshd[4897]: Accepted publickey for root from ::ffff:10.100.31.33 port 51062 ssh2
+- 1150700842 2006.06.19 dn929 Jun 19 00:07:22 dn929/dn929 sshd[4898]: Accepted publickey for root from ::ffff:10.100.31.33 port 51063 ssh2
+- 1150700843 2006.06.19 dn1023 Jun 19 00:07:23 dn1023/dn1023 ntpd[2273]: synchronized to 10.100.26.250, stratum 3
+- 1150700843 2006.06.19 dn387 Jun 19 00:07:23 dn387/dn387 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1150700844 2006.06.19 dn929 Jun 19 00:07:24 dn929/dn929 sshd(pam_unix)[4988]: session opened for user root by (uid=0)
+- 1150700844 2006.06.19 dn929 Jun 19 00:07:24 dn929/dn929 sshd[4984]: Accepted publickey for root from ::ffff:10.100.31.33 port 51067 ssh2
+- 1150700844 2006.06.19 dn929 Jun 19 00:07:24 dn929/dn929 sshd[4986]: Accepted publickey for root from ::ffff:10.100.31.33 port 51068 ssh2
+- 1150700845 2006.06.19 dn929 Jun 19 00:07:25 dn929/dn929 sshd(pam_unix)[5003]: session opened for user root by (uid=0)
+- 1150700846 2006.06.19 dn929 Jun 19 00:07:26 dn929/dn929 sshd(pam_unix)[5075]: session opened for user root by (uid=0)
+- 1150700846 2006.06.19 dn929 Jun 19 00:07:26 dn929/dn929 sshd(pam_unix)[5077]: session opened for user root by (uid=0)
+- 1150700846 2006.06.19 dn929 Jun 19 00:07:26 dn929/dn929 sshd[5071]: Accepted publickey for root from ::ffff:10.100.31.33 port 51072 ssh2
+- 1150700846 2006.06.19 dn929 Jun 19 00:07:26 dn929/dn929 sshd[5072]: Accepted publickey for root from ::ffff:10.100.31.33 port 51073 ssh2
+- 1150700848 2006.06.19 dn929 Jun 19 00:07:28 dn929/dn929 sshd(pam_unix)[5162]: session opened for user root by (uid=0)
+- 1150700848 2006.06.19 dn929 Jun 19 00:07:28 dn929/dn929 sshd(pam_unix)[5169]: session opened for user root by (uid=0)
+- 1150700848 2006.06.19 dn929 Jun 19 00:07:28 dn929/dn929 sshd[5158]: Accepted publickey for root from ::ffff:10.100.31.33 port 51077 ssh2
+- 1150700848 2006.06.19 dn929 Jun 19 00:07:28 dn929/dn929 sshd[5160]: Accepted publickey for root from ::ffff:10.100.31.33 port 51078 ssh2
+- 1150700871 2006.06.19 dn370 Jun 19 00:07:51 dn370/dn370 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1150700874 2006.06.19 dn460 Jun 19 00:07:54 dn460/dn460 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1150700878 2006.06.19 dn360 Jun 19 00:07:58 dn360/dn360 sshd(pam_unix)[3347]: session opened for user root by (uid=0)
+- 1150700878 2006.06.19 dn360 Jun 19 00:07:58 dn360/dn360 sshd(pam_unix)[3348]: session opened for user root by (uid=0)
+- 1150700878 2006.06.19 dn360 Jun 19 00:07:58 dn360/dn360 sshd[3343]: Accepted publickey for root from ::ffff:10.100.26.104 port 54069 ssh2
+- 1150700878 2006.06.19 dn360 Jun 19 00:07:58 dn360/dn360 sshd[3344]: Accepted publickey for root from ::ffff:10.100.26.104 port 54070 ssh2
+- 1150700880 2006.06.19 dn360 Jun 19 00:08:00 dn360/dn360 sshd(pam_unix)[3434]: session opened for user root by (uid=0)
+- 1150700880 2006.06.19 dn360 Jun 19 00:08:00 dn360/dn360 sshd(pam_unix)[3451]: session opened for user root by (uid=0)
+- 1150700880 2006.06.19 dn360 Jun 19 00:08:00 dn360/dn360 sshd[3430]: Accepted publickey for root from ::ffff:10.100.26.104 port 54074 ssh2
+- 1150700880 2006.06.19 dn360 Jun 19 00:08:00 dn360/dn360 sshd[3432]: Accepted publickey for root from ::ffff:10.100.26.104 port 54075 ssh2
+- 1150700882 2006.06.19 dn360 Jun 19 00:08:02 dn360/dn360 sshd(pam_unix)[3521]: session opened for user root by (uid=0)
+- 1150700882 2006.06.19 dn360 Jun 19 00:08:02 dn360/dn360 sshd(pam_unix)[3522]: session opened for user root by (uid=0)
+- 1150700882 2006.06.19 dn360 Jun 19 00:08:02 dn360/dn360 sshd[3517]: Accepted publickey for root from ::ffff:10.100.26.104 port 54079 ssh2
+- 1150700882 2006.06.19 dn360 Jun 19 00:08:02 dn360/dn360 sshd[3518]: Accepted publickey for root from ::ffff:10.100.26.104 port 54080 ssh2
+- 1150700884 2006.06.19 dn360 Jun 19 00:08:04 dn360/dn360 sshd(pam_unix)[3608]: session opened for user root by (uid=0)
+- 1150700884 2006.06.19 dn360 Jun 19 00:08:04 dn360/dn360 sshd(pam_unix)[3615]: session opened for user root by (uid=0)
+- 1150700884 2006.06.19 dn360 Jun 19 00:08:04 dn360/dn360 sshd[3604]: Accepted publickey for root from ::ffff:10.100.26.104 port 54084 ssh2
+- 1150700884 2006.06.19 dn360 Jun 19 00:08:04 dn360/dn360 sshd[3606]: Accepted publickey for root from ::ffff:10.100.26.104 port 54085 ssh2
+- 1150700887 2006.06.19 dn359 Jun 19 00:08:07 dn359/dn359 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1150700891 2006.06.19 dn829 Jun 19 00:08:11 dn829/dn829 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1150700892 2006.06.19 dn126 Jun 19 00:08:12 dn126/dn126 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1150700896 2006.06.19 dn414 Jun 19 00:08:16 dn414/dn414 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1150700901 2006.06.19 dn855 Jun 19 00:08:21 dn855/dn855 ntpd[2261]: synchronized to 10.100.28.250, stratum 3
+- 1150700902 2006.06.19 dn828 Jun 19 00:08:22 dn828/dn828 ntpd[2276]: synchronized to 10.100.24.250, stratum 3
+- 1150700929 2006.06.19 dn861 Jun 19 00:08:49 dn861/dn861 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1150700932 2006.06.19 dn317 Jun 19 00:08:52 dn317/dn317 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1150700933 2006.06.19 dn590 Jun 19 00:08:53 dn590/dn590 ntpd[2343]: synchronized to 10.100.30.250, stratum 3
+- 1150700954 2006.06.19 dn311 Jun 19 00:09:14 dn311/dn311 ntpd[2294]: synchronized to 10.100.26.250, stratum 3
+- 1150700956 2006.06.19 dn449 Jun 19 00:09:16 dn449/dn449 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1150700958 2006.06.19 dn96 Jun 19 00:09:18 dn96/dn96 ntpd[2269]: synchronized to 10.100.26.250, stratum 3
+- 1150700959 2006.06.19 dn232 Jun 19 00:09:19 dn232/dn232 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1150700962 2006.06.19 dn828 Jun 19 00:09:22 dn828/dn828 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1150700963 2006.06.19 dn97 Jun 19 00:09:23 dn97/dn97 ntpd[2282]: synchronized to 10.100.28.250, stratum 3
+- 1150700964 2006.06.19 dn24 Jun 19 00:09:24 dn24/dn24 ntpd[2281]: synchronized to 10.100.30.250, stratum 3

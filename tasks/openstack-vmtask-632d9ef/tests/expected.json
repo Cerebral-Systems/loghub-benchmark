@@ -1,0 +1,129 @@
+{
+  "allowed_root_causes": [
+    "vm_task_failure",
+    "network_error",
+    "image_pull_failure",
+    "other"
+  ],
+  "anomaly_keys": [
+    "544fd51c-4edc-4780-baae-ba1d80a0acfc"
+  ],
+  "evidence": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1962
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1963
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1964
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1965
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1966
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1967
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1968
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1969
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1970
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1975
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1976
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1977
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1981
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1982
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1983
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1984
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1985
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1986
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1997
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1998
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1999
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 2000
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 2001
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 2002
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 2015
+    }
+  ],
+  "files": [
+    "openstack-nova-api.log",
+    "openstack-nova-compute.log",
+    "openstack-nova-scheduler.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "vm_task_failure",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

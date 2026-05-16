@@ -1,0 +1,382 @@
+- 1150700255 2006.06.18 aadmin1 Jun 18 23:57:35 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700259 2006.06.18 aadmin1 Jun 18 23:57:39 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# crond(pam_unix)[6075]: session closed for user #26#
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/cleanup[6115]: 6D624F200A9: message-id=<20060619055752.6D624F200A9@#56#.#207#>
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/cleanup[6115]: 78E0EF20092: message-id=<20060619055752.78E0EF20092@#56#.#207#>
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/local[6117]: 6D624F200A9: to=<#26#@#56#.#207#>, orig_to=<#26#>, relay=local, delay=0, status=bounced (cannot access mailbox /var/mail/#26# for user #26#. error writing message: File too large)
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/pickup[5499]: 6D624F200A9: uid=50055 from=<#26#>
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/qmgr[3261]: 6D624F200A9: from=<#26#@#207#>, size=303479, nrcpt=1 (queue active)
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/qmgr[3261]: 6D624F200A9: removed
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/qmgr[3261]: 78E0EF20092: from=<>, size=52084, nrcpt=1 (queue active)
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/qmgr[3261]: 78E0EF20092: removed
+- 1150700272 2006.06.18 #56# Jun 18 23:57:52 #56#/#56# postfix/smtp[6119]: 78E0EF20092: to=<#26#@#207#>, relay=#211#[#212#], delay=0, status=bounced (host #211#[#212#] said: 550 5.1.1 <#26#@#207#>... User unknown (in reply to RCPT TO command))
+- 1150700289 2006.06.18 aadmin1 Jun 18 23:58:09 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700293 2006.06.18 aadmin1 Jun 18 23:58:13 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700300 2006.06.18 badmin1 Jun 18 23:58:20 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700300 2006.06.18 badmin2 Jun 18 23:58:20 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700300 2006.06.18 badmin3 Jun 18 23:58:20 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700300 2006.06.18 badmin4 Jun 18 23:58:20 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700322 2006.06.18 aadmin1 Jun 18 23:58:42 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700324 2006.06.18 aadmin1 Jun 18 23:58:44 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700341 2006.06.18 #56# Jun 18 23:59:01 #56#/#56# crond(pam_unix)[6121]: session opened for user #57# by (uid=0)
+- 1150700341 2006.06.18 #56# Jun 18 23:59:01 #56#/#56# crond[6122]: (#57#) CMD (/home/#57#/ping2.sh)
+- 1150700347 2006.06.18 aadmin1 Jun 18 23:59:07 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700350 2006.06.18 aadmin1 Jun 18 23:59:10 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700351 2006.06.18 #56# Jun 18 23:59:11 #56#/#56# crond(pam_unix)[6121]: session closed for user #57#
+- 1150700364 2006.06.18 badmin1 Jun 18 23:59:24 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700364 2006.06.18 badmin2 Jun 18 23:59:24 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700364 2006.06.18 badmin3 Jun 18 23:59:24 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700364 2006.06.18 badmin4 Jun 18 23:59:24 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700374 2006.06.18 aadmin1 Jun 18 23:59:34 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700378 2006.06.18 aadmin1 Jun 18 23:59:38 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700379 2006.06.18 #2116# Jun 18 23:59:39 #2116#/#2116# crond(pam_unix)[5111]: session closed for user root
+- 1150700379 2006.06.18 #2116# Jun 18 23:59:39 #2116#/#2116# crond(pam_unix)[5111]: session opened for user root by (uid=0)
+- 1150700379 2006.06.18 #2116# Jun 18 23:59:39 #2116#/#2116# crond[5112]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1150700401 2006.06.19 aadmin1 Jun 19 00:00:01 src@aadmin1 crond(pam_unix)[23338]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 aadmin1 Jun 19 00:00:01 src@aadmin1 crond[23339]: (root) CMD (/projects/tbird/temps/get_temps a &> /dev/null)
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond(pam_unix)[8993]: session closed for user root
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: banner: Kerberos 5
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: ccache dir: /tmp
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: configured realm '#24#'
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: flag: no ignore_afs
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: flag: no krb4_convert
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: flag: user_check
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: flag: validate
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: flag: warn
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8993]: pam_krb5[8993]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #8# Jun 19 00:00:01 #8#/#8# crond[8994]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond(pam_unix)[5242]: session closed for user root
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: banner: Kerberos 5
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: ccache dir: /tmp
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: configured realm '#24#'
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: flag: no ignore_afs
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: flag: no krb4_convert
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: flag: user_check
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: flag: validate
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: flag: warn
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5242]: pam_krb5[5242]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #1# Jun 19 00:00:01 #1#/#1# crond[5243]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 badmin1 Jun 19 00:00:01 src@badmin1 crond(pam_unix)[11483]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 badmin1 Jun 19 00:00:01 src@badmin1 crond[11484]: (root) CMD (/projects/tbird/temps/get_temps b &> /dev/null)
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond(pam_unix)[10543]: session closed for user root
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: banner: Kerberos 5
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: ccache dir: /tmp
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: configured realm '#24#'
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: flag: no ignore_afs
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: flag: no krb4_convert
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: flag: user_check
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: flag: validate
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: flag: warn
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10543]: pam_krb5[10543]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #21# Jun 19 00:00:01 #21#/#21# crond[10544]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond(pam_unix)[32280]: session closed for user root
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: banner: Kerberos 5
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: ccache dir: /tmp
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: configured realm '#24#'
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: flag: no ignore_afs
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: flag: no krb4_convert
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: flag: user_check
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: flag: validate
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: flag: warn
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32280]: pam_krb5[32280]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #31# Jun 19 00:00:01 #31#/#31# crond[32281]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 br1iblsw2 Jun 19 00:00:01 br1iblsw2/br1iblsw2 port_mgr.x[507]: [INFO]: port down - port=1/18, type=ib4xTX
+- 1150700401 2006.06.19 cadmin1 Jun 19 00:00:01 src@cadmin1 crond(pam_unix)[1244]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 cadmin1 Jun 19 00:00:01 src@cadmin1 crond[1245]: (root) CMD (/projects/tbird/temps/get_temps c &> /dev/null)
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond(pam_unix)[31515]: session closed for user root
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: banner: Kerberos 5
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: ccache dir: /tmp
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: configured realm '#24#'
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: flag: no ignore_afs
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: flag: no krb4_convert
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: flag: user_check
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: flag: validate
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: flag: warn
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31515]: pam_krb5[31515]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #9# Jun 19 00:00:01 #9#/#9# crond[31516]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond(pam_unix)[8732]: session closed for user root
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: banner: Kerberos 5
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: ccache dir: /tmp
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: configured realm '#24#'
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: flag: no ignore_afs
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: flag: no krb4_convert
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: flag: user_check
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: flag: validate
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: flag: warn
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8732]: pam_krb5[8732]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #32# Jun 19 00:00:01 #32#/#32# crond[8733]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 dadmin1 Jun 19 00:00:01 src@dadmin1 crond(pam_unix)[9114]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 dadmin1 Jun 19 00:00:01 src@dadmin1 crond[9115]: (root) CMD (/projects/tbird/temps/get_temps d &> /dev/null)
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond(pam_unix)[21133]: session closed for user root
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: banner: Kerberos 5
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: ccache dir: /tmp
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: configured realm '#24#'
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: flag: no ignore_afs
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: flag: no krb4_convert
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: flag: user_check
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: flag: validate
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: flag: warn
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21133]: pam_krb5[21133]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #33# Jun 19 00:00:01 #33#/#33# crond[21134]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond(pam_unix)[1334]: session closed for user root
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond(pam_unix)[1334]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: banner: Kerberos 5
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: banner: Kerberos 5
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: ccache dir: /tmp
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: ccache dir: /tmp
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: configured realm '#24#'
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: configured realm '#24#'
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: no ignore_afs
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: no ignore_afs
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: no krb4_convert
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: no krb4_convert
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: user_check
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: user_check
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: validate
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: validate
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: warn
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flag: warn
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: flags: forwardable not proxiable
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: keytab: /etc/v5srvtab
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: no v5 creds for user 'root', skipping session cleanup
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: no v5 creds for user 'root', skipping session setup
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: pam_close_session returning 0 (Success)
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: pam_open_session returning 0 (Success)
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: renewable lifetime: 36000
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1334]: pam_krb5[1334]: ticket lifetime: 36000
+- 1150700401 2006.06.19 #25# Jun 19 00:00:01 #25#/#25# crond[1335]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700401 2006.06.19 eadmin1 Jun 19 00:00:01 src@eadmin1 crond(pam_unix)[19020]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 eadmin1 Jun 19 00:00:01 src@eadmin1 crond[19021]: (root) CMD (/projects/tbird/temps/get_temps e &> /dev/null)
+- 1150700401 2006.06.19 #56# Jun 19 00:00:01 #56#/#56# crond(pam_unix)[6155]: session closed for user root
+- 1150700401 2006.06.19 #56# Jun 19 00:00:01 #56#/#56# crond(pam_unix)[6155]: session opened for user root by (uid=0)
+- 1150700401 2006.06.19 #56# Jun 19 00:00:01 #56#/#56# crond[6156]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700404 2006.06.19 aadmin1 Jun 19 00:00:04 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700407 2006.06.19 aadmin1 Jun 19 00:00:07 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700419 2006.06.19 tsqe1 Jun 19 00:00:19 tsqe1/tsqe1 sshd[2395]: connection from "#133#"
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd2[22904]: Now running on #41#'s privileges.
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd2[22912]: Now running on #41#'s privileges.
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[22902]: Local disconnected: Connection closed.
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[22902]: User #41#, coming from #134#, authenticated.
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[22902]: connection lost: 'Connection closed.'
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[22910]: Local disconnected: Connection closed.
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[22910]: User #41#, coming from #134#, authenticated.
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[22910]: connection lost: 'Connection closed.'
+- 1150700420 2006.06.19 tsqe1 Jun 19 00:00:20 tsqe1/tsqe1 sshd[2395]: connection from "#133#"
+- 1150700420 2006.06.19 tsqe2 Jun 19 00:00:20 tsqe2/tsqe2 sshd[2466]: connection from "#133#"
+- 1150700421 2006.06.19 tsqe2 Jun 19 00:00:21 tsqe2/tsqe2 sshd2[24105]: Now running on #41#'s privileges.
+- 1150700421 2006.06.19 tsqe2 Jun 19 00:00:21 tsqe2/tsqe2 sshd[24103]: User #41#, coming from #134#, authenticated.
+- 1150700421 2006.06.19 tsqe2 Jun 19 00:00:21 tsqe2/tsqe2 sshd[2466]: connection from "#133#"
+- 1150700422 2006.06.19 tsqe2 Jun 19 00:00:22 tsqe2/tsqe2 sshd2[24121]: Now running on #41#'s privileges.
+- 1150700422 2006.06.19 tsqe2 Jun 19 00:00:22 tsqe2/tsqe2 sshd[24103]: Local disconnected: Connection closed.
+- 1150700422 2006.06.19 tsqe2 Jun 19 00:00:22 tsqe2/tsqe2 sshd[24103]: connection lost: 'Connection closed.'
+- 1150700422 2006.06.19 tsqe2 Jun 19 00:00:22 tsqe2/tsqe2 sshd[24111]: User #41#, coming from #134#, authenticated.
+- 1150700423 2006.06.19 tsqe2 Jun 19 00:00:23 tsqe2/tsqe2 sshd[24111]: Local disconnected: Connection closed.
+- 1150700423 2006.06.19 tsqe2 Jun 19 00:00:23 tsqe2/tsqe2 sshd[24111]: connection lost: 'Connection closed.'
+- 1150700428 2006.06.19 badmin1 Jun 19 00:00:28 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700428 2006.06.19 badmin2 Jun 19 00:00:28 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700428 2006.06.19 badmin3 Jun 19 00:00:28 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700428 2006.06.19 badmin4 Jun 19 00:00:28 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700432 2006.06.19 eadmin1 Jun 19 00:00:32 src@eadmin1 crond(pam_unix)[19020]: session closed for user root
+- 1150700434 2006.06.19 aadmin1 Jun 19 00:00:34 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700436 2006.06.19 aadmin1 Jun 19 00:00:36 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700437 2006.06.19 aadmin1 Jun 19 00:00:37 src@aadmin1 crond(pam_unix)[23338]: session closed for user root
+- 1150700437 2006.06.19 badmin1 Jun 19 00:00:37 src@badmin1 crond(pam_unix)[11483]: session closed for user root
+- 1150700438 2006.06.19 cadmin1 Jun 19 00:00:38 src@cadmin1 crond(pam_unix)[1244]: session closed for user root
+- 1150700438 2006.06.19 dadmin1 Jun 19 00:00:38 src@dadmin1 crond(pam_unix)[9114]: session closed for user root
+- 1150700460 2006.06.19 aadmin1 Jun 19 00:01:00 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700461 2006.06.19 aadmin2 Jun 19 00:01:01 src@aadmin2 crond(pam_unix)[4589]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 aadmin3 Jun 19 00:01:01 src@aadmin3 crond(pam_unix)[21550]: session closed for user root
+- 1150700461 2006.06.19 aadmin3 Jun 19 00:01:01 src@aadmin3 crond(pam_unix)[21550]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 aadmin3 Jun 19 00:01:01 src@aadmin3 crond[21551]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 aadmin4 Jun 19 00:01:01 src@aadmin4 crond(pam_unix)[29887]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 aadmin4 Jun 19 00:01:01 src@aadmin4 crond[29888]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 #8# Jun 19 00:01:01 #8#/#8# crond(pam_unix)[8996]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 #8# Jun 19 00:01:01 #8#/#8# crond[8996]: pam_krb5[8996]: keytab: /etc/v5srvtab
+- 1150700461 2006.06.19 #1# Jun 19 00:01:01 #1#/#1# crond(pam_unix)[5245]: session closed for user root
+- 1150700461 2006.06.19 #1# Jun 19 00:01:01 #1#/#1# crond[5245]: pam_krb5[5245]: flags: forwardable not proxiable
+- 1150700461 2006.06.19 #1# Jun 19 00:01:01 #1#/#1# crond[5245]: pam_krb5[5245]: keytab: /etc/v5srvtab
+- 1150700461 2006.06.19 #1# Jun 19 00:01:01 #1#/#1# crond[5246]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 #31# Jun 19 00:01:01 #31#/#31# crond(pam_unix)[32295]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 #31# Jun 19 00:01:01 #31#/#31# crond[32295]: pam_krb5[32295]: flag: user_check
+- 1150700461 2006.06.19 cadmin1 Jun 19 00:01:01 src@cadmin1 crond(pam_unix)[4366]: session closed for user root
+- 1150700461 2006.06.19 cadmin1 Jun 19 00:01:01 src@cadmin1 crond(pam_unix)[4366]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 cadmin1 Jun 19 00:01:01 src@cadmin1 crond[4367]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 #9# Jun 19 00:01:01 #9#/#9# crond[31518]: pam_krb5[31518]: flag: warn
+- 1150700461 2006.06.19 dadmin2 Jun 19 00:01:01 src@dadmin2 crond(pam_unix)[15297]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 #33# Jun 19 00:01:01 #33#/#33# crond[21136]: pam_krb5[21136]: configured realm '#24#'
+- 1150700461 2006.06.19 eadmin1 Jun 19 00:01:01 src@eadmin1 crond(pam_unix)[22099]: session closed for user root
+- 1150700461 2006.06.19 eadmin2 Jun 19 00:01:01 src@eadmin2 crond(pam_unix)[8556]: session closed for user root
+- 1150700461 2006.06.19 #56# Jun 19 00:01:01 #56#/#56# crond(pam_unix)[6158]: session closed for user root
+- 1150700461 2006.06.19 #56# Jun 19 00:01:01 #56#/#56# crond(pam_unix)[6158]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 #56# Jun 19 00:01:01 #56#/#56# crond(pam_unix)[6160]: session opened for user root by (uid=0)
+- 1150700461 2006.06.19 #56# Jun 19 00:01:01 #56#/#56# crond[6159]: (root) CMD (run-parts /etc/cron.hourly)
+- 1150700461 2006.06.19 #56# Jun 19 00:01:01 #56#/#56# crond[6161]: (root) CMD (/u1/metrics/bin/collect_scheduler)
+- 1150700461 2006.06.19 tsqe2 Jun 19 00:01:01 tsqe2/tsqe2 crond(pam_unix)[24228]: session opened for user root by (uid=0)
+- 1150700462 2006.06.19 #56# Jun 19 00:01:02 #56#/#56# crond(pam_unix)[6160]: session closed for user root
+- 1150700466 2006.06.19 aadmin1 Jun 19 00:01:06 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700490 2006.06.19 aadmin1 Jun 19 00:01:30 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700492 2006.06.19 badmin1 Jun 19 00:01:32 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700492 2006.06.19 badmin2 Jun 19 00:01:32 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700492 2006.06.19 badmin3 Jun 19 00:01:32 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700492 2006.06.19 badmin4 Jun 19 00:01:32 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700499 2006.06.19 aadmin1 Jun 19 00:01:39 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700508 2006.06.19 cadmin2 Jun 19 00:01:48 src@cadmin2 ntpd[1876]: synchronized to 10.100.24.251, stratum 2
+- 1150700515 2006.06.19 aadmin1 Jun 19 00:01:55 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: authenticating '#65#@#24#' to 'krbtgt/#24#@#24#'
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: banner: Kerberos 5
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: ccache dir: /tmp
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: configured realm '#24#'
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: flag: no ignore_afs
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: flag: no krb4_convert
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: flag: user_check
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: flag: validate
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: flag: warn
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: flags: forwardable not proxiable
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: keytab: /etc/v5srvtab
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: renewable lifetime: 36000
+- 1150700521 2006.06.19 #21# Jun 19 00:02:01 #21#/#21# crond[10548]: pam_krb5[10548]: ticket lifetime: 36000
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond(pam_unix)[10548]: session opened for user #65# by (uid=0)
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: banner: Kerberos 5
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: ccache dir: /tmp
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: configured realm '#24#'
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: flag: no ignore_afs
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: flag: no krb4_convert
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: flag: user_check
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: flag: validate
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: flag: warn
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: flags: forwardable not proxiable
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: keytab: /etc/v5srvtab
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328353 (Decrypt integrity check failed)
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: no v5 creds for user '#65#', skipping session setup
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: pam_acct_mgmt returning 0 (Success)
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: pam_open_session returning 0 (Success)
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: renewable lifetime: 36000
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10548]: pam_krb5[10548]: ticket lifetime: 36000
+- 1150700523 2006.06.19 #21# Jun 19 00:02:03 #21#/#21# crond[10549]: (#65#) CMD (csh -x /home/#65#/salinas/tbird/cron_script.tbird > /home/#65#/salinas/tbird/VOTD/crontab.log 2>&1)
+- 1150700527 2006.06.19 aadmin1 Jun 19 00:02:07 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700540 2006.06.19 aadmin1 Jun 19 00:02:20 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700554 2006.06.19 aadmin1 Jun 19 00:02:34 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700556 2006.06.19 badmin1 Jun 19 00:02:36 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700556 2006.06.19 badmin2 Jun 19 00:02:36 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700556 2006.06.19 badmin3 Jun 19 00:02:36 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700556 2006.06.19 badmin4 Jun 19 00:02:36 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700566 2006.06.19 aadmin1 Jun 19 00:02:46 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700580 2006.06.19 aadmin1 Jun 19 00:03:00 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700592 2006.06.19 aadmin1 Jun 19 00:03:12 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700607 2006.06.19 aadmin1 Jun 19 00:03:27 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700620 2006.06.19 badmin1 Jun 19 00:03:40 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700620 2006.06.19 badmin2 Jun 19 00:03:40 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700620 2006.06.19 badmin3 Jun 19 00:03:40 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700620 2006.06.19 badmin4 Jun 19 00:03:40 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700625 2006.06.19 aadmin1 Jun 19 00:03:45 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700637 2006.06.19 aadmin1 Jun 19 00:03:57 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700657 2006.06.19 aadmin1 Jun 19 00:04:17 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700666 2006.06.19 aadmin1 Jun 19 00:04:26 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700675 2006.06.19 cadmin1 Jun 19 00:04:35 src@cadmin1 ntpd[1878]: synchronized to 10.100.248.3, stratum 2
+- 1150700680 2006.06.19 #2116# Jun 19 00:04:40 #2116#/#2116# crond(pam_unix)[5113]: session closed for user root
+- 1150700680 2006.06.19 #2116# Jun 19 00:04:40 #2116#/#2116# crond(pam_unix)[5113]: session opened for user root by (uid=0)
+- 1150700680 2006.06.19 #2116# Jun 19 00:04:40 #2116#/#2116# crond(pam_unix)[5114]: session closed for user root
+- 1150700680 2006.06.19 #2116# Jun 19 00:04:40 #2116#/#2116# crond(pam_unix)[5114]: session opened for user root by (uid=0)
+- 1150700680 2006.06.19 #2116# Jun 19 00:04:40 #2116#/#2116# crond[5115]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1150700680 2006.06.19 #2116# Jun 19 00:04:40 #2116#/#2116# crond[5116]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150700684 2006.06.19 aadmin1 Jun 19 00:04:44 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700684 2006.06.19 badmin1 Jun 19 00:04:44 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700684 2006.06.19 badmin2 Jun 19 00:04:44 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700684 2006.06.19 badmin3 Jun 19 00:04:44 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700684 2006.06.19 badmin4 Jun 19 00:04:44 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700699 2006.06.19 aadmin1 Jun 19 00:04:59 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700701 2006.06.19 #56# Jun 19 00:05:01 #56#/#56# crond(pam_unix)[6179]: session opened for user root by (uid=0)
+- 1150700701 2006.06.19 #56# Jun 19 00:05:01 #56#/#56# crond[6180]: (root) CMD (/apps/contrib/issues/pull_issues_table &>/dev/null)
+- 1150700703 2006.06.19 #56# Jun 19 00:05:03 #56#/#56# crond(pam_unix)[6179]: session closed for user root
+- 1150700715 2006.06.19 aadmin1 Jun 19 00:05:15 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700725 2006.06.19 aadmin1 Jun 19 00:05:25 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700742 2006.06.19 aadmin1 Jun 19 00:05:42 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700748 2006.06.19 badmin1 Jun 19 00:05:48 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700748 2006.06.19 badmin2 Jun 19 00:05:48 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700748 2006.06.19 badmin3 Jun 19 00:05:48 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700748 2006.06.19 badmin4 Jun 19 00:05:48 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700751 2006.06.19 aadmin1 Jun 19 00:05:51 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700771 2006.06.19 aadmin1 Jun 19 00:06:11 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700785 2006.06.19 aadmin1 Jun 19 00:06:25 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700802 2006.06.19 aadmin1 Jun 19 00:06:42 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700812 2006.06.19 badmin1 Jun 19 00:06:52 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700812 2006.06.19 badmin2 Jun 19 00:06:52 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700812 2006.06.19 badmin3 Jun 19 00:06:52 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700812 2006.06.19 badmin4 Jun 19 00:06:52 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700814 2006.06.19 aadmin1 Jun 19 00:06:54 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700835 2006.06.19 aadmin1 Jun 19 00:07:15 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700844 2006.06.19 aadmin1 Jun 19 00:07:24 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700853 2006.06.19 cadmin3 Jun 19 00:07:33 src@cadmin3 ntpd[1874]: synchronized to 10.100.20.251, stratum 2
+- 1150700865 2006.06.19 aadmin1 Jun 19 00:07:45 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700876 2006.06.19 badmin1 Jun 19 00:07:56 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700876 2006.06.19 badmin2 Jun 19 00:07:56 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700876 2006.06.19 badmin3 Jun 19 00:07:56 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700876 2006.06.19 badmin4 Jun 19 00:07:56 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700878 2006.06.19 aadmin1 Jun 19 00:07:58 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700893 2006.06.19 aadmin1 Jun 19 00:08:13 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700908 2006.06.19 aadmin1 Jun 19 00:08:28 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700920 2006.06.19 aadmin1 Jun 19 00:08:40 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150700940 2006.06.19 aadmin1 Jun 19 00:09:00 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150700940 2006.06.19 badmin1 Jun 19 00:09:00 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700940 2006.06.19 badmin2 Jun 19 00:09:00 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700940 2006.06.19 badmin3 Jun 19 00:09:00 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700940 2006.06.19 badmin4 Jun 19 00:09:00 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150700952 2006.06.19 aadmin1 Jun 19 00:09:12 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource

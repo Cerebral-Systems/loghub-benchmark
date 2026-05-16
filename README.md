@@ -1,180 +1,157 @@
-# Loghub SRE Harbor Benchmark
+# Loghub SRE Harbor benchmark
 
-Loghub SRE Harbor Benchmark turns local [Loghub](https://github.com/logpai/loghub)
-datasets into Harbor-style offline SRE investigation tasks.
+A Harbor-compatible benchmark for SRE log-investigation skills.
+60 curated tasks built from the Loghub corpus (`logpai/loghub`).
+Each task ships a Docker environment with 3–6 partitioned log files
+totalling 5k–30k lines and asks the agent to **locate the anomaly**,
+**cite verbatim evidence** as `(file, line, snippet)` tuples,
+**classify the root cause** against a dataset-specific taxonomy, and
+**recommend a safe SRE action**. The verifier checks
+`/app/answer.json` end-to-end — there is no partial credit.
 
-The benchmark is intentionally log-only. It evaluates whether an agent can:
+## What's in the box
 
-- find incident/anomaly lines in large logs
-- cite exact line IDs as evidence
-- classify a bounded root-cause type
-- recommend a safe SRE next step
-- avoid hallucinated evidence and unsafe production mutations
+| Dataset | Tasks | Anomaly source | Partition strategy |
+|---|---|---|---|
+| HDFS_v1 | 18 | 575k labelled blocks; heuristic root-cause from `Got exception while serving`, `BLOCK_NOT_FOUND`, replication patterns | by Component (NameNode / DataNode-a / DataNode-b / FSNamesystem) |
+| Hadoop | 12 | Gold labels from `abnormal_label.txt` (machine_down / disk_full / network_disconnect) | by component (MRAppMaster / mapreduce / yarn) |
+| BGL | 15 | Inline 0th-column alert tag (KERNDTLB, APPSEV, KERNSTOR, …) | by rack number mod 3 |
+| Thunderbird | 10 | Same inline format as BGL | by hostname role (compute / edge / domain / …) |
+| OpenStack | 5 | 4 anomalous VM UUIDs from `anomaly_labels.txt` (rapid-destroy faults) | by OpenStack service (nova-api / nova-compute / nova-scheduler) |
 
-## Tracks
+Total: 60 tasks. Distribution and rationale: see [docs/dataset-adapters.md](docs/dataset-adapters.md).
 
-- `gold`: label-backed cases only; use this for publishable claims.
-- `silver`: heuristic regex anomaly cases; use this for regression and scale.
-- `stress`: large-window cases for context, latency, and cost pressure.
+## How a task works
+
+```
+tasks/<slug>/
+├── instruction.md       # what the agent sees
+├── task.toml            # Harbor metadata (adapter-spec schema)
+├── environment/
+│   ├── Dockerfile       # ubuntu:24.04 + python3-pytest, allow_internet=false
+│   └── data/
+│       ├── <component-1>.log
+│       └── <component-N>.log
+├── solution/
+│   ├── solve.sh         # oracle path
+│   ├── derive_answer.py # builds answer.json by reading the visible logs
+│   └── oracle_hints.json # (file, line) coords + root cause; oracle-only
+└── tests/
+    ├── test.sh          # pytest entry the verifier runs
+    ├── test_state.py    # 12 assertions against /app/answer.json
+    └── expected.json    # ground truth — never visible to the agent
+```
+
+## Answer schema
+
+The agent must emit `/app/answer.json` matching:
+
+```json
+{
+  "schema_version": "loghub-sre-answer-v2",
+  "is_incident": true,
+  "evidence": [
+    { "file": "hdfs-datanode-a.log", "line": 47,
+      "snippet": "Got exception while serving blk_-..." }
+  ],
+  "anomaly_keys": ["blk_-..."],
+  "root_cause_type": "datanode_unreachable",
+  "recommended_action": "investigate"
+}
+```
+
+Verifier assertions (`tests/test_state.py`): valid JSON, schema match,
+referenced files exist, line numbers in range, snippets present
+verbatim, every cited `(file, line)` is in the ground-truth set,
+`root_cause_type` is in the dataset's allowed taxonomy and matches the
+gold label, `recommended_action` is one of
+`{escalate, investigate, no_action, open_incident, page_owner}`.
+
+Full per-test breakdown: [docs/scoring.md](docs/scoring.md).
 
 ## Install
 
 ```bash
-python -m pip install -e .
+pip install harbor  # the test harness
+git clone https://github.com/<owner>/loghub-benchmark
+cd loghub-benchmark
+make unit            # adapter + exporter tests (instant)
 ```
 
-The package uses only the Python standard library.
+To run the benchmark itself you need Docker and the corpus on disk —
+see [docs/data-setup.md](docs/data-setup.md).
 
-## Demo
-
-For a tiny end-to-end smoke test using the included `examples/tiny.log`, see
-[`docs/DEMO.md`](docs/DEMO.md).
-
-## Data
-
-This repository does **not** include the full Loghub corpus. Loghub is a large
-external dataset, so users download or mount it separately and point the
-benchmark at the local files.
-
-Good starting points:
-
-- Loghub GitHub repository: `https://github.com/logpai/loghub`
-- Loghub archive/mirror links referenced by the Loghub project
-
-Expected local shape can be either a single log file:
-
-```text
-/data/loghub/Apache/Apache.log
-```
-
-or a dataset directory:
-
-```text
-/data/loghub/HDFS/
-  HDFS.log
-  anomaly_label.csv        # optional, when available
-```
-
-Label files are optional. If a CSV file has a label-like name or a label column
-such as `Label`, `Anomaly`, `is_anomaly`, `Failure`, `Status`, or `Class`,
-positive rows are used to create `gold` cases. This includes Loghub's standard
-`*_structured.csv` files when they contain a `Label` column. Otherwise
-anomaly-looking lines become `silver` cases.
-
-## Build Cases
+## Run a task
 
 ```bash
-loghub-benchmark build \
-  --dataset HDFS \
-  --input /path/to/loghub/HDFS \
-  --output .benchmark/loghub-hdfs \
-  --max-cases 1000
+harbor run -p tasks/hdfs-datanode-0b694b5 --agent oracle    # reward=1
+harbor run -p tasks/hdfs-datanode-0b694b5 --agent nop       # reward=0
 ```
 
-The build step writes deterministic case JSON under `cases/` plus a manifest.
-If label/anomaly CSV files or structured CSVs with positive label rows are
-present, matching positive rows become `gold` cases. Unlabeled anomaly-looking
-lines become `silver` cases.
-
-## Partitions
-
-Each case receives a deterministic split from:
-
-```text
-sha256("<split-salt>:<case-id>") % 100
-```
-
-The default split map is:
-
-- `smoke`: buckets `0-4`  (~5%)
-- `dev`: buckets `5-24`  (~20%)
-- `eval`: buckets `25-99` (~75%)
-- `full`: not a stored split; export-time alias for all splits
-
-The default salt is `mesh-loghub-harbor-v1`. Keep the salt fixed for published
-benchmark releases so splits remain reproducible. Use `dev` for tuning and
-`eval` for held-out reporting.
-
-## Export Harbor Tasks
+Run every gate the CI workflows run, locally:
 
 ```bash
-loghub-benchmark export-harbor \
-  --cases .benchmark/loghub-hdfs \
-  --output .benchmark/harbor-hdfs-eval \
-  --split eval \
-  --track gold
+make validate-all    # unit + static (12 checks × 60 tasks) + oracle/nop
 ```
 
-Generated tasks use:
+## Run the rubric grader
 
-- `instruction.md`
-- `task.toml`
-- `environment/Dockerfile`
-- `environment/logs/*.log`
-- `tests/test.sh`
-- `tests/verifier.py`
-
-Private oracle files are written separately under `private_oracles/`. Do not
-mount or copy those into the agent-visible task environment.
-
-The generated task directory intentionally does not contain the oracle answer.
-During standalone verifier smoke tests, pass the oracle path with
-`LOGHUB_HARBOR_ORACLE_PATH`. In a Harbor deployment, mount or inject the oracle
-only for verifier execution.
-
-## Import Harbor Results
+`harbor check` requires `ANTHROPIC_API_KEY`. For cheaper graders, we
+ship a Moonshot-backed alternative:
 
 ```bash
-loghub-benchmark import-results \
-  --job /path/to/harbor/job \
-  --output .benchmark/results
+set -a; . .env; set +a    # MOONSHOT_API_KEY
+.venv-tools/bin/python -m tools.rubric_check.moonshot_check \
+    tasks/hdfs-datanode-0b694b5 \
+    --model moonshot-v1-128k \
+    --output-dir /tmp/m7-checks
 ```
 
-The importer writes `summary.json`, `report.md`, and `metadata.yaml`, including:
+Latest 60-task pass report: [docs/rubric-pass-report.md](docs/rubric-pass-report.md)
+(0 fails on both runs at ~$3 total spend).
 
-- mean reward
-- Pass@3
-- Pass^3
-- invalid answer rate
-- malformed answer rate
-- zero-evidence diagnosis rate
-- citation precision/recall
-- cost and latency when present in Harbor results
+## Repo layout
 
-## Answer Schema
-
-Agents should write `/app/answer.json`:
-
-```json
-{
-  "schema_version": "loghub-sre-answer-v1",
-  "is_incident": true,
-  "anomaly_line_ids": ["L000123"],
-  "root_cause_type": "timeout",
-  "affected_component": "worker-a",
-  "evidence": [
-    {
-      "line_id": "L000123",
-      "quote": "short evidence quote",
-      "reason": "why this line matters"
-    }
-  ],
-  "recommended_action": "escalate",
-  "confidence": 0.87
-}
+```
+loghub-benchmark/
+├── tasks/                       # 60 curated tasks (committed)
+├── tools/
+│   ├── case_builder/            # adapters + exporter + tests
+│   └── rubric_check/            # Moonshot rubric grader
+├── tests/
+│   ├── test_repo_invariants.py  # M8 gates: canary, leak, schema, snapshots
+│   └── snapshots/case_ids.json  # determinism lock-in
+├── ci_checks/                   # 15 static-check scripts (Bash)
+│   └── test-tasks/              # negative fixtures (must FAIL each check)
+├── rubrics/                     # Harbor rubric TOML files
+└── .github/workflows/           # PR validation (static + oracle/nop + rubric)
 ```
 
-Safe recommendation labels are `escalate`, `investigate`, `no_action`,
-`open_incident`, and `page_owner`.
+## Contributing
 
-## Publication Boundary
+See [CONTRIBUTING.md](CONTRIBUTING.md). New tasks come from adapter
+additions or new corpora, not from hand-authoring single tasks —
+read [docs/dataset-adapters.md](docs/dataset-adapters.md) for the
+adapter contract.
 
-Use `gold` for public claims. `silver` and `stress` are valuable engineering
-tracks, but they are heuristic and should not be presented as leaderboard-grade
-root-cause accuracy.
+## Citing
 
-Recommended report language:
+If you use the benchmark, please cite the underlying Loghub paper plus
+the dataset-specific papers your task draws from:
 
-- Publishable: `gold/eval`, fixed commit, fixed split salt, fixed model/tool
-  budget, repeated runs.
-- Engineering-only: `silver`, `stress`, or ad hoc local corpora.
+> Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. *Loghub:
+> A Large Collection of System Log Datasets for AI-driven Log Analytics*.
+> IEEE International Symposium on Software Reliability Engineering (ISSRE), 2023.
+
+HDFS_v1 tasks also cite:
+
+> Wei Xu, Ling Huang, Armando Fox, David Patterson, Michael Jordan.
+> *Detecting Large-Scale System Problems by Mining Console Logs*.
+> SOSP 2009.
+
+## License
+
+The benchmark code is MIT-licensed; see `pyproject.toml`. The log slices
+baked into each task image inherit Loghub's BSD license. Citation lives
+in each task's `instruction.md` so the attribution travels with the
+data.

@@ -1,0 +1,26 @@
+081109 203518 143 INFO dfs.DataNode$DataXceiver: Receiving block blk_1 src: /10.0.0.1:54106 dest: /10.0.0.1:50010
+081109 203518 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /tmp/job.jar. blk_1
+081109 203519 143 INFO dfs.DataNode$DataXceiver: Receiving block blk_1 src: /10.0.0.2:40524 dest: /10.0.0.2:50010
+081109 203520 144 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_1 terminating
+081109 203521 145 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.0.0.1:50010 is added to blk_1 size 67108864
+081109 203522 146 INFO dfs.DataNode$DataXceiver: Receiving block blk_2 src: /10.0.0.1:54107 dest: /10.0.0.1:50010
+081109 203523 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /tmp/job.jar. blk_2
+081109 203524 147 WARN dfs.DataNode$DataXceiver: writeBlock blk_2 received exception java.io.IOException: Got exception while serving blk_2 to /10.0.0.5
+081109 203525 148 INFO dfs.DataNode$DataXceiver: Receiving block blk_3 src: /10.0.0.1:54108 dest: /10.0.0.1:50010
+081109 203526 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /tmp/job.jar. blk_3
+081109 203527 149 WARN dfs.DataNode$PacketResponder: Failed to add block blk_3 to datanode
+081109 203528 150 INFO dfs.FSNamesystem: Adding lost block blk_3 to under replication queue
+081109 203529 151 INFO dfs.DataNode$DataXceiver: Receiving block blk_4 src: /10.0.0.1:54109 dest: /10.0.0.1:50010
+081109 203530 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /tmp/job.jar. blk_4
+081109 203531 152 ERROR dfs.DataNode: BLOCK_NOT_FOUND blk_4
+081109 203532 153 INFO dfs.DataNode$DataXceiver: Receiving block blk_5 src: /10.0.0.1:54110 dest: /10.0.0.1:50010
+081109 203533 154 INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.0.0.1:50010 is added to blk_5 size 67108864
+081109 203534 155 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_5 terminating
+081109 203535 156 INFO dfs.DataNode$DataXceiver: Receiving block blk_6 src: /10.0.0.1:54111 dest: /10.0.0.1:50010
+081109 203536 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /tmp/job.jar. blk_6
+081109 203537 157 WARN dfs.DataNode: SocketTimeoutException reading blk_6 from /10.0.0.7
+081109 203538 158 INFO dfs.FSNamesystem: blockMap updated for blk_6
+081109 203539 159 INFO dfs.DataNode$DataXceiver: Receiving block blk_7 src: /10.0.0.1:54112 dest: /10.0.0.1:50010
+081109 203540 35 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /tmp/job.jar. blk_7
+081109 203541 160 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_7 terminating
+081109 203542 161 INFO dfs.FSNamesystem: blockMap updated for blk_7

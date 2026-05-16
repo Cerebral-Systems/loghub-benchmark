@@ -1,0 +1,8 @@
+nova-compute.log.2017-05-14 2017-05-14 11:00:00.000 2931 INFO nova.compute.claims [req-a f1 e1 - - -] [instance: 11111111-1111-1111-1111-111111111111] Attempting claim: memory 2048 MB
+nova-compute.log.2017-05-14 2017-05-14 11:00:01.000 2931 INFO nova.virt.libvirt.driver [req-a f1 e1 - - -] [instance: 11111111-1111-1111-1111-111111111111] Creating image
+nova-compute.log.2017-05-14 2017-05-14 11:00:02.000 2931 INFO nova.compute.manager [req-a f1 e1 - - -] [instance: 11111111-1111-1111-1111-111111111111] destroy the instance on the hypervisor
+nova-compute.log.2017-05-14 2017-05-14 11:00:03.000 2931 INFO nova.compute.manager [-] [instance: 11111111-1111-1111-1111-111111111111] VM Stopped (Lifecycle Event)
+nova-compute.log.2017-05-14 2017-05-14 11:00:04.000 2931 INFO nova.compute.claims [req-b f1 e1 - - -] [instance: 22222222-2222-2222-2222-222222222222] Attempting claim: memory 2048 MB
+nova-compute.log.2017-05-14 2017-05-14 11:00:05.000 2931 WARNING nova.virt.libvirt.imagecache [req-b f1 e1 - - -] [instance: 22222222-2222-2222-2222-222222222222] Unknown base file: /var/lib/nova/instances/_base/abc
+nova-compute.log.2017-05-14 2017-05-14 11:00:06.000 2931 INFO nova.compute.manager [-] [instance: 22222222-2222-2222-2222-222222222222] VM Stopped (Lifecycle Event)
+nova-compute.log.2017-05-14 2017-05-14 11:00:07.000 2931 INFO nova.compute.manager [req-c f1 e1 - - -] [instance: 99999999-9999-9999-9999-999999999999] healthy idle line

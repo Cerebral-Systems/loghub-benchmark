@@ -4,7 +4,12 @@ __pycache__/
 .ruff_cache/
 .mypy_cache/
 .venv/
+.venv-*/
 dist/
 build/
 *.egg-info/
 .benchmark/
+.env
+jobs/
+baselines/
+pilot-jobs/

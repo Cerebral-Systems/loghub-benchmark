@@ -1,0 +1,18 @@
+- 1125573414 2005.09.01 NULL 2005-09-01-04.16.54.752699 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y
+- 1125573415 2005.09.01 NULL 2005-09-01-04.16.55.323170 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+- 1125573415 2005.09.01 NULL 2005-09-01-04.16.55.323842 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R1M0_248_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+- 1125573415 2005.09.01 NULL 2005-09-01-04.16.55.340768 NULL RAS MMCS INFO ciodb has been restarted.
+- 1125590029 2005.09.01 NULL 2005-09-01-08.53.49.471217 NULL RAS MMCS ERROR Ido packet timeout
+- 1125622148 2005.09.01 - 2005-09-01-17.49.08.649490 RAS KERNEL FATAL Kill job 35829 timed out. Block freed.
+- 1125624900 2005.09.01 - 2005-09-01-18.35.00.813393 RAS KERNEL FATAL Kill job 35830 timed out. Block freed.
+- 1125632869 2005.09.01 - 2005-09-01-20.47.49.609166 RAS KERNEL FATAL Kill job 35834 timed out. Block freed.
+- 1125676711 2005.09.02 - 2005-09-02-08.58.31.242229 RAS KERNEL FATAL Kill job 37035 timed out. Block freed.
+- 1125676869 2005.09.02 NULL 2005-09-02-09.01.09.851749 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+- 1125678296 2005.09.02 NULL 2005-09-02-09.24.56.048336 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+- 1125679731 2005.09.02 NULL 2005-09-02-09.48.51.883119 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties ./serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+- 1125679943 2005.09.02 NULL 2005-09-02-09.52.23.310936 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --no-reconnect-blocks
+- 1125682478 2005.09.02 NULL 2005-09-02-10.34.38.033342 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120
+- 1125682492 2005.09.02 NULL 2005-09-02-10.34.52.273257 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+- 1125684376 2005.09.02 NULL 2005-09-02-11.06.16.053930 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120
+- 1125685016 2005.09.02 NULL 2005-09-02-11.16.56.186584 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all
+- 1125686498 2005.09.02 NULL 2005-09-02-11.41.38.936416 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120

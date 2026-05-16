@@ -1,0 +1,2 @@
+2015-10-17 19:00:00,000 INFO main MRAppMaster: Created MRAppMaster for application_1_0005
+2015-10-17 19:00:30,000 ERROR main DataNode: No space left on device

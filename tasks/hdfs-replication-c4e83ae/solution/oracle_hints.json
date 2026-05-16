@@ -1,0 +1,64 @@
+{
+  "anomaly_keys": [
+    "blk_-1036135461109137003"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1494
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1696
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1505
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 2139
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 3126
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2831
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 3139
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 3334
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 3161
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2856
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4149
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4164
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4325
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4355
+    }
+  ],
+  "root_cause_type": "replication_failure"
+}

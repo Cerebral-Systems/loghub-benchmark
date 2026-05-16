@@ -1,0 +1,117 @@
+{
+  "allowed_root_causes": [
+    "replication_failure",
+    "data_corruption",
+    "datanode_unreachable",
+    "namenode_error",
+    "timeout",
+    "other"
+  ],
+  "anomaly_keys": [
+    "blk_-1023495876047573307"
+  ],
+  "evidence": [
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1271
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1595
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1282
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1100
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1237
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1335
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1252
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1160
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1263
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1356
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1676
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1690
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1696
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1720
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1327
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1245
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1433
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1434
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1814
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 80
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 80
+    }
+  ],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "other",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

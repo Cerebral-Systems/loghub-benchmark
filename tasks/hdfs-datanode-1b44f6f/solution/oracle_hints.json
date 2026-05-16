@@ -1,0 +1,24 @@
+{
+  "anomaly_keys": [
+    "blk_-1041223367203409835"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 3332
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4198
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 3357
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 3267
+    }
+  ],
+  "root_cause_type": "datanode_unreachable"
+}

@@ -1,0 +1,77 @@
+081111 081656 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-1278312370412442383
+081111 081708 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-6025256176911259802
+081111 081709 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4010444434295551255
+081111 081710 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-5132933930546022049
+081111 081713 19 INFO dfs.FSDataset: Deleting block blk_5343961997784694557 file /mnt/hadoop/dfs/data/current/subdir57/blk_5343961997784694557
+081111 081717 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4353277642250622010
+081111 081719 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-3641440290752949297
+081111 081721 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-3571385858010979947
+081111 081722 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-712261554838895462
+081111 081723 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-6007011851707603686
+081111 081727 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_4024548629748430460
+081111 081733 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_7213076381980547560
+081111 081734 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-8538314542137890802
+081111 081735 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_574787919178795216
+081111 081736 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_4583901329969257732
+081111 081739 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-5707206511261229353
+081111 081744 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-7106987095627209876
+081111 081746 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_3627453935178491088
+081111 081746 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_5415854849545094726
+081111 081750 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_493462021507135470
+081111 081754 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-3929788736854218876
+081111 081755 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_2212096563991642338
+081111 081755 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_3697440809893603496
+081111 081757 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-6261421176693688925
+081111 081758 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8700942537631801200
+081111 081802 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_358401513952462575
+081111 081807 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-366110630531616423
+081111 081809 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_824588978372625831
+081111 081812 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_7367800306751972030
+081111 081814 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_5496697430560448577
+081111 081817 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-5252325029347059118
+081111 081820 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_6447322935534739686
+081111 081827 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_5245781580587136748
+081111 081832 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-3550263358106102039
+081111 081838 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-7233450013050098110
+081111 081845 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_5238551611142948106
+081111 081849 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4248803102717955451
+081111 081853 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_44192256250659067
+081111 081855 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_611341127847578026
+081111 081856 19 INFO dfs.FSDataset: Deleting block blk_-1215181860254226430 file /mnt/hadoop/dfs/data/current/subdir18/blk_-1215181860254226430
+081111 081900 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-1555907669205119583
+081111 081900 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-9133215551048282136
+081111 081902 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_7719576746646783862
+081111 081903 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_7715320344229464637
+081111 081905 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_5640966394206548871
+081111 081924 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8835704247637157584
+081111 081926 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8264030477609772242
+081111 081926 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8842418246998727120
+081111 081929 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-3372038181397682295
+081111 081930 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4757057430743893063
+081111 081933 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4749240271582659471
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_-3615472149084784033
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_-3636293611257652136
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_5390605555590308923
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_6638764246480158119
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_-74511355666073839
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_7942900066050332481
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_8620168693542617014
+081111 081933 16 WARN dfs.PendingReplicationBlocks$PendingReplicationMonitor: PendingReplicationMonitor timed out block blk_8685978339834488699
+081111 081937 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_6082100032797043016
+081111 081940 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_3739492094650846928
+081111 081942 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_303777377055999438
+081111 081942 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_7554690378028705091
+081111 081943 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_4090259448154745201
+081111 081944 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_6065831999893843263
+081111 081946 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_5474494568869060258
+081111 081947 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8263805260993491147
+081111 081952 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-2651807538349727646
+081111 081952 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_8688154047301718627
+081111 081953 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-4409694560867682892
+081111 081956 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_1075307383549683039
+081111 081959 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_1838043542918592718
+081111 082001 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-8864424204938915355
+081111 082002 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-7785712931484407395
+081111 082006 19 INFO dfs.FSDataset: Deleting block blk_-5440927664732416089 file /mnt/hadoop/dfs/data/current/subdir16/blk_-5440927664732416089
+081111 082009 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_1463534559907783001
+081111 082009 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_2952145205836467704
