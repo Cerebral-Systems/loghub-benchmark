@@ -42,12 +42,6 @@ tasks/<slug>/
     └── expected.json    # ground truth — never visible to the agent
 ```
 
-Slug format: `<dataset>-<root-cause>-<short-case-id>`, where
-`short-case-id` is the first 7 hex chars of a deterministic SHA-256
-over `(dataset, adapter_version, slice_offset, slice_length, anomaly_lines)`.
-Re-running the case-builder + exporter on the same corpus reproduces
-the same slugs byte-for-byte.
-
 ## Answer schema
 
 The agent must emit `/app/answer.json` matching:
