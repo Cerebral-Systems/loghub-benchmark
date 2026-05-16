@@ -1,0 +1,9 @@
+{
+  "anomaly_line_ids": [
+    2950,
+    3045,
+    3074,
+    3503
+  ],
+  "root_cause_type": "datanode_unreachable"
+}

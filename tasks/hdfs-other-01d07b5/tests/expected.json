@@ -1,0 +1,44 @@
+{
+  "allowed_root_causes": [
+    "replication_failure",
+    "data_corruption",
+    "datanode_unreachable",
+    "namenode_error",
+    "timeout",
+    "other"
+  ],
+  "anomaly_line_ids": [
+    5167,
+    5202,
+    5225,
+    5248,
+    5452,
+    5454,
+    5493,
+    5496,
+    5521,
+    5522,
+    5556,
+    5570,
+    5576,
+    5600,
+    5793,
+    5877,
+    5880,
+    5881,
+    5907,
+    6676,
+    6676
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "other",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v1"
+}
