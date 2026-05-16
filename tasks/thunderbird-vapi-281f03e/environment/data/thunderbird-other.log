@@ -1,0 +1,265 @@
+- 1132570801 2005.11.21 aadmin1 Nov 21 03:00:01 src@aadmin1 crond(pam_unix)[1771]: session opened for user root by (uid=0)
+- 1132570801 2005.11.21 aadmin1 Nov 21 03:00:01 src@aadmin1 crond[1772]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1132570801 2005.11.21 badmin1 Nov 21 03:00:01 src@badmin1 crond(pam_unix)[10527]: session opened for user root by (uid=0)
+- 1132570801 2005.11.21 badmin1 Nov 21 03:00:01 src@badmin1 crond[10528]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1132570801 2005.11.21 cadmin1 Nov 21 03:00:01 src@cadmin1 crond(pam_unix)[14191]: session opened for user root by (uid=0)
+- 1132570801 2005.11.21 cadmin1 Nov 21 03:00:01 src@cadmin1 crond[14192]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1132570801 2005.11.21 dadmin1 Nov 21 03:00:01 src@dadmin1 crond(pam_unix)[20149]: session opened for user root by (uid=0)
+- 1132570801 2005.11.21 dadmin1 Nov 21 03:00:01 src@dadmin1 crond[20150]: (root) CMD (/projects/tbird/temps/get_temps d)
+- 1132570801 2005.11.21 eadmin1 Nov 21 03:00:01 src@eadmin1 crond(pam_unix)[15724]: session opened for user root by (uid=0)
+- 1132570801 2005.11.21 eadmin1 Nov 21 03:00:01 src@eadmin1 crond[15725]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1132570830 2005.11.21 eadmin1 Nov 21 03:00:30 src@eadmin1 sendmail[18800]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1132570833 2005.11.21 badmin1 Nov 21 03:00:33 src@badmin1 sendmail[13604]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1132570833 2005.11.21 dadmin1 Nov 21 03:00:33 src@dadmin1 sendmail[23225]: My unqualified host name (dadmin1) unknown; sleeping for retry
+- 1132570836 2005.11.21 aadmin1 Nov 21 03:00:36 src@aadmin1 sendmail[4866]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1132570842 2005.11.21 cadmin1 Nov 21 03:00:42 src@cadmin1 sendmail[17269]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1132570848 2005.11.21 cadmin1 Nov 21 03:00:48 src@cadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:d2:97 via eth1: network C_net: no free leases
+- 1132570850 2005.11.21 cadmin1 Nov 21 03:00:50 src@cadmin1 dhcpd: DHCPREQUEST for 10.100.20.87 (10.100.20.250) from 00:11:43:e3:d2:97 via eth1: unknown lease 10.100.20.87.
+- 1132570861 2005.11.21 aadmin1 Nov 21 03:01:01 src@aadmin1 crond(pam_unix)[4867]: session closed for user root
+- 1132570861 2005.11.21 aadmin1 Nov 21 03:01:01 src@aadmin1 crond(pam_unix)[4867]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 aadmin1 Nov 21 03:01:01 src@aadmin1 crond[4868]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 aadmin2 Nov 21 03:01:01 src@aadmin2 crond(pam_unix)[4879]: session closed for user root
+- 1132570861 2005.11.21 aadmin2 Nov 21 03:01:01 src@aadmin2 crond(pam_unix)[4879]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 aadmin2 Nov 21 03:01:01 src@aadmin2 crond[4880]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 aadmin3 Nov 21 03:01:01 src@aadmin3 crond(pam_unix)[19384]: session closed for user root
+- 1132570861 2005.11.21 aadmin3 Nov 21 03:01:01 src@aadmin3 crond(pam_unix)[19384]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 aadmin3 Nov 21 03:01:01 src@aadmin3 crond[19385]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 aadmin4 Nov 21 03:01:01 src@aadmin4 crond(pam_unix)[7905]: session closed for user root
+- 1132570861 2005.11.21 aadmin4 Nov 21 03:01:01 src@aadmin4 crond(pam_unix)[7905]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 aadmin4 Nov 21 03:01:01 src@aadmin4 crond[7906]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 #8# Nov 21 03:01:01 #8#/#8# crond(pam_unix)[3917]: session closed for user root
+- 1132570861 2005.11.21 #8# Nov 21 03:01:01 #8#/#8# crond(pam_unix)[3917]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 #8# Nov 21 03:01:01 #8#/#8# crond[3918]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 badmin1 Nov 21 03:01:01 src@badmin1 crond(pam_unix)[13605]: session closed for user root
+- 1132570861 2005.11.21 badmin1 Nov 21 03:01:01 src@badmin1 crond(pam_unix)[13605]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 badmin1 Nov 21 03:01:01 src@badmin1 crond[13606]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 badmin2 Nov 21 03:01:01 src@badmin2 crond(pam_unix)[27398]: session closed for user root
+- 1132570861 2005.11.21 badmin2 Nov 21 03:01:01 src@badmin2 crond(pam_unix)[27398]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 badmin2 Nov 21 03:01:01 src@badmin2 crond[27399]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 badmin3 Nov 21 03:01:01 src@badmin3 crond(pam_unix)[24204]: session closed for user root
+- 1132570861 2005.11.21 badmin3 Nov 21 03:01:01 src@badmin3 crond(pam_unix)[24204]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 badmin3 Nov 21 03:01:01 src@badmin3 crond[24205]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 badmin4 Nov 21 03:01:01 src@badmin4 crond(pam_unix)[30258]: session closed for user root
+- 1132570861 2005.11.21 badmin4 Nov 21 03:01:01 src@badmin4 crond(pam_unix)[30258]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 badmin4 Nov 21 03:01:01 src@badmin4 crond[30259]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 #21# Nov 21 03:01:01 #21#/#21# crond(pam_unix)[24411]: session closed for user root
+- 1132570861 2005.11.21 #21# Nov 21 03:01:01 #21#/#21# crond(pam_unix)[24411]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 #21# Nov 21 03:01:01 #21#/#21# crond[24412]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 #31# Nov 21 03:01:01 #31#/#31# crond(pam_unix)[24480]: session closed for user root
+- 1132570861 2005.11.21 #31# Nov 21 03:01:01 #31#/#31# crond(pam_unix)[24480]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 #31# Nov 21 03:01:01 #31#/#31# crond[24481]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 cadmin1 Nov 21 03:01:01 src@cadmin1 crond(pam_unix)[17270]: session closed for user root
+- 1132570861 2005.11.21 cadmin1 Nov 21 03:01:01 src@cadmin1 crond(pam_unix)[17270]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 cadmin1 Nov 21 03:01:01 src@cadmin1 crond[17271]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 cadmin2 Nov 21 03:01:01 src@cadmin2 crond(pam_unix)[25944]: session closed for user root
+- 1132570861 2005.11.21 cadmin2 Nov 21 03:01:01 src@cadmin2 crond(pam_unix)[25944]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 cadmin2 Nov 21 03:01:01 src@cadmin2 crond[25945]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 cadmin3 Nov 21 03:01:01 src@cadmin3 crond(pam_unix)[6179]: session closed for user root
+- 1132570861 2005.11.21 cadmin3 Nov 21 03:01:01 src@cadmin3 crond(pam_unix)[6179]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 cadmin3 Nov 21 03:01:01 src@cadmin3 crond[6180]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 cadmin4 Nov 21 03:01:01 src@cadmin4 crond(pam_unix)[29462]: session closed for user root
+- 1132570861 2005.11.21 cadmin4 Nov 21 03:01:01 src@cadmin4 crond(pam_unix)[29462]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 cadmin4 Nov 21 03:01:01 src@cadmin4 crond[29463]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 dadmin1 Nov 21 03:01:01 src@dadmin1 crond(pam_unix)[23226]: session closed for user root
+- 1132570861 2005.11.21 dadmin1 Nov 21 03:01:01 src@dadmin1 crond(pam_unix)[23226]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 dadmin1 Nov 21 03:01:01 src@dadmin1 crond[23227]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 dadmin2 Nov 21 03:01:01 src@dadmin2 crond(pam_unix)[26983]: session closed for user root
+- 1132570861 2005.11.21 dadmin2 Nov 21 03:01:01 src@dadmin2 crond(pam_unix)[26983]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 dadmin2 Nov 21 03:01:01 src@dadmin2 crond[26984]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 dadmin3 Nov 21 03:01:01 src@dadmin3 crond(pam_unix)[16090]: session closed for user root
+- 1132570861 2005.11.21 dadmin3 Nov 21 03:01:01 src@dadmin3 crond(pam_unix)[16090]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 dadmin3 Nov 21 03:01:01 src@dadmin3 crond[16091]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 dadmin4 Nov 21 03:01:01 src@dadmin4 crond(pam_unix)[11717]: session closed for user root
+- 1132570861 2005.11.21 dadmin4 Nov 21 03:01:01 src@dadmin4 crond(pam_unix)[11717]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 dadmin4 Nov 21 03:01:01 src@dadmin4 crond[11718]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 #33# Nov 21 03:01:01 #33#/#33# crond(pam_unix)[21794]: session closed for user root
+- 1132570861 2005.11.21 #33# Nov 21 03:01:01 #33#/#33# crond(pam_unix)[21794]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 #33# Nov 21 03:01:01 #33#/#33# crond[21795]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 #33# Nov 21 03:01:01 #33#/#33# pam_limits[21794]: process_limit: processing hard nofile 32768 for DEFAULT
+- 1132570861 2005.11.21 #33# Nov 21 03:01:01 #33#/#33# pam_limits[21794]: process_limit: processing hard nproc 32768 for DEFAULT
+- 1132570861 2005.11.21 #33# Nov 21 03:01:01 #33#/#33# pam_limits[21794]: process_limit: processing soft nofile 32768 for DEFAULT
+- 1132570861 2005.11.21 #25# Nov 21 03:01:01 #25#/#25# crond(pam_unix)[18198]: session closed for user root
+- 1132570861 2005.11.21 #25# Nov 21 03:01:01 #25#/#25# crond(pam_unix)[18198]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 #25# Nov 21 03:01:01 #25#/#25# crond[18199]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 eadmin1 Nov 21 03:01:01 src@eadmin1 crond(pam_unix)[18801]: session closed for user root
+- 1132570861 2005.11.21 eadmin1 Nov 21 03:01:01 src@eadmin1 crond(pam_unix)[18801]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 eadmin1 Nov 21 03:01:01 src@eadmin1 crond[18802]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570861 2005.11.21 eadmin2 Nov 21 03:01:01 src@eadmin2 crond(pam_unix)[23562]: session closed for user root
+- 1132570861 2005.11.21 eadmin2 Nov 21 03:01:01 src@eadmin2 crond(pam_unix)[23562]: session opened for user root by (uid=0)
+- 1132570861 2005.11.21 eadmin2 Nov 21 03:01:01 src@eadmin2 crond[23563]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132570890 2005.11.21 eadmin1 Nov 21 03:01:30 src@eadmin1 sendmail[18800]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1132570891 2005.11.21 eadmin1 Nov 21 03:01:31 src@eadmin1 crond(pam_unix)[15724]: session closed for user root
+- 1132570891 2005.11.21 eadmin1 Nov 21 03:01:31 src@eadmin1 sendmail[18800]: jALA1U4X018800: from=root, size=631354, class=0, nrcpts=1, msgid=<200511211001.jALA1U4X018800@eadmin1>, relay=#7#@localhost
+- 1132570891 2005.11.21 eadmin1 Nov 21 03:01:31 src@eadmin1 sendmail[18800]: jALA1U4X018800: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=661354, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132570893 2005.11.21 badmin1 Nov 21 03:01:33 src@badmin1 sendmail[13604]: unable to qualify my own domain name (badmin1) -- using short name
+- 1132570893 2005.11.21 dadmin1 Nov 21 03:01:33 src@dadmin1 sendmail[23225]: unable to qualify my own domain name (dadmin1) -- using short name
+- 1132570895 2005.11.21 badmin1 Nov 21 03:01:35 src@badmin1 crond(pam_unix)[10527]: session closed for user root
+- 1132570895 2005.11.21 badmin1 Nov 21 03:01:35 src@badmin1 sendmail[13604]: jALA1XV2013604: from=root, size=1567378, class=0, nrcpts=1, msgid=<200511211001.jALA1XV2013604@badmin1>, relay=#7#@localhost
+- 1132570895 2005.11.21 badmin1 Nov 21 03:01:35 src@badmin1 sendmail[13604]: jALA1XV2013604: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1597378, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132570895 2005.11.21 dadmin1 Nov 21 03:01:35 src@dadmin1 crond(pam_unix)[20149]: session closed for user root
+- 1132570895 2005.11.21 dadmin1 Nov 21 03:01:35 src@dadmin1 sendmail[23225]: jALA1XWw023225: from=root, size=1541310, class=0, nrcpts=1, msgid=<200511211001.jALA1XWw023225@dadmin1>, relay=#7#@localhost
+- 1132570895 2005.11.21 dadmin1 Nov 21 03:01:35 src@dadmin1 sendmail[23225]: jALA1XWw023225: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1571310, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132570896 2005.11.21 aadmin1 Nov 21 03:01:36 src@aadmin1 sendmail[4866]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1132570897 2005.11.21 aadmin1 Nov 21 03:01:37 src@aadmin1 crond(pam_unix)[1771]: session closed for user root
+- 1132570897 2005.11.21 aadmin1 Nov 21 03:01:37 src@aadmin1 sendmail[4866]: jALA1a2q004866: from=root, size=1589685, class=0, nrcpts=1, msgid=<200511211001.jALA1a2q004866@aadmin1>, relay=#7#@localhost
+- 1132570897 2005.11.21 aadmin1 Nov 21 03:01:37 src@aadmin1 sendmail[4866]: jALA1a2q004866: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=1619685, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132570902 2005.11.21 cadmin1 Nov 21 03:01:42 src@cadmin1 sendmail[17269]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1132570904 2005.11.21 cadmin1 Nov 21 03:01:44 src@cadmin1 crond(pam_unix)[14191]: session closed for user root
+- 1132570904 2005.11.21 cadmin1 Nov 21 03:01:44 src@cadmin1 sendmail[17269]: jALA1gJA017269: from=root, size=1556749, class=0, nrcpts=1, msgid=<200511211001.jALA1gJA017269@cadmin1>, relay=#7#@localhost
+- 1132570904 2005.11.21 cadmin1 Nov 21 03:01:44 src@cadmin1 sendmail[17269]: jALA1gJA017269: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1586749, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# kernel: klogd 1.4.1, log source = /proc/kmsg started.
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# logger: Install: apply updates
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# logger: Kickstart Install: Reducing mingetty count ...
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# logger: Kickstart: Configure sysctl parameters
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# logger: Kickstart: setup authorization schema
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# logger: Kickstart: setup soft links and NFS mounts
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# syslog: klogd startup succeeded
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# syslog: syslogd startup succeeded
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# syslogd 1.4.1: restart.
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# userhelper[14660]: pam_timestamp: updated timestamp file `/var/run/sudo/root/unknown'
+- 1132570940 2005.11.21 #1# Nov 21 03:02:20 #1#/#1# userhelper[14661]: running '/usr/sbin/up2date-config' with root privileges on behalf of 'root'
+- 1132570942 2005.11.21 #1# Nov 21 03:02:22 #1#/#1# kernel: audit(1132567342.707:0): avc: denied { write } for pid=14596 comm=minilogd name=log dev=ram0 ino=199 scontext=user_u:system_r:syslogd_t tcontext=user_u:object_r:file_t tclass=sock_file
+- 1132570942 2005.11.21 #1# Nov 21 03:02:22 #1#/#1# logger: Kickstart Install: CAP tarball
+- 1132570942 2005.11.21 #1# Nov 21 03:02:22 #1#/#1# syslog: klogd shutdown failed
+- 1132570980 2005.11.21 #1# Nov 21 03:03:00 #1#/#1# logger: Kickstart Install: SNL COE Legal Banner
+- 1132570980 2005.11.21 #1# Nov 21 03:03:00 #1#/#1# logger: Kickstart Install: setup CAP sysconfig file
+- 1132570984 2005.11.21 #1# Nov 21 03:03:04 #1#/#1# logger: Kickstart Install: OSCAR modules RPMS
+- 1132570990 2005.11.21 #1# Nov 21 03:03:10 #1#/#1# logger: Kickstart Install: SISUITE Client RPMS
+- 1132570992 2005.11.21 cadmin2 Nov 21 03:03:12 src@cadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:d2:97 via eth1: network C_net: no free leases
+- 1132570992 2005.11.21 cadmin3 Nov 21 03:03:12 src@cadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:d2:97 via eth1
+- 1132570992 2005.11.21 cadmin3 Nov 21 03:03:12 src@cadmin3 dhcpd: DHCPOFFER on 10.100.20.87 to 00:11:43:e3:d2:97 via eth1
+- 1132570992 2005.11.21 cadmin4 Nov 21 03:03:12 src@cadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:d2:97 via eth1: network C_net: no free leases
+- 1132570994 2005.11.21 cadmin2 Nov 21 03:03:14 src@cadmin2 dhcpd: DHCPREQUEST for 10.100.20.87 (10.100.20.250) from 00:11:43:e3:d2:97 via eth1: unknown lease 10.100.20.87.
+- 1132570994 2005.11.21 cadmin3 Nov 21 03:03:14 src@cadmin3 dhcpd: DHCPACK on 10.100.20.87 to 00:11:43:e3:d2:97 via eth1
+- 1132570994 2005.11.21 cadmin3 Nov 21 03:03:14 src@cadmin3 dhcpd: DHCPREQUEST for 10.100.20.87 (10.100.20.250) from 00:11:43:e3:d2:97 via eth1
+- 1132570994 2005.11.21 cadmin3 Nov 21 03:03:14 src@cadmin3 xinetd[31875]: START: tftp pid=6181 from=10.100.20.87
+- 1132570994 2005.11.21 cadmin4 Nov 21 03:03:14 src@cadmin4 dhcpd: DHCPREQUEST for 10.100.20.87 (10.100.20.250) from 00:11:43:e3:d2:97 via eth1: unknown lease 10.100.20.87.
+- 1132570997 2005.11.21 #1# Nov 21 03:03:17 #1#/#1# logger: Kickstart Install: pdsh + ssh packages
+- 1132571001 2005.11.21 #1# Nov 21 03:03:21 #1#/#1# logger: Kickstart Install: oneSIS RPM
+- 1132571005 2005.11.21 #1# Nov 21 03:03:25 #1#/#1# logger: Kickstart Install: SUN JDK Package
+- 1132571016 2005.11.21 aadmin1 Nov 21 03:03:36 src@aadmin1 xinetd[18274]: START: rsync pid=6561 from=10.100.4.251
+- 1132571016 2005.11.21 aadmin1 Nov 21 03:03:36 src@aadmin1 xinetd[18274]: START: rsync pid=6562 from=10.100.4.251
+- 1132571016 2005.11.21 #1# Nov 21 03:03:36 #1#/#1# logger: Kickstart: configure services
+- 1132571017 2005.11.21 aadmin1 Nov 21 03:03:37 src@aadmin1 sshd(pam_unix)[6566]: session opened for user root by (uid=0)
+- 1132571017 2005.11.21 aadmin1 Nov 21 03:03:37 src@aadmin1 sshd[6564]: Accepted publickey for root from ::ffff:10.100.4.251 port 35558 ssh2
+- 1132571017 2005.11.21 aadmin1 Nov 21 03:03:37 src@aadmin1 xinetd[18274]: START: rsync pid=6563 from=10.100.4.251
+- 1132571017 2005.11.21 #1# Nov 21 03:03:37 #1#/#1# logger: Kickstart Install: Prepare speconf_sync to work
+- 1132571017 2005.11.21 #1# Nov 21 03:03:37 #1#/#1# logger: Kickstart Install: Torque Mom and Maui speconf Tree
+- 1132571017 2005.11.21 #1# Nov 21 03:03:37 #1#/#1# logger: Kickstart: setup firstboot
+- 1132571017 2005.11.21 #1# Nov 21 03:03:37 #1#/#1# logger: Kickstart: setup firstboot for ganglia client software
+- 1132571017 2005.11.21 #1# Nov 21 03:03:37 #1#/#1# userhelper[14865]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1132571017 2005.11.21 #1# Nov 21 03:03:37 #1#/#1# userhelper[14866]: running '/usr/sbin/up2date --nox -i ganglia-gmond' with root privileges on behalf of 'root'
+- 1132571020 2005.11.21 #1# Nov 21 03:03:40 #1#/#1# gmond: gmond startup succeeded
+- 1132571021 2005.11.21 #1# Nov 21 03:03:41 #1#/#1# gmond: gmond shutdown succeeded
+- 1132571021 2005.11.21 #1# Nov 21 03:03:41 #1#/#1# logger: Kickstart Install: Setup to become a Tbird login
+- 1132571021 2005.11.21 #1# Nov 21 03:03:41 #1#/#1# logger: Kickstart Install: tbird kernel package
+- 1132571021 2005.11.21 #1# Nov 21 03:03:41 #1#/#1# logger: Kickstart: setup firstboot for tbird panasas env
+- 1132571042 2005.11.21 #1# Nov 21 03:04:02 #1#/#1# logger: setup NTP client
+- 1132571042 2005.11.21 #1# Nov 21 03:04:02 #1#/#1# ntpd: ntpd shutdown failed
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.014:0): avc: denied { read write } for pid=19257 comm=ntpdate name=tty dev=ram0 ino=46 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.123:0): avc: denied { read } for pid=19257 comm=ntpdate path=/tmp/product/.buildstamp dev=ramfs ino=731 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.239:0): avc: denied { read } for pid=19257 comm=ntpdate path=/tmp/biosdev (deleted) dev=ramfs ino=954 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:ramfs_t tclass=blk_file
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.356:0): avc: denied { read } for pid=19257 comm=ntpdate path=/.buildstamp dev=ram0 ino=125 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=file
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.465:0): avc: denied { append } for pid=19257 comm=ntpdate path=/tmp/anaconda.log dev=ramfs ino=390 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.579:0): avc: denied { read write } for pid=19257 comm=ntpdate path=socket:[683] dev=sockfs ino=683 scontext=user_u:system_r:ntpd_t tcontext=user_u:system_r:unconfined_t tclass=udp_socket
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.698:0): avc: denied { search } for pid=19257 comm=ntpdate name=dev dev=ram0 ino=30 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=dir
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# kernel: audit(1132567443.802:0): avc: denied { write } for pid=19257 comm=ntpdate name=log dev=ram0 ino=199 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:file_t tclass=sock_file
+- 1132571043 2005.11.21 #1# Nov 21 03:04:03 #1#/#1# ntpdate[19257]: step time server 10.100.0.250 offset -0.357263 sec
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# kernel: audit(1132567443.824:0): avc: denied { getattr } for pid=19265 comm=ntpd path=/dev/null dev=ram0 ino=40 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd: succeeded
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd: ntpd startup succeeded
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: Listening on interface eth0, 10.100.4.251#123
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: Listening on interface lo, 127.0.0.1#123
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: Listening on interface wildcard, 0.0.0.0#123
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: configure: keyword "authenticate" unknown, line ignored
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: frequency initialized 0.000 PPM from /var/lib/ntp/drift
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: kernel time sync status 0040
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: ntpd #2#@1.1190-r Mon Oct 11 09:15:58 EDT 2004 (1)
+- 1132571044 2005.11.21 #1# Nov 21 03:04:04 #1#/#1# ntpd[19265]: precision = 1.000 usec
+- 1132571046 2005.11.21 #1# Nov 21 03:04:06 #1#/#1# logger: Kickstart Install: Dell OMSA Package
+- 1132571046 2005.11.21 #1# Nov 21 03:04:06 #1#/#1# userhelper[19275]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1132571046 2005.11.21 #1# Nov 21 03:04:06 #1#/#1# userhelper[19276]: running '/usr/sbin/up2date --nox -i netsnmp' with root privileges on behalf of 'root'
+- 1132571047 2005.11.21 #1# Nov 21 03:04:07 #1#/#1# userhelper[19277]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1132571047 2005.11.21 #1# Nov 21 03:04:07 #1#/#1# userhelper[19278]: running '/usr/sbin/up2date --nox -i -f kernel-devel' with root privileges on behalf of 'root'
+- 1132571063 2005.11.21 #1# Nov 21 03:04:23 #1#/#1# logger: Kickstart Install: Dell BIOS CONF Package
+- 1132571063 2005.11.21 #1# Nov 21 03:04:23 #1#/#1# logger: Kickstart: setup the cisco (topspin) ib stack
+- 1132571072 2005.11.21 badmin2 Nov 21 03:04:32 src@badmin2 ntpd[22530]: synchronized to 10.100.16.251, stratum 2
+- 1132571073 2005.11.21 #1# Nov 21 03:04:33 #1#/#1# logger: Kickstart Install: TBIRD Dell FIRMWARE Update Module
+- 1132571074 2005.11.21 #1# Nov 21 03:04:34 #1#/#1# logger: Kickstart/Yast Install: Finished installation on localhost.localdomain
+- 1132571076 2005.11.21 #1# Nov 21 03:04:36 #1#/#1# exiting on signal 15
+- 1132571248 2005.11.21 aadmin1 Nov 21 03:07:28 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132571248 2005.11.21 aadmin1 Nov 21 03:07:28 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571248 2005.11.21 aadmin2 Nov 21 03:07:28 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571248 2005.11.21 aadmin3 Nov 21 03:07:28 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571248 2005.11.21 aadmin4 Nov 21 03:07:28 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571250 2005.11.21 aadmin1 Nov 21 03:07:30 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571250 2005.11.21 aadmin1 Nov 21 03:07:30 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+- 1132571250 2005.11.21 aadmin1 Nov 21 03:07:30 src@aadmin1 xinetd[18274]: START: tftp pid=6611 from=10.100.4.251
+- 1132571250 2005.11.21 aadmin2 Nov 21 03:07:30 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571250 2005.11.21 aadmin3 Nov 21 03:07:30 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571250 2005.11.21 aadmin4 Nov 21 03:07:30 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571273 2005.11.21 aadmin1 Nov 21 03:07:53 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571273 2005.11.21 aadmin1 Nov 21 03:07:53 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132571273 2005.11.21 aadmin1 Nov 21 03:07:53 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132571273 2005.11.21 aadmin1 Nov 21 03:07:53 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571273 2005.11.21 aadmin1 Nov 21 03:07:53 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571273 2005.11.21 aadmin1 Nov 21 03:07:53 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+- 1132571273 2005.11.21 aadmin2 Nov 21 03:07:53 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571273 2005.11.21 aadmin2 Nov 21 03:07:53 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571273 2005.11.21 aadmin2 Nov 21 03:07:53 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571273 2005.11.21 aadmin3 Nov 21 03:07:53 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571273 2005.11.21 aadmin3 Nov 21 03:07:53 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571273 2005.11.21 aadmin3 Nov 21 03:07:53 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571273 2005.11.21 aadmin4 Nov 21 03:07:53 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571273 2005.11.21 aadmin4 Nov 21 03:07:53 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571273 2005.11.21 aadmin4 Nov 21 03:07:53 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571274 2005.11.21 aadmin1 Nov 21 03:07:54 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571274 2005.11.21 aadmin1 Nov 21 03:07:54 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132571274 2005.11.21 aadmin1 Nov 21 03:07:54 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132571274 2005.11.21 aadmin1 Nov 21 03:07:54 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571274 2005.11.21 aadmin1 Nov 21 03:07:54 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132571274 2005.11.21 aadmin1 Nov 21 03:07:54 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+- 1132571274 2005.11.21 aadmin2 Nov 21 03:07:54 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571274 2005.11.21 aadmin2 Nov 21 03:07:54 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571274 2005.11.21 aadmin2 Nov 21 03:07:54 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571274 2005.11.21 aadmin3 Nov 21 03:07:54 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571274 2005.11.21 aadmin3 Nov 21 03:07:54 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571274 2005.11.21 aadmin3 Nov 21 03:07:54 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571274 2005.11.21 aadmin4 Nov 21 03:07:54 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571274 2005.11.21 aadmin4 Nov 21 03:07:54 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132571274 2005.11.21 aadmin4 Nov 21 03:07:54 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132571401 2005.11.21 aadmin1 Nov 21 03:10:01 src@aadmin1 crond(pam_unix)[6618]: session opened for user root by (uid=0)
+- 1132571401 2005.11.21 aadmin1 Nov 21 03:10:01 src@aadmin1 crond[6619]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1132571401 2005.11.21 badmin1 Nov 21 03:10:01 src@badmin1 crond(pam_unix)[13607]: session opened for user root by (uid=0)
+- 1132571401 2005.11.21 badmin1 Nov 21 03:10:01 src@badmin1 crond[13608]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1132571401 2005.11.21 cadmin1 Nov 21 03:10:01 src@cadmin1 crond(pam_unix)[17272]: session opened for user root by (uid=0)
+- 1132571401 2005.11.21 cadmin1 Nov 21 03:10:01 src@cadmin1 crond[17273]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1132571401 2005.11.21 dadmin1 Nov 21 03:10:01 src@dadmin1 crond(pam_unix)[23228]: session opened for user root by (uid=0)
+- 1132571401 2005.11.21 dadmin1 Nov 21 03:10:01 src@dadmin1 crond[23229]: (root) CMD (/projects/tbird/temps/get_temps d)
+- 1132571401 2005.11.21 eadmin1 Nov 21 03:10:01 src@eadmin1 crond(pam_unix)[18803]: session opened for user root by (uid=0)
+- 1132571401 2005.11.21 eadmin1 Nov 21 03:10:01 src@eadmin1 crond[18804]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1132571431 2005.11.21 eadmin1 Nov 21 03:10:31 src@eadmin1 sendmail[21880]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1132571433 2005.11.21 aadmin1 Nov 21 03:10:33 src@aadmin1 sendmail[9695]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1132571433 2005.11.21 badmin1 Nov 21 03:10:33 src@badmin1 sendmail[16684]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1132571433 2005.11.21 cadmin1 Nov 21 03:10:33 src@cadmin1 sendmail[20350]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1132571433 2005.11.21 dadmin1 Nov 21 03:10:33 src@dadmin1 sendmail[26308]: My unqualified host name (dadmin1) unknown; sleeping for retry
+- 1132571491 2005.11.21 eadmin1 Nov 21 03:11:31 src@eadmin1 sendmail[21880]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1132571492 2005.11.21 eadmin1 Nov 21 03:11:32 src@eadmin1 crond(pam_unix)[18803]: session closed for user root
+- 1132571492 2005.11.21 eadmin1 Nov 21 03:11:32 src@eadmin1 sendmail[21880]: jALABVEf021880: from=root, size=631354, class=0, nrcpts=1, msgid=<200511211011.jALABVEf021880@eadmin1>, relay=#7#@localhost
+- 1132571492 2005.11.21 eadmin1 Nov 21 03:11:32 src@eadmin1 sendmail[21880]: jALABVEf021880: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=661354, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132571493 2005.11.21 aadmin1 Nov 21 03:11:33 src@aadmin1 sendmail[9695]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1132571493 2005.11.21 badmin1 Nov 21 03:11:33 src@badmin1 sendmail[16684]: unable to qualify my own domain name (badmin1) -- using short name
+- 1132571493 2005.11.21 cadmin1 Nov 21 03:11:33 src@cadmin1 sendmail[20350]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1132571493 2005.11.21 dadmin1 Nov 21 03:11:33 src@dadmin1 sendmail[26308]: unable to qualify my own domain name (dadmin1) -- using short name
+- 1132571495 2005.11.21 aadmin1 Nov 21 03:11:35 src@aadmin1 crond(pam_unix)[6618]: session closed for user root
+- 1132571495 2005.11.21 aadmin1 Nov 21 03:11:35 src@aadmin1 sendmail[9695]: jALABXP2009695: from=root, size=1588291, class=0, nrcpts=1, msgid=<200511211011.jALABXP2009695@aadmin1>, relay=#7#@localhost
+- 1132571495 2005.11.21 aadmin1 Nov 21 03:11:35 src@aadmin1 sendmail[9695]: jALABXP2009695: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1618291, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132571495 2005.11.21 badmin1 Nov 21 03:11:35 src@badmin1 crond(pam_unix)[13607]: session closed for user root
+- 1132571495 2005.11.21 badmin1 Nov 21 03:11:35 src@badmin1 sendmail[16684]: jALABXOD016684: from=root, size=1568938, class=0, nrcpts=1, msgid=<200511211011.jALABXOD016684@badmin1>, relay=#7#@localhost
+- 1132571495 2005.11.21 badmin1 Nov 21 03:11:35 src@badmin1 sendmail[16684]: jALABXOD016684: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1598938, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132571495 2005.11.21 cadmin1 Nov 21 03:11:35 src@cadmin1 crond(pam_unix)[17272]: session closed for user root
+- 1132571495 2005.11.21 cadmin1 Nov 21 03:11:35 src@cadmin1 sendmail[20350]: jALABXpw020350: from=root, size=1556749, class=0, nrcpts=1, msgid=<200511211011.jALABXpw020350@cadmin1>, relay=#7#@localhost
+- 1132571495 2005.11.21 cadmin1 Nov 21 03:11:35 src@cadmin1 sendmail[20350]: jALABXpw020350: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1586749, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132571495 2005.11.21 dadmin1 Nov 21 03:11:35 src@dadmin1 crond(pam_unix)[23228]: session closed for user root
+- 1132571495 2005.11.21 dadmin1 Nov 21 03:11:35 src@dadmin1 sendmail[26308]: jALABXAu026308: from=root, size=1541310, class=0, nrcpts=1, msgid=<200511211011.jALABXAu026308@dadmin1>, relay=#7#@localhost
+- 1132571495 2005.11.21 dadmin1 Nov 21 03:11:35 src@dadmin1 sendmail[26308]: jALABXAu026308: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1571310, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]

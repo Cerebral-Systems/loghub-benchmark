@@ -1,0 +1,5 @@
+- 1132600272 2005.11.21 - 2005-11-21-11.11.12.004288 RAS KERNEL FATAL Kill job 50105 timed out. Block freed.
+- 1132621839 2005.11.21 NULL 2005-11-21-17.10.39.413920 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties
+- 1132621841 2005.11.21 NULL 2005-11-21-17.10.41.179064 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R2M0_460_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+- 1132621841 2005.11.21 NULL 2005-11-21-17.10.41.209343 NULL RAS MMCS INFO ciodb has been restarted.
+- 1132621841 2005.11.21 NULL 2005-11-21-17.10.41.367719 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120

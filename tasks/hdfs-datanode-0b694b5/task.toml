@@ -7,7 +7,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hdfs-datanode-0b694b5"
-description = "Loghub SRE investigation: locate datanode_unreachable incident in HDFS_v1 logs."
+description = "Loghub SRE investigation: locate datanode_unreachable incident across partitioned HDFS_v1 logs."
 
 [[task.authors]]
 name = "Madhav Goyal"
@@ -18,7 +18,7 @@ author_name = "Madhav Goyal"
 author_email = "madhav@campnetwork.xyz"
 difficulty = "medium"
 category = "sre-log-investigation"
-tags = ["hdfs", "anomaly-detection", "log-analysis", "datanode"]
+tags = ["hdfs", "anomaly-detection", "log-analysis", "datanode", "multi-file"]
 
 [agent]
 timeout_sec = 300.0

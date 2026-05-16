@@ -1,0 +1,220 @@
+- 1148011261 2006.05.18 en139 May 18 21:01:01 en139/en139 crond(pam_unix)[11839]: session closed for user root
+- 1148011261 2006.05.18 en139 May 18 21:01:01 en139/en139 crond(pam_unix)[11839]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en148 May 18 21:01:01 en148/en148 crond(pam_unix)[12119]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en148 May 18 21:01:01 en148/en148 crond[12120]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en149 May 18 21:01:01 en149/en149 crond(pam_unix)[12129]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en149 May 18 21:01:01 en149/en149 crond[12130]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en151 May 18 21:01:01 en151/en151 crond(pam_unix)[12150]: session closed for user root
+- 1148011261 2006.05.18 en152 May 18 21:01:01 en152/en152 crond[12120]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en157 May 18 21:01:01 en157/en157 crond(pam_unix)[12130]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en158 May 18 21:01:01 en158/en158 crond(pam_unix)[12210]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en159 May 18 21:01:01 en159/en159 crond(pam_unix)[12132]: session closed for user root
+- 1148011261 2006.05.18 en160 May 18 21:01:01 en160/en160 crond(pam_unix)[12128]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en160 May 18 21:01:01 en160/en160 crond[12129]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en162 May 18 21:01:01 en162/en162 crond(pam_unix)[12235]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en166 May 18 21:01:01 en166/en166 crond[12237]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en167 May 18 21:01:01 en167/en167 crond[12072]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en169 May 18 21:01:01 en169/en169 crond(pam_unix)[12243]: session closed for user root
+- 1148011261 2006.05.18 en173 May 18 21:01:01 en173/en173 crond(pam_unix)[12238]: session closed for user root
+- 1148011261 2006.05.18 en173 May 18 21:01:01 en173/en173 crond(pam_unix)[12238]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en173 May 18 21:01:01 en173/en173 crond[12239]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en176 May 18 21:01:01 en176/en176 crond(pam_unix)[11787]: session closed for user root
+- 1148011261 2006.05.18 en176 May 18 21:01:01 en176/en176 crond[11788]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en185 May 18 21:01:01 en185/en185 crond(pam_unix)[11777]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en186 May 18 21:01:01 en186/en186 crond(pam_unix)[11764]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en187 May 18 21:01:01 en187/en187 crond(pam_unix)[11594]: session closed for user root
+- 1148011261 2006.05.18 en187 May 18 21:01:01 en187/en187 crond[11595]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en189 May 18 21:01:01 en189/en189 crond[11764]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en200 May 18 21:01:01 en200/en200 crond[11819]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en207 May 18 21:01:01 en207/en207 crond(pam_unix)[11823]: session closed for user root
+- 1148011261 2006.05.18 en207 May 18 21:01:01 en207/en207 crond(pam_unix)[11823]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en207 May 18 21:01:01 en207/en207 crond[11824]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en209 May 18 21:01:01 en209/en209 crond[11861]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en212 May 18 21:01:01 en212/en212 crond(pam_unix)[9817]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en214 May 18 21:01:01 en214/en214 crond[11550]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en216 May 18 21:01:01 en216/en216 crond[11610]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en217 May 18 21:01:01 en217/en217 crond(pam_unix)[11668]: session closed for user root
+- 1148011261 2006.05.18 en217 May 18 21:01:01 en217/en217 crond[11669]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en219 May 18 21:01:01 en219/en219 crond(pam_unix)[11692]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en220 May 18 21:01:01 en220/en220 crond(pam_unix)[11702]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en224 May 18 21:01:01 en224/en224 crond[11679]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en226 May 18 21:01:01 en226/en226 crond(pam_unix)[9838]: session closed for user root
+- 1148011261 2006.05.18 en226 May 18 21:01:01 en226/en226 crond(pam_unix)[9838]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en226 May 18 21:01:01 en226/en226 crond[9839]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en230 May 18 21:01:01 en230/en230 crond(pam_unix)[11696]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en232 May 18 21:01:01 en232/en232 crond(pam_unix)[11871]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en234 May 18 21:01:01 en234/en234 crond(pam_unix)[11708]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en238 May 18 21:01:01 en238/en238 crond(pam_unix)[11920]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en238 May 18 21:01:01 en238/en238 crond[11921]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en243 May 18 21:01:01 en243/en243 crond(pam_unix)[11746]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en245 May 18 21:01:01 en245/en245 crond(pam_unix)[11906]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en245 May 18 21:01:01 en245/en245 crond[11907]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en247 May 18 21:01:01 en247/en247 crond(pam_unix)[9819]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en247 May 18 21:01:01 en247/en247 crond[9820]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en250 May 18 21:01:01 en250/en250 crond(pam_unix)[9791]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en251 May 18 21:01:01 en251/en251 crond(pam_unix)[11817]: session closed for user root
+- 1148011261 2006.05.18 en251 May 18 21:01:01 en251/en251 crond(pam_unix)[11817]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en251 May 18 21:01:01 en251/en251 crond[11818]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en253 May 18 21:01:01 en253/en253 crond[9868]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en254 May 18 21:01:01 en254/en254 crond(pam_unix)[11863]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en256 May 18 21:01:01 en256/en256 crond(pam_unix)[11964]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en259 May 18 21:01:01 en259/en259 crond(pam_unix)[11944]: session closed for user root
+- 1148011261 2006.05.18 en259 May 18 21:01:01 en259/en259 crond(pam_unix)[11944]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en259 May 18 21:01:01 en259/en259 crond[11945]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en261 May 18 21:01:01 en261/en261 crond(pam_unix)[11949]: session closed for user root
+- 1148011261 2006.05.18 en266 May 18 21:01:01 en266/en266 crond(pam_unix)[11925]: session closed for user root
+- 1148011261 2006.05.18 en266 May 18 21:01:01 en266/en266 crond(pam_unix)[11925]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en266 May 18 21:01:01 en266/en266 crond[11926]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en268 May 18 21:01:01 en268/en268 crond(pam_unix)[12386]: session closed for user root
+- 1148011261 2006.05.18 en268 May 18 21:01:01 en268/en268 crond(pam_unix)[12386]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en268 May 18 21:01:01 en268/en268 crond[12387]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en269 May 18 21:01:01 en269/en269 crond(pam_unix)[12101]: session closed for user root
+- 1148011261 2006.05.18 en269 May 18 21:01:01 en269/en269 crond(pam_unix)[12101]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en269 May 18 21:01:01 en269/en269 crond[12102]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en272 May 18 21:01:01 en272/en272 crond(pam_unix)[11941]: session closed for user root
+- 1148011261 2006.05.18 en275 May 18 21:01:01 en275/en275 crond(pam_unix)[13053]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en277 May 18 21:01:01 en277/en277 crond(pam_unix)[11923]: session closed for user root
+- 1148011261 2006.05.18 en280 May 18 21:01:01 en280/en280 crond(pam_unix)[11902]: session closed for user root
+- 1148011261 2006.05.18 en280 May 18 21:01:01 en280/en280 crond(pam_unix)[11902]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en282 May 18 21:01:01 en282/en282 crond(pam_unix)[9873]: session closed for user root
+- 1148011261 2006.05.18 en282 May 18 21:01:01 en282/en282 crond[9874]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en283 May 18 21:01:01 en283/en283 crond(pam_unix)[11985]: session closed for user root
+- 1148011261 2006.05.18 en294 May 18 21:01:01 en294/en294 crond(pam_unix)[11504]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en294 May 18 21:01:01 en294/en294 crond[11505]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en296 May 18 21:01:01 en296/en296 crond(pam_unix)[11380]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en301 May 18 21:01:01 en301/en301 crond(pam_unix)[11371]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en309 May 18 21:01:01 en309/en309 crond(pam_unix)[11606]: session closed for user root
+- 1148011261 2006.05.18 en309 May 18 21:01:01 en309/en309 crond(pam_unix)[11606]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en309 May 18 21:01:01 en309/en309 crond[11607]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en312 May 18 21:01:01 en312/en312 crond(pam_unix)[11977]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en315 May 18 21:01:01 en315/en315 crond[11559]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en317 May 18 21:01:01 en317/en317 crond(pam_unix)[12023]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en318 May 18 21:01:01 en318/en318 crond(pam_unix)[11610]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en318 May 18 21:01:01 en318/en318 crond[11611]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en319 May 18 21:01:01 en319/en319 crond[11504]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en333 May 18 21:01:01 en333/en333 crond(pam_unix)[11446]: session closed for user root
+- 1148011261 2006.05.18 en335 May 18 21:01:01 en335/en335 crond[11435]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en336 May 18 21:01:01 en336/en336 crond(pam_unix)[19165]: session closed for user root
+- 1148011261 2006.05.18 en336 May 18 21:01:01 en336/en336 crond(pam_unix)[19165]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en336 May 18 21:01:01 en336/en336 crond[19166]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en341 May 18 21:01:01 en341/en341 crond[11356]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en343 May 18 21:01:01 en343/en343 crond(pam_unix)[11495]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en347 May 18 21:01:01 en347/en347 crond(pam_unix)[11261]: session closed for user root
+- 1148011261 2006.05.18 en348 May 18 21:01:01 en348/en348 crond(pam_unix)[11193]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en348 May 18 21:01:01 en348/en348 crond[11194]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en355 May 18 21:01:01 en355/en355 crond(pam_unix)[11425]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en357 May 18 21:01:01 en357/en357 crond(pam_unix)[11472]: session closed for user root
+- 1148011261 2006.05.18 en357 May 18 21:01:01 en357/en357 crond(pam_unix)[11472]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en364 May 18 21:01:01 en364/en364 crond(pam_unix)[11363]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en364 May 18 21:01:01 en364/en364 crond[11364]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en366 May 18 21:01:01 en366/en366 crond(pam_unix)[11318]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en367 May 18 21:01:01 en367/en367 crond(pam_unix)[11333]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en367 May 18 21:01:01 en367/en367 crond[11334]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en369 May 18 21:01:01 en369/en369 crond(pam_unix)[11998]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en37 May 18 21:01:01 en37/en37 crond(pam_unix)[9794]: session closed for user root
+- 1148011261 2006.05.18 en37 May 18 21:01:01 en37/en37 crond(pam_unix)[9794]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en373 May 18 21:01:01 en373/en373 crond(pam_unix)[11381]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en378 May 18 21:01:01 en378/en378 crond[11287]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en38 May 18 21:01:01 en38/en38 crond(pam_unix)[10661]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en38 May 18 21:01:01 en38/en38 crond[10662]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en381 May 18 21:01:01 en381/en381 crond[12202]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en383 May 18 21:01:01 en383/en383 crond(pam_unix)[20558]: session closed for user root
+- 1148011261 2006.05.18 en383 May 18 21:01:01 en383/en383 crond(pam_unix)[20558]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en42 May 18 21:01:01 en42/en42 crond(pam_unix)[10746]: session closed for user root
+- 1148011261 2006.05.18 en42 May 18 21:01:01 en42/en42 crond(pam_unix)[10746]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en42 May 18 21:01:01 en42/en42 crond[10747]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en44 May 18 21:01:01 en44/en44 crond(pam_unix)[10676]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en46 May 18 21:01:01 en46/en46 crond(pam_unix)[10604]: session closed for user root
+- 1148011261 2006.05.18 en49 May 18 21:01:01 en49/en49 crond(pam_unix)[10601]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en50 May 18 21:01:01 en50/en50 crond(pam_unix)[10530]: session closed for user root
+- 1148011261 2006.05.18 en50 May 18 21:01:01 en50/en50 crond(pam_unix)[10530]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en50 May 18 21:01:01 en50/en50 crond[10531]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en60 May 18 21:01:01 en60/en60 crond(pam_unix)[10923]: session closed for user root
+- 1148011261 2006.05.18 en61 May 18 21:01:01 en61/en61 crond(pam_unix)[10446]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en62 May 18 21:01:01 en62/en62 crond(pam_unix)[7676]: session closed for user root
+- 1148011261 2006.05.18 en62 May 18 21:01:01 en62/en62 crond(pam_unix)[7676]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en62 May 18 21:01:01 en62/en62 crond[7677]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en64 May 18 21:01:01 en64/en64 crond(pam_unix)[10783]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en68 May 18 21:01:01 en68/en68 crond(pam_unix)[10701]: session closed for user root
+- 1148011261 2006.05.18 en68 May 18 21:01:01 en68/en68 crond(pam_unix)[10701]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en68 May 18 21:01:01 en68/en68 crond[10702]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en71 May 18 21:01:01 en71/en71 crond(pam_unix)[11542]: session closed for user root
+- 1148011261 2006.05.18 en71 May 18 21:01:01 en71/en71 crond[11543]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en76 May 18 21:01:01 en76/en76 crond(pam_unix)[10775]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en76 May 18 21:01:01 en76/en76 crond[10776]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en80 May 18 21:01:01 en80/en80 crond(pam_unix)[7968]: session closed for user root
+- 1148011261 2006.05.18 en82 May 18 21:01:01 en82/en82 crond(pam_unix)[11569]: session closed for user root
+- 1148011261 2006.05.18 en82 May 18 21:01:01 en82/en82 crond(pam_unix)[11569]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en82 May 18 21:01:01 en82/en82 crond[11570]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en83 May 18 21:01:01 en83/en83 crond(pam_unix)[11889]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en90 May 18 21:01:01 en90/en90 crond(pam_unix)[11565]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en92 May 18 21:01:01 en92/en92 crond(pam_unix)[11558]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en94 May 18 21:01:01 en94/en94 crond(pam_unix)[11522]: session opened for user root by (uid=0)
+- 1148011261 2006.05.18 en97 May 18 21:01:01 en97/en97 crond[11516]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en98 May 18 21:01:01 en98/en98 crond[11497]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011261 2006.05.18 en99 May 18 21:01:01 en99/en99 crond[11497]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011262 2006.05.18 en150 May 18 21:01:02 en150/en150 crond(pam_unix)[12131]: session opened for user root by (uid=0)
+- 1148011262 2006.05.18 en195 May 18 21:01:02 en195/en195 crond(pam_unix)[8460]: session closed for user root
+- 1148011262 2006.05.18 en201 May 18 21:01:02 en201/en201 crond(pam_unix)[12639]: session closed for user root
+- 1148011262 2006.05.18 en353 May 18 21:01:02 en353/en353 crond(pam_unix)[11387]: session opened for user root by (uid=0)
+- 1148011262 2006.05.18 en371 May 18 21:01:02 en371/en371 crond(pam_unix)[11769]: session closed for user root
+- 1148011262 2006.05.18 en371 May 18 21:01:02 en371/en371 crond[11770]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011262 2006.05.18 en372 May 18 21:01:02 en372/en372 crond[11406]: (root) CMD (run-parts /etc/cron.hourly)
+- 1148011262 2006.05.18 en89 May 18 21:01:02 en89/en89 crond(pam_unix)[11614]: session closed for user root
+- 1148011262 2006.05.18 en89 May 18 21:01:02 en89/en89 crond(pam_unix)[11614]: session opened for user root by (uid=0)
+- 1148012072 2006.05.18 en176 May 18 21:14:32 en176/en176 smartd[1957]: Device: /dev/sda, Temperature changed -3 Celsius to 24 Celsius since last report
+- 1148012072 2006.05.18 en190 May 18 21:14:32 en190/en190 smartd[1959]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1148012073 2006.05.18 en143 May 18 21:14:33 en143/en143 smartd[1958]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1148012073 2006.05.18 en180 May 18 21:14:33 en180/en180 smartd[1961]: Device: /dev/sda, Temperature changed -3 Celsius to 25 Celsius since last report
+- 1148012073 2006.05.18 en186 May 18 21:14:33 en186/en186 smartd[1957]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1148012073 2006.05.18 en188 May 18 21:14:33 en188/en188 smartd[1958]: Device: /dev/sda, Temperature changed -3 Celsius to 28 Celsius since last report
+- 1148012073 2006.05.18 en189 May 18 21:14:33 en189/en189 smartd[1958]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1148012074 2006.05.18 en181 May 18 21:14:34 en181/en181 smartd[1958]: Device: /dev/sda, Temperature changed -3 Celsius to 25 Celsius since last report
+- 1148012075 2006.05.18 en184 May 18 21:14:35 en184/en184 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1148012075 2006.05.18 en191 May 18 21:14:35 en191/en191 smartd[1968]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1148012076 2006.05.18 en170 May 18 21:14:36 en170/en170 smartd[1968]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1148012076 2006.05.18 en182 May 18 21:14:36 en182/en182 smartd[1969]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1148012076 2006.05.18 en187 May 18 21:14:36 en187/en187 smartd[1962]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1148012077 2006.05.18 en177 May 18 21:14:37 en177/en177 smartd[1969]: Device: /dev/sda, Temperature changed -3 Celsius to 25 Celsius since last report
+- 1148012078 2006.05.18 en185 May 18 21:14:38 en185/en185 smartd[1970]: Device: /dev/sda, Temperature changed -3 Celsius to 28 Celsius since last report
+- 1148012078 2006.05.18 en192 May 18 21:14:38 en192/en192 smartd[1972]: Device: /dev/sda, Temperature changed -3 Celsius to 33 Celsius since last report
+- 1148012085 2006.05.18 en210 May 18 21:14:45 en210/en210 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1148012088 2006.05.18 en200 May 18 21:14:48 en200/en200 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1148012088 2006.05.18 en211 May 18 21:14:48 en211/en211 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1148012088 2006.05.18 en215 May 18 21:14:48 en215/en215 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1148012088 2006.05.18 en236 May 18 21:14:48 en236/en236 smartd[1961]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1148012089 2006.05.18 en203 May 18 21:14:49 en203/en203 smartd[1972]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1148012090 2006.05.18 en224 May 18 21:14:50 en224/en224 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1148012091 2006.05.18 en239 May 18 21:14:51 en239/en239 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1148012134 2006.05.18 en276 May 18 21:15:34 en276/en276 smartd[1968]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1148012135 2006.05.18 en299 May 18 21:15:35 en299/en299 smartd[1959]: Device: /dev/sda, Temperature changed 2 Celsius to 25 Celsius since last report
+- 1148012135 2006.05.18 en305 May 18 21:15:35 en305/en305 smartd[1958]: Device: /dev/sda, Temperature changed 2 Celsius to 24 Celsius since last report
+- 1148012135 2006.05.18 en309 May 18 21:15:35 en309/en309 smartd[1969]: Device: /dev/sda, Temperature changed 2 Celsius to 26 Celsius since last report
+- 1148012139 2006.05.18 en306 May 18 21:15:39 en306/en306 smartd[1954]: Device: /dev/sda, Temperature changed 2 Celsius to 27 Celsius since last report
+- 1148012151 2006.05.18 en358 May 18 21:15:51 en358/en358 smartd[1964]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1148012153 2006.05.18 en339 May 18 21:15:53 en339/en339 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1148012154 2006.05.18 en320 May 18 21:15:54 en320/en320 smartd[1969]: Device: /dev/sda, Temperature changed 2 Celsius to 28 Celsius since last report
+- 1148012154 2006.05.18 en381 May 18 21:15:54 en381/en381 smartd[1969]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1148012156 2006.05.18 en315 May 18 21:15:56 en315/en315 smartd[1969]: Device: /dev/sda, Temperature changed 2 Celsius to 27 Celsius since last report
+- 1148012156 2006.05.18 en351 May 18 21:15:56 en351/en351 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1148013600 2006.05.18 en358 May 18 21:40:00 en358/en358 sshd(pam_unix)[7711]: session opened for user root by (uid=0)
+- 1148013600 2006.05.18 en358 May 18 21:40:00 en358/en358 sshd(pam_unix)[7712]: session opened for user root by (uid=0)
+- 1148013600 2006.05.18 en358 May 18 21:40:00 en358/en358 sshd[7707]: Accepted publickey for root from ::ffff:10.100.34.102 port 45189 ssh2
+- 1148013600 2006.05.18 en358 May 18 21:40:00 en358/en358 sshd[7708]: Accepted publickey for root from ::ffff:10.100.34.102 port 45190 ssh2
+- 1148013602 2006.05.18 en358 May 18 21:40:02 en358/en358 sshd(pam_unix)[7798]: session opened for user root by (uid=0)
+- 1148013602 2006.05.18 en358 May 18 21:40:02 en358/en358 sshd(pam_unix)[7807]: session opened for user root by (uid=0)
+- 1148013602 2006.05.18 en358 May 18 21:40:02 en358/en358 sshd[7794]: Accepted publickey for root from ::ffff:10.100.34.102 port 45194 ssh2
+- 1148013602 2006.05.18 en358 May 18 21:40:02 en358/en358 sshd[7796]: Accepted publickey for root from ::ffff:10.100.34.102 port 45195 ssh2
+- 1148013604 2006.05.18 en358 May 18 21:40:04 en358/en358 sshd(pam_unix)[7885]: session opened for user root by (uid=0)
+- 1148013604 2006.05.18 en358 May 18 21:40:04 en358/en358 sshd(pam_unix)[7899]: session opened for user root by (uid=0)
+- 1148013604 2006.05.18 en358 May 18 21:40:04 en358/en358 sshd[7881]: Accepted publickey for root from ::ffff:10.100.34.102 port 45199 ssh2
+- 1148013604 2006.05.18 en358 May 18 21:40:04 en358/en358 sshd[7883]: Accepted publickey for root from ::ffff:10.100.34.102 port 45200 ssh2
+- 1148013606 2006.05.18 en358 May 18 21:40:06 en358/en358 sshd(pam_unix)[7972]: session opened for user root by (uid=0)
+- 1148013606 2006.05.18 en358 May 18 21:40:06 en358/en358 sshd(pam_unix)[7975]: session opened for user root by (uid=0)
+- 1148013606 2006.05.18 en358 May 18 21:40:06 en358/en358 sshd[7968]: Accepted publickey for root from ::ffff:10.100.34.102 port 45204 ssh2
+- 1148013606 2006.05.18 en358 May 18 21:40:06 en358/en358 sshd[7970]: Accepted publickey for root from ::ffff:10.100.34.102 port 45205 ssh2
+- 1148013834 2006.05.18 en93 May 18 21:43:54 en93/en93 smartd[1959]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1148013875 2006.05.18 en142 May 18 21:44:35 en142/en142 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1148013893 2006.05.18 en198 May 18 21:44:53 en198/en198 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1148013934 2006.05.18 en282 May 18 21:45:34 en282/en282 smartd[1953]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1148013935 2006.05.18 en312 May 18 21:45:35 en312/en312 smartd[1969]: Device: /dev/sda, Temperature changed 2 Celsius to 26 Celsius since last report

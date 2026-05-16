@@ -1,26 +1,92 @@
 {
-  "anomaly_line_ids": [
-    5167,
-    5202,
-    5225,
-    5248,
-    5452,
-    5454,
-    5493,
-    5496,
-    5521,
-    5522,
-    5556,
-    5570,
-    5576,
-    5600,
-    5793,
-    5877,
-    5880,
-    5881,
-    5907,
-    6676,
-    6676
+  "anomaly_keys": [
+    "blk_-1023495876047573307"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1271
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1595
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1282
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1100
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1237
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1335
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1252
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1160
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1263
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1356
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1676
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1690
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1696
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1720
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 1327
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1245
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1433
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1434
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1814
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 80
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 80
+    }
   ],
   "root_cause_type": "other"
 }

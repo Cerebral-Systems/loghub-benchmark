@@ -7,11 +7,33 @@
     "timeout",
     "other"
   ],
-  "anomaly_line_ids": [
-    6225,
-    6298,
-    6374,
-    6703
+  "anomaly_keys": [
+    "blk_-1021695699039097568"
+  ],
+  "evidence": [
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1335
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1358
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1981
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 1629
+    }
+  ],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
   ],
   "is_incident": true,
   "min_evidence_count": 3,
@@ -23,5 +45,5 @@
     "open_incident",
     "page_owner"
   ],
-  "schema_version": "loghub-sre-answer-v1"
+  "schema_version": "loghub-sre-answer-v2"
 }

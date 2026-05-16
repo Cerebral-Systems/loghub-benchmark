@@ -1,0 +1,63 @@
+- 1150158428 2006.06.12 dn187 Jun 12 17:27:08 dn187/dn187 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1150158439 2006.06.12 dn395 Jun 12 17:27:19 dn395/dn395 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1150158439 2006.06.12 dn616 Jun 12 17:27:19 dn616/dn616 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1150158442 2006.06.12 dn637 Jun 12 17:27:22 dn637/dn637 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1150158449 2006.06.12 dn962 Jun 12 17:27:29 dn962/dn962 ntpd[2261]: synchronized to 10.100.24.250, stratum 3
+- 1150158450 2006.06.12 dn671 Jun 12 17:27:30 dn671/dn671 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1150158452 2006.06.12 dn1008 Jun 12 17:27:32 dn1008/dn1008 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1150158461 2006.06.12 dn136 Jun 12 17:27:41 dn136/dn136 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1150158466 2006.06.12 dn567 Jun 12 17:27:46 dn567/dn567 ntpd[2345]: synchronized to 10.100.24.250, stratum 3
+- 1150158469 2006.06.12 dn249 Jun 12 17:27:49 dn249/dn249 ntpd[2276]: synchronized to 10.100.24.250, stratum 3
+- 1150158482 2006.06.12 dn568 Jun 12 17:28:02 dn568/dn568 ntpd[2293]: synchronized to 10.100.24.250, stratum 3
+- 1150158490 2006.06.12 dn168 Jun 12 17:28:10 dn168/dn168 ntpd[2266]: synchronized to 10.100.28.250, stratum 3
+- 1150158494 2006.06.12 dn750 Jun 12 17:28:14 dn750/dn750 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1150158506 2006.06.12 dn594 Jun 12 17:28:26 dn594/dn594 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1150158509 2006.06.12 dn145 Jun 12 17:28:29 dn145/dn145 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1150158518 2006.06.12 dn219 Jun 12 17:28:38 dn219/dn219 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150158521 2006.06.12 dn310 Jun 12 17:28:41 dn310/dn310 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1150158535 2006.06.12 dn145 Jun 12 17:28:55 dn145/dn145 ntpd[2276]: synchronized to 10.100.28.250, stratum 3
+- 1150158536 2006.06.12 dn784 Jun 12 17:28:56 dn784/dn784 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+- 1150158541 2006.06.12 dn558 Jun 12 17:29:01 dn558/dn558 ntpd[2334]: synchronized to 10.100.30.250, stratum 3
+- 1150158541 2006.06.12 dn928 Jun 12 17:29:01 dn928/dn928 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1150158542 2006.06.12 dn613 Jun 12 17:29:02 dn613/dn613 ntpd[2295]: synchronized to 10.100.30.250, stratum 3
+- 1150158545 2006.06.12 dn229 Jun 12 17:29:05 dn229/dn229 ntpd[2265]: synchronized to 10.100.24.250, stratum 3
+- 1150158547 2006.06.12 dn866 Jun 12 17:29:07 dn866/dn866 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1150158548 2006.06.12 dn635 Jun 12 17:29:08 dn635/dn635 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1150158556 2006.06.12 dn27 Jun 12 17:29:16 dn27/dn27 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1150158561 2006.06.12 dn144 Jun 12 17:29:21 dn144/dn144 ntpd[2269]: synchronized to 10.100.28.250, stratum 3
+- 1150158568 2006.06.12 dn663 Jun 12 17:29:28 dn663/dn663 ntpd[2334]: synchronized to 10.100.30.250, stratum 3
+- 1150158569 2006.06.12 dn288 Jun 12 17:29:29 dn288/dn288 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1150158569 2006.06.12 dn554 Jun 12 17:29:29 dn554/dn554 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1150158575 2006.06.12 dn937 Jun 12 17:29:35 dn937/dn937 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1150158577 2006.06.12 dn226 Jun 12 17:29:37 dn226/dn226 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1150158579 2006.06.12 dn317 Jun 12 17:29:39 dn317/dn317 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1150158580 2006.06.12 dn524 Jun 12 17:29:40 dn524/dn524 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1150158581 2006.06.12 dn7 Jun 12 17:29:41 dn7/dn7 ntpd[2276]: synchronized to 10.100.24.250, stratum 3
+- 1150158595 2006.06.12 dn894 Jun 12 17:29:55 dn894/dn894 ntpd[2261]: synchronized to 10.100.28.250, stratum 3
+- 1150158602 2006.06.12 dn362 Jun 12 17:30:02 dn362/dn362 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1150158615 2006.06.12 dn687 Jun 12 17:30:15 dn687/dn687 ntpd[2282]: synchronized to 10.100.28.250, stratum 3
+- 1150158616 2006.06.12 dn565 Jun 12 17:30:16 dn565/dn565 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150158625 2006.06.12 dn117 Jun 12 17:30:25 dn117/dn117 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1150158627 2006.06.12 dn244 Jun 12 17:30:27 dn244/dn244 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1150158635 2006.06.12 dn27 Jun 12 17:30:35 dn27/dn27 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150158639 2006.06.12 dn182 Jun 12 17:30:39 dn182/dn182 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1150158644 2006.06.12 dn317 Jun 12 17:30:44 dn317/dn317 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150158645 2006.06.12 dn1003 Jun 12 17:30:45 dn1003/dn1003 ntpd[2265]: synchronized to 10.100.26.250, stratum 3
+- 1150158645 2006.06.12 dn384 Jun 12 17:30:45 dn384/dn384 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1150158647 2006.06.12 dn326 Jun 12 17:30:47 dn326/dn326 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1150158647 2006.06.12 dn337 Jun 12 17:30:47 dn337/dn337 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1150158648 2006.06.12 dn334 Jun 12 17:30:48 dn334/dn334 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1150158658 2006.06.12 dn515 Jun 12 17:30:58 dn515/dn515 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1150158658 2006.06.12 dn679 Jun 12 17:30:58 dn679/dn679 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1150158660 2006.06.12 dn156 Jun 12 17:31:00 dn156/dn156 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1150158667 2006.06.12 dn344 Jun 12 17:31:07 dn344/dn344 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1150158669 2006.06.12 dn422 Jun 12 17:31:09 dn422/dn422 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 42 Celsius since last report
+- 1150158671 2006.06.12 dn318 Jun 12 17:31:11 dn318/dn318 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1150158678 2006.06.12 dn229 Jun 12 17:31:18 dn229/dn229 ntpd[2265]: synchronized to 10.100.30.250, stratum 3
+- 1150158679 2006.06.12 dn127 Jun 12 17:31:19 dn127/dn127 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1150158679 2006.06.12 dn185 Jun 12 17:31:19 dn185/dn185 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1150158680 2006.06.12 dn995 Jun 12 17:31:20 dn995/dn995 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1150158685 2006.06.12 dn1019 Jun 12 17:31:25 dn1019/dn1019 ntpd[2288]: synchronized to 10.100.28.250, stratum 3
+- 1150158691 2006.06.12 dn46 Jun 12 17:31:31 dn46/dn46 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1150158713 2006.06.12 dn906 Jun 12 17:31:53 dn906/dn906 ntpd[2261]: synchronized to 10.100.24.250, stratum 3
+- 1150158716 2006.06.12 dn193 Jun 12 17:31:56 dn193/dn193 ntpd[2273]: synchronized to 10.100.26.250, stratum 3

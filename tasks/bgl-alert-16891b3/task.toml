@@ -7,7 +7,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/bgl-alert-16891b3"
-description = "Loghub SRE investigation: locate other_alert incident in BGL logs."
+description = "Loghub SRE investigation: locate other_alert incident across partitioned BGL logs."
 
 [[task.authors]]
 name = "Madhav Goyal"
@@ -18,7 +18,7 @@ author_name = "Madhav Goyal"
 author_email = "madhav@campnetwork.xyz"
 difficulty = "medium"
 category = "sre-log-investigation"
-tags = ["bgl", "anomaly-detection", "log-analysis", "alert"]
+tags = ["bgl", "anomaly-detection", "log-analysis", "alert", "multi-file"]
 
 [agent]
 timeout_sec = 300.0

@@ -7,7 +7,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/openstack-vmtask-2024031"
-description = "Loghub SRE investigation: locate vm_task_failure incident in OpenStack logs."
+description = "Loghub SRE investigation: locate vm_task_failure incident across partitioned OpenStack logs."
 
 [[task.authors]]
 name = "Madhav Goyal"
@@ -18,7 +18,7 @@ author_name = "Madhav Goyal"
 author_email = "madhav@campnetwork.xyz"
 difficulty = "medium"
 category = "sre-log-investigation"
-tags = ["openstack", "anomaly-detection", "log-analysis", "vmtask"]
+tags = ["openstack", "anomaly-detection", "log-analysis", "vmtask", "multi-file"]
 
 [agent]
 timeout_sec = 300.0

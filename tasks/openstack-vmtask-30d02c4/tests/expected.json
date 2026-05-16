@@ -5,32 +5,115 @@
     "image_pull_failure",
     "other"
   ],
-  "anomaly_line_ids": [
-    3941,
-    3942,
-    3943,
-    3944,
-    3945,
-    3946,
-    3947,
-    3948,
-    3951,
-    3989,
-    3990,
-    3991,
-    4009,
-    4010,
-    4011,
-    4012,
-    4013,
-    4014,
-    4028,
-    4030,
-    4032,
-    4033,
-    4034,
-    4036,
-    4058
+  "anomaly_keys": [
+    "1643649d-2f42-4303-bfcd-7798baec19f9"
+  ],
+  "evidence": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1805
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1806
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1807
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1808
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1809
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1810
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1811
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1812
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1813
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1819
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1820
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1821
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1828
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1829
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1830
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1831
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1832
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1833
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1837
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1838
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1839
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1840
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1841
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1842
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1855
+    }
+  ],
+  "files": [
+    "openstack-nova-api.log",
+    "openstack-nova-compute.log",
+    "openstack-nova-scheduler.log"
   ],
   "is_incident": true,
   "min_evidence_count": 3,
@@ -42,5 +125,5 @@
     "open_incident",
     "page_owner"
   ],
-  "schema_version": "loghub-sre-answer-v1"
+  "schema_version": "loghub-sre-answer-v2"
 }

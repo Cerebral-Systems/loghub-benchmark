@@ -1,0 +1,126 @@
+- 1150158424 2006.06.12 en17 Jun 12 17:27:04 en17/en17 kernel: LustreError: 8163:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154824, 0s ago) #316#@0000010188877600 x1427831/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158424 2006.06.12 en17 Jun 12 17:27:04 en17/en17 kernel: LustreError: 8163:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1404 similar messages
+- 1150158424 2006.06.12 en17 Jun 12 17:27:04 en17/en17 kernel: LustreError: 8163:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@0000010188877600 x1427831/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158424 2006.06.12 en17 Jun 12 17:27:04 en17/en17 kernel: LustreError: 8163:0:(events.c:54:request_out_callback()) previously skipped 1404 similar messages
+- 1150158424 2006.06.12 en30 Jun 12 17:27:04 en30/en30 kernel: LustreError: 8020:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154824, 0s ago) #316#@000001003d23c200 x1410094/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158424 2006.06.12 en30 Jun 12 17:27:04 en30/en30 kernel: LustreError: 8020:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158425 2006.06.12 en15 Jun 12 17:27:05 en15/en15 kernel: LustreError: 7892:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154824, 1s ago) #316#@000001016bfe8a00 x1437669/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158425 2006.06.12 en15 Jun 12 17:27:05 en15/en15 kernel: LustreError: 7892:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1404 similar messages
+- 1150158425 2006.06.12 en15 Jun 12 17:27:05 en15/en15 kernel: LustreError: 7892:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001016bfe8a00 x1437669/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158425 2006.06.12 en15 Jun 12 17:27:05 en15/en15 kernel: LustreError: 7892:0:(events.c:54:request_out_callback()) previously skipped 1404 similar messages
+- 1150158441 2006.06.12 en23 Jun 12 17:27:21 en23/en23 kernel: LustreError: 7901:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154841, 0s ago) #316#@00000100bfd89800 x1410385/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158441 2006.06.12 en23 Jun 12 17:27:21 en23/en23 kernel: LustreError: 7901:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158446 2006.06.12 en2 Jun 12 17:27:26 en2/en2 kernel: LustreError: 8024:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101bd844e00 x1437891/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158446 2006.06.12 en2 Jun 12 17:27:26 en2/en2 kernel: LustreError: 8024:0:(events.c:54:request_out_callback()) previously skipped 1404 similar messages
+- 1150158447 2006.06.12 en12 Jun 12 17:27:27 en12/en12 kernel: LustreError: 7911:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@0000010034105800 x1410707/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158447 2006.06.12 en12 Jun 12 17:27:27 en12/en12 kernel: LustreError: 7911:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158448 2006.06.12 en28 Jun 12 17:27:28 en28/en28 kernel: LustreError: 7875:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154848, 0s ago) #316#@00000101bf821e00 x1410122/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158448 2006.06.12 en28 Jun 12 17:27:28 en28/en28 kernel: LustreError: 7875:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158467 2006.06.12 en7 Jun 12 17:27:47 en7/en7 kernel: LustreError: 7956:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154867, 0s ago) #316#@000001017e5d5000 x1410398/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158467 2006.06.12 en7 Jun 12 17:27:47 en7/en7 kernel: LustreError: 7956:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158471 2006.06.12 en2 Jun 12 17:27:51 en2/en2 kernel: LustreError: 8024:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154871, 0s ago) #316#@00000101a35ba200 x1437952/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158471 2006.06.12 en2 Jun 12 17:27:51 en2/en2 kernel: LustreError: 8024:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1404 similar messages
+- 1150158472 2006.06.12 en6 Jun 12 17:27:52 en6/en6 kernel: LustreError: 7958:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154872, 0s ago) #316#@0000010097620600 x1410341/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158472 2006.06.12 en6 Jun 12 17:27:52 en6/en6 kernel: LustreError: 7958:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158473 2006.06.12 en26 Jun 12 17:27:53 en26/en26 kernel: LustreError: 7887:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154872, 0s ago) #316#@00000101af71a800 x1410300/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158473 2006.06.12 en26 Jun 12 17:27:53 en26/en26 kernel: LustreError: 7887:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158474 2006.06.12 en1 Jun 12 17:27:54 en1/en1 kernel: LustreError: 9328:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101b5abaa00 x1401119/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158474 2006.06.12 en1 Jun 12 17:27:54 en1/en1 kernel: LustreError: 9328:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158475 2006.06.12 en5 Jun 12 17:27:55 en5/en5 kernel: LustreError: 8414:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154875, 0s ago) #316#@000001005e5a4400 x1400461/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158475 2006.06.12 en5 Jun 12 17:27:55 en5/en5 kernel: LustreError: 8414:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158479 2006.06.12 en32 Jun 12 17:27:59 en32/en32 kernel: LustreError: 7890:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154879, 0s ago) #316#@00000100585ed400 x1410695/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158479 2006.06.12 en32 Jun 12 17:27:59 en32/en32 kernel: LustreError: 7890:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158494 2006.06.12 en19 Jun 12 17:28:14 en19/en19 kernel: LustreError: 7887:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154894, 0s ago) #316#@00000101056aca00 x1410468/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158494 2006.06.12 en19 Jun 12 17:28:14 en19/en19 kernel: LustreError: 7887:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158499 2006.06.12 en29 Jun 12 17:28:19 en29/en29 kernel: LustreError: 7890:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154899, 0s ago) #316#@00000101bc4f7a00 x1410453/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158499 2006.06.12 en29 Jun 12 17:28:19 en29/en29 kernel: LustreError: 7890:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158521 2006.06.12 en24 Jun 12 17:28:41 en24/en24 kernel: LustreError: 8155:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101ae64c400 x1400733/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158521 2006.06.12 en24 Jun 12 17:28:41 en24/en24 kernel: LustreError: 8155:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158523 2006.06.12 en28 Jun 12 17:28:43 en28/en28 kernel: LustreError: 7875:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000100bec36e00 x1410245/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158523 2006.06.12 en28 Jun 12 17:28:43 en28/en28 kernel: LustreError: 7875:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158541 2006.06.12 en23 Jun 12 17:29:01 en23/en23 kernel: LustreError: 7901:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001017ad90400 x1410569/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158541 2006.06.12 en23 Jun 12 17:29:01 en23/en23 kernel: LustreError: 7901:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158547 2006.06.12 en12 Jun 12 17:29:07 en12/en12 kernel: LustreError: 7911:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154947, 0s ago) #316#@0000010124af5400 x1410891/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158547 2006.06.12 en12 Jun 12 17:29:07 en12/en12 kernel: LustreError: 7911:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158548 2006.06.12 en14 Jun 12 17:29:08 en14/en14 kernel: LustreError: 7874:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001012c296a00 x1410601/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158548 2006.06.12 en14 Jun 12 17:29:08 en14/en14 kernel: LustreError: 7874:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158549 2006.06.12 en1 Jun 12 17:29:09 en1/en1 kernel: LustreError: 9328:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154949, 0s ago) #316#@00000101be8ad600 x1401242/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158549 2006.06.12 en1 Jun 12 17:29:09 en1/en1 kernel: LustreError: 9328:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1344 similar messages
+- 1150158549 2006.06.12 en30 Jun 12 17:29:09 en30/en30 kernel: LustreError: 8020:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101bb8f4a00 x1410339/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158549 2006.06.12 en30 Jun 12 17:29:09 en30/en30 kernel: LustreError: 8020:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158551 2006.06.12 en31 Jun 12 17:29:11 en31/en31 kernel: LustreError: 7893:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101bde37200 x1410541/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158551 2006.06.12 en31 Jun 12 17:29:11 en31/en31 kernel: LustreError: 7893:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158553 2006.06.12 en16 Jun 12 17:29:13 en16/en16 kernel: LustreError: 8328:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001005b5e2a00 x1400828/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158553 2006.06.12 en16 Jun 12 17:29:13 en16/en16 kernel: LustreError: 8328:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158553 2006.06.12 en4 Jun 12 17:29:13 en4/en4 kernel: LustreError: 8303:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158553 2006.06.12 en4 Jun 12 17:29:13 en4/en4 kernel: LustreError: 8303:0:(lib-move.c:1237:lnet_send()) previously skipped 1404 similar messages
+- 1150158553 2006.06.12 en4 Jun 12 17:29:13 en4/en4 kernel: LustreError: 8303:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158553 2006.06.12 en4 Jun 12 17:29:13 en4/en4 kernel: LustreError: 8303:0:(lib-move.c:1947:LNetPut()) previously skipped 1404 similar messages
+- 1150158553 2006.06.12 en8 Jun 12 17:29:13 en8/en8 kernel: LustreError: 8230:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000100a705ba00 x1427481/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158553 2006.06.12 en8 Jun 12 17:29:13 en8/en8 kernel: LustreError: 8230:0:(events.c:54:request_out_callback()) previously skipped 1404 similar messages
+- 1150158554 2006.06.12 en32 Jun 12 17:29:14 en32/en32 kernel: LustreError: 7890:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158554 2006.06.12 en32 Jun 12 17:29:14 en32/en32 kernel: LustreError: 7890:0:(lib-move.c:1237:lnet_send()) previously skipped 1344 similar messages
+- 1150158554 2006.06.12 en32 Jun 12 17:29:14 en32/en32 kernel: LustreError: 7890:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158554 2006.06.12 en32 Jun 12 17:29:14 en32/en32 kernel: LustreError: 7890:0:(lib-move.c:1947:LNetPut()) previously skipped 1344 similar messages
+- 1150158556 2006.06.12 en20 Jun 12 17:29:16 en20/en20 kernel: LustreError: 8159:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101b09c7a00 x1400141/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158556 2006.06.12 en20 Jun 12 17:29:16 en20/en20 kernel: LustreError: 8159:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158556 2006.06.12 en3 Jun 12 17:29:16 en3/en3 kernel: LustreError: 8016:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@0000010067716000 x1410248/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158556 2006.06.12 en3 Jun 12 17:29:16 en3/en3 kernel: LustreError: 8016:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158569 2006.06.12 en22 Jun 12 17:29:29 en22/en22 kernel: LustreError: 7895:0:(client.c:951:ptlrpc_expire_one_request()) @@@ timeout (sent at 1150154969, 0s ago) #316#@00000101af480600 x1438220/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 1 fl Rpc:/0/0 rc 0/0
+- 1150158569 2006.06.12 en22 Jun 12 17:29:29 en22/en22 kernel: LustreError: 7895:0:(client.c:951:ptlrpc_expire_one_request()) previously skipped 1404 similar messages
+- 1150158569 2006.06.12 en22 Jun 12 17:29:29 en22/en22 kernel: LustreError: 7895:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158569 2006.06.12 en22 Jun 12 17:29:29 en22/en22 kernel: LustreError: 7895:0:(lib-move.c:1237:lnet_send()) previously skipped 1404 similar messages
+- 1150158569 2006.06.12 en22 Jun 12 17:29:29 en22/en22 kernel: LustreError: 7895:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158569 2006.06.12 en22 Jun 12 17:29:29 en22/en22 kernel: LustreError: 7895:0:(lib-move.c:1947:LNetPut()) previously skipped 1404 similar messages
+- 1150158569 2006.06.12 en25 Jun 12 17:29:29 en25/en25 kernel: LustreError: 8157:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101bf835e00 x1400448/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158569 2006.06.12 en25 Jun 12 17:29:29 en25/en25 kernel: LustreError: 8157:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158573 2006.06.12 en26 Jun 12 17:29:33 en26/en26 kernel: LustreError: 7887:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001018cc2a800 x1410484/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158573 2006.06.12 en26 Jun 12 17:29:33 en26/en26 kernel: LustreError: 7887:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158573 2006.06.12 en9 Jun 12 17:29:33 en9/en9 kernel: LustreError: 7921:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101b3161000 x1410833/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158573 2006.06.12 en9 Jun 12 17:29:33 en9/en9 kernel: LustreError: 7921:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158574 2006.06.12 en29 Jun 12 17:29:34 en29/en29 kernel: LustreError: 7890:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@0000010164f85800 x1410576/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158574 2006.06.12 en29 Jun 12 17:29:34 en29/en29 kernel: LustreError: 7890:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158575 2006.06.12 en5 Jun 12 17:29:35 en5/en5 kernel: LustreError: 8414:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101025b3800 x1400645/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158575 2006.06.12 en5 Jun 12 17:29:35 en5/en5 kernel: LustreError: 8414:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158594 2006.06.12 en19 Jun 12 17:29:54 en19/en19 kernel: LustreError: 7887:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101b3adca00 x1410652/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158594 2006.06.12 en19 Jun 12 17:29:54 en19/en19 kernel: LustreError: 7887:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158597 2006.06.12 en10 Jun 12 17:29:57 en10/en10 kernel: LustreError: 8186:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001011ec76400 x1400537/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158597 2006.06.12 en10 Jun 12 17:29:57 en10/en10 kernel: LustreError: 8186:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158599 2006.06.12 en13 Jun 12 17:29:59 en13/en13 kernel: LustreError: 7936:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158599 2006.06.12 en13 Jun 12 17:29:59 en13/en13 kernel: LustreError: 7936:0:(lib-move.c:1237:lnet_send()) previously skipped 1404 similar messages
+- 1150158599 2006.06.12 en13 Jun 12 17:29:59 en13/en13 kernel: LustreError: 7936:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158599 2006.06.12 en13 Jun 12 17:29:59 en13/en13 kernel: LustreError: 7936:0:(lib-move.c:1947:LNetPut()) previously skipped 1404 similar messages
+- 1150158609 2006.06.12 en27 Jun 12 17:30:09 en27/en27 kernel: LustreError: 8168:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101b1504a00 x1400607/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158609 2006.06.12 en27 Jun 12 17:30:09 en27/en27 kernel: LustreError: 8168:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158617 2006.06.12 en7 Jun 12 17:30:17 en7/en7 kernel: LustreError: 7956:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@000001003d752200 x1410704/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158617 2006.06.12 en7 Jun 12 17:30:17 en7/en7 kernel: LustreError: 7956:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158622 2006.06.12 en12 Jun 12 17:30:22 en12/en12 kernel: LustreError: 7911:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158622 2006.06.12 en12 Jun 12 17:30:22 en12/en12 kernel: LustreError: 7911:0:(lib-move.c:1237:lnet_send()) previously skipped 1344 similar messages
+- 1150158622 2006.06.12 en12 Jun 12 17:30:22 en12/en12 kernel: LustreError: 7911:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158622 2006.06.12 en12 Jun 12 17:30:22 en12/en12 kernel: LustreError: 7911:0:(lib-move.c:1947:LNetPut()) previously skipped 1344 similar messages
+- 1150158624 2006.06.12 en11 Jun 12 17:30:24 en11/en11 kernel: LustreError: 7907:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158624 2006.06.12 en11 Jun 12 17:30:24 en11/en11 kernel: LustreError: 7907:0:(lib-move.c:1237:lnet_send()) previously skipped 1344 similar messages
+- 1150158624 2006.06.12 en11 Jun 12 17:30:24 en11/en11 kernel: LustreError: 7907:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158624 2006.06.12 en11 Jun 12 17:30:24 en11/en11 kernel: LustreError: 7907:0:(lib-move.c:1947:LNetPut()) previously skipped 1344 similar messages
+- 1150158646 2006.06.12 en2 Jun 12 17:30:46 en2/en2 kernel: LustreError: 8024:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158646 2006.06.12 en2 Jun 12 17:30:46 en2/en2 kernel: LustreError: 8024:0:(lib-move.c:1237:lnet_send()) previously skipped 1404 similar messages
+- 1150158646 2006.06.12 en2 Jun 12 17:30:46 en2/en2 kernel: LustreError: 8024:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158646 2006.06.12 en2 Jun 12 17:30:46 en2/en2 kernel: LustreError: 8024:0:(lib-move.c:1947:LNetPut()) previously skipped 1404 similar messages
+- 1150158647 2006.06.12 en6 Jun 12 17:30:47 en6/en6 kernel: LustreError: 7958:0:(events.c:54:request_out_callback()) @@@ type 4, status -113 #316#@00000101b114d400 x1410708/t0 o38->mds-#2746#@ca881_UUID:12 lens 240/272 ref 2 fl Rpc:/0/0 rc 0/0
+- 1150158647 2006.06.12 en6 Jun 12 17:30:47 en6/en6 kernel: LustreError: 7958:0:(events.c:54:request_out_callback()) previously skipped 1344 similar messages
+- 1150158648 2006.06.12 en28 Jun 12 17:30:48 en28/en28 kernel: LustreError: 7875:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158648 2006.06.12 en28 Jun 12 17:30:48 en28/en28 kernel: LustreError: 7875:0:(lib-move.c:1237:lnet_send()) previously skipped 1344 similar messages
+- 1150158648 2006.06.12 en28 Jun 12 17:30:48 en28/en28 kernel: LustreError: 7875:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158648 2006.06.12 en28 Jun 12 17:30:48 en28/en28 kernel: LustreError: 7875:0:(lib-move.c:1947:LNetPut()) previously skipped 1344 similar messages
+- 1150158649 2006.06.12 en1 Jun 12 17:30:49 en1/en1 kernel: LustreError: 9328:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158649 2006.06.12 en1 Jun 12 17:30:49 en1/en1 kernel: LustreError: 9328:0:(lib-move.c:1237:lnet_send()) previously skipped 1344 similar messages
+- 1150158649 2006.06.12 en1 Jun 12 17:30:49 en1/en1 kernel: LustreError: 9328:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158649 2006.06.12 en1 Jun 12 17:30:49 en1/en1 kernel: LustreError: 9328:0:(lib-move.c:1947:LNetPut()) previously skipped 1344 similar messages
+- 1150158649 2006.06.12 en17 Jun 12 17:30:49 en17/en17 kernel: LustreError: 8163:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158649 2006.06.12 en17 Jun 12 17:30:49 en17/en17 kernel: LustreError: 8163:0:(lib-move.c:1237:lnet_send()) previously skipped 1404 similar messages
+- 1150158649 2006.06.12 en17 Jun 12 17:30:49 en17/en17 kernel: LustreError: 8163:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158649 2006.06.12 en17 Jun 12 17:30:49 en17/en17 kernel: LustreError: 8163:0:(lib-move.c:1947:LNetPut()) previously skipped 1404 similar messages
+- 1150158650 2006.06.12 en15 Jun 12 17:30:50 en15/en15 kernel: LustreError: 7892:0:(lib-move.c:1237:lnet_send()) No route to 12345-10.196.132.81@vib (all routers down)
+- 1150158650 2006.06.12 en15 Jun 12 17:30:50 en15/en15 kernel: LustreError: 7892:0:(lib-move.c:1237:lnet_send()) previously skipped 1404 similar messages
+- 1150158650 2006.06.12 en15 Jun 12 17:30:50 en15/en15 kernel: LustreError: 7892:0:(lib-move.c:1947:LNetPut()) Error sending PUT to 12345-10.196.132.81@vib: -113
+- 1150158650 2006.06.12 en15 Jun 12 17:30:50 en15/en15 kernel: LustreError: 7892:0:(lib-move.c:1947:LNetPut()) previously skipped 1404 similar messages

@@ -1,0 +1,6 @@
+- 1126487871 2005.09.11 NULL 2005-09-11-18.17.51.463356 NULL RAS MMCS ERROR Ido packet timeout
+- 1126568808 2005.09.12 NULL 2005-09-12-16.46.48.316007 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y
+- 1126568808 2005.09.12 NULL 2005-09-12-16.46.48.869172 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R1M0_250_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+- 1126568809 2005.09.12 NULL 2005-09-12-16.46.49.056606 NULL RAS MMCS INFO ciodb has been restarted.
+- 1126568809 2005.09.12 NULL 2005-09-12-16.46.49.073428 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120
+- 1126724808 2005.09.14 - 2005-09-14-12.06.48.129210 RAS KERNEL FATAL Kill job 42160 timed out. Block freed.

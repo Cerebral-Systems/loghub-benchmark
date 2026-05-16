@@ -7,7 +7,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hdfs-replication-63469ad"
-description = "Loghub SRE investigation: locate replication_failure incident in HDFS_v1 logs."
+description = "Loghub SRE investigation: locate replication_failure incident across partitioned HDFS_v1 logs."
 
 [[task.authors]]
 name = "Madhav Goyal"
@@ -18,7 +18,7 @@ author_name = "Madhav Goyal"
 author_email = "madhav@campnetwork.xyz"
 difficulty = "medium"
 category = "sre-log-investigation"
-tags = ["hdfs", "anomaly-detection", "log-analysis", "replication"]
+tags = ["hdfs", "anomaly-detection", "log-analysis", "replication", "multi-file"]
 
 [agent]
 timeout_sec = 300.0

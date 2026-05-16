@@ -1,7 +1,16 @@
 {
-  "anomaly_line_ids": [
-    368,
-    417
+  "anomaly_keys": [
+    "blk_-1055737889421783527"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hdfs-namenode.log",
+      "line": 107
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 89
+    }
   ],
   "root_cause_type": "other"
 }

@@ -7,28 +7,101 @@
     "timeout",
     "other"
   ],
-  "anomaly_line_ids": [
-    8412,
-    8608,
-    8624,
-    9296,
-    11728,
-    11730,
-    11774,
-    11775,
-    11788,
-    11789,
-    11806,
-    11807,
-    11810,
-    11817,
-    12079,
-    12144,
-    13101,
-    13127,
-    13190,
-    13757,
-    13757
+  "anomaly_keys": [
+    "blk_-1009207079038502874"
+  ],
+  "evidence": [
+    {
+      "file": "hdfs-namenode.log",
+      "line": 2537
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1822
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 1829
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 2307
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3557
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3559
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2681
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2508
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2686
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 2909
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2692
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2521
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3566
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3573
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2757
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2581
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3992
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2796
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2812
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 133
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 133
+    }
+  ],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
   ],
   "is_incident": true,
   "min_evidence_count": 3,
@@ -40,5 +113,5 @@
     "open_incident",
     "page_owner"
   ],
-  "schema_version": "loghub-sre-answer-v1"
+  "schema_version": "loghub-sre-answer-v2"
 }

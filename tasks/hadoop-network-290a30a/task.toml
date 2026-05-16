@@ -7,7 +7,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hadoop-network-290a30a"
-description = "Loghub SRE investigation: locate network_disconnect incident in Hadoop logs."
+description = "Loghub SRE investigation: locate network_disconnect incident across partitioned Hadoop logs."
 
 [[task.authors]]
 name = "Madhav Goyal"
@@ -18,7 +18,7 @@ author_name = "Madhav Goyal"
 author_email = "madhav@campnetwork.xyz"
 difficulty = "easy"
 category = "sre-log-investigation"
-tags = ["hadoop", "anomaly-detection", "log-analysis", "network"]
+tags = ["hadoop", "anomaly-detection", "log-analysis", "network", "multi-file"]
 
 [agent]
 timeout_sec = 300.0

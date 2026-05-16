@@ -9,4 +9,7 @@ RUN apt-get update \
   && pip3 install --break-system-packages --no-cache-dir pytest-json-ctrf==0.3.5 \
   && rm -rf /var/lib/apt/lists/*
 
-COPY data/hadoop.log /app/hadoop.log
+COPY data/hadoop-mapreduce.log /app/hadoop-mapreduce.log
+COPY data/hadoop-misc.log /app/hadoop-misc.log
+COPY data/hadoop-mrappmaster.log /app/hadoop-mrappmaster.log
+COPY data/hadoop-yarn.log /app/hadoop-yarn.log

@@ -7,7 +7,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hadoop-machine-1a5ae06"
-description = "Loghub SRE investigation: locate machine_down incident in Hadoop logs."
+description = "Loghub SRE investigation: locate machine_down incident across partitioned Hadoop logs."
 
 [[task.authors]]
 name = "Madhav Goyal"
@@ -18,7 +18,7 @@ author_name = "Madhav Goyal"
 author_email = "madhav@campnetwork.xyz"
 difficulty = "easy"
 category = "sre-log-investigation"
-tags = ["hadoop", "anomaly-detection", "log-analysis", "machine"]
+tags = ["hadoop", "anomaly-detection", "log-analysis", "machine", "multi-file"]
 
 [agent]
 timeout_sec = 300.0

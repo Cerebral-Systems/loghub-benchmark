@@ -12,329 +12,1308 @@
     "kernterm",
     "other_alert"
   ],
-  "anomaly_line_ids": [
-    13444,
-    13489,
-    14626,
-    14627,
-    14628,
-    14629,
-    14630,
-    14631,
-    14632,
-    14633,
-    14634,
-    14635,
-    14636,
-    14637,
-    14638,
-    14639,
-    14640,
-    14641,
-    14642,
-    14643,
-    14644,
-    14645,
-    14646,
-    14647,
-    14648,
-    14649,
-    14650,
-    14651,
-    14652,
-    14653,
-    14654,
-    14655,
-    14656,
-    14657,
-    14658,
-    14659,
-    14660,
-    14661,
-    14662,
-    14663,
-    14664,
-    14665,
-    14666,
-    14667,
-    14668,
-    14669,
-    14670,
-    14671,
-    14672,
-    14673,
-    14674,
-    14675,
-    14676,
-    14677,
-    14678,
-    14679,
-    14680,
-    14681,
-    14682,
-    14683,
-    14684,
-    14685,
-    14686,
-    14687,
-    14688,
-    14689,
-    14690,
-    14691,
-    14692,
-    14693,
-    14694,
-    14695,
-    14696,
-    14697,
-    14698,
-    14699,
-    14700,
-    14701,
-    14702,
-    14703,
-    14704,
-    14705,
-    14706,
-    14707,
-    14708,
-    14709,
-    14710,
-    14711,
-    14712,
-    14713,
-    14714,
-    14715,
-    14716,
-    14717,
-    14718,
-    14719,
-    14720,
-    14721,
-    14722,
-    14723,
-    14724,
-    14725,
-    14726,
-    14727,
-    14728,
-    14729,
-    14730,
-    14731,
-    14732,
-    14733,
-    14734,
-    14735,
-    14736,
-    14737,
-    14738,
-    14739,
-    14740,
-    14741,
-    14742,
-    14743,
-    14744,
-    14745,
-    14746,
-    14747,
-    14748,
-    14749,
-    14750,
-    14751,
-    14752,
-    14753,
-    14754,
-    14755,
-    14756,
-    14757,
-    14758,
-    14759,
-    14760,
-    14761,
-    14762,
-    14763,
-    14764,
-    14765,
-    14766,
-    14767,
-    14768,
-    14769,
-    14770,
-    14771,
-    14772,
-    14773,
-    14774,
-    14775,
-    14776,
-    14777,
-    14778,
-    14779,
-    14780,
-    14781,
-    14782,
-    14783,
-    14784,
-    14785,
-    14786,
-    14787,
-    14788,
-    14789,
-    14790,
-    14791,
-    14792,
-    14793,
-    14794,
-    14795,
-    14796,
-    14797,
-    14798,
-    14799,
-    14800,
-    14801,
-    14802,
-    14803,
-    14804,
-    14805,
-    14806,
-    14807,
-    14808,
-    14809,
-    14810,
-    14811,
-    14812,
-    14813,
-    14814,
-    14815,
-    14816,
-    14817,
-    14818,
-    14819,
-    14820,
-    14821,
-    14822,
-    14823,
-    14824,
-    14825,
-    14826,
-    14827,
-    14828,
-    14829,
-    14830,
-    14831,
-    14832,
-    14833,
-    14834,
-    14835,
-    14836,
-    14837,
-    14838,
-    14839,
-    14840,
-    14841,
-    14842,
-    14843,
-    14844,
-    14845,
-    14846,
-    14847,
-    14848,
-    14849,
-    14850,
-    14851,
-    14852,
-    14853,
-    14854,
-    14855,
-    14856,
-    14857,
-    14858,
-    14859,
-    14860,
-    14861,
-    14862,
-    14863,
-    14864,
-    14865,
-    14866,
-    14867,
-    14868,
-    14869,
-    14870,
-    14871,
-    14872,
-    14873,
-    14874,
-    14875,
-    14876,
-    14877,
-    14878,
-    14879,
-    14880,
-    14881,
-    14882,
-    14883,
-    14884,
-    14885,
-    14886,
-    14887,
-    14888,
-    14889,
-    14890,
-    14891,
-    14892,
-    14893,
-    14894,
-    14895,
-    14896,
-    14897,
-    14898,
-    14899,
-    14900,
-    14901,
-    14902,
-    14903,
-    14904,
-    14905,
-    14906,
-    14907,
-    14908,
-    14909,
-    14910,
-    14911,
-    14912,
-    14913,
-    14914,
-    14915,
-    14916,
-    14917,
-    14918,
-    14919,
-    14920,
-    14921,
-    14922,
-    14923,
-    14924,
-    14925,
-    14926,
-    14927,
-    14928,
-    14929,
-    14930,
-    14931,
-    14932,
-    14933,
-    14934,
-    14935,
-    14936,
-    14937,
-    14938,
-    14939,
-    14940,
-    14941,
-    14942,
-    14943,
-    14944,
-    14945
+  "anomaly_keys": [
+    "KERNMC",
+    "KERNRTSP",
+    "APPUNAV",
+    "APPUNAV",
+    "APPUNAV"
+  ],
+  "evidence": [
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3428
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3473
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6473
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6474
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4350
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4351
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4352
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4353
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4354
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4355
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3801
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3802
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4356
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4357
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4358
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4359
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3803
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3804
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4360
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4361
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3805
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3806
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4362
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4363
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3807
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3808
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4364
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4365
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3809
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3810
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6475
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6476
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6477
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6478
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6479
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6480
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3811
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3812
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6481
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6482
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3813
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3814
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6483
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6484
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6485
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6486
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3815
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3816
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4366
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4367
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3817
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3818
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3819
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3820
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3821
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3822
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3823
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3824
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4368
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4369
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3825
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3826
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4370
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4371
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3827
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3828
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3829
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3830
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6487
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6488
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6489
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6490
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4372
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4373
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4374
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4375
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6491
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6492
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4376
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4377
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4378
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4379
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3831
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3832
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3833
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3834
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4380
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4381
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4382
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4383
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4384
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4385
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4386
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4387
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4388
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4389
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6493
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6494
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4390
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4391
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6495
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6496
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4392
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4393
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6497
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6498
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6499
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6500
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4394
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4395
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4396
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4397
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6501
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6502
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3835
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3836
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3837
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3838
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4398
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4399
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6503
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6504
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4400
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4401
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4402
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4403
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4404
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4405
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4406
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4407
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4408
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4409
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4410
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4411
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3839
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3840
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3841
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3842
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4412
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4413
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3843
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3844
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3845
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3846
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3847
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3848
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4414
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4415
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3849
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3850
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4416
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4417
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3851
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3852
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6505
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6506
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3853
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3854
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3855
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3856
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4418
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4419
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3857
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3858
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3859
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3860
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3861
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3862
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3863
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3864
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4420
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4421
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3865
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3866
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3867
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3868
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4422
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4423
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4424
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4425
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3869
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3870
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6507
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6508
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6509
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6510
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4426
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4427
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4428
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4429
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6511
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6512
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3871
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3872
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3873
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3874
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3875
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3876
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4430
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4431
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4432
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4433
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4434
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4435
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4436
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4437
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6513
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6514
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4438
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4439
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3877
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3878
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6515
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6516
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6517
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6518
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4440
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4441
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6519
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6520
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6521
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6522
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6523
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6524
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6525
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6526
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6527
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6528
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6529
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6530
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6531
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6532
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6533
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6534
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3879
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3880
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4442
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4443
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6535
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6536
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6537
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6538
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6539
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6540
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6541
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6542
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4444
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4445
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6543
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6544
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6545
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6546
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6547
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6548
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3881
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3882
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3883
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3884
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3885
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3886
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3887
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3888
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6549
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6550
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3889
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3890
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3891
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3892
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6551
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6552
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3893
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3894
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3895
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3896
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4446
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4447
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4448
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4449
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3897
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3898
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3899
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3900
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3901
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3902
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4450
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4451
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4452
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4453
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4454
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4455
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4456
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4457
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4458
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4459
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3903
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3904
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3905
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3906
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3907
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3908
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3909
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3910
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4460
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4461
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6553
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6554
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4462
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4463
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6555
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6556
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6557
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6558
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6559
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6560
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4464
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4465
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4466
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4467
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6561
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 6562
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4468
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4469
+    }
+  ],
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
   ],
   "is_incident": true,
   "min_evidence_count": 3,
@@ -346,5 +1325,5 @@
     "open_incident",
     "page_owner"
   ],
-  "schema_version": "loghub-sre-answer-v1"
+  "schema_version": "loghub-sre-answer-v2"
 }

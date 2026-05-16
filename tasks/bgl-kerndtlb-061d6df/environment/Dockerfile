@@ -9,4 +9,4 @@ RUN apt-get update \
   && pip3 install --break-system-packages --no-cache-dir pytest-json-ctrf==0.3.5 \
   && rm -rf /var/lib/apt/lists/*
 
-COPY data/bgl.log /app/bgl.log
+COPY data/bgl-racks-a.log /app/bgl-racks-a.log
