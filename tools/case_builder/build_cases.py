@@ -9,7 +9,7 @@
 Writes one JSON per candidate case plus a manifest.json. Each case's
 `case_id` is a pure function of dataset + adapter version + slice
 parameters + anomaly lines, so re-running on the same inputs produces
-the same files. The M3 exporter consumes these JSON specs.
+the same files. The Harbor exporter consumes these JSON specs.
 """
 
 from __future__ import annotations

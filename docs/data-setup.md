@@ -14,10 +14,9 @@ specific slices each task needs.
 | `tools/case_builder/tests/fixtures/` | Tiny synthetic fixtures committed for unit tests. Do not touch the real corpus from tests. |
 
 We intentionally do **not** use `/opt/mesh-benchmarks/external/loghub-full/`
-because `/opt/mesh-benchmarks/` is root-owned on this VM and the autonomous
-build agent does not have passwordless `sudo`. If a future setup grants
-write access there, the case-builder accepts any path via `--input` so
-the only thing to update is this document.
+because `/opt/mesh-benchmarks/` is root-owned on this VM. If a future
+setup grants write access there, the case-builder accepts any path via
+`--input` so the only thing to update is this document.
 
 ## Datasets currently on disk
 
@@ -129,7 +128,7 @@ for future corpora.
 Loghub is BSD-licensed; Loghub-2.0 is CC-BY-4.0. Per both licenses we
 may redistribute slices baked into Docker images provided we retain the
 upstream citation. The standard citation is recorded in each generated
-task's `instruction.md` (added by the M3 exporter):
+task's `instruction.md`:
 
 > Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. *Loghub:
 > A Large Collection of System Log Datasets for AI-driven Log Analytics*.
@@ -149,5 +148,5 @@ That makes case_ids stable as long as those inputs don't change:
   is the documented way to invalidate all prior case_ids; do this any
   time you change the slice or classification logic.
 - The `--seed` flag is mixed into per-block window selection so different
-  seeds produce different slices. The autonomous build keeps `--seed 0`
-  for the committed task set; stress packs can vary seed for breadth.
+  seeds produce different slices. The committed task set uses `--seed 0`;
+  stress packs can vary seed for breadth.

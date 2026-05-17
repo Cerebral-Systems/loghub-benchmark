@@ -12,7 +12,7 @@ benign nova/neutron traffic. Each anomalous VM UUID anchors K case
 variants (different seed-derived window offsets) so we can produce >=10
 candidate cases from the 4 instances the corpus ships with.
 
-Root-cause taxonomy (PLAN.md M2e):
+Root-cause taxonomy:
   - vm_task_failure
   - network_error
   - image_pull_failure

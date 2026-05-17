@@ -1,19 +1,19 @@
-"""M8 repo-wide invariants — these gate every PR.
+"""Repo-wide invariants — these gate every PR.
 
-PLAN.md M8 spells out five invariants that catch silent regressions:
+These checks catch silent regressions:
 
   1. case_ids derived from the committed fixture must match a snapshot
      (`tests/snapshots/case_ids.json`). Any adapter change that
      accidentally shifts slice geometry will surface here.
   2. Every text file under `tasks/<slug>/` must carry the canary GUID.
      Forgotten canaries are how training-data contamination sneaks in.
-  3. Every `tasks/<slug>/environment/` must pass the M6 anti-leak
+  3. Every `tasks/<slug>/environment/` must pass the anti-leak
      check (`ci_checks/check-oracle-leak.sh`).
   4. Every `tasks/<slug>/task.toml` must parse with `harbor`'s
      `TaskConfig` (no invented sections / fields).
   5. The oracle's `solution/derive_answer.py` produces a JSON answer
-     that satisfies the M3.5 invariants test_state.py asserts — sampled
-     one task per dataset to keep this fast in CI.
+     that satisfies the multi-file verifier invariants — sampled one
+     task per dataset to keep this fast in CI.
 """
 
 from __future__ import annotations

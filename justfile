@@ -53,10 +53,10 @@ unit:
 # Everything — same gates as the CI workflows.
 validate-all: unit static oracle-nop
     @echo ""
-    @echo "All M4-level gates green."
+    @echo "All validation gates green."
 
-# Regenerate the 60-task curated set from scratch (case-builder + exporter
-# + the M4 curation list). Use after corpus updates or adapter version bumps.
+# Regenerate the 60-task curated set from scratch (case-builder + exporter).
+# Use after corpus updates or adapter version bumps.
 rebuild-tasks:
     #!/usr/bin/env bash
     set -e

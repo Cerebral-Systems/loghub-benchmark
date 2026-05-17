@@ -7,9 +7,8 @@ rubric prompt template `harbor check` would build, but inlines task
 file contents instead of letting the model issue Read/Glob/Grep tool
 calls (Moonshot doesn't speak Claude Code's tool format).
 
-Output JSON shape matches what `harbor check -o ...` would write so the
-M7 tooling downstream (rubric-pass-report.md, sweep logic) doesn't care
-which checker produced it.
+Output JSON shape matches what `harbor check -o ...` would write so
+downstream reporting does not care which checker produced it.
 """
 
 from __future__ import annotations
@@ -42,8 +41,8 @@ Here are the full contents of every file in the task directory (so you can evalu
 Evaluate each criterion one at a time. For each criterion, think briefly about whether this task meets it, then make your final judgment. When a criterion fails, explain why based on the criteria description. Do not suggest fixes.
 
 Notes specific to this benchmark (Loghub SRE):
-- The task.toml schema follows Harbor's adapter-spec correction recorded in
-  CLAUDE.md. The adapter-spec deliberately RETIRED these task.toml fields:
+- The task.toml schema follows Harbor's adapter-spec shape. The benchmark
+  deliberately retired these task.toml fields:
   difficulty_explanation, solution_explanation, verification_explanation,
   expert_time_estimate_hours, and the top-level README.md. They were
   replaced with the [metadata].difficulty enum and structural changes.
@@ -247,7 +246,7 @@ _RETIRED_FAIL_HINTS = (
 def _coerce_retired_verdicts(verdicts: dict[str, dict[str, str]]) -> dict[str, dict[str, str]]:
     """If the grader marks a retired criterion FAIL with an explanation
     that boils down to "the field is missing", coerce to not_applicable
-    (with a note). Keeps grader variance from contaminating M7 DoD."""
+    (with a note). Keeps grader variance from contaminating reports."""
     for name in ADAPTER_SPEC_RETIRED_CRITERIA:
         v = verdicts.get(name)
         if not v:

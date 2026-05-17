@@ -2,8 +2,8 @@
 
 Thunderbird's `Thunderbird.log` uses the same inline-tag format as BGL —
 0th whitespace-delimited token is `-` for normal or a short alert code.
-PLAN.md M2d specifies Thunderbird "differs from BGL's" taxonomy and
-should be a subclass that overrides only the mapping.
+Thunderbird differs from BGL's taxonomy, so its adapter subclasses BGL
+and overrides only the mapping.
 
 This file is the source of truth for the taxonomy. Bumping it requires
 bumping `ThunderbirdAdapter.adapter_version` so prior case_ids stay
@@ -61,6 +61,6 @@ validator accepts underscores within tokens.
 VAPI dominates by three orders of magnitude. A naive frequency-weighted
 sample would yield ~99% VAPI cases. The case-builder's deterministic
 permutation in `BGLAdapter.iter_candidate_cases` (SHA-256 over
-`seed|anomaly_index`) breaks that monotone bias, but M4's curation pass
-should still hand-balance the committed task set so the rarer
+`seed|anomaly_index`) breaks that monotone bias, but curation should
+still hand-balance the committed task set so the rarer
 categories (ECC, PBS_BFD, CHK_DSK, NMI) are represented.

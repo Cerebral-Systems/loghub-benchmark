@@ -1,6 +1,6 @@
 """Unit tests for the HDFS_v1 adapter.
 
-Covers the four guarantees the M2 contract makes about every adapter:
+Covers the four guarantees the adapter contract makes about every adapter:
   1. Labels load with the right vocabulary.
   2. Root-cause classification maps known patterns to the documented taxonomy.
   3. Slice selection produces a deterministic window around the anomaly.

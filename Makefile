@@ -52,9 +52,9 @@ oracle-nop: ## Run harbor oracle/nop on every task (slow; needs Docker)
 unit: ## Run case_builder + exporter unit tests
 	$(PYTHON) -m pytest tools/case_builder/tests -q
 
-validate-all: unit static oracle-nop ## Run every M4-level gate
+validate-all: unit static oracle-nop ## Run every validation gate
 	@echo ""
-	@echo "All M4-level gates green."
+	@echo "All validation gates green."
 
 rebuild-curated: ## Rebuild exactly the committed curated-selection manifest
 	$(PYTHON) -m tools.case_builder.rebuild_curated rebuild \

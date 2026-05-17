@@ -2,9 +2,9 @@
 
 BGL marks each log line with a 0th-column alert tag — `-` for normal and a
 short code (e.g. `KERNDTLB`, `APPSEV`) for anomalies. The full corpus
-contains ~30 distinct alert codes with a heavy long tail. PLAN.md M2c
-specifies "top ~10 alert categories by frequency (collapse rare ones into
-`other_alert`)".
+contains ~30 distinct alert codes with a heavy long tail. The adapter
+keeps the top alert categories by frequency and collapses rare ones into
+`other_alert`.
 
 This file is the source of truth for the taxonomy. Bumping it requires
 bumping `BGLAdapter.adapter_version` so prior case_ids stay invalidated.

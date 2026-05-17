@@ -206,7 +206,7 @@ class HDFSAdapter(AdapterBase):
         anomaly_lines: list[int],
     ) -> str:
         # Inspect only the lines flagged as anomalous; this is what the
-        # agent's evidence-citation answer is checked against in M3.
+        # agent's evidence-citation answer is checked against by the verifier.
         for line_no in anomaly_lines:
             idx = line_no - 1  # convert 1-based to 0-based
             if 0 <= idx < len(log_slice):

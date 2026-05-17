@@ -1,9 +1,8 @@
 """Thunderbird adapter — subclasses BGL's inline-tagged log adapter.
 
 Format is identical to BGL (0th whitespace token is `-` or an alert
-code), but the alert vocabulary differs. PLAN.md M2d: "Implement as a
-subclass that overrides only the taxonomy mapping (Thunderbird's alert
-categories differ from BGL's)."
+code), but the alert vocabulary differs. This adapter subclasses BGL
+and overrides only the taxonomy mapping.
 
 The taxonomy here is the top alert codes by frequency across the full
 Thunderbird.log; see `tools/case_builder/adapters/thunderbird_taxonomy.md`

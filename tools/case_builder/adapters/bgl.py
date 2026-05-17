@@ -5,10 +5,10 @@ Inputs:
     the alert tag — `-` for normal, otherwise a short code (KERNDTLB,
     APPSEV, KERNSTOR, ...).
 
-PLAN.md M2c slice strategy: 5k-15k line windows containing ≥1 non-`-`
-line. Each anomaly-bearing window becomes one candidate case. Root cause
-maps directly from the alert tag of the dominant non-`-` line (see
-`bgl_taxonomy.md`).
+Slice strategy: 5k-15k line windows containing at least one non-`-`
+line. Each anomaly-bearing window becomes one candidate case. Root
+cause maps directly from the alert tag of the dominant non-`-` line
+(see `bgl_taxonomy.md`).
 """
 
 from __future__ import annotations
@@ -62,7 +62,7 @@ class BGLAdapter(AdapterBase):
         """LabelIndex.entries[line_index_str] = alert_tag (raw, including '-').
 
         BGL has no separate label file; the alert tag is inline. We still
-        emit a LabelIndex so the M2 contract is uniform across datasets.
+        emit a LabelIndex so the adapter contract is uniform across datasets.
         Keys are stringified 0-based line indices. positive_labels is
         every observed non-'-' tag, so AdapterBase.anomalous_keys() yields
         the lines that need slicing.

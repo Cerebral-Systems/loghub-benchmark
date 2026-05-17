@@ -1,9 +1,8 @@
 """Unit tests for the Thunderbird adapter.
 
 Thunderbird inherits BGL's inline-tag slicing logic verbatim — these
-tests focus on the differences that PLAN.md M2d says matter: the
-filename override (`Thunderbird.log` instead of `BGL.log`) and the
-distinct alert vocabulary.
+tests focus on the filename override (`Thunderbird.log` instead of
+`BGL.log`) and the distinct alert vocabulary.
 """
 
 from __future__ import annotations

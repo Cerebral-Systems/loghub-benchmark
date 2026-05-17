@@ -3,7 +3,7 @@
 Every adapter is a pure function of `(dataset_version, adapter_version,
 slice_parameters, anomaly_lines)` so case_ids stay stable across runs and
 across machines. The exporter in `tools/case-builder/export_to_harbor.py`
-(landing in M3) reads the JSON case specs these adapters emit and writes
+reads the JSON case specs these adapters emit and writes
 the Harbor-shaped `tasks/<slug>/` directories.
 """
 
@@ -56,7 +56,7 @@ class LogSlice:
 class CandidateCase:
     """A task candidate before Harbor-shaping.
 
-    Carries everything the M3 exporter needs to write `tasks/<slug>/`:
+    Carries everything the Harbor exporter needs to write `tasks/<slug>/`:
     the log slice, the anomaly lines (1-based to match Loghub's LineId
     convention), the root-cause label, and the entity keys involved.
     """

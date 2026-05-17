@@ -80,7 +80,7 @@ is skipped for exact-location tasks.
 ## Ground truth
 
 Ground truth lives in `tasks/<slug>/tests/expected.json`. The exporter
-writes it; the M6 anti-leak check (`ci_checks/check-oracle-leak.sh`)
+writes it; the anti-leak check (`ci_checks/check-oracle-leak.sh`)
 makes sure no leaf string from `expected.json` ends up in
 `environment/`. The agent never sees `tests/`; only the verifier mounts
 it during the verifier phase.
@@ -90,9 +90,9 @@ The oracle agent (`solution/solve.sh`) gets a different side channel —
 coordinates but omits the `allowed_root_causes` list and the
 `safe_recommendations` enumeration. The oracle then reads each cited
 file, quotes the actual line verbatim, and emits an answer derived
-from real log content. This is the M3 CLAUDE.md "Oracle solution rule"
-in action — `solve.sh` cannot just `cat /tests/expected.json` because
-`/tests/` isn't mounted during the agent phase.
+from real log content. This keeps the oracle honest: `solve.sh` cannot
+just `cat /tests/expected.json` because `/tests/` is not mounted during
+the agent phase.
 
 ## Aggregate scoring
 
@@ -108,6 +108,5 @@ When run across the full 60 tasks, the natural aggregates are:
   because incident families generalize across datasets (e.g. a
   network-failure pattern looks similar in BGL and Thunderbird).
 
-`tools/leaderboard/` (M11) will turn Harbor's per-job result.json
-into these aggregates. Until then, `harbor view <jobs-dir>` is the
-manual path.
+Until a leaderboard helper is added, `harbor view <jobs-dir>` and the
+per-job `result.json` files are the manual path for these aggregates.

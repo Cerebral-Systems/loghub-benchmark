@@ -6,8 +6,8 @@ Inputs:
   - `abnormal_label.txt`: a human-readable text grouping job IDs by fault
     type ('Normal' / 'Machine down' / 'Network disconnection' / 'Disk full').
 
-Per-job logs are small (~50-500 KiB), so we follow PLAN.md M2b's "concatenate
-one normal job + one anomalous job into a single window" strategy. The
+Per-job logs are small (~50-500 KiB), so we concatenate one normal job
+and one anomalous job into a single window. The
 case_id pins the chosen (normal, anomalous) pair via the slice line layout.
 
 Hadoop has the strongest gold signal in Loghub — root cause comes directly

@@ -1,4 +1,4 @@
-# M7 rubric-pass report
+# Rubric-Pass Report
 
 > Refresh note (2026-05-17): this report is the last completed two-pass
 > Moonshot rubric run. A rerun after the network-enabled task refresh was
@@ -23,12 +23,10 @@ passes every applicable rubric criterion.
 | 1 | 1545 | **0** | 135 | 0 | **0/60** |
 | 2 | 1377 | **0** | 303 | 0 | **0/60** |
 
-Both runs satisfy PLAN.md M7's "All 60 tasks pass `harbor check` on at
-least 2 runs" requirement. The run-2 N/A count is higher because the
-grader's interpretation of the adapter-spec-retired criteria varies
-between runs (sometimes PASS based on the `[metadata].difficulty` enum,
-sometimes N/A because the literal field is gone) — both outcomes are
-acceptable for our schema.
+The run-2 N/A count is higher because the grader's interpretation of
+the adapter-spec-retired criteria varies between runs (sometimes PASS
+based on the `[metadata].difficulty` enum, sometimes N/A because the
+literal field is gone). Both outcomes are acceptable for our schema.
 
 ## Why `harbor check` was replaced
 
@@ -52,8 +50,8 @@ verdicts are equivalent to what `harbor check` would have produced.
 
 ## Adapter-spec retired criteria
 
-Five criteria in the vendored rubric protect task.toml fields that the
-CLAUDE.md adapter-spec correction (2026-05-15) **deliberately retired**:
+Five criteria in the vendored rubric protect task.toml fields that this
+benchmark deliberately retired:
 
 - `difficulty_explanation_quality` → replaced by `[metadata].difficulty` enum
 - `solution_explanation_quality` → no longer required
@@ -119,9 +117,9 @@ flagged for empty fields). After coercion: 0 fails.
 ## Cost
 
 - Run 1: 1,341,174 input tokens × 60 tasks → estimated ~$2 at Moonshot's
-  list pricing (well under PLAN.md M7's $30–60 envelope).
+  list pricing.
 - Run 2: similar order of magnitude.
-- Total M7 spend: roughly **$3–5** vs. PLAN.md's $30–60 estimate.
+- Total spend: roughly **$3–5**.
 
 ## Reproducing this report
 
@@ -139,12 +137,11 @@ on the full 60-task set takes ~10 minutes at 5-way parallelism.
 ## What didn't happen
 
 - No iteration loop was needed beyond the one-shot retirement coercion.
-  PLAN.md M7 anticipated 2–3 days of rubric tuning; the M3.5 multi-file
-  rework + the adapter-spec migration in M3 left the substrate already
-  rubric-clean.
+  The multi-file rework and adapter-spec migration left the substrate
+  already rubric-clean.
 - No per-task BlockId / hostname remapping for the `novel` criterion was
   needed. The grader rated `novel = pass` 60/60 on the multi-file
-  partitioned layout from M3.5.
+  partitioned layout.
 - No `difficulty` bumps. The HDFS/BGL/Thunderbird/OpenStack tasks all
   passed `difficult = pass` 60/60 with the default `medium`/`hard`
   values from `DATASET_DIFFICULTY` in `export_to_harbor.py`.

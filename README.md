@@ -8,16 +8,19 @@ totalling 5k–30k lines and asks the agent to **locate the anomaly**,
 **classify the root cause** against a dataset-specific taxonomy, and
 **recommend a safe SRE action**. The verifier writes a fractional reward (`passed_tests / non_skipped_tests`) to `/logs/verifier/reward.txt`, so partial-correct answers register on a continuous 0–1 scale.
 
-## Headline: Mesh ensemble on Loghub-SRE-v1
+## Status
 
-This benchmark is the testing ground for **Mesh**, the multi-agent SRE orchestrator from Mesh Intelligence. See [docs/MESH_BENCHMARK.md](docs/MESH_BENCHMARK.md) for the experiment design, reproduction commands, and current numbers.
+Loghub-SRE is ready for community testing as a Harbor benchmark. The
+committed 60-task set passes the substrate gates:
 
-The short version:
-- Single-agent baseline: mini-swe-agent + Kimi K2.6, one attempt per task.
-- Mesh ensemble: same agent, 3 attempts per task, score = best-of-3 (faithful to Mesh's `_collect_attempts` pattern).
-- Compare via `python3 tools/analysis/compare_runs.py baselines/baseline-kimi-k2_6 baselines/mesh-ensemble-k3`.
+- `266` adapter/exporter/repo-invariant tests pass.
+- `make static` passes all `12 × 60` static checks.
+- `make oracle-nop` is green on all tasks: oracle scores `60/60`, nop
+  scores `0/60`.
 
-Live results land in `docs/MESH_BENCHMARK.md` as soon as both runs complete.
+Real-agent leaderboard runs are intentionally not included yet; see
+[docs/baselines.md](docs/baselines.md) for the current validation
+baseline and remaining benchmarking caveats.
 
 ## What's in the box
 
@@ -137,13 +140,16 @@ loghub-benchmark/
 │   ├── case_builder/            # adapters + exporter + tests
 │   └── rubric_check/            # Moonshot rubric grader
 ├── tests/
-│   ├── test_repo_invariants.py  # M8 gates: canary, leak, schema, snapshots
+│   ├── test_repo_invariants.py  # repo gates: canary, leak, schema, snapshots
 │   └── snapshots/case_ids.json  # determinism lock-in
 ├── ci_checks/                   # 15 static-check scripts (Bash)
 │   └── test-tasks/              # negative fixtures (must FAIL each check)
 ├── rubrics/                     # Harbor rubric TOML files
 └── .github/workflows/           # PR validation (static + oracle/nop + rubric)
 ```
+
+For a fuller map of the repository and data flow, see
+[docs/repo-map.md](docs/repo-map.md).
 
 ## Contributing
 

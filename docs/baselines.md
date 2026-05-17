@@ -1,12 +1,11 @@
 # Baselines
 
-Numbers captured by the autonomous buildout during M3.5 / M4 / M11.
-Real-agent (claude-code, codex, gemini) baselines are intentionally
-deferred — those require API keys the autonomous session doesn't have
-authorisation to spend, and the cost shape is non-trivial (~$30–80
-for one trial across 60 tasks per CLAUDE.md M11 estimate). The
-oracle/nop and rubric baselines are the substrate-correctness numbers;
-real-agent numbers belong in the eventual leaderboard.
+This page records substrate-correctness baselines for the committed
+60-task Harbor benchmark. Real-agent baselines are intentionally
+deferred because they require API keys and explicit spend approval. The
+oracle/nop and rubric numbers below validate that the benchmark itself
+is runnable and correctly guarded; real-agent pass rates belong in a
+future leaderboard.
 
 ## Oracle vs nop on the curated 60-task set
 
@@ -21,9 +20,7 @@ evidence compaction.
 | `nop` | 0 | 60 | **0.0%** |
 
 The 2026-05-17 run completed 6-way in parallel with `oracle/nop:
-60/60 green`. Earlier rows were documented in `commit c7a2abf` (M4
-wave 3) and re-verified after the M3.5 multi-file rework in commit
-`35d8699`.
+60/60 green`.
 
 The oracle's path:
 
@@ -53,8 +50,8 @@ retired criteria (`difficulty_explanation_quality`,
 `solution_explanation_quality`, `verification_explanation_quality`,
 `expert_time_estimate`, `task_readme`) get coerced from grader-FAIL
 to `not_applicable` when the explanation cites a missing/empty field
-— those fields were deliberately retired per CLAUDE.md's adapter-
-spec corrections, and penalising their absence would be wrong.
+— those fields were deliberately retired by the adapter-spec schema,
+and penalising their absence would be wrong.
 
 Rubric refresh note: a 2026-05-17 rerun was attempted after the task
 refresh because `MOONSHOT_API_KEY` was present on Hetzner, but the
@@ -86,15 +83,13 @@ That requires:
 - `ANTHROPIC_API_KEY` set in the calling shell (harbor's `quality_checker`
   module hardcodes the check, so the Moonshot/Kimi route doesn't help
   here).
-- `MODEL_*` budget approval; PLAN.md M11 estimates $20–50 per single
-  trial × 60-task sweep with Opus, scaling roughly linearly with
-  reasoning_effort.
+- model/API budget approval. A single 60-task sweep can be non-trivial
+  depending on the agent, model, retries, and reasoning settings.
 
-The autonomous buildout session deliberately stopped short of
-spending unspecified API budget. When the user wires up the Anthropic
-key (or authorises a different per-agent setup), the M11 baselines
-can be regenerated and this doc replaced with real pass-rates per
-agent × model × reasoning_effort cell.
+No paid real-agent sweep is included in this report. When an Anthropic
+key or another supported agent setup is authorised, the baselines can
+be regenerated and this doc replaced with real pass-rates per agent,
+model, and reasoning setting.
 
 `.github/workflows/run-trials.yml` is the manual-dispatch path for
 running this from CI.
@@ -102,11 +97,10 @@ running this from CI.
 ## How to update this doc
 
 1. Run the baseline workflow: `harbor run -p tasks/* --agent <agent>
-   -m <model> -k 3 --jobs-dir <jobs>` (PLAN.md M11 specifies 3
-   attempts per task).
-2. Run `tools/leaderboard/` (the M11 follow-up tool) over `<jobs>` to
-   compute pass@1 / pass@3 / per-dataset / per-root-cause aggregates.
-3. Drop the table here, link the raw `result.json` files for
+   -m <model> -k 3 --jobs-dir <jobs>`.
+2. Compute pass@1 / pass@3 / per-dataset / per-root-cause aggregates
+   from the resulting Harbor `result.json` files.
+3. Drop the table here and link the raw `result.json` files for
    reproducibility.
 
 Until then this file documents the substrate-correctness baselines

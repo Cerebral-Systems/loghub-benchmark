@@ -1,8 +1,7 @@
-"""Unit tests for the Harbor task exporter (M3 + M3.5).
+"""Unit tests for the Harbor task exporter.
 
-The exporter is the M3 surface the rest of the project depends on, and
-M3.5 reworked it to emit multi-file partitioned tasks. Tests cover both
-the directory shape that Harbor's static checks read and the (file, line)
+The exporter emits multi-file partitioned tasks. Tests cover both the
+directory shape that Harbor's static checks read and the (file, line)
 tuple schema that the verifier asserts against.
 """
 
@@ -230,7 +229,7 @@ def test_task_toml_uses_new_schema(tmp_path: Path):
     assert 'difficulty = "medium"' in toml_text
     assert 'category = "sre-log-investigation"' in toml_text
     assert "allow_internet = true" in toml_text
-    assert '"multi-file"' in toml_text  # new tag added in M3.5
+    assert '"multi-file"' in toml_text
     for forbidden in ("difficulty_explanation", "solution_explanation", "expert_time_estimate_hours"):
         assert forbidden not in toml_text
 
