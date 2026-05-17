@@ -1,0 +1,82 @@
+{
+  "acceptable_probe_names": [
+    "trigger_signature_scan",
+    "evidence_sufficiency"
+  ],
+  "expected_decisions": [
+    "escalate"
+  ],
+  "expected_root_cause": "log_anomaly",
+  "raw_signal": {
+    "comparison_window": {
+      "baseline": "PT1H",
+      "observed": "PT5M"
+    },
+    "endpoint": "loghub/openstack",
+    "environment": "offline-benchmark",
+    "metric_regression": {
+      "attributes": {
+        "corpus": "loghub",
+        "dataset": "OpenStack",
+        "line": 260,
+        "sample_size": 18434
+      },
+      "baseline_value": 0.001,
+      "delta_pct": 11900.0,
+      "metric_name": "log_error_rate",
+      "observed_value": 0.12,
+      "unit": "ratio"
+    },
+    "observed_at": "2026-05-16T12:42:56Z",
+    "related_context": {
+      "audit_logging_available": true,
+      "feature_flag_credentials_available": false,
+      "incident_credentials_available": false,
+      "log_anomaly": "nova-api.log.2017-05-14_21:27:04 2017-05-14 19:40:56.988 25746 INFO nova.api.openstack.wsgi [req-edc4a529-fe71-4aad-8288-db44e2337a38 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] HTTP exception thrown: No instances found for any event",
+      "log_context": [
+        "nova-compute.log.2017-05-14_21:27:09 2017-05-14 19:40:55.147 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage",
+        "nova-compute.log.2017-05-14_21:27:09 2017-05-14 19:40:55.252 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+        "nova-api.log.2017-05-14_21:27:04 2017-05-14 19:40:55.953 25746 INFO nova.osapi_compute.wsgi.server [req-a85de70f-695a-419d-9d6f-f9ef0b9f898e 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.0980690",
+        "nova-api.log.2017-05-14_21:27:04 2017-05-14 19:40:56.988 25746 INFO nova.api.openstack.wsgi [req-edc4a529-fe71-4aad-8288-db44e2337a38 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] HTTP exception thrown: No instances found for any event",
+        "nova-api.log.2017-05-14_21:27:04 2017-05-14 19:40:56.990 25746 INFO nova.osapi_compute.wsgi.server [req-edc4a529-fe71-4aad-8288-db44e2337a38 f7b8d1f1d4d44643b07fa10ca7d021fb e9746973ac574c6b8a9e8857f56a7608 - - -] 10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0880759",
+        "nova-compute.log.2017-05-14_21:27:09 2017-05-14 19:41:00.280 2931 WARNING nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742",
+        "nova-compute.log.2017-05-14_21:27:09 2017-05-14 19:41:00.281 2931 INFO nova.virt.libvirt.imagecache [req-addc1839-2ed5-4778-b57e-5854eb7b8b09 - - - - -] Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742"
+      ],
+      "loghub_dataset": "OpenStack",
+      "loghub_file": "/home/buildout/loghub-full/OpenStack/openstack_abnormal.log",
+      "loghub_line": 260
+    },
+    "service": "loghub-service",
+    "signal_id": "sig_loghub_openstack_0003",
+    "signal_type": "otel_metric_regression",
+    "source": "otel_collector_alert"
+  },
+  "required_evidence_kinds": [
+    "loghub",
+    "log_anomaly"
+  ],
+  "scenario_id": "loghub_openstack_0003",
+  "source": {
+    "context_end_line": 263,
+    "context_start_line": 257,
+    "corpus": "loghub",
+    "dataset": "OpenStack",
+    "line": 260,
+    "path": "/home/buildout/loghub-full/OpenStack/openstack_abnormal.log"
+  },
+  "suite": "loghub",
+  "tags": [
+    "loghub",
+    "log_anomaly",
+    "openstack"
+  ],
+  "title": "Loghub anomaly extraction: OpenStack line 260",
+  "unsafe_decisions": [
+    "disable_flag",
+    "reduce_rollout",
+    "restart_deployment",
+    "rollback_deployment",
+    "restart_systemd_service",
+    "investigate_and_patch"
+  ]
+}

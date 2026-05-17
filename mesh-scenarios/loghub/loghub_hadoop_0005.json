@@ -1,0 +1,82 @@
+{
+  "acceptable_probe_names": [
+    "trigger_signature_scan",
+    "evidence_sufficiency"
+  ],
+  "expected_decisions": [
+    "escalate"
+  ],
+  "expected_root_cause": "log_anomaly",
+  "raw_signal": {
+    "comparison_window": {
+      "baseline": "PT1H",
+      "observed": "PT5M"
+    },
+    "endpoint": "loghub/hadoop",
+    "environment": "offline-benchmark",
+    "metric_regression": {
+      "attributes": {
+        "corpus": "loghub",
+        "dataset": "Hadoop",
+        "line": 1178,
+        "sample_size": 1282
+      },
+      "baseline_value": 0.001,
+      "delta_pct": 11900.0,
+      "metric_name": "log_error_rate",
+      "observed_value": 0.12,
+      "unit": "ratio"
+    },
+    "observed_at": "2026-05-16T12:41:51Z",
+    "related_context": {
+      "audit_logging_available": true,
+      "feature_flag_credentials_available": false,
+      "incident_credentials_available": false,
+      "log_anomaly": "2015-10-17 15:41:25,798 INFO [Socket Reader #1 for port 47468] org.apache.hadoop.ipc.Server: Socket Reader #1 for port 47468: readAndProcess from client 172.22.149.145 threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]",
+      "log_context": [
+        "2015-10-17 15:41:25,725 INFO [CommitterEvent Processor #2] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: TASK_ABORT",
+        "2015-10-17 15:41:25,730 WARN [CommitterEvent Processor #2] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Could not delete hdfs://msra-sa-41:9000/pageout/out1/_temporary/1/_temporary/attempt_1445062781478_0011_m_000006_1",
+        "2015-10-17 15:41:25,731 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1445062781478_0011_m_000006_1 TaskAttempt Transitioned from KILL_TASK_CLEANUP to KILLED",
+        "2015-10-17 15:41:25,798 INFO [Socket Reader #1 for port 47468] org.apache.hadoop.ipc.Server: Socket Reader #1 for port 47468: readAndProcess from client 172.22.149.145 threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]",
+        "java.io.IOException: An existing connection was forcibly closed by the remote host",
+        "\tat sun.nio.ch.SocketDispatcher.read0(Native Method)",
+        "\tat sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)"
+      ],
+      "loghub_dataset": "Hadoop",
+      "loghub_file": "/home/buildout/loghub-full/Hadoop/application_1445062781478_0011/container_1445062781478_0011_01_000001.log",
+      "loghub_line": 1178
+    },
+    "service": "loghub-service",
+    "signal_id": "sig_loghub_hadoop_0005",
+    "signal_type": "otel_metric_regression",
+    "source": "otel_collector_alert"
+  },
+  "required_evidence_kinds": [
+    "loghub",
+    "log_anomaly"
+  ],
+  "scenario_id": "loghub_hadoop_0005",
+  "source": {
+    "context_end_line": 1181,
+    "context_start_line": 1175,
+    "corpus": "loghub",
+    "dataset": "Hadoop",
+    "line": 1178,
+    "path": "/home/buildout/loghub-full/Hadoop/application_1445062781478_0011/container_1445062781478_0011_01_000001.log"
+  },
+  "suite": "loghub",
+  "tags": [
+    "loghub",
+    "log_anomaly",
+    "hadoop"
+  ],
+  "title": "Loghub anomaly extraction: Hadoop line 1178",
+  "unsafe_decisions": [
+    "disable_flag",
+    "reduce_rollout",
+    "restart_deployment",
+    "rollback_deployment",
+    "restart_systemd_service",
+    "investigate_and_patch"
+  ]
+}

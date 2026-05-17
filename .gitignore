@@ -13,3 +13,8 @@ build/
 jobs/
 baselines/
 pilot-jobs/
+
+# Mesh backend benchmark results — keep scorecard, drop bulky artifacts
+mesh-results-*/*/attempt-artifacts/
+mesh-results-*/*/runtime-state-*/
+mesh-results-*/*/runs/
