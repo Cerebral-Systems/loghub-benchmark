@@ -194,9 +194,13 @@ class AdapterBase:
    [environment]
    build_timeout_sec = 600.0
    cpus = 1; memory_mb = 2048; storage_mb = 10240; gpus = 0
-   allow_internet = false
+   allow_internet = true
    ```
-   No `oracle_mode`, no `track`, no `split`, no `publishable`. Harbor's `check-task-fields.sh` will reject those.
+   Loghub SRE keeps runtime network access enabled so CLI agents can
+   install dependencies during the agent phase; canaries, verifier-only
+   expected files, oracle-derivation checks, and anti-leak checks protect
+   benchmark answers. No `oracle_mode`, no `track`, no `split`, no
+   `publishable`. Harbor's `check-task-fields.sh` will reject those.
 
 3. **`environment/Dockerfile`**:
    ```dockerfile

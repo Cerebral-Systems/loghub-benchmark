@@ -1,17 +1,14 @@
 #!/bin/bash
 
-# Fails if task.toml sets [environment].allow_internet = true.
+# Fails if task.toml does not explicitly set [environment].allow_internet = true.
 #
-# The Loghub SRE benchmark is intentionally offline: agents investigate
-# log slices baked into the image, and giving them internet creates a
-# "look up the answer" leak vector and a flakiness source (verifier
-# fetching uv at runtime). Every task must set allow_internet = false
-# explicitly, and the Dockerfile must pre-install everything the test
-# harness needs.
+# The Loghub SRE benchmark intentionally allows internet access so real
+# CLI agents can install their runtime dependencies during the agent phase.
+# Answers are still protected by canary strings, verifier-only expected.json,
+# and the oracle-leak checks over environment/.
 #
-# This is the inverse of the upstream Harbor benchmark-template policy;
-# the file is otherwise identical so future template syncs are easy to
-# rebase.
+# The key invariant is that the policy must be explicit and consistent
+# across generated tasks, docs, and CI.
 
 set -e
 
@@ -57,10 +54,10 @@ with open(path, "rb") as f:
 value = data.get("environment", {}).get("allow_internet")
 if value is None:
     # Default is True per harbor.models.task.config.EnvironmentConfig.
-    print("environment.allow_internet not set; Loghub SRE tasks must declare false explicitly")
+    print("environment.allow_internet not set; Loghub SRE tasks must declare true explicitly")
     sys.exit(1)
-if value is True:
-    print("environment.allow_internet=true; Loghub SRE tasks must run offline")
+if value is not True:
+    print("environment.allow_internet is not true; Loghub SRE tasks allow agent runtime installs")
     sys.exit(1)
 PYEOF
     ) || {
@@ -74,10 +71,10 @@ done
 
 if [ $FAILED -eq 1 ]; then
     echo ""
-    echo "Some task.toml files allow internet access."
-    echo "Loghub SRE tasks must set [environment].allow_internet = false"
-    echo "and pre-install all verifier dependencies in the Dockerfile."
+    echo "Some task.toml files do not explicitly allow internet access."
+    echo "Loghub SRE tasks must set [environment].allow_internet = true"
+    echo "so real CLI agents can install runtime dependencies."
     exit 1
 fi
 
-echo "All task.toml files run offline (allow_internet = false)"
+echo "All task.toml files explicitly allow internet access (allow_internet = true)"

@@ -110,6 +110,9 @@
       "line": 1855
     }
   ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
   "files": [
     "openstack-nova-api.log",
     "openstack-nova-compute.log",

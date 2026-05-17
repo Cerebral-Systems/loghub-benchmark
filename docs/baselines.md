@@ -10,15 +10,20 @@ real-agent numbers belong in the eventual leaderboard.
 
 ## Oracle vs nop on the curated 60-task set
 
+Latest refresh: **2026-05-17**, run on Hetzner at
+`/home/buildout/loghub-benchmark` after the network-enabled task refresh,
+BGL/Thunderbird inline-label verifier change, and Hadoop adapter v2
+evidence compaction.
+
 | Agent | Reward 1.0 | Reward 0.0 | Pass rate |
 |---|---|---|---|
 | `oracle` | 60 | 0 | **100.0%** |
 | `nop` | 0 | 60 | **0.0%** |
 
-Both rows are documented in `commit c7a2abf` (M4 wave 3) and re-verified
-after the M3.5 multi-file rework in commit `35d8699`. Validated 6-way
-in parallel; raw timing was ~12 minutes for the 60-task sweep with
-docker layer caching.
+The 2026-05-17 run completed 6-way in parallel with `oracle/nop:
+60/60 green`. Earlier rows were documented in `commit c7a2abf` (M4
+wave 3) and re-verified after the M3.5 multi-file rework in commit
+`35d8699`.
 
 The oracle's path:
 
@@ -29,7 +34,8 @@ The oracle's path:
 3. `derive_answer.py` reads each cited line out of the actual log,
    extracts a verbatim snippet, and writes the answer to `/app/answer.json`.
 4. The verifier mounts `/tests/` and runs `test_state.py` against
-   `/app/answer.json`. All 12 assertions pass.
+   `/app/answer.json`. Mode-specific evidence tests skip when they do
+   not apply, and reward is computed as passed / non-skipped tests.
 
 `nop` simply doesn't run anything, so `/app/answer.json` is never
 created — `test_answer_is_valid_json` fails first, reward goes to 0.
@@ -50,14 +56,19 @@ to `not_applicable` when the explanation cites a missing/empty field
 — those fields were deliberately retired per CLAUDE.md's adapter-
 spec corrections, and penalising their absence would be wrong.
 
+Rubric refresh note: a 2026-05-17 rerun was attempted after the task
+refresh because `MOONSHOT_API_KEY` was present on Hetzner, but the
+Moonshot account returned an insufficient-balance/quota error before
+the first task completed. No refreshed rubric verdicts are claimed here.
+
 ## Static-check + invariant pass
 
 Across the full 60-task set:
 
 | Layer | Count | Status |
 |---|---|---|
-| Static checks per task (canary, dockerfile sanity, absolute paths, test refs, test.sh sanity, task fields, slug, timeout, instruction timeout, gpu types, allow-internet, plus M6's oracle-leak/canary-everywhere/oracle-derives) | 15 × 60 = 900 | all green |
-| Unit tests (`tools/case_builder/tests/` + `tests/test_repo_invariants.py`) | 263 | all green |
+| Static checks per task (canary, dockerfile sanity, Dockerfile references, absolute paths, test refs, test.sh sanity, task fields, slug, timeout, instruction timeout, gpu types, allow-internet) | 12 × 60 = 720 | all green |
+| Unit tests and repo invariants (`tools/case_builder/tests/` + `tests/test_repo_invariants.py`, including oracle-leak and oracle-derivation samples) | 266 | all green |
 | Negative test-tasks under `ci_checks/test-tasks/fail-loghub-*/` | 4 | each fails the right check |
 
 ## Real-agent baselines — not in this report

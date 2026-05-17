@@ -59,7 +59,7 @@ sorted(anomaly_lines))` — see `AdapterBase.case_id`. Don't override it.
 |---|---|---|
 | HDFS_v1 | Anchor on first mention of an anomalous block; bounded MIN..MAX window. v2 of the adapter caps the window — earlier versions expanded to cover a block's full lifetime, which exploded to 2M+ lines for long-lived blocks. | 10k–30k |
 | Hadoop | Pair an anomalous job's container logs with a deterministically-chosen normal job's, separated by a `### normal_job=...` / `### anomalous_job=...` marker. The exporter drops those markers when partitioning (otherwise the file boundaries leak which half is anomalous). | concatenated per-job |
-| BGL | Deterministic permutation of all non-`-` lines; sweep slices in order, dedup overlaps. Streamed in two passes (count → fill) so the 30 GB Thunderbird corpus stays under ~3 GB RSS. | 5k–15k |
+| BGL | Deterministic permutation of all non-`-` lines; sweep slices in order, dedup overlaps. Streamed in two passes (count → fill) so the 30 GB Thunderbird corpus stays under ~3 GB RSS. Exported files are bucketed by full node/location token to avoid one-file rack-only tasks. | 5k–15k |
 | Thunderbird | Subclass of BGL — only `LOG_FILENAMES` + taxonomy are overridden. | 5k–15k |
 | OpenStack | Per-instance variant scheme: each of the 4 anomalous VM UUIDs anchors K slice variants (default 3), so we yield ≥10 cases despite only 4 instances in the corpus. | 2k–8k |
 
@@ -78,6 +78,16 @@ satisfies Harbor's three-hyphen-token slug constraint. The canonical
 underscored form survives unchanged in `task.toml` `[metadata].tags`
 and in `tests/expected.json` `root_cause_type`.
 
+## Evidence validation
+
+`expected.json` includes an `evidence_validation` mode. HDFS, Hadoop,
+and OpenStack use `exact_location`, where every cited `(file, line)`
+must be present in the generated evidence set. BGL and Thunderbird use
+`inline_label`, where the verifier reads the cited line's visible alert
+tag and maps it through the adapter taxonomy. That keeps large inline-
+label slices reviewable without weakening the requirement that every
+evidence citation match the expected root cause.
+
 ## Adding a new dataset
 
 1. Drop the corpus under `/home/buildout/loghub-full/<DatasetName>/`.
@@ -95,8 +105,10 @@ and in `tests/expected.json` `root_cause_type`.
    `tools/case_builder/export_to_harbor.py`. The function takes a log
    line and returns a basename for the file that line belongs in (or
    `None` to drop the line).
-6. Run `make rebuild-tasks` to regenerate the staging set, curate a
-   slug list, and copy into `tasks/`.
+6. Run `make rebuild-curated` to reproduce the committed curated set,
+   or run `tools.case_builder.rebuild_curated refresh-from-existing`
+   with fresh case-builder outputs when intentionally refreshing the
+   curation manifest.
 7. Refresh `tests/snapshots/case_ids.json` to include the new
    adapter's fixture-derived ids.
 

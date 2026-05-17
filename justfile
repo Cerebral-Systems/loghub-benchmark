@@ -28,13 +28,13 @@ static:
 
 # harbor run --agent oracle (must yield 1.0) + --agent nop (must yield 0.0)
 # for every task. Slow — ~60-70s per task at 6-way parallel = ~12 min for 60 tasks.
-# Writes per-task results to /tmp/m4-validation.log.
+# Writes per-task results to /tmp/just-validate.log.
 oracle-nop:
     #!/usr/bin/env bash
     set -e
     : > /tmp/just-validate.log
     : > /tmp/just-validate.err
-    ls tasks | grep -v '^\.' | xargs -P 6 -I {} bash /tmp/validate-task.sh {} \
+    ls tasks | grep -v '^\.' | xargs -P 6 -I {} bash tools/validate_task.sh {} \
         2>>/tmp/just-validate.err | tee -a /tmp/just-validate.log
     total=$(wc -l </tmp/just-validate.log)
     green=$(grep -c '^.* oracle=1.0 nop=0.0$' /tmp/just-validate.log || true)
@@ -72,3 +72,13 @@ rebuild-tasks:
         --cases-dir /tmp/cases-m4-$d --output-dir /tmp/tasks-staging
     done
     @echo "staging populated; copy the curated slugs back into tasks/ manually"
+
+# Rebuild exactly the committed curated-selection manifest. This is the
+# reproducible path for refreshing generated task contents after exporter
+# changes without hand-copying slugs from staging.
+rebuild-curated:
+    .venv-tools/bin/python -m tools.case_builder.rebuild_curated rebuild \
+        --manifest tools/case_builder/curated_selection.json \
+        --corpus-root /home/buildout/loghub-full \
+        --output-dir tasks \
+        --clear-output

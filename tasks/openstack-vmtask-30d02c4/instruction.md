@@ -21,7 +21,7 @@ Write **`/app/answer.json`** with this shape:
   "is_incident": true,
   "evidence": [
     {
-      "file": "<basename only, e.g. bgl-racks-a.log — NO /app/ prefix>",
+      "file": "<one of the /app/*.log files>",
       "line": <1-based line number in that file>,
       "snippet": "<verbatim excerpt of that line>"
     }

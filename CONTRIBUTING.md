@@ -51,7 +51,10 @@ Short version:
    `_PARTITIONERS`).
 5. Document the root-cause taxonomy in a sibling
    `<dataset>_taxonomy.md` if the dataset has a non-trivial mapping.
-6. Run `make rebuild-tasks` and curate the resulting slug set.
+6. Run `make rebuild-curated` when you need to reproduce the committed
+   task set, or use `tools.case_builder.rebuild_curated refresh-from-existing`
+   when intentionally refreshing the curated manifest from new case-builder
+   outputs.
 7. Refresh `tests/snapshots/case_ids.json` to cover the new adapter's
    fixture-derived ids.
 
@@ -60,7 +63,7 @@ Short version:
 Every PR must pass `make validate-all`. Concretely:
 
 - `make unit`: pytest across `tools/case_builder/tests/` and
-  `tests/test_repo_invariants.py`. Currently 263 tests; new adapters
+  `tests/test_repo_invariants.py`. Currently 265 tests; new adapters
   should add 3+ unit tests and not regress any existing one.
 - `make static`: 12 ci_checks/*.sh scripts × every task in `tasks/`.
   All must pass. The negative test-tasks under
@@ -85,11 +88,12 @@ Every PR must pass `make validate-all`. Concretely:
   /app/answer.json` is caught by `ci_checks/check-oracle-derives.sh`
   and the corresponding negative test under
   `ci_checks/test-tasks/fail-loghub-hardcoded-answer/`.
-- **Allowing internet in `[environment]`** — Loghub SRE is offline-only.
-  All verifier dependencies (`pytest`, `pytest-json-ctrf`) must be
-  preinstalled in the Dockerfile. The
-  `ci_checks/check-allow-internet.sh` script enforces this; the
-  upstream Harbor template's policy is inverted.
+- **Disabling internet in `[environment]`** — Loghub SRE intentionally
+  sets `allow_internet = true` so Harbor-compatible CLI agents can
+  install runtime dependencies during the agent phase. Ground truth is
+  still protected by verifier-only `expected.json`, canary checks, and
+  oracle-leak checks. The `ci_checks/check-allow-internet.sh` script
+  enforces explicit `true` across generated tasks.
 
 ## Adapter-version bumps
 

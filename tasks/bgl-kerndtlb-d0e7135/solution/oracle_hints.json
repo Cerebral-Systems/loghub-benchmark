@@ -1,0 +1,212 @@
+{
+  "anomaly_keys": [
+    "KERNDTLB",
+    "KERNDTLB",
+    "KERNDTLB",
+    "KERNDTLB",
+    "KERNDTLB"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 1
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 2
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 3
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 4
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 5
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 6
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 7
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 8
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 9
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 10
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 11
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 12
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 13
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 14
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 15
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 16
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 17
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 18
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 19
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 20
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 21
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 22
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 23
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 24
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 25
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 26
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 27
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 28
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 29
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 30
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 31
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 32
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 33
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 34
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 35
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 36
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 37
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 38
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 39
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 40
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 41
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 42
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 43
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 44
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 45
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 46
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 47
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 48
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 49
+    },
+    {
+      "file": "bgl-nodes-c.log",
+      "line": 50
+    }
+  ],
+  "root_cause_type": "kerndtlb"
+}

@@ -44,6 +44,30 @@ def _make_hdfs_case(**overrides) -> dict:
     return case
 
 
+def _make_bgl_case(**overrides) -> dict:
+    case: dict = {
+        "case_id": "1234567890abcdef" + "1" * 48,
+        "dataset_name": "BGL",
+        "adapter_version": "1",
+        "slice": {
+            "lines": [
+                "KERNDTLB 1 2005.06.03 R03-M0-N0-C:J12-U11 ts host RAS KERNEL FATAL data TLB",
+                "- 1 2005.06.03 R04-M0-N0-C:J12-U11 ts host RAS KERNEL INFO normal",
+                "KERNDTLB 1 2005.06.03 R05-M0-N0-C:J12-U11 ts host RAS KERNEL FATAL data TLB",
+                "APPSEV 1 2005.06.03 R06-M0-N0-C:J12-U11 ts host RAS APP FATAL severe error",
+            ],
+            "offset": 0,
+            "length": 4,
+        },
+        "anomaly_line_ids": [1, 3],
+        "root_cause": "kerndtlb",
+        "anomaly_keys": ["KERNDTLB"],
+        "extra": {},
+    }
+    case.update(overrides)
+    return case
+
+
 # --- slug -------------------------------------------------------------------
 
 
@@ -99,19 +123,12 @@ def test_partition_hadoop_drops_synthetic_headers():
     assert ex._partition_hadoop("### anomalous_job=application_1_002") is None
 
 
-def test_partition_bgl_buckets_by_rack():
-    line_r02 = "- 1 2005.06.03 R02-M1-N0-C:J12-U11 ts host RAS KERNEL INFO foo"
-    line_r05 = "- 1 2005.06.03 R05-M1-N0-C:J12-U11 ts host RAS KERNEL INFO bar"
-    line_r08 = "- 1 2005.06.03 R08-M1-N0-C:J12-U11 ts host RAS KERNEL INFO baz"
-    # 02 % 3 = 2 (c), 05 % 3 = 2 (c), 08 % 3 = 2 (c) — all same bucket
-    # 03 % 3 = 0 (a), 04 % 3 = 1 (b) — confirm a/b/c distribution
-    assert ex._partition_bgl(line_r02) == "bgl-racks-c.log"
-    assert ex._partition_bgl(
-        "- 1 2005.06.03 R03-M0-N0-C:J12-U11 ts host RAS KERNEL INFO"
-    ) == "bgl-racks-a.log"
-    assert ex._partition_bgl(
-        "- 1 2005.06.03 R04-M0-N0-C:J12-U11 ts host RAS KERNEL INFO"
-    ) == "bgl-racks-b.log"
+def test_partition_bgl_buckets_by_full_location_token():
+    line_a = "- 1 2005.06.03 R03-M0-N0-C:J12-U11 ts host RAS KERNEL INFO foo"
+    line_b = "- 1 2005.06.03 R03-M0-N1-C:J12-U11 ts host RAS KERNEL INFO bar"
+    assert ex._partition_bgl(line_a).startswith("bgl-nodes-")
+    assert ex._partition_bgl(line_b).startswith("bgl-nodes-")
+    assert ex._partition_bgl(line_a) == ex._partition_bgl(line_a)
 
 
 def test_partition_openstack_by_service():
@@ -160,7 +177,33 @@ def test_expected_json_uses_v2_schema(tmp_path: Path):
     # Plus the legacy fields the verifier still uses.
     assert expected["root_cause_type"] == "datanode_unreachable"
     assert expected["anomaly_keys"] == ["blk_42"]
+    assert expected["evidence_validation"] == {"mode": "exact_location"}
     assert expected["files"]
+
+
+def test_inline_label_expected_json_omits_huge_ground_truth_locations(tmp_path: Path):
+    out = tmp_path / "tasks"
+    ex.export_case(_make_bgl_case(), out, author_name="x", author_email="x@example.com")
+    expected = json.loads((out / "bgl-kerndtlb-1234567" / "tests" / "expected.json").read_text())
+    assert expected["evidence"] == []
+    assert expected["evidence_validation"]["mode"] == "inline_label"
+    assert expected["evidence_validation"]["tag_to_root_cause"]["KERNDTLB"] == "kerndtlb"
+    hints = json.loads((out / "bgl-kerndtlb-1234567" / "solution" / "oracle_hints.json").read_text())
+    assert hints["anomaly_locations"]
+
+
+def test_inline_label_oracle_hints_match_expected_root_cause(tmp_path: Path):
+    out = tmp_path / "tasks"
+    case = _make_bgl_case(anomaly_line_ids=[1, 3, 4])
+    ex.export_case(case, out, author_name="x", author_email="x@example.com")
+    task_dir = out / "bgl-kerndtlb-1234567"
+    hints = json.loads((task_dir / "solution" / "oracle_hints.json").read_text())
+    data_dir = task_dir / "environment" / "data"
+    cited_tags = []
+    for loc in hints["anomaly_locations"]:
+        line = (data_dir / loc["file"]).read_text().splitlines()[loc["line"] - 1]
+        cited_tags.append(line.split(None, 1)[0])
+    assert cited_tags == ["KERNDTLB", "KERNDTLB"]
 
 
 def test_anomaly_line_ids_translated_to_file_line_tuples(tmp_path: Path):
@@ -186,6 +229,7 @@ def test_task_toml_uses_new_schema(tmp_path: Path):
     assert 'name = "loghub-sre/hdfs-datanode-abcdef1"' in toml_text
     assert 'difficulty = "medium"' in toml_text
     assert 'category = "sre-log-investigation"' in toml_text
+    assert "allow_internet = true" in toml_text
     assert '"multi-file"' in toml_text  # new tag added in M3.5
     for forbidden in ("difficulty_explanation", "solution_explanation", "expert_time_estimate_hours"):
         assert forbidden not in toml_text

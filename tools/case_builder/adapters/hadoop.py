@@ -18,7 +18,6 @@ from __future__ import annotations
 
 import hashlib
 import re
-from collections import defaultdict
 from pathlib import Path
 from typing import Iterator
 
@@ -36,11 +35,30 @@ LABEL_HEADING_TO_SLUG = {
 POSITIVE_TAXONOMY = ("machine_down", "network_disconnect", "disk_full")
 
 JOB_LINE_RE = re.compile(r"^\+?\s*(application_\d+_\d+)\s*$")
+MAX_EVIDENCE_LINES = 50
+MIN_EVIDENCE_LINES = 3
+
+ROOT_CAUSE_EVIDENCE_PATTERNS: dict[str, tuple[re.Pattern[str], ...]] = {
+    "machine_down": (
+        re.compile(r"\b(ERROR|FATAL|failed|failure|killed|lost|down|unreachable)\b", re.IGNORECASE),
+        re.compile(r"\b(NodeManager|ResourceManager|heartbeat|container)\b", re.IGNORECASE),
+    ),
+    "network_disconnect": (
+        re.compile(r"\b(network|connect|connection|socket|timeout|timed out|unreachable|EOF|RPC)\b", re.IGNORECASE),
+        re.compile(r"\b(retry|failed|exception|disconnect|channel)\b", re.IGNORECASE),
+    ),
+    "disk_full": (
+        re.compile(r"\b(disk|space|volume|write|localdir|filesystem|No space)\b", re.IGNORECASE),
+        re.compile(r"\b(IOException|failed|error|exception)\b", re.IGNORECASE),
+    ),
+}
+
+GENERIC_EVIDENCE_RE = re.compile(r"\b(ERROR|FATAL|WARN|Exception|failed|failure|timeout|killed)\b", re.IGNORECASE)
 
 
 class HadoopAdapter(AdapterBase):
     dataset_name = "Hadoop"
-    adapter_version = "1"
+    adapter_version = "2"
     # Cases only emit anomalous root causes; 'normal' is preserved for the
     # label vocabulary but never returned by classify_root_cause.
     root_cause_taxonomy = POSITIVE_TAXONOMY
@@ -116,14 +134,21 @@ class HadoopAdapter(AdapterBase):
             header_a = f"### anomalous_job={anomalous_job}"
             combined = [header_n, *normal_lines, header_a, *anomalous_lines]
 
-            # 1-based line numbers within the slice that belong to the
-            # anomalous job (i.e. the lines the agent must cite).
+            # 1-based line number of the first anomalous job log line within
+            # the concatenated slice.
             start_of_anomalous = 1 + 1 + len(normal_lines) + 1  # header_n + normal_lines + header_a + first anomalous line
-            anomaly_line_ids = list(range(start_of_anomalous, start_of_anomalous + len(anomalous_lines)))
 
             slice_ = LogSlice(lines=tuple(combined), offset=0, length=len(combined))
             root_cause = labels.entries[anomalous_job]
             self.validate_root_cause(root_cause)
+            all_anomalous_line_ids = list(range(start_of_anomalous, start_of_anomalous + len(anomalous_lines)))
+            anomaly_line_ids = self._select_evidence_lines(
+                anomalous_lines=anomalous_lines,
+                all_anomalous_line_ids=all_anomalous_line_ids,
+                root_cause=root_cause,
+                anomaly_key=anomalous_job,
+                seed=seed,
+            )
             yield CandidateCase(
                 case_id=self.case_id(slice_, anomaly_line_ids),
                 dataset_name=self.dataset_name,
@@ -155,6 +180,57 @@ class HadoopAdapter(AdapterBase):
                 for line in fh:
                     out.append(line.rstrip("\n"))
         return out
+
+    @classmethod
+    def _select_evidence_lines(
+        cls,
+        *,
+        anomalous_lines: list[str],
+        all_anomalous_line_ids: list[int],
+        root_cause: str,
+        anomaly_key: str,
+        seed: int,
+    ) -> list[int]:
+        """Pick a compact deterministic evidence subset from the anomalous job.
+
+        The full anomalous half can be tens of thousands of lines. Verifiers
+        only need enough gold locations to reject fabricated citations, so we
+        keep the lines that most clearly express the fault and cap the set.
+        """
+        scored: list[tuple[int, int]] = []
+        patterns = ROOT_CAUSE_EVIDENCE_PATTERNS[root_cause]
+        for idx, line in enumerate(anomalous_lines):
+            score = 0
+            for pattern in patterns:
+                if pattern.search(line):
+                    score += 10
+            if GENERIC_EVIDENCE_RE.search(line):
+                score += 3
+            if anomaly_key in line:
+                score += 1
+            if score:
+                scored.append((-score, idx))
+
+        selected_indices = [idx for _, idx in sorted(scored)[:MAX_EVIDENCE_LINES]]
+        if len(selected_indices) < min(MIN_EVIDENCE_LINES, len(anomalous_lines)):
+            selected = set(selected_indices)
+            for idx in cls._stable_fallback_indices(len(anomalous_lines), anomaly_key, seed):
+                if idx in selected:
+                    continue
+                selected_indices.append(idx)
+                selected.add(idx)
+                if len(selected_indices) >= min(MIN_EVIDENCE_LINES, len(anomalous_lines)):
+                    break
+
+        selected_indices = sorted(set(selected_indices))[:MAX_EVIDENCE_LINES]
+        return [all_anomalous_line_ids[idx] for idx in selected_indices]
+
+    @staticmethod
+    def _stable_fallback_indices(n_lines: int, anomaly_key: str, seed: int) -> list[int]:
+        return sorted(
+            range(n_lines),
+            key=lambda idx: hashlib.sha256(f"{seed}|{anomaly_key}|{idx}".encode("utf-8")).digest(),
+        )
 
     # --- slice / classification overrides ---------------------------------
 

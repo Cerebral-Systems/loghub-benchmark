@@ -55,8 +55,9 @@ def test_iter_candidate_cases_pairs_normal_and_anomalous_jobs():
         # Headers separate the two job streams.
         assert any(line.startswith("### normal_job=") for line in case.slice.lines)
         assert any(line.startswith("### anomalous_job=") for line in case.slice.lines)
-        # Anomaly line numbers point only at the anomalous half.
+        # Evidence line numbers point only at a compact subset of the anomalous half.
         anomalous_lines = [case.slice.lines[ln - 1] for ln in case.anomaly_line_ids]
+        assert 1 <= len(case.anomaly_line_ids) <= 50
         assert all(case.anomaly_keys[0] in line or "ERROR" in line or "Job complete" not in line for line in anomalous_lines)
         # All anomaly line indices fall after the anomalous-job header.
         anom_header_idx = next(
@@ -75,6 +76,21 @@ def test_root_cause_flows_from_gold_label():
     assert by_job["application_1_0003"] == "machine_down"
     assert by_job["application_1_0004"] == "network_disconnect"
     assert by_job["application_1_0005"] == "disk_full"
+
+
+def test_evidence_selection_is_compact_and_deterministic():
+    adapter = HadoopAdapter()
+    labels = adapter.load_labels(FIXTURE)
+    run1 = {c.anomaly_keys[0]: c.anomaly_line_ids for c in adapter.iter_candidate_cases(FIXTURE, labels, seed=0)}
+    run2 = {c.anomaly_keys[0]: c.anomaly_line_ids for c in adapter.iter_candidate_cases(FIXTURE, labels, seed=0)}
+    assert run1 == run2
+    assert all(len(lines) <= 50 for lines in run1.values())
+    for case in adapter.iter_candidate_cases(FIXTURE, labels, seed=0):
+        anom_header_idx = next(
+            i for i, line in enumerate(case.slice.lines, start=1) if line.startswith("### anomalous_job=")
+        )
+        available = case.slice.length - anom_header_idx
+        assert len(case.anomaly_line_ids) >= min(3, available)
 
 
 def test_case_id_stable_across_runs():

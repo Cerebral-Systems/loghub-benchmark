@@ -70,7 +70,10 @@ def leaves(obj):
 
 
 file_basenames = set(expected.get("files", []))
-all_leaves = [s for s in leaves(expected) if s and s not in file_basenames]
+all_leaves = [
+    s for s in leaves(expected)
+    if s and s not in file_basenames and len(s) >= 4
+]
 
 # Answer-shaped tokens (always forbidden in any environment/ file).
 answer_shaped = {

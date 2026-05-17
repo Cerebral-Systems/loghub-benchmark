@@ -11,7 +11,7 @@ Every PR runs:
 
 | Gate | Where | Catches |
 |---|---|---|
-| 12 static-check scripts × every task | `.github/workflows/static-checks.yml` → `ci_checks/check-*.sh` | canary presence, Dockerfile sanity, absolute paths, test-file references, task.toml field set, slug length, GPU types, offline-only policy |
+| 12 static-check scripts × every task | `.github/workflows/static-checks.yml` → `ci_checks/check-*.sh` | canary presence, Dockerfile sanity, absolute paths, test-file references, task.toml field set, slug length, GPU types, explicit network-enabled policy |
 | Anti-leak + canary-everywhere + oracle-derives | `ci_checks/check-oracle-leak.sh`, `check-canary-everywhere.sh`, `check-oracle-derives.sh` | ground-truth leaking into the agent-visible environment, forgotten canaries in author-added files, `solve.sh` short-circuits |
 | Harbor oracle/nop validation | `.github/workflows/validate-task.yml` | `harbor run --agent oracle` reward=1, `--agent nop` reward=0 per task |
 | Adapter + exporter unit tests | `make unit` → `tools/case_builder/tests/test_*` | adapter contract regressions, exporter schema drift, slug stability |
@@ -57,7 +57,9 @@ without opening any file.
 2. **Determinism still holds.** Pull the branch and run
    `python -m tools.case_builder.build_cases --adapter <name>
    --seed 0 ...` twice into different output dirs; the manifest's
-   `case_id` field must be byte-identical across runs.
+   `case_id` field must be byte-identical across runs. For the
+   committed 60-task set, `make rebuild-curated` must reproduce the
+   slugs recorded in `tools/case_builder/curated_selection.json`.
 3. **Migration plan.** If `case_id`s shifted, every task under
    `tasks/<dataset>-*/` will need re-export. Did the PR include the
    regeneration? If not, the task set is stale relative to the

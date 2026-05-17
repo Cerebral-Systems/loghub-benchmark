@@ -1,0 +1,208 @@
+{
+  "anomaly_keys": [
+    "application_1445062781478_0017"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hadoop-mrappmaster.log",
+      "line": 19
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 145
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 485
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 491
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 495
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 504
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 509
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 520
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 521
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 527
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 528
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 543
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 544
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 545
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 552
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 554
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 556
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 577
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 667
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1968
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 765
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2622
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 780
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 784
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2868
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 787
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2877
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 802
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 818
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 823
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2902
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 824
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2905
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 827
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2925
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 829
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2928
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 844
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 849
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3014
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 850
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3017
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 865
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 870
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3075
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 871
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3078
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 889
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 891
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 893
+    }
+  ],
+  "root_cause_type": "machine_down"
+}

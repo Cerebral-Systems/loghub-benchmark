@@ -192,11 +192,15 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
     assert answer["root_cause_type"] == expected["root_cause_type"]
     assert answer["root_cause_type"] in expected["allowed_root_causes"]
     assert answer["recommended_action"] in expected["safe_recommendations"]
-    # Every cited (file, line) must be a real anomaly in expected.json.
+    validation = expected.get("evidence_validation", {"mode": "exact_location"})
     expected_locs = {(e["file"], e["line"]) for e in expected["evidence"]}
     for entry in answer["evidence"]:
         loc = (entry["file"], entry["line"])
-        assert loc in expected_locs, f"oracle cites non-anomaly location {loc}"
-        # And the snippet must match the actual file content.
         actual = (app_dir / entry["file"]).read_text(errors="replace").splitlines()
         assert entry["snippet"] in actual[entry["line"] - 1]
+        if validation["mode"] == "exact_location":
+            assert loc in expected_locs, f"oracle cites non-anomaly location {loc}"
+        else:
+            tag = actual[entry["line"] - 1].strip().split(None, 1)[0]
+            observed = validation["tag_to_root_cause"].get(tag, validation["other_root_cause"])
+            assert observed == expected["root_cause_type"]

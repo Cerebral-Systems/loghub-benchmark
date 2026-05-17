@@ -1,0 +1,36 @@
+2015-10-17 21:47:48,288 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445087491445_0005_000001
+2015-10-17 21:47:49,078 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Executing with tokens:
+2015-10-17 21:47:49,078 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 5 cluster_timestamp: 1445087491445 } attemptId: 1 } keyId: -1547346236)
+2015-10-17 21:47:49,370 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Using mapred newApiCommitter.
+2015-10-17 21:47:50,570 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config null
+2015-10-17 21:47:50,635 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-17 21:47:51,514 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MRAppMaster launching normal, non-uberized, multi-container job job_1445087491445_0005.
+2015-10-17 22:01:25,580 INFO [Thread-147] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: We are finishing cleanly so this is the last retry
+2015-10-17 22:01:25,580 INFO [Thread-147] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify RMCommunicator isAMLastRetry: true
+2015-10-17 22:01:25,580 INFO [Thread-147] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify JHEH isAMLastRetry: true
+2015-10-17 22:01:25,581 INFO [Thread-147] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Calling stop for all the services
+2015-10-17 22:01:26,896 INFO [Thread-147] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Deleting staging directory hdfs://msra-sa-41:9000 /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445087491445_0005
+2015-10-17 15:37:58,425 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445062781478_0013_000001
+2015-10-17 15:37:59,190 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Executing with tokens:
+2015-10-17 15:37:59,190 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 13 cluster_timestamp: 1445062781478 } attemptId: 1 } keyId: 471522253)
+2015-10-17 15:37:59,503 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Using mapred newApiCommitter.
+2015-10-17 15:38:00,581 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config null
+2015-10-17 15:38:00,675 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-17 15:38:01,784 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MRAppMaster launching normal, non-uberized, multi-container job job_1445062781478_0013.
+2015-10-17 15:53:26,069 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445062781478_0013_000002
+2015-10-17 15:53:26,647 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Executing with tokens:
+2015-10-17 15:53:26,647 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 13 cluster_timestamp: 1445062781478 } attemptId: 2 } keyId: 471522253)
+2015-10-17 15:53:26,929 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Using mapred newApiCommitter.
+2015-10-17 15:53:27,929 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config null
+2015-10-17 15:53:28,007 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2015-10-17 15:53:28,179 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Recovery is enabled. Will try to recover from previous life on best effort basis.
+2015-10-17 15:53:28,210 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Previous history file is at hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445062781478_0013/job_1445062781478_0013_1.jhist
+2015-10-17 15:53:28,241 WARN [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Unable to parse prior job history, aborting recovery
+2015-10-17 15:53:28,272 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Previous history file is at hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445062781478_0013/job_1445062781478_0013_1.jhist
+2015-10-17 15:53:28,272 WARN [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Could not parse the old history file. Will not have old AMinfos 
+2015-10-17 15:53:28,944 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MRAppMaster launching normal, non-uberized, multi-container job job_1445062781478_0013.
+2015-10-17 15:58:02,874 INFO [Thread-104] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: We are finishing cleanly so this is the last retry
+2015-10-17 15:58:02,874 INFO [Thread-104] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify RMCommunicator isAMLastRetry: true
+2015-10-17 15:58:02,874 INFO [Thread-104] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify JHEH isAMLastRetry: true
+2015-10-17 15:58:02,874 INFO [Thread-104] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Calling stop for all the services
+2015-10-17 15:58:04,484 INFO [Thread-104] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Deleting staging directory hdfs://msra-sa-41:9000 /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445062781478_0013

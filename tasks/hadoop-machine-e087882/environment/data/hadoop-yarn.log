@@ -1,0 +1,332 @@
+2015-10-17 18:09:22,493 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler
+2015-10-17 18:09:22,493 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher
+2015-10-17 18:09:22,508 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher
+2015-10-17 18:09:22,508 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher
+2015-10-17 18:09:22,508 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler
+2015-10-17 18:09:22,508 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher
+2015-10-17 18:09:22,508 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter
+2015-10-17 18:09:22,508 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter
+2015-10-17 18:09:22,680 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler
+2015-10-17 18:09:23,415 INFO [main] org.apache.hadoop.yarn.factories.impl.pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server
+2015-10-17 18:09:23,852 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Web app /mapreduce started at 53356
+2015-10-17 18:09:24,461 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+2015-10-17 18:09:24,571 INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at msra-sa-41/10.190.173.170:8030
+2015-10-17 18:09:24,680 INFO [main] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: yarn.client.max-cached-nodemanagers-proxies : 0
+2015-10-17 18:09:24,743 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,743 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:24,758 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,883 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:26,993 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:09:27,008 INFO [ContainerLauncher #9] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #8] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #7] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #5] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:27,040 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:10:28,401 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:10:29,214 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:10:29,214 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:10:30,667 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:10:30,667 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:10:44,245 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:10:44,245 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:11:43,950 INFO [ContainerLauncher #5] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:46,357 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:11:46,372 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:46,466 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:47,357 INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:47,466 INFO [ContainerLauncher #7] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:47,591 INFO [ContainerLauncher #8] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:48,450 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 18:11:48,450 INFO [ContainerLauncher #9] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:52,404 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:52,591 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:11:52,810 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:11:53,435 INFO [ContainerLauncher #5] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:11:55,544 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:11:56,716 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:28158
+2015-10-17 18:14:21,424 INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 18:09:30,830 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:30,830 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:09:30,986 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:31,627 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:32,908 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:30,736 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:30,736 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:09:30,861 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:31,533 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:32,924 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:30,752 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:30,752 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:09:30,877 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:31,533 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:32,924 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:30,814 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:30,814 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:09:30,971 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:31,611 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:32,877 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:30,799 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:30,799 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:09:30,939 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:31,580 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:32,877 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:30,814 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:30,814 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:09:30,986 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:31,611 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:32,893 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:34,812 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:34,813 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1ebe6739)
+2015-10-17 18:09:35,128 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:35,857 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:38,564 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:34,829 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:34,829 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7253580c)
+2015-10-17 18:09:35,149 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:35,850 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:38,666 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:34,220 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:34,220 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@3094b3fc)
+2015-10-17 18:09:34,433 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:35,027 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:37,357 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:09:34,828 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:09:34,828 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@3db9b677)
+2015-10-17 18:09:35,152 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:09:35,840 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:09:38,262 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:10:33,160 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:10:33,160 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7253580c)
+2015-10-17 18:10:33,302 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:10:33,985 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:10:35,229 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:11:49,415 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:11:49,415 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:11:49,587 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 18:11:50,277 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445076437777_0002
+2015-10-17 18:11:51,668 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 18:11:52,043 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 18:11:52,043 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445076437777_0002, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 18:11:52,246 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:00,891 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler
+2015-10-17 15:38:00,891 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher
+2015-10-17 15:38:00,891 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher
+2015-10-17 15:38:00,891 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher
+2015-10-17 15:38:00,891 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler
+2015-10-17 15:38:00,907 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher
+2015-10-17 15:38:00,907 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter
+2015-10-17 15:38:00,923 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter
+2015-10-17 15:38:01,329 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler
+2015-10-17 15:38:02,563 INFO [main] org.apache.hadoop.yarn.factories.impl.pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server
+2015-10-17 15:38:03,938 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Web app /mapreduce started at 49448
+2015-10-17 15:38:04,860 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+2015-10-17 15:38:05,001 INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at msra-sa-41/10.190.173.170:8030
+2015-10-17 15:38:05,157 INFO [main] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: yarn.client.max-cached-nodemanagers-proxies : 0
+2015-10-17 15:38:05,235 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:05,251 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:08,282 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:08,439 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:08,673 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:64642
+2015-10-17 15:38:09,345 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:09,345 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:09,376 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:38:11,423 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:11,423 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:11,423 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:11,423 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:11,548 INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:64642
+2015-10-17 15:38:11,626 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:38:12,439 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:12,439 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:12,517 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:38:13,501 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:13,517 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:13,517 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:13,517 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:13,783 INFO [ContainerLauncher #5] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:38:13,939 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:38:14,611 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:14,611 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:14,642 INFO [ContainerLauncher #7] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:38:15,642 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:15,642 INFO [RMCommunicator Allocator] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:15,658 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:15,658 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:38:15,892 INFO [ContainerLauncher #8] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:38:16,002 INFO [ContainerLauncher #9] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:42:35,016 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:42:36,000 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:36,000 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:37,609 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:37,609 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 15:42:39,235 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:39,266 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:42:51,048 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:51,048 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:55,298 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:42:55,298 INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
+2015-10-17 15:43:06,095 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:06,095 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:25,534 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:25,534 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 15:43:26,175 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:26,175 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:39,597 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:39,597 INFO [ContainerLauncher #5] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 15:43:41,191 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:41,191 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:43,691 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:43,691 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
+2015-10-17 15:43:56,238 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:43:56,238 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:44:16,818 INFO [AsyncDispatcher event handler] org.apache.hadoop.yarn.util.RackResolver: Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+2015-10-17 15:44:16,818 INFO [ContainerLauncher #7] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
+2015-10-17 15:44:32,443 INFO [ContainerLauncher #8] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:64642
+2015-10-17 15:44:42,647 INFO [ContainerLauncher #9] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:64642
+2015-10-17 15:45:08,726 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 15:45:09,586 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:45:41,587 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 15:45:41,665 INFO [ContainerLauncher #2] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:45:54,854 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
+2015-10-17 15:45:54,994 INFO [ContainerLauncher #5] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:45:56,510 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130
+2015-10-17 15:45:56,651 INFO [ContainerLauncher #7] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:64484
+2015-10-17 15:46:17,308 INFO [ContainerLauncher #8] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
+2015-10-17 15:46:17,496 INFO [ContainerLauncher #9] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:46:28,481 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:46:42,779 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:46:43,232 INFO [ContainerLauncher #4] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:42313
+2015-10-17 15:49:35,650 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : MININT-75DGDAM1.fareast.corp.microsoft.com:51951
+2015-10-17 15:38:16,798 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:16,798 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@3d05ffdb)
+2015-10-17 15:38:17,142 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:18,345 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:20,736 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:15,941 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:15,941 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@67b65d47)
+2015-10-17 15:38:16,316 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:18,081 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:22,034 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:25,611 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:25,611 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@54e0a229)
+2015-10-17 15:38:26,002 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:26,877 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:29,096 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:18,441 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:18,441 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@6ace4625)
+2015-10-17 15:38:18,847 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:19,909 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:23,441 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:21,429 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:21,429 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2ae02324)
+2015-10-17 15:38:21,898 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:22,741 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:27,367 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:22,081 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:22,081 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@c5f5deb)
+2015-10-17 15:38:22,472 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:23,394 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:26,753 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:21,523 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:21,538 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2ae02324)
+2015-10-17 15:38:21,929 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:23,038 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:27,523 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:22,070 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:22,070 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@75a61582)
+2015-10-17 15:38:22,351 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:24,585 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:28,133 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:26,019 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:26,019 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@6ace4625)
+2015-10-17 15:38:26,394 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:28,019 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:30,316 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:38:28,086 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:38:28,086 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@67b65d47)
+2015-10-17 15:38:28,679 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:38:34,336 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:38:39,196 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:42:41,455 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:42:41,455 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 15:42:41,595 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:42:42,692 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:42:44,020 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:42:54,988 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:42:54,988 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@5c46c7b0)
+2015-10-17 15:42:55,472 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:42:56,832 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:43:02,520 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:42:58,861 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:42:58,862 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7253580c)
+2015-10-17 15:42:59,196 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:43:00,008 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:43:02,357 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:43:28,463 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:43:28,463 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 15:43:28,603 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:43:29,478 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:43:30,775 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:43:42,545 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:43:42,545 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)
+2015-10-17 15:43:42,717 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:43:43,311 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:43:44,233 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:43:45,633 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:43:45,633 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7f219df4)
+2015-10-17 15:43:45,898 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:43:46,796 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:43:48,362 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-10-17 15:44:18,513 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-10-17 15:44:18,513 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1445062781478_0012, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@7253580c)
+2015-10-17 15:44:18,643 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-10-17 15:44:18,938 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /tmp/hadoop-msrabi/nm-local-dir/usercache/msrabi/appcache/application_1445062781478_0012
+2015-10-17 15:44:20,024 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.

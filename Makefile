@@ -8,7 +8,7 @@
 #   make unit         # pytest tools/case_builder/tests
 #   make validate-all # everything above
 
-.PHONY: default static oracle-nop unit validate-all
+.PHONY: default static oracle-nop unit validate-all rebuild-curated
 
 PYTHON ?= .venv-tools/bin/python
 TASKS  := $(shell ls tasks 2>/dev/null | grep -v '^\.')
@@ -37,7 +37,7 @@ static: ## Run all 12 ci_checks/*.sh against every task in tasks/
 oracle-nop: ## Run harbor oracle/nop on every task (slow; needs Docker)
 	@: > /tmp/make-validate.log
 	@: > /tmp/make-validate.err
-	@echo "$(TASKS)" | tr ' ' '\n' | xargs -P 6 -I {} bash /tmp/validate-task.sh {} \
+	@echo "$(TASKS)" | tr ' ' '\n' | xargs -P 6 -I {} bash tools/validate_task.sh {} \
 	  2>>/tmp/make-validate.err | tee -a /tmp/make-validate.log
 	@total=$$(wc -l </tmp/make-validate.log); \
 	green=$$(grep -c '^.* oracle=1.0 nop=0.0$$' /tmp/make-validate.log || true); \
@@ -55,3 +55,10 @@ unit: ## Run case_builder + exporter unit tests
 validate-all: unit static oracle-nop ## Run every M4-level gate
 	@echo ""
 	@echo "All M4-level gates green."
+
+rebuild-curated: ## Rebuild exactly the committed curated-selection manifest
+	$(PYTHON) -m tools.case_builder.rebuild_curated rebuild \
+	  --manifest tools/case_builder/curated_selection.json \
+	  --corpus-root /home/buildout/loghub-full \
+	  --output-dir tasks \
+	  --clear-output

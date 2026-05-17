@@ -1,0 +1,232 @@
+{
+  "allowed_root_causes": [
+    "machine_down",
+    "network_disconnect",
+    "disk_full"
+  ],
+  "anomaly_keys": [
+    "application_1445182159119_0002"
+  ],
+  "evidence": [
+    {
+      "file": "hadoop-misc.log",
+      "line": 1937
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1938
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2161
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2162
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2221
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2222
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2390
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2391
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2415
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2416
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2464
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 930
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 937
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2546
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2547
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2960
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 287
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 982
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 983
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 990
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 991
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 998
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 999
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1006
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1007
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1014
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1015
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1022
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1023
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1030
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1031
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1038
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1039
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1042
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1047
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1048
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1053
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1054
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1060
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1061
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1132
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1225
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1229
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1230
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1231
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1232
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1238
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1239
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1245
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1246
+    }
+  ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
+  "files": [
+    "hadoop-mapreduce.log",
+    "hadoop-misc.log",
+    "hadoop-mrappmaster.log",
+    "hadoop-yarn.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "disk_full",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

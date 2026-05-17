@@ -1,0 +1,208 @@
+{
+  "anomaly_keys": [
+    "application_1445144423722_0023"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hadoop-misc.log",
+      "line": 1344
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1383
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1422
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1461
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1500
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1539
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1578
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1617
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1656
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1695
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1734
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1773
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1811
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1849
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1887
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1925
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1963
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2000
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2037
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2074
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2111
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2148
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2185
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2222
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2259
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2296
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2333
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2370
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2407
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2444
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2481
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2518
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2555
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2592
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2629
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2666
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2703
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2740
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2775
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2813
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2851
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2922
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2960
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3031
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3069
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3140
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3178
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3249
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3287
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3358
+    }
+  ],
+  "root_cause_type": "network_disconnect"
+}

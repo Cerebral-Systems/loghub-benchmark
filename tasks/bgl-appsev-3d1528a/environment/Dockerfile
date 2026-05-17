@@ -10,6 +10,7 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 
 COPY data/bgl-misc.log /app/bgl-misc.log
-COPY data/bgl-racks-a.log /app/bgl-racks-a.log
-COPY data/bgl-racks-b.log /app/bgl-racks-b.log
-COPY data/bgl-racks-c.log /app/bgl-racks-c.log
+COPY data/bgl-nodes-a.log /app/bgl-nodes-a.log
+COPY data/bgl-nodes-b.log /app/bgl-nodes-b.log
+COPY data/bgl-nodes-c.log /app/bgl-nodes-c.log
+COPY data/bgl-nodes-d.log /app/bgl-nodes-d.log

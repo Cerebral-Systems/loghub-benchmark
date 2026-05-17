@@ -68,6 +68,9 @@
       "line": 4355
     }
   ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
   "files": [
     "hdfs-datanode-a.log",
     "hdfs-datanode-b.log",

@@ -1,0 +1,767 @@
+{
+  "schema_version": "loghub-curated-selection-v1",
+  "seed": 0,
+  "selections": [
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF",
+        "APPTO",
+        "APPTO"
+      ],
+      "case_id": "16891b356d403ba8bc9f24502e146430d40e30d3c2444d1d6ff0ec1ceec7d12d",
+      "dataset_name": "BGL",
+      "root_cause": "other_alert",
+      "slug": "bgl-alert-16891b3"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMICRO",
+        "KERNMICRO",
+        "KERNMICRO",
+        "KERNMICRO",
+        "KERNMICRO"
+      ],
+      "case_id": "bafd8006128167e4b19ebf74afab779b08ae0eb3843fc6e4b73c7fd094b95516",
+      "dataset_name": "BGL",
+      "root_cause": "other_alert",
+      "slug": "bgl-alert-bafd800"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMC",
+        "APPSEV",
+        "APPSEV",
+        "APPSEV",
+        "APPSEV"
+      ],
+      "case_id": "242c2effe6fb278d5c508d089cf623266a2a55a74f0d431ecfcb8419aeb90a41",
+      "dataset_name": "BGL",
+      "root_cause": "appsev",
+      "slug": "bgl-appsev-242c2ef"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "APPSEV",
+        "APPSEV",
+        "APPSEV",
+        "APPSEV",
+        "APPSEV"
+      ],
+      "case_id": "3d1528a6681d1a7f257316ff86c2d4d5311e379f2c6c4dc4491e6bff40a29b43",
+      "dataset_name": "BGL",
+      "root_cause": "appsev",
+      "slug": "bgl-appsev-3d1528a"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMC",
+        "KERNRTSP",
+        "APPUNAV",
+        "APPUNAV",
+        "APPUNAV"
+      ],
+      "case_id": "f2aed4a5403c9611960f390785a9a22f2cab9d70dd47b897d6fba20dd1020581",
+      "dataset_name": "BGL",
+      "root_cause": "appunav",
+      "slug": "bgl-appunav-f2aed4a"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB"
+      ],
+      "case_id": "5a2a76f527a168aa0cc37d76c8ce8685ed273dff5da37050ac74fc59353b5fac",
+      "dataset_name": "BGL",
+      "root_cause": "kerndtlb",
+      "slug": "bgl-kerndtlb-5a2a76f"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB"
+      ],
+      "case_id": "63d6cf6a629e0e69a6f9c74e28ea4fdc44a23998d2fcd7dad96fe8c24e980024",
+      "dataset_name": "BGL",
+      "root_cause": "kerndtlb",
+      "slug": "bgl-kerndtlb-63d6cf6"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB",
+        "KERNDTLB"
+      ],
+      "case_id": "d0e7135c06fc653c8270e72b25254c0bef28882b09e7b89d6b67963ec6c15d7f",
+      "dataset_name": "BGL",
+      "root_cause": "kerndtlb",
+      "slug": "bgl-kerndtlb-d0e7135"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF"
+      ],
+      "case_id": "119e173b7748b9548a592093d9898c8199aa877092a731894fb0e7b3b56e673c",
+      "dataset_name": "BGL",
+      "root_cause": "kernmntf",
+      "slug": "bgl-kernmntf-119e173"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF",
+        "KERNMNTF"
+      ],
+      "case_id": "1c3c5fd1b8fc8a8842a165ddea25fb7a6937cfa5692df11d1d1d0a9cdfbd2380",
+      "dataset_name": "BGL",
+      "root_cause": "kernmntf",
+      "slug": "bgl-kernmntf-1c3c5fd"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNRTSP",
+        "KERNRTSP",
+        "KERNRTSP",
+        "KERNRTSP",
+        "KERNRTSP"
+      ],
+      "case_id": "fb570f9317931be1cd79ac526db0833ad762a4df4ff6987ef04cc25b98dc36bb",
+      "dataset_name": "BGL",
+      "root_cause": "kernrtsp",
+      "slug": "bgl-kernrtsp-fb570f9"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNSTOR",
+        "KERNSTOR",
+        "KERNSTOR",
+        "KERNSTOR",
+        "KERNSTOR"
+      ],
+      "case_id": "2baf5ac34d4510ef1597c37dabe06037ee0461646f3d7f2fa71d14a4c6251af1",
+      "dataset_name": "BGL",
+      "root_cause": "kernstor",
+      "slug": "bgl-kernstor-2baf5ac"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNSTOR",
+        "KERNSTOR",
+        "KERNSTOR",
+        "KERNSTOR",
+        "KERNSTOR"
+      ],
+      "case_id": "2c71ddee0532f41fdeea64ada29ef3926ee5bcb506cd1a68a7b467cfd0f35f11",
+      "dataset_name": "BGL",
+      "root_cause": "kernstor",
+      "slug": "bgl-kernstor-2c71dde"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNMC",
+        "KERNRTSP",
+        "KERNTERM",
+        "KERNTERM",
+        "KERNTERM"
+      ],
+      "case_id": "21769e250bac1f4e32296343e37653144a08ec33b5f5b055280bb46060cb6820",
+      "dataset_name": "BGL",
+      "root_cause": "kernterm",
+      "slug": "bgl-kernterm-21769e2"
+    },
+    {
+      "adapter": "bgl",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "KERNPAN",
+        "KERNPAN",
+        "KERNPAN",
+        "KERNPAN",
+        "KERNPAN"
+      ],
+      "case_id": "30d9b0149c364ec80c669225d0abdb10c49860925c3593e0ecba85016c67a9d6",
+      "dataset_name": "BGL",
+      "root_cause": "kernterm",
+      "slug": "bgl-kernterm-30d9b01"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445182159119_0003"
+      ],
+      "case_id": "01f36622b798b05426f8f8cd673a1ccba067076def0358a40c46de80f42cff48",
+      "dataset_name": "Hadoop",
+      "root_cause": "disk_full",
+      "slug": "hadoop-disk-01f3662"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445182159119_0002"
+      ],
+      "case_id": "7421ef3a63bca0d9b16e8a8a1e3a5f7fb9450bd3edf0c94eba3c20a29d3c2bdc",
+      "dataset_name": "Hadoop",
+      "root_cause": "disk_full",
+      "slug": "hadoop-disk-7421ef3"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445182159119_0001"
+      ],
+      "case_id": "d7423f3c065a974e2b939bc6df58647e73eb521568cd598d53ce503dbc6851e1",
+      "dataset_name": "Hadoop",
+      "root_cause": "disk_full",
+      "slug": "hadoop-disk-d7423f3"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445062781478_0015"
+      ],
+      "case_id": "072a24df8a640ac11d5abebb889c1ea8c337712ad3fa89fff20ac23273a8fc1b",
+      "dataset_name": "Hadoop",
+      "root_cause": "machine_down",
+      "slug": "hadoop-machine-072a24d"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445062781478_0014"
+      ],
+      "case_id": "1543ee367e293060041b3af443f9a26d3f7b57193448dcb85e8f840e44e5764c",
+      "dataset_name": "Hadoop",
+      "root_cause": "machine_down",
+      "slug": "hadoop-machine-1543ee3"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445062781478_0018"
+      ],
+      "case_id": "2962a82048b902ab3c5b1cee5dbd5bd1a3c76a46173aa9746056465b9df86040",
+      "dataset_name": "Hadoop",
+      "root_cause": "machine_down",
+      "slug": "hadoop-machine-2962a82"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445062781478_0017"
+      ],
+      "case_id": "83cb08d3c6494f5097a2539e43f73e3bc34322e13bc64b6a4a1902b497aeb7e1",
+      "dataset_name": "Hadoop",
+      "root_cause": "machine_down",
+      "slug": "hadoop-machine-83cb08d"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445062781478_0013"
+      ],
+      "case_id": "a35690c2219dd67da66a124386c02d4dcd7001bbb425cc9ccad8f85754a26d44",
+      "dataset_name": "Hadoop",
+      "root_cause": "machine_down",
+      "slug": "hadoop-machine-a35690c"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445062781478_0012"
+      ],
+      "case_id": "e0878828304902eff219621af299fbc515ebdbc7ec5a0bf98e150ed60e72dc19",
+      "dataset_name": "Hadoop",
+      "root_cause": "machine_down",
+      "slug": "hadoop-machine-e087882"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445144423722_0022"
+      ],
+      "case_id": "d9fe22b260012fa963940124eb646a121e9d4f012dbd2641c678a7eef1428d69",
+      "dataset_name": "Hadoop",
+      "root_cause": "network_disconnect",
+      "slug": "hadoop-network-d9fe22b"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445144423722_0023"
+      ],
+      "case_id": "e61f8834c962361de5fb7b60b6633309d889d4f56a816fcdf711579281bbe18e",
+      "dataset_name": "Hadoop",
+      "root_cause": "network_disconnect",
+      "slug": "hadoop-network-e61f883"
+    },
+    {
+      "adapter": "hadoop",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "application_1445144423722_0020"
+      ],
+      "case_id": "f9aba47308104df188774df563a721e7722927b4eaca177ef03d67fd6cdbb000",
+      "dataset_name": "Hadoop",
+      "root_cause": "network_disconnect",
+      "slug": "hadoop-network-f9aba47"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1025005661735286473"
+      ],
+      "case_id": "0b694b5e17b4bbea7476511dade1e7f62864227dd4d16bad44241601a39f5aef",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-0b694b5"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1044032668463047581"
+      ],
+      "case_id": "0cfc87b8645aac0f9cd888aa9ad96ae2c237626c644599cf5f3b87541934f681",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-0cfc87b"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1072345040223358803"
+      ],
+      "case_id": "0ea64341ad2969da23ba89c07d83d367dfdb6545182cea26ae057d9b4547c4e5",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-0ea6434"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1063951600347102121"
+      ],
+      "case_id": "1676bedc859aee221c9478eaab0625a75cd45684ecf66ff95d85ba4cbda1efb3",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-1676bed"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1041223367203409835"
+      ],
+      "case_id": "1b44f6f001543eef01dbefce5c6370a293bc0607ed9c85e95fb2c9b98ff4c9c0",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-1b44f6f"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1013481023655112960"
+      ],
+      "case_id": "1d29d98a67b6eeb439bd7a49a45c674b0c2d5d3ba9e8b8653379e0bb1cefeaf8",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-1d29d98"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1000723577943457888"
+      ],
+      "case_id": "31cffcd7eff49183645c0f2a63c02503b5d0ceb1aab7f74eb5f95bc1506ab4e4",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-31cffcd"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1044140199656458359"
+      ],
+      "case_id": "45679b93e6445cf21c267988945012fbeb17e5afbf7df99baa67145373c89d5c",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "datanode_unreachable",
+      "slug": "hdfs-datanode-45679b9"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1023495876047573307"
+      ],
+      "case_id": "01d07b561b31b2c0e17e2631c5a430d4d6db9ae408bf3af041047349c3a5b2c7",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-01d07b5"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1049393539517890917"
+      ],
+      "case_id": "02fbbadda6abbe3da3bcbd509ee928c0da83804d7c6d4372594224a434923038",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-02fbbad"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1021695699039097568"
+      ],
+      "case_id": "0b71922cb50bcf7e6bf63885a9210485c52a6abf384758c04cb85b34e3e1abb2",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-0b71922"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1067682255435160182"
+      ],
+      "case_id": "0c66ee629fd73b3bbde79aff4f1b063195902322ab4a37db21623d00bbd0fc1e",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-0c66ee6"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-101140094574068250"
+      ],
+      "case_id": "1834c8abf40ac54735a3da3498225f071cf8d52bc93a1993ddbc648b4d9aa6c8",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-1834c8a"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1009207079038502874"
+      ],
+      "case_id": "28ad4395dcdad54986d04d8a82e58f1bbcd3853506423cf6b294bb5293c479a2",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-28ad439"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1022466911704795762"
+      ],
+      "case_id": "3038a607a1ab27b85f899ced8ff0c920eba08ec18e6480dff559272cff3b6fd4",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-3038a60"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1055737889421783527"
+      ],
+      "case_id": "44ab975e9c397d2aa30e48d5ce149bb5a35a37593b82e30db5b499b1c95851f6",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "other",
+      "slug": "hdfs-other-44ab975"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1017453146862072685"
+      ],
+      "case_id": "63469ad2eeaa374ce471ea87173fa47d9a5363c645dcfc6e313816ed7c011ba8",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "replication_failure",
+      "slug": "hdfs-replication-63469ad"
+    },
+    {
+      "adapter": "hdfs",
+      "adapter_version": "2",
+      "anomaly_keys": [
+        "blk_-1036135461109137003"
+      ],
+      "case_id": "c4e83aeb50a6bb154258cbfa1db18675198e544afa5a7362adff40537a96e899",
+      "dataset_name": "HDFS_v1",
+      "root_cause": "replication_failure",
+      "slug": "hdfs-replication-c4e83ae"
+    },
+    {
+      "adapter": "openstack",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "ae651dff-c7ad-43d6-ac96-bbcd820ccca8"
+      ],
+      "case_id": "0304240bd95c19376bc64f74d62c62b3204109bc67db95e745ea6a4e1dfb6ed2",
+      "dataset_name": "OpenStack",
+      "root_cause": "vm_task_failure",
+      "slug": "openstack-vmtask-0304240"
+    },
+    {
+      "adapter": "openstack",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "a445709b-6ad0-40ec-8860-bec60b6ca0c2"
+      ],
+      "case_id": "202403196013d9453e1545aa57b4930823b9034ad885fd2611e58c903c827683",
+      "dataset_name": "OpenStack",
+      "root_cause": "vm_task_failure",
+      "slug": "openstack-vmtask-2024031"
+    },
+    {
+      "adapter": "openstack",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "1643649d-2f42-4303-bfcd-7798baec19f9"
+      ],
+      "case_id": "30d02c489aa6bff4ae57315eb68e415cbb56a3094940ec0629a3b3c901e7f0ce",
+      "dataset_name": "OpenStack",
+      "root_cause": "vm_task_failure",
+      "slug": "openstack-vmtask-30d02c4"
+    },
+    {
+      "adapter": "openstack",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "ae651dff-c7ad-43d6-ac96-bbcd820ccca8"
+      ],
+      "case_id": "4f58ba62247995f9996f3916ec4c75cc0990646a43d7ad8569c4fbb39ef03242",
+      "dataset_name": "OpenStack",
+      "root_cause": "vm_task_failure",
+      "slug": "openstack-vmtask-4f58ba6"
+    },
+    {
+      "adapter": "openstack",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "544fd51c-4edc-4780-baae-ba1d80a0acfc"
+      ],
+      "case_id": "632d9efc25c4b0e658a545464d84c4725e72901f40bd863bb6c81e7042973072",
+      "dataset_name": "OpenStack",
+      "root_cause": "vm_task_failure",
+      "slug": "openstack-vmtask-632d9ef"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "01593fb194c6958d54ad695bbf592f5686504d5829c35fb96cc61be7fb1b2829",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-01593fb"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "0f5b2e3f0ca57f26d68038e9cc586df86946ed0c24f1991c66cdd39e633afdbe",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-0f5b2e3"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "14243143c2b3f7f2c524ea8ff7ef85f188e395754a72f4393139bc99083f724e",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-1424314"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "16dc6d546023d8274c0d5bcb7b815da8df37dd62f160770d93a19f671b0be477",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-16dc6d5"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "1811141d557d828aa09f5286307b0271849994d4d18e474d6a269bff33be7be5",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-1811141"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "18afa8847383b7ab9828325404c6de1af6d590dff22a884dda749fc25c009341",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-18afa88"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "18c5761059fd8256b77e1de75580fd03c155495290dcca0f9d0be7bfbd5f0d12",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-18c5761"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "19c2f26920c5ca6d8ab092ad4310ecb796b700528e01205e60771e7750a2167b",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-19c2f26"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "243ea327508dfd431f996405fbda95e8d3a22beaa6d98399886ef94c651b61ce",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-243ea32"
+    },
+    {
+      "adapter": "thunderbird",
+      "adapter_version": "1",
+      "anomaly_keys": [
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI",
+        "VAPI"
+      ],
+      "case_id": "281f03ed9d20a342f885027b6ec7c34b6b86815b5ebb42db0a74f6dc80cf4fdb",
+      "dataset_name": "Thunderbird",
+      "root_cause": "vapi",
+      "slug": "thunderbird-vapi-281f03e"
+    }
+  ],
+  "task_count": 60
+}

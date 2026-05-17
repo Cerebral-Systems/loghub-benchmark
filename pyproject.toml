@@ -21,6 +21,7 @@ classifiers = [
 [project.scripts]
 loghub-build-cases = "tools.case_builder.build_cases:main"
 loghub-export = "tools.case_builder.export_to_harbor:main"
+loghub-rebuild-curated = "tools.case_builder.rebuild_curated:main"
 loghub-stress-pack = "tools.stress_pack_generator.__main__:main"
 loghub-rubric-check = "tools.rubric_check.moonshot_check:main"
 

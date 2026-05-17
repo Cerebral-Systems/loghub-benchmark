@@ -1,5 +1,11 @@
 # M7 rubric-pass report
 
+> Refresh note (2026-05-17): this report is the last completed two-pass
+> Moonshot rubric run. A rerun after the network-enabled task refresh was
+> attempted on Hetzner, but the configured Moonshot account returned an
+> insufficient-balance/quota error before the first task completed. Do not
+> treat the tables below as refreshed verdicts for the regenerated task set.
+
 **Date:** 2026-05-16
 **Grader:** `moonshot-v1-128k` via Moonshot's OpenAI-compat endpoint
 **Checker:** `tools/rubric_check/moonshot_check.py` (custom because `harbor check`

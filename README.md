@@ -6,7 +6,7 @@ Each task ships a Docker environment with 3–6 partitioned log files
 totalling 5k–30k lines and asks the agent to **locate the anomaly**,
 **cite verbatim evidence** as `(file, line, snippet)` tuples,
 **classify the root cause** against a dataset-specific taxonomy, and
-**recommend a safe SRE action**. The verifier writes a fractional reward (`passed_tests / total_tests`) to `/logs/verifier/reward.txt`, so partial-correct answers register on a continuous 0–1 scale.
+**recommend a safe SRE action**. The verifier writes a fractional reward (`passed_tests / non_skipped_tests`) to `/logs/verifier/reward.txt`, so partial-correct answers register on a continuous 0–1 scale.
 
 ## Headline: Mesh ensemble on Loghub-SRE-v1
 
@@ -25,7 +25,7 @@ Live results land in `docs/MESH_BENCHMARK.md` as soon as both runs complete.
 |---|---|---|---|
 | HDFS_v1 | 18 | 575k labelled blocks; heuristic root-cause from `Got exception while serving`, `BLOCK_NOT_FOUND`, replication patterns | by Component (NameNode / DataNode-a / DataNode-b / FSNamesystem) |
 | Hadoop | 12 | Gold labels from `abnormal_label.txt` (machine_down / disk_full / network_disconnect) | by component (MRAppMaster / mapreduce / yarn) |
-| BGL | 15 | Inline 0th-column alert tag (KERNDTLB, APPSEV, KERNSTOR, …) | by rack number mod 3 |
+| BGL | 15 | Inline 0th-column alert tag (KERNDTLB, APPSEV, KERNSTOR, …) | by full node/location token |
 | Thunderbird | 10 | Same inline format as BGL | by hostname role (compute / edge / domain / …) |
 | OpenStack | 5 | 4 anomalous VM UUIDs from `anomaly_labels.txt` (rapid-destroy faults) | by OpenStack service (nova-api / nova-compute / nova-scheduler) |
 
@@ -48,8 +48,8 @@ tasks/<slug>/
 │   └── oracle_hints.json # (file, line) coords + root cause; oracle-only
 └── tests/
     ├── test.sh          # pytest entry the verifier runs
-    ├── test_state.py    # 12 assertions against /app/answer.json
-    └── expected.json    # ground truth — never visible to the agent
+    ├── test_state.py    # verifier assertions against /app/answer.json
+    └── expected.json    # verifier ground truth + evidence validation mode
 ```
 
 ## Answer schema
@@ -72,10 +72,12 @@ The agent must emit `/app/answer.json` matching:
 
 Verifier assertions (`tests/test_state.py`): valid JSON, schema match,
 referenced files exist, line numbers in range, snippets present
-verbatim, every cited `(file, line)` is in the ground-truth set,
-`root_cause_type` is in the dataset's allowed taxonomy and matches the
-gold label, `recommended_action` is one of
-`{escalate, investigate, no_action, open_incident, page_owner}`.
+verbatim, evidence matches the task's validation mode, `root_cause_type`
+is in the dataset's allowed taxonomy and matches the gold label, and
+`recommended_action` is one of `{escalate, investigate, no_action,
+open_incident, page_owner}`. HDFS/Hadoop/OpenStack use exact `(file,
+line)` evidence locations; BGL/Thunderbird accept any cited line whose
+visible inline alert tag maps to the expected root cause.
 
 Full per-test breakdown: [docs/scoring.md](docs/scoring.md).
 
@@ -102,6 +104,12 @@ Run every gate the CI workflows run, locally:
 
 ```bash
 make validate-all    # unit + static (12 checks × 60 tasks) + oracle/nop
+```
+
+Regenerate the committed curated set exactly from its manifest:
+
+```bash
+make rebuild-curated
 ```
 
 ## Run the rubric grader
