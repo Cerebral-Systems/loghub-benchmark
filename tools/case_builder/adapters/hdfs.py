@@ -19,10 +19,20 @@ from pathlib import Path
 from typing import Iterator
 
 from .base import AdapterBase, CandidateCase, LabelIndex, LogSlice
+from .fp_classifier import classify_fp_line, is_scary_line
 
 # Allowed window sizes for the agent-facing log slice.
 MIN_SLICE_LINES = 10_000
 MAX_SLICE_LINES = 30_000
+
+# FP windows are smaller than v1 — they don't bracket a block's lifetime,
+# just sample a normal slice with benign-noise lines. HDFS in particular
+# has high anomaly density (1 mention per ~39 lines on average), so the
+# longest fully-normal contiguous run is ~8K lines. Stay well under that
+# to get ≥5 disjoint candidates.
+FP_SLICE_LINES = 1_500
+FP_MIN_INDICATORS = 3
+FP_MAX_INDICATORS = 5
 
 BLOCK_ID_RE = re.compile(r"(blk_-?\d+)")
 
@@ -157,6 +167,97 @@ class HDFSAdapter(AdapterBase):
             for idx in anomaly_indices
             if slice_.offset <= idx < slice_.offset + slice_.length
         )
+
+    # --- false-positive window iteration (T1) ------------------------------
+
+    def iter_false_positive_windows(
+        self,
+        input_path: Path,
+        labels: LabelIndex,
+        *,
+        max_cases: int | None = None,
+        seed: int = 0,
+    ) -> Iterator[CandidateCase]:
+        """Find the longest contiguous runs of lines whose referenced block
+        IDs are ALL labeled Normal, then carve FP_SLICE_LINES windows from
+        those runs. HDFS has ~17K anomalous blocks scattered through 11M
+        lines (~1 anomalous mention per 65 lines on average), so contiguous
+        normal-only windows are rare and must be found by gap-mining
+        rather than random sampling.
+        """
+        log_path = self._locate_log(input_path)
+        with log_path.open() as fh:
+            full_log = fh.read().splitlines()
+
+        anomalous_set = frozenset(labels.anomalous_keys())
+
+        # For each line, decide "is_anomalous_line" = mentions any anomalous block.
+        # Lines with NO block IDs are treated as anomaly-neutral (don't break a run).
+        is_anomalous_line: list[bool] = []
+        for line in full_log:
+            mentions = BLOCK_ID_RE.findall(line)
+            is_anomalous_line.append(any(b in anomalous_set for b in mentions))
+
+        # Find maximal runs of non-anomalous lines (length ≥ FP_SLICE_LINES).
+        runs: list[tuple[int, int]] = []  # (start, length)
+        run_start: int | None = None
+        for i, anom in enumerate(is_anomalous_line):
+            if anom:
+                if run_start is not None and i - run_start >= FP_SLICE_LINES:
+                    runs.append((run_start, i - run_start))
+                run_start = None
+            else:
+                if run_start is None:
+                    run_start = i
+        if run_start is not None and len(full_log) - run_start >= FP_SLICE_LINES:
+            runs.append((run_start, len(full_log) - run_start))
+
+        if not runs:
+            return
+
+        # Deterministically pick offsets within each long run. To avoid bunching
+        # all cases into the same run, order runs by SHA-256(seed|run_start).
+        ordered_runs = sorted(
+            runs, key=lambda r: hashlib.sha256(f"{seed}|{r[0]}".encode()).digest()
+        )
+
+        yielded = 0
+        for run_start_i, run_len in ordered_runs:
+            # Each run yields up to ceil(run_len / FP_SLICE_LINES) disjoint windows.
+            n_windows = run_len // FP_SLICE_LINES
+            for w in range(n_windows):
+                offset = run_start_i + w * FP_SLICE_LINES
+                window_lines = full_log[offset:offset + FP_SLICE_LINES]
+
+                indicators: list[dict] = []
+                for i, line in enumerate(window_lines):
+                    if is_scary_line(line):
+                        indicators.append({
+                            "line": i + 1,
+                            "why_not_anomalous": classify_fp_line(line),
+                        })
+                        if len(indicators) >= FP_MAX_INDICATORS:
+                            break
+                if len(indicators) < FP_MIN_INDICATORS:
+                    continue
+
+                slice_ = LogSlice(
+                    lines=tuple(window_lines), offset=offset, length=FP_SLICE_LINES
+                )
+                yield CandidateCase(
+                    case_id=self.case_id(slice_, []),
+                    dataset_name=self.dataset_name,
+                    adapter_version=self.adapter_version,
+                    slice=slice_,
+                    anomaly_line_ids=(),
+                    root_cause="no_incident",
+                    anomaly_keys=(),
+                    extra={"fp_indicators": indicators, "slice_seed": seed},
+                    task_type="fp",
+                )
+                yielded += 1
+                if max_cases is not None and yielded >= max_cases:
+                    return
 
     # --- slice selection ---------------------------------------------------
 

@@ -1,0 +1,110 @@
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 kernel: klogd 1.4.1, log source = /proc/kmsg started.
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 logger: Install: apply updates
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 logger: Kickstart Install: Reducing mingetty count ...
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 logger: Kickstart: Configure sysctl parameters
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 logger: Kickstart: setup authorization schema
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 logger: Kickstart: setup soft links and NFS mounts
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 syslog: klogd startup succeeded
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 syslog: syslogd startup succeeded
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 syslogd 1.4.1: restart.
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 userhelper[14693]: pam_timestamp: updated timestamp file `/var/run/sudo/root/unknown'
+- 1131564126 2005.11.09 en257 Nov 9 11:22:06 en257/en257 userhelper[14694]: running '/usr/sbin/up2date-config' with root privileges on behalf of 'root'
+- 1131564128 2005.11.09 en257 Nov 9 11:22:08 en257/en257 kernel: audit(1131564144.583:0): avc: denied { write } for pid=14629 comm=minilogd name=log dev=ram0 ino=200 scontext=user_u:system_r:syslogd_t tcontext=user_u:object_r:file_t tclass=sock_file
+- 1131564128 2005.11.09 en257 Nov 9 11:22:08 en257/en257 logger: Kickstart Install: CAP tarball
+- 1131564128 2005.11.09 en257 Nov 9 11:22:08 en257/en257 syslog: klogd shutdown failed
+- 1131564170 2005.11.09 en257 Nov 9 11:22:50 en257/en257 logger: Kickstart Install: SNL COE Legal Banner
+- 1131564170 2005.11.09 en257 Nov 9 11:22:50 en257/en257 logger: Kickstart Install: setup CAP sysconfig file
+- 1131564174 2005.11.09 en257 Nov 9 11:22:54 en257/en257 logger: Kickstart Install: OSCAR modules RPMS
+- 1131564181 2005.11.09 en257 Nov 9 11:23:01 en257/en257 logger: Kickstart Install: SISUITE Client RPMS
+- 1131564189 2005.11.09 en257 Nov 9 11:23:09 en257/en257 logger: Kickstart Install: pdsh + ssh packages
+- 1131564194 2005.11.09 en257 Nov 9 11:23:14 en257/en257 logger: Kickstart Install: oneSIS RPM
+- 1131564198 2005.11.09 en257 Nov 9 11:23:18 en257/en257 logger: Kickstart Install: SUN JDK Package
+- 1131564212 2005.11.09 en257 Nov 9 11:23:32 en257/en257 logger: Kickstart Install: Prepare speconf_sync to work
+- 1131564212 2005.11.09 en257 Nov 9 11:23:32 en257/en257 logger: Kickstart Install: Torque Mom and Maui speconf Tree
+- 1131564212 2005.11.09 en257 Nov 9 11:23:32 en257/en257 logger: Kickstart: configure services
+- 1131564212 2005.11.09 en257 Nov 9 11:23:32 en257/en257 logger: Kickstart: setup firstboot
+- 1131564213 2005.11.09 en257 Nov 9 11:23:33 en257/en257 logger: Kickstart: setup firstboot for ganglia client software
+- 1131564213 2005.11.09 en257 Nov 9 11:23:33 en257/en257 userhelper[14899]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1131564213 2005.11.09 en257 Nov 9 11:23:33 en257/en257 userhelper[14900]: running '/usr/sbin/up2date --nox -i ganglia-gmond' with root privileges on behalf of 'root'
+- 1131564217 2005.11.09 en257 Nov 9 11:23:37 en257/en257 gmond: gmond shutdown succeeded
+- 1131564217 2005.11.09 en257 Nov 9 11:23:37 en257/en257 gmond: gmond startup succeeded
+- 1131564217 2005.11.09 en257 Nov 9 11:23:37 en257/en257 logger: Kickstart Install: tbird kernel package
+- 1131564242 2005.11.09 en257 Nov 9 11:24:02 en257/en257 logger: setup NTP client
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131560643.243:0): avc: denied { getattr } for pid=19312 comm=ntpd path=/dev/null dev=ram0 ino=40 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564258.401:0): avc: denied { read write } for pid=19304 comm=ntpdate name=tty dev=ram0 ino=46 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564258.510:0): avc: denied { read } for pid=19304 comm=ntpdate path=/tmp/product/.buildstamp dev=ramfs ino=728 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564258.626:0): avc: denied { read } for pid=19304 comm=ntpdate path=/tmp/biosdev (deleted) dev=ramfs ino=951 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:ramfs_t tclass=blk_file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564258.743:0): avc: denied { read } for pid=19304 comm=ntpdate path=/.buildstamp dev=ram0 ino=125 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564258.852:0): avc: denied { append } for pid=19304 comm=ntpdate path=/tmp/anaconda.log dev=ramfs ino=392 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564258.966:0): avc: denied { read write } for pid=19304 comm=ntpdate path=socket:[679] dev=sockfs ino=679 scontext=user_u:system_r:ntpd_t tcontext=user_u:system_r:unconfined_t tclass=udp_socket
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564259.086:0): avc: denied { search } for pid=19304 comm=ntpdate name=dev dev=ram0 ino=30 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=dir
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 kernel: audit(1131564259.189:0): avc: denied { write } for pid=19304 comm=ntpdate name=log dev=ram0 ino=200 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:file_t tclass=sock_file
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd: succeeded
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd: ntpd shutdown failed
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd: ntpd startup succeeded
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: Listening on interface eth0, 10.100.34.1#123
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: Listening on interface lo, 127.0.0.1#123
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: Listening on interface wildcard, 0.0.0.0#123
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: configure: keyword "authenticate" unknown, line ignored
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: frequency initialized 0.000 PPM from /var/lib/ntp/drift
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: kernel time sync status 0040
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: ntpd #2#@1.1190-r Mon Oct 11 09:15:58 EDT 2004 (1)
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpd[19312]: precision = 1.000 usec
+- 1131564243 2005.11.09 en257 Nov 9 11:24:03 en257/en257 ntpdate[19304]: step time server 10.100.32.250 offset -3616.324069 sec
+- 1131564244 2005.11.09 en257 Nov 9 11:24:04 en257/en257 logger: Kickstart Install: Dell OMSA Package
+- 1131564244 2005.11.09 en257 Nov 9 11:24:04 en257/en257 userhelper[19322]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1131564244 2005.11.09 en257 Nov 9 11:24:04 en257/en257 userhelper[19323]: running '/usr/sbin/up2date --nox -i netsnmp' with root privileges on behalf of 'root'
+- 1131564245 2005.11.09 en257 Nov 9 11:24:05 en257/en257 userhelper[19324]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1131564245 2005.11.09 en257 Nov 9 11:24:05 en257/en257 userhelper[19325]: running '/usr/sbin/up2date --nox -i -f kernel-devel' with root privileges on behalf of 'root'
+- 1131564261 2005.11.09 en257 Nov 9 11:24:21 en257/en257 logger: Kickstart Install: Dell BIOS CONF Package
+- 1131564261 2005.11.09 en257 Nov 9 11:24:21 en257/en257 logger: Kickstart: setup the cisco (topspin) ib stack
+- 1131564274 2005.11.09 en257 Nov 9 11:24:34 en257/en257 logger: Kickstart Install: TBIRD Dell FIRMWARE Update Module
+- 1131564277 2005.11.09 en257 Nov 9 11:24:37 en257/en257 logger: Install: Removing tftpboot installation link from 10.100.32.250
+- 1131564277 2005.11.09 en257 Nov 9 11:24:37 en257/en257 logger: Kickstart/Yast Install: Finished installation on localhost.localdomain
+- 1131564277 2005.11.09 en257 Nov 9 11:24:37 en257/en257 logger: Kickstart: setup firstboot for tbird panasas env
+- 1131564280 2005.11.09 en257 Nov 9 11:24:40 en257/en257 exiting on signal 15
+- 1131564671 2005.11.09 en257 Nov 9 11:31:11 en257/en257 dataeng: dcevt32d startup succeeded
+- 1131564671 2005.11.09 en257 Nov 9 11:31:11 en257/en257 dataeng: dcsnmp32d startup succeeded
+- 1131564672 2005.11.09 en257 Nov 9 11:31:12 en257/en257 spsetup.sh[6948]: Package Release ID=R106628 Package Description=Dell BMC Firmware, v.1.40, A05 Support Log path=/var/log/#26#/updatepackage/log/support/R106628.log Exit code = 2 (Reboot required)
+- 1131564674 2005.11.09 en257 Nov 9 11:31:14 en257/en257 snmpd[5477]: [smux_accept] accepted fd 13 from 127.0.0.1:32773
+- 1131564674 2005.11.09 en257 Nov 9 11:31:14 en257/en257 snmpd[5477]: accepted smux peer: oid SNMPv2-SMI::enterprises.674.10892.1, password , descr Systems Management SNMP MIB Plug-in Manager
+- 1131564679 2005.11.09 en257 Nov 9 11:31:19 en257/en257 snmpd[5477]: Got trap from peer on fd 13
+- 1131564681 2005.11.09 en257 Nov 9 11:31:21 en257/en257 logger: installing panasas drivers
+- 1131564688 2005.11.09 en257 Nov 9 11:31:28 en257/en257 ntpd[1978]: ntpd exiting on signal 15
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd: succeeded
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd: ntpd shutdown succeeded
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd: ntpd startup succeeded
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: Listening on interface eth0, 10.100.34.1#123
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: Listening on interface ib0, 10.100.162.1#123
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: Listening on interface lo, 127.0.0.1#123
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: Listening on interface wildcard, 0.0.0.0#123
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: Listening on interface wildcard, ::#123
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: configure: keyword "authenticate" unknown, line ignored
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: frequency initialized 0.000 PPM from /var/lib/ntp/drift
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: kernel time sync status 0040
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: ntpd #2#@1.1190-r Mon Oct 11 09:15:58 EDT 2004 (1)
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpd[8540]: precision = 1.000 usec
+- 1131564689 2005.11.09 en257 Nov 9 11:31:29 en257/en257 ntpdate[8536]: step time server 10.100.32.250 offset 0.029500 sec
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: PanFS Client version: rhel_4_amd64/release 2.3.1-171331.15 SMP
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: pan_common: init complete
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: pan_common: registered major number 248 for device panasas
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: pan_kmod: registered subdev 0x78 ("PANASAS kernel trace facility")
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: pan_trace: panfs trace buffer 0xffffffffa087b520 added.
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs mount: Byte range locking is turned ON
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs mount: Directory Caching is turned ON
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs mount: Dribble Writes mode is enabled
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs mount: If you are running a GenuineIntel kernel, you may get an oops.
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs mount: Read Ahead is turned ON at level 1
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs mount: loading a AuthenticAMD CPU panfs.o kernel module on a GenuineIntel CPU
+- 1131564692 2005.11.09 en257 Nov 9 11:31:32 en257/en257 kernel: panfs: no version for "struct_module" found: kernel tainted.
+- 1131564693 2005.11.09 en257 Nov 9 11:31:33 en257/en257 mount.panfs: mount.panfs: started PanFS device [panfs://#27#/home]
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Unknown Temperature sensor value (in Degrees Celsius): 13.0
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Riser Temp Chassis location: Main System Chassis Previous state was: Unknown Temperature sensor value (in Degrees Celsius): 23.0
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: PROC_1 Temp Chassis location: Main System Chassis Previous state was: Unknown Temperature sensor value (in Degrees Celsius): 24.0
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 firstboot: succeeded
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 fstab-sync[8623]: removed all generated mount points
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 haldaemon: haldaemon startup succeeded
+- 1131564694 2005.11.09 en257 Nov 9 11:31:34 en257/en257 messagebus: messagebus startup succeeded
+- 1131565145 2005.11.09 en257 Nov 9 11:39:05 en257/en257 ntpd[8540]: kernel time sync disabled 0041
+- 1131565508 2005.11.09 en5 Nov 9 11:45:08 en5/en5 smartd[1972]: Device: /dev/sda, Temperature changed 2 Celsius to 27 Celsius since last report
+- 1131565535 2005.11.09 en257 Nov 9 11:45:35 en257/en257 ntpd[8540]: kernel time sync enabled 0001

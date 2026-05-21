@@ -1,19 +1,19 @@
-"""Repo-wide invariants — these gate every PR.
+"""M8 repo-wide invariants — these gate every PR.
 
-These checks catch silent regressions:
+PLAN.md M8 spells out five invariants that catch silent regressions:
 
   1. case_ids derived from the committed fixture must match a snapshot
      (`tests/snapshots/case_ids.json`). Any adapter change that
      accidentally shifts slice geometry will surface here.
   2. Every text file under `tasks/<slug>/` must carry the canary GUID.
      Forgotten canaries are how training-data contamination sneaks in.
-  3. Every `tasks/<slug>/environment/` must pass the anti-leak
+  3. Every `tasks/<slug>/environment/` must pass the M6 anti-leak
      check (`ci_checks/check-oracle-leak.sh`).
   4. Every `tasks/<slug>/task.toml` must parse with `harbor`'s
      `TaskConfig` (no invented sections / fields).
   5. The oracle's `solution/derive_answer.py` produces a JSON answer
-     that satisfies the multi-file verifier invariants — sampled one
-     task per dataset to keep this fast in CI.
+     that satisfies the M3.5 invariants test_state.py asserts — sampled
+     one task per dataset to keep this fast in CI.
 """
 
 from __future__ import annotations
@@ -168,7 +168,11 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
     """Run the oracle's derive_answer.py against the task's own /app/
     layout (we materialize the layout under tmp_path so we don't
     pollute the host /app/). The resulting answer.json must satisfy
-    the v2 schema invariants the in-container test_state.py asserts."""
+    the schema invariants the in-container test_state.py asserts.
+
+    Dispatches on the expected.json schema_version so v1 anomaly tasks
+    and v2-fp false-positive triage tasks both validate.
+    """
     derive = task_dir / "solution" / "derive_answer.py"
     hints = task_dir / "solution" / "oracle_hints.json"
     expected = json.loads((task_dir / "tests" / "expected.json").read_text())
@@ -188,19 +192,33 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
 
     answer = json.loads(answer_path.read_text())
     assert answer["schema_version"] == expected["schema_version"]
-    assert answer["is_incident"] is True
-    assert answer["root_cause_type"] == expected["root_cause_type"]
-    assert answer["root_cause_type"] in expected["allowed_root_causes"]
-    assert answer["recommended_action"] in expected["safe_recommendations"]
-    validation = expected.get("evidence_validation", {"mode": "exact_location"})
-    expected_locs = {(e["file"], e["line"]) for e in expected["evidence"]}
-    for entry in answer["evidence"]:
-        loc = (entry["file"], entry["line"])
-        actual = (app_dir / entry["file"]).read_text(errors="replace").splitlines()
-        assert entry["snippet"] in actual[entry["line"] - 1]
-        if validation["mode"] == "exact_location":
+
+    schema = expected["schema_version"]
+    if schema.endswith("-v2-fp"):
+        # v2-fp false-positive triage assertions
+        assert answer["is_incident"] is False
+        indicators = answer.get("false_positive_indicators", [])
+        assert len(indicators) >= expected["min_indicator_count"]
+        allowed_why = set(expected["allowed_why_not_anomalous"])
+        expected_locs = {(e["file"], e["line"]) for e in expected["false_positive_indicators"]}
+        for ind in indicators:
+            assert ind["why_not_anomalous"] in allowed_why
+            assert (ind["file"], ind["line"]) in expected_locs, (
+                f"oracle cites non-indicator location {(ind['file'], ind['line'])}"
+            )
+            actual = (app_dir / ind["file"]).read_text(errors="replace").splitlines()
+            assert ind["snippet"] in actual[ind["line"] - 1]
+        conf = answer["confidence"]
+        assert 0.0 <= conf <= 1.0
+    else:
+        # v1 / v2 anomaly localization assertions
+        assert answer["is_incident"] is True
+        assert answer["root_cause_type"] == expected["root_cause_type"]
+        assert answer["root_cause_type"] in expected["allowed_root_causes"]
+        assert answer["recommended_action"] in expected["safe_recommendations"]
+        expected_locs = {(e["file"], e["line"]) for e in expected["evidence"]}
+        for entry in answer["evidence"]:
+            loc = (entry["file"], entry["line"])
             assert loc in expected_locs, f"oracle cites non-anomaly location {loc}"
-        else:
-            tag = actual[entry["line"] - 1].strip().split(None, 1)[0]
-            observed = validation["tag_to_root_cause"].get(tag, validation["other_root_cause"])
-            assert observed == expected["root_cause_type"]
+            actual = (app_dir / entry["file"]).read_text(errors="replace").splitlines()
+            assert entry["snippet"] in actual[entry["line"] - 1]

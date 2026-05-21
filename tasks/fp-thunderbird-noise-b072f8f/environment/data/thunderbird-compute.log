@@ -1,0 +1,1382 @@
+- 1131563434 2005.11.09 bn508 Nov 9 11:10:34 bn508/bn508 ntpd[29337]: synchronized to 10.100.18.250, stratum 3
+- 1131563436 2005.11.09 cn96 Nov 9 11:10:36 cn96/cn96 ntpd[19219]: synchronized to 10.100.20.250, stratum 3
+- 1131563441 2005.11.09 cn822 Nov 9 11:10:41 cn822/cn822 ntpd[28661]: synchronized to 10.100.18.250, stratum 3
+- 1131563442 2005.11.09 cn1011 Nov 9 11:10:42 cn1011/cn1011 ntpd[19603]: synchronized to 10.100.22.250, stratum 3
+- 1131563442 2005.11.09 cn1015 Nov 9 11:10:42 cn1015/cn1015 ntpd[19637]: synchronized to 10.100.18.250, stratum 3
+- 1131563442 2005.11.09 cn114 Nov 9 11:10:42 cn114/cn114 ntpd[20519]: synchronized to 10.100.20.250, stratum 3
+- 1131563444 2005.11.09 cn16 Nov 9 11:10:44 cn16/cn16 ntpd[15426]: synchronized to 10.100.16.250, stratum 3
+- 1131563445 2005.11.09 cn744 Nov 9 11:10:45 cn744/cn744 ntpd[28337]: synchronized to 10.100.22.250, stratum 3
+- 1131563448 2005.11.09 cn747 Nov 9 11:10:48 cn747/cn747 ntpd[29165]: synchronized to 10.100.20.250, stratum 3
+- 1131563448 2005.11.09 cn993 Nov 9 11:10:48 cn993/cn993 ntpd[19213]: synchronized to 10.100.20.250, stratum 3
+- 1131563449 2005.11.09 cn2 Nov 9 11:10:49 cn2/cn2 ntpd[14579]: synchronized to 10.100.18.250, stratum 3
+- 1131563450 2005.11.09 cn795 Nov 9 11:10:50 cn795/cn795 ntpd[28751]: synchronized to 10.100.18.250, stratum 3
+- 1131563451 2005.11.09 bn269 Nov 9 11:10:51 bn269/bn269 ntpd[23830]: synchronized to 10.100.18.250, stratum 3
+- 1131563451 2005.11.09 cn27 Nov 9 11:10:51 cn27/cn27 ntpd[15528]: synchronized to 10.100.20.250, stratum 3
+- 1131563452 2005.11.09 bn459 Nov 9 11:10:52 bn459/bn459 ntpd[29139]: synchronized to 10.100.18.250, stratum 3
+- 1131563452 2005.11.09 bn57 Nov 9 11:10:52 bn57/bn57 ntpd[22475]: synchronized to 10.100.22.250, stratum 3
+- 1131563452 2005.11.09 cn27 Nov 9 11:10:52 cn27/cn27 ntpd[15528]: synchronized to 10.100.22.250, stratum 3
+- 1131563453 2005.11.09 bn35 Nov 9 11:10:53 bn35/bn35 ntpd[22710]: synchronized to 10.100.10.250, stratum 3
+- 1131563453 2005.11.09 bn450 Nov 9 11:10:53 bn450/bn450 ntpd[29785]: synchronized to 10.100.22.250, stratum 3
+- 1131563453 2005.11.09 cn230 Nov 9 11:10:53 cn230/cn230 ntpd[10606]: synchronized to 10.100.20.250, stratum 3
+- 1131563454 2005.11.09 bn400 Nov 9 11:10:54 bn400/bn400 ntpd[28768]: synchronized to 10.100.20.250, stratum 3
+- 1131563454 2005.11.09 bn87 Nov 9 11:10:54 bn87/bn87 ntpd[22630]: synchronized to 10.100.22.250, stratum 3
+- 1131563456 2005.11.09 cn96 Nov 9 11:10:56 cn96/cn96 ntpd[19219]: synchronized to 10.100.22.250, stratum 3
+- 1131563457 2005.11.09 an344 Nov 9 11:10:57 an344/an344 ntpd[2257]: kernel time sync enabled 0001
+- 1131563458 2005.11.09 cn603 Nov 9 11:10:58 cn603/cn603 ntpd[19182]: synchronized to 10.100.20.250, stratum 3
+- 1131563462 2005.11.09 cn672 Nov 9 11:11:02 cn672/cn672 ntpd[17959]: synchronized to 10.100.16.250, stratum 3
+- 1131563468 2005.11.09 bn71 Nov 9 11:11:08 bn71/bn71 ntpd[22508]: synchronized to 10.100.20.250, stratum 3
+- 1131563468 2005.11.09 bn796 Nov 9 11:11:08 bn796/bn796 ntpd[24480]: synchronized to 10.100.20.250, stratum 3
+- 1131563469 2005.11.09 cn313 Nov 9 11:11:09 cn313/cn313 ntpd[23160]: synchronized to 10.100.18.250, stratum 3
+- 1131563470 2005.11.09 cn209 Nov 9 11:11:10 cn209/cn209 ntpd[19303]: synchronized to 10.100.20.250, stratum 3
+- 1131563470 2005.11.09 cn426 Nov 9 11:11:10 cn426/cn426 ntpd[13244]: synchronized to 10.100.18.250, stratum 3
+- 1131563470 2005.11.09 cn912 Nov 9 11:11:10 cn912/cn912 ntpd[28300]: synchronized to 10.100.22.250, stratum 3
+- 1131563474 2005.11.09 cn313 Nov 9 11:11:14 cn313/cn313 ntpd[23160]: synchronized to 10.100.22.250, stratum 3
+- 1131563475 2005.11.09 bn404 Nov 9 11:11:15 bn404/bn404 ntpd[30121]: synchronized to 10.100.22.250, stratum 3
+- 1131563475 2005.11.09 cn915 Nov 9 11:11:15 cn915/cn915 ntpd[28946]: synchronized to 10.100.18.250, stratum 3
+- 1131563482 2005.11.09 cn23 Nov 9 11:11:22 cn23/cn23 ntpd[15616]: synchronized to 10.100.20.250, stratum 3
+- 1131563486 2005.11.09 bn645 Nov 9 11:11:26 bn645/bn645 ntpd[23720]: synchronized to 10.100.22.250, stratum 3
+- 1131563486 2005.11.09 cn289 Nov 9 11:11:26 cn289/cn289 ntpd[23544]: synchronized to 10.100.20.250, stratum 3
+- 1131563493 2005.11.09 cn834 Nov 9 11:11:33 cn834/cn834 ntpd[28063]: synchronized to 10.100.20.250, stratum 3
+- 1131563494 2005.11.09 cn444 Nov 9 11:11:34 cn444/cn444 ntpd[11776]: synchronized to 10.100.18.250, stratum 3
+- 1131563495 2005.11.09 cn1002 Nov 9 11:11:35 cn1002/cn1002 ntpd[19253]: synchronized to 10.100.22.250, stratum 3
+- 1131563495 2005.11.09 cn527 Nov 9 11:11:35 cn527/cn527 ntpd[15355]: synchronized to 10.100.20.250, stratum 3
+- 1131563496 2005.11.09 cn477 Nov 9 11:11:36 cn477/cn477 ntpd[15353]: synchronized to 10.100.20.250, stratum 3
+- 1131563498 2005.11.09 cn936 Nov 9 11:11:38 cn936/cn936 ntpd[29168]: synchronized to 10.100.18.250, stratum 3
+- 1131563501 2005.11.09 cn209 Nov 9 11:11:41 cn209/cn209 ntpd[19303]: synchronized to 10.100.16.250, stratum 3
+- 1131563501 2005.11.09 cn357 Nov 9 11:11:41 cn357/cn357 ntpd[9795]: synchronized to 10.100.20.250, stratum 3
+- 1131563504 2005.11.09 cn400 Nov 9 11:11:44 cn400/cn400 ntpd[12706]: synchronized to 10.100.18.250, stratum 3
+- 1131563506 2005.11.09 bn269 Nov 9 11:11:46 bn269/bn269 ntpd[23830]: synchronized to 10.100.20.250, stratum 3
+- 1131563506 2005.11.09 cn134 Nov 9 11:11:46 cn134/cn134 ntpd[29019]: synchronized to 10.100.20.250, stratum 3
+- 1131563506 2005.11.09 cn304 Nov 9 11:11:46 cn304/cn304 ntpd[25487]: synchronized to 10.100.20.250, stratum 3
+- 1131563507 2005.11.09 bn457 Nov 9 11:11:47 bn457/bn457 ntpd[29634]: synchronized to 10.100.20.250, stratum 3
+- 1131563508 2005.11.09 bn287 Nov 9 11:11:48 bn287/bn287 ntpd[22800]: synchronized to 10.100.18.250, stratum 3
+- 1131563508 2005.11.09 cn520 Nov 9 11:11:48 cn520/cn520 ntpd[30346]: synchronized to 10.100.16.250, stratum 3
+- 1131563509 2005.11.09 cn520 Nov 9 11:11:49 cn520/cn520 ntpd[30346]: synchronized to 10.100.22.250, stratum 3
+- 1131563511 2005.11.09 bn470 Nov 9 11:11:51 bn470/bn470 ntpd[29473]: synchronized to 10.100.20.250, stratum 3
+- 1131563512 2005.11.09 cn336 Nov 9 11:11:52 cn336/cn336 ntpd[28515]: synchronized to 10.100.22.250, stratum 3
+- 1131563513 2005.11.09 bn13 Nov 9 11:11:53 bn13/bn13 ntpd[24627]: synchronized to 10.100.22.250, stratum 3
+- 1131563514 2005.11.09 bn247 Nov 9 11:11:54 bn247/bn247 ntpd[23301]: synchronized to 10.100.20.250, stratum 3
+- 1131563515 2005.11.09 bn560 Nov 9 11:11:55 bn560/bn560 ntpd[30646]: synchronized to 10.100.10.250, stratum 3
+- 1131563519 2005.11.09 bn384 Nov 9 11:11:59 bn384/bn384 ntpd[13072]: synchronized to 10.100.22.250, stratum 3
+- 1131563521 2005.11.09 bn287 Nov 9 11:12:01 bn287/bn287 ntpd[22800]: synchronized to 10.100.22.250, stratum 3
+- 1131563523 2005.11.09 cn850 Nov 9 11:12:03 cn850/cn850 ntpd[28230]: synchronized to 10.100.22.250, stratum 3
+- 1131563528 2005.11.09 cn158 Nov 9 11:12:08 cn158/cn158 ntpd[9828]: synchronized to 10.100.20.250, stratum 3
+- 1131563531 2005.11.09 cn1004 Nov 9 11:12:11 cn1004/cn1004 ntpd[19414]: synchronized to 10.100.20.250, stratum 3
+- 1131563531 2005.11.09 cn158 Nov 9 11:12:11 cn158/cn158 ntpd[9828]: synchronized to 10.100.22.250, stratum 3
+- 1131563532 2005.11.09 cn667 Nov 9 11:12:12 cn667/cn667 ntpd[18540]: synchronized to 10.100.16.250, stratum 3
+- 1131563533 2005.11.09 cn822 Nov 9 11:12:13 cn822/cn822 ntpd[28661]: synchronized to 10.100.22.250, stratum 3
+- 1131563534 2005.11.09 cn175 Nov 9 11:12:14 cn175/cn175 ntpd[9297]: synchronized to 10.100.20.250, stratum 3
+- 1131563537 2005.11.09 bn425 Nov 9 11:12:17 bn425/bn425 ntpd[30052]: synchronized to 10.100.20.250, stratum 3
+- 1131563539 2005.11.09 cn1001 Nov 9 11:12:19 cn1001/cn1001 ntpd[19288]: synchronized to 10.100.22.250, stratum 3
+- 1131563540 2005.11.09 cn604 Nov 9 11:12:20 cn604/cn604 ntpd[18906]: synchronized to 10.100.20.250, stratum 3
+- 1131563541 2005.11.09 bn756 Nov 9 11:12:21 bn756/bn756 ntpd[22312]: synchronized to 10.100.18.250, stratum 3
+- 1131563542 2005.11.09 cn643 Nov 9 11:12:22 cn643/cn643 ntpd[21963]: synchronized to 10.100.16.250, stratum 3
+- 1131563544 2005.11.09 cn294 Nov 9 11:12:24 cn294/cn294 ntpd[23811]: synchronized to 10.100.16.250, stratum 3
+- 1131563545 2005.11.09 cn840 Nov 9 11:12:25 cn840/cn840 ntpd[28070]: synchronized to 10.100.20.250, stratum 3
+- 1131563546 2005.11.09 bn428 Nov 9 11:12:26 bn428/bn428 ntpd[461]: synchronized to 10.100.20.250, stratum 3
+- 1131563549 2005.11.09 bn314 Nov 9 11:12:29 bn314/bn314 ntpd[30337]: synchronized to 10.100.20.250, stratum 3
+- 1131563551 2005.11.09 cn422 Nov 9 11:12:31 cn422/cn422 ntpd[1870]: synchronized to 10.100.20.250, stratum 3
+- 1131563551 2005.11.09 cn629 Nov 9 11:12:31 cn629/cn629 ntpd[18566]: synchronized to 10.100.20.250, stratum 3
+- 1131563554 2005.11.09 cn19 Nov 9 11:12:34 cn19/cn19 ntpd[13098]: synchronized to 10.100.20.250, stratum 3
+- 1131563555 2005.11.09 cn816 Nov 9 11:12:35 cn816/cn816 ntpd[28022]: synchronized to 10.100.18.250, stratum 3
+- 1131563557 2005.11.09 cn905 Nov 9 11:12:37 cn905/cn905 ntpd[28320]: synchronized to 10.100.20.250, stratum 3
+- 1131563558 2005.11.09 cn932 Nov 9 11:12:38 cn932/cn932 ntpd[29999]: synchronized to 10.100.18.250, stratum 3
+- 1131563559 2005.11.09 bn181 Nov 9 11:12:39 bn181/bn181 ntpd[22064]: synchronized to 10.100.18.250, stratum 3
+- 1131563564 2005.11.09 cn19 Nov 9 11:12:44 cn19/cn19 ntpd[13098]: synchronized to 10.100.22.250, stratum 3
+- 1131563566 2005.11.09 cn578 Nov 9 11:12:46 cn578/cn578 ntpd[18757]: synchronized to 10.100.16.250, stratum 3
+- 1131563567 2005.11.09 cn396 Nov 9 11:12:47 cn396/cn396 ntpd[13504]: synchronized to 10.100.20.250, stratum 3
+- 1131563569 2005.11.09 cn301 Nov 9 11:12:49 cn301/cn301 ntpd[22898]: synchronized to 10.100.22.250, stratum 3
+- 1131563573 2005.11.09 cn290 Nov 9 11:12:53 cn290/cn290 ntpd[23984]: synchronized to 10.100.16.250, stratum 3
+- 1131563574 2005.11.09 bn567 Nov 9 11:12:54 bn567/bn567 ntpd[30178]: synchronized to 10.100.8.250, stratum 3
+- 1131563579 2005.11.09 cn1018 Nov 9 11:12:59 cn1018/cn1018 ntpd[19600]: synchronized to 10.100.20.250, stratum 3
+- 1131563579 2005.11.09 cn300 Nov 9 11:12:59 cn300/cn300 ntpd[24356]: synchronized to 10.100.22.250, stratum 3
+- 1131563585 2005.11.09 cn290 Nov 9 11:13:05 cn290/cn290 ntpd[23984]: synchronized to 10.100.22.250, stratum 3
+- 1131563586 2005.11.09 cn12 Nov 9 11:13:06 cn12/cn12 ntpd[14571]: synchronized to 10.100.20.250, stratum 3
+- 1131563586 2005.11.09 cn141 Nov 9 11:13:06 cn141/cn141 ntpd[27858]: synchronized to 10.100.20.250, stratum 3
+- 1131563587 2005.11.09 cn433 Nov 9 11:13:07 cn433/cn433 ntpd[11532]: synchronized to 10.100.20.250, stratum 3
+- 1131563588 2005.11.09 cn549 Nov 9 11:13:08 cn549/cn549 ntpd[14729]: synchronized to 10.100.18.250, stratum 3
+- 1131563589 2005.11.09 cn912 Nov 9 11:13:09 cn912/cn912 ntpd[28300]: synchronized to 10.100.18.250, stratum 3
+- 1131563592 2005.11.09 bn568 Nov 9 11:13:12 bn568/bn568 ntpd[22809]: synchronized to 10.100.12.250, stratum 3
+- 1131563592 2005.11.09 cn534 Nov 9 11:13:12 cn534/cn534 ntpd[16244]: synchronized to 10.100.20.250, stratum 3
+- 1131563596 2005.11.09 cn9 Nov 9 11:13:16 cn9/cn9 ntpd[14789]: synchronized to 10.100.16.250, stratum 3
+- 1131563598 2005.11.09 cn798 Nov 9 11:13:18 cn798/cn798 ntpd[28046]: synchronized to 10.100.20.250, stratum 3
+- 1131563599 2005.11.09 bn175 Nov 9 11:13:19 bn175/bn175 ntpd[21428]: synchronized to 10.100.22.250, stratum 3
+- 1131563600 2005.11.09 cn397 Nov 9 11:13:20 cn397/cn397 ntpd[13382]: synchronized to 10.100.22.250, stratum 3
+- 1131563602 2005.11.09 bn825 Nov 9 11:13:22 bn825/bn825 ntpd[23041]: synchronized to 10.100.22.250, stratum 3
+- 1131563607 2005.11.09 cn951 Nov 9 11:13:27 cn951/cn951 ntpd[19916]: synchronized to 10.100.18.250, stratum 3
+- 1131563609 2005.11.09 bn436 Nov 9 11:13:29 bn436/bn436 ntpd[30646]: synchronized to 10.100.22.250, stratum 3
+- 1131563609 2005.11.09 cn656 Nov 9 11:13:29 cn656/cn656 ntpd[32284]: synchronized to 10.100.22.250, stratum 3
+- 1131563610 2005.11.09 bn447 Nov 9 11:13:30 bn447/bn447 ntpd[29169]: synchronized to 10.100.20.250, stratum 3
+- 1131563612 2005.11.09 bn861 Nov 9 11:13:32 bn861/bn861 ntpd[30539]: synchronized to 10.100.20.250, stratum 3
+- 1131563613 2005.11.09 cn837 Nov 9 11:13:33 cn837/cn837 ntpd[27977]: synchronized to 10.100.20.250, stratum 3
+- 1131563614 2005.11.09 cn385 Nov 9 11:13:34 cn385/cn385 ntpd[5975]: synchronized to 10.100.20.250, stratum 3
+- 1131563615 2005.11.09 cn732 Nov 9 11:13:35 cn732/cn732 ntpd[28512]: synchronized to 10.100.20.250, stratum 3
+- 1131563617 2005.11.09 bn649 Nov 9 11:13:37 bn649/bn649 ntpd[3482]: synchronized to 10.100.16.250, stratum 3
+- 1131563618 2005.11.09 cn400 Nov 9 11:13:38 cn400/cn400 ntpd[12706]: synchronized to 10.100.22.250, stratum 3
+- 1131563623 2005.11.09 cn493 Nov 9 11:13:43 cn493/cn493 ntpd[15332]: synchronized to 10.100.16.250, stratum 3
+- 1131563625 2005.11.09 cn195 Nov 9 11:13:45 cn195/cn195 ntpd[20277]: synchronized to 10.100.22.250, stratum 3
+- 1131563626 2005.11.09 cn444 Nov 9 11:13:46 cn444/cn444 ntpd[11776]: synchronized to 10.100.20.250, stratum 3
+- 1131563627 2005.11.09 bn749 Nov 9 11:13:47 bn749/bn749 ntpd[23826]: synchronized to 10.100.22.250, stratum 3
+- 1131563627 2005.11.09 cn305 Nov 9 11:13:47 cn305/cn305 ntpd[32659]: synchronized to 10.100.18.250, stratum 3
+- 1131563635 2005.11.09 bn1015 Nov 9 11:13:55 bn1015/bn1015 ntpd[14532]: synchronized to 10.100.18.250, stratum 3
+- 1131563637 2005.11.09 cn200 Nov 9 11:13:57 cn200/cn200 ntpd[20218]: synchronized to 10.100.20.250, stratum 3
+- 1131563638 2005.11.09 bn326 Nov 9 11:13:58 bn326/bn326 ntpd[29339]: synchronized to 10.100.20.250, stratum 3
+- 1131563638 2005.11.09 cn145 Nov 9 11:13:58 cn145/cn145 ntpd[17005]: synchronized to 10.100.20.250, stratum 3
+- 1131563638 2005.11.09 cn723 Nov 9 11:13:58 cn723/cn723 ntpd[28073]: synchronized to 10.100.22.250, stratum 3
+- 1131563639 2005.11.09 cn622 Nov 9 11:13:59 cn622/cn622 ntpd[18517]: synchronized to 10.100.20.250, stratum 3
+- 1131563641 2005.11.09 cn211 Nov 9 11:14:01 cn211/cn211 ntpd[20018]: synchronized to 10.100.18.250, stratum 3
+- 1131563642 2005.11.09 cn838 Nov 9 11:14:02 cn838/cn838 ntpd[28059]: synchronized to 10.100.20.250, stratum 3
+- 1131563643 2005.11.09 cn1019 Nov 9 11:14:03 cn1019/cn1019 ntpd[19637]: synchronized to 10.100.22.250, stratum 3
+- 1131563644 2005.11.09 bn669 Nov 9 11:14:04 bn669/bn669 ntpd[23818]: synchronized to 10.100.18.250, stratum 3
+- 1131563644 2005.11.09 cn402 Nov 9 11:14:04 cn402/cn402 ntpd[13156]: synchronized to 10.100.16.250, stratum 3
+- 1131563644 2005.11.09 cn903 Nov 9 11:14:04 cn903/cn903 ntpd[27833]: synchronized to 10.100.16.250, stratum 3
+- 1131563645 2005.11.09 cn560 Nov 9 11:14:05 cn560/cn560 ntpd[18663]: synchronized to 10.100.22.250, stratum 3
+- 1131563647 2005.11.09 cn640 Nov 9 11:14:07 cn640/cn640 ntpd[19172]: synchronized to 10.100.18.250, stratum 3
+- 1131563649 2005.11.09 bn630 Nov 9 11:14:09 bn630/bn630 ntpd[23931]: synchronized to 10.100.20.250, stratum 3
+- 1131563653 2005.11.09 bn64 Nov 9 11:14:13 bn64/bn64 ntpd[22058]: synchronized to 10.100.20.250, stratum 3
+- 1131563653 2005.11.09 cn575 Nov 9 11:14:13 cn575/cn575 ntpd[17855]: synchronized to 10.100.22.250, stratum 3
+- 1131563655 2005.11.09 an713 Nov 9 11:14:15 an713/an713 ntpd[2246]: kernel time sync enabled 0001
+- 1131563656 2005.11.09 an916 Nov 9 11:14:16 an916/an916 ntpd[2247]: kernel time sync disabled 0041
+- 1131563656 2005.11.09 an916 Nov 9 11:14:16 an916/an916 ntpd[2247]: synchronized to 10.100.6.250, stratum 3
+- 1131563660 2005.11.09 cn580 Nov 9 11:14:20 cn580/cn580 ntpd[18522]: synchronized to 10.100.18.250, stratum 3
+- 1131563662 2005.11.09 cn697 Nov 9 11:14:22 cn697/cn697 ntpd[19486]: synchronized to 10.100.22.250, stratum 3
+- 1131563665 2005.11.09 bn832 Nov 9 11:14:25 bn832/bn832 ntpd[21672]: synchronized to 10.100.18.250, stratum 3
+- 1131563666 2005.11.09 cn53 Nov 9 11:14:26 cn53/cn53 ntpd[15337]: synchronized to 10.100.18.250, stratum 3
+- 1131563667 2005.11.09 bn117 Nov 9 11:14:27 bn117/bn117 ntpd[22982]: synchronized to 10.100.18.250, stratum 3
+- 1131563667 2005.11.09 bn20 Nov 9 11:14:27 bn20/bn20 ntpd[22645]: synchronized to 10.100.18.250, stratum 3
+- 1131563667 2005.11.09 cn826 Nov 9 11:14:27 cn826/cn826 ntpd[29220]: synchronized to 10.100.16.250, stratum 3
+- 1131563670 2005.11.09 cn136 Nov 9 11:14:30 cn136/cn136 ntpd[28840]: synchronized to 10.100.22.250, stratum 3
+- 1131563670 2005.11.09 cn498 Nov 9 11:14:30 cn498/cn498 ntpd[15573]: synchronized to 10.100.20.250, stratum 3
+- 1131563671 2005.11.09 cn415 Nov 9 11:14:31 cn415/cn415 ntpd[12211]: synchronized to 10.100.18.250, stratum 3
+- 1131563674 2005.11.09 cn87 Nov 9 11:14:34 cn87/cn87 ntpd[19849]: synchronized to 10.100.16.250, stratum 3
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 irqbalance: irqbalance startup succeeded
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel:
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel:
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Intel(R) Xeon(TM) CPU 3.60GHz stepping 03
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: DMA zone: 4096 pages, LIFO batch:1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: HighMem zone: 0 pages, LIFO batch:1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Normal zone: 1830912 pages, LIFO batch:16
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Type: Direct-Access ANSI SCSI revision: 02
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Type: Processor ANSI SCSI revision: 02
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Vendor: MegaRAID Model: LD 0 RAID0 69G Rev: 521S
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Vendor: PE/PV Model: 1x2 SCSI BP Rev: 1.0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 0000000000100000 - 00000000bffc0000 (usable)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 00000000bffc0000 - 00000000bffcfc00 (ACPI data)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 00000000bffcfc00 - 00000000bffff000 (reserved)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 00000000e0000000 - 00000000fec90000 (reserved)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 00000000fed00000 - 00000000fed00400 (reserved)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 00000000fee00000 - 00000000fee10000 (reserved)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-e820: 0000000100000000 - 00000001c0000000 (usable)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: RHH kernel module initialized successfully
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: THH kernel module initialized successfully
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: sda: sda1 sda2 sda3 sda4 < sda5 sda6 >
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: - Added public key EA232A604969C61D
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: - User ID: Red Hat, Inc. (Kernel Module GPG key)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI wakeup devices:
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: (supports S0 S4 S5)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: DSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000e) @ 0x0000000000000000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: HPET id: 0xffffffff base: 0xfed00000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: IOAPIC (id[0x07] address[0xfec00000] gsi_base[0])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: IOAPIC (id[0x08] address[0xfec80000] gsi_base[32])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: IOAPIC (id[0x09] address[0xfec83000] gsi_base[64])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: IRQ0 used by override.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: IRQ2 used by override.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: IRQ9 used by override.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Interpreter enabled
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x06] enabled)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x01] disabled)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC (acpi_id[0x04] lapic_id[0x07] disabled)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Local APIC address 0xfee00000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: MADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd724
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 10 11 12) *15
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 *7 10 11 12)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 10 *11 12)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 10 11 12) *14
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 *10 11 12)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PALO.DOBA._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PALO.DOBB._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PALO._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PBHI.PXB1._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PBHI.PXB2._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PBHI._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PBLO._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.PICH._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0.VPR0._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI Root Bridge [PCI0] (00:00)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:02.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:04.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:05.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:06.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.1[B] -> GSI 19 (level, low) -> IRQ 177
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.1[B] -> GSI 19 (level, low) -> IRQ 177
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.2[C] -> GSI 18 (level, low) -> IRQ 185
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.2[C] -> GSI 18 (level, low) -> IRQ 185
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.7[D] -> GSI 23 (level, low) -> IRQ 193
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:00:1d.7[D] -> GSI 23 (level, low) -> IRQ 193
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:02:0e.0[A] -> GSI 46 (level, low) -> IRQ 201
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:02:0e.0[A] -> GSI 46 (level, low) -> IRQ 201
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:06:07.0[A] -> GSI 64 (level, low) -> IRQ 209
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:06:07.0[A] -> GSI 64 (level, low) -> IRQ 209
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:07:08.0[A] -> GSI 65 (level, low) -> IRQ 217
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:07:08.0[A] -> GSI 65 (level, low) -> IRQ 217
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:08:00.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:08:00.0[A] -> GSI 16 (level, low) -> IRQ 169
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: PCI interrupt 0000:09:0d.0[A] -> GSI 18 (level, low) -> IRQ 185
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Power Button (FF) [PWRF]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Processor [CPU0] (supports C1)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Processor [CPU1] (supports C1)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: RSDP (v000 DELL ) @ 0x00000000000fd650
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: RSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd664
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: SPCR (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd7cc
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Subsystem revision 20040816
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ACPI: Using IOAPIC for interrupt routing
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Adding 13309844k swap on /dev/sda2. Priority:-1 extents:1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Attached scsi disk sda at scsi0, channel 1, id 0, lun 0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Attached scsi generic sg0 at scsi0, channel 0, id 6, lun 0, type 3
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Attached scsi generic sg1 at scsi0, channel 1, id 0, lun 0, type 0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: BIOS-provided physical RAM map:
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Bootdata ok (command line is ro root=LABEL=/ tsc console=tty0 console=ttyS0,19200 rhgb quiet)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Booting processor 1/6 rip 6000 rsp 100bff05f58
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Bootmem setup node 0 0000000000000000-00000001c0000000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Brought up 2 CPUs
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Built 1 zonelists
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU0: Intel(R) Xeon(TM) CPU 3.60GHz stepping 03
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: Hyper-Threading is disabled
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: Hyper-Threading is disabled
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: Hyper-Threading is disabled
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: L2 cache: 2048K
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: L2 cache: 2048K
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: L2 cache: 2048K
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: Trace cache: 12K uops, L1 D cache: 16K
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: Trace cache: 12K uops, L1 D cache: 16K
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: CPU: Trace cache: 12K uops, L1 D cache: 16K
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Calibrating delay loop... 7127.04 BogoMIPS (lpj=3563520)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Calibrating delay loop... 7176.19 BogoMIPS (lpj=3588096)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Capability LSM initialized as secondary
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Checking aperture...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Console: colour VGA+ 80x25
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Copyright (c) 1999-2004 Intel Corporation.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: DMI 2.3 present.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Detected 12.469 MHz APIC timer.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3 FS on sda1, internal journal
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3 FS on sda3, internal journal
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3 FS on sda5, internal journal
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3 FS on sda6, internal journal
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: INFO: recovery required on readonly filesystem.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: mounted filesystem with ordered data mode.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: mounted filesystem with ordered data mode.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: mounted filesystem with ordered data mode.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: mounted filesystem with ordered data mode.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: recovery complete.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: EXT3-fs: write access #15# be enabled during recovery.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Faking a node at 0000000000000000-00000001c0000000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Freeing unused kernel memory: 188k freed
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: IA32 emulation $Id: sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: IOAPIC[0]: apic_id 7, version 32, address 0xfec00000, GSI 0-23
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: IOAPIC[1]: apic_id 8, version 32, address 0xfec80000, GSI 32-55
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: IOAPIC[2]: apic_id 9, version 32, address 0xfec83000, GSI 64-87
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: IP: routing cache hash table of 32768 buckets, 512Kbytes
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Initializing CPU#0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Initializing CPU#1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Initializing Cryptographic API
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Initializing IPsec netlink socket
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Intel E7520/7320/7525 detected.<6>pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Intel(R) PRO/1000 Network Driver - version 6.0.54-k2-NAPI
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Kernel command line: ro root=LABEL=/ tsc console=tty0 console=ttyS0,19200 rhgb quiet
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Linux agpgart interface v0.100 (c) Dave Jones
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Linux version 2.6.9-15.EL.rootsmp (#7#@#9#) (gcc version 3.4.3 20050227 (Red Hat 3.4.3-22.1)) #1 SMP Tue Aug 16 12:32:24 MDT 2005
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Loading keyring
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Mellanox Tavor Device Driver is creating device "InfiniHost0" (domain=00, bus=08, devfn=00)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Memory: 6106088k/7340032k available (2076k kernel code, 0k reserved, 1278k data, 188k init)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Mount-cache hash table entries: 256 (order: 0, 4096 bytes)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: NET: Registered protocol family 1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: NET: Registered protocol family 16
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: NET: Registered protocol family 17
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: NET: Registered protocol family 2
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: NET: Registered protocol family 26
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: No NUMA configuration found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: No mptable found.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: On node 0 totalpages: 1835008
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI0 PALO PBLO VPR0 PBHI PICH
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Probing PCI hardware (bus 00)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Setting latency timer of device 0000:00:1d.0 to 64
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Setting latency timer of device 0000:00:1d.1 to 64
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Setting latency timer of device 0000:00:1d.2 to 64
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Setting latency timer of device 0000:00:1d.7 to 64
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Setting latency timer of device 0000:08:00.0 to 64
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Transparent bridge - 0000:00:1e.0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Using ACPI for IRQ routing
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Using MMCONFIG at e0000000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: Using configuration type 1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PCI: cache line size of 128 is not supported by device 0000:00:1d.7
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: PID hash table entries: 4096 (order: 12, 131072 bytes)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Placing software IO TLB between 0x7eb5000 - 0xbeb5000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Probing IDE interface ide0...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Probing IDE interface ide1...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Probing IDE interface ide2...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Probing IDE interface ide3...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Probing IDE interface ide4...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Probing IDE interface ide5...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Processor #0 15:4 APIC version 16
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Processor #6 15:4 APIC version 16
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: RAMDISK driver initialized: 16 RAM disks of 16384K size 1024 blocksize
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Real Time Clock Driver v1.12
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SCSI device sda: 143114240 512-byte hdwr sectors (73274 MB)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SCSI subsystem initialized
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SELinux: Disabled at runtime.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SELinux: Initializing.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SELinux: Registering netfilter hooks
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SELinux: Starting in permissive mode
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: SELinux: Unregistering netfilter hooks
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Security Scaffold v1.0.0 initialized
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Serial: 8250/16550 driver $Revision: 1.90 $ 8 ports, IRQ sharing enabled
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Setting APIC routing to flat
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: TCP: Hash tables configured (established 262144 bind 65536)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: There is already a security framework initialized, register_security failed.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Total HugeTLB memory allocated, 0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Total of 2 processors activated (14303.23 BogoMIPS).
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: USB Universal Host Controller Interface driver v2.2
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Using ACPI (MADT) for SMP configuration information
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Using IO APIC NMI watchdog
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Using cfq io scheduler
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Using local APIC timer interrupts.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: VFS: Disk quotas dquot_6.5.1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Warning: acpi_table_parse(ACPI_SLIT) returned 0!
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: Warning: acpi_table_parse(ACPI_SRAT) returned 0!
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: [KERNEL_IB][ib_mad_static_compute_base][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/ts_api_ng/mad/obj_host_amd64_custom1_rhel4/ts_ib_mad/mad_static.c:132]Couldn't find a suitable network device; setting lid_base to 1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: activating NMI Watchdog ... done.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: audit(1131538441.365:1): initialized
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: audit: initializing netlink socket (disabled)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: checking TSC synchronization across 2 CPUs: passed.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: checking if image is initramfs... it is
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: device-mapper: 4.4.0-ioctl (2005-01-12) initialised: dm-#16#@#17#
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: divert: allocating divert_blk for eth0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: divert: allocating divert_blk for eth1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: divert: allocating divert_blk for ib0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: divert: allocating divert_blk for ib1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: divert: not allocating divert_blk for non-ethernet device lo
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: drivers/usb/input/hid-core.c: v2.0:USB HID core driver
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: e1000: eth0: e1000_probe: Intel(R) PRO/1000 Network Connection
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: e1000: eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: e1000: eth1: e1000_probe: Intel(R) PRO/1000 Network Connection
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ehci_hcd 0000:00:1d.7: EHCI Host Controller
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ehci_hcd 0000:00:1d.7: USB 2.0 enabled, EHCI 1.00, driver 2004-May-10
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ehci_hcd 0000:00:1d.7: irq 193, pci mem ffffff00106dc000
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ehci_hcd 0000:00:1d.7: new USB bus registered, assigned bus number 1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: floppy0: no floppy controllers found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 1-0:1.0: 6 ports detected
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 1-0:1.0: USB hub found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 1-3:1.0: 2 ports detected
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 1-3:1.0: USB hub found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 2-0:1.0: 2 ports detected
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 2-0:1.0: USB hub found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 3-0:1.0: 2 ports detected
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 3-0:1.0: USB hub found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 4-0:1.0: 2 ports detected
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hub 4-0:1.0: USB hub found
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: hw_random hardware driver 1.0.0 loaded
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ib0: InfiniHost0 port 1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ib1: InfiniHost0 port 2
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ide-floppy driver 0.99.newide
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: inserting floppy driver for 2.6.9-15.EL.rootsmp
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ip_tables: (C) 2000-2002 Netfilter core team
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ip_tables: (C) 2000-2002 Netfilter core team
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ip_tables: (C) 2000-2002 Netfilter core team
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: kjournald starting. Commit interval 5 seconds
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: kjournald starting. Commit interval 5 seconds
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: kjournald starting. Commit interval 5 seconds
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: kjournald starting. Commit interval 5 seconds
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: klogd 1.4.1, log source = /proc/kmsg started.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ksign: Installing public key data
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: md: ... autorun DONE.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: md: Autodetecting RAID arrays.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: md: autorun ...
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: megaraid cmm: #18# (Release Date: Mon Mar 7 00:01:03 EST 2005)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: megaraid: #19# (Release Date: Mon Mar 07 12:27:22 EST 2005)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: megaraid: fw version:[521S] bios version:[H430]
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: megaraid: probe new device 0x1028:0x0013:0x1028:0x016c: bus 2:slot 14:func 0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: mice: PS/2 mouse device common for all mice
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: mtrr: v2.0 (20020519)
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: per-CPU timeslice cutoff: 851.47 usecs.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: scsi0 : LSI Logic MegaRAID driver
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: scsi[0]: scanning scsi channel 0 [Phy 0] for non-raid devices
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: scsi[0]: scanning scsi channel 1 [virtual] for logical drives
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: sda: asking for cache data failed
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: sda: assuming drive cache: write through
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: selinux_register_security: Registering secondary module capability
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: task migration cache decay timeout: 1 msecs.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: testing NMI watchdog ... OK.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: time.c: Detected 3591.146 MHz processor.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: time.c: Using 14.318180 MHz HPET timer.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: time.c: Using HPET based timekeeping.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ts_kernel_services: module license 'Proprietary' taints kernel.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: ttyS0 at I/O 0x3f8 (irq = 4) is a NS16550A
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.0: UHCI Host Controller
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.0: irq 169, io base 000000000000ace0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.1: UHCI Host Controller
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.1: irq 177, io base 000000000000acc0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.1: new USB bus registered, assigned bus number 3
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.2: UHCI Host Controller
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.2: irq 185, io base 000000000000aca0
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: uhci_hcd 0000:00:1d.2: new USB bus registered, assigned bus number 4
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: usb 1-3: new high speed USB device using address 2
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: usbcore: registered new driver hiddev
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: usbcore: registered new driver hub
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: usbcore: registered new driver usbfs
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: usbcore: registered new driver usbhid
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 kernel: using mwait in idle threads.
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 nfslock: rpc.statd startup succeeded
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 portmap: portmap startup succeeded
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 rpc.statd[1845]: Version 1.0.6 Starting
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 syslog: klogd startup succeeded
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 syslog: syslogd startup succeeded
+- 1131563675 2005.11.09 cn450 Nov 9 11:14:35 cn450/cn450 syslogd 1.4.1: restart.
+- 1131563676 2005.11.09 cn450 Nov 9 11:14:36 cn450/cn450 netfs: Mounting NFS filesystems: succeeded
+- 1131563676 2005.11.09 cn450 Nov 9 11:14:36 cn450/cn450 rc: Starting ts_fixup: succeeded
+- 1131563676 2005.11.09 cn450 Nov 9 11:14:36 cn450/cn450 rpcidmapd: rpc.idmapd startup succeeded
+- 1131563676 2005.11.09 cn450 Nov 9 11:14:36 cn450/cn450 ts_fixup:
+- 1131563676 2005.11.09 cn450 Nov 9 11:14:36 cn450/cn450 ts_fixup: Creating Topspin /dev entries:
+- 1131563677 2005.11.09 bn34 Nov 9 11:14:37 bn34/bn34 ntpd[25593]: synchronized to 10.100.20.250, stratum 3
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 date: Wed Nov 9 12:14:23 MST 2005
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /: clean, 179577/1026144 files, 1020809/2048287 blocks
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /boot: clean, 42/64256 files, 24908/257008 blocks
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /boot: recovering journal
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /tmp: clean, 89/4947968 files, 175863/9887999 blocks
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /tmp: recovering journal
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /var1: clean, 3811/1281696 files, 91385/2560351 blocks
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: /var1: recovering journal
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: Checking all file systems.
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: [/sbin/fsck.ext3 (1) -- /] fsck.ext3 -a /dev/sda3
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: [/sbin/fsck.ext3 (1) -- /boot] fsck.ext3 -a /dev/sda1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: [/sbin/fsck.ext3 (1) -- /tmp] fsck.ext3 -a /dev/sda6
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 fsck: [/sbin/fsck.ext3 (1) -- /var] fsck.ext3 -a /dev/sda5
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 init: Entering runlevel: 3
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 kernel: i2c /dev entries driver
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 lvm.static: No volume groups found
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount.panfs: bindcache: failed init IPS: 0x5 (Out of memory)
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount.panfs: pan_ips: error -- cfg target addresses, 0x5 (Out of memory), err_loc=1, rhel_4_amd64/release/build/panfs/ips/pan_ips_cfg.c:294
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount.panfs: pan_ips: error -- real init, 0x5 (Out of memory), err_loc=3, rhel_4_amd64/release/build/panfs/ips/pan_ips.c:143
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount: bindcache: failed init IPS: 0x5 (Out of memory)
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount: debug: could not init rm_client: 0x5 (Out of memory)
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount: mount.panfs error: mount request rejected because client-realm clock skew exceeds 10 seconds
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 mount: mount.panfs: cannot init pan_fm_util_path_util module: 0x5 (Out of memory)
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 netfs: Mounting other filesystems: failed
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 network: Bringing up interface eth0: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 network: Bringing up interface ib0: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 network: Bringing up loopback interface: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 network: Setting network parameters: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: -e
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Checking filesystems succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Checking root filesystem succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Configuring kernel parameters: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Enabling local filesystem quotas: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Enabling swap space: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Mounting local filesystems: failed
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Remounting root filesystem in read-write mode: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Setting clock (localtime): Wed Nov 9 12:14:23 MST 2005 succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Setting hostname cn450: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc.sysinit: Setting up Logical Volume Management: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 rc: Starting lm_sensors: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd: smartd startup failed
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Configuration file /etc/smartd.conf parsed.
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Device: /dev/sda, Bad IEC (SMART) mode page, err=5, skip device
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Device: /dev/sda, opened
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Home page is http://#20#/
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Opened configuration file /etc/smartd.conf
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Unable to register SCSI device /dev/sda at line 1 of file /etc/smartd.conf
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: Unable to register device /dev/sda (no Directive -d removable). Exiting.
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 smartd[1957]: smartd version 5.33 [x86_64-redhat-linux-gnu] Copyright (C) 2002-4 Bruce Allen
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 start_udev: Starting udev: succeeded
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: fs.file-max = 562454
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: fs.file-max = 562454
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: kernel.core_uses_pid = 1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: kernel.core_uses_pid = 1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: kernel.sysrq = 0
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: kernel.sysrq = 0
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: kernel.sysrq = 1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: kernel.sysrq = 1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.rmem_default = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.rmem_default = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.rmem_max = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.rmem_max = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.wmem_default = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.wmem_default = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.wmem_max = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.core.wmem_max = 262144
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.conf.default.accept_source_route = 0
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.conf.default.accept_source_route = 0
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.conf.default.rp_filter = 1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.conf.default.rp_filter = 1
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.ip_forward = 0
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.ip_forward = 0
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.neigh.default.gc_thresh1 = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.neigh.default.gc_thresh1 = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.neigh.default.gc_thresh2 = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.neigh.default.gc_thresh2 = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.neigh.default.gc_thresh3 = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.neigh.default.gc_thresh3 = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.route.gc_thresh = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 sysctl: net.ipv4.route.gc_thresh = 8192
+- 1131563677 2005.11.09 cn450 Nov 9 11:14:37 cn450/cn450 udevsend[893]: starting udevd daemon
+- 1131563678 2005.11.09 cn450 Nov 9 11:14:38 cn450/cn450 acpid: acpid startup succeeded
+- 1131563678 2005.11.09 cn450 Nov 9 11:14:38 cn450/cn450 snmpd: snmpd startup succeeded
+- 1131563679 2005.11.09 bn1020 Nov 9 11:14:39 bn1020/bn1020 ntpd[14937]: synchronized to 10.100.18.250, stratum 3
+- 1131563679 2005.11.09 bn171 Nov 9 11:14:39 bn171/bn171 ntpd[22635]: synchronized to 10.100.20.250, stratum 3
+- 1131563679 2005.11.09 cn450 Nov 9 11:14:39 cn450/cn450 instsvcdrv: dcdbas device driver loaded
+- 1131563679 2005.11.09 cn450 Nov 9 11:14:39 cn450/cn450 snmpd[1989]: NET-SNMP version 5.1.2
+- 1131563680 2005.11.09 cn450 Nov 9 11:14:40 cn450/cn450 instsvcdrv: dcdipm device driver loaded
+- 1131563684 2005.11.09 cn450 Nov 9 11:14:44 cn450/cn450 Server Administrator: Instrumentation Service EventID: 1000 Server Administrator starting
+- 1131563684 2005.11.09 cn450 Nov 9 11:14:44 cn450/cn450 Server Administrator: Instrumentation Service EventID: 1001 Server Administrator startup complete
+- 1131563684 2005.11.09 cn450 Nov 9 11:14:44 cn450/cn450 dataeng: dcevt32d startup succeeded
+- 1131563684 2005.11.09 cn450 Nov 9 11:14:44 cn450/cn450 dataeng: dcstor32d startup succeeded
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 dataeng: dcsnmp32d startup succeeded
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 kernel: Disabled Privacy Extensions on device ffffffff803fa160(lo)
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 kernel: IPv6 over IPv4 tunneling driver
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 kernel: NET: Registered protocol family 10
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 kernel: divert: not allocating divert_blk for non-ethernet device sit0
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 kernel: ip_tables: (C) 2000-2002 Netfilter core team
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 sshd: succeeded
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 sshd[2197]: Server listening on :: port 22.
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 sshd[2197]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd: xinetd startup succeeded
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=15]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/chargen-udp [file=/etc/xinetd.d/chargen-udp] [line=18]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/cups-lpd [file=/etc/xinetd.d/cups-lpd] [line=17]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=11]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/daytime-udp [file=/etc/xinetd.d/daytime-udp] [line=15]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=15]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/echo-udp [file=/etc/xinetd.d/echo-udp] [line=14]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/eklogin [file=/etc/xinetd.d/eklogin] [line=15]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/gssftp [file=/etc/xinetd.d/gssftp] [line=13]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/klogin [file=/etc/xinetd.d/klogin] [line=14]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/krb5-telnet [file=/etc/xinetd.d/krb5-telnet] [line=13]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/kshell [file=/etc/xinetd.d/kshell] [line=13]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/ktalk [file=/etc/xinetd.d/ktalk] [line=13]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/rsync [file=/etc/xinetd.d/rsync] [line=12]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=13]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Reading included configuration file: /etc/xinetd.d/time-udp [file=/etc/xinetd.d/time-udp] [line=17]
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: Started working: 0 available services
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing chargen
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing chargen
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing daytime
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing daytime
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing echo
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing echo
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing eklogin
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing ftp
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing klogin
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing kshell
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing ntalk
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing printer
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing rsync
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing telnet
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing time
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: removing time
+- 1131563685 2005.11.09 cn450 Nov 9 11:14:45 cn450/cn450 xinetd[2240]: xinetd Version 2.3.13 started with libwrap loadavg options compiled in.
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 crond: crond startup succeeded
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 crond[2276]: (CRON) STARTUP (V5.0)
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 gmond: gmond startup succeeded
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd: succeeded
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd: ntpd startup succeeded
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: Listening on interface eth0, 10.100.19.66#123
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: Listening on interface ib0, 10.100.147.66#123
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: Listening on interface lo, 127.0.0.1#123
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: Listening on interface wildcard, 0.0.0.0#123
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: Listening on interface wildcard, ::#123
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: frequency initialized 134.091 PPM from /var/lib/ntp/drift
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: kernel time sync status 0040
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: ntpd #2#@1.1190-r Mon Oct 11 09:15:58 EDT 2004 (1)
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpd[2256]: precision = 1.000 usec
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 ntpdate[2252]: step time server 10.100.20.250 offset -3599.981954 sec
+- 1131563686 2005.11.09 cn450 Nov 9 11:14:46 cn450/cn450 pbs_mom: pbs_mom startup succeeded
+- 1131563686 2005.11.09 cn76 Nov 9 11:14:46 cn76/cn76 ntpd[17699]: synchronized to 10.100.22.250, stratum 3
+- 1131563687 2005.11.09 cn450 Nov 9 11:14:47 cn450/cn450 messagebus: messagebus startup succeeded
+- 1131563687 2005.11.09 cn450 Nov 9 11:14:47 cn450/cn450 omsad: omsad32 startup succeeded
+- 1131563688 2005.11.09 bn67 Nov 9 11:14:48 bn67/bn67 ntpd[22559]: synchronized to 10.100.16.250, stratum 3
+- 1131563688 2005.11.09 cn450 Nov 9 11:14:48 cn450/cn450 haldaemon: haldaemon startup succeeded
+- 1131563688 2005.11.09 cn450 Nov 9 11:14:48 cn450/cn450 snmpd[1989]: [smux_accept] accepted fd 13 from 127.0.0.1:32772
+- 1131563688 2005.11.09 cn450 Nov 9 11:14:48 cn450/cn450 snmpd[1989]: accepted smux peer: oid SNMPv2-SMI::enterprises.674.10892.1, password , descr Systems Management SNMP MIB Plug-in Manager
+- 1131563688 2005.11.09 cn458 Nov 9 11:14:48 cn458/cn458 ntpd[11916]: synchronized to 10.100.18.250, stratum 3
+- 1131563689 2005.11.09 cn450 Nov 9 11:14:49 cn450/cn450 fstab-sync[2365]: removed all generated mount points
+- 1131563691 2005.11.09 bn582 Nov 9 11:14:51 bn582/bn582 ntpd[23812]: synchronized to 10.100.18.250, stratum 3
+- 1131563995 2005.11.09 cn281 Nov 9 11:19:55 cn281/cn281 ntpd[13598]: synchronized to 10.100.16.250, stratum 3
+- 1131563999 2005.11.09 cn854 Nov 9 11:19:59 cn854/cn854 ntpd[28269]: synchronized to 10.100.18.250, stratum 3
+- 1131564000 2005.11.09 cn824 Nov 9 11:20:00 cn824/cn824 ntpd[28608]: synchronized to 10.100.18.250, stratum 3
+- 1131564004 2005.11.09 bn83 Nov 9 11:20:04 bn83/bn83 ntpd[22422]: synchronized to 10.100.20.250, stratum 3
+- 1131564004 2005.11.09 cn892 Nov 9 11:20:04 cn892/cn892 ntpd[28938]: synchronized to 10.100.20.250, stratum 3
+- 1131564004 2005.11.09 cn94 Nov 9 11:20:04 cn94/cn94 ntpd[19065]: synchronized to 10.100.20.250, stratum 3
+- 1131564005 2005.11.09 cn64 Nov 9 11:20:05 cn64/cn64 ntpd[14668]: synchronized to 10.100.16.250, stratum 3
+- 1131564008 2005.11.09 bn188 Nov 9 11:20:08 bn188/bn188 ntpd[22056]: synchronized to 10.100.22.250, stratum 3
+- 1131564008 2005.11.09 cn81 Nov 9 11:20:08 cn81/cn81 ntpd[19090]: synchronized to 10.100.16.250, stratum 3
+- 1131564011 2005.11.09 cn64 Nov 9 11:20:11 cn64/cn64 ntpd[14668]: synchronized to 10.100.22.250, stratum 3
+- 1131564013 2005.11.09 cn450 Nov 9 11:20:13 cn450/cn450 ntpd[2256]: kernel time sync enabled 0001
+- 1131564013 2005.11.09 cn450 Nov 9 11:20:13 cn450/cn450 ntpd[2256]: synchronized to 10.100.22.250, stratum 3
+- 1131564013 2005.11.09 cn511 Nov 9 11:20:13 cn511/cn511 ntpd[15008]: synchronized to 10.100.16.250, stratum 3
+- 1131564014 2005.11.09 cn728 Nov 9 11:20:14 cn728/cn728 ntpd[28511]: synchronized to 10.100.22.250, stratum 3
+- 1131564015 2005.11.09 cn850 Nov 9 11:20:15 cn850/cn850 ntpd[28230]: synchronized to 10.100.16.250, stratum 3
+- 1131564018 2005.11.09 cn46 Nov 9 11:20:18 cn46/cn46 ntpd[15291]: synchronized to 10.100.22.250, stratum 3
+- 1131564020 2005.11.09 cn406 Nov 9 11:20:20 cn406/cn406 ntpd[17522]: synchronized to 10.100.20.250, stratum 3
+- 1131564020 2005.11.09 cn608 Nov 9 11:20:20 cn608/cn608 ntpd[10784]: synchronized to 10.100.20.250, stratum 3
+- 1131564021 2005.11.09 cn520 Nov 9 11:20:21 cn520/cn520 ntpd[30346]: synchronized to 10.100.20.250, stratum 3
+- 1131564025 2005.11.09 cn82 Nov 9 11:20:25 cn82/cn82 ntpd[31689]: synchronized to 10.100.20.250, stratum 3
+- 1131564028 2005.11.09 cn698 Nov 9 11:20:28 cn698/cn698 ntpd[22859]: synchronized to 10.100.20.250, stratum 3
+- 1131564029 2005.11.09 cn966 Nov 9 11:20:29 cn966/cn966 ntpd[19702]: synchronized to 10.100.16.250, stratum 3
+- 1131564030 2005.11.09 cn688 Nov 9 11:20:30 cn688/cn688 ntpd[19262]: synchronized to 10.100.22.250, stratum 3
+- 1131564031 2005.11.09 cn814 Nov 9 11:20:31 cn814/cn814 ntpd[28198]: synchronized to 10.100.18.250, stratum 3
+- 1131564043 2005.11.09 cn752 Nov 9 11:20:43 cn752/cn752 ntpd[28625]: synchronized to 10.100.22.250, stratum 3
+- 1131564046 2005.11.09 cn445 Nov 9 11:20:46 cn445/cn445 ntpd[12538]: synchronized to 10.100.22.250, stratum 3
+- 1131564048 2005.11.09 bn272 Nov 9 11:20:48 bn272/bn272 ntpd[23856]: synchronized to 10.100.18.250, stratum 3
+- 1131564048 2005.11.09 cn421 Nov 9 11:20:48 cn421/cn421 ntpd[12987]: synchronized to 10.100.20.250, stratum 3
+- 1131564053 2005.11.09 cn2 Nov 9 11:20:53 cn2/cn2 ntpd[14579]: synchronized to 10.100.20.250, stratum 3
+- 1131564059 2005.11.09 bn453 Nov 9 11:20:59 bn453/bn453 ntpd[30219]: synchronized to 10.100.18.250, stratum 3
+- 1131564061 2005.11.09 cn578 Nov 9 11:21:01 cn578/cn578 ntpd[18757]: synchronized to 10.100.20.250, stratum 3
+- 1131564063 2005.11.09 bn67 Nov 9 11:21:03 bn67/bn67 ntpd[22559]: synchronized to 10.100.22.250, stratum 3
+- 1131564064 2005.11.09 cn461 Nov 9 11:21:04 cn461/cn461 ntpd[11042]: synchronized to 10.100.22.250, stratum 3
+- 1131564067 2005.11.09 cn760 Nov 9 11:21:07 cn760/cn760 ntpd[28753]: synchronized to 10.100.16.250, stratum 3
+- 1131564069 2005.11.09 cn463 Nov 9 11:21:09 cn463/cn463 ntpd[14584]: synchronized to 10.100.20.250, stratum 3
+- 1131564069 2005.11.09 cn875 Nov 9 11:21:09 cn875/cn875 ntpd[29720]: synchronized to 10.100.22.250, stratum 3
+- 1131564071 2005.11.09 cn191 Nov 9 11:21:11 cn191/cn191 ntpd[15101]: synchronized to 10.100.20.250, stratum 3
+- 1131564077 2005.11.09 cn720 Nov 9 11:21:17 cn720/cn720 ntpd[27541]: synchronized to 10.100.22.250, stratum 3
+- 1131564078 2005.11.09 bn377 Nov 9 11:21:18 bn377/bn377 ntpd[24934]: synchronized to 10.100.16.250, stratum 3
+- 1131564079 2005.11.09 cn468 Nov 9 11:21:19 cn468/cn468 ntpd[15480]: synchronized to 10.100.18.250, stratum 3
+- 1131564080 2005.11.09 bn10 Nov 9 11:21:20 bn10/bn10 ntpd[22328]: synchronized to 10.100.18.250, stratum 3
+- 1131564081 2005.11.09 cn718 Nov 9 11:21:21 cn718/cn718 ntpd[27996]: synchronized to 10.100.20.250, stratum 3
+- 1131564083 2005.11.09 cn191 Nov 9 11:21:23 cn191/cn191 ntpd[15101]: synchronized to 10.100.22.250, stratum 3
+- 1131564084 2005.11.09 cn170 Nov 9 11:21:24 cn170/cn170 ntpd[11351]: synchronized to 10.100.18.250, stratum 3
+- 1131564085 2005.11.09 cn13 Nov 9 11:21:25 cn13/cn13 ntpd[14847]: synchronized to 10.100.22.250, stratum 3
+- 1131564090 2005.11.09 cn419 Nov 9 11:21:30 cn419/cn419 ntpd[12874]: synchronized to 10.100.20.250, stratum 3
+- 1131564091 2005.11.09 bn686 Nov 9 11:21:31 bn686/bn686 ntpd[22814]: synchronized to 10.100.20.250, stratum 3
+- 1131564094 2005.11.09 cn899 Nov 9 11:21:34 cn899/cn899 ntpd[28009]: synchronized to 10.100.16.250, stratum 3
+- 1131564098 2005.11.09 bn883 Nov 9 11:21:38 bn883/bn883 ntpd[25133]: synchronized to 10.100.20.250, stratum 3
+- 1131564099 2005.11.09 bn10 Nov 9 11:21:39 bn10/bn10 ntpd[22328]: synchronized to 10.100.16.250, stratum 3
+- 1131564100 2005.11.09 bn10 Nov 9 11:21:40 bn10/bn10 ntpd[22328]: synchronized to 10.100.22.250, stratum 3
+- 1131564101 2005.11.09 cn155 Nov 9 11:21:41 cn155/cn155 ntpd[10107]: synchronized to 10.100.22.250, stratum 3
+- 1131564101 2005.11.09 cn534 Nov 9 11:21:41 cn534/cn534 ntpd[16244]: synchronized to 10.100.18.250, stratum 3
+- 1131564103 2005.11.09 bn892 Nov 9 11:21:43 bn892/bn892 ntpd[25181]: synchronized to 10.100.22.250, stratum 3
+- 1131564103 2005.11.09 cn153 Nov 9 11:21:43 cn153/cn153 ntpd[10543]: synchronized to 10.100.20.250, stratum 3
+- 1131564105 2005.11.09 cn667 Nov 9 11:21:45 cn667/cn667 ntpd[18540]: synchronized to 10.100.22.250, stratum 3
+- 1131564106 2005.11.09 cn778 Nov 9 11:21:46 cn778/cn778 ntpd[27812]: synchronized to 10.100.20.250, stratum 3
+- 1131564107 2005.11.09 bn401 Nov 9 11:21:47 bn401/bn401 ntpd[28876]: synchronized to 10.100.22.250, stratum 3
+- 1131564107 2005.11.09 cn163 Nov 9 11:21:47 cn163/cn163 ntpd[10165]: synchronized to 10.100.20.250, stratum 3
+- 1131564109 2005.11.09 cn188 Nov 9 11:21:49 cn188/cn188 ntpd[9679]: synchronized to 10.100.20.250, stratum 3
+- 1131564109 2005.11.09 cn414 Nov 9 11:21:49 cn414/cn414 ntpd[15173]: synchronized to 10.100.22.250, stratum 3
+- 1131564109 2005.11.09 cn582 Nov 9 11:21:49 cn582/cn582 ntpd[18611]: synchronized to 10.100.20.250, stratum 3
+- 1131564115 2005.11.09 bn375 Nov 9 11:21:55 bn375/bn375 ntpd[29402]: synchronized to 10.100.20.250, stratum 3
+- 1131564122 2005.11.09 cn48 Nov 9 11:22:02 cn48/cn48 ntpd[15915]: synchronized to 10.100.16.250, stratum 3
+- 1131564123 2005.11.09 cn621 Nov 9 11:22:03 cn621/cn621 ntpd[18491]: synchronized to 10.100.20.250, stratum 3
+- 1131564123 2005.11.09 cn775 Nov 9 11:22:03 cn775/cn775 ntpd[27915]: synchronized to 10.100.18.250, stratum 3
+- 1131564124 2005.11.09 cn901 Nov 9 11:22:04 cn901/cn901 ntpd[28719]: synchronized to 10.100.18.250, stratum 3
+- 1131564127 2005.11.09 bn892 Nov 9 11:22:07 bn892/bn892 ntpd[25181]: synchronized to 10.100.16.250, stratum 3
+- 1131564127 2005.11.09 cn621 Nov 9 11:22:07 cn621/cn621 ntpd[18491]: synchronized to 10.100.16.250, stratum 3
+- 1131564129 2005.11.09 cn786 Nov 9 11:22:09 cn786/cn786 ntpd[27662]: synchronized to 10.100.22.250, stratum 3
+- 1131564131 2005.11.09 cn34 Nov 9 11:22:11 cn34/cn34 ntpd[20478]: synchronized to 10.100.18.250, stratum 3
+- 1131564135 2005.11.09 bn427 Nov 9 11:22:15 bn427/bn427 ntpd[10976]: synchronized to 10.100.22.250, stratum 3
+- 1131564137 2005.11.09 bn506 Nov 9 11:22:17 bn506/bn506 ntpd[28888]: synchronized to 10.100.20.250, stratum 3
+- 1131564144 2005.11.09 cn850 Nov 9 11:22:24 cn850/cn850 ntpd[28230]: synchronized to 10.100.18.250, stratum 3
+- 1131564144 2005.11.09 cn988 Nov 9 11:22:24 cn988/cn988 ntpd[19582]: synchronized to 10.100.16.250, stratum 3
+- 1131564145 2005.11.09 cn121 Nov 9 11:22:25 cn121/cn121 ntpd[20621]: synchronized to 10.100.18.250, stratum 3
+- 1131564148 2005.11.09 bn467 Nov 9 11:22:28 bn467/bn467 ntpd[29506]: synchronized to 10.100.16.250, stratum 3
+- 1131564148 2005.11.09 cn34 Nov 9 11:22:28 cn34/cn34 ntpd[20478]: synchronized to 10.100.16.250, stratum 3
+- 1131564148 2005.11.09 cn903 Nov 9 11:22:28 cn903/cn903 ntpd[27833]: synchronized to 10.100.20.250, stratum 3
+- 1131564157 2005.11.09 bn678 Nov 9 11:22:37 bn678/bn678 ntpd[24506]: synchronized to 10.100.16.250, stratum 3
+- 1131564158 2005.11.09 cn841 Nov 9 11:22:38 cn841/cn841 ntpd[28103]: synchronized to 10.100.16.250, stratum 3
+- 1131564160 2005.11.09 cn275 Nov 9 11:22:40 cn275/cn275 ntpd[9831]: synchronized to 10.100.20.250, stratum 3
+- 1131564163 2005.11.09 cn95 Nov 9 11:22:43 cn95/cn95 ntpd[19781]: synchronized to 10.100.20.250, stratum 3
+- 1131564168 2005.11.09 bn100 Nov 9 11:22:48 bn100/bn100 ntpd[22734]: synchronized to 10.100.22.250, stratum 3
+- 1131564168 2005.11.09 bn231 Nov 9 11:22:48 bn231/bn231 ntpd[22959]: synchronized to 10.100.22.250, stratum 3
+- 1131564170 2005.11.09 cn16 Nov 9 11:22:50 cn16/cn16 ntpd[15426]: synchronized to 10.100.18.250, stratum 3
+- 1131564171 2005.11.09 cn41 Nov 9 11:22:51 cn41/cn41 ntpd[16857]: synchronized to 10.100.18.250, stratum 3
+- 1131564178 2005.11.09 cn53 Nov 9 11:22:58 cn53/cn53 ntpd[15337]: synchronized to 10.100.20.250, stratum 3
+- 1131564181 2005.11.09 bn679 Nov 9 11:23:01 bn679/bn679 ntpd[31016]: synchronized to 10.100.20.250, stratum 3
+- 1131564183 2005.11.09 cn468 Nov 9 11:23:03 cn468/cn468 ntpd[15480]: synchronized to 10.100.20.250, stratum 3
+- 1131564206 2005.11.09 cn272 Nov 9 11:23:26 cn272/cn272 ntpd[12016]: synchronized to 10.100.22.250, stratum 3
+- 1131564207 2005.11.09 bn623 Nov 9 11:23:27 bn623/bn623 ntpd[23389]: synchronized to 10.100.10.250, stratum 3
+- 1131564208 2005.11.09 cn816 Nov 9 11:23:28 cn816/cn816 ntpd[28022]: synchronized to 10.100.20.250, stratum 3
+- 1131564211 2005.11.09 cn581 Nov 9 11:23:31 cn581/cn581 ntpd[18678]: synchronized to 10.100.22.250, stratum 3
+- 1131564212 2005.11.09 cn174 Nov 9 11:23:32 cn174/cn174 ntpd[9118]: synchronized to 10.100.20.250, stratum 3
+- 1131564213 2005.11.09 cn353 Nov 9 11:23:33 cn353/cn353 ntpd[12629]: synchronized to 10.100.20.250, stratum 3
+- 1131564214 2005.11.09 cn32 Nov 9 11:23:34 cn32/cn32 ntpd[16725]: synchronized to 10.100.22.250, stratum 3
+- 1131564214 2005.11.09 cn884 Nov 9 11:23:34 cn884/cn884 ntpd[32661]: synchronized to 10.100.22.250, stratum 3
+- 1131564215 2005.11.09 bn56 Nov 9 11:23:35 bn56/bn56 ntpd[22569]: synchronized to 10.100.20.250, stratum 3
+- 1131564215 2005.11.09 cn507 Nov 9 11:23:35 cn507/cn507 ntpd[15704]: synchronized to 10.100.22.250, stratum 3
+- 1131564218 2005.11.09 cn274 Nov 9 11:23:38 cn274/cn274 ntpd[10560]: synchronized to 10.100.22.250, stratum 3
+- 1131564219 2005.11.09 cn96 Nov 9 11:23:39 cn96/cn96 ntpd[19219]: synchronized to 10.100.20.250, stratum 3
+- 1131564223 2005.11.09 cn577 Nov 9 11:23:43 cn577/cn577 ntpd[19361]: synchronized to 10.100.22.250, stratum 3
+- 1131564229 2005.11.09 cn599 Nov 9 11:23:49 cn599/cn599 ntpd[2250]: synchronized to 10.100.20.250, stratum 3
+- 1131564230 2005.11.09 cn350 Nov 9 11:23:50 cn350/cn350 ntpd[12129]: synchronized to 10.100.22.250, stratum 3
+- 1131564234 2005.11.09 bn235 Nov 9 11:23:54 bn235/bn235 ntpd[23304]: synchronized to 10.100.20.250, stratum 3
+- 1131564246 2005.11.09 bn418 Nov 9 11:24:06 bn418/bn418 ntpd[30032]: synchronized to 10.100.10.250, stratum 3
+- 1131564246 2005.11.09 cn361 Nov 9 11:24:06 cn361/cn361 ntpd[10482]: synchronized to 10.100.20.250, stratum 3
+- 1131564250 2005.11.09 bn385 Nov 9 11:24:10 bn385/bn385 ntpd[29353]: synchronized to 10.100.12.250, stratum 3
+- 1131564251 2005.11.09 bn487 Nov 9 11:24:11 bn487/bn487 ntpd[29115]: synchronized to 10.100.22.250, stratum 3
+- 1131564252 2005.11.09 cn638 Nov 9 11:24:12 cn638/cn638 ntpd[19499]: synchronized to 10.100.20.250, stratum 3
+- 1131564253 2005.11.09 cn710 Nov 9 11:24:13 cn710/cn710 ntpd[19103]: synchronized to 10.100.18.250, stratum 3
+- 1131564257 2005.11.09 cn10 Nov 9 11:24:17 cn10/cn10 ntpd[14614]: synchronized to 10.100.20.250, stratum 3
+- 1131564259 2005.11.09 bn178 Nov 9 11:24:19 bn178/bn178 ntpd[22158]: synchronized to 10.100.22.250, stratum 3
+- 1131564266 2005.11.09 bn1018 Nov 9 11:24:26 bn1018/bn1018 ntpd[16307]: synchronized to 10.100.22.250, stratum 3
+- 1131564268 2005.11.09 bn487 Nov 9 11:24:28 bn487/bn487 ntpd[29115]: synchronized to 10.100.20.250, stratum 3
+- 1131564268 2005.11.09 cn774 Nov 9 11:24:28 cn774/cn774 ntpd[27826]: synchronized to 10.100.18.250, stratum 3
+- 1131564269 2005.11.09 cn574 Nov 9 11:24:29 cn574/cn574 ntpd[17810]: synchronized to 10.100.20.250, stratum 3
+- 1131564273 2005.11.09 bn108 Nov 9 11:24:33 bn108/bn108 ntpd[11968]: synchronized to 10.100.16.250, stratum 3
+- 1131564273 2005.11.09 bn416 Nov 9 11:24:33 bn416/bn416 ntpd[28431]: synchronized to 10.100.20.250, stratum 3
+- 1131564273 2005.11.09 cn561 Nov 9 11:24:33 cn561/cn561 ntpd[17708]: synchronized to 10.100.20.250, stratum 3
+- 1131564276 2005.11.09 bn285 Nov 9 11:24:36 bn285/bn285 ntpd[23597]: synchronized to 10.100.10.250, stratum 3
+- 1131564276 2005.11.09 bn908 Nov 9 11:24:36 bn908/bn908 ntpd[26306]: synchronized to 10.100.22.250, stratum 3
+- 1131564277 2005.11.09 cn446 Nov 9 11:24:37 cn446/cn446 ntpd[12193]: synchronized to 10.100.20.250, stratum 3
+- 1131564281 2005.11.09 cn801 Nov 9 11:24:41 cn801/cn801 ntpd[13641]: synchronized to 10.100.20.250, stratum 3
+- 1131564282 2005.11.09 cn858 Nov 9 11:24:42 cn858/cn858 ntpd[28402]: synchronized to 10.100.18.250, stratum 3
+- 1131564284 2005.11.09 bn1 Nov 9 11:24:44 bn1/bn1 ntpd[23146]: synchronized to 10.100.22.250, stratum 3
+- 1131564284 2005.11.09 cn749 Nov 9 11:24:44 cn749/cn749 ntpd[29241]: synchronized to 10.100.20.250, stratum 3
+- 1131564286 2005.11.09 bn418 Nov 9 11:24:46 bn418/bn418 ntpd[30032]: synchronized to 10.100.12.250, stratum 3
+- 1131564288 2005.11.09 cn339 Nov 9 11:24:48 cn339/cn339 ntpd[12503]: synchronized to 10.100.20.250, stratum 3
+- 1131564600 2005.11.09 bn496 Nov 9 11:30:00 bn496/bn496 ntpd[28495]: synchronized to 10.100.20.250, stratum 3
+- 1131564602 2005.11.09 cn554 Nov 9 11:30:02 cn554/cn554 ntpd[14641]: synchronized to 10.100.22.250, stratum 3
+- 1131564602 2005.11.09 cn884 Nov 9 11:30:02 cn884/cn884 ntpd[32661]: synchronized to 10.100.18.250, stratum 3
+- 1131564605 2005.11.09 cn609 Nov 9 11:30:05 cn609/cn609 ntpd[18784]: synchronized to 10.100.20.250, stratum 3
+- 1131564608 2005.11.09 cn93 Nov 9 11:30:08 cn93/cn93 ntpd[19693]: synchronized to 10.100.20.250, stratum 3
+- 1131564608 2005.11.09 cn984 Nov 9 11:30:08 cn984/cn984 ntpd[19722]: synchronized to 10.100.18.250, stratum 3
+- 1131564616 2005.11.09 cn87 Nov 9 11:30:16 cn87/cn87 ntpd[19849]: synchronized to 10.100.18.250, stratum 3
+- 1131564617 2005.11.09 cn141 Nov 9 11:30:17 cn141/cn141 ntpd[27858]: synchronized to 10.100.18.250, stratum 3
+- 1131564622 2005.11.09 cn218 Nov 9 11:30:22 cn218/cn218 ntpd[10580]: synchronized to 10.100.22.250, stratum 3
+- 1131564625 2005.11.09 cn573 Nov 9 11:30:25 cn573/cn573 ntpd[15193]: synchronized to 10.100.16.250, stratum 3
+- 1131564628 2005.11.09 cn724 Nov 9 11:30:28 cn724/cn724 ntpd[28834]: synchronized to 10.100.20.250, stratum 3
+- 1131564631 2005.11.09 bn364 Nov 9 11:30:31 bn364/bn364 ntpd[28894]: synchronized to 10.100.14.250, stratum 3
+- 1131564631 2005.11.09 cn621 Nov 9 11:30:31 cn621/cn621 ntpd[18491]: synchronized to 10.100.18.250, stratum 3
+- 1131564634 2005.11.09 bn731 Nov 9 11:30:34 bn731/bn731 ntpd[23983]: synchronized to 10.100.22.250, stratum 3
+- 1131564637 2005.11.09 cn255 Nov 9 11:30:37 cn255/cn255 ntpd[10531]: synchronized to 10.100.20.250, stratum 3
+- 1131564641 2005.11.09 cn499 Nov 9 11:30:41 cn499/cn499 ntpd[15380]: synchronized to 10.100.22.250, stratum 3
+- 1131564642 2005.11.09 bn721 Nov 9 11:30:42 bn721/bn721 ntpd[24136]: synchronized to 10.100.18.250, stratum 3
+- 1131564647 2005.11.09 bn416 Nov 9 11:30:47 bn416/bn416 ntpd[28431]: synchronized to 10.100.16.250, stratum 3
+- 1131564648 2005.11.09 cn855 Nov 9 11:30:48 cn855/cn855 ntpd[31971]: synchronized to 10.100.20.250, stratum 3
+- 1131564651 2005.11.09 bn392 Nov 9 11:30:51 bn392/bn392 ntpd[29313]: synchronized to 10.100.22.250, stratum 3
+- 1131564651 2005.11.09 cn837 Nov 9 11:30:51 cn837/cn837 ntpd[27977]: synchronized to 10.100.18.250, stratum 3
+- 1131564654 2005.11.09 bn123 Nov 9 11:30:54 bn123/bn123 ntpd[24046]: synchronized to 10.100.22.250, stratum 3
+- 1131564657 2005.11.09 cn953 Nov 9 11:30:57 cn953/cn953 ntpd[19786]: synchronized to 10.100.22.250, stratum 3
+- 1131564659 2005.11.09 cn68 Nov 9 11:30:59 cn68/cn68 ntpd[14667]: synchronized to 10.100.18.250, stratum 3
+- 1131564661 2005.11.09 cn839 Nov 9 11:31:01 cn839/cn839 ntpd[28293]: synchronized to 10.100.18.250, stratum 3
+- 1131564662 2005.11.09 cn440 Nov 9 11:31:02 cn440/cn440 ntpd[11451]: synchronized to 10.100.18.250, stratum 3
+- 1131564664 2005.11.09 cn710 Nov 9 11:31:04 cn710/cn710 ntpd[19103]: synchronized to 10.100.22.250, stratum 3
+- 1131564665 2005.11.09 cn400 Nov 9 11:31:05 cn400/cn400 ntpd[12706]: synchronized to 10.100.20.250, stratum 3
+- 1131564667 2005.11.09 cn898 Nov 9 11:31:07 cn898/cn898 ntpd[27987]: synchronized to 10.100.18.250, stratum 3
+- 1131564670 2005.11.09 cn859 Nov 9 11:31:10 cn859/cn859 ntpd[28794]: synchronized to 10.100.22.250, stratum 3
+- 1131564672 2005.11.09 bn174 Nov 9 11:31:12 bn174/bn174 ntpd[21683]: synchronized to 10.100.18.250, stratum 3
+- 1131564675 2005.11.09 bn285 Nov 9 11:31:15 bn285/bn285 ntpd[23597]: synchronized to 10.100.8.250, stratum 3
+- 1131564682 2005.11.09 cn647 Nov 9 11:31:22 cn647/cn647 ntpd[19059]: synchronized to 10.100.20.250, stratum 3
+- 1131564682 2005.11.09 cn838 Nov 9 11:31:22 cn838/cn838 ntpd[28059]: synchronized to 10.100.18.250, stratum 3
+- 1131564682 2005.11.09 cn951 Nov 9 11:31:22 cn951/cn951 ntpd[19916]: synchronized to 10.100.20.250, stratum 3
+- 1131564683 2005.11.09 cn805 Nov 9 11:31:23 cn805/cn805 ntpd[28659]: synchronized to 10.100.20.250, stratum 3
+- 1131564685 2005.11.09 bn292 Nov 9 11:31:25 bn292/bn292 ntpd[23646]: synchronized to 10.100.20.250, stratum 3
+- 1131564690 2005.11.09 cn744 Nov 9 11:31:30 cn744/cn744 ntpd[28337]: synchronized to 10.100.20.250, stratum 3
+- 1131564694 2005.11.09 cn107 Nov 9 11:31:34 cn107/cn107 ntpd[19686]: synchronized to 10.100.22.250, stratum 3
+- 1131565111 2005.11.09 cn524 Nov 9 11:38:31 cn524/cn524 ntpd[15917]: synchronized to 10.100.18.250, stratum 3
+- 1131565116 2005.11.09 bn758 Nov 9 11:38:36 bn758/bn758 ntpd[23037]: synchronized to 10.100.18.250, stratum 3
+- 1131565125 2005.11.09 bn153 Nov 9 11:38:45 bn153/bn153 ntpd[22993]: synchronized to 10.100.18.250, stratum 3
+- 1131565125 2005.11.09 bn450 Nov 9 11:38:45 bn450/bn450 ntpd[29785]: synchronized to 10.100.18.250, stratum 3
+- 1131565127 2005.11.09 bn10 Nov 9 11:38:47 bn10/bn10 ntpd[22328]: synchronized to 10.100.18.250, stratum 3
+- 1131565127 2005.11.09 cn155 Nov 9 11:38:47 cn155/cn155 ntpd[10107]: synchronized to 10.100.20.250, stratum 3
+- 1131565129 2005.11.09 cn274 Nov 9 11:38:49 cn274/cn274 ntpd[10560]: synchronized to 10.100.20.250, stratum 3
+- 1131565130 2005.11.09 cn517 Nov 9 11:38:50 cn517/cn517 ntpd[15846]: synchronized to 10.100.16.250, stratum 3
+- 1131565131 2005.11.09 cn810 Nov 9 11:38:51 cn810/cn810 ntpd[28574]: synchronized to 10.100.22.250, stratum 3
+- 1131565133 2005.11.09 cn163 Nov 9 11:38:53 cn163/cn163 ntpd[10165]: synchronized to 10.100.18.250, stratum 3
+- 1131565136 2005.11.09 cn652 Nov 9 11:38:56 cn652/cn652 ntpd[741]: synchronized to 10.100.20.250, stratum 3
+- 1131565137 2005.11.09 bn823 Nov 9 11:38:57 bn823/bn823 ntpd[23016]: synchronized to 10.100.22.250, stratum 3
+- 1131565145 2005.11.09 cn568 Nov 9 11:39:05 cn568/cn568 ntpd[17942]: synchronized to 10.100.18.250, stratum 3
+- 1131565148 2005.11.09 bn879 Nov 9 11:39:08 bn879/bn879 ntpd[24606]: synchronized to 10.100.22.250, stratum 3
+- 1131565149 2005.11.09 bn879 Nov 9 11:39:09 bn879/bn879 ntpd[24606]: synchronized to 10.100.16.250, stratum 3
+- 1131565152 2005.11.09 bn669 Nov 9 11:39:12 bn669/bn669 ntpd[23818]: synchronized to 10.100.20.250, stratum 3
+- 1131565156 2005.11.09 bn26 Nov 9 11:39:16 bn26/bn26 ntpd[22467]: synchronized to 10.100.16.250, stratum 3
+- 1131565158 2005.11.09 cn398 Nov 9 11:39:18 cn398/cn398 ntpd[12747]: synchronized to 10.100.20.250, stratum 3
+- 1131565161 2005.11.09 bn504 Nov 9 11:39:21 bn504/bn504 ntpd[29405]: synchronized to 10.100.20.250, stratum 3
+- 1131565161 2005.11.09 cn493 Nov 9 11:39:21 cn493/cn493 ntpd[15332]: synchronized to 10.100.22.250, stratum 3
+- 1131565163 2005.11.09 cn1018 Nov 9 11:39:23 cn1018/cn1018 ntpd[19600]: synchronized to 10.100.18.250, stratum 3
+- 1131565166 2005.11.09 bn601 Nov 9 11:39:26 bn601/bn601 ntpd[24357]: synchronized to 10.100.20.250, stratum 3
+- 1131565168 2005.11.09 bn307 Nov 9 11:39:28 bn307/bn307 ntpd[2257]: kernel time sync disabled 0041
+- 1131565168 2005.11.09 bn307 Nov 9 11:39:28 bn307/bn307 ntpd[2257]: synchronized to 10.100.16.250, stratum 3
+- 1131565168 2005.11.09 cn440 Nov 9 11:39:28 cn440/cn440 ntpd[11451]: synchronized to 10.100.20.250, stratum 3
+- 1131565169 2005.11.09 cn988 Nov 9 11:39:29 cn988/cn988 ntpd[19582]: synchronized to 10.100.18.250, stratum 3
+- 1131565183 2005.11.09 cn181 Nov 9 11:39:43 cn181/cn181 ntpd[10728]: synchronized to 10.100.22.250, stratum 3
+- 1131565183 2005.11.09 cn278 Nov 9 11:39:43 cn278/cn278 ntpd[10806]: synchronized to 10.100.18.250, stratum 3
+- 1131565186 2005.11.09 cn841 Nov 9 11:39:46 cn841/cn841 ntpd[28103]: synchronized to 10.100.18.250, stratum 3
+- 1131565187 2005.11.09 cn275 Nov 9 11:39:47 cn275/cn275 ntpd[9831]: synchronized to 10.100.22.250, stratum 3
+- 1131565196 2005.11.09 cn836 Nov 9 11:39:56 cn836/cn836 ntpd[27943]: synchronized to 10.100.22.250, stratum 3
+- 1131565197 2005.11.09 bn963 Nov 9 11:39:57 bn963/bn963 ntpd[15598]: synchronized to 10.100.16.250, stratum 3
+- 1131565197 2005.11.09 cn285 Nov 9 11:39:57 cn285/cn285 ntpd[26823]: synchronized to 10.100.18.250, stratum 3
+- 1131565201 2005.11.09 cn150 Nov 9 11:40:01 cn150/cn150 ntpd[10078]: synchronized to 10.100.16.250, stratum 3
+- 1131565208 2005.11.09 cn160 Nov 9 11:40:08 cn160/cn160 ntpd[9830]: synchronized to 10.100.16.250, stratum 3
+- 1131565214 2005.11.09 cn562 Nov 9 11:40:14 cn562/cn562 ntpd[17910]: synchronized to 10.100.22.250, stratum 3
+- 1131565215 2005.11.09 bn79 Nov 9 11:40:15 bn79/bn79 ntpd[22348]: synchronized to 10.100.22.250, stratum 3
+- 1131565215 2005.11.09 cn939 Nov 9 11:40:15 cn939/cn939 ntpd[28023]: synchronized to 10.100.22.250, stratum 3
+- 1131565225 2005.11.09 cn296 Nov 9 11:40:25 cn296/cn296 ntpd[24199]: synchronized to 10.100.22.250, stratum 3
+- 1131565229 2005.11.09 cn266 Nov 9 11:40:29 cn266/cn266 ntpd[12066]: synchronized to 10.100.22.250, stratum 3
+- 1131565230 2005.11.09 bn816 Nov 9 11:40:30 bn816/bn816 ntpd[23184]: synchronized to 10.100.22.250, stratum 3
+- 1131565231 2005.11.09 bn816 Nov 9 11:40:31 bn816/bn816 ntpd[23184]: synchronized to 10.100.20.250, stratum 3
+- 1131565231 2005.11.09 bn963 Nov 9 11:40:31 bn963/bn963 ntpd[15598]: synchronized to 10.100.18.250, stratum 3
+- 1131565232 2005.11.09 cn355 Nov 9 11:40:32 cn355/cn355 ntpd[9987]: synchronized to 10.100.18.250, stratum 3
+- 1131565234 2005.11.09 bn970 Nov 9 11:40:34 bn970/bn970 ntpd[15506]: synchronized to 10.100.20.250, stratum 3
+- 1131565237 2005.11.09 cn32 Nov 9 11:40:37 cn32/cn32 ntpd[16725]: synchronized to 10.100.20.250, stratum 3
+- 1131565239 2005.11.09 bn1024 Nov 9 11:40:39 bn1024/bn1024 ntpd[25505]: synchronized to 10.100.14.250, stratum 3
+- 1131565245 2005.11.09 bn307 Nov 9 11:40:45 bn307/bn307 ntpd[2257]: kernel time sync enabled 0001
+- 1131565245 2005.11.09 bn307 Nov 9 11:40:45 bn307/bn307 ntpd[2257]: synchronized to 10.100.18.250, stratum 3
+- 1131565246 2005.11.09 cn70 Nov 9 11:40:46 cn70/cn70 ntpd[14578]: synchronized to 10.100.22.250, stratum 3
+- 1131565249 2005.11.09 bn82 Nov 9 11:40:49 bn82/bn82 ntpd[10804]: synchronized to 10.100.22.250, stratum 3
+- 1131565251 2005.11.09 bn56 Nov 9 11:40:51 bn56/bn56 ntpd[22569]: synchronized to 10.100.22.250, stratum 3
+- 1131565263 2005.11.09 cn488 Nov 9 11:41:03 cn488/cn488 ntpd[15809]: synchronized to 10.100.22.250, stratum 3
+- 1131565265 2005.11.09 cn10 Nov 9 11:41:05 cn10/cn10 ntpd[14614]: synchronized to 10.100.22.250, stratum 3
+- 1131565268 2005.11.09 bn29 Nov 9 11:41:08 bn29/bn29 ntpd[22771]: synchronized to 10.100.18.250, stratum 3
+- 1131565268 2005.11.09 cn10 Nov 9 11:41:08 cn10/cn10 ntpd[14614]: synchronized to 10.100.18.250, stratum 3
+- 1131565272 2005.11.09 cn673 Nov 9 11:41:12 cn673/cn673 ntpd[20417]: synchronized to 10.100.18.250, stratum 3
+- 1131565274 2005.11.09 bn220 Nov 9 11:41:14 bn220/bn220 ntpd[9908]: synchronized to 10.100.12.250, stratum 3
+- 1131565275 2005.11.09 cn90 Nov 9 11:41:15 cn90/cn90 ntpd[20385]: synchronized to 10.100.20.250, stratum 3
+- 1131565278 2005.11.09 cn429 Nov 9 11:41:18 cn429/cn429 ntpd[19277]: synchronized to 10.100.20.250, stratum 3
+- 1131565279 2005.11.09 bn187 Nov 9 11:41:19 bn187/bn187 ntpd[22173]: synchronized to 10.100.20.250, stratum 3
+- 1131565288 2005.11.09 bn234 Nov 9 11:41:28 bn234/bn234 ntpd[23352]: synchronized to 10.100.12.250, stratum 3
+- 1131565288 2005.11.09 bn30 Nov 9 11:41:28 bn30/bn30 ntpd[22000]: synchronized to 10.100.22.250, stratum 3
+- 1131565298 2005.11.09 bn102 Nov 9 11:41:38 bn102/bn102 ntpd[22465]: synchronized to 10.100.22.250, stratum 3
+- 1131565307 2005.11.09 cn891 Nov 9 11:41:47 cn891/cn891 ntpd[28934]: synchronized to 10.100.22.250, stratum 3
+- 1131565309 2005.11.09 bn1 Nov 9 11:41:49 bn1/bn1 ntpd[23146]: synchronized to 10.100.16.250, stratum 3
+- 1131565317 2005.11.09 cn992 Nov 9 11:41:57 cn992/cn992 ntpd[18470]: synchronized to 10.100.20.250, stratum 3
+- 1131565327 2005.11.09 bn467 Nov 9 11:42:07 bn467/bn467 ntpd[29506]: synchronized to 10.100.20.250, stratum 3
+- 1131565329 2005.11.09 cn137 Nov 9 11:42:09 cn137/cn137 ntpd[30947]: synchronized to 10.100.20.250, stratum 3
+- 1131565336 2005.11.09 bn79 Nov 9 11:42:16 bn79/bn79 ntpd[22348]: synchronized to 10.100.16.250, stratum 3
+- 1131565340 2005.11.09 cn812 Nov 9 11:42:20 cn812/cn812 ntpd[28606]: synchronized to 10.100.18.250, stratum 3
+- 1131565345 2005.11.09 cn529 Nov 9 11:42:25 cn529/cn529 ntpd[15941]: synchronized to 10.100.22.250, stratum 3
+- 1131565346 2005.11.09 bn562 Nov 9 11:42:26 bn562/bn562 ntpd[4600]: synchronized to 10.100.16.250, stratum 3
+- 1131565347 2005.11.09 cn668 Nov 9 11:42:27 cn668/cn668 ntpd[18869]: synchronized to 10.100.22.250, stratum 3
+- 1131565347 2005.11.09 cn890 Nov 9 11:42:27 cn890/cn890 ntpd[29159]: synchronized to 10.100.18.250, stratum 3
+- 1131565352 2005.11.09 cn412 Nov 9 11:42:32 cn412/cn412 ntpd[13006]: synchronized to 10.100.18.250, stratum 3
+- 1131565354 2005.11.09 cn483 Nov 9 11:42:34 cn483/cn483 ntpd[17483]: synchronized to 10.100.20.250, stratum 3
+- 1131565361 2005.11.09 cn333 Nov 9 11:42:41 cn333/cn333 ntpd[23183]: synchronized to 10.100.20.250, stratum 3
+- 1131565362 2005.11.09 bn562 Nov 9 11:42:42 bn562/bn562 ntpd[4600]: synchronized to 10.100.18.250, stratum 3
+- 1131565363 2005.11.09 bn307 Nov 9 11:42:43 bn307/bn307 ntpd[2257]: synchronized to 10.100.16.250, stratum 3
+- 1131565370 2005.11.09 cn1018 Nov 9 11:42:50 cn1018/cn1018 ntpd[19600]: synchronized to 10.100.22.250, stratum 3
+- 1131565372 2005.11.09 bn428 Nov 9 11:42:52 bn428/bn428 ntpd[461]: synchronized to 10.100.22.250, stratum 3
+- 1131565378 2005.11.09 cn543 Nov 9 11:42:58 cn543/cn543 ntpd[13785]: synchronized to 10.100.22.250, stratum 3
+- 1131565385 2005.11.09 bn82 Nov 9 11:43:05 bn82/bn82 ntpd[10804]: synchronized to 10.100.18.250, stratum 3
+- 1131565387 2005.11.09 cn192 Nov 9 11:43:07 cn192/cn192 ntpd[19361]: synchronized to 10.100.18.250, stratum 3
+- 1131565390 2005.11.09 bn317 Nov 9 11:43:10 bn317/bn317 ntpd[28385]: synchronized to 10.100.18.250, stratum 3
+- 1131565390 2005.11.09 bn73 Nov 9 11:43:10 bn73/bn73 ntpd[7675]: synchronized to 10.100.12.250, stratum 3
+- 1131565391 2005.11.09 cn252 Nov 9 11:43:11 cn252/cn252 ntpd[10858]: synchronized to 10.100.20.250, stratum 3
+- 1131565393 2005.11.09 cn669 Nov 9 11:43:13 cn669/cn669 ntpd[18564]: synchronized to 10.100.18.250, stratum 3
+- 1131565396 2005.11.09 bn3 Nov 9 11:43:16 bn3/bn3 ntpd[22869]: synchronized to 10.100.20.250, stratum 3
+- 1131565398 2005.11.09 bn355 Nov 9 11:43:18 bn355/bn355 ntpd[28740]: synchronized to 10.100.18.250, stratum 3
+- 1131565404 2005.11.09 bn882 Nov 9 11:43:24 bn882/bn882 ntpd[10703]: synchronized to 10.100.14.250, stratum 3
+- 1131565404 2005.11.09 cn387 Nov 9 11:43:24 cn387/cn387 ntpd[10199]: synchronized to 10.100.20.250, stratum 3
+- 1131565406 2005.11.09 bn879 Nov 9 11:43:26 bn879/bn879 ntpd[24606]: synchronized to 10.100.18.250, stratum 3
+- 1131565408 2005.11.09 bn220 Nov 9 11:43:28 bn220/bn220 ntpd[9908]: synchronized to 10.100.10.250, stratum 3
+- 1131565408 2005.11.09 bn481 Nov 9 11:43:28 bn481/bn481 ntpd[30388]: synchronized to 10.100.18.250, stratum 3
+- 1131565408 2005.11.09 cn49 Nov 9 11:43:28 cn49/cn49 ntpd[14580]: synchronized to 10.100.22.250, stratum 3
+- 1131565408 2005.11.09 cn637 Nov 9 11:43:28 cn637/cn637 ntpd[19240]: synchronized to 10.100.16.250, stratum 3
+- 1131565411 2005.11.09 bn132 Nov 9 11:43:31 bn132/bn132 ntpd[22316]: synchronized to 10.100.18.250, stratum 3
+- 1131565412 2005.11.09 cn843 Nov 9 11:43:32 cn843/cn843 ntpd[28247]: synchronized to 10.100.20.250, stratum 3
+- 1131565418 2005.11.09 bn946 Nov 9 11:43:38 bn946/bn946 ntpd[15562]: synchronized to 10.100.22.250, stratum 3
+- 1131565418 2005.11.09 cn939 Nov 9 11:43:38 cn939/cn939 ntpd[28023]: synchronized to 10.100.18.250, stratum 3
+- 1131565425 2005.11.09 cn361 Nov 9 11:43:45 cn361/cn361 ntpd[10482]: synchronized to 10.100.22.250, stratum 3
+- 1131565425 2005.11.09 cn370 Nov 9 11:43:45 cn370/cn370 ntpd[10288]: synchronized to 10.100.18.250, stratum 3
+- 1131565427 2005.11.09 cn632 Nov 9 11:43:47 cn632/cn632 ntpd[18617]: synchronized to 10.100.22.250, stratum 3
+- 1131565429 2005.11.09 cn873 Nov 9 11:43:49 cn873/cn873 ntpd[29536]: synchronized to 10.100.20.250, stratum 3
+- 1131565433 2005.11.09 bn425 Nov 9 11:43:53 bn425/bn425 ntpd[30052]: synchronized to 10.100.20.250, stratum 3
+- 1131565433 2005.11.09 bn506 Nov 9 11:43:53 bn506/bn506 ntpd[28888]: synchronized to 10.100.18.250, stratum 3
+- 1131565436 2005.11.09 bn908 Nov 9 11:43:56 bn908/bn908 ntpd[26306]: synchronized to 10.100.18.250, stratum 3
+- 1131565438 2005.11.09 bn889 Nov 9 11:43:58 bn889/bn889 ntpd[24455]: synchronized to 10.100.18.250, stratum 3
+- 1131565440 2005.11.09 cn774 Nov 9 11:44:00 cn774/cn774 ntpd[27826]: synchronized to 10.100.16.250, stratum 3
+- 1131565441 2005.11.09 bn409 Nov 9 11:44:01 bn409/bn409 ntpd[29300]: synchronized to 10.100.20.250, stratum 3
+- 1131565446 2005.11.09 cn985 Nov 9 11:44:06 cn985/cn985 ntpd[19422]: synchronized to 10.100.22.250, stratum 3
+- 1131565458 2005.11.09 cn628 Nov 9 11:44:18 cn628/cn628 ntpd[18589]: synchronized to 10.100.22.250, stratum 3
+- 1131565460 2005.11.09 cn183 Nov 9 11:44:20 cn183/cn183 ntpd[4314]: synchronized to 10.100.18.250, stratum 3
+- 1131565461 2005.11.09 cn958 Nov 9 11:44:21 cn958/cn958 ntpd[20483]: synchronized to 10.100.22.250, stratum 3
+- 1131565464 2005.11.09 bn456 Nov 9 11:44:24 bn456/bn456 ntpd[29701]: synchronized to 10.100.12.250, stratum 3
+- 1131565465 2005.11.09 cn953 Nov 9 11:44:25 cn953/cn953 ntpd[19786]: synchronized to 10.100.20.250, stratum 3
+- 1131565467 2005.11.09 bn818 Nov 9 11:44:27 bn818/bn818 ntpd[23720]: synchronized to 10.100.16.250, stratum 3
+- 1131565477 2005.11.09 bn818 Nov 9 11:44:37 bn818/bn818 ntpd[23720]: synchronized to 10.100.22.250, stratum 3
+- 1131565481 2005.11.09 cn317 Nov 9 11:44:41 cn317/cn317 ntpd[23387]: synchronized to 10.100.18.250, stratum 3
+- 1131565481 2005.11.09 cn953 Nov 9 11:44:41 cn953/cn953 ntpd[19786]: synchronized to 10.100.18.250, stratum 3
+- 1131565482 2005.11.09 cn49 Nov 9 11:44:42 cn49/cn49 ntpd[14580]: synchronized to 10.100.16.250, stratum 3
+- 1131565483 2005.11.09 cn817 Nov 9 11:44:43 cn817/cn817 ntpd[28044]: synchronized to 10.100.18.250, stratum 3
+- 1131565483 2005.11.09 cn926 Nov 9 11:44:43 cn926/cn926 ntpd[28225]: synchronized to 10.100.22.250, stratum 3
+- 1131565484 2005.11.09 bn758 Nov 9 11:44:44 bn758/bn758 ntpd[23037]: synchronized to 10.100.22.250, stratum 3
+- 1131565485 2005.11.09 bn132 Nov 9 11:44:45 bn132/bn132 ntpd[22316]: synchronized to 10.100.16.250, stratum 3
+- 1131565495 2005.11.09 bn937 Nov 9 11:44:55 bn937/bn937 ntpd[17833]: synchronized to 10.100.12.250, stratum 3
+- 1131565504 2005.11.09 cn898 Nov 9 11:45:04 cn898/cn898 ntpd[27987]: synchronized to 10.100.20.250, stratum 3
+- 1131565505 2005.11.09 cn472 Nov 9 11:45:05 cn472/cn472 ntpd[15477]: synchronized to 10.100.20.250, stratum 3
+- 1131565507 2005.11.09 bn495 Nov 9 11:45:07 bn495/bn495 ntpd[27741]: synchronized to 10.100.12.250, stratum 3
+- 1131565507 2005.11.09 cn374 Nov 9 11:45:07 cn374/cn374 ntpd[10061]: synchronized to 10.100.22.250, stratum 3
+- 1131565523 2005.11.09 cn250 Nov 9 11:45:23 cn250/cn250 ntpd[11202]: synchronized to 10.100.18.250, stratum 3
+- 1131565540 2005.11.09 bn645 Nov 9 11:45:40 bn645/bn645 ntpd[23720]: synchronized to 10.100.20.250, stratum 3
+- 1131565543 2005.11.09 cn936 Nov 9 11:45:43 cn936/cn936 ntpd[29168]: synchronized to 10.100.20.250, stratum 3
+- 1131565550 2005.11.09 cn130 Nov 9 11:45:50 cn130/cn130 ntpd[28810]: synchronized to 10.100.20.250, stratum 3
+- 1131565560 2005.11.09 bn100 Nov 9 11:46:00 bn100/bn100 ntpd[22734]: synchronized to 10.100.20.250, stratum 3
+- 1131565570 2005.11.09 bn560 Nov 9 11:46:10 bn560/bn560 ntpd[30646]: synchronized to 10.100.14.250, stratum 3
+- 1131565581 2005.11.09 cn160 Nov 9 11:46:21 cn160/cn160 ntpd[9830]: synchronized to 10.100.18.250, stratum 3
+- 1131565591 2005.11.09 cn714 Nov 9 11:46:31 cn714/cn714 ntpd[18847]: synchronized to 10.100.22.250, stratum 3
+- 1131565601 2005.11.09 bn134 Nov 9 11:46:41 bn134/bn134 ntpd[22524]: synchronized to 10.100.20.250, stratum 3
+- 1131565601 2005.11.09 bn993 Nov 9 11:46:41 bn993/bn993 ntpd[14363]: synchronized to 10.100.12.250, stratum 3
+- 1131565606 2005.11.09 bn381 Nov 9 11:46:46 bn381/bn381 ntpd[32061]: synchronized to 10.100.22.250, stratum 3
+- 1131565608 2005.11.09 bn836 Nov 9 11:46:48 bn836/bn836 ntpd[21712]: synchronized to 10.100.20.250, stratum 3
+- 1131565611 2005.11.09 cn212 Nov 9 11:46:51 cn212/cn212 ntpd[19672]: synchronized to 10.100.20.250, stratum 3
+- 1131565617 2005.11.09 cn779 Nov 9 11:46:57 cn779/cn779 ntpd[28009]: synchronized to 10.100.22.250, stratum 3
+- 1131565620 2005.11.09 cn709 Nov 9 11:47:00 cn709/cn709 ntpd[19295]: synchronized to 10.100.22.250, stratum 3
+- 1131565623 2005.11.09 bn993 Nov 9 11:47:03 bn993/bn993 ntpd[14363]: synchronized to 10.100.10.250, stratum 3
+- 1131565627 2005.11.09 cn234 Nov 9 11:47:07 cn234/cn234 ntpd[10674]: synchronized to 10.100.20.250, stratum 3
+- 1131565627 2005.11.09 cn300 Nov 9 11:47:07 cn300/cn300 ntpd[24356]: synchronized to 10.100.18.250, stratum 3
+- 1131565632 2005.11.09 cn206 Nov 9 11:47:12 cn206/cn206 ntpd[20548]: synchronized to 10.100.22.250, stratum 3
+- 1131565637 2005.11.09 cn141 Nov 9 11:47:17 cn141/cn141 ntpd[27858]: synchronized to 10.100.20.250, stratum 3
+- 1131565638 2005.11.09 cn503 Nov 9 11:47:18 cn503/cn503 ntpd[16774]: synchronized to 10.100.18.250, stratum 3
+- 1131565639 2005.11.09 cn750 Nov 9 11:47:19 cn750/cn750 ntpd[28595]: synchronized to 10.100.18.250, stratum 3
+- 1131565640 2005.11.09 bn132 Nov 9 11:47:20 bn132/bn132 ntpd[22316]: synchronized to 10.100.18.250, stratum 3
+- 1131565648 2005.11.09 bn429 Nov 9 11:47:28 bn429/bn429 ntpd[29251]: synchronized to 10.100.16.250, stratum 3
+- 1131565652 2005.11.09 bn430 Nov 9 11:47:32 bn430/bn430 ntpd[29622]: synchronized to 10.100.10.250, stratum 3
+- 1131565652 2005.11.09 cn120 Nov 9 11:47:32 cn120/cn120 ntpd[20655]: synchronized to 10.100.22.250, stratum 3
+- 1131565653 2005.11.09 bn29 Nov 9 11:47:33 bn29/bn29 ntpd[22771]: synchronized to 10.100.16.250, stratum 3
+- 1131565653 2005.11.09 cn724 Nov 9 11:47:33 cn724/cn724 ntpd[28834]: synchronized to 10.100.22.250, stratum 3
+- 1131565657 2005.11.09 bn3 Nov 9 11:47:37 bn3/bn3 ntpd[22869]: synchronized to 10.100.18.250, stratum 3
+- 1131565658 2005.11.09 cn967 Nov 9 11:47:38 cn967/cn967 ntpd[19908]: synchronized to 10.100.18.250, stratum 3
+- 1131565659 2005.11.09 cn503 Nov 9 11:47:39 cn503/cn503 ntpd[16774]: synchronized to 10.100.22.250, stratum 3
+- 1131565659 2005.11.09 cn985 Nov 9 11:47:39 cn985/cn985 ntpd[19422]: synchronized to 10.100.20.250, stratum 3
+- 1131565664 2005.11.09 cn373 Nov 9 11:47:44 cn373/cn373 ntpd[10321]: synchronized to 10.100.18.250, stratum 3
+- 1131565665 2005.11.09 cn15 Nov 9 11:47:45 cn15/cn15 ntpd[15650]: synchronized to 10.100.22.250, stratum 3
+- 1131565667 2005.11.09 cn68 Nov 9 11:47:47 cn68/cn68 ntpd[14667]: synchronized to 10.100.22.250, stratum 3
+- 1131565669 2005.11.09 cn68 Nov 9 11:47:49 cn68/cn68 ntpd[14667]: synchronized to 10.100.20.250, stratum 3
+- 1131565678 2005.11.09 cn547 Nov 9 11:47:58 cn547/cn547 ntpd[14473]: synchronized to 10.100.20.250, stratum 3
+- 1131565680 2005.11.09 cn1018 Nov 9 11:48:00 cn1018/cn1018 ntpd[19600]: synchronized to 10.100.16.250, stratum 3
+- 1131565686 2005.11.09 cn775 Nov 9 11:48:06 cn775/cn775 ntpd[27915]: synchronized to 10.100.22.250, stratum 3
+- 1131565696 2005.11.09 cn771 Nov 9 11:48:16 cn771/cn771 ntpd[27994]: synchronized to 10.100.18.250, stratum 3
+- 1131565700 2005.11.09 cn877 Nov 9 11:48:20 cn877/cn877 ntpd[29971]: synchronized to 10.100.22.250, stratum 3
+- 1131565702 2005.11.09 cn95 Nov 9 11:48:22 cn95/cn95 ntpd[19781]: synchronized to 10.100.18.250, stratum 3
+- 1131565711 2005.11.09 cn362 Nov 9 11:48:31 cn362/cn362 ntpd[10437]: synchronized to 10.100.20.250, stratum 3
+- 1131565721 2005.11.09 cn826 Nov 9 11:48:41 cn826/cn826 ntpd[29220]: synchronized to 10.100.16.250, stratum 3
+- 1131565721 2005.11.09 cn95 Nov 9 11:48:41 cn95/cn95 ntpd[19781]: synchronized to 10.100.16.250, stratum 3
+- 1131565722 2005.11.09 cn784 Nov 9 11:48:42 cn784/cn784 ntpd[26978]: synchronized to 10.100.18.250, stratum 3
+- 1131565723 2005.11.09 bn73 Nov 9 11:48:43 bn73/bn73 ntpd[7675]: synchronized to 10.100.8.250, stratum 3
+- 1131565724 2005.11.09 cn355 Nov 9 11:48:44 cn355/cn355 ntpd[9987]: synchronized to 10.100.22.250, stratum 3
+- 1131565725 2005.11.09 bn73 Nov 9 11:48:45 bn73/bn73 ntpd[7675]: synchronized to 10.100.10.250, stratum 3
+- 1131565736 2005.11.09 bn140 Nov 9 11:48:56 bn140/bn140 ntpd[22859]: synchronized to 10.100.18.250, stratum 3
+- 1131565739 2005.11.09 cn370 Nov 9 11:48:59 cn370/cn370 ntpd[10288]: synchronized to 10.100.22.250, stratum 3
+- 1131565748 2005.11.09 bn836 Nov 9 11:49:08 bn836/bn836 ntpd[21712]: synchronized to 10.100.16.250, stratum 3
+- 1131565753 2005.11.09 cn926 Nov 9 11:49:13 cn926/cn926 ntpd[28225]: synchronized to 10.100.20.250, stratum 3
+- 1131565754 2005.11.09 cn884 Nov 9 11:49:14 cn884/cn884 ntpd[32661]: synchronized to 10.100.22.250, stratum 3
+- 1131565779 2005.11.09 bn404 Nov 9 11:49:39 bn404/bn404 ntpd[30121]: synchronized to 10.100.16.250, stratum 3
+- 1131565784 2005.11.09 cn887 Nov 9 11:49:44 cn887/cn887 ntpd[28964]: synchronized to 10.100.20.250, stratum 3
+- 1131565790 2005.11.09 bn483 Nov 9 11:49:50 bn483/bn483 ntpd[29542]: synchronized to 10.100.12.250, stratum 3
+- 1131565791 2005.11.09 bn165 Nov 9 11:49:51 bn165/bn165 ntpd[23331]: synchronized to 10.100.22.250, stratum 3
+- 1131565792 2005.11.09 cn232 Nov 9 11:49:52 cn232/cn232 ntpd[10673]: synchronized to 10.100.22.250, stratum 3
+- 1131565806 2005.11.09 bn642 Nov 9 11:50:06 bn642/bn642 ntpd[22338]: synchronized to 10.100.18.250, stratum 3
+- 1131565809 2005.11.09 bn350 Nov 9 11:50:09 bn350/bn350 ntpd[29477]: synchronized to 10.100.12.250, stratum 3
+- 1131565816 2005.11.09 cn74 Nov 9 11:50:16 cn74/cn74 ntpd[17700]: synchronized to 10.100.20.250, stratum 3
+- 1131565817 2005.11.09 bn642 Nov 9 11:50:17 bn642/bn642 ntpd[22338]: synchronized to 10.100.22.250, stratum 3
+- 1131565827 2005.11.09 cn843 Nov 9 11:50:27 cn843/cn843 ntpd[28247]: synchronized to 10.100.18.250, stratum 3
+- 1131565829 2005.11.09 cn17 Nov 9 11:50:29 cn17/cn17 ntpd[15640]: synchronized to 10.100.20.250, stratum 3
+- 1131565830 2005.11.09 cn28 Nov 9 11:50:30 cn28/cn28 ntpd[17357]: synchronized to 10.100.18.250, stratum 3
+- 1131565832 2005.11.09 bn140 Nov 9 11:50:32 bn140/bn140 ntpd[22859]: synchronized to 10.100.20.250, stratum 3
+- 1131565841 2005.11.09 bn740 Nov 9 11:50:41 bn740/bn740 ntpd[24169]: synchronized to 10.100.18.250, stratum 3
+- 1131565843 2005.11.09 bn846 Nov 9 11:50:43 bn846/bn846 ntpd[22032]: synchronized to 10.100.18.250, stratum 3
+- 1131565852 2005.11.09 bn880 Nov 9 11:50:52 bn880/bn880 ntpd[1799]: synchronized to 10.100.10.250, stratum 3
+- 1131565854 2005.11.09 cn366 Nov 9 11:50:54 cn366/cn366 ntpd[9630]: synchronized to 10.100.20.250, stratum 3
+- 1131565854 2005.11.09 cn840 Nov 9 11:50:54 cn840/cn840 ntpd[28070]: synchronized to 10.100.20.250, stratum 3
+- 1131565860 2005.11.09 bn822 Nov 9 11:51:00 bn822/bn822 ntpd[24887]: synchronized to 10.100.22.250, stratum 3
+- 1131565862 2005.11.09 cn934 Nov 9 11:51:02 cn934/cn934 ntpd[13128]: synchronized to 10.100.20.250, stratum 3
+- 1131565863 2005.11.09 cn45 Nov 9 11:51:03 cn45/cn45 ntpd[15365]: synchronized to 10.100.22.250, stratum 3
+- 1131565867 2005.11.09 cn840 Nov 9 11:51:07 cn840/cn840 ntpd[28070]: synchronized to 10.100.18.250, stratum 3
+- 1131565869 2005.11.09 cn702 Nov 9 11:51:09 cn702/cn702 ntpd[19341]: synchronized to 10.100.22.250, stratum 3
+- 1131565869 2005.11.09 cn799 Nov 9 11:51:09 cn799/cn799 ntpd[28070]: synchronized to 10.100.22.250, stratum 3
+- 1131565870 2005.11.09 cn908 Nov 9 11:51:10 cn908/cn908 ntpd[28064]: synchronized to 10.100.20.250, stratum 3
+- 1131565873 2005.11.09 cn530 Nov 9 11:51:13 cn530/cn530 ntpd[15859]: synchronized to 10.100.22.250, stratum 3
+- 1131565875 2005.11.09 cn164 Nov 9 11:51:15 cn164/cn164 ntpd[32085]: synchronized to 10.100.22.250, stratum 3
+- 1131565877 2005.11.09 bn311 Nov 9 11:51:17 bn311/bn311 ntpd[29566]: synchronized to 10.100.20.250, stratum 3
+- 1131565878 2005.11.09 bn432 Nov 9 11:51:18 bn432/bn432 ntpd[28797]: synchronized to 10.100.22.250, stratum 3
+- 1131565883 2005.11.09 cn1018 Nov 9 11:51:23 cn1018/cn1018 ntpd[19600]: synchronized to 10.100.18.250, stratum 3
+- 1131565884 2005.11.09 cn707 Nov 9 11:51:24 cn707/cn707 ntpd[20117]: synchronized to 10.100.22.250, stratum 3
+- 1131565887 2005.11.09 cn18 Nov 9 11:51:27 cn18/cn18 ntpd[25277]: synchronized to 10.100.20.250, stratum 3
+- 1131565887 2005.11.09 cn404 Nov 9 11:51:27 cn404/cn404 ntpd[13027]: synchronized to 10.100.20.250, stratum 3
+- 1131565897 2005.11.09 bn153 Nov 9 11:51:37 bn153/bn153 ntpd[22993]: synchronized to 10.100.22.250, stratum 3
+- 1131565897 2005.11.09 cn530 Nov 9 11:51:37 cn530/cn530 ntpd[15859]: synchronized to 10.100.20.250, stratum 3
+- 1131565898 2005.11.09 cn192 Nov 9 11:51:38 cn192/cn192 ntpd[19361]: synchronized to 10.100.20.250, stratum 3
+- 1131565898 2005.11.09 cn452 Nov 9 11:51:38 cn452/cn452 ntpd[10944]: synchronized to 10.100.20.250, stratum 3
+- 1131565899 2005.11.09 bn355 Nov 9 11:51:39 bn355/bn355 ntpd[28740]: synchronized to 10.100.22.250, stratum 3
+- 1131565899 2005.11.09 bn460 Nov 9 11:51:39 bn460/bn460 ntpd[29103]: synchronized to 10.100.18.250, stratum 3
+- 1131565899 2005.11.09 cn548 Nov 9 11:51:39 cn548/cn548 ntpd[14756]: synchronized to 10.100.22.250, stratum 3
+- 1131565901 2005.11.09 bn813 Nov 9 11:51:41 bn813/bn813 ntpd[23910]: synchronized to 10.100.22.250, stratum 3
+- 1131565907 2005.11.09 cn917 Nov 9 11:51:47 cn917/cn917 ntpd[29360]: synchronized to 10.100.20.250, stratum 3
+- 1131565908 2005.11.09 bn758 Nov 9 11:51:48 bn758/bn758 ntpd[23037]: synchronized to 10.100.20.250, stratum 3
+- 1131565910 2005.11.09 cn447 Nov 9 11:51:50 cn447/cn447 ntpd[11766]: synchronized to 10.100.20.250, stratum 3
+- 1131565910 2005.11.09 cn70 Nov 9 11:51:50 cn70/cn70 ntpd[14578]: synchronized to 10.100.20.250, stratum 3
+- 1131565912 2005.11.09 cn553 Nov 9 11:51:52 cn553/cn553 ntpd[14696]: synchronized to 10.100.22.250, stratum 3
+- 1131565914 2005.11.09 bn3 Nov 9 11:51:54 bn3/bn3 ntpd[22869]: synchronized to 10.100.20.250, stratum 3
+- 1131565917 2005.11.09 cn104 Nov 9 11:51:57 cn104/cn104 ntpd[19460]: synchronized to 10.100.20.250, stratum 3
+- 1131565919 2005.11.09 bn652 Nov 9 11:51:59 bn652/bn652 ntpd[23833]: synchronized to 10.100.8.250, stratum 3
+- 1131565921 2005.11.09 cn110 Nov 9 11:52:01 cn110/cn110 ntpd[19852]: synchronized to 10.100.20.250, stratum 3
+- 1131565923 2005.11.09 bn882 Nov 9 11:52:03 bn882/bn882 ntpd[10703]: synchronized to 10.100.8.250, stratum 3
+- 1131565924 2005.11.09 bn656 Nov 9 11:52:04 bn656/bn656 ntpd[23267]: synchronized to 10.100.22.250, stratum 3
+- 1131565924 2005.11.09 cn192 Nov 9 11:52:04 cn192/cn192 ntpd[19361]: synchronized to 10.100.18.250, stratum 3
+- 1131565924 2005.11.09 cn372 Nov 9 11:52:04 cn372/cn372 ntpd[10326]: synchronized to 10.100.22.250, stratum 3
+- 1131565925 2005.11.09 cn929 Nov 9 11:52:05 cn929/cn929 ntpd[29081]: synchronized to 10.100.22.250, stratum 3
+- 1131565929 2005.11.09 cn605 Nov 9 11:52:09 cn605/cn605 ntpd[18950]: synchronized to 10.100.22.250, stratum 3
+- 1131565930 2005.11.09 bn505 Nov 9 11:52:10 bn505/bn505 ntpd[11849]: synchronized to 10.100.22.250, stratum 3
+- 1131565932 2005.11.09 cn867 Nov 9 11:52:12 cn867/cn867 ntpd[25509]: synchronized to 10.100.20.250, stratum 3
+- 1131565933 2005.11.09 cn428 Nov 9 11:52:13 cn428/cn428 ntpd[12704]: synchronized to 10.100.22.250, stratum 3
+- 1131565935 2005.11.09 bn843 Nov 9 11:52:15 bn843/bn843 ntpd[22085]: synchronized to 10.100.18.250, stratum 3
+- 1131565935 2005.11.09 cn381 Nov 9 11:52:15 cn381/cn381 ntpd[10165]: synchronized to 10.100.22.250, stratum 3
+- 1131565936 2005.11.09 cn361 Nov 9 11:52:16 cn361/cn361 ntpd[10482]: synchronized to 10.100.20.250, stratum 3
+- 1131565936 2005.11.09 cn901 Nov 9 11:52:16 cn901/cn901 ntpd[28719]: synchronized to 10.100.20.250, stratum 3
+- 1131565938 2005.11.09 bn1015 Nov 9 11:52:18 bn1015/bn1015 ntpd[14532]: synchronized to 10.100.20.250, stratum 3
+- 1131565939 2005.11.09 cn442 Nov 9 11:52:19 cn442/cn442 ntpd[13207]: synchronized to 10.100.20.250, stratum 3
+- 1131565939 2005.11.09 cn691 Nov 9 11:52:19 cn691/cn691 ntpd[19243]: synchronized to 10.100.20.250, stratum 3
+- 1131565941 2005.11.09 cn523 Nov 9 11:52:21 cn523/cn523 ntpd[16033]: synchronized to 10.100.20.250, stratum 3
+- 1131565944 2005.11.09 bn415 Nov 9 11:52:24 bn415/bn415 ntpd[28452]: synchronized to 10.100.20.250, stratum 3
+- 1131565946 2005.11.09 cn826 Nov 9 11:52:26 cn826/cn826 ntpd[29220]: synchronized to 10.100.18.250, stratum 3
+- 1131565946 2005.11.09 cn944 Nov 9 11:52:26 cn944/cn944 ntpd[18978]: synchronized to 10.100.20.250, stratum 3
+- 1131565947 2005.11.09 cn799 Nov 9 11:52:27 cn799/cn799 ntpd[28070]: synchronized to 10.100.16.250, stratum 3
+- 1131565950 2005.11.09 bn307 Nov 9 11:52:30 bn307/bn307 ntpd[2257]: synchronized to 10.100.20.250, stratum 3
+- 1131565952 2005.11.09 bn497 Nov 9 11:52:32 bn497/bn497 ntpd[28724]: synchronized to 10.100.20.250, stratum 3
+- 1131565952 2005.11.09 cn547 Nov 9 11:52:32 cn547/cn547 ntpd[14473]: synchronized to 10.100.18.250, stratum 3
+- 1131565955 2005.11.09 bn736 Nov 9 11:52:35 bn736/bn736 ntpd[2357]: synchronized to 10.100.20.250, stratum 3
+- 1131565955 2005.11.09 cn708 Nov 9 11:52:35 cn708/cn708 ntpd[3219]: synchronized to 10.100.20.250, stratum 3
+- 1131565956 2005.11.09 cn731 Nov 9 11:52:36 cn731/cn731 ntpd[28632]: synchronized to 10.100.22.250, stratum 3
+- 1131565957 2005.11.09 bn403 Nov 9 11:52:37 bn403/bn403 ntpd[28876]: synchronized to 10.100.22.250, stratum 3
+- 1131565962 2005.11.09 bn814 Nov 9 11:52:42 bn814/bn814 ntpd[23239]: synchronized to 10.100.20.250, stratum 3
+- 1131565963 2005.11.09 cn183 Nov 9 11:52:43 cn183/cn183 ntpd[4314]: synchronized to 10.100.20.250, stratum 3
+- 1131565964 2005.11.09 cn480 Nov 9 11:52:44 cn480/cn480 ntpd[16842]: synchronized to 10.100.20.250, stratum 3
+- 1131565964 2005.11.09 cn551 Nov 9 11:52:44 cn551/cn551 ntpd[15308]: synchronized to 10.100.18.250, stratum 3
+- 1131565966 2005.11.09 cn44 Nov 9 11:52:46 cn44/cn44 ntpd[15042]: synchronized to 10.100.20.250, stratum 3
+- 1131565967 2005.11.09 bn647 Nov 9 11:52:47 bn647/bn647 ntpd[30260]: synchronized to 10.100.12.250, stratum 3
+- 1131565972 2005.11.09 bn818 Nov 9 11:52:52 bn818/bn818 ntpd[23720]: synchronized to 10.100.20.250, stratum 3
+- 1131565979 2005.11.09 bn402 Nov 9 11:52:59 bn402/bn402 ntpd[28883]: synchronized to 10.100.20.250, stratum 3
+- 1131565979 2005.11.09 cn437 Nov 9 11:52:59 cn437/cn437 ntpd[9875]: synchronized to 10.100.22.250, stratum 3
+- 1131565980 2005.11.09 cn806 Nov 9 11:53:00 cn806/cn806 ntpd[28601]: synchronized to 10.100.22.250, stratum 3
+- 1131565981 2005.11.09 cn729 Nov 9 11:53:01 cn729/cn729 ntpd[28377]: synchronized to 10.100.22.250, stratum 3
+- 1131565983 2005.11.09 cn265 Nov 9 11:53:03 cn265/cn265 ntpd[12012]: synchronized to 10.100.18.250, stratum 3
+- 1131565983 2005.11.09 cn78 Nov 9 11:53:03 cn78/cn78 ntpd[17489]: synchronized to 10.100.20.250, stratum 3
+- 1131565987 2005.11.09 bn221 Nov 9 11:53:07 bn221/bn221 ntpd[24087]: synchronized to 10.100.20.250, stratum 3
+- 1131565988 2005.11.09 cn748 Nov 9 11:53:08 cn748/cn748 ntpd[29307]: synchronized to 10.100.22.250, stratum 3
+- 1131565993 2005.11.09 bn340 Nov 9 11:53:13 bn340/bn340 ntpd[28918]: synchronized to 10.100.20.250, stratum 3
+- 1131565996 2005.11.09 cn519 Nov 9 11:53:16 cn519/cn519 ntpd[16839]: synchronized to 10.100.18.250, stratum 3
+- 1131565998 2005.11.09 bn1006 Nov 9 11:53:18 bn1006/bn1006 ntpd[14480]: synchronized to 10.100.20.250, stratum 3
+- 1131566000 2005.11.09 cn413 Nov 9 11:53:20 cn413/cn413 ntpd[13159]: synchronized to 10.100.20.250, stratum 3
+- 1131566001 2005.11.09 cn62 Nov 9 11:53:21 cn62/cn62 ntpd[13100]: synchronized to 10.100.20.250, stratum 3
+- 1131566002 2005.11.09 cn352 Nov 9 11:53:22 cn352/cn352 ntpd[13058]: synchronized to 10.100.20.250, stratum 3
+- 1131566003 2005.11.09 cn712 Nov 9 11:53:23 cn712/cn712 ntpd[19107]: synchronized to 10.100.16.250, stratum 3
+- 1131566007 2005.11.09 cn744 Nov 9 11:53:27 cn744/cn744 ntpd[28337]: synchronized to 10.100.18.250, stratum 3
+- 1131566008 2005.11.09 cn61 Nov 9 11:53:28 cn61/cn61 ntpd[15250]: synchronized to 10.100.20.250, stratum 3
+- 1131566009 2005.11.09 cn929 Nov 9 11:53:29 cn929/cn929 ntpd[29081]: synchronized to 10.100.16.250, stratum 3
+- 1131566015 2005.11.09 bn895 Nov 9 11:53:35 bn895/bn895 ntpd[25175]: synchronized to 10.100.20.250, stratum 3
+- 1131566015 2005.11.09 cn326 Nov 9 11:53:35 cn326/cn326 ntpd[23617]: synchronized to 10.100.18.250, stratum 3
+- 1131566015 2005.11.09 cn744 Nov 9 11:53:35 cn744/cn744 ntpd[28337]: synchronized to 10.100.22.250, stratum 3
+- 1131566019 2005.11.09 cn193 Nov 9 11:53:39 cn193/cn193 ntpd[20725]: synchronized to 10.100.18.250, stratum 3
+- 1131566019 2005.11.09 cn364 Nov 9 11:53:39 cn364/cn364 ntpd[11149]: synchronized to 10.100.22.250, stratum 3
+- 1131566022 2005.11.09 cn364 Nov 9 11:53:42 cn364/cn364 ntpd[11149]: synchronized to 10.100.20.250, stratum 3
+- 1131566023 2005.11.09 cn30 Nov 9 11:53:43 cn30/cn30 ntpd[17395]: synchronized to 10.100.22.250, stratum 3
+- 1131566024 2005.11.09 cn739 Nov 9 11:53:44 cn739/cn739 ntpd[28232]: synchronized to 10.100.18.250, stratum 3
+- 1131566025 2005.11.09 bn944 Nov 9 11:53:45 bn944/bn944 ntpd[15338]: synchronized to 10.100.22.250, stratum 3
+- 1131566025 2005.11.09 cn187 Nov 9 11:53:45 cn187/cn187 ntpd[9616]: synchronized to 10.100.20.250, stratum 3
+- 1131566029 2005.11.09 bn740 Nov 9 11:53:49 bn740/bn740 ntpd[24169]: synchronized to 10.100.22.250, stratum 3
+- 1131566030 2005.11.09 cn259 Nov 9 11:53:50 cn259/cn259 ntpd[11393]: synchronized to 10.100.22.250, stratum 3
+- 1131566032 2005.11.09 bn795 Nov 9 11:53:52 bn795/bn795 ntpd[23670]: synchronized to 10.100.22.250, stratum 3
+- 1131566032 2005.11.09 cn854 Nov 9 11:53:52 cn854/cn854 ntpd[28269]: synchronized to 10.100.22.250, stratum 3
+- 1131566033 2005.11.09 cn548 Nov 9 11:53:53 cn548/cn548 ntpd[14756]: synchronized to 10.100.18.250, stratum 3
+- 1131566033 2005.11.09 cn659 Nov 9 11:53:53 cn659/cn659 ntpd[18695]: synchronized to 10.100.22.250, stratum 3
+- 1131566036 2005.11.09 cn536 Nov 9 11:53:56 cn536/cn536 ntpd[15822]: synchronized to 10.100.22.250, stratum 3
+- 1131566038 2005.11.09 bn638 Nov 9 11:53:58 bn638/bn638 ntpd[22574]: synchronized to 10.100.18.250, stratum 3
+- 1131566044 2005.11.09 bn398 Nov 9 11:54:04 bn398/bn398 ntpd[30276]: synchronized to 10.100.22.250, stratum 3
+- 1131566044 2005.11.09 cn626 Nov 9 11:54:04 cn626/cn626 ntpd[18407]: synchronized to 10.100.20.250, stratum 3
+- 1131566045 2005.11.09 bn38 Nov 9 11:54:05 bn38/bn38 ntpd[22638]: synchronized to 10.100.20.250, stratum 3
+- 1131566046 2005.11.09 cn36 Nov 9 11:54:06 cn36/cn36 ntpd[17540]: synchronized to 10.100.20.250, stratum 3
+- 1131566047 2005.11.09 cn854 Nov 9 11:54:07 cn854/cn854 ntpd[28269]: synchronized to 10.100.16.250, stratum 3
+- 1131566049 2005.11.09 bn645 Nov 9 11:54:09 bn645/bn645 ntpd[23720]: synchronized to 10.100.18.250, stratum 3
+- 1131566049 2005.11.09 cn921 Nov 9 11:54:09 cn921/cn921 ntpd[28851]: synchronized to 10.100.20.250, stratum 3
+- 1131566051 2005.11.09 bn65 Nov 9 11:54:11 bn65/bn65 ntpd[3311]: synchronized to 10.100.20.250, stratum 3
+- 1131566051 2005.11.09 cn824 Nov 9 11:54:11 cn824/cn824 ntpd[28608]: synchronized to 10.100.16.250, stratum 3
+- 1131566055 2005.11.09 bn832 Nov 9 11:54:15 bn832/bn832 ntpd[21672]: synchronized to 10.100.16.250, stratum 3
+- 1131566055 2005.11.09 cn111 Nov 9 11:54:15 cn111/cn111 ntpd[19822]: synchronized to 10.100.20.250, stratum 3
+- 1131566058 2005.11.09 bn659 Nov 9 11:54:18 bn659/bn659 ntpd[23245]: synchronized to 10.100.22.250, stratum 3
+- 1131566060 2005.11.09 cn844 Nov 9 11:54:20 cn844/cn844 ntpd[28132]: synchronized to 10.100.22.250, stratum 3
+- 1131566061 2005.11.09 cn921 Nov 9 11:54:21 cn921/cn921 ntpd[28851]: synchronized to 10.100.18.250, stratum 3
+- 1131566062 2005.11.09 bn772 Nov 9 11:54:22 bn772/bn772 ntpd[3214]: synchronized to 10.100.20.250, stratum 3
+- 1131566063 2005.11.09 cn459 Nov 9 11:54:23 cn459/cn459 ntpd[12629]: synchronized to 10.100.22.250, stratum 3
+- 1131566065 2005.11.09 cn170 Nov 9 11:54:25 cn170/cn170 ntpd[11351]: synchronized to 10.100.22.250, stratum 3
+- 1131566066 2005.11.09 cn850 Nov 9 11:54:26 cn850/cn850 ntpd[28230]: synchronized to 10.100.20.250, stratum 3
+- 1131566069 2005.11.09 cn394 Nov 9 11:54:29 cn394/cn394 ntpd[10250]: synchronized to 10.100.20.250, stratum 3
+- 1131566074 2005.11.09 bn1 Nov 9 11:54:34 bn1/bn1 ntpd[23146]: synchronized to 10.100.18.250, stratum 3
+- 1131566074 2005.11.09 cn123 Nov 9 11:54:34 cn123/cn123 ntpd[20674]: synchronized to 10.100.16.250, stratum 3
+- 1131566075 2005.11.09 cn858 Nov 9 11:54:35 cn858/cn858 ntpd[28402]: synchronized to 10.100.20.250, stratum 3
+- 1131566076 2005.11.09 cn531 Nov 9 11:54:36 cn531/cn531 ntpd[16139]: synchronized to 10.100.22.250, stratum 3
+- 1131566083 2005.11.09 an895 Nov 9 11:54:43 an895/an895 ntpd[2066]: synchronized to 10.100.8.250, stratum 3
+- 1131566088 2005.11.09 cn149 Nov 9 11:54:48 cn149/cn149 ntpd[10155]: synchronized to 10.100.18.250, stratum 3
+- 1131566093 2005.11.09 cn367 Nov 9 11:54:53 cn367/cn367 ntpd[9827]: synchronized to 10.100.22.250, stratum 3
+- 1131566098 2005.11.09 cn210 Nov 9 11:54:58 cn210/cn210 ntpd[19572]: synchronized to 10.100.22.250, stratum 3
+- 1131566100 2005.11.09 cn479 Nov 9 11:55:00 cn479/cn479 ntpd[14732]: synchronized to 10.100.20.250, stratum 3
+- 1131566107 2005.11.09 bn503 Nov 9 11:55:07 bn503/bn503 ntpd[29348]: synchronized to 10.100.12.250, stratum 3
+- 1131566114 2005.11.09 bn503 Nov 9 11:55:14 bn503/bn503 ntpd[29348]: synchronized to 10.100.14.250, stratum 3
+- 1131566117 2005.11.09 cn114 Nov 9 11:55:17 cn114/cn114 ntpd[20519]: synchronized to 10.100.18.250, stratum 3
+- 1131566119 2005.11.09 bn381 Nov 9 11:55:19 bn381/bn381 ntpd[32061]: synchronized to 10.100.16.250, stratum 3
+- 1131566120 2005.11.09 cn949 Nov 9 11:55:20 cn949/cn949 ntpd[24739]: synchronized to 10.100.22.250, stratum 3
+- 1131566122 2005.11.09 cn920 Nov 9 11:55:22 cn920/cn920 ntpd[29053]: synchronized to 10.100.22.250, stratum 3
+- 1131566124 2005.11.09 cn839 Nov 9 11:55:24 cn839/cn839 ntpd[28293]: synchronized to 10.100.22.250, stratum 3
+- 1131566125 2005.11.09 bn124 Nov 9 11:55:25 bn124/bn124 ntpd[22190]: synchronized to 10.100.16.250, stratum 3
+- 1131566128 2005.11.09 bn570 Nov 9 11:55:28 bn570/bn570 ntpd[23815]: synchronized to 10.100.22.250, stratum 3
+- 1131566129 2005.11.09 cn894 Nov 9 11:55:29 cn894/cn894 ntpd[12970]: synchronized to 10.100.20.250, stratum 3
+- 1131566131 2005.11.09 bn10 Nov 9 11:55:31 bn10/bn10 ntpd[22328]: synchronized to 10.100.22.250, stratum 3
+- 1131566133 2005.11.09 bn107 Nov 9 11:55:33 bn107/bn107 ntpd[22554]: synchronized to 10.100.20.250, stratum 3
+- 1131566136 2005.11.09 cn524 Nov 9 11:55:36 cn524/cn524 ntpd[15917]: synchronized to 10.100.20.250, stratum 3
+- 1131566136 2005.11.09 cn977 Nov 9 11:55:36 cn977/cn977 ntpd[31977]: synchronized to 10.100.20.250, stratum 3
+- 1131566139 2005.11.09 bn460 Nov 9 11:55:39 bn460/bn460 ntpd[29103]: synchronized to 10.100.16.250, stratum 3
+- 1131566139 2005.11.09 cn301 Nov 9 11:55:39 cn301/cn301 ntpd[22898]: synchronized to 10.100.18.250, stratum 3
+- 1131566145 2005.11.09 cn673 Nov 9 11:55:45 cn673/cn673 ntpd[20417]: synchronized to 10.100.22.250, stratum 3
+- 1131566147 2005.11.09 cn488 Nov 9 11:55:47 cn488/cn488 ntpd[15809]: synchronized to 10.100.18.250, stratum 3
+- 1131566148 2005.11.09 bn989 Nov 9 11:55:48 bn989/bn989 ntpd[14380]: synchronized to 10.100.12.250, stratum 3
+- 1131566154 2005.11.09 bn385 Nov 9 11:55:54 bn385/bn385 ntpd[29353]: synchronized to 10.100.14.250, stratum 3
+- 1131566161 2005.11.09 cn937 Nov 9 11:56:01 cn937/cn937 ntpd[31098]: synchronized to 10.100.22.250, stratum 3
+- 1131566162 2005.11.09 cn948 Nov 9 11:56:02 cn948/cn948 ntpd[29836]: synchronized to 10.100.22.250, stratum 3
+- 1131566166 2005.11.09 cn853 Nov 9 11:56:06 cn853/cn853 ntpd[27979]: synchronized to 10.100.22.250, stratum 3
+- 1131566167 2005.11.09 bn404 Nov 9 11:56:07 bn404/bn404 ntpd[30121]: synchronized to 10.100.20.250, stratum 3
+- 1131566167 2005.11.09 cn853 Nov 9 11:56:07 cn853/cn853 ntpd[27979]: synchronized to 10.100.18.250, stratum 3
+- 1131566170 2005.11.09 bn164 Nov 9 11:56:10 bn164/bn164 ntpd[22869]: synchronized to 10.100.22.250, stratum 3
+- 1131566173 2005.11.09 bn879 Nov 9 11:56:13 bn879/bn879 ntpd[24606]: synchronized to 10.100.22.250, stratum 3
+- 1131566174 2005.11.09 bn49 Nov 9 11:56:14 bn49/bn49 ntpd[22683]: synchronized to 10.100.20.250, stratum 3
+- 1131566175 2005.11.09 cn751 Nov 9 11:56:15 cn751/cn751 ntpd[28784]: synchronized to 10.100.16.250, stratum 3
+- 1131566176 2005.11.09 bn339 Nov 9 11:56:16 bn339/bn339 ntpd[29022]: synchronized to 10.100.22.250, stratum 3
+- 1131566176 2005.11.09 cn507 Nov 9 11:56:16 cn507/cn507 ntpd[15704]: synchronized to 10.100.18.250, stratum 3
+- 1131566177 2005.11.09 cn752 Nov 9 11:56:17 cn752/cn752 ntpd[28625]: synchronized to 10.100.16.250, stratum 3
+- 1131566178 2005.11.09 bn462 Nov 9 11:56:18 bn462/bn462 ntpd[28394]: synchronized to 10.100.20.250, stratum 3
+- 1131566178 2005.11.09 cn621 Nov 9 11:56:18 cn621/cn621 ntpd[18491]: synchronized to 10.100.22.250, stratum 3
+- 1131566179 2005.11.09 cn305 Nov 9 11:56:19 cn305/cn305 ntpd[32659]: synchronized to 10.100.22.250, stratum 3
+- 1131566180 2005.11.09 bn892 Nov 9 11:56:20 bn892/bn892 ntpd[25181]: synchronized to 10.100.18.250, stratum 3
+- 1131566183 2005.11.09 bn188 Nov 9 11:56:23 bn188/bn188 ntpd[22056]: synchronized to 10.100.20.250, stratum 3
+- 1131566184 2005.11.09 cn634 Nov 9 11:56:24 cn634/cn634 ntpd[19733]: synchronized to 10.100.20.250, stratum 3
+- 1131566185 2005.11.09 cn121 Nov 9 11:56:25 cn121/cn121 ntpd[20621]: synchronized to 10.100.20.250, stratum 3
+- 1131566188 2005.11.09 cn460 Nov 9 11:56:28 cn460/cn460 ntpd[11489]: synchronized to 10.100.18.250, stratum 3
+- 1131566189 2005.11.09 cn248 Nov 9 11:56:29 cn248/cn248 ntpd[10798]: synchronized to 10.100.20.250, stratum 3
+- 1131566190 2005.11.09 bn604 Nov 9 11:56:30 bn604/bn604 ntpd[8302]: synchronized to 10.100.20.250, stratum 3
+- 1131566192 2005.11.09 cn51 Nov 9 11:56:32 cn51/cn51 ntpd[15609]: synchronized to 10.100.18.250, stratum 3
+- 1131566193 2005.11.09 cn953 Nov 9 11:56:33 cn953/cn953 ntpd[19786]: synchronized to 10.100.20.250, stratum 3
+- 1131566204 2005.11.09 bn114 Nov 9 11:56:44 bn114/bn114 ntpd[22440]: synchronized to 10.100.22.250, stratum 3
+- 1131566204 2005.11.09 cn878 Nov 9 11:56:44 cn878/cn878 ntpd[29115]: synchronized to 10.100.22.250, stratum 3
+- 1131566204 2005.11.09 cn997 Nov 9 11:56:44 cn997/cn997 ntpd[19070]: synchronized to 10.100.18.250, stratum 3
+- 1131566205 2005.11.09 bn501 Nov 9 11:56:45 bn501/bn501 ntpd[29165]: synchronized to 10.100.20.250, stratum 3
+- 1131566208 2005.11.09 bn678 Nov 9 11:56:48 bn678/bn678 ntpd[24506]: synchronized to 10.100.18.250, stratum 3
+- 1131566209 2005.11.09 cn877 Nov 9 11:56:49 cn877/cn877 ntpd[29971]: synchronized to 10.100.16.250, stratum 3
+- 1131566211 2005.11.09 cn625 Nov 9 11:56:51 cn625/cn625 ntpd[18514]: synchronized to 10.100.20.250, stratum 3
+- 1131566211 2005.11.09 cn634 Nov 9 11:56:51 cn634/cn634 ntpd[19733]: synchronized to 10.100.22.250, stratum 3
+- 1131566214 2005.11.09 cn139 Nov 9 11:56:54 cn139/cn139 ntpd[31278]: synchronized to 10.100.20.250, stratum 3
+- 1131566215 2005.11.09 cn640 Nov 9 11:56:55 cn640/cn640 ntpd[19172]: synchronized to 10.100.20.250, stratum 3
+- 1131566216 2005.11.09 bn1003 Nov 9 11:56:56 bn1003/bn1003 ntpd[14443]: synchronized to 10.100.22.250, stratum 3
+- 1131566222 2005.11.09 bn635 Nov 9 11:57:02 bn635/bn635 ntpd[24068]: synchronized to 10.100.20.250, stratum 3
+- 1131566222 2005.11.09 cn565 Nov 9 11:57:02 cn565/cn565 ntpd[18008]: synchronized to 10.100.20.250, stratum 3
+- 1131566222 2005.11.09 cn651 Nov 9 11:57:02 cn651/cn651 ntpd[19212]: synchronized to 10.100.20.250, stratum 3
+- 1131566223 2005.11.09 bn1009 Nov 9 11:57:03 bn1009/bn1009 ntpd[14500]: synchronized to 10.100.12.250, stratum 3
+- 1131566223 2005.11.09 bn963 Nov 9 11:57:03 bn963/bn963 ntpd[15598]: synchronized to 10.100.20.250, stratum 3
+- 1131566224 2005.11.09 cn807 Nov 9 11:57:04 cn807/cn807 ntpd[28528]: synchronized to 10.100.20.250, stratum 3
+- 1131566225 2005.11.09 cn585 Nov 9 11:57:05 cn585/cn585 ntpd[18604]: synchronized to 10.100.22.250, stratum 3
+- 1131566227 2005.11.09 cn995 Nov 9 11:57:07 cn995/cn995 ntpd[18944]: synchronized to 10.100.20.250, stratum 3
+- 1131566232 2005.11.09 cn468 Nov 9 11:57:12 cn468/cn468 ntpd[15480]: synchronized to 10.100.22.250, stratum 3
+- 1131566233 2005.11.09 cn783 Nov 9 11:57:13 cn783/cn783 ntpd[27889]: synchronized to 10.100.20.250, stratum 3
+- 1131566234 2005.11.09 cn539 Nov 9 11:57:14 cn539/cn539 ntpd[15315]: synchronized to 10.100.22.250, stratum 3
+- 1131566236 2005.11.09 bn760 Nov 9 11:57:16 bn760/bn760 ntpd[22562]: synchronized to 10.100.22.250, stratum 3
+- 1131566236 2005.11.09 cn774 Nov 9 11:57:16 cn774/cn774 ntpd[27826]: synchronized to 10.100.22.250, stratum 3
+- 1131566241 2005.11.09 bn251 Nov 9 11:57:21 bn251/bn251 ntpd[23782]: synchronized to 10.100.22.250, stratum 3
+- 1131566243 2005.11.09 cn702 Nov 9 11:57:23 cn702/cn702 ntpd[19341]: synchronized to 10.100.16.250, stratum 3
+- 1131566244 2005.11.09 cn300 Nov 9 11:57:24 cn300/cn300 ntpd[24356]: synchronized to 10.100.20.250, stratum 3
+- 1131566245 2005.11.09 cn13 Nov 9 11:57:25 cn13/cn13 ntpd[14847]: synchronized to 10.100.16.250, stratum 3
+- 1131566246 2005.11.09 bn471 Nov 9 11:57:26 bn471/bn471 ntpd[29733]: synchronized to 10.100.16.250, stratum 3
+- 1131566248 2005.11.09 cn300 Nov 9 11:57:28 cn300/cn300 ntpd[24356]: synchronized to 10.100.22.250, stratum 3
+- 1131566249 2005.11.09 cn439 Nov 9 11:57:29 cn439/cn439 ntpd[13201]: synchronized to 10.100.20.250, stratum 3
+- 1131566253 2005.11.09 cn148 Nov 9 11:57:33 cn148/cn148 ntpd[6131]: synchronized to 10.100.22.250, stratum 3
+- 1131566253 2005.11.09 cn879 Nov 9 11:57:33 cn879/cn879 ntpd[25560]: synchronized to 10.100.16.250, stratum 3
+- 1131566257 2005.11.09 cn114 Nov 9 11:57:37 cn114/cn114 ntpd[20519]: synchronized to 10.100.16.250, stratum 3
+- 1131566261 2005.11.09 cn174 Nov 9 11:57:41 cn174/cn174 ntpd[9118]: synchronized to 10.100.22.250, stratum 3
+- 1131566264 2005.11.09 bn427 Nov 9 11:57:44 bn427/bn427 ntpd[10976]: synchronized to 10.100.18.250, stratum 3
+- 1131566264 2005.11.09 bn451 Nov 9 11:57:44 bn451/bn451 ntpd[29633]: synchronized to 10.100.22.250, stratum 3
+- 1131566266 2005.11.09 cn32 Nov 9 11:57:46 cn32/cn32 ntpd[16725]: synchronized to 10.100.22.250, stratum 3
+- 1131566269 2005.11.09 cn254 Nov 9 11:57:49 cn254/cn254 ntpd[10022]: synchronized to 10.100.22.250, stratum 3
+- 1131566270 2005.11.09 bn305 Nov 9 11:57:50 bn305/bn305 ntpd[22840]: synchronized to 10.100.20.250, stratum 3
+- 1131566277 2005.11.09 bn459 Nov 9 11:57:57 bn459/bn459 ntpd[29139]: synchronized to 10.100.22.250, stratum 3
+- 1131566278 2005.11.09 cn785 Nov 9 11:57:58 cn785/cn785 ntpd[27724]: synchronized to 10.100.20.250, stratum 3
+- 1131566279 2005.11.09 cn888 Nov 9 11:57:59 cn888/cn888 ntpd[29037]: synchronized to 10.100.22.250, stratum 3
+- 1131566279 2005.11.09 cn941 Nov 9 11:57:59 cn941/cn941 ntpd[21886]: synchronized to 10.100.20.250, stratum 3
+- 1131566280 2005.11.09 cn659 Nov 9 11:58:00 cn659/cn659 ntpd[18695]: synchronized to 10.100.20.250, stratum 3
+- 1131566282 2005.11.09 cn918 Nov 9 11:58:02 cn918/cn918 ntpd[29960]: synchronized to 10.100.20.250, stratum 3
+- 1131566284 2005.11.09 cn692 Nov 9 11:58:04 cn692/cn692 ntpd[17144]: synchronized to 10.100.20.250, stratum 3
+- 1131566285 2005.11.09 cn174 Nov 9 11:58:05 cn174/cn174 ntpd[9118]: synchronized to 10.100.20.250, stratum 3
+- 1131566288 2005.11.09 cn10 Nov 9 11:58:08 cn10/cn10 ntpd[14614]: synchronized to 10.100.22.250, stratum 3
+- 1131566288 2005.11.09 cn508 Nov 9 11:58:08 cn508/cn508 ntpd[15811]: synchronized to 10.100.18.250, stratum 3
+- 1131566291 2005.11.09 bn666 Nov 9 11:58:11 bn666/bn666 ntpd[23952]: synchronized to 10.100.20.250, stratum 3
+- 1131566292 2005.11.09 cn232 Nov 9 11:58:12 cn232/cn232 ntpd[10673]: synchronized to 10.100.18.250, stratum 3
+- 1131566293 2005.11.09 cn387 Nov 9 11:58:13 cn387/cn387 ntpd[10199]: synchronized to 10.100.18.250, stratum 3
+- 1131566295 2005.11.09 cn637 Nov 9 11:58:15 cn637/cn637 ntpd[19240]: synchronized to 10.100.20.250, stratum 3
+- 1131566296 2005.11.09 cn161 Nov 9 11:58:16 cn161/cn161 ntpd[10069]: synchronized to 10.100.22.250, stratum 3
+- 1131566297 2005.11.09 cn161 Nov 9 11:58:17 cn161/cn161 ntpd[10069]: synchronized to 10.100.20.250, stratum 3
+- 1131566298 2005.11.09 bn123 Nov 9 11:58:18 bn123/bn123 ntpd[24046]: synchronized to 10.100.16.250, stratum 3
+- 1131566301 2005.11.09 cn619 Nov 9 11:58:21 cn619/cn619 ntpd[18726]: synchronized to 10.100.22.250, stratum 3
+- 1131566302 2005.11.09 bn368 Nov 9 11:58:22 bn368/bn368 ntpd[28879]: synchronized to 10.100.20.250, stratum 3
+- 1131566302 2005.11.09 cn824 Nov 9 11:58:22 cn824/cn824 ntpd[28608]: synchronized to 10.100.20.250, stratum 3
+- 1131566303 2005.11.09 cn482 Nov 9 11:58:23 cn482/cn482 ntpd[15996]: synchronized to 10.100.22.250, stratum 3
+- 1131566304 2005.11.09 bn678 Nov 9 11:58:24 bn678/bn678 ntpd[24506]: synchronized to 10.100.22.250, stratum 3
+- 1131566304 2005.11.09 cn889 Nov 9 11:58:24 cn889/cn889 ntpd[28816]: synchronized to 10.100.22.250, stratum 3
+- 1131566309 2005.11.09 bn144 Nov 9 11:58:29 bn144/bn144 ntpd[22148]: synchronized to 10.100.22.250, stratum 3
+- 1131566312 2005.11.09 cn883 Nov 9 11:58:32 cn883/cn883 ntpd[29690]: synchronized to 10.100.20.250, stratum 3
+- 1131566315 2005.11.09 bn930 Nov 9 11:58:35 bn930/bn930 ntpd[25798]: synchronized to 10.100.20.250, stratum 3
+- 1131566318 2005.11.09 cn257 Nov 9 11:58:38 cn257/cn257 ntpd[11354]: synchronized to 10.100.18.250, stratum 3
+- 1131566319 2005.11.09 cn190 Nov 9 11:58:39 cn190/cn190 ntpd[5382]: synchronized to 10.100.22.250, stratum 3
+- 1131566321 2005.11.09 bn234 Nov 9 11:58:41 bn234/bn234 ntpd[23352]: synchronized to 10.100.14.250, stratum 3
+- 1131566324 2005.11.09 cn111 Nov 9 11:58:44 cn111/cn111 ntpd[19822]: synchronized to 10.100.22.250, stratum 3
+- 1131566324 2005.11.09 cn55 Nov 9 11:58:44 cn55/cn55 ntpd[15859]: synchronized to 10.100.20.250, stratum 3
+- 1131566325 2005.11.09 bn538 Nov 9 11:58:45 bn538/bn538 ntpd[29614]: synchronized to 10.100.22.250, stratum 3
+- 1131566325 2005.11.09 bn815 Nov 9 11:58:45 bn815/bn815 ntpd[23074]: synchronized to 10.100.22.250, stratum 3
+- 1131566326 2005.11.09 bn668 Nov 9 11:58:46 bn668/bn668 ntpd[23920]: synchronized to 10.100.22.250, stratum 3
+- 1131566328 2005.11.09 bn717 Nov 9 11:58:48 bn717/bn717 ntpd[23687]: synchronized to 10.100.20.250, stratum 3
+- 1131566328 2005.11.09 cn28 Nov 9 11:58:48 cn28/cn28 ntpd[17357]: synchronized to 10.100.16.250, stratum 3
+- 1131566330 2005.11.09 bn1009 Nov 9 11:58:50 bn1009/bn1009 ntpd[14500]: synchronized to 10.100.14.250, stratum 3
+- 1131566330 2005.11.09 cn74 Nov 9 11:58:50 cn74/cn74 ntpd[17700]: synchronized to 10.100.18.250, stratum 3
+- 1131566332 2005.11.09 bn186 Nov 9 11:58:52 bn186/bn186 ntpd[21912]: synchronized to 10.100.20.250, stratum 3
+- 1131566333 2005.11.09 bn1 Nov 9 11:58:53 bn1/bn1 ntpd[23146]: synchronized to 10.100.22.250, stratum 3
+- 1131566334 2005.11.09 bn646 Nov 9 11:58:54 bn646/bn646 ntpd[26082]: synchronized to 10.100.22.250, stratum 3
+- 1131566339 2005.11.09 bn40 Nov 9 11:58:59 bn40/bn40 ntpd[31028]: synchronized to 10.100.14.250, stratum 3
+- 1131566339 2005.11.09 cn222 Nov 9 11:58:59 cn222/cn222 ntpd[9898]: synchronized to 10.100.22.250, stratum 3
+- 1131566342 2005.11.09 bn912 Nov 9 11:59:02 bn912/bn912 ntpd[23918]: synchronized to 10.100.22.250, stratum 3
+- 1131566342 2005.11.09 cn844 Nov 9 11:59:02 cn844/cn844 ntpd[28132]: synchronized to 10.100.18.250, stratum 3
+- 1131566344 2005.11.09 bn458 Nov 9 11:59:04 bn458/bn458 ntpd[29156]: synchronized to 10.100.22.250, stratum 3
+- 1131566344 2005.11.09 cn371 Nov 9 11:59:04 cn371/cn371 ntpd[10340]: synchronized to 10.100.18.250, stratum 3
+- 1131566345 2005.11.09 cn228 Nov 9 11:59:05 cn228/cn228 ntpd[10609]: synchronized to 10.100.20.250, stratum 3
+- 1131566347 2005.11.09 cn880 Nov 9 11:59:07 cn880/cn880 ntpd[29120]: synchronized to 10.100.18.250, stratum 3
+- 1131566350 2005.11.09 cn160 Nov 9 11:59:10 cn160/cn160 ntpd[9830]: synchronized to 10.100.20.250, stratum 3
+- 1131566352 2005.11.09 cn644 Nov 9 11:59:12 cn644/cn644 ntpd[15847]: synchronized to 10.100.20.250, stratum 3
+- 1131566353 2005.11.09 cn98 Nov 9 11:59:13 cn98/cn98 ntpd[21402]: synchronized to 10.100.22.250, stratum 3
+- 1131566354 2005.11.09 bn822 Nov 9 11:59:14 bn822/bn822 ntpd[24887]: synchronized to 10.100.18.250, stratum 3
+- 1131566355 2005.11.09 cn476 Nov 9 11:59:15 cn476/cn476 ntpd[15577]: synchronized to 10.100.18.250, stratum 3
+- 1131566356 2005.11.09 cn709 Nov 9 11:59:16 cn709/cn709 ntpd[19295]: synchronized to 10.100.20.250, stratum 3
+- 1131566361 2005.11.09 cn2 Nov 9 11:59:21 cn2/cn2 ntpd[14579]: synchronized to 10.100.22.250, stratum 3
+- 1131566361 2005.11.09 cn417 Nov 9 11:59:21 cn417/cn417 ntpd[12935]: synchronized to 10.100.22.250, stratum 3
+- 1131566365 2005.11.09 cn758 Nov 9 11:59:25 cn758/cn758 ntpd[28753]: synchronized to 10.100.22.250, stratum 3
+- 1131566370 2005.11.09 cn695 Nov 9 11:59:30 cn695/cn695 ntpd[24814]: synchronized to 10.100.20.250, stratum 3
+- 1131566371 2005.11.09 bn379 Nov 9 11:59:31 bn379/bn379 ntpd[29730]: synchronized to 10.100.22.250, stratum 3
+- 1131566371 2005.11.09 cn643 Nov 9 11:59:31 cn643/cn643 ntpd[21963]: synchronized to 10.100.20.250, stratum 3
+- 1131566372 2005.11.09 cn584 Nov 9 11:59:32 cn584/cn584 ntpd[18597]: synchronized to 10.100.16.250, stratum 3
+- 1131566373 2005.11.09 bn562 Nov 9 11:59:33 bn562/bn562 ntpd[4600]: synchronized to 10.100.20.250, stratum 3
+- 1131566374 2005.11.09 cn105 Nov 9 11:59:34 cn105/cn105 ntpd[19450]: synchronized to 10.100.18.250, stratum 3
+- 1131566375 2005.11.09 cn680 Nov 9 11:59:35 cn680/cn680 ntpd[18264]: synchronized to 10.100.20.250, stratum 3
+- 1131566380 2005.11.09 bn975 Nov 9 11:59:40 bn975/bn975 ntpd[13594]: synchronized to 10.100.20.250, stratum 3
+- 1131566381 2005.11.09 bn638 Nov 9 11:59:41 bn638/bn638 ntpd[22574]: synchronized to 10.100.20.250, stratum 3
+- 1131566381 2005.11.09 cn165 Nov 9 11:59:41 cn165/cn165 ntpd[10214]: synchronized to 10.100.22.250, stratum 3
+- 1131566381 2005.11.09 cn420 Nov 9 11:59:41 cn420/cn420 ntpd[12970]: synchronized to 10.100.22.250, stratum 3
+- 1131566382 2005.11.09 cn806 Nov 9 11:59:42 cn806/cn806 ntpd[28601]: synchronized to 10.100.20.250, stratum 3
+- 1131566384 2005.11.09 cn128 Nov 9 11:59:44 cn128/cn128 ntpd[1872]: synchronized to 10.100.18.250, stratum 3
+- 1131566385 2005.11.09 cn443 Nov 9 11:59:45 cn443/cn443 ntpd[11283]: synchronized to 10.100.20.250, stratum 3
+- 1131566385 2005.11.09 cn884 Nov 9 11:59:45 cn884/cn884 ntpd[32661]: synchronized to 10.100.18.250, stratum 3
+- 1131566386 2005.11.09 bn801 Nov 9 11:59:46 bn801/bn801 ntpd[23830]: synchronized to 10.100.18.250, stratum 3
+- 1131566386 2005.11.09 cn928 Nov 9 11:59:46 cn928/cn928 ntpd[28291]: synchronized to 10.100.20.250, stratum 3
+- 1131566387 2005.11.09 cn646 Nov 9 11:59:47 cn646/cn646 ntpd[19563]: synchronized to 10.100.18.250, stratum 3
+- 1131566388 2005.11.09 cn856 Nov 9 11:59:48 cn856/cn856 ntpd[28172]: synchronized to 10.100.20.250, stratum 3
+- 1131566389 2005.11.09 bn740 Nov 9 11:59:49 bn740/bn740 ntpd[24169]: synchronized to 10.100.20.250, stratum 3
+- 1131566389 2005.11.09 cn777 Nov 9 11:59:49 cn777/cn777 ntpd[32468]: synchronized to 10.100.22.250, stratum 3
+- 1131566390 2005.11.09 bn178 Nov 9 11:59:50 bn178/bn178 ntpd[22158]: synchronized to 10.100.18.250, stratum 3
+- 1131566390 2005.11.09 bn747 Nov 9 11:59:50 bn747/bn747 ntpd[22490]: synchronized to 10.100.20.250, stratum 3
+- 1131566391 2005.11.09 cn759 Nov 9 11:59:51 cn759/cn759 ntpd[28733]: synchronized to 10.100.22.250, stratum 3
+- 1131566394 2005.11.09 bn429 Nov 9 11:59:54 bn429/bn429 ntpd[29251]: synchronized to 10.100.22.250, stratum 3
+- 1131566397 2005.11.09 bn114 Nov 9 11:59:57 bn114/bn114 ntpd[22440]: synchronized to 10.100.18.250, stratum 3
+- 1131566398 2005.11.09 cn128 Nov 9 11:59:58 cn128/cn128 ntpd[1872]: synchronized to 10.100.16.250, stratum 3
+- 1131566398 2005.11.09 cn484 Nov 9 11:59:58 cn484/cn484 ntpd[15647]: synchronized to 10.100.20.250, stratum 3
+- 1131566400 2005.11.09 cn571 Nov 9 12:00:00 cn571/cn571 ntpd[17735]: synchronized to 10.100.16.250, stratum 3
+- 1131566405 2005.11.09 bn939 Nov 9 12:00:05 bn939/bn939 ntpd[13679]: synchronized to 10.100.22.250, stratum 3
+- 1131566409 2005.11.09 cn668 Nov 9 12:00:09 cn668/cn668 ntpd[18869]: synchronized to 10.100.18.250, stratum 3
+- 1131566410 2005.11.09 cn192 Nov 9 12:00:10 cn192/cn192 ntpd[19361]: synchronized to 10.100.16.250, stratum 3
+- 1131566411 2005.11.09 cn163 Nov 9 12:00:11 cn163/cn163 ntpd[10165]: synchronized to 10.100.22.250, stratum 3
+- 1131566411 2005.11.09 cn763 Nov 9 12:00:11 cn763/cn763 ntpd[27810]: synchronized to 10.100.22.250, stratum 3
+- 1131566412 2005.11.09 cn326 Nov 9 12:00:12 cn326/cn326 ntpd[23617]: synchronized to 10.100.22.250, stratum 3
+- 1131566412 2005.11.09 cn999 Nov 9 12:00:12 cn999/cn999 ntpd[19394]: synchronized to 10.100.18.250, stratum 3
+- 1131566414 2005.11.09 bn964 Nov 9 12:00:14 bn964/bn964 ntpd[15605]: synchronized to 10.100.22.250, stratum 3
+- 1131566416 2005.11.09 bn317 Nov 9 12:00:16 bn317/bn317 ntpd[28385]: synchronized to 10.100.22.250, stratum 3
+- 1131566416 2005.11.09 bn611 Nov 9 12:00:16 bn611/bn611 ntpd[25826]: synchronized to 10.100.16.250, stratum 3
+- 1131566416 2005.11.09 cn326 Nov 9 12:00:16 cn326/cn326 ntpd[23617]: synchronized to 10.100.18.250, stratum 3
+- 1131566417 2005.11.09 bn300 Nov 9 12:00:17 bn300/bn300 ntpd[23471]: synchronized to 10.100.18.250, stratum 3
+- 1131566417 2005.11.09 cn707 Nov 9 12:00:17 cn707/cn707 ntpd[20117]: synchronized to 10.100.20.250, stratum 3
+- 1131566425 2005.11.09 bn355 Nov 9 12:00:25 bn355/bn355 ntpd[28740]: synchronized to 10.100.20.250, stratum 3
+- 1131566426 2005.11.09 bn300 Nov 9 12:00:26 bn300/bn300 ntpd[23471]: synchronized to 10.100.16.250, stratum 3
+- 1131566427 2005.11.09 bn831 Nov 9 12:00:27 bn831/bn831 ntpd[21860]: synchronized to 10.100.20.250, stratum 3
+- 1131566428 2005.11.09 cn907 Nov 9 12:00:28 cn907/cn907 ntpd[28086]: synchronized to 10.100.18.250, stratum 3
+- 1131566430 2005.11.09 cn707 Nov 9 12:00:30 cn707/cn707 ntpd[20117]: synchronized to 10.100.18.250, stratum 3
+- 1131566431 2005.11.09 cn255 Nov 9 12:00:31 cn255/cn255 ntpd[10531]: synchronized to 10.100.22.250, stratum 3
+- 1131566434 2005.11.09 cn203 Nov 9 12:00:34 cn203/cn203 ntpd[19827]: synchronized to 10.100.20.250, stratum 3
+- 1131566434 2005.11.09 cn820 Nov 9 12:00:34 cn820/cn820 ntpd[28582]: synchronized to 10.100.22.250, stratum 3
+- 1131566436 2005.11.09 cn590 Nov 9 12:00:36 cn590/cn590 ntpd[17994]: synchronized to 10.100.18.250, stratum 3
+- 1131566438 2005.11.09 cn116 Nov 9 12:00:38 cn116/cn116 ntpd[20328]: synchronized to 10.100.22.250, stratum 3
+- 1131566440 2005.11.09 cn51 Nov 9 12:00:40 cn51/cn51 ntpd[15609]: synchronized to 10.100.20.250, stratum 3
+- 1131566441 2005.11.09 bn640 Nov 9 12:00:41 bn640/bn640 ntpd[21630]: synchronized to 10.100.22.250, stratum 3
+- 1131566442 2005.11.09 bn636 Nov 9 12:00:42 bn636/bn636 ntpd[24056]: synchronized to 10.100.20.250, stratum 3
+- 1131566442 2005.11.09 cn914 Nov 9 12:00:42 cn914/cn914 ntpd[28922]: synchronized to 10.100.22.250, stratum 3
+- 1131566443 2005.11.09 bn30 Nov 9 12:00:43 bn30/bn30 ntpd[22000]: synchronized to 10.100.20.250, stratum 3
+- 1131566449 2005.11.09 cn952 Nov 9 12:00:49 cn952/cn952 ntpd[19898]: synchronized to 10.100.16.250, stratum 3
+- 1131566453 2005.11.09 cn522 Nov 9 12:00:53 cn522/cn522 ntpd[10424]: synchronized to 10.100.16.250, stratum 3
+- 1131566453 2005.11.09 cn68 Nov 9 12:00:53 cn68/cn68 ntpd[14667]: synchronized to 10.100.18.250, stratum 3
+- 1131566454 2005.11.09 cn649 Nov 9 12:00:54 cn649/cn649 ntpd[19098]: synchronized to 10.100.18.250, stratum 3
+- 1131566456 2005.11.09 cn249 Nov 9 12:00:56 cn249/cn249 ntpd[10621]: synchronized to 10.100.20.250, stratum 3
+- 1131566460 2005.11.09 cn172 Nov 9 12:01:00 cn172/cn172 ntpd[11834]: synchronized to 10.100.20.250, stratum 3
+- 1131566461 2005.11.09 an333 Nov 9 12:01:01 an333/an333 crond(pam_unix)[2922]: session closed for user root
+- 1131566461 2005.11.09 an333 Nov 9 12:01:01 an333/an333 crond(pam_unix)[2922]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an333 Nov 9 12:01:01 an333/an333 crond[2923]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 an344 Nov 9 12:01:01 an344/an344 crond(pam_unix)[2915]: session closed for user root
+- 1131566461 2005.11.09 an344 Nov 9 12:01:01 an344/an344 crond(pam_unix)[2915]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an344 Nov 9 12:01:01 an344/an344 crond[2916]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 an610 Nov 9 12:01:01 an610/an610 crond(pam_unix)[2911]: session closed for user root
+- 1131566461 2005.11.09 an610 Nov 9 12:01:01 an610/an610 crond(pam_unix)[2911]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an610 Nov 9 12:01:01 an610/an610 crond[2912]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 an713 Nov 9 12:01:01 an713/an713 crond(pam_unix)[2904]: session closed for user root
+- 1131566461 2005.11.09 an713 Nov 9 12:01:01 an713/an713 crond(pam_unix)[2904]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an713 Nov 9 12:01:01 an713/an713 crond[2905]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 an786 Nov 9 12:01:01 an786/an786 crond(pam_unix)[2908]: session closed for user root
+- 1131566461 2005.11.09 an786 Nov 9 12:01:01 an786/an786 crond(pam_unix)[2908]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an786 Nov 9 12:01:01 an786/an786 crond[2909]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 an895 Nov 9 12:01:01 an895/an895 crond(pam_unix)[2731]: session closed for user root
+- 1131566461 2005.11.09 an895 Nov 9 12:01:01 an895/an895 crond(pam_unix)[2731]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an895 Nov 9 12:01:01 an895/an895 crond[2732]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 an916 Nov 9 12:01:01 an916/an916 crond(pam_unix)[2903]: session closed for user root
+- 1131566461 2005.11.09 an916 Nov 9 12:01:01 an916/an916 crond(pam_unix)[2903]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 an916 Nov 9 12:01:01 an916/an916 crond[2904]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 bn108 Nov 9 12:01:01 bn108/bn108 ntpd[11968]: synchronized to 10.100.20.250, stratum 3
+- 1131566461 2005.11.09 bn307 Nov 9 12:01:01 bn307/bn307 crond(pam_unix)[2912]: session closed for user root
+- 1131566461 2005.11.09 bn307 Nov 9 12:01:01 bn307/bn307 crond(pam_unix)[2912]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 bn307 Nov 9 12:01:01 bn307/bn307 crond[2913]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 bn809 Nov 9 12:01:01 bn809/bn809 ntpd[23758]: synchronized to 10.100.20.250, stratum 3
+- 1131566461 2005.11.09 cn108 Nov 9 12:01:01 cn108/cn108 crond(pam_unix)[2919]: session closed for user root
+- 1131566461 2005.11.09 cn108 Nov 9 12:01:01 cn108/cn108 crond(pam_unix)[2919]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 cn108 Nov 9 12:01:01 cn108/cn108 crond[2920]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 cn262 Nov 9 12:01:01 cn262/cn262 crond(pam_unix)[2907]: session closed for user root
+- 1131566461 2005.11.09 cn262 Nov 9 12:01:01 cn262/cn262 crond(pam_unix)[2907]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 cn262 Nov 9 12:01:01 cn262/cn262 crond[2908]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 cn304 Nov 9 12:01:01 cn304/cn304 crond(pam_unix)[2734]: session closed for user root
+- 1131566461 2005.11.09 cn304 Nov 9 12:01:01 cn304/cn304 crond(pam_unix)[2734]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 cn304 Nov 9 12:01:01 cn304/cn304 crond[2735]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 cn450 Nov 9 12:01:01 cn450/cn450 crond(pam_unix)[2912]: session closed for user root
+- 1131566461 2005.11.09 cn450 Nov 9 12:01:01 cn450/cn450 crond(pam_unix)[2912]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 cn450 Nov 9 12:01:01 cn450/cn450 crond[2913]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 cn776 Nov 9 12:01:01 cn776/cn776 crond(pam_unix)[2906]: session closed for user root
+- 1131566461 2005.11.09 cn776 Nov 9 12:01:01 cn776/cn776 crond(pam_unix)[2906]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 cn776 Nov 9 12:01:01 cn776/cn776 crond[2907]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 cn989 Nov 9 12:01:01 cn989/cn989 crond(pam_unix)[2916]: session closed for user root
+- 1131566461 2005.11.09 cn989 Nov 9 12:01:01 cn989/cn989 crond(pam_unix)[2916]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 cn989 Nov 9 12:01:01 cn989/cn989 crond[2917]: (root) CMD (run-parts /etc/cron.hourly)

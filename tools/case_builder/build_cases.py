@@ -45,7 +45,15 @@ def _case_to_dict(case) -> dict:
     return d
 
 
-def build(adapter_name: str, input_path: Path, output_dir: Path, max_cases: int, seed: int) -> int:
+def build(
+    adapter_name: str,
+    input_path: Path,
+    output_dir: Path,
+    max_cases: int,
+    seed: int,
+    *,
+    task_type: str = "anomaly",
+) -> int:
     if adapter_name not in ADAPTERS:
         raise SystemExit(f"unknown adapter {adapter_name!r}; choices: {sorted(ADAPTERS)}")
     adapter = ADAPTERS[adapter_name]()
@@ -55,9 +63,16 @@ def build(adapter_name: str, input_path: Path, output_dir: Path, max_cases: int,
     labels = adapter.load_labels(input_path)
     print(f"  {len(labels.entries):,} labels; {len(labels.anomalous_keys()):,} anomalous", file=sys.stderr)
 
+    if task_type == "anomaly":
+        case_iter = adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed)
+    elif task_type == "fp":
+        case_iter = adapter.iter_false_positive_windows(input_path, labels, max_cases=max_cases, seed=seed)
+    else:
+        raise SystemExit(f"unknown task_type {task_type!r}")
+
     manifest: list[dict] = []
     count = 0
-    for case in adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed):
+    for case in case_iter:
         case_dict = _case_to_dict(case)
         out_path = output_dir / f"{case.case_id}.json"
         with out_path.open("w") as fh:
@@ -73,6 +88,7 @@ def build(adapter_name: str, input_path: Path, output_dir: Path, max_cases: int,
                 "slice_offset": case.slice.offset,
                 "slice_length": case.slice.length,
                 "file": out_path.name,
+                "task_type": case.task_type,
             }
         )
         count += 1
@@ -108,8 +124,15 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--output", required=True, type=Path, help="output directory for case JSON")
     p.add_argument("--max-cases", type=int, default=20, help="upper bound on cases to emit")
     p.add_argument("--seed", type=int, default=0, help="seed mixed into per-case slice selection")
+    p.add_argument(
+        "--task-type",
+        default="anomaly",
+        choices=("anomaly", "fp"),
+        help="Which adapter generator to invoke. 'anomaly' (v1, default) calls "
+        "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows.",
+    )
     args = p.parse_args(argv)
-    build(args.adapter, args.input, args.output, args.max_cases, args.seed)
+    build(args.adapter, args.input, args.output, args.max_cases, args.seed, task_type=args.task_type)
 
 
 if __name__ == "__main__":

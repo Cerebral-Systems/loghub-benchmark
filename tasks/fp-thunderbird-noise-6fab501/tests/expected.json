@@ -1,0 +1,47 @@
+{
+  "allowed_why_not_anomalous": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ],
+  "false_positive_indicators": [
+    {
+      "file": "thunderbird-compute.log",
+      "line": 18,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 5,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 6,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 7,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 8,
+      "why_not_anomalous": "benign_info"
+    }
+  ],
+  "files": [
+    "thunderbird-compute.log",
+    "thunderbird-domain.log",
+    "thunderbird-edge.log",
+    "thunderbird-other.log",
+    "thunderbird-tbird.log"
+  ],
+  "is_incident": false,
+  "min_indicator_count": 3,
+  "root_cause_type": "no_incident",
+  "schema_version": "loghub-sre-answer-v2-fp"
+}

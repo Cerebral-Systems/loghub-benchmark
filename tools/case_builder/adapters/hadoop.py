@@ -6,8 +6,8 @@ Inputs:
   - `abnormal_label.txt`: a human-readable text grouping job IDs by fault
     type ('Normal' / 'Machine down' / 'Network disconnection' / 'Disk full').
 
-Per-job logs are small (~50-500 KiB), so we concatenate one normal job
-and one anomalous job into a single window. The
+Per-job logs are small (~50-500 KiB), so we follow PLAN.md M2b's "concatenate
+one normal job + one anomalous job into a single window" strategy. The
 case_id pins the chosen (normal, anomalous) pair via the slice line layout.
 
 Hadoop has the strongest gold signal in Loghub — root cause comes directly
@@ -18,10 +18,15 @@ from __future__ import annotations
 
 import hashlib
 import re
+from collections import defaultdict
 from pathlib import Path
 from typing import Iterator
 
 from .base import AdapterBase, CandidateCase, LabelIndex, LogSlice
+from .fp_classifier import classify_fp_line, is_scary_line
+
+FP_MIN_INDICATORS = 3
+FP_MAX_INDICATORS = 5
 
 
 # Map abnormal_label.txt headings → our taxonomy slug.
@@ -35,30 +40,11 @@ LABEL_HEADING_TO_SLUG = {
 POSITIVE_TAXONOMY = ("machine_down", "network_disconnect", "disk_full")
 
 JOB_LINE_RE = re.compile(r"^\+?\s*(application_\d+_\d+)\s*$")
-MAX_EVIDENCE_LINES = 50
-MIN_EVIDENCE_LINES = 3
-
-ROOT_CAUSE_EVIDENCE_PATTERNS: dict[str, tuple[re.Pattern[str], ...]] = {
-    "machine_down": (
-        re.compile(r"\b(ERROR|FATAL|failed|failure|killed|lost|down|unreachable)\b", re.IGNORECASE),
-        re.compile(r"\b(NodeManager|ResourceManager|heartbeat|container)\b", re.IGNORECASE),
-    ),
-    "network_disconnect": (
-        re.compile(r"\b(network|connect|connection|socket|timeout|timed out|unreachable|EOF|RPC)\b", re.IGNORECASE),
-        re.compile(r"\b(retry|failed|exception|disconnect|channel)\b", re.IGNORECASE),
-    ),
-    "disk_full": (
-        re.compile(r"\b(disk|space|volume|write|localdir|filesystem|No space)\b", re.IGNORECASE),
-        re.compile(r"\b(IOException|failed|error|exception)\b", re.IGNORECASE),
-    ),
-}
-
-GENERIC_EVIDENCE_RE = re.compile(r"\b(ERROR|FATAL|WARN|Exception|failed|failure|timeout|killed)\b", re.IGNORECASE)
 
 
 class HadoopAdapter(AdapterBase):
     dataset_name = "Hadoop"
-    adapter_version = "2"
+    adapter_version = "1"
     # Cases only emit anomalous root causes; 'normal' is preserved for the
     # label vocabulary but never returned by classify_root_cause.
     root_cause_taxonomy = POSITIVE_TAXONOMY
@@ -134,21 +120,14 @@ class HadoopAdapter(AdapterBase):
             header_a = f"### anomalous_job={anomalous_job}"
             combined = [header_n, *normal_lines, header_a, *anomalous_lines]
 
-            # 1-based line number of the first anomalous job log line within
-            # the concatenated slice.
+            # 1-based line numbers within the slice that belong to the
+            # anomalous job (i.e. the lines the agent must cite).
             start_of_anomalous = 1 + 1 + len(normal_lines) + 1  # header_n + normal_lines + header_a + first anomalous line
+            anomaly_line_ids = list(range(start_of_anomalous, start_of_anomalous + len(anomalous_lines)))
 
             slice_ = LogSlice(lines=tuple(combined), offset=0, length=len(combined))
             root_cause = labels.entries[anomalous_job]
             self.validate_root_cause(root_cause)
-            all_anomalous_line_ids = list(range(start_of_anomalous, start_of_anomalous + len(anomalous_lines)))
-            anomaly_line_ids = self._select_evidence_lines(
-                anomalous_lines=anomalous_lines,
-                all_anomalous_line_ids=all_anomalous_line_ids,
-                root_cause=root_cause,
-                anomaly_key=anomalous_job,
-                seed=seed,
-            )
             yield CandidateCase(
                 case_id=self.case_id(slice_, anomaly_line_ids),
                 dataset_name=self.dataset_name,
@@ -181,56 +160,76 @@ class HadoopAdapter(AdapterBase):
                     out.append(line.rstrip("\n"))
         return out
 
-    @classmethod
-    def _select_evidence_lines(
-        cls,
+    # --- false-positive window iteration (T1) ------------------------------
+
+    def iter_false_positive_windows(
+        self,
+        input_path: Path,
+        labels: LabelIndex,
         *,
-        anomalous_lines: list[str],
-        all_anomalous_line_ids: list[int],
-        root_cause: str,
-        anomaly_key: str,
-        seed: int,
-    ) -> list[int]:
-        """Pick a compact deterministic evidence subset from the anomalous job.
+        max_cases: int | None = None,
+        seed: int = 0,
+    ) -> Iterator[CandidateCase]:
+        """Pair two normal jobs and emit an FP case from the concatenated
+        slice. Reuses the labels' normal subset (jobs labeled `normal`)."""
+        normal_jobs = sorted(k for k, v in labels.entries.items() if v == "normal")
+        if len(normal_jobs) < 2:
+            return
 
-        The full anomalous half can be tens of thousands of lines. Verifiers
-        only need enough gold locations to reject fabricated citations, so we
-        keep the lines that most clearly express the fault and cap the set.
-        """
-        scored: list[tuple[int, int]] = []
-        patterns = ROOT_CAUSE_EVIDENCE_PATTERNS[root_cause]
-        for idx, line in enumerate(anomalous_lines):
-            score = 0
-            for pattern in patterns:
-                if pattern.search(line):
-                    score += 10
-            if GENERIC_EVIDENCE_RE.search(line):
-                score += 3
-            if anomaly_key in line:
-                score += 1
-            if score:
-                scored.append((-score, idx))
+        yielded = 0
+        # Deterministic pairings: (normal_jobs[i], normal_jobs[i+offset]) for
+        # offsets derived from a SHA mix of seed + i. We skip pairs that
+        # don't have enough scary lines, but cap the search.
+        for i in range(len(normal_jobs) - 1):
+            j = (i + 1 + int.from_bytes(
+                hashlib.sha256(f"{seed}|fp|{i}".encode()).digest()[:4], "big"
+            )) % len(normal_jobs)
+            if j == i:
+                continue
+            job_a, job_b = normal_jobs[i], normal_jobs[j]
+            if job_a == job_b:
+                continue
+            lines_a = self._read_job_lines(input_path, job_a)
+            lines_b = self._read_job_lines(input_path, job_b)
+            if not lines_a or not lines_b:
+                continue
 
-        selected_indices = [idx for _, idx in sorted(scored)[:MAX_EVIDENCE_LINES]]
-        if len(selected_indices) < min(MIN_EVIDENCE_LINES, len(anomalous_lines)):
-            selected = set(selected_indices)
-            for idx in cls._stable_fallback_indices(len(anomalous_lines), anomaly_key, seed):
-                if idx in selected:
+            header_a = f"### normal_job={job_a}"
+            header_b = f"### normal_job={job_b}"
+            combined = [header_a, *lines_a, header_b, *lines_b]
+            slice_ = LogSlice(lines=tuple(combined), offset=0, length=len(combined))
+
+            indicators: list[dict] = []
+            for line_idx, line in enumerate(combined):
+                if line.startswith("### "):
                     continue
-                selected_indices.append(idx)
-                selected.add(idx)
-                if len(selected_indices) >= min(MIN_EVIDENCE_LINES, len(anomalous_lines)):
-                    break
+                if is_scary_line(line):
+                    indicators.append({
+                        "line": line_idx + 1,
+                        "why_not_anomalous": classify_fp_line(line),
+                    })
+                    if len(indicators) >= FP_MAX_INDICATORS:
+                        break
+            if len(indicators) < FP_MIN_INDICATORS:
+                continue
 
-        selected_indices = sorted(set(selected_indices))[:MAX_EVIDENCE_LINES]
-        return [all_anomalous_line_ids[idx] for idx in selected_indices]
-
-    @staticmethod
-    def _stable_fallback_indices(n_lines: int, anomaly_key: str, seed: int) -> list[int]:
-        return sorted(
-            range(n_lines),
-            key=lambda idx: hashlib.sha256(f"{seed}|{anomaly_key}|{idx}".encode("utf-8")).digest(),
-        )
+            yield CandidateCase(
+                case_id=self.case_id(slice_, []),
+                dataset_name=self.dataset_name,
+                adapter_version=self.adapter_version,
+                slice=slice_,
+                anomaly_line_ids=(),
+                root_cause="no_incident",
+                anomaly_keys=(),
+                extra={
+                    "fp_indicators": indicators,
+                    "normal_jobs": [job_a, job_b],
+                },
+                task_type="fp",
+            )
+            yielded += 1
+            if max_cases is not None and yielded >= max_cases:
+                return
 
     # --- slice / classification overrides ---------------------------------
 

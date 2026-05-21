@@ -2,8 +2,10 @@
 
 # Enforce a maximum number of hyphen-separated tokens in the task folder name.
 # Long slugs become unwieldy in CLI output, CI logs, and artifact paths.
-
-MAX_TOKENS=3
+#
+# v1 slugs use 3 tokens (<dataset>-<root-cause>-<short-id>).
+# v2 slugs (docs/PLAN_V2.md) use 4 tokens (<task-type>-<dataset>-<root-cause>-<short-id>).
+MAX_TOKENS=4
 
 if [ $# -lt 1 ]; then
     echo "Usage: $0 <task-dir> [task-dir ...]" >&2

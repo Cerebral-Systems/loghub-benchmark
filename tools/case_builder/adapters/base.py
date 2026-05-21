@@ -59,6 +59,12 @@ class CandidateCase:
     Carries everything the Harbor exporter needs to write `tasks/<slug>/`:
     the log slice, the anomaly lines (1-based to match Loghub's LineId
     convention), the root-cause label, and the entity keys involved.
+
+    `task_type` defaults to "anomaly" (the v1 anomaly-localization shape).
+    v2 task types ("fp" for false-positive triage, "seq" for temporal
+    sequence, "corr" for cross-component correlation, "sev" for severity,
+    "tmpl" for template extraction) override this so the M3 exporter can
+    dispatch to the right template family.
     """
 
     case_id: str
@@ -69,6 +75,7 @@ class CandidateCase:
     root_cause: str
     anomaly_keys: tuple[str, ...]  # block IDs / job IDs / etc. that triggered this case
     extra: Mapping[str, object] = field(default_factory=dict)
+    task_type: str = "anomaly"
 
 
 class AdapterBase:
@@ -96,6 +103,31 @@ class AdapterBase:
         seed: int = 0,
     ) -> Iterator[CandidateCase]:
         raise NotImplementedError
+
+    def iter_false_positive_windows(
+        self,
+        input_path: Path,
+        labels: LabelIndex,
+        *,
+        max_cases: int | None = None,
+        seed: int = 0,
+    ) -> Iterator[CandidateCase]:
+        """V2/T1: yield FP candidate cases.
+
+        Returned cases must have:
+          - `task_type == "fp"`
+          - `anomaly_line_ids == ()` (this is a benign window)
+          - `extra["fp_indicators"]`: list of {line: int, why_not_anomalous: str}
+            using slice-relative 1-based line numbers.
+          - `root_cause == "no_incident"` to make ground-truth shape uniform.
+
+        Adapters must override this; the base raises NotImplementedError so
+        an adapter that hasn't opted in fails loudly when invoked with
+        `--task-type fp`.
+        """
+        raise NotImplementedError(
+            f"{type(self).__name__} does not implement iter_false_positive_windows"
+        )
 
     def classify_root_cause(
         self,

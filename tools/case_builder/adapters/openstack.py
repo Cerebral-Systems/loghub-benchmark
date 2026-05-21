@@ -28,9 +28,14 @@ from pathlib import Path
 from typing import Iterator
 
 from .base import AdapterBase, CandidateCase, LabelIndex, LogSlice
+from .fp_classifier import classify_fp_line, is_scary_line
 
 MIN_SLICE_LINES = 2_000
 MAX_SLICE_LINES = 8_000
+
+FP_SLICE_LINES = 3_000
+FP_MIN_INDICATORS = 3
+FP_MAX_INDICATORS = 5
 
 INSTANCE_RE = re.compile(r"\[instance:\s*([0-9a-f-]{36})\]")
 
@@ -151,6 +156,90 @@ class OpenStackAdapter(AdapterBase):
                 yielded += 1
                 if max_cases is not None and yielded >= max_cases:
                     return
+
+    # --- false-positive window iteration (T1) ------------------------------
+
+    def iter_false_positive_windows(
+        self,
+        input_path: Path,
+        labels: LabelIndex,
+        *,
+        max_cases: int | None = None,
+        seed: int = 0,
+    ) -> Iterator[CandidateCase]:
+        """Use only `openstack_normal*.log` (excluding abnormal). Cut
+        FP_SLICE_LINES-sized windows; mine scary-but-benign indicators.
+
+        We pre-build the normal-only stream and verify no anomalous VM
+        UUID appears in any candidate window.
+        """
+        anomalous_uuids = set(labels.anomalous_keys())
+        normal_log = self._concatenated_normal_log(input_path)
+        n = len(normal_log)
+        if n < FP_SLICE_LINES:
+            return
+
+        yielded = 0
+        candidate_offsets = list(range(0, n - FP_SLICE_LINES, FP_SLICE_LINES // 2))
+        order = sorted(
+            candidate_offsets,
+            key=lambda o: hashlib.sha256(f"{seed}|{o}".encode()).digest(),
+        )
+        for offset in order:
+            window = normal_log[offset:offset + FP_SLICE_LINES]
+            # Defensive: skip windows that mention any anomalous UUID
+            # (shouldn't happen since we only loaded normal_log, but the
+            # check is cheap and catches dataset typos).
+            uuids_in_window = set()
+            for line in window:
+                uuids_in_window.update(INSTANCE_RE.findall(line))
+            if uuids_in_window & anomalous_uuids:
+                continue
+
+            indicators: list[dict] = []
+            for i, line in enumerate(window):
+                if is_scary_line(line):
+                    indicators.append({
+                        "line": i + 1,
+                        "why_not_anomalous": classify_fp_line(line),
+                    })
+                    if len(indicators) >= FP_MAX_INDICATORS:
+                        break
+            if len(indicators) < FP_MIN_INDICATORS:
+                continue
+
+            slice_ = LogSlice(lines=tuple(window), offset=offset, length=FP_SLICE_LINES)
+            yield CandidateCase(
+                case_id=self.case_id(slice_, []),
+                dataset_name=self.dataset_name,
+                adapter_version=self.adapter_version,
+                slice=slice_,
+                anomaly_line_ids=(),
+                root_cause="no_incident",
+                anomaly_keys=(),
+                extra={"fp_indicators": indicators, "slice_seed": seed},
+                task_type="fp",
+            )
+            yielded += 1
+            if max_cases is not None and yielded >= max_cases:
+                return
+
+    @staticmethod
+    def _concatenated_normal_log(input_path: Path) -> list[str]:
+        """Stream openstack_normal1.log + openstack_normal2.log only
+        (no abnormal). FP windows draw exclusively from these files so the
+        ground truth `is_incident: false` is sound."""
+        parts: list[str] = []
+        for name in ("openstack_normal1.log", "openstack_normal2.log"):
+            path = input_path / name
+            if path.is_file():
+                with path.open(errors="replace") as fh:
+                    parts.extend(line.rstrip("\n") for line in fh)
+        if not parts:
+            raise FileNotFoundError(
+                f"OpenStack normal log files not found under {input_path}"
+            )
+        return parts
 
     # --- helpers -----------------------------------------------------------
 

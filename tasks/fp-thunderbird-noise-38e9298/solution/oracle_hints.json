@@ -1,0 +1,36 @@
+{
+  "indicator_locations": [
+    {
+      "file": "thunderbird-edge.log",
+      "line": 104,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 165,
+      "why_not_anomalous": "recoverable_retry"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 169,
+      "why_not_anomalous": "recoverable_retry"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 182,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 183,
+      "why_not_anomalous": "benign_info"
+    }
+  ],
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}
