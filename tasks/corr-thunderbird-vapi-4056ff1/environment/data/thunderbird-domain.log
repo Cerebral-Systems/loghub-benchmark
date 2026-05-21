@@ -1,0 +1,144 @@
+- 1150637219 2006.06.18 dn531 Jun 18 06:26:59 dn531/dn531 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+- 1150637233 2006.06.18 dn356 Jun 18 06:27:13 dn356/dn356 sshd(pam_unix)[894]: session opened for user root by (uid=0)
+- 1150637233 2006.06.18 dn356 Jun 18 06:27:13 dn356/dn356 sshd(pam_unix)[895]: session opened for user root by (uid=0)
+- 1150637233 2006.06.18 dn356 Jun 18 06:27:13 dn356/dn356 sshd[890]: Accepted publickey for root from ::ffff:10.100.26.100 port 51532 ssh2
+- 1150637233 2006.06.18 dn356 Jun 18 06:27:13 dn356/dn356 sshd[891]: Accepted publickey for root from ::ffff:10.100.26.100 port 51533 ssh2
+- 1150637235 2006.06.18 dn356 Jun 18 06:27:15 dn356/dn356 sshd(pam_unix)[1004]: session opened for user root by (uid=0)
+- 1150637235 2006.06.18 dn356 Jun 18 06:27:15 dn356/dn356 sshd(pam_unix)[986]: session opened for user root by (uid=0)
+- 1150637235 2006.06.18 dn356 Jun 18 06:27:15 dn356/dn356 sshd[982]: Accepted publickey for root from ::ffff:10.100.26.100 port 51537 ssh2
+- 1150637235 2006.06.18 dn356 Jun 18 06:27:15 dn356/dn356 sshd[984]: Accepted publickey for root from ::ffff:10.100.26.100 port 51538 ssh2
+- 1150637237 2006.06.18 dn356 Jun 18 06:27:17 dn356/dn356 sshd(pam_unix)[1074]: session opened for user root by (uid=0)
+- 1150637237 2006.06.18 dn356 Jun 18 06:27:17 dn356/dn356 sshd(pam_unix)[1091]: session opened for user root by (uid=0)
+- 1150637237 2006.06.18 dn356 Jun 18 06:27:17 dn356/dn356 sshd[1070]: Accepted publickey for root from ::ffff:10.100.26.100 port 51542 ssh2
+- 1150637237 2006.06.18 dn356 Jun 18 06:27:17 dn356/dn356 sshd[1072]: Accepted publickey for root from ::ffff:10.100.26.100 port 51543 ssh2
+- 1150637239 2006.06.18 dn356 Jun 18 06:27:19 dn356/dn356 sshd(pam_unix)[1161]: session opened for user root by (uid=0)
+- 1150637239 2006.06.18 dn356 Jun 18 06:27:19 dn356/dn356 sshd(pam_unix)[1178]: session opened for user root by (uid=0)
+- 1150637239 2006.06.18 dn356 Jun 18 06:27:19 dn356/dn356 sshd[1157]: Accepted publickey for root from ::ffff:10.100.26.100 port 51547 ssh2
+- 1150637239 2006.06.18 dn356 Jun 18 06:27:19 dn356/dn356 sshd[1159]: Accepted publickey for root from ::ffff:10.100.26.100 port 51548 ssh2
+- 1150637241 2006.06.18 dn330 Jun 18 06:27:21 dn330/dn330 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1150637244 2006.06.18 dn28 Jun 18 06:27:24 dn28/dn28 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+- 1150637244 2006.06.18 dn28 Jun 18 06:27:24 dn28/dn28 snmpd[19792]: Got trap from peer on fd 13
+- 1150637247 2006.06.18 dn218 Jun 18 06:27:27 dn218/dn218 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+- 1150637247 2006.06.18 dn218 Jun 18 06:27:27 dn218/dn218 snmpd[12298]: Got trap from peer on fd 13
+- 1150637267 2006.06.18 dn791 Jun 18 06:27:47 dn791/dn791 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1150637270 2006.06.18 dn791 Jun 18 06:27:50 dn791/dn791 ntpd[2266]: synchronized to 10.100.26.250, stratum 3
+- 1150637272 2006.06.18 dn333 Jun 18 06:27:52 dn333/dn333 sshd[1407]: Accepted publickey for root from ::ffff:10.100.26.77 port 53612 ssh2
+- 1150637273 2006.06.18 dn333 Jun 18 06:27:53 dn333/dn333 sshd(pam_unix)[1411]: session opened for user root by (uid=0)
+- 1150637273 2006.06.18 dn333 Jun 18 06:27:53 dn333/dn333 sshd(pam_unix)[1418]: session opened for user root by (uid=0)
+- 1150637273 2006.06.18 dn333 Jun 18 06:27:53 dn333/dn333 sshd[1409]: Accepted publickey for root from ::ffff:10.100.26.77 port 53613 ssh2
+- 1150637274 2006.06.18 dn962 Jun 18 06:27:54 dn962/dn962 ntpd[2261]: synchronized to 10.100.30.250, stratum 3
+- 1150637275 2006.06.18 dn333 Jun 18 06:27:55 dn333/dn333 sshd(pam_unix)[1501]: session opened for user root by (uid=0)
+- 1150637275 2006.06.18 dn333 Jun 18 06:27:55 dn333/dn333 sshd(pam_unix)[1510]: session opened for user root by (uid=0)
+- 1150637275 2006.06.18 dn333 Jun 18 06:27:55 dn333/dn333 sshd[1497]: Accepted publickey for root from ::ffff:10.100.26.77 port 53617 ssh2
+- 1150637275 2006.06.18 dn333 Jun 18 06:27:55 dn333/dn333 sshd[1499]: Accepted publickey for root from ::ffff:10.100.26.77 port 53618 ssh2
+- 1150637276 2006.06.18 dn333 Jun 18 06:27:56 dn333/dn333 sshd(pam_unix)[1588]: session opened for user root by (uid=0)
+- 1150637276 2006.06.18 dn333 Jun 18 06:27:56 dn333/dn333 sshd(pam_unix)[1605]: session opened for user root by (uid=0)
+- 1150637276 2006.06.18 dn333 Jun 18 06:27:56 dn333/dn333 sshd[1584]: Accepted publickey for root from ::ffff:10.100.26.77 port 53622 ssh2
+- 1150637276 2006.06.18 dn333 Jun 18 06:27:56 dn333/dn333 sshd[1586]: Accepted publickey for root from ::ffff:10.100.26.77 port 53623 ssh2
+- 1150637278 2006.06.18 dn333 Jun 18 06:27:58 dn333/dn333 sshd(pam_unix)[1675]: session opened for user root by (uid=0)
+- 1150637278 2006.06.18 dn333 Jun 18 06:27:58 dn333/dn333 sshd(pam_unix)[1690]: session opened for user root by (uid=0)
+- 1150637278 2006.06.18 dn333 Jun 18 06:27:58 dn333/dn333 sshd[1671]: Accepted publickey for root from ::ffff:10.100.26.77 port 53627 ssh2
+- 1150637278 2006.06.18 dn333 Jun 18 06:27:58 dn333/dn333 sshd[1673]: Accepted publickey for root from ::ffff:10.100.26.77 port 53628 ssh2
+- 1150637287 2006.06.18 dn532 Jun 18 06:28:07 dn532/dn532 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1150637294 2006.06.18 dn38 Jun 18 06:28:14 dn38/dn38 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1150637294 2006.06.18 dn664 Jun 18 06:28:14 dn664/dn664 sshd(pam_unix)[32742]: session opened for user root by (uid=0)
+- 1150637294 2006.06.18 dn664 Jun 18 06:28:14 dn664/dn664 sshd(pam_unix)[32747]: session opened for user root by (uid=0)
+- 1150637294 2006.06.18 dn664 Jun 18 06:28:14 dn664/dn664 sshd[32738]: Accepted publickey for root from ::ffff:10.100.29.24 port 52342 ssh2
+- 1150637294 2006.06.18 dn664 Jun 18 06:28:14 dn664/dn664 sshd[32740]: Accepted publickey for root from ::ffff:10.100.29.24 port 52343 ssh2
+- 1150637297 2006.06.18 dn664 Jun 18 06:28:17 dn664/dn664 sshd(pam_unix)[361]: session opened for user root by (uid=0)
+- 1150637297 2006.06.18 dn664 Jun 18 06:28:17 dn664/dn664 sshd(pam_unix)[378]: session opened for user root by (uid=0)
+- 1150637297 2006.06.18 dn664 Jun 18 06:28:17 dn664/dn664 sshd[357]: Accepted publickey for root from ::ffff:10.100.29.24 port 52347 ssh2
+- 1150637297 2006.06.18 dn664 Jun 18 06:28:17 dn664/dn664 sshd[359]: Accepted publickey for root from ::ffff:10.100.29.24 port 52348 ssh2
+- 1150637298 2006.06.18 dn664 Jun 18 06:28:18 dn664/dn664 sshd(pam_unix)[448]: session opened for user root by (uid=0)
+- 1150637298 2006.06.18 dn664 Jun 18 06:28:18 dn664/dn664 sshd[444]: Accepted publickey for root from ::ffff:10.100.29.24 port 52352 ssh2
+- 1150637298 2006.06.18 dn664 Jun 18 06:28:18 dn664/dn664 sshd[446]: Accepted publickey for root from ::ffff:10.100.29.24 port 52353 ssh2
+- 1150637299 2006.06.18 dn664 Jun 18 06:28:19 dn664/dn664 sshd(pam_unix)[465]: session opened for user root by (uid=0)
+- 1150637300 2006.06.18 dn664 Jun 18 06:28:20 dn664/dn664 sshd(pam_unix)[535]: session opened for user root by (uid=0)
+- 1150637300 2006.06.18 dn664 Jun 18 06:28:20 dn664/dn664 sshd(pam_unix)[547]: session opened for user root by (uid=0)
+- 1150637300 2006.06.18 dn664 Jun 18 06:28:20 dn664/dn664 sshd[531]: Accepted publickey for root from ::ffff:10.100.29.24 port 52357 ssh2
+- 1150637300 2006.06.18 dn664 Jun 18 06:28:20 dn664/dn664 sshd[533]: Accepted publickey for root from ::ffff:10.100.29.24 port 52358 ssh2
+- 1150637303 2006.06.18 dn466 Jun 18 06:28:23 dn466/dn466 ntpd[2284]: synchronized to 10.100.26.250, stratum 3
+- 1150637317 2006.06.18 dn670 Jun 18 06:28:37 dn670/dn670 sshd(pam_unix)[691]: session opened for user root by (uid=0)
+- 1150637317 2006.06.18 dn670 Jun 18 06:28:37 dn670/dn670 sshd(pam_unix)[692]: session opened for user root by (uid=0)
+- 1150637317 2006.06.18 dn670 Jun 18 06:28:37 dn670/dn670 sshd[687]: Accepted publickey for root from ::ffff:10.100.29.30 port 53602 ssh2
+- 1150637317 2006.06.18 dn670 Jun 18 06:28:37 dn670/dn670 sshd[688]: Accepted publickey for root from ::ffff:10.100.29.30 port 53603 ssh2
+- 1150637317 2006.06.18 dn988 Jun 18 06:28:37 dn988/dn988 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1150637319 2006.06.18 dn670 Jun 18 06:28:39 dn670/dn670 sshd(pam_unix)[778]: session opened for user root by (uid=0)
+- 1150637319 2006.06.18 dn670 Jun 18 06:28:39 dn670/dn670 sshd[774]: Accepted publickey for root from ::ffff:10.100.29.30 port 53607 ssh2
+- 1150637319 2006.06.18 dn670 Jun 18 06:28:39 dn670/dn670 sshd[775]: Accepted publickey for root from ::ffff:10.100.29.30 port 53608 ssh2
+- 1150637320 2006.06.18 dn670 Jun 18 06:28:40 dn670/dn670 sshd(pam_unix)[781]: session opened for user root by (uid=0)
+- 1150637321 2006.06.18 dn670 Jun 18 06:28:41 dn670/dn670 sshd(pam_unix)[866]: session opened for user root by (uid=0)
+- 1150637321 2006.06.18 dn670 Jun 18 06:28:41 dn670/dn670 sshd(pam_unix)[883]: session opened for user root by (uid=0)
+- 1150637321 2006.06.18 dn670 Jun 18 06:28:41 dn670/dn670 sshd[862]: Accepted publickey for root from ::ffff:10.100.29.30 port 53612 ssh2
+- 1150637321 2006.06.18 dn670 Jun 18 06:28:41 dn670/dn670 sshd[864]: Accepted publickey for root from ::ffff:10.100.29.30 port 53613 ssh2
+- 1150637323 2006.06.18 dn670 Jun 18 06:28:43 dn670/dn670 sshd(pam_unix)[958]: session opened for user root by (uid=0)
+- 1150637323 2006.06.18 dn670 Jun 18 06:28:43 dn670/dn670 sshd(pam_unix)[975]: session opened for user root by (uid=0)
+- 1150637323 2006.06.18 dn670 Jun 18 06:28:43 dn670/dn670 sshd[954]: Accepted publickey for root from ::ffff:10.100.29.30 port 53617 ssh2
+- 1150637323 2006.06.18 dn670 Jun 18 06:28:43 dn670/dn670 sshd[956]: Accepted publickey for root from ::ffff:10.100.29.30 port 53618 ssh2
+- 1150637324 2006.06.18 dn988 Jun 18 06:28:44 dn988/dn988 ntpd[2262]: synchronized to 10.100.28.250, stratum 3
+- 1150637344 2006.06.18 dn610 Jun 18 06:29:04 dn610/dn610 ntpd[2343]: synchronized to 10.100.26.250, stratum 3
+- 1150637374 2006.06.18 dn870 Jun 18 06:29:34 dn870/dn870 ntpd[2264]: synchronized to 10.100.28.250, stratum 3
+- 1150637398 2006.06.18 dn444 Jun 18 06:29:58 dn444/dn444 ntpd[2285]: synchronized to 10.100.24.250, stratum 3
+- 1150637406 2006.06.18 dn865 Jun 18 06:30:06 dn865/dn865 ntpd[2264]: synchronized to 10.100.30.250, stratum 3
+- 1150637409 2006.06.18 dn218 Jun 18 06:30:09 dn218/dn218 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+- 1150637409 2006.06.18 dn218 Jun 18 06:30:09 dn218/dn218 snmpd[12298]: Got trap from peer on fd 13
+- 1150637421 2006.06.18 dn262 Jun 18 06:30:21 dn262/dn262 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1150637429 2006.06.18 dn1012 Jun 18 06:30:29 dn1012/dn1012 sshd(pam_unix)[1649]: session opened for user root by (uid=0)
+- 1150637429 2006.06.18 dn1012 Jun 18 06:30:29 dn1012/dn1012 sshd(pam_unix)[1650]: session opened for user root by (uid=0)
+- 1150637429 2006.06.18 dn1012 Jun 18 06:30:29 dn1012/dn1012 sshd[1645]: Accepted publickey for root from ::ffff:10.100.31.116 port 45600 ssh2
+- 1150637429 2006.06.18 dn1012 Jun 18 06:30:29 dn1012/dn1012 sshd[1646]: Accepted publickey for root from ::ffff:10.100.31.116 port 45601 ssh2
+- 1150637431 2006.06.18 dn1012 Jun 18 06:30:31 dn1012/dn1012 sshd(pam_unix)[1736]: session opened for user root by (uid=0)
+- 1150637431 2006.06.18 dn1012 Jun 18 06:30:31 dn1012/dn1012 sshd(pam_unix)[1737]: session opened for user root by (uid=0)
+- 1150637431 2006.06.18 dn1012 Jun 18 06:30:31 dn1012/dn1012 sshd[1732]: Accepted publickey for root from ::ffff:10.100.31.116 port 45605 ssh2
+- 1150637431 2006.06.18 dn1012 Jun 18 06:30:31 dn1012/dn1012 sshd[1733]: Accepted publickey for root from ::ffff:10.100.31.116 port 45606 ssh2
+- 1150637432 2006.06.18 dn218 Jun 18 06:30:32 dn218/dn218 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+- 1150637432 2006.06.18 dn218 Jun 18 06:30:32 dn218/dn218 snmpd[12298]: Got trap from peer on fd 13
+- 1150637433 2006.06.18 dn1012 Jun 18 06:30:33 dn1012/dn1012 sshd(pam_unix)[1827]: session opened for user root by (uid=0)
+- 1150637433 2006.06.18 dn1012 Jun 18 06:30:33 dn1012/dn1012 sshd(pam_unix)[1845]: session opened for user root by (uid=0)
+- 1150637433 2006.06.18 dn1012 Jun 18 06:30:33 dn1012/dn1012 sshd[1823]: Accepted publickey for root from ::ffff:10.100.31.116 port 45610 ssh2
+- 1150637433 2006.06.18 dn1012 Jun 18 06:30:33 dn1012/dn1012 sshd[1825]: Accepted publickey for root from ::ffff:10.100.31.116 port 45611 ssh2
+- 1150637435 2006.06.18 dn1012 Jun 18 06:30:35 dn1012/dn1012 sshd(pam_unix)[1918]: session opened for user root by (uid=0)
+- 1150637435 2006.06.18 dn1012 Jun 18 06:30:35 dn1012/dn1012 sshd(pam_unix)[1933]: session opened for user root by (uid=0)
+- 1150637435 2006.06.18 dn1012 Jun 18 06:30:35 dn1012/dn1012 sshd[1914]: Accepted publickey for root from ::ffff:10.100.31.116 port 45615 ssh2
+- 1150637435 2006.06.18 dn1012 Jun 18 06:30:35 dn1012/dn1012 sshd[1916]: Accepted publickey for root from ::ffff:10.100.31.116 port 45616 ssh2
+- 1150637436 2006.06.18 dn666 Jun 18 06:30:36 dn666/dn666 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1150637443 2006.06.18 dn156 Jun 18 06:30:43 dn156/dn156 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1150637447 2006.06.18 dn372 Jun 18 06:30:47 dn372/dn372 smartd[1982]: Device: /dev/sda, Temperature changed 6 Celsius to 36 Celsius since last report
+- 1150637448 2006.06.18 dn355 Jun 18 06:30:48 dn355/dn355 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1150637452 2006.06.18 dn28 Jun 18 06:30:52 dn28/dn28 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+- 1150637452 2006.06.18 dn28 Jun 18 06:30:52 dn28/dn28 snmpd[19792]: Got trap from peer on fd 13
+- 1150637453 2006.06.18 dn487 Jun 18 06:30:53 dn487/dn487 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1150637455 2006.06.18 dn693 Jun 18 06:30:55 dn693/dn693 ntpd[2345]: synchronized to 10.100.24.250, stratum 3
+- 1150637460 2006.06.18 dn33 Jun 18 06:31:00 dn33/dn33 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1150637468 2006.06.18 dn428 Jun 18 06:31:08 dn428/dn428 smartd[1988]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1150637469 2006.06.18 dn430 Jun 18 06:31:09 dn430/dn430 smartd[1979]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1150637471 2006.06.18 dn330 Jun 18 06:31:11 dn330/dn330 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1150637478 2006.06.18 dn218 Jun 18 06:31:18 dn218/dn218 Server Administrator: Instrumentation Service EventID: 1053 Temperature sensor detected a warning value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: OK (Normal) Temperature sensor value (in Degrees Celsius): 10.0
+- 1150637478 2006.06.18 dn218 Jun 18 06:31:18 dn218/dn218 snmpd[12298]: Got trap from peer on fd 13
+- 1150637484 2006.06.18 dn872 Jun 18 06:31:24 dn872/dn872 ntpd[2264]: synchronized to 10.100.26.250, stratum 3
+- 1150637488 2006.06.18 dn37 Jun 18 06:31:28 dn37/dn37 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1150637497 2006.06.18 dn505 Jun 18 06:31:37 dn505/dn505 smartd[1974]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1150637501 2006.06.18 dn218 Jun 18 06:31:41 dn218/dn218 Server Administrator: Instrumentation Service EventID: 1052 Temperature sensor returned to a normal value Sensor location: BMC Ambient Temp Chassis location: Main System Chassis Previous state was: Non-Critical (Warning) Temperature sensor value (in Degrees Celsius): 11.0
+- 1150637501 2006.06.18 dn218 Jun 18 06:31:41 dn218/dn218 snmpd[12298]: Got trap from peer on fd 13
+- 1150637503 2006.06.18 dn560 Jun 18 06:31:43 dn560/dn560 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150637503 2006.06.18 dn762 Jun 18 06:31:43 dn762/dn762 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+- 1150637506 2006.06.18 dn532 Jun 18 06:31:46 dn532/dn532 smartd[1989]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150637506 2006.06.18 dn579 Jun 18 06:31:46 dn579/dn579 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1150637507 2006.06.18 dn531 Jun 18 06:31:47 dn531/dn531 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1150637509 2006.06.18 dn555 Jun 18 06:31:49 dn555/dn555 smartd[1970]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1150637510 2006.06.18 dn539 Jun 18 06:31:50 dn539/dn539 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150637515 2006.06.18 dn689 Jun 18 06:31:55 dn689/dn689 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+- 1150637525 2006.06.18 dn570 Jun 18 06:32:05 dn570/dn570 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1150637525 2006.06.18 dn669 Jun 18 06:32:05 dn669/dn669 ntpd[2335]: synchronized to 10.100.30.250, stratum 3
+- 1150637528 2006.06.18 dn616 Jun 18 06:32:08 dn616/dn616 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+- 1150637533 2006.06.18 dn532 Jun 18 06:32:13 dn532/dn532 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1150637538 2006.06.18 dn563 Jun 18 06:32:18 dn563/dn563 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1150637539 2006.06.18 dn581 Jun 18 06:32:19 dn581/dn581 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1150637540 2006.06.18 dn583 Jun 18 06:32:20 dn583/dn583 smartd[1982]: Device: /dev/sda, Temperature changed 5 Celsius to 41 Celsius since last report
+- 1150637541 2006.06.18 dn616 Jun 18 06:32:21 dn616/dn616 smartd[1988]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1150637542 2006.06.18 dn639 Jun 18 06:32:22 dn639/dn639 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1150637556 2006.06.18 dn678 Jun 18 06:32:36 dn678/dn678 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1150637560 2006.06.18 dn669 Jun 18 06:32:40 dn669/dn669 smartd[1973]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1150637565 2006.06.18 dn579 Jun 18 06:32:45 dn579/dn579 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1150637565 2006.06.18 dn667 Jun 18 06:32:45 dn667/dn667 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1150637578 2006.06.18 dn766 Jun 18 06:32:58 dn766/dn766 smartd[1974]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report

@@ -1,0 +1,33 @@
+{
+  "causal_chain": [
+    {
+      "component": "hadoop-mrappmaster.log",
+      "evidence_line": 8,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 153,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 427,
+      "role": "downstream",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "hadoop-misc.log",
+      "evidence_line": 1612,
+      "role": "downstream",
+      "step": 3
+    }
+  ],
+  "root_cause_type": "machine_down",
+  "root_component": "hadoop-mrappmaster.log"
+}

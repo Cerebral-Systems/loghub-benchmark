@@ -1,0 +1,41 @@
+{
+  "allowed_root_causes": [
+    "chk_dsk",
+    "cpu",
+    "ecc",
+    "ext_fs",
+    "mpt",
+    "nmi",
+    "pbs_bfd",
+    "pbs_con",
+    "scsi",
+    "vapi",
+    "other_alert"
+  ],
+  "causal_chain": [
+    {
+      "component": "thunderbird-edge.log",
+      "evidence_line": 1,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "thunderbird-compute.log",
+      "evidence_line": 177,
+      "role": "downstream",
+      "step": 1
+    }
+  ],
+  "files": [
+    "thunderbird-compute.log",
+    "thunderbird-domain.log",
+    "thunderbird-edge.log",
+    "thunderbird-other.log",
+    "thunderbird-tbird.log"
+  ],
+  "is_incident": true,
+  "root_cause_type": "vapi",
+  "root_component": "thunderbird-edge.log",
+  "schema_version": "loghub-sre-answer-v2-corr"
+}

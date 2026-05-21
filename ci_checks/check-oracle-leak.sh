@@ -103,6 +103,13 @@ if schema_version.endswith("-v2-seq"):
         '"propagation"',
         '"consequence"',
     })
+# v2-corr (cross-component correlation) answers add causal-chain tokens.
+if schema_version.endswith("-v2-corr"):
+    answer_shaped.update({
+        '"causal_chain"',
+        '"caused_by_step"',
+        '"root_component"',
+    })
 for label in [expected.get("root_cause_type"), *expected.get("allowed_root_causes", []),
               *expected.get("safe_recommendations", [])]:
     if isinstance(label, str) and ("_" in label):

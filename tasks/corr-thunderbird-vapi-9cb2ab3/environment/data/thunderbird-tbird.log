@@ -1,0 +1,1052 @@
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 CROND[30222]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 16, 6, 22, 0, 0, 0
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725000 2006.06.19 tbird-sm1 Jun 19 06:50:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725000 2006.06.19 tbird-sm2 Jun 19 06:50:00 tbird-sm2/tbird-sm2 CROND[29709]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1150725000 2006.06.19 tbird-sm2 Jun 19 06:50:00 tbird-sm2/tbird-sm2 last message repeated 13 times
+- 1150725001 2006.06.19 tbird-admin1 Jun 19 06:50:01 local@tbird-admin1 crond[1495]: (root) CMD (/apps/contrib/check-disks aadmin[1-4],badmin[1-4],cadmin[1-4],dadmin[1-4],eadmin[1-2])
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 16, 6, 23, 0, 0, 0
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 23, 6, 18, 0, 0, 0
+- 1150725001 2006.06.19 tbird-sm1 Jun 19 06:50:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 16, 6, 24, 0, 0, 0
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725002 2006.06.19 tbird-sm1 Jun 19 06:50:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725002 2006.06.19 tbird-sm2 Jun 19 06:50:02 tbird-sm2/tbird-sm2 ib_sm[27873]: [ib_sm_sweep.c:1833]: ******************* NEW MASTER POLL *****************
+- 1150725007 2006.06.19 tbird-admin1 Jun 19 06:50:07 local@tbird-admin1 crond(pam_unix)[1494]: session closed for user root
+- 1150725014 2006.06.19 tbird-sm1 Jun 19 06:50:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725015 2006.06.19 tbird-sm1 Jun 19 06:50:15 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725015 2006.06.19 tbird-sm1 Jun 19 06:50:15 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725016 2006.06.19 tbird-sm1 Jun 19 06:50:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725016 2006.06.19 tbird-sm1 Jun 19 06:50:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725016 2006.06.19 tbird-sm1 Jun 19 06:50:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 17, 0, 0, 0
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 12, 7, 0, 0, 0
+- 1150725018 2006.06.19 tbird-sm1 Jun 19 06:50:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 20, 11, 24, 0, 0, 0
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 22, 11, 18, 0, 0, 0
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 19, 0, 0, 0
+- 1150725019 2006.06.19 tbird-sm1 Jun 19 06:50:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 22, 6, 18, 0, 0, 0
+- 1150725020 2006.06.19 tbird-sm1 Jun 19 06:50:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725020 2006.06.19 tbird-sm1 Jun 19 06:50:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725020 2006.06.19 tbird-sm1 Jun 19 06:50:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725021 2006.06.19 tbird-sm1 Jun 19 06:50:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725021 2006.06.19 tbird-sm1 Jun 19 06:50:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725021 2006.06.19 tbird-sm1 Jun 19 06:50:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725021 2006.06.19 tbird-sm1 Jun 19 06:50:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 24, 0, 0, 0
+- 1150725021 2006.06.19 tbird-sm1 Jun 19 06:50:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725032 2006.06.19 tbird-sm1 Jun 19 06:50:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725033 2006.06.19 tbird-sm1 Jun 19 06:50:33 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725033 2006.06.19 tbird-sm1 Jun 19 06:50:33 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725034 2006.06.19 tbird-sm1 Jun 19 06:50:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725034 2006.06.19 tbird-sm1 Jun 19 06:50:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725034 2006.06.19 tbird-sm1 Jun 19 06:50:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725034 2006.06.19 tbird-sm2 Jun 19 06:50:34 tbird-sm2/tbird-sm2 last message repeated 8 times
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 10, 17, 0, 0, 0
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 12, 7, 0, 0, 0
+- 1150725036 2006.06.19 tbird-sm1 Jun 19 06:50:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 5, 11, 19, 0, 0, 0
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 20, 11, 24, 0, 0, 0
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 22, 11, 18, 0, 0, 0
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 10, 19, 0, 0, 0
+- 1150725037 2006.06.19 tbird-sm1 Jun 19 06:50:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 14, 22, 6, 18, 0, 0, 0
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 10, 24, 0, 0, 0
+- 1150725038 2006.06.19 tbird-sm1 Jun 19 06:50:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725050 2006.06.19 tbird-sm1 Jun 19 06:50:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725051 2006.06.19 tbird-sm1 Jun 19 06:50:51 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725051 2006.06.19 tbird-sm1 Jun 19 06:50:51 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725052 2006.06.19 tbird-sm1 Jun 19 06:50:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725052 2006.06.19 tbird-sm1 Jun 19 06:50:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725052 2006.06.19 tbird-sm1 Jun 19 06:50:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 22, 0, 0, 0
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 17, 0, 0, 0
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 12, 7, 0, 0, 0
+- 1150725054 2006.06.19 tbird-sm1 Jun 19 06:50:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 5, 11, 19, 0, 0, 0
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 23, 0, 0, 0
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 20, 11, 24, 0, 0, 0
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 22, 11, 18, 0, 0, 0
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 19, 0, 0, 0
+- 1150725055 2006.06.19 tbird-sm1 Jun 19 06:50:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 14, 22, 6, 18, 0, 0, 0
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 24, 0, 0, 0
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 24, 0, 0, 0
+- 1150725056 2006.06.19 tbird-sm1 Jun 19 06:50:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725068 2006.06.19 tbird-sm1 Jun 19 06:51:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725069 2006.06.19 tbird-sm1 Jun 19 06:51:09 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725069 2006.06.19 tbird-sm1 Jun 19 06:51:09 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725070 2006.06.19 tbird-sm1 Jun 19 06:51:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725070 2006.06.19 tbird-sm1 Jun 19 06:51:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725070 2006.06.19 tbird-sm1 Jun 19 06:51:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725072 2006.06.19 tbird-sm1 Jun 19 06:51:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725073 2006.06.19 tbird-sm1 Jun 19 06:51:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725074 2006.06.19 tbird-sm1 Jun 19 06:51:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725086 2006.06.19 tbird-sm1 Jun 19 06:51:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725087 2006.06.19 tbird-sm1 Jun 19 06:51:27 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725087 2006.06.19 tbird-sm1 Jun 19 06:51:27 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725088 2006.06.19 tbird-sm1 Jun 19 06:51:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725088 2006.06.19 tbird-sm1 Jun 19 06:51:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725088 2006.06.19 tbird-sm1 Jun 19 06:51:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 17, 0, 0, 0
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 12, 7, 0, 0, 0
+- 1150725090 2006.06.19 tbird-sm1 Jun 19 06:51:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 5, 11, 19, 0, 0, 0
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 22, 11, 18, 0, 0, 0
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 19, 0, 0, 0
+- 1150725091 2006.06.19 tbird-sm1 Jun 19 06:51:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 14, 22, 6, 18, 0, 0, 0
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 24, 0, 0, 0
+- 1150725092 2006.06.19 tbird-sm1 Jun 19 06:51:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725098 2006.06.19 tbird-sm2 Jun 19 06:51:38 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1150725104 2006.06.19 tbird-sm1 Jun 19 06:51:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725105 2006.06.19 tbird-sm1 Jun 19 06:51:45 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725105 2006.06.19 tbird-sm1 Jun 19 06:51:45 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725106 2006.06.19 tbird-sm1 Jun 19 06:51:46 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725106 2006.06.19 tbird-sm1 Jun 19 06:51:46 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725106 2006.06.19 tbird-sm1 Jun 19 06:51:46 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 17, 0, 0, 0
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 12, 7, 0, 0, 0
+- 1150725108 2006.06.19 tbird-sm1 Jun 19 06:51:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 20, 11, 24, 0, 0, 0
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 22, 11, 18, 0, 0, 0
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 19, 0, 0, 0
+- 1150725109 2006.06.19 tbird-sm1 Jun 19 06:51:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 22, 6, 18, 0, 0, 0
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 24, 0, 0, 0
+- 1150725110 2006.06.19 tbird-sm1 Jun 19 06:51:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725122 2006.06.19 tbird-sm1 Jun 19 06:52:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725123 2006.06.19 tbird-sm1 Jun 19 06:52:03 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725123 2006.06.19 tbird-sm1 Jun 19 06:52:03 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725124 2006.06.19 tbird-sm1 Jun 19 06:52:04 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725124 2006.06.19 tbird-sm1 Jun 19 06:52:04 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725124 2006.06.19 tbird-sm1 Jun 19 06:52:04 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725126 2006.06.19 tbird-sm1 Jun 19 06:52:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725127 2006.06.19 tbird-sm1 Jun 19 06:52:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725128 2006.06.19 tbird-sm1 Jun 19 06:52:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725140 2006.06.19 tbird-sm1 Jun 19 06:52:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725141 2006.06.19 tbird-sm1 Jun 19 06:52:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725141 2006.06.19 tbird-sm1 Jun 19 06:52:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725142 2006.06.19 tbird-sm1 Jun 19 06:52:22 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725142 2006.06.19 tbird-sm1 Jun 19 06:52:22 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725142 2006.06.19 tbird-sm1 Jun 19 06:52:22 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 10, 14, 6, 22, 0, 0, 0
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 2, 11, 19, 0, 0, 0
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 17, 0, 0, 0
+- 1150725144 2006.06.19 tbird-sm1 Jun 19 06:52:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 12, 7, 0, 0, 0
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 10, 14, 6, 23, 0, 0, 0
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 22, 11, 18, 0, 0, 0
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 19, 0, 0, 0
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 14, 19, 11, 24, 0, 0, 0
+- 1150725145 2006.06.19 tbird-sm1 Jun 19 06:52:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 14, 22, 6, 18, 0, 0, 0
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 10, 14, 6, 24, 0, 0, 0
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 24, 0, 0, 0
+- 1150725146 2006.06.19 tbird-sm1 Jun 19 06:52:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725158 2006.06.19 tbird-sm1 Jun 19 06:52:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725159 2006.06.19 tbird-sm1 Jun 19 06:52:39 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725159 2006.06.19 tbird-sm1 Jun 19 06:52:39 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725160 2006.06.19 tbird-sm1 Jun 19 06:52:40 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725160 2006.06.19 tbird-sm1 Jun 19 06:52:40 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725160 2006.06.19 tbird-sm1 Jun 19 06:52:40 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 10, 14, 6, 22, 0, 0, 0
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725162 2006.06.19 tbird-sm1 Jun 19 06:52:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725162 2006.06.19 tbird-sm2 Jun 19 06:52:42 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 10, 14, 6, 23, 0, 0, 0
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 23, 6, 18, 0, 0, 0
+- 1150725163 2006.06.19 tbird-sm1 Jun 19 06:52:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 10, 14, 6, 24, 0, 0, 0
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725164 2006.06.19 tbird-sm1 Jun 19 06:52:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725176 2006.06.19 tbird-sm1 Jun 19 06:52:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725177 2006.06.19 tbird-sm1 Jun 19 06:52:57 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725177 2006.06.19 tbird-sm1 Jun 19 06:52:57 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725178 2006.06.19 tbird-sm1 Jun 19 06:52:58 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725178 2006.06.19 tbird-sm1 Jun 19 06:52:58 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725178 2006.06.19 tbird-sm1 Jun 19 06:52:58 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 4, 10, 17, 0, 0, 0
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 4, 12, 7, 0, 0, 0
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725180 2006.06.19 tbird-sm1 Jun 19 06:53:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 4, 10, 19, 0, 0, 0
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 20, 11, 24, 0, 0, 0
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 22, 11, 18, 0, 0, 0
+- 1150725181 2006.06.19 tbird-sm1 Jun 19 06:53:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 22, 6, 18, 0, 0, 0
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 4, 10, 24, 0, 0, 0
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725182 2006.06.19 tbird-sm1 Jun 19 06:53:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725194 2006.06.19 tbird-sm1 Jun 19 06:53:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725195 2006.06.19 tbird-sm1 Jun 19 06:53:15 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725195 2006.06.19 tbird-sm1 Jun 19 06:53:15 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725196 2006.06.19 tbird-sm1 Jun 19 06:53:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725196 2006.06.19 tbird-sm1 Jun 19 06:53:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725196 2006.06.19 tbird-sm1 Jun 19 06:53:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 22, 0, 0, 0
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 17, 0, 0, 0
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 12, 7, 0, 0, 0
+- 1150725198 2006.06.19 tbird-sm1 Jun 19 06:53:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 5, 11, 19, 0, 0, 0
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 23, 0, 0, 0
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 20, 11, 24, 0, 0, 0
+- 1150725199 2006.06.19 tbird-sm1 Jun 19 06:53:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 19, 0, 0, 0
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 24, 0, 0, 0
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 24, 0, 0, 0
+- 1150725200 2006.06.19 tbird-sm1 Jun 19 06:53:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725212 2006.06.19 tbird-sm1 Jun 19 06:53:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725213 2006.06.19 tbird-sm1 Jun 19 06:53:33 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725213 2006.06.19 tbird-sm1 Jun 19 06:53:33 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725214 2006.06.19 tbird-sm1 Jun 19 06:53:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725214 2006.06.19 tbird-sm1 Jun 19 06:53:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725214 2006.06.19 tbird-sm1 Jun 19 06:53:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 4, 6, 22, 0, 0, 0
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 17, 0, 0, 0
+- 1150725216 2006.06.19 tbird-sm1 Jun 19 06:53:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 12, 7, 0, 0, 0
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 4, 6, 23, 0, 0, 0
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 20, 11, 24, 0, 0, 0
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 22, 11, 18, 0, 0, 0
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 22, 6, 18, 0, 0, 0
+- 1150725217 2006.06.19 tbird-sm1 Jun 19 06:53:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 19, 0, 0, 0
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 4, 6, 24, 0, 0, 0
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 24, 0, 0, 0
+- 1150725218 2006.06.19 tbird-sm1 Jun 19 06:53:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725226 2006.06.19 tbird-sm2 Jun 19 06:53:46 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1150725230 2006.06.19 tbird-sm1 Jun 19 06:53:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725231 2006.06.19 tbird-sm1 Jun 19 06:53:51 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725231 2006.06.19 tbird-sm1 Jun 19 06:53:51 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725232 2006.06.19 tbird-sm1 Jun 19 06:53:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725232 2006.06.19 tbird-sm1 Jun 19 06:53:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725232 2006.06.19 tbird-sm1 Jun 19 06:53:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 4, 10, 17, 0, 0, 0
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 4, 12, 7, 0, 0, 0
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 5, 11, 19, 0, 0, 0
+- 1150725234 2006.06.19 tbird-sm1 Jun 19 06:53:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 20, 11, 24, 0, 0, 0
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 22, 11, 18, 0, 0, 0
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 23, 6, 18, 0, 0, 0
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 4, 10, 19, 0, 0, 0
+- 1150725235 2006.06.19 tbird-sm1 Jun 19 06:53:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 4, 10, 24, 0, 0, 0
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725236 2006.06.19 tbird-sm1 Jun 19 06:53:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725248 2006.06.19 tbird-sm1 Jun 19 06:54:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725249 2006.06.19 tbird-sm1 Jun 19 06:54:09 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725249 2006.06.19 tbird-sm1 Jun 19 06:54:09 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725250 2006.06.19 tbird-sm1 Jun 19 06:54:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725250 2006.06.19 tbird-sm1 Jun 19 06:54:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725250 2006.06.19 tbird-sm1 Jun 19 06:54:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 10, 14, 6, 22, 0, 0, 0
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 17, 0, 0, 0
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 12, 7, 0, 0, 0
+- 1150725252 2006.06.19 tbird-sm1 Jun 19 06:54:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 10, 14, 6, 23, 0, 0, 0
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 20, 11, 24, 0, 0, 0
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 22, 11, 18, 0, 0, 0
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 19, 0, 0, 0
+- 1150725253 2006.06.19 tbird-sm1 Jun 19 06:54:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 22, 6, 18, 0, 0, 0
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 10, 14, 6, 24, 0, 0, 0
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 24, 0, 0, 0
+- 1150725254 2006.06.19 tbird-sm1 Jun 19 06:54:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725266 2006.06.19 tbird-sm1 Jun 19 06:54:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725267 2006.06.19 tbird-sm1 Jun 19 06:54:27 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725267 2006.06.19 tbird-sm1 Jun 19 06:54:27 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725268 2006.06.19 tbird-sm1 Jun 19 06:54:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725268 2006.06.19 tbird-sm1 Jun 19 06:54:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725268 2006.06.19 tbird-sm1 Jun 19 06:54:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 4, 6, 22, 0, 0, 0
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 10, 17, 0, 0, 0
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 12, 7, 0, 0, 0
+- 1150725270 2006.06.19 tbird-sm1 Jun 19 06:54:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 5, 11, 19, 0, 0, 0
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 4, 6, 23, 0, 0, 0
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 20, 11, 24, 0, 0, 0
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 22, 11, 18, 0, 0, 0
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 10, 19, 0, 0, 0
+- 1150725271 2006.06.19 tbird-sm1 Jun 19 06:54:31 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 14, 22, 6, 18, 0, 0, 0
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 4, 6, 24, 0, 0, 0
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 4, 10, 24, 0, 0, 0
+- 1150725272 2006.06.19 tbird-sm1 Jun 19 06:54:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725284 2006.06.19 tbird-sm1 Jun 19 06:54:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725285 2006.06.19 tbird-sm1 Jun 19 06:54:45 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725285 2006.06.19 tbird-sm1 Jun 19 06:54:45 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725286 2006.06.19 tbird-sm1 Jun 19 06:54:46 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725286 2006.06.19 tbird-sm1 Jun 19 06:54:46 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725286 2006.06.19 tbird-sm1 Jun 19 06:54:46 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 22, 0, 0, 0
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725288 2006.06.19 tbird-sm1 Jun 19 06:54:48 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 23, 0, 0, 0
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725289 2006.06.19 tbird-sm1 Jun 19 06:54:49 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 24, 0, 0, 0
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 modprobe: modprobe: Can't locate module binfmt-464c
+- 1150725290 2006.06.19 tbird-sm1 Jun 19 06:54:50 tbird-sm1/tbird-sm1 modprobe: modprobe: Can't locate module binfmt-464c
+- 1150725290 2006.06.19 tbird-sm2 Jun 19 06:54:50 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1150725302 2006.06.19 tbird-sm1 Jun 19 06:55:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725303 2006.06.19 tbird-sm1 Jun 19 06:55:03 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725303 2006.06.19 tbird-sm1 Jun 19 06:55:03 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725304 2006.06.19 tbird-sm1 Jun 19 06:55:04 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725304 2006.06.19 tbird-sm1 Jun 19 06:55:04 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725304 2006.06.19 tbird-sm1 Jun 19 06:55:04 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725306 2006.06.19 tbird-sm1 Jun 19 06:55:06 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 23, 6, 18, 0, 0, 0
+- 1150725307 2006.06.19 tbird-sm1 Jun 19 06:55:07 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725308 2006.06.19 tbird-sm1 Jun 19 06:55:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725320 2006.06.19 tbird-sm1 Jun 19 06:55:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725321 2006.06.19 tbird-sm1 Jun 19 06:55:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725321 2006.06.19 tbird-sm1 Jun 19 06:55:21 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725322 2006.06.19 tbird-sm1 Jun 19 06:55:22 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725322 2006.06.19 tbird-sm1 Jun 19 06:55:22 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725322 2006.06.19 tbird-sm1 Jun 19 06:55:22 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 17, 0, 0, 0
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 12, 7, 0, 0, 0
+- 1150725324 2006.06.19 tbird-sm1 Jun 19 06:55:24 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 5, 11, 19, 0, 0, 0
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 20, 11, 24, 0, 0, 0
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 22, 11, 18, 0, 0, 0
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 19, 0, 0, 0
+- 1150725325 2006.06.19 tbird-sm1 Jun 19 06:55:25 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 14, 22, 6, 18, 0, 0, 0
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 24, 0, 0, 0
+- 1150725326 2006.06.19 tbird-sm1 Jun 19 06:55:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725338 2006.06.19 tbird-sm1 Jun 19 06:55:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725339 2006.06.19 tbird-sm1 Jun 19 06:55:39 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725339 2006.06.19 tbird-sm1 Jun 19 06:55:39 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725340 2006.06.19 tbird-sm1 Jun 19 06:55:40 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725340 2006.06.19 tbird-sm1 Jun 19 06:55:40 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725340 2006.06.19 tbird-sm1 Jun 19 06:55:40 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725342 2006.06.19 tbird-sm1 Jun 19 06:55:42 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725343 2006.06.19 tbird-sm1 Jun 19 06:55:43 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725344 2006.06.19 tbird-sm1 Jun 19 06:55:44 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725354 2006.06.19 tbird-sm2 Jun 19 06:55:54 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1150725356 2006.06.19 tbird-sm1 Jun 19 06:55:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725357 2006.06.19 tbird-sm1 Jun 19 06:55:57 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725357 2006.06.19 tbird-sm1 Jun 19 06:55:57 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725358 2006.06.19 tbird-sm1 Jun 19 06:55:58 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725358 2006.06.19 tbird-sm1 Jun 19 06:55:58 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725358 2006.06.19 tbird-sm1 Jun 19 06:55:58 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 17, 0, 0, 0
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 12, 7, 0, 0, 0
+- 1150725360 2006.06.19 tbird-sm1 Jun 19 06:56:00 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 5, 11, 19, 0, 0, 0
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 19, 0, 0, 0
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 20, 11, 24, 0, 0, 0
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 22, 11, 18, 0, 0, 0
+- 1150725361 2006.06.19 tbird-sm1 Jun 19 06:56:01 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 14, 22, 6, 18, 0, 0, 0
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 4, 10, 24, 0, 0, 0
+- 1150725362 2006.06.19 tbird-sm1 Jun 19 06:56:02 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725374 2006.06.19 tbird-sm1 Jun 19 06:56:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725375 2006.06.19 tbird-sm1 Jun 19 06:56:15 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725375 2006.06.19 tbird-sm1 Jun 19 06:56:15 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725376 2006.06.19 tbird-sm1 Jun 19 06:56:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725376 2006.06.19 tbird-sm1 Jun 19 06:56:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725376 2006.06.19 tbird-sm1 Jun 19 06:56:16 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725378 2006.06.19 tbird-sm1 Jun 19 06:56:18 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 23, 0, 0, 0
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 14, 22, 6, 18, 0, 0, 0
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725379 2006.06.19 tbird-sm1 Jun 19 06:56:19 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 24, 0, 0, 0
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725380 2006.06.19 tbird-sm1 Jun 19 06:56:20 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725392 2006.06.19 tbird-sm1 Jun 19 06:56:32 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725393 2006.06.19 tbird-sm1 Jun 19 06:56:33 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725393 2006.06.19 tbird-sm1 Jun 19 06:56:33 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725394 2006.06.19 tbird-sm1 Jun 19 06:56:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725394 2006.06.19 tbird-sm1 Jun 19 06:56:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725394 2006.06.19 tbird-sm1 Jun 19 06:56:34 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725396 2006.06.19 tbird-sm1 Jun 19 06:56:36 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725397 2006.06.19 tbird-sm1 Jun 19 06:56:37 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725398 2006.06.19 tbird-sm1 Jun 19 06:56:38 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725410 2006.06.19 tbird-sm1 Jun 19 06:56:50 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725411 2006.06.19 tbird-sm1 Jun 19 06:56:51 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725411 2006.06.19 tbird-sm1 Jun 19 06:56:51 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725412 2006.06.19 tbird-sm1 Jun 19 06:56:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725412 2006.06.19 tbird-sm1 Jun 19 06:56:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725412 2006.06.19 tbird-sm1 Jun 19 06:56:52 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 22, 0, 0, 0
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725414 2006.06.19 tbird-sm1 Jun 19 06:56:54 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 23, 0, 0, 0
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 20, 11, 24, 0, 0, 0
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 22, 11, 18, 0, 0, 0
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 19, 0, 0, 0
+- 1150725415 2006.06.19 tbird-sm1 Jun 19 06:56:55 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 14, 22, 6, 18, 0, 0, 0
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 3, 6, 24, 0, 0, 0
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 24, 0, 0, 0
+- 1150725416 2006.06.19 tbird-sm1 Jun 19 06:56:56 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725418 2006.06.19 tbird-sm2 Jun 19 06:56:58 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1150725428 2006.06.19 tbird-sm1 Jun 19 06:57:08 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725429 2006.06.19 tbird-sm1 Jun 19 06:57:09 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725429 2006.06.19 tbird-sm1 Jun 19 06:57:09 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725430 2006.06.19 tbird-sm1 Jun 19 06:57:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725430 2006.06.19 tbird-sm1 Jun 19 06:57:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725430 2006.06.19 tbird-sm1 Jun 19 06:57:10 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 22, 0, 0, 0
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 17, 0, 0, 0
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 12, 7, 0, 0, 0
+- 1150725432 2006.06.19 tbird-sm1 Jun 19 06:57:12 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 5, 11, 19, 0, 0, 0
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:2a, port_num= 24, error code 1
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:82, port_num= 18, error code 1
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:78:b6, port_num= 18, error code 1
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 23, error code 1
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 19, error code 1
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 23, 0, 0, 0
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 20, 11, 24, 0, 0, 0
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 22, 11, 18, 0, 0, 0
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 23, 6, 18, 0, 0, 0
+- 1150725433 2006.06.19 tbird-sm1 Jun 19 06:57:13 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 19, 0, 0, 0
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [INFO]: Configuration caused by some ports in INIT state
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 24, error code 1
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 24, error code 1
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 10, 1, 6, 24, 0, 0, 0
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 4, 10, 24, 0, 0, 0
+- 1150725434 2006.06.19 tbird-sm1 Jun 19 06:57:14 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1516]: No topology change
+- 1150725446 2006.06.19 tbird-sm1 Jun 19 06:57:26 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1150725447 2006.06.19 tbird-sm1 Jun 19 06:57:27 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1150725447 2006.06.19 tbird-sm1 Jun 19 06:57:27 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:71:26 port 19 is INIT state
+- 1150725448 2006.06.19 tbird-sm1 Jun 19 06:57:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:a4:66, port_num= 6, error code 1
+- 1150725448 2006.06.19 tbird-sm1 Jun 19 06:57:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725448 2006.06.19 tbird-sm1 Jun 19 06:57:28 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 4, direct_path: 0, 1, 1, 7, 6, 0, 0, 0, 0, 0
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:71:26, port_num= 19, error code 1
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c2, port_num= 7, error code 1
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:89:c6, port_num= 22, error code 1
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:8b:cd, port_num= 17, error code 1
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 7, 2, 6, 22, 0, 0, 0
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 10, 17, 0, 0, 0
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 4, 12, 7, 0, 0, 0
+- 1150725450 2006.06.19 tbird-sm1 Jun 19 06:57:30 tbird-sm1/tbird-sm1 ib_sm[2591]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 5, 11, 19, 0, 0, 0
