@@ -29,9 +29,8 @@ make unit             # adapter + exporter tests in ~5s
 ```
 
 To run the harbor oracle/nop validation you also need Docker. To run
-the rubric grader you need a Moonshot or Anthropic API key (see
-[`docs/rubric-pass-report.md`](docs/rubric-pass-report.md) for how M7
-is set up).
+the rubric grader you need a Moonshot or Anthropic API key; see
+[`docs/rubric-pass-report.md`](docs/rubric-pass-report.md).
 
 ## Adding a new dataset adapter
 
@@ -63,8 +62,8 @@ Short version:
 Every PR must pass `make validate-all`. Concretely:
 
 - `make unit`: pytest across `tools/case_builder/tests/` and
-  `tests/test_repo_invariants.py`. Currently 265 tests; new adapters
-  should add 3+ unit tests and not regress any existing one.
+  `tests/test_repo_invariants.py`. New adapters should add 3+ unit
+  tests and not regress any existing one.
 - `make static`: 12 ci_checks/*.sh scripts × every task in `tasks/`.
   All must pass. The negative test-tasks under
   `ci_checks/test-tasks/fail-loghub-*/` must continue to fail their
@@ -100,23 +99,23 @@ Every PR must pass `make validate-all`. Concretely:
 Bump `<Adapter>.adapter_version` any time you change the slice
 geometry, the root-cause classification logic, or the label-loading
 logic. Bumping invalidates prior `case_id`s, which means every
-existing slug derived from that adapter changes — and the M8 snapshot
-test will fail unless `tests/snapshots/case_ids.json` is regenerated
-in the same commit. Both changes go in one commit so reviewers can
+existing slug derived from that adapter changes. Regenerate
+`tests/snapshots/case_ids.json` in the same commit so reviewers can
 see the cause and effect together.
 
 ## Commit hygiene
 
-- One milestone per commit when working through the long-running
-  buildout branch (see `docs/PLAN.md` for the milestone list).
+- Keep commits scoped: adapter logic, generated task refreshes, docs,
+  and CI/tooling changes should be easy to review independently.
 - Commit messages explain the *why*, not the *what* — the diff
   already shows what changed.
 - Never amend a published commit; create a follow-up commit.
 - No AI co-author trailers (`Co-Authored-By: Claude` etc.). The work
   is the user's.
 
-## Reviewing
+## Review focus
 
-See [REVIEWING.md](REVIEWING.md). The CI gates do most of the
-mechanical checking; reviewers focus on slice quality, taxonomy
-soundness, and whether the adapter's fixture covers its edge cases.
+The CI gates do most of the mechanical checking. Human review should
+focus on slice quality, taxonomy soundness, adapter determinism, and
+whether fixture coverage exercises the edge cases the real corpus
+contains.

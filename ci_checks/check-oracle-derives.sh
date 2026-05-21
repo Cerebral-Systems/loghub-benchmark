@@ -1,10 +1,8 @@
 #!/bin/bash
 #
-# Enforces CLAUDE.md's "Oracle solution rule": solve.sh must DERIVE the
-# answer via computation on the visible log, not `cp /tests/expected.json
-# /app/answer.json` or any equivalent shortcut. This is the static-time
-# guard that catches the failure the M7 `solution_quality` rubric
-# criterion catches at review time.
+# Enforces the oracle solution rule: solve.sh must derive the answer via
+# computation on the visible logs, not `cp /tests/expected.json
+# /app/answer.json` or any equivalent shortcut.
 
 set -e
 
@@ -26,7 +24,7 @@ for task_dir in $TASK_DIRS; do
     # Flag any direct cat/cp of expected.json into the agent's /app/ tree.
     if grep -qE '(cp|cat)\s+.*/tests/expected\.json' "$solve"; then
         echo "FAIL $task_dir: solve.sh shortcuts the oracle by copying tests/expected.json"
-        echo "   Oracle's solve.sh must read the log and compute the answer, per CLAUDE.md."
+        echo "   Oracle's solve.sh must read the log and compute the answer."
         FAILED=1
     fi
     if grep -qE 'cat\s+.*expected\.json.*>\s*/app/answer\.json' "$solve"; then

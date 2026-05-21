@@ -5,11 +5,10 @@ set -e
 
 # Required task.toml fields for the Loghub SRE benchmark.
 #
-# Schema follows the Harbor adapter-spec corrections recorded in
-# CLAUDE.md (2026-05-15). NOTE: this supersedes the upstream
-# benchmark-template field list (which still references
-# difficulty_explanation, solution_explanation, etc.) — those fields
-# were retired when we re-targeted Harbor's adapter flow.
+# Schema follows the Harbor adapter-style task metadata emitted by the
+# Loghub exporter. This intentionally differs from hand-authored task
+# templates, which include fields that are not part of the generated
+# Loghub SRE task set.
 REQUIRED_FIELDS=(
     "author_name"
     "author_email"

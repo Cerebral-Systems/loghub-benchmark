@@ -87,8 +87,8 @@ jobs:
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          # Each entry: friendly name | script filename | doc anchor in TASK_REVIEW_AUTOMATION.md
-          # Anchor defaults to the script's stem (script.sh -> #script).
+          # Each entry: friendly name | script filename.
+          # Comment links point directly at the script that produced the result.
           CHECKS=(
             "Canary strings|check-canary.sh"
             "Dockerfile refs|check-dockerfile-references.sh"
@@ -113,9 +113,8 @@ jobs:
           for entry in "${CHECKS[@]}"; do
             NAME="${entry%%|*}"
             SCRIPT="${entry##*|}"
-            ANCHOR="${SCRIPT%.sh}"
             SCRIPT_PATH="$GITHUB_WORKSPACE/base/ci_checks/$SCRIPT"
-            DOC_URL="${REPO_URL}/blob/main/TASK_REVIEW_AUTOMATION.md#${ANCHOR}"
+            DOC_URL="${REPO_URL}/blob/main/ci_checks/${SCRIPT}"
 
             echo "::group::Running $NAME"
 
