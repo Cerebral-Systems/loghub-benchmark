@@ -1,0 +1,1074 @@
+- 1141523746 2006.03.04 tbird-sm1 Mar 4 17:55:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523746 2006.03.04 tbird-sm1 Mar 4 17:55:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523746 2006.03.04 tbird-sm1 Mar 4 17:55:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523746 2006.03.04 tbird-sm1 Mar 4 17:55:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141523746 2006.03.04 tbird-sm1 Mar 4 17:55:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523754 2006.03.04 tbird-sm2 Mar 4 17:55:54 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141523757 2006.03.04 tbird-sm1 Mar 4 17:55:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523759 2006.03.04 tbird-sm1 Mar 4 17:55:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523759 2006.03.04 tbird-sm1 Mar 4 17:55:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523762 2006.03.04 tbird-sm1 Mar 4 17:56:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523762 2006.03.04 tbird-sm1 Mar 4 17:56:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523762 2006.03.04 tbird-sm1 Mar 4 17:56:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523762 2006.03.04 tbird-sm1 Mar 4 17:56:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141523762 2006.03.04 tbird-sm1 Mar 4 17:56:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523773 2006.03.04 tbird-sm1 Mar 4 17:56:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523775 2006.03.04 tbird-sm1 Mar 4 17:56:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523775 2006.03.04 tbird-sm1 Mar 4 17:56:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523778 2006.03.04 tbird-sm1 Mar 4 17:56:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523778 2006.03.04 tbird-sm1 Mar 4 17:56:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523778 2006.03.04 tbird-sm1 Mar 4 17:56:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523778 2006.03.04 tbird-sm1 Mar 4 17:56:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141523778 2006.03.04 tbird-sm1 Mar 4 17:56:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523789 2006.03.04 tbird-sm1 Mar 4 17:56:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523791 2006.03.04 tbird-sm1 Mar 4 17:56:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523791 2006.03.04 tbird-sm1 Mar 4 17:56:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523794 2006.03.04 tbird-sm1 Mar 4 17:56:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523794 2006.03.04 tbird-sm1 Mar 4 17:56:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523794 2006.03.04 tbird-sm1 Mar 4 17:56:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523794 2006.03.04 tbird-sm1 Mar 4 17:56:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141523794 2006.03.04 tbird-sm1 Mar 4 17:56:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523805 2006.03.04 tbird-sm1 Mar 4 17:56:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523807 2006.03.04 tbird-sm1 Mar 4 17:56:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523807 2006.03.04 tbird-sm1 Mar 4 17:56:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523810 2006.03.04 tbird-sm1 Mar 4 17:56:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523810 2006.03.04 tbird-sm1 Mar 4 17:56:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523810 2006.03.04 tbird-sm1 Mar 4 17:56:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523810 2006.03.04 tbird-sm1 Mar 4 17:56:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141523810 2006.03.04 tbird-sm1 Mar 4 17:56:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523818 2006.03.04 tbird-sm2 Mar 4 17:56:58 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141523821 2006.03.04 tbird-sm1 Mar 4 17:57:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523823 2006.03.04 tbird-sm1 Mar 4 17:57:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523823 2006.03.04 tbird-sm1 Mar 4 17:57:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523826 2006.03.04 tbird-sm1 Mar 4 17:57:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523826 2006.03.04 tbird-sm1 Mar 4 17:57:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523826 2006.03.04 tbird-sm1 Mar 4 17:57:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523826 2006.03.04 tbird-sm1 Mar 4 17:57:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141523826 2006.03.04 tbird-sm1 Mar 4 17:57:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523837 2006.03.04 tbird-sm1 Mar 4 17:57:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523839 2006.03.04 tbird-sm1 Mar 4 17:57:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523839 2006.03.04 tbird-sm1 Mar 4 17:57:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523842 2006.03.04 tbird-sm1 Mar 4 17:57:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523842 2006.03.04 tbird-sm1 Mar 4 17:57:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523842 2006.03.04 tbird-sm1 Mar 4 17:57:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523842 2006.03.04 tbird-sm1 Mar 4 17:57:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141523842 2006.03.04 tbird-sm1 Mar 4 17:57:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523853 2006.03.04 tbird-sm1 Mar 4 17:57:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523855 2006.03.04 tbird-sm1 Mar 4 17:57:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523855 2006.03.04 tbird-sm1 Mar 4 17:57:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523858 2006.03.04 tbird-sm1 Mar 4 17:57:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523858 2006.03.04 tbird-sm1 Mar 4 17:57:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523858 2006.03.04 tbird-sm1 Mar 4 17:57:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523858 2006.03.04 tbird-sm1 Mar 4 17:57:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141523858 2006.03.04 tbird-sm1 Mar 4 17:57:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523869 2006.03.04 tbird-sm1 Mar 4 17:57:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523871 2006.03.04 tbird-sm1 Mar 4 17:57:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523871 2006.03.04 tbird-sm1 Mar 4 17:57:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523874 2006.03.04 tbird-sm1 Mar 4 17:57:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523874 2006.03.04 tbird-sm1 Mar 4 17:57:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523874 2006.03.04 tbird-sm1 Mar 4 17:57:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523874 2006.03.04 tbird-sm1 Mar 4 17:57:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141523874 2006.03.04 tbird-sm1 Mar 4 17:57:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523882 2006.03.04 tbird-sm2 Mar 4 17:58:02 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141523885 2006.03.04 tbird-sm1 Mar 4 17:58:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523887 2006.03.04 tbird-sm1 Mar 4 17:58:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523887 2006.03.04 tbird-sm1 Mar 4 17:58:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523890 2006.03.04 tbird-sm1 Mar 4 17:58:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523890 2006.03.04 tbird-sm1 Mar 4 17:58:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523890 2006.03.04 tbird-sm1 Mar 4 17:58:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523890 2006.03.04 tbird-sm1 Mar 4 17:58:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141523890 2006.03.04 tbird-sm1 Mar 4 17:58:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523901 2006.03.04 tbird-sm1 Mar 4 17:58:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523903 2006.03.04 tbird-sm1 Mar 4 17:58:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523903 2006.03.04 tbird-sm1 Mar 4 17:58:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523906 2006.03.04 tbird-sm1 Mar 4 17:58:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523906 2006.03.04 tbird-sm1 Mar 4 17:58:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523906 2006.03.04 tbird-sm1 Mar 4 17:58:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523906 2006.03.04 tbird-sm1 Mar 4 17:58:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 16, 13, 3, 9, 21, 0, 0, 0
+- 1141523906 2006.03.04 tbird-sm1 Mar 4 17:58:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523917 2006.03.04 tbird-sm1 Mar 4 17:58:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523919 2006.03.04 tbird-sm1 Mar 4 17:58:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523919 2006.03.04 tbird-sm1 Mar 4 17:58:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523922 2006.03.04 tbird-sm1 Mar 4 17:58:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523922 2006.03.04 tbird-sm1 Mar 4 17:58:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523922 2006.03.04 tbird-sm1 Mar 4 17:58:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523922 2006.03.04 tbird-sm1 Mar 4 17:58:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141523922 2006.03.04 tbird-sm1 Mar 4 17:58:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523933 2006.03.04 tbird-sm1 Mar 4 17:58:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523935 2006.03.04 tbird-sm1 Mar 4 17:58:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523935 2006.03.04 tbird-sm1 Mar 4 17:58:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523938 2006.03.04 tbird-sm1 Mar 4 17:58:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523938 2006.03.04 tbird-sm1 Mar 4 17:58:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523938 2006.03.04 tbird-sm1 Mar 4 17:58:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523938 2006.03.04 tbird-sm1 Mar 4 17:58:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141523938 2006.03.04 tbird-sm1 Mar 4 17:58:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523946 2006.03.04 tbird-sm2 Mar 4 17:59:06 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141523949 2006.03.04 tbird-sm1 Mar 4 17:59:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523951 2006.03.04 tbird-sm1 Mar 4 17:59:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523951 2006.03.04 tbird-sm1 Mar 4 17:59:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523954 2006.03.04 tbird-sm1 Mar 4 17:59:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523954 2006.03.04 tbird-sm1 Mar 4 17:59:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523954 2006.03.04 tbird-sm1 Mar 4 17:59:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523954 2006.03.04 tbird-sm1 Mar 4 17:59:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141523954 2006.03.04 tbird-sm1 Mar 4 17:59:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523965 2006.03.04 tbird-sm1 Mar 4 17:59:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523967 2006.03.04 tbird-sm1 Mar 4 17:59:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523967 2006.03.04 tbird-sm1 Mar 4 17:59:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523970 2006.03.04 tbird-sm1 Mar 4 17:59:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523970 2006.03.04 tbird-sm1 Mar 4 17:59:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523970 2006.03.04 tbird-sm1 Mar 4 17:59:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523970 2006.03.04 tbird-sm1 Mar 4 17:59:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141523970 2006.03.04 tbird-sm1 Mar 4 17:59:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523981 2006.03.04 tbird-sm1 Mar 4 17:59:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523983 2006.03.04 tbird-sm1 Mar 4 17:59:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523983 2006.03.04 tbird-sm1 Mar 4 17:59:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141523986 2006.03.04 tbird-sm1 Mar 4 17:59:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141523986 2006.03.04 tbird-sm1 Mar 4 17:59:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141523986 2006.03.04 tbird-sm1 Mar 4 17:59:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141523986 2006.03.04 tbird-sm1 Mar 4 17:59:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141523986 2006.03.04 tbird-sm1 Mar 4 17:59:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141523997 2006.03.04 tbird-sm1 Mar 4 17:59:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141523999 2006.03.04 tbird-sm1 Mar 4 17:59:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141523999 2006.03.04 tbird-sm1 Mar 4 17:59:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524000 2006.03.04 tbird-sm1 Mar 4 18:00:00 tbird-sm1/tbird-sm1 CROND[21182]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1141524000 2006.03.04 tbird-sm2 Mar 4 18:00:00 tbird-sm2/tbird-sm2 CROND[30624]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1141524000 2006.03.04 tbird-sm2 Mar 4 18:00:00 tbird-sm2/tbird-sm2 last message repeated 13 times
+- 1141524001 2006.03.04 tbird-admin1 Mar 4 18:00:01 local@tbird-admin1 crond[27103]: (root) CMD (/apps/contrib/check-disks aadmin[1-4],badmin[1-4],cadmin[1-4],dadmin[1-4],eadmin[1-2])
+- 1141524002 2006.03.04 tbird-sm1 Mar 4 18:00:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524002 2006.03.04 tbird-sm1 Mar 4 18:00:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524002 2006.03.04 tbird-sm1 Mar 4 18:00:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524002 2006.03.04 tbird-sm1 Mar 4 18:00:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524002 2006.03.04 tbird-sm1 Mar 4 18:00:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524002 2006.03.04 tbird-sm2 Mar 4 18:00:02 tbird-sm2/tbird-sm2 ib_sm[2753]: [ib_sm_sweep.c:1833]: ******************* NEW MASTER POLL *****************
+- 1141524007 2006.03.04 tbird-admin1 Mar 4 18:00:07 local@tbird-admin1 crond(pam_unix)[27102]: session closed for user root
+- 1141524013 2006.03.04 tbird-sm1 Mar 4 18:00:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524016 2006.03.04 tbird-sm1 Mar 4 18:00:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524016 2006.03.04 tbird-sm1 Mar 4 18:00:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524019 2006.03.04 tbird-sm1 Mar 4 18:00:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524019 2006.03.04 tbird-sm1 Mar 4 18:00:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524019 2006.03.04 tbird-sm1 Mar 4 18:00:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524019 2006.03.04 tbird-sm1 Mar 4 18:00:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 16, 13, 3, 9, 21, 0, 0, 0
+- 1141524019 2006.03.04 tbird-sm1 Mar 4 18:00:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524030 2006.03.04 tbird-sm1 Mar 4 18:00:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524033 2006.03.04 tbird-sm1 Mar 4 18:00:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524033 2006.03.04 tbird-sm1 Mar 4 18:00:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524034 2006.03.04 tbird-sm2 Mar 4 18:00:34 tbird-sm2/tbird-sm2 last message repeated 8 times
+- 1141524035 2006.03.04 tbird-sm1 Mar 4 18:00:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524035 2006.03.04 tbird-sm1 Mar 4 18:00:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524035 2006.03.04 tbird-sm1 Mar 4 18:00:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524035 2006.03.04 tbird-sm1 Mar 4 18:00:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141524035 2006.03.04 tbird-sm1 Mar 4 18:00:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524046 2006.03.04 tbird-sm1 Mar 4 18:00:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524048 2006.03.04 tbird-sm1 Mar 4 18:00:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524048 2006.03.04 tbird-sm1 Mar 4 18:00:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524051 2006.03.04 tbird-sm1 Mar 4 18:00:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524051 2006.03.04 tbird-sm1 Mar 4 18:00:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524051 2006.03.04 tbird-sm1 Mar 4 18:00:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524051 2006.03.04 tbird-sm1 Mar 4 18:00:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524051 2006.03.04 tbird-sm1 Mar 4 18:00:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524060 2006.03.04 tbird-sm1 Mar 4 18:01:00 tbird-sm1/tbird-sm1 CROND[21185]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524060 2006.03.04 tbird-sm2 Mar 4 18:01:00 tbird-sm2/tbird-sm2 CROND[30627]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524060 2006.03.04 tbird-sm2 Mar 4 18:01:00 tbird-sm2/tbird-sm2 last message repeated 6 times
+- 1141524061 2006.03.04 tbird-admin1 Mar 4 18:01:01 local@tbird-admin1 crond(pam_unix)[27206]: session closed for user root
+- 1141524061 2006.03.04 tbird-admin1 Mar 4 18:01:01 local@tbird-admin1 crond[27207]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 tbird-admin2 Mar 4 18:01:01 tbird-admin2/tbird-admin2 crond(pam_unix)[6381]: session closed for user root
+- 1141524061 2006.03.04 tbird-admin2 Mar 4 18:01:01 tbird-admin2/tbird-admin2 crond(pam_unix)[6381]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 tbird-admin2 Mar 4 18:01:01 tbird-admin2/tbird-admin2 crond[6382]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524062 2006.03.04 tbird-sm1 Mar 4 18:01:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524062 2006.03.04 tbird-sm2 Mar 4 18:01:02 tbird-sm2/tbird-sm2 ib_sm[2753]: [ib_sm_sweep.c:1833]: ******************* NEW MASTER POLL *****************
+- 1141524064 2006.03.04 tbird-sm1 Mar 4 18:01:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524064 2006.03.04 tbird-sm1 Mar 4 18:01:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524067 2006.03.04 tbird-sm1 Mar 4 18:01:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524067 2006.03.04 tbird-sm1 Mar 4 18:01:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524067 2006.03.04 tbird-sm1 Mar 4 18:01:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524067 2006.03.04 tbird-sm1 Mar 4 18:01:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524067 2006.03.04 tbird-sm1 Mar 4 18:01:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524078 2006.03.04 tbird-sm1 Mar 4 18:01:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524080 2006.03.04 tbird-sm1 Mar 4 18:01:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524080 2006.03.04 tbird-sm1 Mar 4 18:01:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524083 2006.03.04 tbird-sm1 Mar 4 18:01:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524083 2006.03.04 tbird-sm1 Mar 4 18:01:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524083 2006.03.04 tbird-sm1 Mar 4 18:01:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524083 2006.03.04 tbird-sm1 Mar 4 18:01:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524083 2006.03.04 tbird-sm1 Mar 4 18:01:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524094 2006.03.04 tbird-sm1 Mar 4 18:01:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524094 2006.03.04 tbird-sm2 Mar 4 18:01:34 tbird-sm2/tbird-sm2 last message repeated 8 times
+- 1141524097 2006.03.04 tbird-sm1 Mar 4 18:01:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524097 2006.03.04 tbird-sm1 Mar 4 18:01:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524099 2006.03.04 tbird-sm1 Mar 4 18:01:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524099 2006.03.04 tbird-sm1 Mar 4 18:01:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524099 2006.03.04 tbird-sm1 Mar 4 18:01:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524099 2006.03.04 tbird-sm1 Mar 4 18:01:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141524099 2006.03.04 tbird-sm1 Mar 4 18:01:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524111 2006.03.04 tbird-sm1 Mar 4 18:01:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524113 2006.03.04 tbird-sm1 Mar 4 18:01:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524113 2006.03.04 tbird-sm1 Mar 4 18:01:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524116 2006.03.04 tbird-sm1 Mar 4 18:01:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524116 2006.03.04 tbird-sm1 Mar 4 18:01:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524116 2006.03.04 tbird-sm1 Mar 4 18:01:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524116 2006.03.04 tbird-sm1 Mar 4 18:01:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141524116 2006.03.04 tbird-sm1 Mar 4 18:01:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524127 2006.03.04 tbird-sm1 Mar 4 18:02:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524129 2006.03.04 tbird-sm1 Mar 4 18:02:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524129 2006.03.04 tbird-sm1 Mar 4 18:02:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524132 2006.03.04 tbird-sm1 Mar 4 18:02:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524132 2006.03.04 tbird-sm1 Mar 4 18:02:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524132 2006.03.04 tbird-sm1 Mar 4 18:02:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524132 2006.03.04 tbird-sm1 Mar 4 18:02:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524132 2006.03.04 tbird-sm1 Mar 4 18:02:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524143 2006.03.04 tbird-sm1 Mar 4 18:02:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524145 2006.03.04 tbird-sm1 Mar 4 18:02:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524145 2006.03.04 tbird-sm1 Mar 4 18:02:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524148 2006.03.04 tbird-sm1 Mar 4 18:02:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524148 2006.03.04 tbird-sm1 Mar 4 18:02:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524148 2006.03.04 tbird-sm1 Mar 4 18:02:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524148 2006.03.04 tbird-sm1 Mar 4 18:02:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524148 2006.03.04 tbird-sm1 Mar 4 18:02:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524158 2006.03.04 tbird-sm2 Mar 4 18:02:38 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524159 2006.03.04 tbird-sm1 Mar 4 18:02:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524161 2006.03.04 tbird-sm1 Mar 4 18:02:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524161 2006.03.04 tbird-sm1 Mar 4 18:02:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524164 2006.03.04 tbird-sm1 Mar 4 18:02:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524164 2006.03.04 tbird-sm1 Mar 4 18:02:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524164 2006.03.04 tbird-sm1 Mar 4 18:02:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524164 2006.03.04 tbird-sm1 Mar 4 18:02:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524164 2006.03.04 tbird-sm1 Mar 4 18:02:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524175 2006.03.04 tbird-sm1 Mar 4 18:02:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524177 2006.03.04 tbird-sm1 Mar 4 18:02:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524177 2006.03.04 tbird-sm1 Mar 4 18:02:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524180 2006.03.04 tbird-sm1 Mar 4 18:03:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524180 2006.03.04 tbird-sm1 Mar 4 18:03:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524180 2006.03.04 tbird-sm1 Mar 4 18:03:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524180 2006.03.04 tbird-sm1 Mar 4 18:03:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524180 2006.03.04 tbird-sm1 Mar 4 18:03:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524191 2006.03.04 tbird-sm1 Mar 4 18:03:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524193 2006.03.04 tbird-sm1 Mar 4 18:03:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524193 2006.03.04 tbird-sm1 Mar 4 18:03:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524196 2006.03.04 tbird-sm1 Mar 4 18:03:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524196 2006.03.04 tbird-sm1 Mar 4 18:03:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524196 2006.03.04 tbird-sm1 Mar 4 18:03:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524196 2006.03.04 tbird-sm1 Mar 4 18:03:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524196 2006.03.04 tbird-sm1 Mar 4 18:03:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524207 2006.03.04 tbird-sm1 Mar 4 18:03:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524209 2006.03.04 tbird-sm1 Mar 4 18:03:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524209 2006.03.04 tbird-sm1 Mar 4 18:03:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524212 2006.03.04 tbird-sm1 Mar 4 18:03:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524212 2006.03.04 tbird-sm1 Mar 4 18:03:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524212 2006.03.04 tbird-sm1 Mar 4 18:03:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524212 2006.03.04 tbird-sm1 Mar 4 18:03:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524212 2006.03.04 tbird-sm1 Mar 4 18:03:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524222 2006.03.04 tbird-sm2 Mar 4 18:03:42 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524223 2006.03.04 tbird-sm1 Mar 4 18:03:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524225 2006.03.04 tbird-sm1 Mar 4 18:03:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524225 2006.03.04 tbird-sm1 Mar 4 18:03:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524228 2006.03.04 tbird-sm1 Mar 4 18:03:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524228 2006.03.04 tbird-sm1 Mar 4 18:03:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524228 2006.03.04 tbird-sm1 Mar 4 18:03:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524228 2006.03.04 tbird-sm1 Mar 4 18:03:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524228 2006.03.04 tbird-sm1 Mar 4 18:03:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524239 2006.03.04 tbird-sm1 Mar 4 18:03:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524241 2006.03.04 tbird-sm1 Mar 4 18:04:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524241 2006.03.04 tbird-sm1 Mar 4 18:04:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524244 2006.03.04 tbird-sm1 Mar 4 18:04:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524244 2006.03.04 tbird-sm1 Mar 4 18:04:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524244 2006.03.04 tbird-sm1 Mar 4 18:04:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524244 2006.03.04 tbird-sm1 Mar 4 18:04:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141524244 2006.03.04 tbird-sm1 Mar 4 18:04:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524255 2006.03.04 tbird-sm1 Mar 4 18:04:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524257 2006.03.04 tbird-sm1 Mar 4 18:04:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524257 2006.03.04 tbird-sm1 Mar 4 18:04:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524260 2006.03.04 tbird-sm1 Mar 4 18:04:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524260 2006.03.04 tbird-sm1 Mar 4 18:04:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524260 2006.03.04 tbird-sm1 Mar 4 18:04:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524260 2006.03.04 tbird-sm1 Mar 4 18:04:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524260 2006.03.04 tbird-sm1 Mar 4 18:04:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524271 2006.03.04 tbird-sm1 Mar 4 18:04:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524273 2006.03.04 tbird-sm1 Mar 4 18:04:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524273 2006.03.04 tbird-sm1 Mar 4 18:04:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524276 2006.03.04 tbird-sm1 Mar 4 18:04:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524276 2006.03.04 tbird-sm1 Mar 4 18:04:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524276 2006.03.04 tbird-sm1 Mar 4 18:04:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524276 2006.03.04 tbird-sm1 Mar 4 18:04:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141524276 2006.03.04 tbird-sm1 Mar 4 18:04:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524286 2006.03.04 tbird-sm2 Mar 4 18:04:46 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524287 2006.03.04 tbird-sm1 Mar 4 18:04:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524289 2006.03.04 tbird-sm1 Mar 4 18:04:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524289 2006.03.04 tbird-sm1 Mar 4 18:04:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524292 2006.03.04 tbird-sm1 Mar 4 18:04:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524292 2006.03.04 tbird-sm1 Mar 4 18:04:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524292 2006.03.04 tbird-sm1 Mar 4 18:04:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524292 2006.03.04 tbird-sm1 Mar 4 18:04:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524292 2006.03.04 tbird-sm1 Mar 4 18:04:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524303 2006.03.04 tbird-sm1 Mar 4 18:05:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524305 2006.03.04 tbird-sm1 Mar 4 18:05:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524305 2006.03.04 tbird-sm1 Mar 4 18:05:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524308 2006.03.04 tbird-sm1 Mar 4 18:05:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524308 2006.03.04 tbird-sm1 Mar 4 18:05:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524308 2006.03.04 tbird-sm1 Mar 4 18:05:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524308 2006.03.04 tbird-sm1 Mar 4 18:05:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524308 2006.03.04 tbird-sm1 Mar 4 18:05:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524319 2006.03.04 tbird-sm1 Mar 4 18:05:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524321 2006.03.04 tbird-sm1 Mar 4 18:05:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524321 2006.03.04 tbird-sm1 Mar 4 18:05:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524324 2006.03.04 tbird-sm1 Mar 4 18:05:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524324 2006.03.04 tbird-sm1 Mar 4 18:05:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524324 2006.03.04 tbird-sm1 Mar 4 18:05:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524324 2006.03.04 tbird-sm1 Mar 4 18:05:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524324 2006.03.04 tbird-sm1 Mar 4 18:05:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524335 2006.03.04 tbird-sm1 Mar 4 18:05:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524337 2006.03.04 tbird-sm1 Mar 4 18:05:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524337 2006.03.04 tbird-sm1 Mar 4 18:05:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524340 2006.03.04 tbird-sm1 Mar 4 18:05:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524340 2006.03.04 tbird-sm1 Mar 4 18:05:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524340 2006.03.04 tbird-sm1 Mar 4 18:05:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524340 2006.03.04 tbird-sm1 Mar 4 18:05:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524340 2006.03.04 tbird-sm1 Mar 4 18:05:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524350 2006.03.04 tbird-sm2 Mar 4 18:05:50 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524351 2006.03.04 tbird-sm1 Mar 4 18:05:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524353 2006.03.04 tbird-sm1 Mar 4 18:05:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524353 2006.03.04 tbird-sm1 Mar 4 18:05:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524356 2006.03.04 tbird-sm1 Mar 4 18:05:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524356 2006.03.04 tbird-sm1 Mar 4 18:05:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524356 2006.03.04 tbird-sm1 Mar 4 18:05:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524356 2006.03.04 tbird-sm1 Mar 4 18:05:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524356 2006.03.04 tbird-sm1 Mar 4 18:05:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524367 2006.03.04 tbird-sm1 Mar 4 18:06:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524369 2006.03.04 tbird-sm1 Mar 4 18:06:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524369 2006.03.04 tbird-sm1 Mar 4 18:06:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524372 2006.03.04 tbird-sm1 Mar 4 18:06:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524372 2006.03.04 tbird-sm1 Mar 4 18:06:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524372 2006.03.04 tbird-sm1 Mar 4 18:06:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524372 2006.03.04 tbird-sm1 Mar 4 18:06:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141524372 2006.03.04 tbird-sm1 Mar 4 18:06:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524383 2006.03.04 tbird-sm1 Mar 4 18:06:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524385 2006.03.04 tbird-sm1 Mar 4 18:06:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524385 2006.03.04 tbird-sm1 Mar 4 18:06:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524388 2006.03.04 tbird-sm1 Mar 4 18:06:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524388 2006.03.04 tbird-sm1 Mar 4 18:06:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524388 2006.03.04 tbird-sm1 Mar 4 18:06:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524388 2006.03.04 tbird-sm1 Mar 4 18:06:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524388 2006.03.04 tbird-sm1 Mar 4 18:06:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524399 2006.03.04 tbird-sm1 Mar 4 18:06:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524401 2006.03.04 tbird-sm1 Mar 4 18:06:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524401 2006.03.04 tbird-sm1 Mar 4 18:06:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524404 2006.03.04 tbird-sm1 Mar 4 18:06:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524404 2006.03.04 tbird-sm1 Mar 4 18:06:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524404 2006.03.04 tbird-sm1 Mar 4 18:06:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524404 2006.03.04 tbird-sm1 Mar 4 18:06:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141524404 2006.03.04 tbird-sm1 Mar 4 18:06:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524414 2006.03.04 tbird-sm2 Mar 4 18:06:54 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524415 2006.03.04 tbird-sm1 Mar 4 18:06:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524417 2006.03.04 tbird-sm1 Mar 4 18:06:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524417 2006.03.04 tbird-sm1 Mar 4 18:06:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524420 2006.03.04 tbird-sm1 Mar 4 18:07:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524420 2006.03.04 tbird-sm1 Mar 4 18:07:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524420 2006.03.04 tbird-sm1 Mar 4 18:07:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524420 2006.03.04 tbird-sm1 Mar 4 18:07:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141524420 2006.03.04 tbird-sm1 Mar 4 18:07:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524431 2006.03.04 tbird-sm1 Mar 4 18:07:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524433 2006.03.04 tbird-sm1 Mar 4 18:07:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524433 2006.03.04 tbird-sm1 Mar 4 18:07:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524436 2006.03.04 tbird-sm1 Mar 4 18:07:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524436 2006.03.04 tbird-sm1 Mar 4 18:07:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524436 2006.03.04 tbird-sm1 Mar 4 18:07:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524436 2006.03.04 tbird-sm1 Mar 4 18:07:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524436 2006.03.04 tbird-sm1 Mar 4 18:07:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524447 2006.03.04 tbird-sm1 Mar 4 18:07:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524449 2006.03.04 tbird-sm1 Mar 4 18:07:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524449 2006.03.04 tbird-sm1 Mar 4 18:07:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524452 2006.03.04 tbird-sm1 Mar 4 18:07:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524452 2006.03.04 tbird-sm1 Mar 4 18:07:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524452 2006.03.04 tbird-sm1 Mar 4 18:07:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524452 2006.03.04 tbird-sm1 Mar 4 18:07:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524452 2006.03.04 tbird-sm1 Mar 4 18:07:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524463 2006.03.04 tbird-sm1 Mar 4 18:07:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524465 2006.03.04 tbird-sm1 Mar 4 18:07:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524465 2006.03.04 tbird-sm1 Mar 4 18:07:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524468 2006.03.04 tbird-sm1 Mar 4 18:07:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524468 2006.03.04 tbird-sm1 Mar 4 18:07:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524468 2006.03.04 tbird-sm1 Mar 4 18:07:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524468 2006.03.04 tbird-sm1 Mar 4 18:07:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524468 2006.03.04 tbird-sm1 Mar 4 18:07:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524478 2006.03.04 tbird-sm2 Mar 4 18:07:58 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524479 2006.03.04 tbird-sm1 Mar 4 18:07:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524481 2006.03.04 tbird-sm1 Mar 4 18:08:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524481 2006.03.04 tbird-sm1 Mar 4 18:08:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524483 2006.03.04 tbird-sm1 Mar 4 18:08:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524483 2006.03.04 tbird-sm1 Mar 4 18:08:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524483 2006.03.04 tbird-sm1 Mar 4 18:08:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524484 2006.03.04 tbird-sm1 Mar 4 18:08:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524484 2006.03.04 tbird-sm1 Mar 4 18:08:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524495 2006.03.04 tbird-sm1 Mar 4 18:08:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524497 2006.03.04 tbird-sm1 Mar 4 18:08:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524497 2006.03.04 tbird-sm1 Mar 4 18:08:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524500 2006.03.04 tbird-sm1 Mar 4 18:08:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524500 2006.03.04 tbird-sm1 Mar 4 18:08:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524500 2006.03.04 tbird-sm1 Mar 4 18:08:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524500 2006.03.04 tbird-sm1 Mar 4 18:08:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524500 2006.03.04 tbird-sm1 Mar 4 18:08:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524511 2006.03.04 tbird-sm1 Mar 4 18:08:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524513 2006.03.04 tbird-sm1 Mar 4 18:08:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524513 2006.03.04 tbird-sm1 Mar 4 18:08:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524516 2006.03.04 tbird-sm1 Mar 4 18:08:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524516 2006.03.04 tbird-sm1 Mar 4 18:08:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524516 2006.03.04 tbird-sm1 Mar 4 18:08:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524516 2006.03.04 tbird-sm1 Mar 4 18:08:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524516 2006.03.04 tbird-sm1 Mar 4 18:08:36 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524527 2006.03.04 tbird-sm1 Mar 4 18:08:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524529 2006.03.04 tbird-sm1 Mar 4 18:08:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524529 2006.03.04 tbird-sm1 Mar 4 18:08:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524532 2006.03.04 tbird-sm1 Mar 4 18:08:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524532 2006.03.04 tbird-sm1 Mar 4 18:08:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524532 2006.03.04 tbird-sm1 Mar 4 18:08:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524532 2006.03.04 tbird-sm1 Mar 4 18:08:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524532 2006.03.04 tbird-sm1 Mar 4 18:08:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524542 2006.03.04 tbird-sm2 Mar 4 18:09:02 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524543 2006.03.04 tbird-sm1 Mar 4 18:09:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524545 2006.03.04 tbird-sm1 Mar 4 18:09:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524545 2006.03.04 tbird-sm1 Mar 4 18:09:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524548 2006.03.04 tbird-sm1 Mar 4 18:09:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524548 2006.03.04 tbird-sm1 Mar 4 18:09:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524548 2006.03.04 tbird-sm1 Mar 4 18:09:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524548 2006.03.04 tbird-sm1 Mar 4 18:09:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524548 2006.03.04 tbird-sm1 Mar 4 18:09:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524559 2006.03.04 tbird-sm1 Mar 4 18:09:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524561 2006.03.04 tbird-sm1 Mar 4 18:09:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524561 2006.03.04 tbird-sm1 Mar 4 18:09:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524564 2006.03.04 tbird-sm1 Mar 4 18:09:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524564 2006.03.04 tbird-sm1 Mar 4 18:09:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524564 2006.03.04 tbird-sm1 Mar 4 18:09:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524564 2006.03.04 tbird-sm1 Mar 4 18:09:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524564 2006.03.04 tbird-sm1 Mar 4 18:09:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524575 2006.03.04 tbird-sm1 Mar 4 18:09:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524577 2006.03.04 tbird-sm1 Mar 4 18:09:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524577 2006.03.04 tbird-sm1 Mar 4 18:09:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524580 2006.03.04 tbird-sm1 Mar 4 18:09:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524580 2006.03.04 tbird-sm1 Mar 4 18:09:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524580 2006.03.04 tbird-sm1 Mar 4 18:09:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524580 2006.03.04 tbird-sm1 Mar 4 18:09:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524580 2006.03.04 tbird-sm1 Mar 4 18:09:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524591 2006.03.04 tbird-sm1 Mar 4 18:09:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524593 2006.03.04 tbird-sm1 Mar 4 18:09:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524593 2006.03.04 tbird-sm1 Mar 4 18:09:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524596 2006.03.04 tbird-sm1 Mar 4 18:09:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524596 2006.03.04 tbird-sm1 Mar 4 18:09:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524596 2006.03.04 tbird-sm1 Mar 4 18:09:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524596 2006.03.04 tbird-sm1 Mar 4 18:09:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524596 2006.03.04 tbird-sm1 Mar 4 18:09:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524600 2006.03.04 tbird-sm2 Mar 4 18:10:00 tbird-sm2/tbird-sm2 CROND[30629]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1141524600 2006.03.04 tbird-sm2 Mar 4 18:10:00 tbird-sm2/tbird-sm2 last message repeated 14 times
+- 1141524601 2006.03.04 tbird-admin1 Mar 4 18:10:01 local@tbird-admin1 crond[27826]: (root) CMD (/apps/contrib/check-disks aadmin[1-4],badmin[1-4],cadmin[1-4],dadmin[1-4],eadmin[1-2])
+- 1141524601 2006.03.04 tbird-sm1 Mar 4 18:10:01 tbird-sm1/tbird-sm1 CROND[21187]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1141524602 2006.03.04 tbird-sm2 Mar 4 18:10:02 tbird-sm2/tbird-sm2 ib_sm[2753]: [ib_sm_sweep.c:1833]: ******************* NEW MASTER POLL *****************
+- 1141524606 2006.03.04 tbird-admin1 Mar 4 18:10:06 local@tbird-admin1 crond(pam_unix)[27825]: session closed for user root
+- 1141524607 2006.03.04 tbird-sm1 Mar 4 18:10:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524610 2006.03.04 tbird-sm1 Mar 4 18:10:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524610 2006.03.04 tbird-sm1 Mar 4 18:10:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524613 2006.03.04 tbird-sm1 Mar 4 18:10:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524613 2006.03.04 tbird-sm1 Mar 4 18:10:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524613 2006.03.04 tbird-sm1 Mar 4 18:10:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524613 2006.03.04 tbird-sm1 Mar 4 18:10:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141524613 2006.03.04 tbird-sm1 Mar 4 18:10:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524624 2006.03.04 tbird-sm1 Mar 4 18:10:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524627 2006.03.04 tbird-sm1 Mar 4 18:10:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524627 2006.03.04 tbird-sm1 Mar 4 18:10:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524629 2006.03.04 tbird-sm1 Mar 4 18:10:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524629 2006.03.04 tbird-sm1 Mar 4 18:10:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524629 2006.03.04 tbird-sm1 Mar 4 18:10:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524629 2006.03.04 tbird-sm1 Mar 4 18:10:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141524629 2006.03.04 tbird-sm1 Mar 4 18:10:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524634 2006.03.04 tbird-sm2 Mar 4 18:10:34 tbird-sm2/tbird-sm2 last message repeated 8 times
+- 1141524640 2006.03.04 tbird-sm1 Mar 4 18:10:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524642 2006.03.04 tbird-sm1 Mar 4 18:10:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524642 2006.03.04 tbird-sm1 Mar 4 18:10:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524645 2006.03.04 tbird-sm1 Mar 4 18:10:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524645 2006.03.04 tbird-sm1 Mar 4 18:10:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524645 2006.03.04 tbird-sm1 Mar 4 18:10:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524645 2006.03.04 tbird-sm1 Mar 4 18:10:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141524645 2006.03.04 tbird-sm1 Mar 4 18:10:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524656 2006.03.04 tbird-sm1 Mar 4 18:10:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524658 2006.03.04 tbird-sm1 Mar 4 18:10:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524658 2006.03.04 tbird-sm1 Mar 4 18:10:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524661 2006.03.04 tbird-sm1 Mar 4 18:11:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524661 2006.03.04 tbird-sm1 Mar 4 18:11:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524661 2006.03.04 tbird-sm1 Mar 4 18:11:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524661 2006.03.04 tbird-sm1 Mar 4 18:11:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524661 2006.03.04 tbird-sm1 Mar 4 18:11:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524672 2006.03.04 tbird-sm1 Mar 4 18:11:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524674 2006.03.04 tbird-sm1 Mar 4 18:11:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524674 2006.03.04 tbird-sm1 Mar 4 18:11:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524677 2006.03.04 tbird-sm1 Mar 4 18:11:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524677 2006.03.04 tbird-sm1 Mar 4 18:11:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524677 2006.03.04 tbird-sm1 Mar 4 18:11:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524677 2006.03.04 tbird-sm1 Mar 4 18:11:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524677 2006.03.04 tbird-sm1 Mar 4 18:11:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524688 2006.03.04 tbird-sm1 Mar 4 18:11:28 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524690 2006.03.04 tbird-sm1 Mar 4 18:11:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524690 2006.03.04 tbird-sm1 Mar 4 18:11:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524693 2006.03.04 tbird-sm1 Mar 4 18:11:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524693 2006.03.04 tbird-sm1 Mar 4 18:11:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524693 2006.03.04 tbird-sm1 Mar 4 18:11:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524693 2006.03.04 tbird-sm1 Mar 4 18:11:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524693 2006.03.04 tbird-sm1 Mar 4 18:11:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524698 2006.03.04 tbird-sm2 Mar 4 18:11:38 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524705 2006.03.04 tbird-sm1 Mar 4 18:11:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524707 2006.03.04 tbird-sm1 Mar 4 18:11:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524707 2006.03.04 tbird-sm1 Mar 4 18:11:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524710 2006.03.04 tbird-sm1 Mar 4 18:11:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524710 2006.03.04 tbird-sm1 Mar 4 18:11:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524710 2006.03.04 tbird-sm1 Mar 4 18:11:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524710 2006.03.04 tbird-sm1 Mar 4 18:11:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524710 2006.03.04 tbird-sm1 Mar 4 18:11:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524721 2006.03.04 tbird-sm1 Mar 4 18:12:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524723 2006.03.04 tbird-sm1 Mar 4 18:12:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524723 2006.03.04 tbird-sm1 Mar 4 18:12:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524726 2006.03.04 tbird-sm1 Mar 4 18:12:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524726 2006.03.04 tbird-sm1 Mar 4 18:12:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524726 2006.03.04 tbird-sm1 Mar 4 18:12:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524726 2006.03.04 tbird-sm1 Mar 4 18:12:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524726 2006.03.04 tbird-sm1 Mar 4 18:12:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524737 2006.03.04 tbird-sm1 Mar 4 18:12:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524739 2006.03.04 tbird-sm1 Mar 4 18:12:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524739 2006.03.04 tbird-sm1 Mar 4 18:12:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524742 2006.03.04 tbird-sm1 Mar 4 18:12:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524742 2006.03.04 tbird-sm1 Mar 4 18:12:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524742 2006.03.04 tbird-sm1 Mar 4 18:12:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524742 2006.03.04 tbird-sm1 Mar 4 18:12:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524742 2006.03.04 tbird-sm1 Mar 4 18:12:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524753 2006.03.04 tbird-sm1 Mar 4 18:12:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524755 2006.03.04 tbird-sm1 Mar 4 18:12:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524755 2006.03.04 tbird-sm1 Mar 4 18:12:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524758 2006.03.04 tbird-sm1 Mar 4 18:12:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524758 2006.03.04 tbird-sm1 Mar 4 18:12:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524758 2006.03.04 tbird-sm1 Mar 4 18:12:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524758 2006.03.04 tbird-sm1 Mar 4 18:12:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141524758 2006.03.04 tbird-sm1 Mar 4 18:12:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524762 2006.03.04 tbird-sm2 Mar 4 18:12:42 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524769 2006.03.04 tbird-sm1 Mar 4 18:12:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524771 2006.03.04 tbird-sm1 Mar 4 18:12:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524771 2006.03.04 tbird-sm1 Mar 4 18:12:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524774 2006.03.04 tbird-sm1 Mar 4 18:12:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524774 2006.03.04 tbird-sm1 Mar 4 18:12:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524774 2006.03.04 tbird-sm1 Mar 4 18:12:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524774 2006.03.04 tbird-sm1 Mar 4 18:12:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141524774 2006.03.04 tbird-sm1 Mar 4 18:12:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524785 2006.03.04 tbird-sm1 Mar 4 18:13:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524787 2006.03.04 tbird-sm1 Mar 4 18:13:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524787 2006.03.04 tbird-sm1 Mar 4 18:13:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524790 2006.03.04 tbird-sm1 Mar 4 18:13:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524790 2006.03.04 tbird-sm1 Mar 4 18:13:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524790 2006.03.04 tbird-sm1 Mar 4 18:13:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524790 2006.03.04 tbird-sm1 Mar 4 18:13:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 16, 13, 3, 9, 21, 0, 0, 0
+- 1141524790 2006.03.04 tbird-sm1 Mar 4 18:13:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524801 2006.03.04 tbird-sm1 Mar 4 18:13:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524803 2006.03.04 tbird-sm1 Mar 4 18:13:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524803 2006.03.04 tbird-sm1 Mar 4 18:13:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524806 2006.03.04 tbird-sm1 Mar 4 18:13:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524806 2006.03.04 tbird-sm1 Mar 4 18:13:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524806 2006.03.04 tbird-sm1 Mar 4 18:13:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524806 2006.03.04 tbird-sm1 Mar 4 18:13:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524806 2006.03.04 tbird-sm1 Mar 4 18:13:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524817 2006.03.04 tbird-sm1 Mar 4 18:13:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524819 2006.03.04 tbird-sm1 Mar 4 18:13:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524819 2006.03.04 tbird-sm1 Mar 4 18:13:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524822 2006.03.04 tbird-sm1 Mar 4 18:13:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524822 2006.03.04 tbird-sm1 Mar 4 18:13:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524822 2006.03.04 tbird-sm1 Mar 4 18:13:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524822 2006.03.04 tbird-sm1 Mar 4 18:13:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524822 2006.03.04 tbird-sm1 Mar 4 18:13:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524826 2006.03.04 tbird-sm2 Mar 4 18:13:46 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524833 2006.03.04 tbird-sm1 Mar 4 18:13:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524835 2006.03.04 tbird-sm1 Mar 4 18:13:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524835 2006.03.04 tbird-sm1 Mar 4 18:13:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524837 2006.03.04 tbird-sm1 Mar 4 18:13:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524837 2006.03.04 tbird-sm1 Mar 4 18:13:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524837 2006.03.04 tbird-sm1 Mar 4 18:13:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524837 2006.03.04 tbird-sm1 Mar 4 18:13:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141524837 2006.03.04 tbird-sm1 Mar 4 18:13:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524849 2006.03.04 tbird-sm1 Mar 4 18:14:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524851 2006.03.04 tbird-sm1 Mar 4 18:14:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524851 2006.03.04 tbird-sm1 Mar 4 18:14:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524854 2006.03.04 tbird-sm1 Mar 4 18:14:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524854 2006.03.04 tbird-sm1 Mar 4 18:14:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524854 2006.03.04 tbird-sm1 Mar 4 18:14:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524854 2006.03.04 tbird-sm1 Mar 4 18:14:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524854 2006.03.04 tbird-sm1 Mar 4 18:14:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524865 2006.03.04 tbird-sm1 Mar 4 18:14:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524867 2006.03.04 tbird-sm1 Mar 4 18:14:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524867 2006.03.04 tbird-sm1 Mar 4 18:14:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524870 2006.03.04 tbird-sm1 Mar 4 18:14:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524870 2006.03.04 tbird-sm1 Mar 4 18:14:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524870 2006.03.04 tbird-sm1 Mar 4 18:14:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524870 2006.03.04 tbird-sm1 Mar 4 18:14:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524870 2006.03.04 tbird-sm1 Mar 4 18:14:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524881 2006.03.04 tbird-sm1 Mar 4 18:14:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524883 2006.03.04 tbird-sm1 Mar 4 18:14:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524883 2006.03.04 tbird-sm1 Mar 4 18:14:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524886 2006.03.04 tbird-sm1 Mar 4 18:14:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524886 2006.03.04 tbird-sm1 Mar 4 18:14:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524886 2006.03.04 tbird-sm1 Mar 4 18:14:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524886 2006.03.04 tbird-sm1 Mar 4 18:14:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524886 2006.03.04 tbird-sm1 Mar 4 18:14:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524890 2006.03.04 tbird-sm2 Mar 4 18:14:50 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524897 2006.03.04 tbird-sm1 Mar 4 18:14:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524899 2006.03.04 tbird-sm1 Mar 4 18:14:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524899 2006.03.04 tbird-sm1 Mar 4 18:14:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524902 2006.03.04 tbird-sm1 Mar 4 18:15:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524902 2006.03.04 tbird-sm1 Mar 4 18:15:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524902 2006.03.04 tbird-sm1 Mar 4 18:15:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524902 2006.03.04 tbird-sm1 Mar 4 18:15:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141524902 2006.03.04 tbird-sm1 Mar 4 18:15:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524913 2006.03.04 tbird-sm1 Mar 4 18:15:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524915 2006.03.04 tbird-sm1 Mar 4 18:15:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524915 2006.03.04 tbird-sm1 Mar 4 18:15:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524918 2006.03.04 tbird-sm1 Mar 4 18:15:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524918 2006.03.04 tbird-sm1 Mar 4 18:15:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524918 2006.03.04 tbird-sm1 Mar 4 18:15:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524918 2006.03.04 tbird-sm1 Mar 4 18:15:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524918 2006.03.04 tbird-sm1 Mar 4 18:15:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524929 2006.03.04 tbird-sm1 Mar 4 18:15:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524931 2006.03.04 tbird-sm1 Mar 4 18:15:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524931 2006.03.04 tbird-sm1 Mar 4 18:15:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524934 2006.03.04 tbird-sm1 Mar 4 18:15:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524934 2006.03.04 tbird-sm1 Mar 4 18:15:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524934 2006.03.04 tbird-sm1 Mar 4 18:15:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524934 2006.03.04 tbird-sm1 Mar 4 18:15:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524934 2006.03.04 tbird-sm1 Mar 4 18:15:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524945 2006.03.04 tbird-sm1 Mar 4 18:15:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524947 2006.03.04 tbird-sm1 Mar 4 18:15:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524947 2006.03.04 tbird-sm1 Mar 4 18:15:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524950 2006.03.04 tbird-sm1 Mar 4 18:15:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524950 2006.03.04 tbird-sm1 Mar 4 18:15:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524950 2006.03.04 tbird-sm1 Mar 4 18:15:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524950 2006.03.04 tbird-sm1 Mar 4 18:15:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524950 2006.03.04 tbird-sm1 Mar 4 18:15:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524954 2006.03.04 tbird-sm2 Mar 4 18:15:54 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141524961 2006.03.04 tbird-sm1 Mar 4 18:16:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524963 2006.03.04 tbird-sm1 Mar 4 18:16:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524963 2006.03.04 tbird-sm1 Mar 4 18:16:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524966 2006.03.04 tbird-sm1 Mar 4 18:16:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524966 2006.03.04 tbird-sm1 Mar 4 18:16:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524966 2006.03.04 tbird-sm1 Mar 4 18:16:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524966 2006.03.04 tbird-sm1 Mar 4 18:16:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141524966 2006.03.04 tbird-sm1 Mar 4 18:16:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524977 2006.03.04 tbird-sm1 Mar 4 18:16:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524979 2006.03.04 tbird-sm1 Mar 4 18:16:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524979 2006.03.04 tbird-sm1 Mar 4 18:16:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524982 2006.03.04 tbird-sm1 Mar 4 18:16:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524982 2006.03.04 tbird-sm1 Mar 4 18:16:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524982 2006.03.04 tbird-sm1 Mar 4 18:16:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524982 2006.03.04 tbird-sm1 Mar 4 18:16:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141524982 2006.03.04 tbird-sm1 Mar 4 18:16:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141524993 2006.03.04 tbird-sm1 Mar 4 18:16:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141524995 2006.03.04 tbird-sm1 Mar 4 18:16:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141524995 2006.03.04 tbird-sm1 Mar 4 18:16:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141524998 2006.03.04 tbird-sm1 Mar 4 18:16:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141524998 2006.03.04 tbird-sm1 Mar 4 18:16:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141524998 2006.03.04 tbird-sm1 Mar 4 18:16:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141524998 2006.03.04 tbird-sm1 Mar 4 18:16:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141524998 2006.03.04 tbird-sm1 Mar 4 18:16:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525009 2006.03.04 tbird-sm1 Mar 4 18:16:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525011 2006.03.04 tbird-sm1 Mar 4 18:16:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525011 2006.03.04 tbird-sm1 Mar 4 18:16:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525014 2006.03.04 tbird-sm1 Mar 4 18:16:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525014 2006.03.04 tbird-sm1 Mar 4 18:16:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525014 2006.03.04 tbird-sm1 Mar 4 18:16:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525014 2006.03.04 tbird-sm1 Mar 4 18:16:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525014 2006.03.04 tbird-sm1 Mar 4 18:16:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525018 2006.03.04 tbird-sm2 Mar 4 18:16:58 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525025 2006.03.04 tbird-sm1 Mar 4 18:17:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525027 2006.03.04 tbird-sm1 Mar 4 18:17:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525027 2006.03.04 tbird-sm1 Mar 4 18:17:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525030 2006.03.04 tbird-sm1 Mar 4 18:17:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525030 2006.03.04 tbird-sm1 Mar 4 18:17:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525030 2006.03.04 tbird-sm1 Mar 4 18:17:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525030 2006.03.04 tbird-sm1 Mar 4 18:17:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141525030 2006.03.04 tbird-sm1 Mar 4 18:17:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525041 2006.03.04 tbird-sm1 Mar 4 18:17:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525043 2006.03.04 tbird-sm1 Mar 4 18:17:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525043 2006.03.04 tbird-sm1 Mar 4 18:17:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525046 2006.03.04 tbird-sm1 Mar 4 18:17:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525046 2006.03.04 tbird-sm1 Mar 4 18:17:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525046 2006.03.04 tbird-sm1 Mar 4 18:17:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525046 2006.03.04 tbird-sm1 Mar 4 18:17:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141525046 2006.03.04 tbird-sm1 Mar 4 18:17:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525057 2006.03.04 tbird-sm1 Mar 4 18:17:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525059 2006.03.04 tbird-sm1 Mar 4 18:17:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525059 2006.03.04 tbird-sm1 Mar 4 18:17:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525062 2006.03.04 tbird-sm1 Mar 4 18:17:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525062 2006.03.04 tbird-sm1 Mar 4 18:17:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525062 2006.03.04 tbird-sm1 Mar 4 18:17:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525062 2006.03.04 tbird-sm1 Mar 4 18:17:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525062 2006.03.04 tbird-sm1 Mar 4 18:17:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525073 2006.03.04 tbird-sm1 Mar 4 18:17:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525076 2006.03.04 tbird-sm1 Mar 4 18:17:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525076 2006.03.04 tbird-sm1 Mar 4 18:17:56 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525078 2006.03.04 tbird-sm1 Mar 4 18:17:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525078 2006.03.04 tbird-sm1 Mar 4 18:17:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525078 2006.03.04 tbird-sm1 Mar 4 18:17:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525078 2006.03.04 tbird-sm1 Mar 4 18:17:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525078 2006.03.04 tbird-sm1 Mar 4 18:17:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525082 2006.03.04 tbird-sm2 Mar 4 18:18:02 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525089 2006.03.04 tbird-sm1 Mar 4 18:18:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525091 2006.03.04 tbird-sm1 Mar 4 18:18:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525091 2006.03.04 tbird-sm1 Mar 4 18:18:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525094 2006.03.04 tbird-sm1 Mar 4 18:18:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525094 2006.03.04 tbird-sm1 Mar 4 18:18:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525094 2006.03.04 tbird-sm1 Mar 4 18:18:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525094 2006.03.04 tbird-sm1 Mar 4 18:18:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525094 2006.03.04 tbird-sm1 Mar 4 18:18:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525105 2006.03.04 tbird-sm1 Mar 4 18:18:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525107 2006.03.04 tbird-sm1 Mar 4 18:18:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525107 2006.03.04 tbird-sm1 Mar 4 18:18:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525110 2006.03.04 tbird-sm1 Mar 4 18:18:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525110 2006.03.04 tbird-sm1 Mar 4 18:18:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525110 2006.03.04 tbird-sm1 Mar 4 18:18:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525110 2006.03.04 tbird-sm1 Mar 4 18:18:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141525110 2006.03.04 tbird-sm1 Mar 4 18:18:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525121 2006.03.04 tbird-sm1 Mar 4 18:18:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525123 2006.03.04 tbird-sm1 Mar 4 18:18:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525123 2006.03.04 tbird-sm1 Mar 4 18:18:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525126 2006.03.04 tbird-sm1 Mar 4 18:18:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525126 2006.03.04 tbird-sm1 Mar 4 18:18:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525126 2006.03.04 tbird-sm1 Mar 4 18:18:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525126 2006.03.04 tbird-sm1 Mar 4 18:18:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525126 2006.03.04 tbird-sm1 Mar 4 18:18:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525137 2006.03.04 tbird-sm1 Mar 4 18:18:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525139 2006.03.04 tbird-sm1 Mar 4 18:18:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525139 2006.03.04 tbird-sm1 Mar 4 18:18:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525142 2006.03.04 tbird-sm1 Mar 4 18:19:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525142 2006.03.04 tbird-sm1 Mar 4 18:19:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525142 2006.03.04 tbird-sm1 Mar 4 18:19:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525142 2006.03.04 tbird-sm1 Mar 4 18:19:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141525142 2006.03.04 tbird-sm1 Mar 4 18:19:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525146 2006.03.04 tbird-sm2 Mar 4 18:19:06 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525153 2006.03.04 tbird-sm1 Mar 4 18:19:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525155 2006.03.04 tbird-sm1 Mar 4 18:19:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525155 2006.03.04 tbird-sm1 Mar 4 18:19:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525158 2006.03.04 tbird-sm1 Mar 4 18:19:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525158 2006.03.04 tbird-sm1 Mar 4 18:19:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525158 2006.03.04 tbird-sm1 Mar 4 18:19:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525158 2006.03.04 tbird-sm1 Mar 4 18:19:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525158 2006.03.04 tbird-sm1 Mar 4 18:19:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525169 2006.03.04 tbird-sm1 Mar 4 18:19:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525171 2006.03.04 tbird-sm1 Mar 4 18:19:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525171 2006.03.04 tbird-sm1 Mar 4 18:19:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525174 2006.03.04 tbird-sm1 Mar 4 18:19:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525174 2006.03.04 tbird-sm1 Mar 4 18:19:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525174 2006.03.04 tbird-sm1 Mar 4 18:19:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525174 2006.03.04 tbird-sm1 Mar 4 18:19:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525174 2006.03.04 tbird-sm1 Mar 4 18:19:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525185 2006.03.04 tbird-sm1 Mar 4 18:19:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525187 2006.03.04 tbird-sm1 Mar 4 18:19:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525187 2006.03.04 tbird-sm1 Mar 4 18:19:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525190 2006.03.04 tbird-sm1 Mar 4 18:19:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525190 2006.03.04 tbird-sm1 Mar 4 18:19:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525190 2006.03.04 tbird-sm1 Mar 4 18:19:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525190 2006.03.04 tbird-sm1 Mar 4 18:19:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525190 2006.03.04 tbird-sm1 Mar 4 18:19:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525200 2006.03.04 tbird-sm1 Mar 4 18:20:00 tbird-sm1/tbird-sm1 CROND[21190]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1141525200 2006.03.04 tbird-sm2 Mar 4 18:20:00 tbird-sm2/tbird-sm2 CROND[30632]: (root) CMD (/usr/lib/sa/sa1 1 1)
+- 1141525200 2006.03.04 tbird-sm2 Mar 4 18:20:00 tbird-sm2/tbird-sm2 last message repeated 13 times
+- 1141525201 2006.03.04 tbird-admin1 Mar 4 18:20:01 local@tbird-admin1 crond[28541]: (root) CMD (/apps/contrib/check-disks aadmin[1-4],badmin[1-4],cadmin[1-4],dadmin[1-4],eadmin[1-2])
+- 1141525201 2006.03.04 tbird-sm1 Mar 4 18:20:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525202 2006.03.04 tbird-sm2 Mar 4 18:20:02 tbird-sm2/tbird-sm2 ib_sm[2753]: [ib_sm_sweep.c:1833]: ******************* NEW MASTER POLL *****************
+- 1141525204 2006.03.04 tbird-sm1 Mar 4 18:20:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525204 2006.03.04 tbird-sm1 Mar 4 18:20:04 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525206 2006.03.04 tbird-admin1 Mar 4 18:20:06 local@tbird-admin1 crond(pam_unix)[28540]: session closed for user root
+- 1141525206 2006.03.04 tbird-sm1 Mar 4 18:20:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525206 2006.03.04 tbird-sm1 Mar 4 18:20:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525206 2006.03.04 tbird-sm1 Mar 4 18:20:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525206 2006.03.04 tbird-sm1 Mar 4 18:20:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525206 2006.03.04 tbird-sm1 Mar 4 18:20:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525217 2006.03.04 tbird-sm1 Mar 4 18:20:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525220 2006.03.04 tbird-sm1 Mar 4 18:20:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525220 2006.03.04 tbird-sm1 Mar 4 18:20:20 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525222 2006.03.04 tbird-sm1 Mar 4 18:20:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525222 2006.03.04 tbird-sm1 Mar 4 18:20:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525222 2006.03.04 tbird-sm1 Mar 4 18:20:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525222 2006.03.04 tbird-sm1 Mar 4 18:20:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141525222 2006.03.04 tbird-sm1 Mar 4 18:20:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525233 2006.03.04 tbird-sm1 Mar 4 18:20:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525234 2006.03.04 tbird-sm2 Mar 4 18:20:34 tbird-sm2/tbird-sm2 last message repeated 8 times
+- 1141525235 2006.03.04 tbird-sm1 Mar 4 18:20:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525235 2006.03.04 tbird-sm1 Mar 4 18:20:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525238 2006.03.04 tbird-sm1 Mar 4 18:20:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525238 2006.03.04 tbird-sm1 Mar 4 18:20:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525238 2006.03.04 tbird-sm1 Mar 4 18:20:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525238 2006.03.04 tbird-sm1 Mar 4 18:20:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525238 2006.03.04 tbird-sm1 Mar 4 18:20:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525249 2006.03.04 tbird-sm1 Mar 4 18:20:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525251 2006.03.04 tbird-sm1 Mar 4 18:20:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525251 2006.03.04 tbird-sm1 Mar 4 18:20:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525254 2006.03.04 tbird-sm1 Mar 4 18:20:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525254 2006.03.04 tbird-sm1 Mar 4 18:20:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525254 2006.03.04 tbird-sm1 Mar 4 18:20:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525254 2006.03.04 tbird-sm1 Mar 4 18:20:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525254 2006.03.04 tbird-sm1 Mar 4 18:20:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525265 2006.03.04 tbird-sm1 Mar 4 18:21:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525267 2006.03.04 tbird-sm1 Mar 4 18:21:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525267 2006.03.04 tbird-sm1 Mar 4 18:21:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525270 2006.03.04 tbird-sm1 Mar 4 18:21:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525270 2006.03.04 tbird-sm1 Mar 4 18:21:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525270 2006.03.04 tbird-sm1 Mar 4 18:21:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525270 2006.03.04 tbird-sm1 Mar 4 18:21:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525270 2006.03.04 tbird-sm1 Mar 4 18:21:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525281 2006.03.04 tbird-sm1 Mar 4 18:21:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525283 2006.03.04 tbird-sm1 Mar 4 18:21:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525283 2006.03.04 tbird-sm1 Mar 4 18:21:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525286 2006.03.04 tbird-sm1 Mar 4 18:21:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525286 2006.03.04 tbird-sm1 Mar 4 18:21:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525286 2006.03.04 tbird-sm1 Mar 4 18:21:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525286 2006.03.04 tbird-sm1 Mar 4 18:21:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141525286 2006.03.04 tbird-sm1 Mar 4 18:21:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525297 2006.03.04 tbird-sm1 Mar 4 18:21:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525298 2006.03.04 tbird-sm2 Mar 4 18:21:38 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525299 2006.03.04 tbird-sm1 Mar 4 18:21:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525299 2006.03.04 tbird-sm1 Mar 4 18:21:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525302 2006.03.04 tbird-sm1 Mar 4 18:21:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525302 2006.03.04 tbird-sm1 Mar 4 18:21:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525302 2006.03.04 tbird-sm1 Mar 4 18:21:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525302 2006.03.04 tbird-sm1 Mar 4 18:21:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525302 2006.03.04 tbird-sm1 Mar 4 18:21:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525313 2006.03.04 tbird-sm1 Mar 4 18:21:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525315 2006.03.04 tbird-sm1 Mar 4 18:21:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525315 2006.03.04 tbird-sm1 Mar 4 18:21:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525318 2006.03.04 tbird-sm1 Mar 4 18:21:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525318 2006.03.04 tbird-sm1 Mar 4 18:21:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525318 2006.03.04 tbird-sm1 Mar 4 18:21:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525318 2006.03.04 tbird-sm1 Mar 4 18:21:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525318 2006.03.04 tbird-sm1 Mar 4 18:21:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525329 2006.03.04 tbird-sm1 Mar 4 18:22:09 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525331 2006.03.04 tbird-sm1 Mar 4 18:22:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525331 2006.03.04 tbird-sm1 Mar 4 18:22:11 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525334 2006.03.04 tbird-sm1 Mar 4 18:22:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525334 2006.03.04 tbird-sm1 Mar 4 18:22:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525334 2006.03.04 tbird-sm1 Mar 4 18:22:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525334 2006.03.04 tbird-sm1 Mar 4 18:22:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525334 2006.03.04 tbird-sm1 Mar 4 18:22:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525345 2006.03.04 tbird-sm1 Mar 4 18:22:25 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525347 2006.03.04 tbird-sm1 Mar 4 18:22:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525347 2006.03.04 tbird-sm1 Mar 4 18:22:27 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525350 2006.03.04 tbird-sm1 Mar 4 18:22:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525350 2006.03.04 tbird-sm1 Mar 4 18:22:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525350 2006.03.04 tbird-sm1 Mar 4 18:22:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525350 2006.03.04 tbird-sm1 Mar 4 18:22:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525350 2006.03.04 tbird-sm1 Mar 4 18:22:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525361 2006.03.04 tbird-sm1 Mar 4 18:22:41 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525362 2006.03.04 tbird-sm2 Mar 4 18:22:42 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525363 2006.03.04 tbird-sm1 Mar 4 18:22:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525363 2006.03.04 tbird-sm1 Mar 4 18:22:43 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525366 2006.03.04 tbird-sm1 Mar 4 18:22:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525366 2006.03.04 tbird-sm1 Mar 4 18:22:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525366 2006.03.04 tbird-sm1 Mar 4 18:22:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525366 2006.03.04 tbird-sm1 Mar 4 18:22:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141525366 2006.03.04 tbird-sm1 Mar 4 18:22:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525377 2006.03.04 tbird-sm1 Mar 4 18:22:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525379 2006.03.04 tbird-sm1 Mar 4 18:22:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525379 2006.03.04 tbird-sm1 Mar 4 18:22:59 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525382 2006.03.04 tbird-sm1 Mar 4 18:23:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525382 2006.03.04 tbird-sm1 Mar 4 18:23:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525382 2006.03.04 tbird-sm1 Mar 4 18:23:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525382 2006.03.04 tbird-sm1 Mar 4 18:23:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525382 2006.03.04 tbird-sm1 Mar 4 18:23:02 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525393 2006.03.04 tbird-sm1 Mar 4 18:23:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525395 2006.03.04 tbird-sm1 Mar 4 18:23:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525395 2006.03.04 tbird-sm1 Mar 4 18:23:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525398 2006.03.04 tbird-sm1 Mar 4 18:23:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525398 2006.03.04 tbird-sm1 Mar 4 18:23:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525398 2006.03.04 tbird-sm1 Mar 4 18:23:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525398 2006.03.04 tbird-sm1 Mar 4 18:23:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141525398 2006.03.04 tbird-sm1 Mar 4 18:23:18 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525409 2006.03.04 tbird-sm1 Mar 4 18:23:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525411 2006.03.04 tbird-sm1 Mar 4 18:23:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525411 2006.03.04 tbird-sm1 Mar 4 18:23:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525414 2006.03.04 tbird-sm1 Mar 4 18:23:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525414 2006.03.04 tbird-sm1 Mar 4 18:23:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525414 2006.03.04 tbird-sm1 Mar 4 18:23:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525414 2006.03.04 tbird-sm1 Mar 4 18:23:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525414 2006.03.04 tbird-sm1 Mar 4 18:23:34 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525425 2006.03.04 tbird-sm1 Mar 4 18:23:45 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525426 2006.03.04 tbird-sm2 Mar 4 18:23:46 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525427 2006.03.04 tbird-sm1 Mar 4 18:23:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525427 2006.03.04 tbird-sm1 Mar 4 18:23:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525430 2006.03.04 tbird-sm1 Mar 4 18:23:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525430 2006.03.04 tbird-sm1 Mar 4 18:23:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525430 2006.03.04 tbird-sm1 Mar 4 18:23:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525430 2006.03.04 tbird-sm1 Mar 4 18:23:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 16, 13, 3, 9, 21, 0, 0, 0
+- 1141525430 2006.03.04 tbird-sm1 Mar 4 18:23:50 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525441 2006.03.04 tbird-sm1 Mar 4 18:24:01 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525443 2006.03.04 tbird-sm1 Mar 4 18:24:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525443 2006.03.04 tbird-sm1 Mar 4 18:24:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525446 2006.03.04 tbird-sm1 Mar 4 18:24:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525446 2006.03.04 tbird-sm1 Mar 4 18:24:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525446 2006.03.04 tbird-sm1 Mar 4 18:24:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525446 2006.03.04 tbird-sm1 Mar 4 18:24:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141525446 2006.03.04 tbird-sm1 Mar 4 18:24:06 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525457 2006.03.04 tbird-sm1 Mar 4 18:24:17 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525459 2006.03.04 tbird-sm1 Mar 4 18:24:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525459 2006.03.04 tbird-sm1 Mar 4 18:24:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525462 2006.03.04 tbird-sm1 Mar 4 18:24:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525462 2006.03.04 tbird-sm1 Mar 4 18:24:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525462 2006.03.04 tbird-sm1 Mar 4 18:24:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525462 2006.03.04 tbird-sm1 Mar 4 18:24:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141525462 2006.03.04 tbird-sm1 Mar 4 18:24:22 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525473 2006.03.04 tbird-sm1 Mar 4 18:24:33 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525475 2006.03.04 tbird-sm1 Mar 4 18:24:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525475 2006.03.04 tbird-sm1 Mar 4 18:24:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525478 2006.03.04 tbird-sm1 Mar 4 18:24:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525478 2006.03.04 tbird-sm1 Mar 4 18:24:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525478 2006.03.04 tbird-sm1 Mar 4 18:24:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525478 2006.03.04 tbird-sm1 Mar 4 18:24:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525478 2006.03.04 tbird-sm1 Mar 4 18:24:38 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525489 2006.03.04 tbird-sm1 Mar 4 18:24:49 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525490 2006.03.04 tbird-sm2 Mar 4 18:24:50 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525491 2006.03.04 tbird-sm1 Mar 4 18:24:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525491 2006.03.04 tbird-sm1 Mar 4 18:24:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525494 2006.03.04 tbird-sm1 Mar 4 18:24:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525494 2006.03.04 tbird-sm1 Mar 4 18:24:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525494 2006.03.04 tbird-sm1 Mar 4 18:24:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525494 2006.03.04 tbird-sm1 Mar 4 18:24:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141525494 2006.03.04 tbird-sm1 Mar 4 18:24:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525505 2006.03.04 tbird-sm1 Mar 4 18:25:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525507 2006.03.04 tbird-sm1 Mar 4 18:25:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525507 2006.03.04 tbird-sm1 Mar 4 18:25:07 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525510 2006.03.04 tbird-sm1 Mar 4 18:25:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525510 2006.03.04 tbird-sm1 Mar 4 18:25:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525510 2006.03.04 tbird-sm1 Mar 4 18:25:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525510 2006.03.04 tbird-sm1 Mar 4 18:25:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141525510 2006.03.04 tbird-sm1 Mar 4 18:25:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525521 2006.03.04 tbird-sm1 Mar 4 18:25:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525523 2006.03.04 tbird-sm1 Mar 4 18:25:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525523 2006.03.04 tbird-sm1 Mar 4 18:25:23 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525526 2006.03.04 tbird-sm1 Mar 4 18:25:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525526 2006.03.04 tbird-sm1 Mar 4 18:25:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525526 2006.03.04 tbird-sm1 Mar 4 18:25:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525526 2006.03.04 tbird-sm1 Mar 4 18:25:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525526 2006.03.04 tbird-sm1 Mar 4 18:25:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525537 2006.03.04 tbird-sm1 Mar 4 18:25:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525539 2006.03.04 tbird-sm1 Mar 4 18:25:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525539 2006.03.04 tbird-sm1 Mar 4 18:25:39 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525542 2006.03.04 tbird-sm1 Mar 4 18:25:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525542 2006.03.04 tbird-sm1 Mar 4 18:25:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525542 2006.03.04 tbird-sm1 Mar 4 18:25:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525542 2006.03.04 tbird-sm1 Mar 4 18:25:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 15, 13, 3, 9, 21, 0, 0, 0
+- 1141525542 2006.03.04 tbird-sm1 Mar 4 18:25:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525553 2006.03.04 tbird-sm1 Mar 4 18:25:53 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525554 2006.03.04 tbird-sm2 Mar 4 18:25:54 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525555 2006.03.04 tbird-sm1 Mar 4 18:25:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525555 2006.03.04 tbird-sm1 Mar 4 18:25:55 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525558 2006.03.04 tbird-sm1 Mar 4 18:25:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525558 2006.03.04 tbird-sm1 Mar 4 18:25:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525558 2006.03.04 tbird-sm1 Mar 4 18:25:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525558 2006.03.04 tbird-sm1 Mar 4 18:25:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141525558 2006.03.04 tbird-sm1 Mar 4 18:25:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525570 2006.03.04 tbird-sm1 Mar 4 18:26:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525572 2006.03.04 tbird-sm1 Mar 4 18:26:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525572 2006.03.04 tbird-sm1 Mar 4 18:26:12 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525575 2006.03.04 tbird-sm1 Mar 4 18:26:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525575 2006.03.04 tbird-sm1 Mar 4 18:26:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525575 2006.03.04 tbird-sm1 Mar 4 18:26:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525575 2006.03.04 tbird-sm1 Mar 4 18:26:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141525575 2006.03.04 tbird-sm1 Mar 4 18:26:15 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525586 2006.03.04 tbird-sm1 Mar 4 18:26:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525589 2006.03.04 tbird-sm1 Mar 4 18:26:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525589 2006.03.04 tbird-sm1 Mar 4 18:26:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525591 2006.03.04 tbird-sm1 Mar 4 18:26:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525591 2006.03.04 tbird-sm1 Mar 4 18:26:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525591 2006.03.04 tbird-sm1 Mar 4 18:26:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525591 2006.03.04 tbird-sm1 Mar 4 18:26:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 2, 13, 3, 9, 21, 0, 0, 0
+- 1141525591 2006.03.04 tbird-sm1 Mar 4 18:26:31 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525602 2006.03.04 tbird-sm1 Mar 4 18:26:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525604 2006.03.04 tbird-sm1 Mar 4 18:26:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525604 2006.03.04 tbird-sm1 Mar 4 18:26:44 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525607 2006.03.04 tbird-sm1 Mar 4 18:26:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525607 2006.03.04 tbird-sm1 Mar 4 18:26:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525607 2006.03.04 tbird-sm1 Mar 4 18:26:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525607 2006.03.04 tbird-sm1 Mar 4 18:26:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141525607 2006.03.04 tbird-sm1 Mar 4 18:26:47 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525618 2006.03.04 tbird-sm1 Mar 4 18:26:58 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525618 2006.03.04 tbird-sm2 Mar 4 18:26:58 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525620 2006.03.04 tbird-sm1 Mar 4 18:27:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525620 2006.03.04 tbird-sm1 Mar 4 18:27:00 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525623 2006.03.04 tbird-sm1 Mar 4 18:27:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525623 2006.03.04 tbird-sm1 Mar 4 18:27:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525623 2006.03.04 tbird-sm1 Mar 4 18:27:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525623 2006.03.04 tbird-sm1 Mar 4 18:27:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525623 2006.03.04 tbird-sm1 Mar 4 18:27:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525634 2006.03.04 tbird-sm1 Mar 4 18:27:14 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525636 2006.03.04 tbird-sm1 Mar 4 18:27:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525636 2006.03.04 tbird-sm1 Mar 4 18:27:16 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525639 2006.03.04 tbird-sm1 Mar 4 18:27:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525639 2006.03.04 tbird-sm1 Mar 4 18:27:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525639 2006.03.04 tbird-sm1 Mar 4 18:27:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525639 2006.03.04 tbird-sm1 Mar 4 18:27:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141525639 2006.03.04 tbird-sm1 Mar 4 18:27:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525650 2006.03.04 tbird-sm1 Mar 4 18:27:30 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525652 2006.03.04 tbird-sm1 Mar 4 18:27:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525652 2006.03.04 tbird-sm1 Mar 4 18:27:32 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525655 2006.03.04 tbird-sm1 Mar 4 18:27:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525655 2006.03.04 tbird-sm1 Mar 4 18:27:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525655 2006.03.04 tbird-sm1 Mar 4 18:27:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525655 2006.03.04 tbird-sm1 Mar 4 18:27:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141525655 2006.03.04 tbird-sm1 Mar 4 18:27:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525666 2006.03.04 tbird-sm1 Mar 4 18:27:46 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525668 2006.03.04 tbird-sm1 Mar 4 18:27:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525668 2006.03.04 tbird-sm1 Mar 4 18:27:48 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525671 2006.03.04 tbird-sm1 Mar 4 18:27:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525671 2006.03.04 tbird-sm1 Mar 4 18:27:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525671 2006.03.04 tbird-sm1 Mar 4 18:27:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525671 2006.03.04 tbird-sm1 Mar 4 18:27:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141525671 2006.03.04 tbird-sm1 Mar 4 18:27:51 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525682 2006.03.04 tbird-sm2 Mar 4 18:28:02 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525683 2006.03.04 tbird-sm1 Mar 4 18:28:03 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525685 2006.03.04 tbird-sm1 Mar 4 18:28:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525685 2006.03.04 tbird-sm1 Mar 4 18:28:05 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525688 2006.03.04 tbird-sm1 Mar 4 18:28:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525688 2006.03.04 tbird-sm1 Mar 4 18:28:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525688 2006.03.04 tbird-sm1 Mar 4 18:28:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525688 2006.03.04 tbird-sm1 Mar 4 18:28:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 4, 13, 3, 9, 21, 0, 0, 0
+- 1141525688 2006.03.04 tbird-sm1 Mar 4 18:28:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525699 2006.03.04 tbird-sm1 Mar 4 18:28:19 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525701 2006.03.04 tbird-sm1 Mar 4 18:28:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525701 2006.03.04 tbird-sm1 Mar 4 18:28:21 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525704 2006.03.04 tbird-sm1 Mar 4 18:28:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525704 2006.03.04 tbird-sm1 Mar 4 18:28:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525704 2006.03.04 tbird-sm1 Mar 4 18:28:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525704 2006.03.04 tbird-sm1 Mar 4 18:28:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 14, 13, 3, 9, 21, 0, 0, 0
+- 1141525704 2006.03.04 tbird-sm1 Mar 4 18:28:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525715 2006.03.04 tbird-sm1 Mar 4 18:28:35 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525717 2006.03.04 tbird-sm1 Mar 4 18:28:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525717 2006.03.04 tbird-sm1 Mar 4 18:28:37 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525720 2006.03.04 tbird-sm1 Mar 4 18:28:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525720 2006.03.04 tbird-sm1 Mar 4 18:28:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525720 2006.03.04 tbird-sm1 Mar 4 18:28:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525720 2006.03.04 tbird-sm1 Mar 4 18:28:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525720 2006.03.04 tbird-sm1 Mar 4 18:28:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525732 2006.03.04 tbird-sm1 Mar 4 18:28:52 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525734 2006.03.04 tbird-sm1 Mar 4 18:28:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525734 2006.03.04 tbird-sm1 Mar 4 18:28:54 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525737 2006.03.04 tbird-sm1 Mar 4 18:28:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525737 2006.03.04 tbird-sm1 Mar 4 18:28:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525737 2006.03.04 tbird-sm1 Mar 4 18:28:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525737 2006.03.04 tbird-sm1 Mar 4 18:28:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 3, 13, 3, 9, 21, 0, 0, 0
+- 1141525737 2006.03.04 tbird-sm1 Mar 4 18:28:57 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525746 2006.03.04 tbird-sm2 Mar 4 18:29:06 tbird-sm2/tbird-sm2 last message repeated 16 times
+- 1141525748 2006.03.04 tbird-sm1 Mar 4 18:29:08 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525750 2006.03.04 tbird-sm1 Mar 4 18:29:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525750 2006.03.04 tbird-sm1 Mar 4 18:29:10 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525753 2006.03.04 tbird-sm1 Mar 4 18:29:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525753 2006.03.04 tbird-sm1 Mar 4 18:29:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525753 2006.03.04 tbird-sm1 Mar 4 18:29:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525753 2006.03.04 tbird-sm1 Mar 4 18:29:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 13, 13, 3, 9, 21, 0, 0, 0
+- 1141525753 2006.03.04 tbird-sm1 Mar 4 18:29:13 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525764 2006.03.04 tbird-sm1 Mar 4 18:29:24 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525766 2006.03.04 tbird-sm1 Mar 4 18:29:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525766 2006.03.04 tbird-sm1 Mar 4 18:29:26 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state
+- 1141525769 2006.03.04 tbird-sm1 Mar 4 18:29:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [INFO]: Configuration caused by some ports in INIT state
+- 1141525769 2006.03.04 tbird-sm1 Mar 4 18:29:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:1149]: Failed discover node test, node 00:05:ad:00:00:02:7c:4a, port_num= 21, error code 1
+- 1141525769 2006.03.04 tbird-sm1 Mar 4 18:29:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:475]: Failed to GetNodeInfo() because of NO RESPONSE
+- 1141525769 2006.03.04 tbird-sm1 Mar 4 18:29:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_discovery.c:495]: Failed to GetNodeInfo() - hop_count: 6, direct_path: 0, 1, 1, 13, 3, 9, 21, 0, 0, 0
+- 1141525769 2006.03.04 tbird-sm1 Mar 4 18:29:29 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1516]: No topology change
+- 1141525780 2006.03.04 tbird-sm1 Mar 4 18:29:40 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1914]: ********************** NEW SWEEP ********************
+- 1141525782 2006.03.04 tbird-sm1 Mar 4 18:29:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:1320]: Rediscover the subnet
+- 1141525782 2006.03.04 tbird-sm1 Mar 4 18:29:42 tbird-sm1/tbird-sm1 ib_sm[2100]: [ib_sm_sweep.c:393]: IB node 00:05:ad:00:00:02:7c:4a port 21 is INIT state

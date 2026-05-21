@@ -1,0 +1,93 @@
+{
+  "allowed_justifications": [
+    "multi_component",
+    "single_critical",
+    "recoverable",
+    "transient_warning"
+  ],
+  "allowed_root_causes": [
+    "replication_failure",
+    "data_corruption",
+    "datanode_unreachable",
+    "namenode_error",
+    "timeout",
+    "other"
+  ],
+  "allowed_severities": [
+    "P0",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "anomaly_keys": [
+    "blk_-1001299764911418845"
+  ],
+  "component_count": 4,
+  "evidence": [
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 972
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 853
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 857
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 1289
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2296
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 2450
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3115
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2325
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2150
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 2326
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 2151
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3128
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 3137
+    }
+  ],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "other",
+  "schema_version": "loghub-sre-answer-v2-sev",
+  "severity": "P0",
+  "severity_justification": "multi_component"
+}

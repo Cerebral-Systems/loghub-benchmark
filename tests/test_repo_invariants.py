@@ -237,6 +237,16 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
         pred_evidence = {(e["component"], e["evidence_line"]) for e in chain}
         assert not (gt_evidence - pred_evidence), "missing causal-chain steps"
         assert answer["root_cause_type"] == expected["root_cause_type"]
+    elif schema.endswith("-v2-sev"):
+        # v2-sev severity classification assertions
+        assert answer["is_incident"] is True
+        assert answer["severity"] == expected["severity"]
+        assert answer["severity_justification"] == expected["severity_justification"]
+        if answer["severity"] in ("P0", "P1"):
+            assert answer["severity_justification"] in ("multi_component", "single_critical")
+        else:
+            assert answer["severity_justification"] in ("recoverable", "transient_warning")
+        assert answer["root_cause_type"] == expected["root_cause_type"]
     else:
         # v1 / v2 anomaly localization assertions
         assert answer["is_incident"] is True

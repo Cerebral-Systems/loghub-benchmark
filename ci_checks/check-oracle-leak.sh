@@ -110,6 +110,16 @@ if schema_version.endswith("-v2-corr"):
         '"caused_by_step"',
         '"root_component"',
     })
+# v2-sev (severity classification) answers add severity-shape tokens.
+if schema_version.endswith("-v2-sev"):
+    answer_shaped.update({
+        '"severity"',
+        '"severity_justification"',
+        '"P0"', '"P1"', '"P2"', '"P3"',
+    })
+    for label in expected.get("allowed_justifications", []):
+        if isinstance(label, str) and "_" in label:
+            answer_shaped.add(label)
 for label in [expected.get("root_cause_type"), *expected.get("allowed_root_causes", []),
               *expected.get("safe_recommendations", [])]:
     if isinstance(label, str) and ("_" in label):
