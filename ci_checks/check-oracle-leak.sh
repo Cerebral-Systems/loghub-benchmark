@@ -120,6 +120,9 @@ if schema_version.endswith("-v2-sev"):
     for label in expected.get("allowed_justifications", []):
         if isinstance(label, str) and "_" in label:
             answer_shaped.add(label)
+# v2-tmpl (template extraction) — only check non-log files for the schema
+# header. The log content IS the input; templates are by-design generalizations
+# of those lines, so per-template-text leak checks make no sense.
 for label in [expected.get("root_cause_type"), *expected.get("allowed_root_causes", []),
               *expected.get("safe_recommendations", [])]:
     if isinstance(label, str) and ("_" in label):
@@ -128,6 +131,8 @@ answer_shaped.discard("")
 
 env_dir = task_dir / "environment"
 failures = []
+
+is_tmpl = schema_version.endswith("-v2-tmpl")
 
 for path in env_dir.rglob("*"):
     if not path.is_file():
@@ -142,6 +147,14 @@ for path in env_dir.rglob("*"):
         for needle in answer_shaped:
             if needle and needle in text:
                 failures.append(f"{relative}: answer-shaped string {needle!r} in agent-visible log")
+                break
+    elif is_tmpl:
+        # For v2-tmpl, template strings (the leaves) ARE legitimate
+        # generalizations of input log content — checking them against
+        # non-log env files is too noisy. Restrict to answer-shaped tokens.
+        for needle in answer_shaped:
+            if needle and needle in text:
+                failures.append(f"{relative}: answer-shaped string {needle!r}")
                 break
     else:
         for needle in all_leaves:

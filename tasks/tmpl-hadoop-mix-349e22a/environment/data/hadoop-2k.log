@@ -1,0 +1,70 @@
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 82 seconds.  Will retry shortly ...
+Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+ERROR IN CONTACTING RM.
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 83 seconds.  Will retry shortly ...
+Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 84 seconds.  Will retry shortly ...
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424
+Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+ERROR IN CONTACTING RM.
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 85 seconds.  Will retry shortly ...
+Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 86 seconds.  Will retry shortly ...
+Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+ERROR IN CONTACTING RM.
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 87 seconds.  Will retry shortly ...
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183
+Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424
+Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP
+Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0
+KILLING attempt_1445144423722_0020_m_000002_0
+Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 88 seconds.  Will retry shortly ...
+Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+ERROR IN CONTACTING RM.
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+Processing the event EventType: TASK_ABORT
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Task cleanup failed for attempt attempt_1445144423722_0020_m_000002_0
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+attempt_1445144423722_0020_m_000002_1 TaskAttempt Transitioned from NEW to UNASSIGNED
+Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d
+Thread Thread[eventHandlingThread,5,main] threw an Exception.
+1 failures on node MININT-FNANLI5.fareast.corp.microsoft.com
+Added attempt_1445144423722_0020_m_000002_1 to list of failed maps
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 89 seconds.  Will retry shortly ...
+Before Scheduling: PendingReds:0 ScheduledMaps:2 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3
+Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 90 seconds.  Will retry shortly ...
+Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+ERROR IN CONTACTING RM.
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.37551183
+Task: attempt_1445144423722_0020_m_000001_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP
+Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0
+KILLING attempt_1445144423722_0020_m_000001_0
+Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+Processing the event EventType: TASK_ABORT
+Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000
+Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0

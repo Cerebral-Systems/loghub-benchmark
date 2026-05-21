@@ -1,0 +1,286 @@
+{
+  "files": [
+    "openstack-2k.log"
+  ],
+  "n_input_lines": 50,
+  "rand_index_threshold": 0.85,
+  "schema_version": "loghub-sre-answer-v2-tmpl",
+  "template_count_tolerance": 1,
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1
+      ],
+      "template": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 2,
+      "matching_lines": [
+        2
+      ],
+      "template": "[instance: <*>] VM Resumed (Lifecycle Event)",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3
+      ],
+      "template": "[instance: <*>] Took <*>.<*> seconds to build instance.",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 4,
+      "matching_lines": [
+        4
+      ],
+      "template": "Total usable vcpus: <*>, total allocated vcpus: <*>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 5,
+      "matching_lines": [
+        5
+      ],
+      "template": "Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 6,
+      "matching_lines": [
+        6
+      ],
+      "template": "Compute_service record updated for <*>",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 7,
+      "matching_lines": [
+        7,
+        11,
+        15,
+        16,
+        17,
+        20,
+        22,
+        26,
+        28,
+        38,
+        47,
+        48,
+        50
+      ],
+      "template": "<*> \"GET <*>\" status: <*> len: <*> time: <*>.<*>",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 8,
+      "matching_lines": [
+        8,
+        12
+      ],
+      "template": "image <*> at (<*>): checking",
+      "template_id": "T8"
+    },
+    {
+      "example_line_number": 9,
+      "matching_lines": [
+        9,
+        13
+      ],
+      "template": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",
+      "template_id": "T9"
+    },
+    {
+      "example_line_number": 10,
+      "matching_lines": [
+        10,
+        14
+      ],
+      "template": "Active base files: <*>",
+      "template_id": "T10"
+    },
+    {
+      "example_line_number": 18,
+      "matching_lines": [
+        18
+      ],
+      "template": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>.<*>",
+      "template_id": "T11"
+    },
+    {
+      "example_line_number": 19,
+      "matching_lines": [
+        19
+      ],
+      "template": "[instance: <*>] Terminating instance",
+      "template_id": "T12"
+    },
+    {
+      "example_line_number": 21,
+      "matching_lines": [
+        21
+      ],
+      "template": "[instance: <*>] Instance destroyed successfully.",
+      "template_id": "T13"
+    },
+    {
+      "example_line_number": 23,
+      "matching_lines": [
+        23
+      ],
+      "template": "[instance: <*>] Deleting instance files <*>",
+      "template_id": "T14"
+    },
+    {
+      "example_line_number": 24,
+      "matching_lines": [
+        24
+      ],
+      "template": "[instance: <*>] Deletion of <*> complete",
+      "template_id": "T15"
+    },
+    {
+      "example_line_number": 25,
+      "matching_lines": [
+        25
+      ],
+      "template": "[instance: <*>] Took <*>.<*> seconds to destroy the instance on the hypervisor.",
+      "template_id": "T16"
+    },
+    {
+      "example_line_number": 27,
+      "matching_lines": [
+        27
+      ],
+      "template": "[instance: <*>] Took <*>.<*> seconds to deallocate network for instance.",
+      "template_id": "T17"
+    },
+    {
+      "example_line_number": 29,
+      "matching_lines": [
+        29,
+        34
+      ],
+      "template": "Unknown base file: <*>",
+      "template_id": "T18"
+    },
+    {
+      "example_line_number": 30,
+      "matching_lines": [
+        30,
+        35
+      ],
+      "template": "Removable base files: <*>",
+      "template_id": "T19"
+    },
+    {
+      "example_line_number": 31,
+      "matching_lines": [
+        31
+      ],
+      "template": "Base or swap file too young to remove: <*>",
+      "template_id": "T20"
+    },
+    {
+      "example_line_number": 32,
+      "matching_lines": [
+        32
+      ],
+      "template": "HTTP exception thrown: No instances found for any event",
+      "template_id": "T21"
+    },
+    {
+      "example_line_number": 33,
+      "matching_lines": [
+        33,
+        37
+      ],
+      "template": "<*> \"POST <*>\" status: <*> len: <*> time: <*>.<*>",
+      "template_id": "T22"
+    },
+    {
+      "example_line_number": 36,
+      "matching_lines": [
+        36
+      ],
+      "template": "Removing base or swap file: <*>",
+      "template_id": "T23"
+    },
+    {
+      "example_line_number": 39,
+      "matching_lines": [
+        39
+      ],
+      "template": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",
+      "template_id": "T24"
+    },
+    {
+      "example_line_number": 40,
+      "matching_lines": [
+        40
+      ],
+      "template": "[instance: <*>] Total memory: <*> MB, used: <*>.<*> MB",
+      "template_id": "T25"
+    },
+    {
+      "example_line_number": 41,
+      "matching_lines": [
+        41
+      ],
+      "template": "[instance: <*>] memory limit: <*>.<*> MB, free: <*>.<*> MB",
+      "template_id": "T26"
+    },
+    {
+      "example_line_number": 42,
+      "matching_lines": [
+        42
+      ],
+      "template": "[instance: <*>] Total disk: <*> GB, used: <*>.<*> GB",
+      "template_id": "T27"
+    },
+    {
+      "example_line_number": 43,
+      "matching_lines": [
+        43
+      ],
+      "template": "[instance: <*>] disk limit not specified, defaulting to unlimited",
+      "template_id": "T28"
+    },
+    {
+      "example_line_number": 44,
+      "matching_lines": [
+        44
+      ],
+      "template": "[instance: <*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",
+      "template_id": "T29"
+    },
+    {
+      "example_line_number": 45,
+      "matching_lines": [
+        45
+      ],
+      "template": "[instance: <*>] vcpu limit not specified, defaulting to unlimited",
+      "template_id": "T30"
+    },
+    {
+      "example_line_number": 46,
+      "matching_lines": [
+        46
+      ],
+      "template": "[instance: <*>] Claim successful",
+      "template_id": "T31"
+    },
+    {
+      "example_line_number": 49,
+      "matching_lines": [
+        49
+      ],
+      "template": "[instance: <*>] Creating image",
+      "template_id": "T32"
+    }
+  ],
+  "total_unique_templates": 32
+}

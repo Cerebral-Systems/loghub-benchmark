@@ -1,0 +1,178 @@
+{
+  "input_file": "hdfs-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        5,
+        8,
+        12,
+        15,
+        22
+      ],
+      "template": "<*>:<*> Served block blk_<*> to /<*>",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "template": "<*>:<*>:Got exception while serving blk_<*> to /<*>:",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 29,
+      "matching_lines": [
+        29,
+        33,
+        36,
+        43,
+        54,
+        60,
+        68,
+        72,
+        84,
+        85,
+        90,
+        97,
+        104,
+        106,
+        108,
+        109,
+        116
+      ],
+      "template": "Received block blk_<*> of size <*> from /<*>",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 30,
+      "matching_lines": [
+        30,
+        34,
+        35,
+        44,
+        53,
+        55,
+        57,
+        61,
+        71,
+        74,
+        77,
+        86,
+        91,
+        92,
+        93,
+        105,
+        115
+      ],
+      "template": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to blk_<*> size <*>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 31,
+      "matching_lines": [
+        31,
+        37,
+        39,
+        40,
+        41,
+        42,
+        45,
+        48,
+        51,
+        59,
+        66,
+        70,
+        73,
+        75,
+        81,
+        83,
+        87,
+        94,
+        102,
+        103,
+        107
+      ],
+      "template": "Receiving block blk_<*> src: /<*>:<*> dest: /<*>:<*>",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 32,
+      "matching_lines": [
+        32,
+        38,
+        47,
+        49,
+        50,
+        52,
+        56,
+        58,
+        62,
+        64,
+        67,
+        69,
+        78,
+        80,
+        82,
+        88,
+        89,
+        95,
+        96,
+        98,
+        99,
+        111,
+        113,
+        114
+      ],
+      "template": "PacketResponder <*> for block blk_<*> terminating",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 46,
+      "matching_lines": [
+        46,
+        63,
+        65,
+        76,
+        79,
+        100,
+        110,
+        112
+      ],
+      "template": "BLOCK* NameSystem.allocateBlock: /<*>/part-<*>. blk_<*>",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 101,
+      "matching_lines": [
+        101
+      ],
+      "template": "Verification succeeded for blk_<*>",
+      "template_id": "T8"
+    }
+  ],
+  "total_unique_templates": 8
+}

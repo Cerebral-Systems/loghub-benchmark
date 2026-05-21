@@ -59,9 +59,14 @@ def build(
     adapter = ADAPTERS[adapter_name]()
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"loading labels from {input_path} ...", file=sys.stderr)
-    labels = adapter.load_labels(input_path)
-    print(f"  {len(labels.entries):,} labels; {len(labels.anomalous_keys()):,} anomalous", file=sys.stderr)
+    if task_type != "tmpl":
+        # T5 (tmpl) reads /Loghub-2k structured CSVs directly; it doesn't
+        # need the dataset's anomaly-label file.
+        print(f"loading labels from {input_path} ...", file=sys.stderr)
+        labels = adapter.load_labels(input_path)
+        print(f"  {len(labels.entries):,} labels; {len(labels.anomalous_keys()):,} anomalous", file=sys.stderr)
+    else:
+        labels = None  # type: ignore[assignment]
 
     if task_type == "anomaly":
         case_iter = adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed)
@@ -86,6 +91,24 @@ def build(
                     task_type=task_type,
                 )
         case_iter = _retag_iter()
+    elif task_type == "tmpl":
+        # T5: separate path; reads Loghub-2k structured CSV, ignores
+        # the standard anomaly-label flow.
+        from .templates_lib import iter_template_cases
+        # Adapter→dataset name mapping for the Loghub-2k file layout.
+        dataset_name_by_adapter = {
+            "hdfs": "HDFS",
+            "hadoop": "Hadoop",
+            "bgl": "BGL",
+            "thunderbird": "Thunderbird",
+            "openstack": "OpenStack",
+        }
+        dataset_for_tmpl = dataset_name_by_adapter.get(adapter_name)
+        if dataset_for_tmpl is None:
+            raise SystemExit(f"unsupported adapter {adapter_name!r} for task-type=tmpl")
+        case_iter = iter_template_cases(
+            input_path, dataset_for_tmpl, max_cases=max_cases, seed=seed
+        )
     else:
         raise SystemExit(f"unknown task_type {task_type!r}")
 
@@ -146,11 +169,12 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument(
         "--task-type",
         default="anomaly",
-        choices=("anomaly", "fp", "seq", "corr", "sev"),
+        choices=("anomaly", "fp", "seq", "corr", "sev", "tmpl"),
         help="Which adapter generator to invoke. 'anomaly' (v1, default) calls "
         "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows. "
         "'seq' (v2/T2), 'corr' (v2/T3), and 'sev' (v2/T4) reuse v1 anomaly "
-        "cases and tag them for the respective exporter.",
+        "cases and tag them for the respective exporter. 'tmpl' (v2/T5) reads "
+        "the Loghub-2k <Dataset>_2k.log_structured.csv from --input.",
     )
     args = p.parse_args(argv)
     build(args.adapter, args.input, args.output, args.max_cases, args.seed, task_type=args.task_type)

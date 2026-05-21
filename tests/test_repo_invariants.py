@@ -247,6 +247,18 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
         else:
             assert answer["severity_justification"] in ("recoverable", "transient_warning")
         assert answer["root_cause_type"] == expected["root_cause_type"]
+    elif schema.endswith("-v2-tmpl"):
+        # v2-tmpl template extraction assertions
+        templates = answer["templates"]
+        n = expected["n_input_lines"]
+        covered = {ln for t in templates for ln in t["matching_lines"]}
+        assert covered == set(range(1, n + 1)), (
+            f"oracle templates don't cover all {n} lines"
+        )
+        assert answer["total_unique_templates"] == len(templates)
+        gt = expected["total_unique_templates"]
+        tol = expected["template_count_tolerance"]
+        assert abs(answer["total_unique_templates"] - gt) <= tol
     else:
         # v1 / v2 anomaly localization assertions
         assert answer["is_incident"] is True

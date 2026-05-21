@@ -1,0 +1,118 @@
+{
+  "input_file": "thunderbird-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        3,
+        4,
+        10,
+        13,
+        14,
+        18,
+        19,
+        20,
+        23,
+        26,
+        28,
+        29,
+        32,
+        34,
+        36,
+        45,
+        46,
+        47,
+        48,
+        49,
+        53,
+        54,
+        55,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        66
+      ],
+      "template": "data_thread() got not answer from any [Thunderbird_<*>] datasource",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 2,
+      "matching_lines": [
+        2,
+        6,
+        7,
+        8,
+        9,
+        11,
+        17,
+        21,
+        22,
+        24,
+        25,
+        27,
+        31,
+        33,
+        35,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        50,
+        51,
+        52,
+        56,
+        57,
+        65,
+        69,
+        70
+      ],
+      "template": "synchronized to <*>, stratum <*>",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 5,
+      "matching_lines": [
+        5,
+        30,
+        63
+      ],
+      "template": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 12,
+      "matching_lines": [
+        12
+      ],
+      "template": "RRD_update (/var/lib/ganglia/rrds/<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 15,
+      "matching_lines": [
+        15,
+        37,
+        67
+      ],
+      "template": "[ib_sm_sweep.c:1455]: No topology change",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 16,
+      "matching_lines": [
+        16,
+        38,
+        68
+      ],
+      "template": "[ib_sm_sweep.c:1482]: No configuration change required",
+      "template_id": "T6"
+    }
+  ],
+  "total_unique_templates": 6
+}

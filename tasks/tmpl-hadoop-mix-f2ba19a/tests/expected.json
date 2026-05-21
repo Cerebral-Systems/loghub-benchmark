@@ -1,0 +1,181 @@
+{
+  "files": [
+    "hadoop-2k.log"
+  ],
+  "n_input_lines": 50,
+  "rand_index_threshold": 0.85,
+  "schema_version": "loghub-sre-answer-v2-tmpl",
+  "template_count_tolerance": 1,
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1
+      ],
+      "template": "Resolved <*> to /default-rack",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 2,
+      "matching_lines": [
+        2
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3
+      ],
+      "template": "Processing the event EventType: CONTAINER_REMOTE_<*> for container container_<*> taskAttempt attempt_<*>",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 4,
+      "matching_lines": [
+        4
+      ],
+      "template": "Launching attempt_<*>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 5,
+      "matching_lines": [
+        5
+      ],
+      "template": "Opening proxy : <*>:<*>",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 6,
+      "matching_lines": [
+        6
+      ],
+      "template": "Shuffle port returned by ContainerManager for attempt_<*> : <*>",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 7,
+      "matching_lines": [
+        7
+      ],
+      "template": "TaskAttempt: [attempt_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [<*>:<*>]",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 8,
+      "matching_lines": [
+        8
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING",
+      "template_id": "T8"
+    },
+    {
+      "example_line_number": 9,
+      "matching_lines": [
+        9
+      ],
+      "template": "ATTEMPT_START task_<*>",
+      "template_id": "T9"
+    },
+    {
+      "example_line_number": 10,
+      "matching_lines": [
+        10
+      ],
+      "template": "task_<*> Task Transitioned from SCHEDULED to RUNNING",
+      "template_id": "T10"
+    },
+    {
+      "example_line_number": 11,
+      "matching_lines": [
+        11
+      ],
+      "template": "getResources() for application_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",
+      "template_id": "T11"
+    },
+    {
+      "example_line_number": 12,
+      "matching_lines": [
+        12,
+        15,
+        22,
+        24,
+        26,
+        31,
+        33,
+        35,
+        38,
+        43,
+        45,
+        48
+      ],
+      "template": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",
+      "template_id": "T12"
+    },
+    {
+      "example_line_number": 13,
+      "matching_lines": [
+        13,
+        16,
+        23,
+        25,
+        27,
+        32,
+        34,
+        36,
+        39,
+        44,
+        46,
+        49
+      ],
+      "template": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>",
+      "template_id": "T13"
+    },
+    {
+      "example_line_number": 14,
+      "matching_lines": [
+        14,
+        17,
+        18,
+        28,
+        29,
+        30,
+        37,
+        40,
+        41,
+        42,
+        47,
+        50
+      ],
+      "template": "Progress of TaskAttempt attempt_<*> is : <*>.<*>",
+      "template_id": "T14"
+    },
+    {
+      "example_line_number": 19,
+      "matching_lines": [
+        19
+      ],
+      "template": "Auth successful for job_<*> (auth:SIMPLE)",
+      "template_id": "T15"
+    },
+    {
+      "example_line_number": 20,
+      "matching_lines": [
+        20
+      ],
+      "template": "JVM with ID : jvm_<*> asked for a task",
+      "template_id": "T16"
+    },
+    {
+      "example_line_number": 21,
+      "matching_lines": [
+        21
+      ],
+      "template": "JVM with ID: jvm_<*> given task: <*>_<*>",
+      "template_id": "T17"
+    }
+  ],
+  "total_unique_templates": 17
+}

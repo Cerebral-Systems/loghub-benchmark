@@ -1,0 +1,132 @@
+{
+  "input_file": "hdfs-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "template": "BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>:<*>",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 9,
+      "matching_lines": [
+        9,
+        11,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "template": "Deleting block blk_<*> file /<*>/blk_<*>",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 10,
+      "matching_lines": [
+        10,
+        15,
+        30,
+        51
+      ],
+      "template": "BLOCK* NameSystem.allocateBlock: /<*>/part-<*>. blk_<*>",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 12,
+      "matching_lines": [
+        12,
+        33,
+        40,
+        45,
+        50,
+        52,
+        53,
+        59,
+        62,
+        67,
+        70
+      ],
+      "template": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>:<*> is added to blk_<*> size <*>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 20,
+      "matching_lines": [
+        20,
+        27,
+        31,
+        37,
+        38,
+        42,
+        43,
+        46,
+        55,
+        57,
+        58,
+        60,
+        65,
+        66,
+        68
+      ],
+      "template": "Receiving block blk_<*> src: /<*>:<*> dest: /<*>:<*>",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 26,
+      "matching_lines": [
+        26,
+        28,
+        32,
+        34,
+        35,
+        44,
+        54,
+        56,
+        61,
+        63,
+        64
+      ],
+      "template": "Received block blk_<*> of size <*> from /<*>",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 29,
+      "matching_lines": [
+        29,
+        39,
+        41,
+        47,
+        48,
+        49,
+        69
+      ],
+      "template": "PacketResponder <*> for block blk_<*> terminating",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 36,
+      "matching_lines": [
+        36
+      ],
+      "template": "BLOCK* ask <*>:<*> to delete  blk_<*>",
+      "template_id": "T8"
+    }
+  ],
+  "total_unique_templates": 8
+}

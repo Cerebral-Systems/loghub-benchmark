@@ -1,0 +1,70 @@
+data_thread() got not answer from any [Thunderbird_A8] datasource
+synchronized to 10.100.20.250, stratum 3
+data_thread() got not answer from any [Thunderbird_B3] datasource
+data_thread() got not answer from any [Thunderbird_B7] datasource
+[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+synchronized to 10.100.16.250, stratum 3
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.20.250, stratum 3
+data_thread() got not answer from any [Thunderbird_A5] datasource
+synchronized to 10.100.20.250, stratum 3
+RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563349 when last update time is 1131563349 (minimum one second step)
+data_thread() got not answer from any [Thunderbird_B6] datasource
+data_thread() got not answer from any [Thunderbird_A6] datasource
+[ib_sm_sweep.c:1455]: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required
+synchronized to 10.100.18.250, stratum 3
+data_thread() got not answer from any [Thunderbird_C8] datasource
+data_thread() got not answer from any [Thunderbird_C1] datasource
+data_thread() got not answer from any [Thunderbird_D6] datasource
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.10.250, stratum 3
+data_thread() got not answer from any [Thunderbird_B2] datasource
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.18.250, stratum 3
+data_thread() got not answer from any [Thunderbird_A7] datasource
+synchronized to 10.100.26.250, stratum 3
+data_thread() got not answer from any [Thunderbird_A2] datasource
+data_thread() got not answer from any [Thunderbird_B5] datasource
+[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+synchronized to 10.100.20.250, stratum 3
+data_thread() got not answer from any [Thunderbird_C2] datasource
+synchronized to 10.100.16.250, stratum 3
+data_thread() got not answer from any [Thunderbird_D4] datasource
+synchronized to 10.100.20.250, stratum 3
+data_thread() got not answer from any [Thunderbird_B1] datasource
+[ib_sm_sweep.c:1455]: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required
+synchronized to 10.100.10.250, stratum 3
+synchronized to 10.100.16.250, stratum 3
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.28.250, stratum 3
+synchronized to 10.100.28.250, stratum 3
+synchronized to 10.100.26.250, stratum 3
+data_thread() got not answer from any [Thunderbird_B4] datasource
+data_thread() got not answer from any [Thunderbird_B8] datasource
+data_thread() got not answer from any [Thunderbird_C4] datasource
+data_thread() got not answer from any [Thunderbird_C5] datasource
+data_thread() got not answer from any [Thunderbird_C6] datasource
+synchronized to 10.100.16.250, stratum 3
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.26.250, stratum 3
+data_thread() got not answer from any [Thunderbird_A4] datasource
+data_thread() got not answer from any [Thunderbird_A8] datasource
+data_thread() got not answer from any [Thunderbird_D7] datasource
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.16.250, stratum 3
+data_thread() got not answer from any [Thunderbird_A1] datasource
+data_thread() got not answer from any [Thunderbird_A3] datasource
+data_thread() got not answer from any [Thunderbird_D8] datasource
+data_thread() got not answer from any [Thunderbird_B3] datasource
+data_thread() got not answer from any [Thunderbird_D5] datasource
+[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************
+data_thread() got not answer from any [Thunderbird_B6] datasource
+synchronized to 10.100.16.250, stratum 3
+data_thread() got not answer from any [Thunderbird_B7] datasource
+[ib_sm_sweep.c:1455]: No topology change
+[ib_sm_sweep.c:1482]: No configuration change required
+synchronized to 10.100.20.250, stratum 3
+synchronized to 10.100.20.250, stratum 3

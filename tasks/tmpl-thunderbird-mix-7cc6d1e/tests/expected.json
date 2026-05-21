@@ -1,0 +1,97 @@
+{
+  "files": [
+    "thunderbird-2k.log"
+  ],
+  "n_input_lines": 50,
+  "rand_index_threshold": 0.85,
+  "schema_version": "loghub-sre-answer-v2-tmpl",
+  "template_count_tolerance": 1,
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        33,
+        36,
+        37,
+        38,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        49,
+        50
+      ],
+      "template": "data_thread() got not answer from any [Thunderbird_<*>] datasource",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        15,
+        20,
+        21,
+        27,
+        32,
+        35,
+        48
+      ],
+      "template": "synchronized to <*>, stratum <*>",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 17,
+      "matching_lines": [
+        17,
+        34
+      ],
+      "template": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 22,
+      "matching_lines": [
+        22,
+        39
+      ],
+      "template": "[ib_sm_sweep.c:1455]: No topology change",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 23,
+      "matching_lines": [
+        23,
+        40
+      ],
+      "template": "[ib_sm_sweep.c:1482]: No configuration change required",
+      "template_id": "T5"
+    }
+  ],
+  "total_unique_templates": 5
+}

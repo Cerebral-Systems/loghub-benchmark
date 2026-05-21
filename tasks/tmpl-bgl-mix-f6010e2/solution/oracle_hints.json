@@ -1,0 +1,126 @@
+{
+  "input_file": "bgl-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1
+      ],
+      "template": "debug wait enable.................<*>",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 2,
+      "matching_lines": [
+        2
+      ],
+      "template": "floating pt ex mode <*> enable......<*>",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3
+      ],
+      "template": "instruction address space.........<*>",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 4,
+      "matching_lines": [
+        4,
+        5,
+        6
+      ],
+      "template": "data address space................<*>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 7,
+      "matching_lines": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "template": "core configuration register: <*>",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 13,
+      "matching_lines": [
+        13,
+        14,
+        15
+      ],
+      "template": "disable store gathering..................<*>",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 16,
+      "matching_lines": [
+        16,
+        18,
+        25,
+        26,
+        27,
+        35,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        50
+      ],
+      "template": "generating core.<*>",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 17,
+      "matching_lines": [
+        17
+      ],
+      "template": "total of <*> ddr error(s) detected and corrected",
+      "template_id": "T8"
+    },
+    {
+      "example_line_number": 19,
+      "matching_lines": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        49
+      ],
+      "template": "instruction cache parity error corrected",
+      "template_id": "T9"
+    },
+    {
+      "example_line_number": 48,
+      "matching_lines": [
+        48
+      ],
+      "template": "ciod: failed to read message prefix on control stream (CioStream socket to <*>:<*>",
+      "template_id": "T10"
+    }
+  ],
+  "total_unique_templates": 10
+}

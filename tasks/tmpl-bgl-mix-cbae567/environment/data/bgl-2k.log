@@ -1,0 +1,200 @@
+generating core.17560
+generating core.17212
+generating core.26131
+generating core.45777
+generating core.62940
+generating core.27867
+generating core.21016
+generating core.465
+generating core.55352
+generating core.44723
+generating core.36787
+generating core.29903
+generating core.33706
+generating core.8879
+generating core.50505
+generating core.29899
+generating core.46536
+generating core.50988
+generating core.22273
+generating core.46157
+generating core.59042
+generating core.29543
+generating core.22119
+generating core.4900
+generating core.30256
+generating core.64146
+generating core.58328
+generating core.20241
+generating core.24337
+generating core.21045
+generating core.47256
+generating core.45183
+generating core.46654
+generating core.21374
+generating core.45880
+generating core.20691
+generating core.45943
+generating core.46425
+generating core.11113
+generating core.5738
+generating core.237
+generating core.47690
+generating core.58120
+generating core.45167
+generating core.17638
+generating core.52833
+generating core.56961
+generating core.43008
+generating core.29025
+generating core.7682
+generating core.14519
+generating core.51421
+generating core.26734
+generating core.39406
+generating core.30886
+generating core.11916
+generating core.25367
+generating core.23150
+generating core.31197
+generating core.29207
+generating core.11244
+generating core.16134
+generating core.14142
+generating core.27997
+generating core.16038
+generating core.7663
+rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=42315, cpu=105, index=1207960804, total=2691015
+debug wait enable.................0
+generating core.176
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+8 floating point alignment exceptions
+total of 1 ddr error(s) detected and corrected
+generating core.7830
+generating core.1781
+generating core.8977
+generating core.12721
+generating core.15193
+generating core.9136
+generating core.9021
+generating core.5927
+generating core.3455
+generating core.3093
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+generating core.9315
+generating core.7205
+generating core.2241
+generating core.10607
+generating core.6940
+generating core.14911
+generating core.9713
+generating core.28529
+generating core.18632
+generating core.2505
+generating core.24634
+generating core.31691
+generating core.2767
+generating core.29493
+generating core.23425
+15 floating point alignment exceptions
+1 ddr errors(s) detected and corrected on rank 0, symbol 20, bit 3
+total of 23 ddr error(s) detected and corrected
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+15 floating point alignment exceptions
+generating core.7818
+generating core.15063
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+generating core.2317
+generating core.12630
+generating core.11357
+generating core.14250
+generating core.10514
+5 floating point alignment exceptions
+generating core.4781
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+5 floating point alignment exceptions
+685 floating point alignment exceptions
+685 floating point alignment exceptions
+685 floating point alignment exceptions
+685 floating point alignment exceptions
+1005 floating point alignment exceptions
+1005 floating point alignment exceptions
+1005 floating point alignment exceptions
+1005 floating point alignment exceptions
+1005 floating point alignment exceptions
+CE sym 25, at 0x155e28e0, mask 0x08
+generating core.16019
+generating core.45168
+generating core.33115
+generating core.4535
+generating core.53271
+generating core.31056
+generating core.62637
+generating core.15977
+generating core.37807
+generating core.38022
+generating core.2704
+generating core.50

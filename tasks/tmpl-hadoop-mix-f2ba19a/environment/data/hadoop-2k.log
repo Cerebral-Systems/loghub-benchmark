@@ -1,0 +1,50 @@
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0
+Launching attempt_1445144423722_0020_m_000003_0
+Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109
+Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000003_0 : 13562
+TaskAttempt: [attempt_1445144423722_0020_m_000003_0] using containerId: [container_1445144423722_0020_01_000005 on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109]
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+ATTEMPT_START task_1445144423722_0020_m_000003
+task_1445144423722_0020_m_000003 Task Transitioned from SCHEDULED to RUNNING
+getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:0, vCores:-27> knownNMs=4
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437
+Auth successful for job_1445144423722_0020 (auth:SIMPLE)
+JVM with ID : jvm_1445144423722_0020_m_000005 asked for a task
+JVM with ID: jvm_1445144423722_0020_m_000005 given task: attempt_1445144423722_0020_m_000003_0
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.1066108
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10875365
+Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.10660437
+Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.106493875
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.10635664
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.14981231
