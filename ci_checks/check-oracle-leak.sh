@@ -94,6 +94,15 @@ if schema_version.endswith("-v2-fp"):
     for label in expected.get("allowed_why_not_anomalous", []):
         if isinstance(label, str) and "_" in label:
             answer_shaped.add(label)
+# v2-seq (temporal sequence) answers add timeline-shape tokens.
+if schema_version.endswith("-v2-seq"):
+    answer_shaped.update({
+        '"timeline"',
+        '"sequence"',
+        '"trigger"',
+        '"propagation"',
+        '"consequence"',
+    })
 for label in [expected.get("root_cause_type"), *expected.get("allowed_root_causes", []),
               *expected.get("safe_recommendations", [])]:
     if isinstance(label, str) and ("_" in label):

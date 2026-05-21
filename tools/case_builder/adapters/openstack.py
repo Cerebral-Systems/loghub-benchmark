@@ -281,6 +281,42 @@ class OpenStackAdapter(AdapterBase):
             offset = max(0, end - size)
         return offset, end - offset
 
+    # --- temporal parsing (T2) -------------------------------------------
+
+    _OS_EVENT_RE = re.compile(
+        r"^([\w-]+)\.log\S*\s+"  # service.log prefix
+        r"(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2}):(\d{2})\.(\d{3})"
+    )
+
+    _COMPONENT_PRECEDENCE: dict[str, int] = {
+        "nova-api": 0,
+        "nova-scheduler": 1,
+        "nova-conductor": 2,
+        "nova-compute": 3,
+        "neutron-server": 4,
+        "neutron-agent": 5,
+    }
+
+    def parse_event(self, line: str) -> dict | None:
+        m = self._OS_EVENT_RE.match(line)
+        if not m:
+            return None
+        component = m.group(1)
+        year, mon, day, hh, mm, ss, ms = (int(m.group(i)) for i in range(2, 9))
+        ts = (
+            year * 10**13
+            + mon * 10**11
+            + day * 10**9
+            + hh * 10**7
+            + mm * 10**5
+            + ss * 10**3
+            + ms
+        )
+        return {"timestamp": ts, "component": component, "level": "INFO"}
+
+    def component_precedence(self, component: str) -> int:
+        return self._COMPONENT_PRECEDENCE.get(component, 100)
+
     # --- AdapterBase methods we don't use in the streaming path -----------
 
     def select_slice(self, full_log, anomaly_indices, seed):  # pragma: no cover

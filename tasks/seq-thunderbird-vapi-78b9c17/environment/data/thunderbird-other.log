@@ -1,0 +1,192 @@
+- 1135591261 2005.12.26 cadmin2 Dec 26 02:01:01 src@cadmin2 crond(pam_unix)[578]: session closed for user root
+- 1135591261 2005.12.26 cadmin2 Dec 26 02:01:01 src@cadmin2 crond(pam_unix)[578]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 cadmin2 Dec 26 02:01:01 src@cadmin2 crond[579]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 cadmin3 Dec 26 02:01:01 src@cadmin3 crond(pam_unix)[21043]: session closed for user root
+- 1135591261 2005.12.26 cadmin3 Dec 26 02:01:01 src@cadmin3 crond(pam_unix)[21043]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 cadmin3 Dec 26 02:01:01 src@cadmin3 crond[21044]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 cadmin4 Dec 26 02:01:01 src@cadmin4 crond(pam_unix)[21116]: session closed for user root
+- 1135591261 2005.12.26 cadmin4 Dec 26 02:01:01 src@cadmin4 crond(pam_unix)[21116]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 cadmin4 Dec 26 02:01:01 src@cadmin4 crond[21117]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 #9# Dec 26 02:01:01 #9#/#9# crond(pam_unix)[19600]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 dadmin1 Dec 26 02:01:01 src@dadmin1 crond(pam_unix)[8704]: session closed for user root
+- 1135591261 2005.12.26 dadmin1 Dec 26 02:01:01 src@dadmin1 crond(pam_unix)[8704]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 dadmin1 Dec 26 02:01:01 src@dadmin1 crond[8705]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 dadmin2 Dec 26 02:01:01 src@dadmin2 crond(pam_unix)[17314]: session closed for user root
+- 1135591261 2005.12.26 dadmin2 Dec 26 02:01:01 src@dadmin2 crond(pam_unix)[17314]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 dadmin2 Dec 26 02:01:01 src@dadmin2 crond[17315]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 dadmin3 Dec 26 02:01:01 src@dadmin3 crond(pam_unix)[17137]: session closed for user root
+- 1135591261 2005.12.26 dadmin3 Dec 26 02:01:01 src@dadmin3 crond(pam_unix)[17137]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 dadmin3 Dec 26 02:01:01 src@dadmin3 crond[17138]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 dadmin4 Dec 26 02:01:01 src@dadmin4 crond(pam_unix)[17063]: session closed for user root
+- 1135591261 2005.12.26 dadmin4 Dec 26 02:01:01 src@dadmin4 crond(pam_unix)[17063]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 dadmin4 Dec 26 02:01:01 src@dadmin4 crond[17064]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 eadmin1 Dec 26 02:01:01 src@eadmin1 crond(pam_unix)[29351]: session closed for user root
+- 1135591261 2005.12.26 eadmin1 Dec 26 02:01:01 src@eadmin1 crond(pam_unix)[29351]: session opened for user root by (uid=0)
+- 1135591261 2005.12.26 eadmin1 Dec 26 02:01:01 src@eadmin1 crond[29352]: (root) CMD (run-parts /etc/cron.hourly)
+- 1135591261 2005.12.26 eadmin2 Dec 26 02:01:01 src@eadmin2 crond(pam_unix)[5578]: session closed for user root
+- 1135591261 2005.12.26 tsqe2 Dec 26 02:01:01 tsqe2/tsqe2 crond(pam_unix)[29601]: session closed for user root
+- 1135591290 2005.12.26 eadmin1 Dec 26 02:01:30 src@eadmin1 sendmail[29350]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1135591291 2005.12.26 eadmin1 Dec 26 02:01:31 src@eadmin1 crond(pam_unix)[26274]: session closed for user root
+- 1135591291 2005.12.26 eadmin1 Dec 26 02:01:31 src@eadmin1 sendmail[29350]: jBQ91UEx029350: from=root, size=305953, class=0, nrcpts=1, msgid=<200512260901.jBQ91UEx029350@eadmin1>, relay=#7#@localhost
+- 1135591291 2005.12.26 eadmin1 Dec 26 02:01:31 src@eadmin1 sendmail[29350]: jBQ91UEx029350: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=335953, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591293 2005.12.26 aadmin1 Dec 26 02:01:33 src@aadmin1 sendmail[32103]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1135591293 2005.12.26 badmin1 Dec 26 02:01:33 src@badmin1 sendmail[6559]: unable to qualify my own domain name (badmin1) -- using short name
+- 1135591295 2005.12.26 aadmin1 Dec 26 02:01:35 src@aadmin1 crond(pam_unix)[29027]: session closed for user root
+- 1135591295 2005.12.26 aadmin1 Dec 26 02:01:35 src@aadmin1 sendmail[32103]: jBQ91X9D032103: from=root, size=1587283, class=0, nrcpts=1, msgid=<200512260901.jBQ91X9D032103@aadmin1>, relay=#7#@localhost
+- 1135591295 2005.12.26 aadmin1 Dec 26 02:01:35 src@aadmin1 sendmail[32103]: jBQ91X9D032103: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1617283, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591295 2005.12.26 badmin1 Dec 26 02:01:35 src@badmin1 crond(pam_unix)[3483]: session closed for user root
+- 1135591295 2005.12.26 badmin1 Dec 26 02:01:35 src@badmin1 sendmail[6559]: jBQ91XVs006559: from=root, size=1598646, class=0, nrcpts=1, msgid=<200512260901.jBQ91XVs006559@badmin1>, relay=#7#@localhost
+- 1135591295 2005.12.26 badmin1 Dec 26 02:01:35 src@badmin1 sendmail[6559]: jBQ91XVs006559: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1628646, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591295 2005.12.26 cadmin1 Dec 26 02:01:35 src@cadmin1 sendmail[30186]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1135591297 2005.12.26 cadmin1 Dec 26 02:01:37 src@cadmin1 crond(pam_unix)[27110]: session closed for user root
+- 1135591297 2005.12.26 cadmin1 Dec 26 02:01:37 src@cadmin1 sendmail[30186]: jBQ91ZlU030186: from=root, size=1596114, class=0, nrcpts=1, msgid=<200512260901.jBQ91ZlU030186@cadmin1>, relay=#7#@localhost
+- 1135591297 2005.12.26 cadmin1 Dec 26 02:01:37 src@cadmin1 sendmail[30186]: jBQ91ZlU030186: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1626114, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591300 2005.12.26 ar22iblsw2 Dec 26 02:01:40 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591320 2005.12.26 ar29iblsw1 Dec 26 02:02:00 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591372 2005.12.26 ar22iblsw2 Dec 26 02:02:52 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591389 2005.12.26 ibr3-southern Dec 27 02:03:09 ibr3-southern/ibr3-southern slot101:10.100.253.143 plugnplay[87d87c80]: Osa: Leaf 8 is reporting fiber latch fault condition on port 5
+- 1135591392 2005.12.26 ar29iblsw1 Dec 26 02:03:12 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591410 2005.12.26 ibr6-southern Dec 27 02:03:30 ibr6-southern/ibr6-southern slot101:10.100.253.146 plugnplay[87d87cc0]: Osa: Leaf 5 is reporting fiber latch fault condition on port 6
+- 1135591421 2005.12.26 ibr3-southern Dec 27 02:03:41 ibr3-southern/ibr3-southern slot101:10.100.253.143 plugnplay[87d87c80]: Osa: Leaf 8 is reporting fiber latch overcurrent condition on port 5 of the (Invalid Ptr)
+- 1135591444 2005.12.26 ar22iblsw2 Dec 26 02:04:04 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591450 2005.12.26 ibr6-southern Dec 27 02:04:10 ibr6-southern/ibr6-southern slot101:10.100.253.146 plugnplay[87d87cc0]: Osa: Leaf 5 is reporting fiber latch overcurrent condition on port 6 of the (Invalid Ptr)
+- 1135591464 2005.12.26 ar29iblsw1 Dec 26 02:04:24 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591516 2005.12.26 ar22iblsw2 Dec 26 02:05:16 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591536 2005.12.26 ar29iblsw1 Dec 26 02:05:36 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591588 2005.12.26 ar22iblsw2 Dec 26 02:06:28 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591608 2005.12.26 ar29iblsw1 Dec 26 02:06:48 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591660 2005.12.26 ar22iblsw2 Dec 26 02:07:40 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591680 2005.12.26 ar29iblsw1 Dec 26 02:08:00 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591732 2005.12.26 ar22iblsw2 Dec 26 02:08:52 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591752 2005.12.26 ar29iblsw1 Dec 26 02:09:12 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591801 2005.12.26 aadmin1 Dec 26 02:10:01 src@aadmin1 crond(pam_unix)[32106]: session opened for user root by (uid=0)
+- 1135591801 2005.12.26 aadmin1 Dec 26 02:10:01 src@aadmin1 crond[32107]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1135591801 2005.12.26 badmin1 Dec 26 02:10:01 src@badmin1 crond(pam_unix)[6562]: session opened for user root by (uid=0)
+- 1135591801 2005.12.26 badmin1 Dec 26 02:10:01 src@badmin1 crond[6563]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1135591801 2005.12.26 cadmin1 Dec 26 02:10:01 src@cadmin1 crond(pam_unix)[30189]: session opened for user root by (uid=0)
+- 1135591801 2005.12.26 cadmin1 Dec 26 02:10:01 src@cadmin1 crond[30190]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1135591801 2005.12.26 eadmin1 Dec 26 02:10:01 src@eadmin1 crond(pam_unix)[29353]: session opened for user root by (uid=0)
+- 1135591801 2005.12.26 eadmin1 Dec 26 02:10:01 src@eadmin1 crond[29354]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1135591804 2005.12.26 ar22iblsw2 Dec 26 02:10:04 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591824 2005.12.26 ar29iblsw1 Dec 26 02:10:24 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591830 2005.12.26 eadmin1 Dec 26 02:10:30 src@eadmin1 sendmail[32440]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1135591833 2005.12.26 aadmin1 Dec 26 02:10:33 src@aadmin1 sendmail[2763]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1135591833 2005.12.26 badmin1 Dec 26 02:10:33 src@badmin1 sendmail[9638]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1135591844 2005.12.26 cadmin1 Dec 26 02:10:44 src@cadmin1 sendmail[812]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1135591876 2005.12.26 ar22iblsw2 Dec 26 02:11:16 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135591890 2005.12.26 eadmin1 Dec 26 02:11:30 src@eadmin1 crond(pam_unix)[29353]: session closed for user root
+- 1135591890 2005.12.26 eadmin1 Dec 26 02:11:30 src@eadmin1 sendmail[32440]: jBQ9BUZw032440: from=root, size=305953, class=0, nrcpts=1, msgid=<200512260911.jBQ9BUZw032440@eadmin1>, relay=#7#@localhost
+- 1135591890 2005.12.26 eadmin1 Dec 26 02:11:30 src@eadmin1 sendmail[32440]: jBQ9BUZw032440: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=335953, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591890 2005.12.26 eadmin1 Dec 26 02:11:30 src@eadmin1 sendmail[32440]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1135591893 2005.12.26 aadmin1 Dec 26 02:11:33 src@aadmin1 sendmail[2763]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1135591893 2005.12.26 badmin1 Dec 26 02:11:33 src@badmin1 sendmail[9638]: unable to qualify my own domain name (badmin1) -- using short name
+- 1135591895 2005.12.26 aadmin1 Dec 26 02:11:35 src@aadmin1 crond(pam_unix)[32106]: session closed for user root
+- 1135591895 2005.12.26 aadmin1 Dec 26 02:11:35 src@aadmin1 sendmail[2763]: jBQ9BXu6002763: from=root, size=1586072, class=0, nrcpts=1, msgid=<200512260911.jBQ9BXu6002763@aadmin1>, relay=#7#@localhost
+- 1135591895 2005.12.26 aadmin1 Dec 26 02:11:35 src@aadmin1 sendmail[2763]: jBQ9BXu6002763: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1616072, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591895 2005.12.26 badmin1 Dec 26 02:11:35 src@badmin1 crond(pam_unix)[6562]: session closed for user root
+- 1135591895 2005.12.26 badmin1 Dec 26 02:11:35 src@badmin1 sendmail[9638]: jBQ9BXgC009638: from=root, size=1598646, class=0, nrcpts=1, msgid=<200512260911.jBQ9BXgC009638@badmin1>, relay=#7#@localhost
+- 1135591895 2005.12.26 badmin1 Dec 26 02:11:35 src@badmin1 sendmail[9638]: jBQ9BXgC009638: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1628646, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591896 2005.12.26 ar29iblsw1 Dec 26 02:11:36 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591904 2005.12.26 cadmin1 Dec 26 02:11:44 src@cadmin1 sendmail[812]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1135591906 2005.12.26 cadmin1 Dec 26 02:11:46 src@cadmin1 crond(pam_unix)[30189]: session closed for user root
+- 1135591906 2005.12.26 cadmin1 Dec 26 02:11:46 src@cadmin1 sendmail[812]: jBQ9Bi3n000812: from=root, size=1596114, class=0, nrcpts=1, msgid=<200512260911.jBQ9Bi3n000812@cadmin1>, relay=#7#@localhost
+- 1135591906 2005.12.26 cadmin1 Dec 26 02:11:46 src@cadmin1 sendmail[812]: jBQ9Bi3n000812: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1626114, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135591936 2005.12.26 ar22iblsw2 Dec 26 02:12:16 ar22iblsw2/ar22iblsw2 last message repeated 5 times
+- 1135591968 2005.12.26 ar29iblsw1 Dec 26 02:12:48 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135591990 2005.12.26 ibr3-southern Dec 27 02:13:10 ibr3-southern/ibr3-southern slot101:10.100.253.143 plugnplay[87d87c80]: Osa: Leaf 8 is reporting fiber latch fault condition on port 5
+- 1135592008 2005.12.26 ar22iblsw2 Dec 26 02:13:28 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592011 2005.12.26 ibr6-southern Dec 27 02:13:31 ibr6-southern/ibr6-southern slot101:10.100.253.146 plugnplay[87d87cc0]: Osa: Leaf 5 is reporting fiber latch fault condition on port 6
+- 1135592022 2005.12.26 ibr3-southern Dec 27 02:13:42 ibr3-southern/ibr3-southern slot101:10.100.253.143 plugnplay[87d87c80]: Osa: Leaf 8 is reporting fiber latch overcurrent condition on port 5 of the (Invalid Ptr)
+- 1135592040 2005.12.26 ar29iblsw1 Dec 26 02:14:00 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592051 2005.12.26 ibr6-southern Dec 27 02:14:11 ibr6-southern/ibr6-southern slot101:10.100.253.146 plugnplay[87d87cc0]: Osa: Leaf 5 is reporting fiber latch overcurrent condition on port 6 of the (Invalid Ptr)
+- 1135592068 2005.12.26 ar22iblsw2 Dec 26 02:14:28 ar22iblsw2/ar22iblsw2 last message repeated 5 times
+- 1135592112 2005.12.26 ar29iblsw1 Dec 26 02:15:12 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592140 2005.12.26 ar22iblsw2 Dec 26 02:15:40 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592144 2005.12.26 badmin4 Dec 26 02:15:44 src@badmin4 ntpd[4905]: synchronized to 10.100.0.251, stratum 2
+- 1135592184 2005.12.26 ar29iblsw1 Dec 26 02:16:24 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592212 2005.12.26 ar22iblsw2 Dec 26 02:16:52 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592256 2005.12.26 ar29iblsw1 Dec 26 02:17:36 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592284 2005.12.26 ar22iblsw2 Dec 26 02:18:04 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592328 2005.12.26 ar29iblsw1 Dec 26 02:18:48 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592356 2005.12.26 ar22iblsw2 Dec 26 02:19:16 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592400 2005.12.26 ar29iblsw1 Dec 26 02:20:00 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592401 2005.12.26 aadmin1 Dec 26 02:20:01 src@aadmin1 crond(pam_unix)[2764]: session opened for user root by (uid=0)
+- 1135592401 2005.12.26 aadmin1 Dec 26 02:20:01 src@aadmin1 crond[2765]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1135592401 2005.12.26 badmin1 Dec 26 02:20:01 src@badmin1 crond(pam_unix)[9639]: session opened for user root by (uid=0)
+- 1135592401 2005.12.26 badmin1 Dec 26 02:20:01 src@badmin1 crond[9640]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1135592401 2005.12.26 cadmin1 Dec 26 02:20:01 src@cadmin1 crond(pam_unix)[813]: session opened for user root by (uid=0)
+- 1135592401 2005.12.26 cadmin1 Dec 26 02:20:01 src@cadmin1 crond[814]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1135592401 2005.12.26 eadmin1 Dec 26 02:20:01 src@eadmin1 crond(pam_unix)[32441]: session opened for user root by (uid=0)
+- 1135592401 2005.12.26 eadmin1 Dec 26 02:20:01 src@eadmin1 crond[32442]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1135592428 2005.12.26 ar22iblsw2 Dec 26 02:20:28 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592430 2005.12.26 eadmin1 Dec 26 02:20:30 src@eadmin1 sendmail[3067]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1135592435 2005.12.26 cadmin1 Dec 26 02:20:35 src@cadmin1 sendmail[3943]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1135592436 2005.12.26 badmin1 Dec 26 02:20:36 src@badmin1 sendmail[12715]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1135592441 2005.12.26 aadmin1 Dec 26 02:20:41 src@aadmin1 sendmail[5840]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1135592472 2005.12.26 ar29iblsw1 Dec 26 02:21:12 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592490 2005.12.26 eadmin1 Dec 26 02:21:30 src@eadmin1 sendmail[3067]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1135592491 2005.12.26 eadmin1 Dec 26 02:21:31 src@eadmin1 crond(pam_unix)[32441]: session closed for user root
+- 1135592491 2005.12.26 eadmin1 Dec 26 02:21:31 src@eadmin1 sendmail[3067]: jBQ9LU8s003067: from=root, size=305953, class=0, nrcpts=1, msgid=<200512260921.jBQ9LU8s003067@eadmin1>, relay=#7#@localhost
+- 1135592491 2005.12.26 eadmin1 Dec 26 02:21:31 src@eadmin1 sendmail[3067]: jBQ9LU8s003067: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=335953, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135592495 2005.12.26 cadmin1 Dec 26 02:21:35 src@cadmin1 sendmail[3943]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1135592496 2005.12.26 badmin1 Dec 26 02:21:36 src@badmin1 sendmail[12715]: unable to qualify my own domain name (badmin1) -- using short name
+- 1135592496 2005.12.26 cadmin1 Dec 26 02:21:36 src@cadmin1 crond(pam_unix)[813]: session closed for user root
+- 1135592496 2005.12.26 cadmin1 Dec 26 02:21:36 src@cadmin1 sendmail[3943]: jBQ9LZ5e003943: from=root, size=1596114, class=0, nrcpts=1, msgid=<200512260921.jBQ9LZ5e003943@cadmin1>, relay=#7#@localhost
+- 1135592496 2005.12.26 cadmin1 Dec 26 02:21:36 src@cadmin1 sendmail[3943]: jBQ9LZ5e003943: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=1626114, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135592499 2005.12.26 badmin1 Dec 26 02:21:39 src@badmin1 crond(pam_unix)[9639]: session closed for user root
+- 1135592499 2005.12.26 badmin1 Dec 26 02:21:39 src@badmin1 sendmail[12715]: jBQ9LasV012715: from=root, size=1598646, class=0, nrcpts=1, msgid=<200512260921.jBQ9LasV012715@badmin1>, relay=#7#@localhost
+- 1135592499 2005.12.26 badmin1 Dec 26 02:21:39 src@badmin1 sendmail[12715]: jBQ9LasV012715: to=root, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:00, mailer=relay, pri=1628646, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135592500 2005.12.26 ar22iblsw2 Dec 26 02:21:40 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592501 2005.12.26 aadmin1 Dec 26 02:21:41 src@aadmin1 sendmail[5840]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1135592503 2005.12.26 aadmin1 Dec 26 02:21:43 src@aadmin1 crond(pam_unix)[2764]: session closed for user root
+- 1135592503 2005.12.26 aadmin1 Dec 26 02:21:43 src@aadmin1 sendmail[5840]: jBQ9Lf53005840: from=root, size=1585357, class=0, nrcpts=1, msgid=<200512260921.jBQ9Lf53005840@aadmin1>, relay=#7#@localhost
+- 1135592503 2005.12.26 aadmin1 Dec 26 02:21:43 src@aadmin1 sendmail[5840]: jBQ9Lf53005840: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1615357, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135592544 2005.12.26 ar29iblsw1 Dec 26 02:22:24 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592560 2005.12.26 ar22iblsw2 Dec 26 02:22:40 ar22iblsw2/ar22iblsw2 last message repeated 5 times
+- 1135592591 2005.12.26 ibr3-southern Dec 27 02:23:11 ibr3-southern/ibr3-southern slot101:10.100.253.143 plugnplay[87d87c80]: Osa: Leaf 8 is reporting fiber latch fault condition on port 5
+- 1135592612 2005.12.26 ibr6-southern Dec 27 02:23:32 ibr6-southern/ibr6-southern slot101:10.100.253.146 plugnplay[87d87cc0]: Osa: Leaf 5 is reporting fiber latch fault condition on port 6
+- 1135592616 2005.12.26 ar29iblsw1 Dec 26 02:23:36 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592622 2005.12.26 ibr3-southern Dec 27 02:23:42 ibr3-southern/ibr3-southern slot101:10.100.253.143 plugnplay[87d87c80]: Osa: Leaf 8 is reporting fiber latch overcurrent condition on port 5 of the (Invalid Ptr)
+- 1135592632 2005.12.26 ar22iblsw2 Dec 26 02:23:52 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592651 2005.12.26 ibr6-southern Dec 27 02:24:11 ibr6-southern/ibr6-southern slot101:10.100.253.146 plugnplay[87d87cc0]: Osa: Leaf 5 is reporting fiber latch overcurrent condition on port 6 of the (Invalid Ptr)
+- 1135592688 2005.12.26 ar29iblsw1 Dec 26 02:24:48 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592704 2005.12.26 ar22iblsw2 Dec 26 02:25:04 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592760 2005.12.26 ar29iblsw1 Dec 26 02:26:00 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592776 2005.12.26 ar22iblsw2 Dec 26 02:26:16 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592797 2005.12.26 badmin2 Dec 26 02:26:37 src@badmin2 ntpd[22530]: synchronized to 10.100.0.251, stratum 2
+- 1135592832 2005.12.26 ar29iblsw1 Dec 26 02:27:12 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592848 2005.12.26 ar22iblsw2 Dec 26 02:27:28 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592904 2005.12.26 ar29iblsw1 Dec 26 02:28:24 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592920 2005.12.26 ar22iblsw2 Dec 26 02:28:40 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135592976 2005.12.26 ar29iblsw1 Dec 26 02:29:36 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135592992 2005.12.26 ar22iblsw2 Dec 26 02:29:52 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135593001 2005.12.26 aadmin1 Dec 26 02:30:01 src@aadmin1 crond(pam_unix)[5841]: session opened for user root by (uid=0)
+- 1135593001 2005.12.26 aadmin1 Dec 26 02:30:01 src@aadmin1 crond[5842]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1135593001 2005.12.26 badmin1 Dec 26 02:30:01 src@badmin1 crond(pam_unix)[12716]: session opened for user root by (uid=0)
+- 1135593001 2005.12.26 badmin1 Dec 26 02:30:01 src@badmin1 crond[12717]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1135593001 2005.12.26 eadmin1 Dec 26 02:30:01 src@eadmin1 crond(pam_unix)[3068]: session opened for user root by (uid=0)
+- 1135593001 2005.12.26 eadmin1 Dec 26 02:30:01 src@eadmin1 crond[3069]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1135593002 2005.12.26 cadmin1 Dec 26 02:30:02 src@cadmin1 crond(pam_unix)[3944]: session opened for user root by (uid=0)
+- 1135593002 2005.12.26 cadmin1 Dec 26 02:30:02 src@cadmin1 crond[3945]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1135593030 2005.12.26 eadmin1 Dec 26 02:30:30 src@eadmin1 sendmail[6169]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1135593033 2005.12.26 badmin1 Dec 26 02:30:33 src@badmin1 sendmail[15792]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1135593034 2005.12.26 aadmin1 Dec 26 02:30:34 src@aadmin1 sendmail[8920]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1135593034 2005.12.26 cadmin1 Dec 26 02:30:34 src@cadmin1 sendmail[7020]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1135593048 2005.12.26 ar29iblsw1 Dec 26 02:30:48 ar29iblsw1/ar29iblsw1 last message repeated 6 times
+- 1135593064 2005.12.26 ar22iblsw2 Dec 26 02:31:04 ar22iblsw2/ar22iblsw2 last message repeated 6 times
+- 1135593090 2005.12.26 eadmin1 Dec 26 02:31:30 src@eadmin1 crond(pam_unix)[3068]: session closed for user root
+- 1135593090 2005.12.26 eadmin1 Dec 26 02:31:30 src@eadmin1 sendmail[6169]: jBQ9VUJX006169: from=root, size=305953, class=0, nrcpts=1, msgid=<200512260931.jBQ9VUJX006169@eadmin1>, relay=#7#@localhost
+- 1135593090 2005.12.26 eadmin1 Dec 26 02:31:30 src@eadmin1 sendmail[6169]: jBQ9VUJX006169: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=335953, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135593090 2005.12.26 eadmin1 Dec 26 02:31:30 src@eadmin1 sendmail[6169]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1135593093 2005.12.26 badmin1 Dec 26 02:31:33 src@badmin1 sendmail[15792]: unable to qualify my own domain name (badmin1) -- using short name
+- 1135593094 2005.12.26 aadmin1 Dec 26 02:31:34 src@aadmin1 sendmail[8920]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1135593095 2005.12.26 aadmin1 Dec 26 02:31:35 src@aadmin1 crond(pam_unix)[5841]: session closed for user root
+- 1135593095 2005.12.26 aadmin1 Dec 26 02:31:35 src@aadmin1 sendmail[8920]: jBQ9VY95008920: from=root, size=1586299, class=0, nrcpts=1, msgid=<200512260931.jBQ9VY95008920@aadmin1>, relay=#7#@localhost
+- 1135593095 2005.12.26 aadmin1 Dec 26 02:31:35 src@aadmin1 sendmail[8920]: jBQ9VY95008920: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=1616299, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135593095 2005.12.26 badmin1 Dec 26 02:31:35 src@badmin1 crond(pam_unix)[12716]: session closed for user root
+- 1135593095 2005.12.26 badmin1 Dec 26 02:31:35 src@badmin1 sendmail[15792]: jBQ9VXoc015792: from=root, size=1598646, class=0, nrcpts=1, msgid=<200512260931.jBQ9VXoc015792@badmin1>, relay=#7#@localhost
+- 1135593095 2005.12.26 badmin1 Dec 26 02:31:35 src@badmin1 sendmail[15792]: jBQ9VXoc015792: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1628646, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1135593095 2005.12.26 cadmin1 Dec 26 02:31:35 src@cadmin1 sendmail[7020]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1135593096 2005.12.26 cadmin1 Dec 26 02:31:36 src@cadmin1 crond(pam_unix)[3944]: session closed for user root
+- 1135593096 2005.12.26 cadmin1 Dec 26 02:31:36 src@cadmin1 sendmail[7020]: jBQ9VZjI007020: from=root, size=1596114, class=0, nrcpts=1, msgid=<200512260931.jBQ9VZjI007020@cadmin1>, relay=#7#@localhost
+- 1135593096 2005.12.26 cadmin1 Dec 26 02:31:36 src@cadmin1 sendmail[7020]: jBQ9VZjI007020: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=1626114, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]

@@ -299,6 +299,41 @@ class HDFSAdapter(AdapterBase):
         lines = tuple(full_log[offset:end])
         return LogSlice(lines=lines, offset=offset, length=actual_size)
 
+    # --- temporal parsing (T2) -------------------------------------------
+
+    _HDFS_EVENT_RE = re.compile(r"^(\d{6})\s+(\d{6})\s+\d+\s+(\w+)\s+(\S+):")
+
+    # Lower precedence number = earlier in causal chain.
+    _COMPONENT_PRECEDENCE: dict[str, int] = {
+        "dfs.NameNode": 0,
+        "dfs.FSNamesystem": 1,
+        "dfs.NameSystem": 1,
+        "dfs.DataNode": 2,
+        "dfs.DataBlockScanner": 3,
+        "dfs.PendingReplicationBlocks": 3,
+    }
+
+    def parse_event(self, line: str) -> dict | None:
+        """Return {timestamp, component, level} for an HDFS log line, or None.
+
+        Timestamp is an int composed from YYMMDD * 1_000_000 + HHMMSS so
+        ordering is monotonic across days.
+        """
+        m = self._HDFS_EVENT_RE.match(line)
+        if not m:
+            return None
+        date_part = int(m.group(1))
+        time_part = int(m.group(2))
+        ts = date_part * 1_000_000 + time_part
+        level = m.group(3)
+        component_raw = m.group(4)
+        # Normalize 'dfs.DataNode$DataXceiver' → 'dfs.DataNode'
+        component = component_raw.split("$", 1)[0]
+        return {"timestamp": ts, "component": component, "level": level}
+
+    def component_precedence(self, component: str) -> int:
+        return self._COMPONENT_PRECEDENCE.get(component, 100)
+
     # --- root-cause classification ----------------------------------------
 
     def classify_root_cause(

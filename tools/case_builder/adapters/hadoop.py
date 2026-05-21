@@ -231,6 +231,54 @@ class HadoopAdapter(AdapterBase):
             if max_cases is not None and yielded >= max_cases:
                 return
 
+    # --- temporal parsing (T2) -------------------------------------------
+
+    _HADOOP_EVENT_RE = re.compile(
+        r"^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2}):(\d{2}),(\d{3})\s+(\w+)\s+\[[^\]]+\]\s+(\S+):"
+    )
+
+    _COMPONENT_PRECEDENCE: dict[str, int] = {
+        "MRAppMaster": 0,
+        "JobImpl": 1,
+        "TaskAttemptImpl": 2,
+        "TaskImpl": 2,
+        "ContainerLauncherImpl": 3,
+        "RMContainerAllocator": 3,
+        "LocalContainerAllocator": 3,
+    }
+
+    def parse_event(self, line: str) -> dict | None:
+        if line.startswith("### "):
+            return None
+        m = self._HADOOP_EVENT_RE.match(line)
+        if not m:
+            return None
+        year, mon, day, hh, mm, ss, ms = (int(m.group(i)) for i in range(1, 8))
+        # Integer timestamp: 14 digits YYYYMMDDhhmmss + 3-digit ms
+        ts = (
+            year * 10**13
+            + mon * 10**11
+            + day * 10**9
+            + hh * 10**7
+            + mm * 10**5
+            + ss * 10**3
+            + ms
+        )
+        level = m.group(8)
+        component_full = m.group(9).rstrip(":")
+        # Pull the last dotted segment, e.g. ".....MRAppMaster" -> "MRAppMaster"
+        component = component_full.split(".")[-1]
+        return {"timestamp": ts, "component": component, "level": level}
+
+    def component_precedence(self, component: str) -> int:
+        if component in self._COMPONENT_PRECEDENCE:
+            return self._COMPONENT_PRECEDENCE[component]
+        if "MRAppMaster" in component:
+            return 0
+        if "yarn" in component.lower():
+            return 5
+        return 100
+
     # --- slice / classification overrides ---------------------------------
 
     def select_slice(self, full_log, anomaly_indices, seed):  # pragma: no cover

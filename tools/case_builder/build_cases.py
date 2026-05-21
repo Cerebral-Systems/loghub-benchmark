@@ -67,6 +67,24 @@ def build(
         case_iter = adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed)
     elif task_type == "fp":
         case_iter = adapter.iter_false_positive_windows(input_path, labels, max_cases=max_cases, seed=seed)
+    elif task_type == "seq":
+        # T2: reuse v1 anomaly cases; the timeline is derived at export time.
+        # We mark the task_type here so the exporter dispatches to the seq path.
+        def _seq_iter():
+            from .adapters.base import CandidateCase
+            for c in adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed):
+                yield CandidateCase(
+                    case_id=c.case_id,
+                    dataset_name=c.dataset_name,
+                    adapter_version=c.adapter_version,
+                    slice=c.slice,
+                    anomaly_line_ids=c.anomaly_line_ids,
+                    root_cause=c.root_cause,
+                    anomaly_keys=c.anomaly_keys,
+                    extra=c.extra,
+                    task_type="seq",
+                )
+        case_iter = _seq_iter()
     else:
         raise SystemExit(f"unknown task_type {task_type!r}")
 
@@ -127,9 +145,11 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument(
         "--task-type",
         default="anomaly",
-        choices=("anomaly", "fp"),
+        choices=("anomaly", "fp", "seq"),
         help="Which adapter generator to invoke. 'anomaly' (v1, default) calls "
-        "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows.",
+        "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows. "
+        "'seq' (v2/T2) reuses v1 anomaly cases and tags them for the temporal "
+        "sequence exporter.",
     )
     args = p.parse_args(argv)
     build(args.adapter, args.input, args.output, args.max_cases, args.seed, task_type=args.task_type)

@@ -210,6 +210,19 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
             assert ind["snippet"] in actual[ind["line"] - 1]
         conf = answer["confidence"]
         assert 0.0 <= conf <= 1.0
+    elif schema.endswith("-v2-seq"):
+        # v2-seq temporal sequence assertions
+        assert answer["is_incident"] is True
+        assert answer["root_cause_type"] == expected["root_cause_type"]
+        timeline = answer.get("timeline", [])
+        assert timeline, "timeline empty"
+        allowed_roles = set(expected["allowed_roles"])
+        triggers = [ev for ev in timeline if ev["role"] == "trigger"]
+        assert len(triggers) == 1, f"expected exactly 1 trigger, got {len(triggers)}"
+        for ev in timeline:
+            assert ev["role"] in allowed_roles
+            actual = (app_dir / ev["file"]).read_text(errors="replace").splitlines()
+            assert ev["snippet"] in actual[ev["line"] - 1]
     else:
         # v1 / v2 anomaly localization assertions
         assert answer["is_incident"] is True

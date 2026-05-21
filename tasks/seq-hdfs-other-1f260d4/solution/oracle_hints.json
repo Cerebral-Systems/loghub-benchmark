@@ -1,0 +1,33 @@
+{
+  "root_cause_type": "other",
+  "timeline": [
+    {
+      "component": "dfs.FSNamesystem",
+      "file": "hdfs-namenode.log",
+      "line": 6536,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-b.log",
+      "line": 4524,
+      "role": "consequence",
+      "sequence": 1
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-b.log",
+      "line": 4531,
+      "role": "consequence",
+      "sequence": 2
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-a.log",
+      "line": 5501,
+      "role": "consequence",
+      "sequence": 3
+    }
+  ]
+}

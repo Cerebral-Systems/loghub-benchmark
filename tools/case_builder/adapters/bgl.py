@@ -372,6 +372,45 @@ class BGLAdapter(AdapterBase):
             offset = max(0, end - size)
         return offset, end - offset
 
+    # --- temporal parsing (T2) -------------------------------------------
+
+    # BGL format: TAG epoch_ts YYYY.MM.DD RACK ...
+    # Component is the alert tag (or "NORMAL" for `-`-tagged lines).
+    # Lower precedence number = earlier in the causal chain. The actual
+    # taxonomy is dataset-specific; we approximate with "kernel-level
+    # events precede app-level events" since kernel events typically
+    # trigger application failures, not the other way around.
+    _COMPONENT_PRECEDENCE_PREFIXES: tuple[tuple[str, int], ...] = (
+        ("KERN", 0),  # kernel-level: storage, term, etc.
+        ("APP", 5),   # app-level: appsev, appres, etc.
+    )
+
+    def parse_event(self, line: str) -> dict | None:
+        """Return {timestamp, component, level} for a BGL/Thunderbird line.
+
+        Token 0 = TAG (or `-`), token 1 = epoch seconds.
+        Component = TAG. Level = always "ALERT" for non-`-` lines.
+        """
+        parts = line.split(None, 3)
+        if len(parts) < 2:
+            return None
+        tag = parts[0]
+        try:
+            ts = int(parts[1])
+        except ValueError:
+            return None
+        component = tag if tag != "-" else "NORMAL"
+        level = "ALERT" if tag != "-" else "INFO"
+        return {"timestamp": ts, "component": component, "level": level}
+
+    def component_precedence(self, component: str) -> int:
+        for prefix, prec in self._COMPONENT_PRECEDENCE_PREFIXES:
+            if component.startswith(prefix):
+                return prec
+        if component == "NORMAL":
+            return 100
+        return 10
+
     # --- root-cause classification ----------------------------------------
 
     def classify_root_cause(

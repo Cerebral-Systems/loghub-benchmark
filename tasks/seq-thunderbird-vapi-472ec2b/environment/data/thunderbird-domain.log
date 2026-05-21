@@ -1,0 +1,500 @@
+- 1145682568 2006.04.21 dn949 Apr 21 22:09:28 dn949/dn949 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1145682569 2006.04.21 dn487 Apr 21 22:09:29 dn487/dn487 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1145682573 2006.04.21 dn292 Apr 21 22:09:33 dn292/dn292 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1145682575 2006.04.21 dn25 Apr 21 22:09:35 dn25/dn25 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1145682579 2006.04.21 dn185 Apr 21 22:09:39 dn185/dn185 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1145682585 2006.04.21 dn172 Apr 21 22:09:45 dn172/dn172 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1145682597 2006.04.21 dn196 Apr 21 22:09:57 dn196/dn196 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1145682598 2006.04.21 dn196 Apr 21 22:09:58 dn196/dn196 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1145682601 2006.04.21 dn816 Apr 21 22:10:01 dn816/dn816 ntpd[2267]: synchronized to 10.100.26.250, stratum 3
+- 1145682604 2006.04.21 dn885 Apr 21 22:10:04 dn885/dn885 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1145682610 2006.04.21 dn801 Apr 21 22:10:10 dn801/dn801 ntpd[2279]: synchronized to 10.100.24.250, stratum 3
+- 1145682618 2006.04.21 dn329 Apr 21 22:10:18 dn329/dn329 ntpd[2296]: synchronized to 10.100.26.250, stratum 3
+- 1145682627 2006.04.21 dn572 Apr 21 22:10:27 dn572/dn572 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145682631 2006.04.21 dn367 Apr 21 22:10:31 dn367/dn367 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1145682633 2006.04.21 dn294 Apr 21 22:10:33 dn294/dn294 ntpd[2263]: synchronized to 10.100.28.250, stratum 3
+- 1145682653 2006.04.21 dn55 Apr 21 22:10:53 dn55/dn55 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145682661 2006.04.21 dn134 Apr 21 22:11:01 dn134/dn134 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145682664 2006.04.21 dn884 Apr 21 22:11:04 dn884/dn884 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145682679 2006.04.21 dn342 Apr 21 22:11:19 dn342/dn342 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+- 1145682681 2006.04.21 dn409 Apr 21 22:11:21 dn409/dn409 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1145682682 2006.04.21 dn68 Apr 21 22:11:22 dn68/dn68 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1145682710 2006.04.21 dn989 Apr 21 22:11:50 dn989/dn989 ntpd[2297]: synchronized to 10.100.28.250, stratum 3
+- 1145682713 2006.04.21 dn120 Apr 21 22:11:53 dn120/dn120 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1145682714 2006.04.21 dn644 Apr 21 22:11:54 dn644/dn644 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1145682741 2006.04.21 dn342 Apr 21 22:12:21 dn342/dn342 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+- 1145682745 2006.04.21 dn361 Apr 21 22:12:25 dn361/dn361 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1145682745 2006.04.21 dn528 Apr 21 22:12:25 dn528/dn528 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1145682755 2006.04.21 dn286 Apr 21 22:12:35 dn286/dn286 ntpd[2255]: synchronized to 10.100.30.250, stratum 3
+- 1145682755 2006.04.21 dn371 Apr 21 22:12:35 dn371/dn371 ntpd[2294]: synchronized to 10.100.24.250, stratum 3
+- 1145682762 2006.04.21 dn300 Apr 21 22:12:42 dn300/dn300 ntpd[12378]: synchronized to 10.100.24.250, stratum 3
+- 1145682800 2006.04.21 dn307 Apr 21 22:13:20 dn307/dn307 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145682809 2006.04.21 dn312 Apr 21 22:13:29 dn312/dn312 ntpd[2269]: synchronized to 10.100.24.250, stratum 3
+- 1145682818 2006.04.21 dn69 Apr 21 22:13:38 dn69/dn69 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1145682821 2006.04.21 dn312 Apr 21 22:13:41 dn312/dn312 ntpd[2269]: synchronized to 10.100.28.250, stratum 3
+- 1145682830 2006.04.21 dn398 Apr 21 22:13:50 dn398/dn398 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1145682844 2006.04.21 dn459 Apr 21 22:14:04 dn459/dn459 ntpd[2270]: synchronized to 10.100.30.250, stratum 3
+- 1145682851 2006.04.21 dn494 Apr 21 22:14:11 dn494/dn494 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1145682857 2006.04.21 dn25 Apr 21 22:14:17 dn25/dn25 ntpd[2285]: synchronized to 10.100.24.250, stratum 3
+- 1145682859 2006.04.21 dn950 Apr 21 22:14:19 dn950/dn950 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1145682894 2006.04.21 dn90 Apr 21 22:14:54 dn90/dn90 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1145682902 2006.04.21 dn81 Apr 21 22:15:02 dn81/dn81 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1145682905 2006.04.21 dn734 Apr 21 22:15:05 dn734/dn734 ntpd[2294]: synchronized to 10.100.26.250, stratum 3
+- 1145682918 2006.04.21 dn329 Apr 21 22:15:18 dn329/dn329 ntpd[2296]: synchronized to 10.100.30.250, stratum 3
+- 1145682924 2006.04.21 dn315 Apr 21 22:15:24 dn315/dn315 ntpd[2294]: synchronized to 10.100.30.250, stratum 3
+- 1145682931 2006.04.21 dn770 Apr 21 22:15:31 dn770/dn770 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1145682951 2006.04.21 dn199 Apr 21 22:15:51 dn199/dn199 ntpd[2294]: synchronized to 10.100.26.250, stratum 3
+- 1145682953 2006.04.21 dn409 Apr 21 22:15:53 dn409/dn409 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1145682957 2006.04.21 dn169 Apr 21 22:15:57 dn169/dn169 ntpd[2268]: synchronized to 10.100.26.250, stratum 3
+- 1145682959 2006.04.21 dn158 Apr 21 22:15:59 dn158/dn158 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1145682966 2006.04.21 dn897 Apr 21 22:16:06 dn897/dn897 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1145682968 2006.04.21 dn399 Apr 21 22:16:08 dn399/dn399 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145682973 2006.04.21 dn30 Apr 21 22:16:13 dn30/dn30 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1145682988 2006.04.21 dn1000 Apr 21 22:16:28 dn1000/dn1000 ntpd[2294]: synchronized to 10.100.26.250, stratum 3
+- 1145682989 2006.04.21 dn897 Apr 21 22:16:29 dn897/dn897 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1145682997 2006.04.21 dn256 Apr 21 22:16:37 dn256/dn256 ntpd[2250]: synchronized to 10.100.28.250, stratum 3
+- 1145683021 2006.04.21 dn550 Apr 21 22:17:01 dn550/dn550 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1145683026 2006.04.21 dn698 Apr 21 22:17:06 dn698/dn698 ntpd[2288]: synchronized to 10.100.24.250, stratum 3
+- 1145683046 2006.04.21 dn438 Apr 21 22:17:26 dn438/dn438 ntpd[2295]: synchronized to 10.100.26.250, stratum 3
+- 1145683047 2006.04.21 dn275 Apr 21 22:17:27 dn275/dn275 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1145683049 2006.04.21 dn38 Apr 21 22:17:29 dn38/dn38 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145683055 2006.04.21 dn462 Apr 21 22:17:35 dn462/dn462 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1145683058 2006.04.21 dn180 Apr 21 22:17:38 dn180/dn180 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1145683058 2006.04.21 dn459 Apr 21 22:17:38 dn459/dn459 ntpd[2270]: synchronized to 10.100.24.250, stratum 3
+- 1145683062 2006.04.21 dn265 Apr 21 22:17:42 dn265/dn265 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1145683106 2006.04.21 dn494 Apr 21 22:18:26 dn494/dn494 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145683110 2006.04.21 dn282 Apr 21 22:18:30 dn282/dn282 ntpd[2252]: synchronized to 10.100.30.250, stratum 3
+- 1145683117 2006.04.21 dn255 Apr 21 22:18:37 dn255/dn255 ntpd[2273]: synchronized to 10.100.24.250, stratum 3
+- 1145683117 2006.04.21 dn82 Apr 21 22:18:37 dn82/dn82 ntpd[2288]: synchronized to 10.100.26.250, stratum 3
+- 1145683123 2006.04.21 dn816 Apr 21 22:18:43 dn816/dn816 ntpd[2267]: synchronized to 10.100.24.250, stratum 3
+- 1145683126 2006.04.21 dn106 Apr 21 22:18:46 dn106/dn106 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1145683134 2006.04.21 dn887 Apr 21 22:18:54 dn887/dn887 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1145683141 2006.04.21 dn209 Apr 21 22:19:01 dn209/dn209 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1145683157 2006.04.21 dn344 Apr 21 22:19:17 dn344/dn344 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145683168 2006.04.21 dn300 Apr 21 22:19:28 dn300/dn300 ntpd[12378]: synchronized to 10.100.26.250, stratum 3
+- 1145683181 2006.04.21 dn525 Apr 21 22:19:41 dn525/dn525 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1145683197 2006.04.21 dn352 Apr 21 22:19:57 dn352/dn352 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1145683207 2006.04.21 dn254 Apr 21 22:20:07 dn254/dn254 ntpd[2294]: synchronized to 10.100.28.250, stratum 3
+- 1145683209 2006.04.21 dn448 Apr 21 22:20:09 dn448/dn448 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1145683226 2006.04.21 dn83 Apr 21 22:20:26 dn83/dn83 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1145683240 2006.04.21 dn778 Apr 21 22:20:40 dn778/dn778 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1145683245 2006.04.21 dn12 Apr 21 22:20:45 dn12/dn12 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1145683255 2006.04.21 dn523 Apr 21 22:20:55 dn523/dn523 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1145683268 2006.04.21 dn300 Apr 21 22:21:08 dn300/dn300 ntpd[12378]: synchronized to 10.100.24.250, stratum 3
+- 1145683274 2006.04.21 dn418 Apr 21 22:21:14 dn418/dn418 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145683275 2006.04.21 dn371 Apr 21 22:21:15 dn371/dn371 ntpd[2294]: synchronized to 10.100.30.250, stratum 3
+- 1145683294 2006.04.21 dn490 Apr 21 22:21:34 dn490/dn490 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145683295 2006.04.21 dn455 Apr 21 22:21:35 dn455/dn455 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1145683296 2006.04.21 dn490 Apr 21 22:21:36 dn490/dn490 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1145683297 2006.04.21 dn198 Apr 21 22:21:37 dn198/dn198 ntpd[2290]: synchronized to 10.100.28.250, stratum 3
+- 1145683301 2006.04.21 dn333 Apr 21 22:21:41 dn333/dn333 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1145683313 2006.04.21 dn152 Apr 21 22:21:53 dn152/dn152 ntpd[2267]: synchronized to 10.100.26.250, stratum 3
+- 1145683343 2006.04.21 dn141 Apr 21 22:22:23 dn141/dn141 ntpd[2262]: synchronized to 10.100.26.250, stratum 3
+- 1145683345 2006.04.21 dn21 Apr 21 22:22:25 dn21/dn21 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1145683354 2006.04.21 dn386 Apr 21 22:22:34 dn386/dn386 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1145683366 2006.04.21 dn405 Apr 21 22:22:46 dn405/dn405 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145683374 2006.04.21 dn601 Apr 21 22:22:54 dn601/dn601 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1145683380 2006.04.21 dn1010 Apr 21 22:23:00 dn1010/dn1010 ntpd[16046]: synchronized to 10.100.26.250, stratum 3
+- 1145683380 2006.04.21 dn41 Apr 21 22:23:00 dn41/dn41 ntpd[2284]: synchronized to 10.100.26.250, stratum 3
+- 1145683381 2006.04.21 dn312 Apr 21 22:23:01 dn312/dn312 ntpd[2269]: synchronized to 10.100.26.250, stratum 3
+- 1145683381 2006.04.21 dn816 Apr 21 22:23:01 dn816/dn816 ntpd[2267]: synchronized to 10.100.30.250, stratum 3
+- 1145683384 2006.04.21 dn994 Apr 21 22:23:04 dn994/dn994 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145683388 2006.04.21 dn399 Apr 21 22:23:08 dn399/dn399 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1145683389 2006.04.21 dn313 Apr 21 22:23:09 dn313/dn313 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145683394 2006.04.21 dn87 Apr 21 22:23:14 dn87/dn87 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145683397 2006.04.21 dn87 Apr 21 22:23:17 dn87/dn87 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145683401 2006.04.21 dn901 Apr 21 22:23:21 dn901/dn901 ntpd[2108]: synchronized to 10.100.30.250, stratum 3
+- 1145683403 2006.04.21 dn164 Apr 21 22:23:23 dn164/dn164 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1145683414 2006.04.21 dn603 Apr 21 22:23:34 dn603/dn603 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145683417 2006.04.21 dn515 Apr 21 22:23:37 dn515/dn515 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1145683429 2006.04.21 dn648 Apr 21 22:23:49 dn648/dn648 ntpd[2287]: synchronized to 10.100.24.250, stratum 3
+- 1145683451 2006.04.21 dn167 Apr 21 22:24:11 dn167/dn167 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1145683451 2006.04.21 dn338 Apr 21 22:24:11 dn338/dn338 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145683452 2006.04.21 dn860 Apr 21 22:24:12 dn860/dn860 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1145683470 2006.04.21 dn885 Apr 21 22:24:30 dn885/dn885 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1145683474 2006.04.21 dn68 Apr 21 22:24:34 dn68/dn68 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1145683491 2006.04.21 dn1011 Apr 21 22:24:51 dn1011/dn1011 ntpd[2256]: synchronized to 10.100.30.250, stratum 3
+- 1145683498 2006.04.21 dn292 Apr 21 22:24:58 dn292/dn292 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1145683501 2006.04.21 dn292 Apr 21 22:25:01 dn292/dn292 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1145683504 2006.04.21 dn447 Apr 21 22:25:04 dn447/dn447 ntpd[2269]: synchronized to 10.100.26.250, stratum 3
+- 1145683506 2006.04.21 dn801 Apr 21 22:25:06 dn801/dn801 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1145683523 2006.04.21 dn264 Apr 21 22:25:23 dn264/dn264 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1145683542 2006.04.21 dn593 Apr 21 22:25:42 dn593/dn593 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1145683545 2006.04.21 dn83 Apr 21 22:25:45 dn83/dn83 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1145683569 2006.04.21 dn969 Apr 21 22:26:09 dn969/dn969 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1145683570 2006.04.21 dn827 Apr 21 22:26:10 dn827/dn827 ntpd[2295]: synchronized to 10.100.24.250, stratum 3
+- 1145683576 2006.04.21 dn490 Apr 21 22:26:16 dn490/dn490 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145683577 2006.04.21 dn737 Apr 21 22:26:17 dn737/dn737 ntpd[2297]: synchronized to 10.100.30.250, stratum 3
+- 1145683621 2006.04.21 dn801 Apr 21 22:27:01 dn801/dn801 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1145683630 2006.04.21 dn885 Apr 21 22:27:10 dn885/dn885 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1145683649 2006.04.21 dn631 Apr 21 22:27:29 dn631/dn631 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1145683654 2006.04.21 dn455 Apr 21 22:27:34 dn455/dn455 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1145683666 2006.04.21 dn1002 Apr 21 22:27:46 dn1002/dn1002 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1145683674 2006.04.21 dn515 Apr 21 22:27:54 dn515/dn515 ntpd[2290]: synchronized to 10.100.28.250, stratum 3
+- 1145683679 2006.04.21 dn112 Apr 21 22:27:59 dn112/dn112 ntpd[2291]: can't open /var/lib/ntp/drift.TEMP: Read-only file system
+- 1145683680 2006.04.21 dn430 Apr 21 22:28:00 dn430/dn430 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1145683683 2006.04.21 dn452 Apr 21 22:28:03 dn452/dn452 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1145683703 2006.04.21 dn467 Apr 21 22:28:23 dn467/dn467 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1145683723 2006.04.21 dn233 Apr 21 22:28:43 dn233/dn233 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1145683730 2006.04.21 dn205 Apr 21 22:28:50 dn205/dn205 ntpd[2294]: synchronized to 10.100.30.250, stratum 3
+- 1145683745 2006.04.21 dn648 Apr 21 22:29:05 dn648/dn648 ntpd[2287]: synchronized to 10.100.26.250, stratum 3
+- 1145683759 2006.04.21 dn439 Apr 21 22:29:19 dn439/dn439 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1145683759 2006.04.21 dn969 Apr 21 22:29:19 dn969/dn969 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1145683760 2006.04.21 dn969 Apr 21 22:29:20 dn969/dn969 ntpd[2284]: synchronized to 10.100.26.250, stratum 3
+- 1145683763 2006.04.21 dn563 Apr 21 22:29:23 dn563/dn563 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+- 1145683766 2006.04.21 dn430 Apr 21 22:29:26 dn430/dn430 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1145683783 2006.04.21 dn752 Apr 21 22:29:43 dn752/dn752 ntpd[10038]: synchronized to 10.100.24.250, stratum 3
+- 1145683795 2006.04.21 dn601 Apr 21 22:29:55 dn601/dn601 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1145683826 2006.04.21 dn571 Apr 21 22:30:26 dn571/dn571 ntpd[2282]: synchronized to 10.100.26.250, stratum 3
+- 1145683844 2006.04.21 dn876 Apr 21 22:30:44 dn876/dn876 ntpd[2267]: synchronized to 10.100.30.250, stratum 3
+- 1145683853 2006.04.21 dn950 Apr 21 22:30:53 dn950/dn950 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+- 1145683876 2006.04.21 dn380 Apr 21 22:31:16 dn380/dn380 ntpd[2251]: synchronized to 10.100.24.250, stratum 3
+- 1145683898 2006.04.21 dn209 Apr 21 22:31:38 dn209/dn209 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1145683900 2006.04.21 dn425 Apr 21 22:31:40 dn425/dn425 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145683918 2006.04.21 dn1002 Apr 21 22:31:58 dn1002/dn1002 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1145683918 2006.04.21 dn515 Apr 21 22:31:58 dn515/dn515 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145683921 2006.04.21 dn940 Apr 21 22:32:01 dn940/dn940 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1145683932 2006.04.21 dn6 Apr 21 22:32:12 dn6/dn6 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1145683934 2006.04.21 dn331 Apr 21 22:32:14 dn331/dn331 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145683943 2006.04.21 dn423 Apr 21 22:32:23 dn423/dn423 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1145683945 2006.04.21 dn423 Apr 21 22:32:25 dn423/dn423 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1145683953 2006.04.21 dn3 Apr 21 22:32:33 dn3/dn3 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1145683954 2006.04.21 dn920 Apr 21 22:32:34 dn920/dn920 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1145683966 2006.04.21 dn961 Apr 21 22:32:46 dn961/dn961 ntpd[2294]: synchronized to 10.100.24.250, stratum 3
+- 1145683977 2006.04.21 dn169 Apr 21 22:32:57 dn169/dn169 ntpd[2268]: synchronized to 10.100.24.250, stratum 3
+- 1145683977 2006.04.21 dn320 Apr 21 22:32:57 dn320/dn320 ntpd[13149]: synchronized to 10.100.28.250, stratum 3
+- 1145683981 2006.04.21 dn236 Apr 21 22:33:01 dn236/dn236 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1145683998 2006.04.21 dn415 Apr 21 22:33:18 dn415/dn415 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684014 2006.04.21 dn698 Apr 21 22:33:34 dn698/dn698 ntpd[2288]: synchronized to 10.100.28.250, stratum 3
+- 1145684023 2006.04.21 dn881 Apr 21 22:33:43 dn881/dn881 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+- 1145684024 2006.04.21 dn30 Apr 21 22:33:44 dn30/dn30 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1145684025 2006.04.21 dn49 Apr 21 22:33:45 dn49/dn49 ntpd[2285]: synchronized to 10.100.24.250, stratum 3
+- 1145684036 2006.04.21 dn201 Apr 21 22:33:56 dn201/dn201 ntpd[2295]: synchronized to 10.100.30.250, stratum 3
+- 1145684051 2006.04.21 dn25 Apr 21 22:34:11 dn25/dn25 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1145684059 2006.04.21 dn89 Apr 21 22:34:19 dn89/dn89 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684064 2006.04.21 dn452 Apr 21 22:34:24 dn452/dn452 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145684074 2006.04.21 dn275 Apr 21 22:34:34 dn275/dn275 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1145684075 2006.04.21 dn150 Apr 21 22:34:35 dn150/dn150 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684081 2006.04.21 dn136 Apr 21 22:34:41 dn136/dn136 smartd[1974]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684088 2006.04.21 dn880 Apr 21 22:34:48 dn880/dn880 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145684094 2006.04.21 dn292 Apr 21 22:34:54 dn292/dn292 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1145684097 2006.04.21 dn313 Apr 21 22:34:57 dn313/dn313 smartd[1992]: Device: /dev/sda, Temperature changed -3 Celsius to 27 Celsius since last report
+- 1145684098 2006.04.21 dn139 Apr 21 22:34:58 dn139/dn139 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1145684103 2006.04.21 dn185 Apr 21 22:35:03 dn185/dn185 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1145684109 2006.04.21 dn476 Apr 21 22:35:09 dn476/dn476 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684122 2006.04.21 dn582 Apr 21 22:35:22 dn582/dn582 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684143 2006.04.21 dn439 Apr 21 22:35:43 dn439/dn439 ntpd[2293]: synchronized to 10.100.28.250, stratum 3
+- 1145684147 2006.04.21 dn7 Apr 21 22:35:47 dn7/dn7 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684148 2006.04.21 dn40 Apr 21 22:35:48 dn40/dn40 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684149 2006.04.21 dn16 Apr 21 22:35:49 dn16/dn16 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684149 2006.04.21 dn25 Apr 21 22:35:49 dn25/dn25 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684149 2006.04.21 dn27 Apr 21 22:35:49 dn27/dn27 smartd[1982]: Device: /dev/sda, Temperature changed -3 Celsius to 23 Celsius since last report
+- 1145684149 2006.04.21 dn8 Apr 21 22:35:49 dn8/dn8 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684150 2006.04.21 dn12 Apr 21 22:35:50 dn12/dn12 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684150 2006.04.21 dn120 Apr 21 22:35:50 dn120/dn120 smartd[1991]: Device: /dev/sda, Temperature changed -3 Celsius to 26 Celsius since last report
+- 1145684150 2006.04.21 dn126 Apr 21 22:35:50 dn126/dn126 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684150 2006.04.21 dn14 Apr 21 22:35:50 dn14/dn14 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684150 2006.04.21 dn2 Apr 21 22:35:50 dn2/dn2 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1145684150 2006.04.21 dn42 Apr 21 22:35:50 dn42/dn42 smartd[1993]: Device: /dev/sda, Temperature changed -3 Celsius to 27 Celsius since last report
+- 1145684150 2006.04.21 dn5 Apr 21 22:35:50 dn5/dn5 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1145684150 2006.04.21 dn67 Apr 21 22:35:50 dn67/dn67 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1145684150 2006.04.21 dn88 Apr 21 22:35:50 dn88/dn88 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684150 2006.04.21 dn93 Apr 21 22:35:50 dn93/dn93 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684151 2006.04.21 dn24 Apr 21 22:35:51 dn24/dn24 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684151 2006.04.21 dn26 Apr 21 22:35:51 dn26/dn26 smartd[1992]: Device: /dev/sda, Temperature changed -3 Celsius to 23 Celsius since last report
+- 1145684151 2006.04.21 dn32 Apr 21 22:35:51 dn32/dn32 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684151 2006.04.21 dn4 Apr 21 22:35:51 dn4/dn4 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1145684152 2006.04.21 dn110 Apr 21 22:35:52 dn110/dn110 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684152 2006.04.21 dn29 Apr 21 22:35:52 dn29/dn29 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684152 2006.04.21 dn80 Apr 21 22:35:52 dn80/dn80 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684152 2006.04.21 dn92 Apr 21 22:35:52 dn92/dn92 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684153 2006.04.21 dn106 Apr 21 22:35:53 dn106/dn106 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684153 2006.04.21 dn109 Apr 21 22:35:53 dn109/dn109 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1145684153 2006.04.21 dn82 Apr 21 22:35:53 dn82/dn82 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 20 Celsius since last report
+- 1145684154 2006.04.21 dn31 Apr 21 22:35:54 dn31/dn31 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 20 Celsius since last report
+- 1145684154 2006.04.21 dn46 Apr 21 22:35:54 dn46/dn46 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684154 2006.04.21 dn837 Apr 21 22:35:54 dn837/dn837 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684155 2006.04.21 dn107 Apr 21 22:35:55 dn107/dn107 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684155 2006.04.21 dn108 Apr 21 22:35:55 dn108/dn108 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684155 2006.04.21 dn119 Apr 21 22:35:55 dn119/dn119 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684155 2006.04.21 dn78 Apr 21 22:35:55 dn78/dn78 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684156 2006.04.21 dn17 Apr 21 22:35:56 dn17/dn17 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684156 2006.04.21 dn631 Apr 21 22:35:56 dn631/dn631 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1145684156 2006.04.21 dn91 Apr 21 22:35:56 dn91/dn91 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1145684157 2006.04.21 dn103 Apr 21 22:35:57 dn103/dn103 smartd[1984]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684158 2006.04.21 dn112 Apr 21 22:35:58 dn112/dn112 smartd[1993]: Device: /dev/sda, No such device or address, open() failed
+- 1145684158 2006.04.21 dn123 Apr 21 22:35:58 dn123/dn123 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684159 2006.04.21 dn41 Apr 21 22:35:59 dn41/dn41 smartd[1986]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684159 2006.04.21 dn63 Apr 21 22:35:59 dn63/dn63 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684160 2006.04.21 dn121 Apr 21 22:36:00 dn121/dn121 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684160 2006.04.21 dn85 Apr 21 22:36:00 dn85/dn85 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 21 Celsius since last report
+- 1145684161 2006.04.21 dn61 Apr 21 22:36:01 dn61/dn61 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1145684161 2006.04.21 dn75 Apr 21 22:36:01 dn75/dn75 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684161 2006.04.21 dn87 Apr 21 22:36:01 dn87/dn87 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 21 Celsius since last report
+- 1145684162 2006.04.21 dn41 Apr 21 22:36:02 dn41/dn41 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1145684162 2006.04.21 dn84 Apr 21 22:36:02 dn84/dn84 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 21 Celsius since last report
+- 1145684162 2006.04.21 dn91 Apr 21 22:36:02 dn91/dn91 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684168 2006.04.21 dn167 Apr 21 22:36:08 dn167/dn167 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684173 2006.04.21 dn823 Apr 21 22:36:13 dn823/dn823 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684174 2006.04.21 dn190 Apr 21 22:36:14 dn190/dn190 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684176 2006.04.21 dn183 Apr 21 22:36:16 dn183/dn183 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684176 2006.04.21 dn205 Apr 21 22:36:16 dn205/dn205 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684176 2006.04.21 dn235 Apr 21 22:36:16 dn235/dn235 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684176 2006.04.21 dn251 Apr 21 22:36:16 dn251/dn251 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684176 2006.04.21 dn309 Apr 21 22:36:16 dn309/dn309 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684177 2006.04.21 dn201 Apr 21 22:36:17 dn201/dn201 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684177 2006.04.21 dn224 Apr 21 22:36:17 dn224/dn224 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684177 2006.04.21 dn236 Apr 21 22:36:17 dn236/dn236 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684177 2006.04.21 dn237 Apr 21 22:36:17 dn237/dn237 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684178 2006.04.21 dn299 Apr 21 22:36:18 dn299/dn299 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684179 2006.04.21 dn129 Apr 21 22:36:19 dn129/dn129 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1145684179 2006.04.21 dn157 Apr 21 22:36:19 dn157/dn157 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684179 2006.04.21 dn181 Apr 21 22:36:19 dn181/dn181 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684179 2006.04.21 dn202 Apr 21 22:36:19 dn202/dn202 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684179 2006.04.21 dn230 Apr 21 22:36:19 dn230/dn230 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684180 2006.04.21 dn153 Apr 21 22:36:20 dn153/dn153 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684180 2006.04.21 dn156 Apr 21 22:36:20 dn156/dn156 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684180 2006.04.21 dn187 Apr 21 22:36:20 dn187/dn187 smartd[1992]: Device: /dev/sda, Temperature changed -3 Celsius to 27 Celsius since last report
+- 1145684180 2006.04.21 dn196 Apr 21 22:36:20 dn196/dn196 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684180 2006.04.21 dn241 Apr 21 22:36:20 dn241/dn241 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684180 2006.04.21 dn246 Apr 21 22:36:20 dn246/dn246 smartd[1978]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684181 2006.04.21 dn131 Apr 21 22:36:21 dn131/dn131 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 38 Celsius since last report
+- 1145684181 2006.04.21 dn185 Apr 21 22:36:21 dn185/dn185 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684181 2006.04.21 dn234 Apr 21 22:36:21 dn234/dn234 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684182 2006.04.21 dn154 Apr 21 22:36:22 dn154/dn154 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684182 2006.04.21 dn155 Apr 21 22:36:22 dn155/dn155 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684182 2006.04.21 dn215 Apr 21 22:36:22 dn215/dn215 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684182 2006.04.21 dn247 Apr 21 22:36:22 dn247/dn247 smartd[1976]: Device: /dev/sda, Temperature changed -3 Celsius to 29 Celsius since last report
+- 1145684183 2006.04.21 dn219 Apr 21 22:36:23 dn219/dn219 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684183 2006.04.21 dn583 Apr 21 22:36:23 dn583/dn583 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145684184 2006.04.21 dn230 Apr 21 22:36:24 dn230/dn230 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1145684184 2006.04.21 dn306 Apr 21 22:36:24 dn306/dn306 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684184 2006.04.21 dn389 Apr 21 22:36:24 dn389/dn389 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684184 2006.04.21 dn392 Apr 21 22:36:24 dn392/dn392 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684184 2006.04.21 dn395 Apr 21 22:36:24 dn395/dn395 smartd[1976]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684185 2006.04.21 dn263 Apr 21 22:36:25 dn263/dn263 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684185 2006.04.21 dn393 Apr 21 22:36:25 dn393/dn393 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684186 2006.04.21 dn259 Apr 21 22:36:26 dn259/dn259 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684186 2006.04.21 dn91 Apr 21 22:36:26 dn91/dn91 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145684187 2006.04.21 dn359 Apr 21 22:36:27 dn359/dn359 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684188 2006.04.21 dn268 Apr 21 22:36:28 dn268/dn268 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684189 2006.04.21 dn367 Apr 21 22:36:29 dn367/dn367 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684191 2006.04.21 dn307 Apr 21 22:36:31 dn307/dn307 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684191 2006.04.21 dn333 Apr 21 22:36:31 dn333/dn333 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684192 2006.04.21 dn206 Apr 21 22:36:32 dn206/dn206 smartd[1947]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684192 2006.04.21 dn245 Apr 21 22:36:32 dn245/dn245 smartd[1957]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684193 2006.04.21 dn1011 Apr 21 22:36:33 dn1011/dn1011 smartd[1958]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684193 2006.04.21 dn293 Apr 21 22:36:33 dn293/dn293 smartd[1957]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1145684193 2006.04.21 dn373 Apr 21 22:36:33 dn373/dn373 smartd[1946]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684193 2006.04.21 dn379 Apr 21 22:36:33 dn379/dn379 smartd[1943]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684194 2006.04.21 dn1014 Apr 21 22:36:34 dn1014/dn1014 smartd[1950]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684194 2006.04.21 dn300 Apr 21 22:36:34 dn300/dn300 ntpd[12378]: synchronized to 10.100.26.250, stratum 3
+- 1145684195 2006.04.21 dn349 Apr 21 22:36:35 dn349/dn349 smartd[1969]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684196 2006.04.21 dn182 Apr 21 22:36:36 dn182/dn182 smartd[1958]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684196 2006.04.21 dn216 Apr 21 22:36:36 dn216/dn216 smartd[1963]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684196 2006.04.21 dn281 Apr 21 22:36:36 dn281/dn281 smartd[1954]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684196 2006.04.21 dn286 Apr 21 22:36:36 dn286/dn286 smartd[1957]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684196 2006.04.21 dn312 Apr 21 22:36:36 dn312/dn312 smartd[1971]: Device: /dev/sda, Temperature changed -3 Celsius to 28 Celsius since last report
+- 1145684196 2006.04.21 dn328 Apr 21 22:36:36 dn328/dn328 smartd[1967]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684196 2006.04.21 dn377 Apr 21 22:36:36 dn377/dn377 smartd[1969]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684197 2006.04.21 dn160 Apr 21 22:36:37 dn160/dn160 smartd[1967]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684197 2006.04.21 dn317 Apr 21 22:36:37 dn317/dn317 smartd[1964]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684197 2006.04.21 dn358 Apr 21 22:36:37 dn358/dn358 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684198 2006.04.21 dn337 Apr 21 22:36:38 dn337/dn337 smartd[1968]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684201 2006.04.21 dn294 Apr 21 22:36:41 dn294/dn294 smartd[1965]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684203 2006.04.21 dn264 Apr 21 22:36:43 dn264/dn264 ntpd[2292]: synchronized to 10.100.28.250, stratum 3
+- 1145684203 2006.04.21 dn490 Apr 21 22:36:43 dn490/dn490 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684204 2006.04.21 dn264 Apr 21 22:36:44 dn264/dn264 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1145684209 2006.04.21 dn409 Apr 21 22:36:49 dn409/dn409 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684209 2006.04.21 dn593 Apr 21 22:36:49 dn593/dn593 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1145684210 2006.04.21 dn397 Apr 21 22:36:50 dn397/dn397 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684212 2006.04.21 dn564 Apr 21 22:36:52 dn564/dn564 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684212 2006.04.21 dn578 Apr 21 22:36:52 dn578/dn578 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684213 2006.04.21 dn524 Apr 21 22:36:53 dn524/dn524 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684213 2006.04.21 dn530 Apr 21 22:36:53 dn530/dn530 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684213 2006.04.21 dn537 Apr 21 22:36:53 dn537/dn537 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684213 2006.04.21 dn552 Apr 21 22:36:53 dn552/dn552 smartd[1991]: Device: /dev/sda, Temperature changed -3 Celsius to 31 Celsius since last report
+- 1145684213 2006.04.21 dn604 Apr 21 22:36:53 dn604/dn604 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684214 2006.04.21 dn274 Apr 21 22:36:54 dn274/dn274 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684214 2006.04.21 dn500 Apr 21 22:36:54 dn500/dn500 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684214 2006.04.21 dn507 Apr 21 22:36:54 dn507/dn507 smartd[1977]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684214 2006.04.21 dn526 Apr 21 22:36:54 dn526/dn526 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684214 2006.04.21 dn551 Apr 21 22:36:54 dn551/dn551 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684214 2006.04.21 dn581 Apr 21 22:36:54 dn581/dn581 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 38 Celsius since last report
+- 1145684214 2006.04.21 dn592 Apr 21 22:36:54 dn592/dn592 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684214 2006.04.21 dn596 Apr 21 22:36:54 dn596/dn596 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684214 2006.04.21 dn615 Apr 21 22:36:54 dn615/dn615 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684214 2006.04.21 dn628 Apr 21 22:36:54 dn628/dn628 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684214 2006.04.21 dn630 Apr 21 22:36:54 dn630/dn630 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684215 2006.04.21 dn283 Apr 21 22:36:55 dn283/dn283 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684215 2006.04.21 dn326 Apr 21 22:36:55 dn326/dn326 smartd[1995]: Device: /dev/sda, Temperature changed -3 Celsius to 26 Celsius since last report
+- 1145684215 2006.04.21 dn360 Apr 21 22:36:55 dn360/dn360 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684215 2006.04.21 dn447 Apr 21 22:36:55 dn447/dn447 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684215 2006.04.21 dn504 Apr 21 22:36:55 dn504/dn504 smartd[1979]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684215 2006.04.21 dn520 Apr 21 22:36:55 dn520/dn520 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1145684215 2006.04.21 dn528 Apr 21 22:36:55 dn528/dn528 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684215 2006.04.21 dn545 Apr 21 22:36:55 dn545/dn545 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 39 Celsius since last report
+- 1145684215 2006.04.21 dn555 Apr 21 22:36:55 dn555/dn555 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684215 2006.04.21 dn585 Apr 21 22:36:55 dn585/dn585 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684215 2006.04.21 dn601 Apr 21 22:36:55 dn601/dn601 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684215 2006.04.21 dn614 Apr 21 22:36:55 dn614/dn614 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684215 2006.04.21 dn616 Apr 21 22:36:55 dn616/dn616 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684215 2006.04.21 dn622 Apr 21 22:36:55 dn622/dn622 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684215 2006.04.21 dn638 Apr 21 22:36:55 dn638/dn638 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684216 2006.04.21 dn331 Apr 21 22:36:56 dn331/dn331 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684216 2006.04.21 dn342 Apr 21 22:36:56 dn342/dn342 smartd[1988]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684216 2006.04.21 dn475 Apr 21 22:36:56 dn475/dn475 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684216 2006.04.21 dn557 Apr 21 22:36:56 dn557/dn557 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684216 2006.04.21 dn567 Apr 21 22:36:56 dn567/dn567 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684216 2006.04.21 dn573 Apr 21 22:36:56 dn573/dn573 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684217 2006.04.21 dn308 Apr 21 22:36:57 dn308/dn308 smartd[1992]: Device: /dev/sda, Temperature changed -3 Celsius to 29 Celsius since last report
+- 1145684217 2006.04.21 dn338 Apr 21 22:36:57 dn338/dn338 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684217 2006.04.21 dn414 Apr 21 22:36:57 dn414/dn414 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684217 2006.04.21 dn446 Apr 21 22:36:57 dn446/dn446 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684217 2006.04.21 dn509 Apr 21 22:36:57 dn509/dn509 smartd[2000]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684217 2006.04.21 dn534 Apr 21 22:36:57 dn534/dn534 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684217 2006.04.21 dn538 Apr 21 22:36:57 dn538/dn538 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684217 2006.04.21 dn583 Apr 21 22:36:57 dn583/dn583 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 38 Celsius since last report
+- 1145684217 2006.04.21 dn594 Apr 21 22:36:57 dn594/dn594 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684218 2006.04.21 dn289 Apr 21 22:36:58 dn289/dn289 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684218 2006.04.21 dn445 Apr 21 22:36:58 dn445/dn445 smartd[1988]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684218 2006.04.21 dn491 Apr 21 22:36:58 dn491/dn491 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684218 2006.04.21 dn496 Apr 21 22:36:58 dn496/dn496 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684218 2006.04.21 dn502 Apr 21 22:36:58 dn502/dn502 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684218 2006.04.21 dn562 Apr 21 22:36:58 dn562/dn562 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684218 2006.04.21 dn608 Apr 21 22:36:58 dn608/dn608 smartd[1993]: Device: /dev/sda, Temperature changed -3 Celsius to 28 Celsius since last report
+- 1145684219 2006.04.21 dn406 Apr 21 22:36:59 dn406/dn406 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684219 2006.04.21 dn543 Apr 21 22:36:59 dn543/dn543 smartd[1999]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684220 2006.04.21 dn437 Apr 21 22:37:00 dn437/dn437 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684220 2006.04.21 dn466 Apr 21 22:37:00 dn466/dn466 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684220 2006.04.21 dn474 Apr 21 22:37:00 dn474/dn474 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684220 2006.04.21 dn497 Apr 21 22:37:00 dn497/dn497 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684220 2006.04.21 dn511 Apr 21 22:37:00 dn511/dn511 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684221 2006.04.21 dn401 Apr 21 22:37:01 dn401/dn401 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684221 2006.04.21 dn433 Apr 21 22:37:01 dn433/dn433 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684221 2006.04.21 dn444 Apr 21 22:37:01 dn444/dn444 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684221 2006.04.21 dn508 Apr 21 22:37:01 dn508/dn508 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684222 2006.04.21 dn519 Apr 21 22:37:02 dn519/dn519 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684223 2006.04.21 dn416 Apr 21 22:37:03 dn416/dn416 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684223 2006.04.21 dn554 Apr 21 22:37:03 dn554/dn554 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684226 2006.04.21 dn717 Apr 21 22:37:06 dn717/dn717 smartd[1984]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684227 2006.04.21 dn696 Apr 21 22:37:07 dn696/dn696 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684227 2006.04.21 dn752 Apr 21 22:37:07 dn752/dn752 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684228 2006.04.21 dn296 Apr 21 22:37:08 dn296/dn296 smartd[1995]: Device: /dev/sda, Temperature changed -3 Celsius to 29 Celsius since last report
+- 1145684228 2006.04.21 dn574 Apr 21 22:37:08 dn574/dn574 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684228 2006.04.21 dn656 Apr 21 22:37:08 dn656/dn656 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684228 2006.04.21 dn657 Apr 21 22:37:08 dn657/dn657 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684228 2006.04.21 dn662 Apr 21 22:37:08 dn662/dn662 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684228 2006.04.21 dn673 Apr 21 22:37:08 dn673/dn673 smartd[1986]: Device: /dev/sda, Temperature changed -2 Celsius to 38 Celsius since last report
+- 1145684228 2006.04.21 dn735 Apr 21 22:37:08 dn735/dn735 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684229 2006.04.21 dn305 Apr 21 22:37:09 dn305/dn305 smartd[1996]: Device: /dev/sda, Temperature changed -3 Celsius to 27 Celsius since last report
+- 1145684229 2006.04.21 dn316 Apr 21 22:37:09 dn316/dn316 smartd[1997]: Device: /dev/sda, Temperature changed -3 Celsius to 26 Celsius since last report
+- 1145684229 2006.04.21 dn319 Apr 21 22:37:09 dn319/dn319 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684229 2006.04.21 dn325 Apr 21 22:37:09 dn325/dn325 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684229 2006.04.21 dn365 Apr 21 22:37:09 dn365/dn365 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684229 2006.04.21 dn369 Apr 21 22:37:09 dn369/dn369 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684229 2006.04.21 dn382 Apr 21 22:37:09 dn382/dn382 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684229 2006.04.21 dn678 Apr 21 22:37:09 dn678/dn678 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684229 2006.04.21 dn728 Apr 21 22:37:09 dn728/dn728 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684230 2006.04.21 dn290 Apr 21 22:37:10 dn290/dn290 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684230 2006.04.21 dn295 Apr 21 22:37:10 dn295/dn295 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684230 2006.04.21 dn304 Apr 21 22:37:10 dn304/dn304 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684230 2006.04.21 dn315 Apr 21 22:37:10 dn315/dn315 smartd[1996]: Device: /dev/sda, Temperature changed -3 Celsius to 28 Celsius since last report
+- 1145684230 2006.04.21 dn318 Apr 21 22:37:10 dn318/dn318 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684230 2006.04.21 dn692 Apr 21 22:37:10 dn692/dn692 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684231 2006.04.21 dn266 Apr 21 22:37:11 dn266/dn266 smartd[1994]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684231 2006.04.21 dn327 Apr 21 22:37:11 dn327/dn327 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684231 2006.04.21 dn364 Apr 21 22:37:11 dn364/dn364 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684231 2006.04.21 dn659 Apr 21 22:37:11 dn659/dn659 smartd[1989]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684232 2006.04.21 dn713 Apr 21 22:37:12 dn713/dn713 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1145684233 2006.04.21 dn652 Apr 21 22:37:13 dn652/dn652 smartd[1979]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684233 2006.04.21 dn665 Apr 21 22:37:13 dn665/dn665 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684233 2006.04.21 dn77 Apr 21 22:37:13 dn77/dn77 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1145684236 2006.04.21 dn458 Apr 21 22:37:16 dn458/dn458 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684238 2006.04.21 dn647 Apr 21 22:37:18 dn647/dn647 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684238 2006.04.21 dn710 Apr 21 22:37:18 dn710/dn710 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684241 2006.04.21 dn158 Apr 21 22:37:21 dn158/dn158 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1145684245 2006.04.21 dn901 Apr 21 22:37:25 dn901/dn901 smartd[1811]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684246 2006.04.21 dn778 Apr 21 22:37:26 dn778/dn778 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684246 2006.04.21 dn845 Apr 21 22:37:26 dn845/dn845 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684246 2006.04.21 dn887 Apr 21 22:37:26 dn887/dn887 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684246 2006.04.21 dn897 Apr 21 22:37:26 dn897/dn897 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684247 2006.04.21 dn784 Apr 21 22:37:27 dn784/dn784 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684247 2006.04.21 dn838 Apr 21 22:37:27 dn838/dn838 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684247 2006.04.21 dn854 Apr 21 22:37:27 dn854/dn854 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684247 2006.04.21 dn890 Apr 21 22:37:27 dn890/dn890 smartd[1986]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684247 2006.04.21 dn902 Apr 21 22:37:27 dn902/dn902 smartd[1979]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684247 2006.04.21 dn906 Apr 21 22:37:27 dn906/dn906 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684247 2006.04.21 dn915 Apr 21 22:37:27 dn915/dn915 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684247 2006.04.21 dn927 Apr 21 22:37:27 dn927/dn927 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684248 2006.04.21 dn776 Apr 21 22:37:28 dn776/dn776 smartd[1977]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1145684248 2006.04.21 dn841 Apr 21 22:37:28 dn841/dn841 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684248 2006.04.21 dn850 Apr 21 22:37:28 dn850/dn850 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684248 2006.04.21 dn851 Apr 21 22:37:28 dn851/dn851 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684248 2006.04.21 dn898 Apr 21 22:37:28 dn898/dn898 smartd[1980]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684248 2006.04.21 dn908 Apr 21 22:37:28 dn908/dn908 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684248 2006.04.21 dn910 Apr 21 22:37:28 dn910/dn910 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684248 2006.04.21 dn925 Apr 21 22:37:28 dn925/dn925 smartd[1999]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684249 2006.04.21 dn41 Apr 21 22:37:29 dn41/dn41 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1145684249 2006.04.21 dn827 Apr 21 22:37:29 dn827/dn827 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684249 2006.04.21 dn829 Apr 21 22:37:29 dn829/dn829 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684249 2006.04.21 dn832 Apr 21 22:37:29 dn832/dn832 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684249 2006.04.21 dn849 Apr 21 22:37:29 dn849/dn849 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684249 2006.04.21 dn959 Apr 21 22:37:29 dn959/dn959 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1145684249 2006.04.21 dn960 Apr 21 22:37:29 dn960/dn960 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684250 2006.04.21 dn774 Apr 21 22:37:30 dn774/dn774 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 42 Celsius since last report
+- 1145684251 2006.04.21 dn819 Apr 21 22:37:31 dn819/dn819 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1145684251 2006.04.21 dn888 Apr 21 22:37:31 dn888/dn888 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684251 2006.04.21 dn940 Apr 21 22:37:31 dn940/dn940 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684252 2006.04.21 dn3 Apr 21 22:37:32 dn3/dn3 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1145684252 2006.04.21 dn872 Apr 21 22:37:32 dn872/dn872 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684252 2006.04.21 dn909 Apr 21 22:37:32 dn909/dn909 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684253 2006.04.21 dn913 Apr 21 22:37:33 dn913/dn913 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684256 2006.04.21 dn366 Apr 21 22:37:36 dn366/dn366 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684256 2006.04.21 dn886 Apr 21 22:37:36 dn886/dn886 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684257 2006.04.21 dn285 Apr 21 22:37:37 dn285/dn285 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684258 2006.04.21 dn175 Apr 21 22:37:38 dn175/dn175 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684258 2006.04.21 dn818 Apr 21 22:37:38 dn818/dn818 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 23 Celsius since last report
+- 1145684259 2006.04.21 dn685 Apr 21 22:37:39 dn685/dn685 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684259 2006.04.21 dn808 Apr 21 22:37:39 dn808/dn808 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684260 2006.04.21 dn666 Apr 21 22:37:40 dn666/dn666 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684260 2006.04.21 dn676 Apr 21 22:37:40 dn676/dn676 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1145684261 2006.04.21 dn651 Apr 21 22:37:41 dn651/dn651 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684261 2006.04.21 dn761 Apr 21 22:37:41 dn761/dn761 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684262 2006.04.21 dn672 Apr 21 22:37:42 dn672/dn672 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684263 2006.04.21 dn714 Apr 21 22:37:43 dn714/dn714 smartd[1986]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1145684263 2006.04.21 dn716 Apr 21 22:37:43 dn716/dn716 smartd[1998]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684266 2006.04.21 dn844 Apr 21 22:37:46 dn844/dn844 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684267 2006.04.21 dn870 Apr 21 22:37:47 dn870/dn870 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1145684271 2006.04.21 dn969 Apr 21 22:37:51 dn969/dn969 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1145684274 2006.04.21 dn1008 Apr 21 22:37:54 dn1008/dn1008 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1145684274 2006.04.21 dn974 Apr 21 22:37:54 dn974/dn974 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report
+- 1145684274 2006.04.21 dn995 Apr 21 22:37:54 dn995/dn995 smartd[1997]: Device: /dev/sda, Temperature changed -2 Celsius to 39 Celsius since last report
+- 1145684275 2006.04.21 dn1012 Apr 21 22:37:55 dn1012/dn1012 smartd[1985]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1145684275 2006.04.21 dn963 Apr 21 22:37:55 dn963/dn963 smartd[1975]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684275 2006.04.21 dn973 Apr 21 22:37:55 dn973/dn973 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684275 2006.04.21 dn986 Apr 21 22:37:55 dn986/dn986 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684275 2006.04.21 dn989 Apr 21 22:37:55 dn989/dn989 smartd[1999]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684275 2006.04.21 dn999 Apr 21 22:37:55 dn999/dn999 smartd[1986]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1145684276 2006.04.21 dn980 Apr 21 22:37:56 dn980/dn980 smartd[1984]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1145684276 2006.04.21 dn990 Apr 21 22:37:56 dn990/dn990 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684276 2006.04.21 dn996 Apr 21 22:37:56 dn996/dn996 smartd[1995]: Device: /dev/sda, Temperature changed -2 Celsius to 37 Celsius since last report
+- 1145684277 2006.04.21 dn1010 Apr 21 22:37:57 dn1010/dn1010 smartd[1992]: Device: /dev/sda, Temperature changed -3 Celsius to 30 Celsius since last report
+- 1145684277 2006.04.21 dn964 Apr 21 22:37:57 dn964/dn964 smartd[1981]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1145684277 2006.04.21 dn968 Apr 21 22:37:57 dn968/dn968 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 29 Celsius since last report
+- 1145684277 2006.04.21 dn971 Apr 21 22:37:57 dn971/dn971 smartd[1999]: Device: /dev/sda, Temperature changed -2 Celsius to 22 Celsius since last report
+- 1145684277 2006.04.21 dn991 Apr 21 22:37:57 dn991/dn991 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1145684277 2006.04.21 dn993 Apr 21 22:37:57 dn993/dn993 smartd[1993]: Device: /dev/sda, Temperature changed -3 Celsius to 36 Celsius since last report
+- 1145684279 2006.04.21 dn247 Apr 21 22:37:59 dn247/dn247 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1145684279 2006.04.21 dn976 Apr 21 22:37:59 dn976/dn976 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 27 Celsius since last report
+- 1145684284 2006.04.21 dn994 Apr 21 22:38:04 dn994/dn994 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 35 Celsius since last report
+- 1145684286 2006.04.21 dn992 Apr 21 22:38:06 dn992/dn992 smartd[1984]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1145684292 2006.04.21 dn300 Apr 21 22:38:12 dn300/dn300 ntpd[12378]: synchronized to 10.100.28.250, stratum 3
+- 1145684297 2006.04.21 dn821 Apr 21 22:38:17 dn821/dn821 ntpd[2293]: synchronized to 10.100.26.250, stratum 3
+- 1145684298 2006.04.21 dn490 Apr 21 22:38:18 dn490/dn490 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1145684306 2006.04.21 dn1012 Apr 21 22:38:26 dn1012/dn1012 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+- 1145684310 2006.04.21 dn1012 Apr 21 22:38:30 dn1012/dn1012 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+- 1145684322 2006.04.21 dn77 Apr 21 22:38:42 dn77/dn77 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1145684336 2006.04.21 dn770 Apr 21 22:38:56 dn770/dn770 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1145684354 2006.04.21 dn483 Apr 21 22:39:14 dn483/dn483 ntpd[2287]: synchronized to 10.100.28.250, stratum 3
+- 1145684386 2006.04.21 dn459 Apr 21 22:39:46 dn459/dn459 ntpd[2270]: synchronized to 10.100.30.250, stratum 3
