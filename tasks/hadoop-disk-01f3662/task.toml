@@ -11,12 +11,12 @@ name = "loghub-sre/hadoop-disk-01f3662"
 description = "Loghub SRE investigation: locate disk_full incident across partitioned Hadoop logs."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "easy"
 category = "sre-log-investigation"
 tags = ["hadoop", "anomaly-detection", "log-analysis", "disk", "multi-file"]

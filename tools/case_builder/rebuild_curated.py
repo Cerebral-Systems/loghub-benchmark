@@ -309,8 +309,8 @@ def main(argv: list[str] | None = None) -> None:
     r.add_argument("--corpus-root", type=Path, default=DEFAULT_CORPUS_ROOT)
     r.add_argument("--output-dir", type=Path, default=Path("tasks"))
     r.add_argument("--clear-output", action="store_true")
-    r.add_argument("--author-name", default="Madhav Goyal")
-    r.add_argument("--author-email", default="madhav@campnetwork.xyz")
+    r.add_argument("--author-name", default="madhav")
+    r.add_argument("--author-email", default="madhavgoyal007@pm.me")
 
     f = sub.add_parser("refresh-from-existing", help="refresh current curation from case-builder outputs")
     f.add_argument("--tasks-dir", type=Path, default=Path("tasks"))
@@ -319,8 +319,8 @@ def main(argv: list[str] | None = None) -> None:
     f.add_argument("--manifest-output", type=Path, default=DEFAULT_MANIFEST)
     f.add_argument("--seed", type=int, default=0)
     f.add_argument("--clear-output", action="store_true")
-    f.add_argument("--author-name", default="Madhav Goyal")
-    f.add_argument("--author-email", default="madhav@campnetwork.xyz")
+    f.add_argument("--author-name", default="madhav")
+    f.add_argument("--author-email", default="madhavgoyal007@pm.me")
 
     args = parser.parse_args(argv)
     if args.command == "write-manifest":

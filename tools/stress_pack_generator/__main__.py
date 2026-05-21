@@ -99,8 +99,8 @@ def _export_cases(cases_dir: Path, output_dir: Path) -> int:
         export_to_harbor.export_case(
             case,
             output_dir,
-            author_name="Madhav Goyal",
-            author_email="madhav@campnetwork.xyz",
+            author_name="madhav",
+            author_email="madhavgoyal007@pm.me",
         )
         written += 1
     return written

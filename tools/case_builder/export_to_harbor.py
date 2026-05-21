@@ -951,8 +951,8 @@ def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--cases-dir", required=True, type=Path, help="dir written by build_cases.py")
     p.add_argument("--output-dir", required=True, type=Path, help="dir that will hold tasks/<slug>/")
-    p.add_argument("--author-name", default="Madhav Goyal")
-    p.add_argument("--author-email", default="madhav@campnetwork.xyz")
+    p.add_argument("--author-name", default="madhav")
+    p.add_argument("--author-email", default="madhavgoyal007@pm.me")
     p.add_argument("--max-tasks", type=int, default=None)
     p.add_argument(
         "--single-file",

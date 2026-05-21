@@ -11,12 +11,12 @@ name = "loghub-sre/hdfs-datanode-1b44f6f"
 description = "Loghub SRE investigation: locate datanode_unreachable incident across partitioned HDFS_v1 logs."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "medium"
 category = "sre-log-investigation"
 tags = ["hdfs", "anomaly-detection", "log-analysis", "datanode", "multi-file"]

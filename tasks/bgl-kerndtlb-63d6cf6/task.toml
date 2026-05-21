@@ -11,12 +11,12 @@ name = "loghub-sre/bgl-kerndtlb-63d6cf6"
 description = "Loghub SRE investigation: locate kerndtlb incident across partitioned BGL logs."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "medium"
 category = "sre-log-investigation"
 tags = ["bgl", "anomaly-detection", "log-analysis", "kerndtlb", "multi-file"]

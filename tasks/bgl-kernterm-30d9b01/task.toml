@@ -11,12 +11,12 @@ name = "loghub-sre/bgl-kernterm-30d9b01"
 description = "Loghub SRE investigation: locate kernterm incident across partitioned BGL logs."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "medium"
 category = "sre-log-investigation"
 tags = ["bgl", "anomaly-detection", "log-analysis", "kernterm", "multi-file"]
