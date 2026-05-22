@@ -32,7 +32,7 @@ for the full DeepSeek run report (per-dataset, per-skill, identified gaps).
 
 | Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Mean latency/task | Runtime | Cost | Date |
 |---|---|---|---|---|---|---|---|---|---|
-| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.859** | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.850** | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
 
 Per-dataset (DeepSeek V4-flash):
 
@@ -53,7 +53,7 @@ Per-skill-type (DeepSeek V4-flash):
 | `seq` temporal sequence | 20 | 0.877 | 4.4 min | Trigger ID + ordering (slowest) |
 | `fp` false-positive triage | 25 | 0.865 | 1.8 min | After Gap 1 verifier fix (was 1.000 before tightening) |
 | `v1` anomaly localization | 60 | 0.823 | 2.1 min | Original 60-task suite |
-| `corr` cross-component | 20 | 0.815 | 3.2 min | Hardest skill — causal chain |
+| `corr` cross-component | 20 | 0.745 | 3.2 min | Hardest skill — causal chain. After Gap 6 verifier fix (was 0.815 before; new `test_caused_by_links_match_ground_truth` caught wrong causal topology) |
 
 **Latency correlation:** Pearson r(latency, reward) = **−0.237** — slow tasks score slightly worse on average, but the relationship is weak. Some hard tasks are slow AND correct (e.g., `seq-thunderbird-vapi-60ea24c` at 5.7 min, reward 1.0).
 
@@ -69,11 +69,11 @@ Per-skill-type (DeepSeek V4-flash):
 
 Actionable: DeepSeek finds anomaly *locations* well but mis-classifies *root causes* most often. The biggest skill gap is taxonomy mapping, not retrieval.
 
-> The `fp` row was previously 1.000 across all 25 tasks because the verifier only
-> checked enum membership. Gap 1 fix landed (2 new tests: indicators must overlap
-> ground truth ≥ 50%, classifications must match where indicators overlap). Re-run
-> dropped fp mean from 1.000 → 0.865 and overall mean from 0.880 → 0.859. The
-> 0.865 fp number is now a real classification-skill measurement, not format-compliance.
+> Verifier rigor history:
+> - **Original** (no fixes): overall mean 0.880, `fp` mean 1.000, `corr` mean 0.815
+> - **After Gap 1** (fp verifier — ground-truth set + classification match): overall 0.859, fp 0.865
+> - **After Gap 6** (corr verifier — `caused_by_step` topology match): overall **0.850**, corr 0.745
+> Both fixes tightened the verifier without breaking oracle (still passes 11/11 on fp tasks). The 0.850 is the citable headline.
 
 Reproducing this run:
 
