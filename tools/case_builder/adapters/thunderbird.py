@@ -42,3 +42,24 @@ class ThunderbirdAdapter(BGLAdapter):
     TAG_TO_SLUG = TAG_TO_SLUG
     OTHER_SLUG = _OTHER_SLUG
     root_cause_taxonomy = tuple([*sorted(TAG_TO_SLUG.values()), _OTHER_SLUG])
+
+    # T2 component-precedence: hardware-layer alerts (CPU, ECC, NMI) precede
+    # storage-layer alerts (SCSI, CHK_DSK, EXT_FS) which precede application
+    # alerts (VAPI, PBS_*, MPT).
+    _TB_COMPONENT_PRECEDENCE: dict[str, int] = {
+        "CPU": 0,
+        "ECC": 0,
+        "NMI": 0,
+        "SCSI": 2,
+        "CHK_DSK": 2,
+        "EXT_FS": 2,
+        "MPT": 4,
+        "VAPI": 5,
+        "PBS_BFD": 5,
+        "PBS_CON": 5,
+    }
+
+    def component_precedence(self, component: str) -> int:  # type: ignore[override]
+        if component == "NORMAL":
+            return 100
+        return self._TB_COMPONENT_PRECEDENCE.get(component, 10)

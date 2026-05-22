@@ -1,0 +1,110 @@
+{
+  "anomaly_keys": [
+    "1643649d-2f42-4303-bfcd-7798baec19f9"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 179
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 180
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 181
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 182
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 183
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 184
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 185
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 186
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 187
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 193
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 194
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 195
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 202
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 203
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 204
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 205
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 206
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 207
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 211
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 212
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 213
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 214
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 215
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 216
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 229
+    }
+  ],
+  "root_cause_type": "vm_task_failure",
+  "severity": "P1",
+  "severity_justification": "single_critical"
+}

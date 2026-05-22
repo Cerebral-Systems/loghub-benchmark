@@ -1,0 +1,116 @@
+[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Stopped (Lifecycle Event)
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1759 time: 0.2672291
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2643161
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2641511
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2796621
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2579432
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2629061
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2494071
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2974470
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2665739
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2614441
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2563009
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2748721
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2646890
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2596920
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2600410
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Started (Lifecycle Event)
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Paused (Lifecycle Event)
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] During sync_power_state the instance has a pending task (spawning). Skip.
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2730091
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2709410
+Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2722521
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2555740
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.4287961
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2432280
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2486479
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2611251
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2593911
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2426131
+Creating event network-vif-plugged:a208479c-c0e3-4730-a5a0-d75e8afd0252 for instance 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4
+10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 200 len: 380 time: 0.0901799
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Resumed (Lifecycle Event)
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Instance spawned successfully.
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 19.96 seconds to spawn the instance on the hypervisor.
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] During sync_power_state the instance has a pending task (spawning). Skip.
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Resumed (Lifecycle Event)
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 20.71 seconds to build instance.
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1910 time: 0.2721858
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1910 time: 0.2486420
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+Successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'.
+10.11.21.123,10.11.10.1 "GET /openstack/2012-08-10/meta_data.json HTTP/1.1" status: 200 len: 264 time: 0.2205780
+10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17 HTTP/1.1" status: 200 len: 157 time: 0.0019679
+10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17/vendor_data.json HTTP/1.1" status: 200 len: 124 time: 0.2335150
+10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17/vendor_data.json HTTP/1.1" status: 200 len: 124 time: 0.0008781
+10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17/user_data HTTP/1.1" status: 404 len: 176 time: 0.2285759
+10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17/meta_data.json HTTP/1.1" status: 200 len: 967 time: 0.2275620
+10.11.21.123,10.11.10.1 "GET /openstack/2013-10-17/meta_data.json HTTP/1.1" status: 200 len: 967 time: 0.0010512
+10.11.21.123,10.11.10.1 "GET /latest/meta-data/ HTTP/1.1" status: 200 len: 328 time: 0.0009170
+10.11.21.123,10.11.10.1 "GET /latest/meta-data/block-device-mapping/ HTTP/1.1" status: 200 len: 124 time: 0.0008931
+10.11.21.123,10.11.10.1 "GET /latest/meta-data/block-device-mapping/ami HTTP/1.1" status: 200 len: 119 time: 0.0009408
+10.11.21.123,10.11.10.1 "GET /latest/meta-data/block-device-mapping/root HTTP/1.1" status: 200 len: 124 time: 0.0018420
+10.11.10.1 "DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/96abccce-8d1f-4e07-b6d1-4b2ab87e23b4 HTTP/1.1" status: 204 len: 203 time: 0.2604880
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Terminating instance
+10.11.21.123,10.11.10.1 "GET /latest/meta-data/placement/ HTTP/1.1" status: 200 len: 134 time: 0.3841610
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1916 time: 0.2644901
+Running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-16 05:00:00 to 2017-05-16 06:00:00. 87 instances.
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Instance destroyed successfully.
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Deleting instance files /var/lib/nova/instances/96abccce-8d1f-4e07-b6d1-4b2ab87e23b4_del
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Deletion of /var/lib/nova/instances/96abccce-8d1f-4e07-b6d1-4b2ab87e23b4_del complete
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 1.11 seconds to destroy the instance on the hypervisor.
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1874 time: 0.3479111
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 0.52 seconds to deallocate network for instance.
+Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 211 time: 0.1034541
+HTTP exception thrown: No instances found for any event
+10.11.10.1 "POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1" status: 404 len: 296 time: 0.0886950
+10.11.10.1 "POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1" status: 202 len: 733 time: 0.5442920
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1583 time: 0.1878400
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Total memory: 64172 MB, used: 512.00 MB
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] memory limit: 96258.00 MB, free: 95746.00 MB
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Total disk: 15 GB, used: 0.00 GB
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] disk limit not specified, defaulting to unlimited
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Total vcpu: 16 VCPU, used: 0.00 VCPU
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] vcpu limit not specified, defaulting to unlimited
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Claim successful
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1575 time: 0.1955159
+Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/b562ef10-ba2d-48ae-bf4a-18666cba4a51 HTTP/1.1" status: 200 len: 1708 time: 0.2013841
+Total usable vcpus: 16, total allocated vcpus: 1
+Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Creating image
+Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1759 time: 0.2633560
+[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Stopped (Lifecycle Event)
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1759 time: 0.2561328
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2740800
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2638359
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2793601
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2611539
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2773159
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2688291
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2706490
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2866180
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2673891
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2630482
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2733018
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2652190
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking
+image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage
+Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2491391
+10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2543209
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Started (Lifecycle Event)
+[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Paused (Lifecycle Event)

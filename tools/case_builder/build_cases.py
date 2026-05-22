@@ -45,19 +45,76 @@ def _case_to_dict(case) -> dict:
     return d
 
 
-def build(adapter_name: str, input_path: Path, output_dir: Path, max_cases: int, seed: int) -> int:
+def build(
+    adapter_name: str,
+    input_path: Path,
+    output_dir: Path,
+    max_cases: int,
+    seed: int,
+    *,
+    task_type: str = "anomaly",
+) -> int:
     if adapter_name not in ADAPTERS:
         raise SystemExit(f"unknown adapter {adapter_name!r}; choices: {sorted(ADAPTERS)}")
     adapter = ADAPTERS[adapter_name]()
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"loading labels from {input_path} ...", file=sys.stderr)
-    labels = adapter.load_labels(input_path)
-    print(f"  {len(labels.entries):,} labels; {len(labels.anomalous_keys()):,} anomalous", file=sys.stderr)
+    if task_type != "tmpl":
+        # T5 (tmpl) reads /Loghub-2k structured CSVs directly; it doesn't
+        # need the dataset's anomaly-label file.
+        print(f"loading labels from {input_path} ...", file=sys.stderr)
+        labels = adapter.load_labels(input_path)
+        print(f"  {len(labels.entries):,} labels; {len(labels.anomalous_keys()):,} anomalous", file=sys.stderr)
+    else:
+        labels = None  # type: ignore[assignment]
+
+    if task_type == "anomaly":
+        case_iter = adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed)
+    elif task_type == "fp":
+        case_iter = adapter.iter_false_positive_windows(input_path, labels, max_cases=max_cases, seed=seed)
+    elif task_type in ("seq", "corr", "sev"):
+        # T2/T3/T4: reuse v1 anomaly cases; the timeline / causal-chain /
+        # severity is derived at export time. We mark the task_type here
+        # so the exporter dispatches to the right path.
+        def _retag_iter():
+            from .adapters.base import CandidateCase
+            for c in adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed):
+                yield CandidateCase(
+                    case_id=c.case_id,
+                    dataset_name=c.dataset_name,
+                    adapter_version=c.adapter_version,
+                    slice=c.slice,
+                    anomaly_line_ids=c.anomaly_line_ids,
+                    root_cause=c.root_cause,
+                    anomaly_keys=c.anomaly_keys,
+                    extra=c.extra,
+                    task_type=task_type,
+                )
+        case_iter = _retag_iter()
+    elif task_type == "tmpl":
+        # T5: separate path; reads Loghub-2k structured CSV, ignores
+        # the standard anomaly-label flow.
+        from .templates_lib import iter_template_cases
+        # Adapter→dataset name mapping for the Loghub-2k file layout.
+        dataset_name_by_adapter = {
+            "hdfs": "HDFS",
+            "hadoop": "Hadoop",
+            "bgl": "BGL",
+            "thunderbird": "Thunderbird",
+            "openstack": "OpenStack",
+        }
+        dataset_for_tmpl = dataset_name_by_adapter.get(adapter_name)
+        if dataset_for_tmpl is None:
+            raise SystemExit(f"unsupported adapter {adapter_name!r} for task-type=tmpl")
+        case_iter = iter_template_cases(
+            input_path, dataset_for_tmpl, max_cases=max_cases, seed=seed
+        )
+    else:
+        raise SystemExit(f"unknown task_type {task_type!r}")
 
     manifest: list[dict] = []
     count = 0
-    for case in adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed):
+    for case in case_iter:
         case_dict = _case_to_dict(case)
         out_path = output_dir / f"{case.case_id}.json"
         with out_path.open("w") as fh:
@@ -73,6 +130,7 @@ def build(adapter_name: str, input_path: Path, output_dir: Path, max_cases: int,
                 "slice_offset": case.slice.offset,
                 "slice_length": case.slice.length,
                 "file": out_path.name,
+                "task_type": case.task_type,
             }
         )
         count += 1
@@ -108,8 +166,18 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--output", required=True, type=Path, help="output directory for case JSON")
     p.add_argument("--max-cases", type=int, default=20, help="upper bound on cases to emit")
     p.add_argument("--seed", type=int, default=0, help="seed mixed into per-case slice selection")
+    p.add_argument(
+        "--task-type",
+        default="anomaly",
+        choices=("anomaly", "fp", "seq", "corr", "sev", "tmpl"),
+        help="Which adapter generator to invoke. 'anomaly' (v1, default) calls "
+        "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows. "
+        "'seq' (v2/T2), 'corr' (v2/T3), and 'sev' (v2/T4) reuse v1 anomaly "
+        "cases and tag them for the respective exporter. 'tmpl' (v2/T5) reads "
+        "the Loghub-2k <Dataset>_2k.log_structured.csv from --input.",
+    )
     args = p.parse_args(argv)
-    build(args.adapter, args.input, args.output, args.max_cases, args.seed)
+    build(args.adapter, args.input, args.output, args.max_cases, args.seed, task_type=args.task_type)
 
 
 if __name__ == "__main__":

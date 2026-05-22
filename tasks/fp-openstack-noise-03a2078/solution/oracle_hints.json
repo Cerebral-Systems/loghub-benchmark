@@ -1,0 +1,36 @@
+{
+  "indicator_locations": [
+    {
+      "file": "openstack-nova-api.log",
+      "line": 26,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 28,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "openstack-nova-api.log",
+      "line": 75,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 72,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "openstack-nova-api.log",
+      "line": 128,
+      "why_not_anomalous": "benign_info"
+    }
+  ],
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

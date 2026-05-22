@@ -1,0 +1,773 @@
+- 1150652438 2006.06.18 tsqe2 Jun 18 10:40:38 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652438 2006.06.18 tsqe2 Jun 18 10:40:38 tsqe2/tsqe2 sshd[8934]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652439 2006.06.18 aadmin1 Jun 18 10:40:39 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652439 2006.06.18 aadmin1 Jun 18 10:40:39 src@aadmin1 crond(pam_unix)[25834]: session closed for user root
+- 1150652439 2006.06.18 tsqe1 Jun 18 10:40:39 tsqe1/tsqe1 sshd2[14459]: Now running on #110#'s privileges.
+- 1150652439 2006.06.18 tsqe1 Jun 18 10:40:39 tsqe1/tsqe1 sshd[14457]: Local disconnected: Connection closed.
+- 1150652439 2006.06.18 tsqe1 Jun 18 10:40:39 tsqe1/tsqe1 sshd[14457]: User #110#, coming from #111#, authenticated.
+- 1150652439 2006.06.18 tsqe1 Jun 18 10:40:39 tsqe1/tsqe1 sshd[14457]: connection lost: 'Connection closed.'
+- 1150652439 2006.06.18 tsqe1 Jun 18 10:40:39 tsqe1/tsqe1 sshd[2395]: connection from "#109#"
+- 1150652439 2006.06.18 tsqe2 Jun 18 10:40:39 tsqe2/tsqe2 sshd2[8938]: Now running on #41#'s privileges.
+- 1150652439 2006.06.18 tsqe2 Jun 18 10:40:39 tsqe2/tsqe2 sshd[8934]: Local disconnected: Connection closed.
+- 1150652439 2006.06.18 tsqe2 Jun 18 10:40:39 tsqe2/tsqe2 sshd[8934]: connection lost: 'Connection closed.'
+- 1150652440 2006.06.18 dadmin1 Jun 18 10:40:40 src@dadmin1 crond(pam_unix)[11772]: session closed for user root
+- 1150652440 2006.06.18 tsqe2 Jun 18 10:40:40 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652440 2006.06.18 tsqe2 Jun 18 10:40:40 tsqe2/tsqe2 sshd[8949]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652441 2006.06.18 tsqe2 Jun 18 10:40:41 tsqe2/tsqe2 sshd2[8953]: Now running on #41#'s privileges.
+- 1150652441 2006.06.18 tsqe2 Jun 18 10:40:41 tsqe2/tsqe2 sshd[8949]: Local disconnected: Connection closed.
+- 1150652441 2006.06.18 tsqe2 Jun 18 10:40:41 tsqe2/tsqe2 sshd[8949]: connection lost: 'Connection closed.'
+- 1150652442 2006.06.18 tsqe2 Jun 18 10:40:42 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652442 2006.06.18 tsqe2 Jun 18 10:40:42 tsqe2/tsqe2 sshd[8965]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652443 2006.06.18 tsqe2 Jun 18 10:40:43 tsqe2/tsqe2 sshd2[8970]: Now running on #41#'s privileges.
+- 1150652443 2006.06.18 tsqe2 Jun 18 10:40:43 tsqe2/tsqe2 sshd[8965]: Local disconnected: Connection closed.
+- 1150652443 2006.06.18 tsqe2 Jun 18 10:40:43 tsqe2/tsqe2 sshd[8965]: connection lost: 'Connection closed.'
+- 1150652444 2006.06.18 tsqe2 Jun 18 10:40:44 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652444 2006.06.18 tsqe2 Jun 18 10:40:44 tsqe2/tsqe2 sshd[8981]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652445 2006.06.18 aadmin1 Jun 18 10:40:45 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652445 2006.06.18 tsqe2 Jun 18 10:40:45 tsqe2/tsqe2 sshd2[8985]: Now running on #41#'s privileges.
+- 1150652445 2006.06.18 tsqe2 Jun 18 10:40:45 tsqe2/tsqe2 sshd[8981]: Local disconnected: Connection closed.
+- 1150652445 2006.06.18 tsqe2 Jun 18 10:40:45 tsqe2/tsqe2 sshd[8981]: connection lost: 'Connection closed.'
+- 1150652446 2006.06.18 tsqe2 Jun 18 10:40:46 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652446 2006.06.18 tsqe2 Jun 18 10:40:46 tsqe2/tsqe2 sshd[8996]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652447 2006.06.18 tsqe2 Jun 18 10:40:47 tsqe2/tsqe2 sshd2[9000]: Now running on #41#'s privileges.
+- 1150652447 2006.06.18 tsqe2 Jun 18 10:40:47 tsqe2/tsqe2 sshd[8996]: Local disconnected: Connection closed.
+- 1150652447 2006.06.18 tsqe2 Jun 18 10:40:47 tsqe2/tsqe2 sshd[8996]: connection lost: 'Connection closed.'
+- 1150652448 2006.06.18 tsqe2 Jun 18 10:40:48 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652448 2006.06.18 tsqe2 Jun 18 10:40:48 tsqe2/tsqe2 sshd[9011]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652449 2006.06.18 tsqe2 Jun 18 10:40:49 tsqe2/tsqe2 sshd2[9015]: Now running on #41#'s privileges.
+- 1150652449 2006.06.18 tsqe2 Jun 18 10:40:49 tsqe2/tsqe2 sshd[9011]: Local disconnected: Connection closed.
+- 1150652449 2006.06.18 tsqe2 Jun 18 10:40:49 tsqe2/tsqe2 sshd[9011]: connection lost: 'Connection closed.'
+- 1150652450 2006.06.18 tsqe1 Jun 18 10:40:50 tsqe1/tsqe1 sshd[2395]: connection from "#109#"
+- 1150652450 2006.06.18 tsqe2 Jun 18 10:40:50 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652450 2006.06.18 tsqe2 Jun 18 10:40:50 tsqe2/tsqe2 sshd[9026]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652451 2006.06.18 tsqe1 Jun 18 10:40:51 tsqe1/tsqe1 sshd2[14470]: Now running on #110#'s privileges.
+- 1150652451 2006.06.18 tsqe1 Jun 18 10:40:51 tsqe1/tsqe1 sshd[14468]: User #110#, coming from #111#, authenticated.
+- 1150652451 2006.06.18 tsqe2 Jun 18 10:40:51 tsqe2/tsqe2 sshd2[9030]: Now running on #41#'s privileges.
+- 1150652451 2006.06.18 tsqe2 Jun 18 10:40:51 tsqe2/tsqe2 sshd[9026]: Local disconnected: Connection closed.
+- 1150652451 2006.06.18 tsqe2 Jun 18 10:40:51 tsqe2/tsqe2 sshd[9026]: connection lost: 'Connection closed.'
+- 1150652452 2006.06.18 tsqe2 Jun 18 10:40:52 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652453 2006.06.18 tsqe2 Jun 18 10:40:53 tsqe2/tsqe2 sshd2[9046]: Now running on #41#'s privileges.
+- 1150652453 2006.06.18 tsqe2 Jun 18 10:40:53 tsqe2/tsqe2 sshd[9041]: Local disconnected: Connection closed.
+- 1150652453 2006.06.18 tsqe2 Jun 18 10:40:53 tsqe2/tsqe2 sshd[9041]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652453 2006.06.18 tsqe2 Jun 18 10:40:53 tsqe2/tsqe2 sshd[9041]: connection lost: 'Connection closed.'
+- 1150652454 2006.06.18 tsqe2 Jun 18 10:40:54 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652455 2006.06.18 badmin1 Jun 18 10:40:55 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652455 2006.06.18 badmin2 Jun 18 10:40:55 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652455 2006.06.18 badmin3 Jun 18 10:40:55 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652455 2006.06.18 badmin4 Jun 18 10:40:55 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652455 2006.06.18 tsqe2 Jun 18 10:40:55 tsqe2/tsqe2 sshd2[9062]: Now running on #41#'s privileges.
+- 1150652455 2006.06.18 tsqe2 Jun 18 10:40:55 tsqe2/tsqe2 sshd[9058]: Local disconnected: Connection closed.
+- 1150652455 2006.06.18 tsqe2 Jun 18 10:40:55 tsqe2/tsqe2 sshd[9058]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652455 2006.06.18 tsqe2 Jun 18 10:40:55 tsqe2/tsqe2 sshd[9058]: connection lost: 'Connection closed.'
+- 1150652456 2006.06.18 tsqe2 Jun 18 10:40:56 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652457 2006.06.18 tsqe2 Jun 18 10:40:57 tsqe2/tsqe2 sshd2[9077]: Now running on #41#'s privileges.
+- 1150652457 2006.06.18 tsqe2 Jun 18 10:40:57 tsqe2/tsqe2 sshd[9073]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652458 2006.06.18 tsqe2 Jun 18 10:40:58 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652458 2006.06.18 tsqe2 Jun 18 10:40:58 tsqe2/tsqe2 sshd[9073]: Local disconnected: Connection closed.
+- 1150652458 2006.06.18 tsqe2 Jun 18 10:40:58 tsqe2/tsqe2 sshd[9073]: connection lost: 'Connection closed.'
+- 1150652459 2006.06.18 tsqe2 Jun 18 10:40:59 tsqe2/tsqe2 sshd2[9092]: Now running on #41#'s privileges.
+- 1150652459 2006.06.18 tsqe2 Jun 18 10:40:59 tsqe2/tsqe2 sshd[9088]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652460 2006.06.18 tsqe2 Jun 18 10:41:00 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652460 2006.06.18 tsqe2 Jun 18 10:41:00 tsqe2/tsqe2 sshd[9088]: Local disconnected: Connection closed.
+- 1150652460 2006.06.18 tsqe2 Jun 18 10:41:00 tsqe2/tsqe2 sshd[9088]: connection lost: 'Connection closed.'
+- 1150652461 2006.06.18 #56# Jun 18 10:41:01 #56#/#56# crond(pam_unix)[21659]: session opened for user #26# by (uid=0)
+- 1150652461 2006.06.18 #56# Jun 18 10:41:01 #56#/#56# crond(pam_unix)[21660]: session opened for user #57# by (uid=0)
+- 1150652461 2006.06.18 #56# Jun 18 10:41:01 #56#/#56# crond[21661]: (#26#) CMD (/home/#26#/cricket-1.0.5/collect-subtrees 2>&1 > /dev/null)
+- 1150652461 2006.06.18 #56# Jun 18 10:41:01 #56#/#56# crond[21662]: (#57#) CMD (/home/#57#/ping2.sh)
+- 1150652461 2006.06.18 tsqe2 Jun 18 10:41:01 tsqe2/tsqe2 sshd2[9107]: Now running on #41#'s privileges.
+- 1150652461 2006.06.18 tsqe2 Jun 18 10:41:01 tsqe2/tsqe2 sshd[9103]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652462 2006.06.18 tsqe2 Jun 18 10:41:02 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652462 2006.06.18 tsqe2 Jun 18 10:41:02 tsqe2/tsqe2 sshd[9103]: Local disconnected: Connection closed.
+- 1150652462 2006.06.18 tsqe2 Jun 18 10:41:02 tsqe2/tsqe2 sshd[9103]: connection lost: 'Connection closed.'
+- 1150652463 2006.06.18 tsqe2 Jun 18 10:41:03 tsqe2/tsqe2 sshd2[9123]: Now running on #41#'s privileges.
+- 1150652463 2006.06.18 tsqe2 Jun 18 10:41:03 tsqe2/tsqe2 sshd[9118]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652464 2006.06.18 tsqe2 Jun 18 10:41:04 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652464 2006.06.18 tsqe2 Jun 18 10:41:04 tsqe2/tsqe2 sshd[9118]: Local disconnected: Connection closed.
+- 1150652464 2006.06.18 tsqe2 Jun 18 10:41:04 tsqe2/tsqe2 sshd[9118]: connection lost: 'Connection closed.'
+- 1150652465 2006.06.18 tsqe2 Jun 18 10:41:05 tsqe2/tsqe2 sshd2[9139]: Now running on #41#'s privileges.
+- 1150652465 2006.06.18 tsqe2 Jun 18 10:41:05 tsqe2/tsqe2 sshd[9135]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652466 2006.06.18 tsqe2 Jun 18 10:41:06 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652466 2006.06.18 tsqe2 Jun 18 10:41:06 tsqe2/tsqe2 sshd[9135]: Local disconnected: Connection closed.
+- 1150652466 2006.06.18 tsqe2 Jun 18 10:41:06 tsqe2/tsqe2 sshd[9135]: connection lost: 'Connection closed.'
+- 1150652467 2006.06.18 tsqe2 Jun 18 10:41:07 tsqe2/tsqe2 sshd2[9154]: Now running on #41#'s privileges.
+- 1150652467 2006.06.18 tsqe2 Jun 18 10:41:07 tsqe2/tsqe2 sshd[9150]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652468 2006.06.18 tsqe2 Jun 18 10:41:08 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652468 2006.06.18 tsqe2 Jun 18 10:41:08 tsqe2/tsqe2 sshd[9150]: Local disconnected: Connection closed.
+- 1150652468 2006.06.18 tsqe2 Jun 18 10:41:08 tsqe2/tsqe2 sshd[9150]: connection lost: 'Connection closed.'
+- 1150652469 2006.06.18 tsqe2 Jun 18 10:41:09 tsqe2/tsqe2 sshd2[9169]: Now running on #41#'s privileges.
+- 1150652469 2006.06.18 tsqe2 Jun 18 10:41:09 tsqe2/tsqe2 sshd[9165]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652470 2006.06.18 tsqe2 Jun 18 10:41:10 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652470 2006.06.18 tsqe2 Jun 18 10:41:10 tsqe2/tsqe2 sshd[9165]: Local disconnected: Connection closed.
+- 1150652470 2006.06.18 tsqe2 Jun 18 10:41:10 tsqe2/tsqe2 sshd[9165]: connection lost: 'Connection closed.'
+- 1150652471 2006.06.18 #56# Jun 18 10:41:11 #56#/#56# crond(pam_unix)[21660]: session closed for user #57#
+- 1150652471 2006.06.18 tsqe2 Jun 18 10:41:11 tsqe2/tsqe2 sshd2[9184]: Now running on #41#'s privileges.
+- 1150652471 2006.06.18 tsqe2 Jun 18 10:41:11 tsqe2/tsqe2 sshd[9180]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652472 2006.06.18 tsqe2 Jun 18 10:41:12 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652472 2006.06.18 tsqe2 Jun 18 10:41:12 tsqe2/tsqe2 sshd[9180]: Local disconnected: Connection closed.
+- 1150652472 2006.06.18 tsqe2 Jun 18 10:41:12 tsqe2/tsqe2 sshd[9180]: connection lost: 'Connection closed.'
+- 1150652473 2006.06.18 aadmin1 Jun 18 10:41:13 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652473 2006.06.18 tsqe2 Jun 18 10:41:13 tsqe2/tsqe2 sshd2[9199]: Now running on #41#'s privileges.
+- 1150652473 2006.06.18 tsqe2 Jun 18 10:41:13 tsqe2/tsqe2 sshd[9195]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652474 2006.06.18 tsqe2 Jun 18 10:41:14 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652474 2006.06.18 tsqe2 Jun 18 10:41:14 tsqe2/tsqe2 sshd[9195]: Local disconnected: Connection closed.
+- 1150652474 2006.06.18 tsqe2 Jun 18 10:41:14 tsqe2/tsqe2 sshd[9195]: connection lost: 'Connection closed.'
+- 1150652475 2006.06.18 tsqe2 Jun 18 10:41:15 tsqe2/tsqe2 sshd2[9216]: Now running on #41#'s privileges.
+- 1150652475 2006.06.18 tsqe2 Jun 18 10:41:15 tsqe2/tsqe2 sshd[9212]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652476 2006.06.18 aadmin1 Jun 18 10:41:16 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652476 2006.06.18 tsqe2 Jun 18 10:41:16 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652476 2006.06.18 tsqe2 Jun 18 10:41:16 tsqe2/tsqe2 sshd[9212]: Local disconnected: Connection closed.
+- 1150652476 2006.06.18 tsqe2 Jun 18 10:41:16 tsqe2/tsqe2 sshd[9212]: connection lost: 'Connection closed.'
+- 1150652477 2006.06.18 tsqe2 Jun 18 10:41:17 tsqe2/tsqe2 sshd2[9231]: Now running on #41#'s privileges.
+- 1150652477 2006.06.18 tsqe2 Jun 18 10:41:17 tsqe2/tsqe2 sshd[9227]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652478 2006.06.18 tsqe2 Jun 18 10:41:18 tsqe2/tsqe2 sshd[9227]: Local disconnected: Connection closed.
+- 1150652478 2006.06.18 tsqe2 Jun 18 10:41:18 tsqe2/tsqe2 sshd[9227]: connection lost: 'Connection closed.'
+- 1150652479 2006.06.18 tsqe2 Jun 18 10:41:19 tsqe2/tsqe2 sshd2[9246]: Now running on #41#'s privileges.
+- 1150652479 2006.06.18 tsqe2 Jun 18 10:41:19 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652479 2006.06.18 tsqe2 Jun 18 10:41:19 tsqe2/tsqe2 sshd[9242]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652480 2006.06.18 tsqe2 Jun 18 10:41:20 tsqe2/tsqe2 sshd[9242]: Local disconnected: Connection closed.
+- 1150652480 2006.06.18 tsqe2 Jun 18 10:41:20 tsqe2/tsqe2 sshd[9242]: connection lost: 'Connection closed.'
+- 1150652481 2006.06.18 tsqe2 Jun 18 10:41:21 tsqe2/tsqe2 sshd2[9261]: Now running on #41#'s privileges.
+- 1150652481 2006.06.18 tsqe2 Jun 18 10:41:21 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652481 2006.06.18 tsqe2 Jun 18 10:41:21 tsqe2/tsqe2 sshd[9257]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652482 2006.06.18 tsqe2 Jun 18 10:41:22 tsqe2/tsqe2 sshd[9257]: Local disconnected: Connection closed.
+- 1150652482 2006.06.18 tsqe2 Jun 18 10:41:22 tsqe2/tsqe2 sshd[9257]: connection lost: 'Connection closed.'
+- 1150652483 2006.06.18 tsqe2 Jun 18 10:41:23 tsqe2/tsqe2 sshd2[9276]: Now running on #41#'s privileges.
+- 1150652483 2006.06.18 tsqe2 Jun 18 10:41:23 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652483 2006.06.18 tsqe2 Jun 18 10:41:23 tsqe2/tsqe2 sshd[9272]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652484 2006.06.18 tsqe2 Jun 18 10:41:24 tsqe2/tsqe2 sshd[9272]: Local disconnected: Connection closed.
+- 1150652484 2006.06.18 tsqe2 Jun 18 10:41:24 tsqe2/tsqe2 sshd[9272]: connection lost: 'Connection closed.'
+- 1150652485 2006.06.18 tsqe2 Jun 18 10:41:25 tsqe2/tsqe2 sshd2[9293]: Now running on #41#'s privileges.
+- 1150652485 2006.06.18 tsqe2 Jun 18 10:41:25 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652485 2006.06.18 tsqe2 Jun 18 10:41:25 tsqe2/tsqe2 sshd[9289]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652486 2006.06.18 tsqe2 Jun 18 10:41:26 tsqe2/tsqe2 sshd[9289]: Local disconnected: Connection closed.
+- 1150652486 2006.06.18 tsqe2 Jun 18 10:41:26 tsqe2/tsqe2 sshd[9289]: connection lost: 'Connection closed.'
+- 1150652487 2006.06.18 tsqe2 Jun 18 10:41:27 tsqe2/tsqe2 sshd2[9308]: Now running on #41#'s privileges.
+- 1150652487 2006.06.18 tsqe2 Jun 18 10:41:27 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652487 2006.06.18 tsqe2 Jun 18 10:41:27 tsqe2/tsqe2 sshd[9304]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652488 2006.06.18 tsqe2 Jun 18 10:41:28 tsqe2/tsqe2 sshd[9304]: Local disconnected: Connection closed.
+- 1150652488 2006.06.18 tsqe2 Jun 18 10:41:28 tsqe2/tsqe2 sshd[9304]: connection lost: 'Connection closed.'
+- 1150652489 2006.06.18 tsqe2 Jun 18 10:41:29 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652489 2006.06.18 tsqe2 Jun 18 10:41:29 tsqe2/tsqe2 sshd[9319]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652490 2006.06.18 tsqe2 Jun 18 10:41:30 tsqe2/tsqe2 sshd2[9323]: Now running on #41#'s privileges.
+- 1150652490 2006.06.18 tsqe2 Jun 18 10:41:30 tsqe2/tsqe2 sshd[9319]: Local disconnected: Connection closed.
+- 1150652490 2006.06.18 tsqe2 Jun 18 10:41:30 tsqe2/tsqe2 sshd[9319]: connection lost: 'Connection closed.'
+- 1150652491 2006.06.18 tsqe2 Jun 18 10:41:31 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652491 2006.06.18 tsqe2 Jun 18 10:41:31 tsqe2/tsqe2 sshd[9334]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652492 2006.06.18 tsqe2 Jun 18 10:41:32 tsqe2/tsqe2 sshd2[9338]: Now running on #41#'s privileges.
+- 1150652492 2006.06.18 tsqe2 Jun 18 10:41:32 tsqe2/tsqe2 sshd[9334]: Local disconnected: Connection closed.
+- 1150652492 2006.06.18 tsqe2 Jun 18 10:41:32 tsqe2/tsqe2 sshd[9334]: connection lost: 'Connection closed.'
+- 1150652493 2006.06.18 tsqe2 Jun 18 10:41:33 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652493 2006.06.18 tsqe2 Jun 18 10:41:33 tsqe2/tsqe2 sshd[9349]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652494 2006.06.18 tsqe2 Jun 18 10:41:34 tsqe2/tsqe2 sshd2[9353]: Now running on #41#'s privileges.
+- 1150652494 2006.06.18 tsqe2 Jun 18 10:41:34 tsqe2/tsqe2 sshd[9349]: Local disconnected: Connection closed.
+- 1150652494 2006.06.18 tsqe2 Jun 18 10:41:34 tsqe2/tsqe2 sshd[9349]: connection lost: 'Connection closed.'
+- 1150652495 2006.06.18 tsqe2 Jun 18 10:41:35 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652495 2006.06.18 tsqe2 Jun 18 10:41:35 tsqe2/tsqe2 sshd[9366]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652496 2006.06.18 tsqe2 Jun 18 10:41:36 tsqe2/tsqe2 sshd2[9370]: Now running on #41#'s privileges.
+- 1150652496 2006.06.18 tsqe2 Jun 18 10:41:36 tsqe2/tsqe2 sshd[9366]: Local disconnected: Connection closed.
+- 1150652496 2006.06.18 tsqe2 Jun 18 10:41:36 tsqe2/tsqe2 sshd[9366]: connection lost: 'Connection closed.'
+- 1150652497 2006.06.18 tsqe2 Jun 18 10:41:37 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652497 2006.06.18 tsqe2 Jun 18 10:41:37 tsqe2/tsqe2 sshd[9381]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652498 2006.06.18 tsqe2 Jun 18 10:41:38 tsqe2/tsqe2 sshd2[9385]: Now running on #41#'s privileges.
+- 1150652498 2006.06.18 tsqe2 Jun 18 10:41:38 tsqe2/tsqe2 sshd[9381]: Local disconnected: Connection closed.
+- 1150652498 2006.06.18 tsqe2 Jun 18 10:41:38 tsqe2/tsqe2 sshd[9381]: connection lost: 'Connection closed.'
+- 1150652499 2006.06.18 aadmin1 Jun 18 10:41:39 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652499 2006.06.18 tsqe2 Jun 18 10:41:39 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652499 2006.06.18 tsqe2 Jun 18 10:41:39 tsqe2/tsqe2 sshd[9396]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652500 2006.06.18 tsqe2 Jun 18 10:41:40 tsqe2/tsqe2 sshd2[9400]: Now running on #41#'s privileges.
+- 1150652500 2006.06.18 tsqe2 Jun 18 10:41:40 tsqe2/tsqe2 sshd[9396]: Local disconnected: Connection closed.
+- 1150652500 2006.06.18 tsqe2 Jun 18 10:41:40 tsqe2/tsqe2 sshd[9396]: connection lost: 'Connection closed.'
+- 1150652501 2006.06.18 tsqe2 Jun 18 10:41:41 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652501 2006.06.18 tsqe2 Jun 18 10:41:41 tsqe2/tsqe2 sshd[9411]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652502 2006.06.18 aadmin1 Jun 18 10:41:42 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652502 2006.06.18 tsqe2 Jun 18 10:41:42 tsqe2/tsqe2 sshd2[9415]: Now running on #41#'s privileges.
+- 1150652502 2006.06.18 tsqe2 Jun 18 10:41:42 tsqe2/tsqe2 sshd[9411]: Local disconnected: Connection closed.
+- 1150652502 2006.06.18 tsqe2 Jun 18 10:41:42 tsqe2/tsqe2 sshd[9411]: connection lost: 'Connection closed.'
+- 1150652503 2006.06.18 tsqe2 Jun 18 10:41:43 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652503 2006.06.18 tsqe2 Jun 18 10:41:43 tsqe2/tsqe2 sshd[9426]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652504 2006.06.18 tsqe2 Jun 18 10:41:44 tsqe2/tsqe2 sshd2[9430]: Now running on #41#'s privileges.
+- 1150652504 2006.06.18 tsqe2 Jun 18 10:41:44 tsqe2/tsqe2 sshd[9426]: Local disconnected: Connection closed.
+- 1150652504 2006.06.18 tsqe2 Jun 18 10:41:44 tsqe2/tsqe2 sshd[9426]: connection lost: 'Connection closed.'
+- 1150652505 2006.06.18 tsqe2 Jun 18 10:41:45 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652505 2006.06.18 tsqe2 Jun 18 10:41:45 tsqe2/tsqe2 sshd[9443]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652506 2006.06.18 tsqe2 Jun 18 10:41:46 tsqe2/tsqe2 sshd2[9447]: Now running on #41#'s privileges.
+- 1150652506 2006.06.18 tsqe2 Jun 18 10:41:46 tsqe2/tsqe2 sshd[9443]: Local disconnected: Connection closed.
+- 1150652506 2006.06.18 tsqe2 Jun 18 10:41:46 tsqe2/tsqe2 sshd[9443]: connection lost: 'Connection closed.'
+- 1150652507 2006.06.18 tsqe2 Jun 18 10:41:47 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652507 2006.06.18 tsqe2 Jun 18 10:41:47 tsqe2/tsqe2 sshd[9458]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652508 2006.06.18 tsqe2 Jun 18 10:41:48 tsqe2/tsqe2 sshd2[9462]: Now running on #41#'s privileges.
+- 1150652508 2006.06.18 tsqe2 Jun 18 10:41:48 tsqe2/tsqe2 sshd[9458]: Local disconnected: Connection closed.
+- 1150652508 2006.06.18 tsqe2 Jun 18 10:41:48 tsqe2/tsqe2 sshd[9458]: connection lost: 'Connection closed.'
+- 1150652509 2006.06.18 tsqe2 Jun 18 10:41:49 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652509 2006.06.18 tsqe2 Jun 18 10:41:49 tsqe2/tsqe2 sshd[9473]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652510 2006.06.18 tsqe2 Jun 18 10:41:50 tsqe2/tsqe2 sshd2[9477]: Now running on #41#'s privileges.
+- 1150652510 2006.06.18 tsqe2 Jun 18 10:41:50 tsqe2/tsqe2 sshd[9473]: Local disconnected: Connection closed.
+- 1150652510 2006.06.18 tsqe2 Jun 18 10:41:50 tsqe2/tsqe2 sshd[9473]: connection lost: 'Connection closed.'
+- 1150652511 2006.06.18 tsqe2 Jun 18 10:41:51 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652511 2006.06.18 tsqe2 Jun 18 10:41:51 tsqe2/tsqe2 sshd[9488]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652512 2006.06.18 tsqe2 Jun 18 10:41:52 tsqe2/tsqe2 sshd2[9492]: Now running on #41#'s privileges.
+- 1150652512 2006.06.18 tsqe2 Jun 18 10:41:52 tsqe2/tsqe2 sshd[9488]: Local disconnected: Connection closed.
+- 1150652512 2006.06.18 tsqe2 Jun 18 10:41:52 tsqe2/tsqe2 sshd[9488]: connection lost: 'Connection closed.'
+- 1150652513 2006.06.18 tsqe2 Jun 18 10:41:53 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652513 2006.06.18 tsqe2 Jun 18 10:41:53 tsqe2/tsqe2 sshd[9503]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652514 2006.06.18 tsqe2 Jun 18 10:41:54 tsqe2/tsqe2 sshd2[9507]: Now running on #41#'s privileges.
+- 1150652514 2006.06.18 tsqe2 Jun 18 10:41:54 tsqe2/tsqe2 sshd[9503]: Local disconnected: Connection closed.
+- 1150652514 2006.06.18 tsqe2 Jun 18 10:41:54 tsqe2/tsqe2 sshd[9503]: connection lost: 'Connection closed.'
+- 1150652515 2006.06.18 tsqe2 Jun 18 10:41:55 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652515 2006.06.18 tsqe2 Jun 18 10:41:55 tsqe2/tsqe2 sshd[9520]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652516 2006.06.18 tsqe2 Jun 18 10:41:56 tsqe2/tsqe2 sshd2[9524]: Now running on #41#'s privileges.
+- 1150652516 2006.06.18 tsqe2 Jun 18 10:41:56 tsqe2/tsqe2 sshd[9520]: Local disconnected: Connection closed.
+- 1150652516 2006.06.18 tsqe2 Jun 18 10:41:56 tsqe2/tsqe2 sshd[9520]: connection lost: 'Connection closed.'
+- 1150652517 2006.06.18 tsqe2 Jun 18 10:41:57 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652517 2006.06.18 tsqe2 Jun 18 10:41:57 tsqe2/tsqe2 sshd[9535]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652518 2006.06.18 tsqe2 Jun 18 10:41:58 tsqe2/tsqe2 sshd2[9539]: Now running on #41#'s privileges.
+- 1150652518 2006.06.18 tsqe2 Jun 18 10:41:58 tsqe2/tsqe2 sshd[9535]: Local disconnected: Connection closed.
+- 1150652518 2006.06.18 tsqe2 Jun 18 10:41:58 tsqe2/tsqe2 sshd[9535]: connection lost: 'Connection closed.'
+- 1150652519 2006.06.18 badmin1 Jun 18 10:41:59 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652519 2006.06.18 badmin2 Jun 18 10:41:59 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652519 2006.06.18 badmin3 Jun 18 10:41:59 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652519 2006.06.18 badmin4 Jun 18 10:41:59 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652519 2006.06.18 tsqe2 Jun 18 10:41:59 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652519 2006.06.18 tsqe2 Jun 18 10:41:59 tsqe2/tsqe2 sshd[9550]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652520 2006.06.18 tsqe2 Jun 18 10:42:00 tsqe2/tsqe2 sshd2[9554]: Now running on #41#'s privileges.
+- 1150652520 2006.06.18 tsqe2 Jun 18 10:42:00 tsqe2/tsqe2 sshd[9550]: Local disconnected: Connection closed.
+- 1150652520 2006.06.18 tsqe2 Jun 18 10:42:00 tsqe2/tsqe2 sshd[9550]: connection lost: 'Connection closed.'
+- 1150652521 2006.06.18 tsqe2 Jun 18 10:42:01 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652521 2006.06.18 tsqe2 Jun 18 10:42:01 tsqe2/tsqe2 sshd[9565]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652522 2006.06.18 tsqe2 Jun 18 10:42:02 tsqe2/tsqe2 sshd2[9569]: Now running on #41#'s privileges.
+- 1150652522 2006.06.18 tsqe2 Jun 18 10:42:02 tsqe2/tsqe2 sshd[9565]: Local disconnected: Connection closed.
+- 1150652522 2006.06.18 tsqe2 Jun 18 10:42:02 tsqe2/tsqe2 sshd[9565]: connection lost: 'Connection closed.'
+- 1150652523 2006.06.18 tsqe2 Jun 18 10:42:03 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652524 2006.06.18 tsqe2 Jun 18 10:42:04 tsqe2/tsqe2 sshd2[9584]: Now running on #41#'s privileges.
+- 1150652524 2006.06.18 tsqe2 Jun 18 10:42:04 tsqe2/tsqe2 sshd[9580]: Local disconnected: Connection closed.
+- 1150652524 2006.06.18 tsqe2 Jun 18 10:42:04 tsqe2/tsqe2 sshd[9580]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652525 2006.06.18 tsqe2 Jun 18 10:42:05 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652525 2006.06.18 tsqe2 Jun 18 10:42:05 tsqe2/tsqe2 sshd[9580]: connection lost: 'Connection closed.'
+- 1150652526 2006.06.18 aadmin1 Jun 18 10:42:06 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652526 2006.06.18 tsqe2 Jun 18 10:42:06 tsqe2/tsqe2 sshd2[9601]: Now running on #41#'s privileges.
+- 1150652526 2006.06.18 tsqe2 Jun 18 10:42:06 tsqe2/tsqe2 sshd[9596]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652527 2006.06.18 tsqe2 Jun 18 10:42:07 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652527 2006.06.18 tsqe2 Jun 18 10:42:07 tsqe2/tsqe2 sshd[9596]: Local disconnected: Connection closed.
+- 1150652527 2006.06.18 tsqe2 Jun 18 10:42:07 tsqe2/tsqe2 sshd[9596]: connection lost: 'Connection closed.'
+- 1150652528 2006.06.18 aadmin1 Jun 18 10:42:08 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652528 2006.06.18 tsqe2 Jun 18 10:42:08 tsqe2/tsqe2 sshd2[9616]: Now running on #41#'s privileges.
+- 1150652528 2006.06.18 tsqe2 Jun 18 10:42:08 tsqe2/tsqe2 sshd[9612]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652529 2006.06.18 tsqe2 Jun 18 10:42:09 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652529 2006.06.18 tsqe2 Jun 18 10:42:09 tsqe2/tsqe2 sshd[9612]: Local disconnected: Connection closed.
+- 1150652529 2006.06.18 tsqe2 Jun 18 10:42:09 tsqe2/tsqe2 sshd[9612]: connection lost: 'Connection closed.'
+- 1150652530 2006.06.18 tsqe2 Jun 18 10:42:10 tsqe2/tsqe2 sshd2[9631]: Now running on #41#'s privileges.
+- 1150652530 2006.06.18 tsqe2 Jun 18 10:42:10 tsqe2/tsqe2 sshd[9627]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652531 2006.06.18 tsqe2 Jun 18 10:42:11 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652531 2006.06.18 tsqe2 Jun 18 10:42:11 tsqe2/tsqe2 sshd[9627]: Local disconnected: Connection closed.
+- 1150652531 2006.06.18 tsqe2 Jun 18 10:42:11 tsqe2/tsqe2 sshd[9627]: connection lost: 'Connection closed.'
+- 1150652532 2006.06.18 tsqe2 Jun 18 10:42:12 tsqe2/tsqe2 sshd2[9646]: Now running on #41#'s privileges.
+- 1150652532 2006.06.18 tsqe2 Jun 18 10:42:12 tsqe2/tsqe2 sshd[9642]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652533 2006.06.18 tsqe2 Jun 18 10:42:13 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652533 2006.06.18 tsqe2 Jun 18 10:42:13 tsqe2/tsqe2 sshd[9642]: Local disconnected: Connection closed.
+- 1150652533 2006.06.18 tsqe2 Jun 18 10:42:13 tsqe2/tsqe2 sshd[9642]: connection lost: 'Connection closed.'
+- 1150652534 2006.06.18 tsqe2 Jun 18 10:42:14 tsqe2/tsqe2 sshd2[9661]: Now running on #41#'s privileges.
+- 1150652534 2006.06.18 tsqe2 Jun 18 10:42:14 tsqe2/tsqe2 sshd[9657]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652535 2006.06.18 tsqe2 Jun 18 10:42:15 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652535 2006.06.18 tsqe2 Jun 18 10:42:15 tsqe2/tsqe2 sshd[9657]: Local disconnected: Connection closed.
+- 1150652535 2006.06.18 tsqe2 Jun 18 10:42:15 tsqe2/tsqe2 sshd[9657]: connection lost: 'Connection closed.'
+- 1150652536 2006.06.18 tsqe2 Jun 18 10:42:16 tsqe2/tsqe2 sshd2[9678]: Now running on #41#'s privileges.
+- 1150652536 2006.06.18 tsqe2 Jun 18 10:42:16 tsqe2/tsqe2 sshd[9673]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652537 2006.06.18 tsqe2 Jun 18 10:42:17 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652537 2006.06.18 tsqe2 Jun 18 10:42:17 tsqe2/tsqe2 sshd[9673]: Local disconnected: Connection closed.
+- 1150652537 2006.06.18 tsqe2 Jun 18 10:42:17 tsqe2/tsqe2 sshd[9673]: connection lost: 'Connection closed.'
+- 1150652538 2006.06.18 tsqe2 Jun 18 10:42:18 tsqe2/tsqe2 sshd2[9693]: Now running on #41#'s privileges.
+- 1150652538 2006.06.18 tsqe2 Jun 18 10:42:18 tsqe2/tsqe2 sshd[9689]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652539 2006.06.18 tsqe2 Jun 18 10:42:19 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652539 2006.06.18 tsqe2 Jun 18 10:42:19 tsqe2/tsqe2 sshd[9689]: Local disconnected: Connection closed.
+- 1150652539 2006.06.18 tsqe2 Jun 18 10:42:19 tsqe2/tsqe2 sshd[9689]: connection lost: 'Connection closed.'
+- 1150652540 2006.06.18 tsqe2 Jun 18 10:42:20 tsqe2/tsqe2 sshd2[9708]: Now running on #41#'s privileges.
+- 1150652540 2006.06.18 tsqe2 Jun 18 10:42:20 tsqe2/tsqe2 sshd[9704]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652541 2006.06.18 tsqe2 Jun 18 10:42:21 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652541 2006.06.18 tsqe2 Jun 18 10:42:21 tsqe2/tsqe2 sshd[9704]: Local disconnected: Connection closed.
+- 1150652541 2006.06.18 tsqe2 Jun 18 10:42:21 tsqe2/tsqe2 sshd[9704]: connection lost: 'Connection closed.'
+- 1150652542 2006.06.18 tsqe2 Jun 18 10:42:22 tsqe2/tsqe2 sshd2[9723]: Now running on #41#'s privileges.
+- 1150652542 2006.06.18 tsqe2 Jun 18 10:42:22 tsqe2/tsqe2 sshd[9719]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652543 2006.06.18 tsqe2 Jun 18 10:42:23 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652543 2006.06.18 tsqe2 Jun 18 10:42:23 tsqe2/tsqe2 sshd[9719]: Local disconnected: Connection closed.
+- 1150652543 2006.06.18 tsqe2 Jun 18 10:42:23 tsqe2/tsqe2 sshd[9719]: connection lost: 'Connection closed.'
+- 1150652544 2006.06.18 tsqe2 Jun 18 10:42:24 tsqe2/tsqe2 sshd2[9738]: Now running on #41#'s privileges.
+- 1150652544 2006.06.18 tsqe2 Jun 18 10:42:24 tsqe2/tsqe2 sshd[9734]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652545 2006.06.18 tsqe2 Jun 18 10:42:25 tsqe2/tsqe2 sshd[9734]: Local disconnected: Connection closed.
+- 1150652545 2006.06.18 tsqe2 Jun 18 10:42:25 tsqe2/tsqe2 sshd[9734]: connection lost: 'Connection closed.'
+- 1150652546 2006.06.18 tsqe2 Jun 18 10:42:26 tsqe2/tsqe2 sshd2[9755]: Now running on #41#'s privileges.
+- 1150652546 2006.06.18 tsqe2 Jun 18 10:42:26 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652546 2006.06.18 tsqe2 Jun 18 10:42:26 tsqe2/tsqe2 sshd[9749]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652547 2006.06.18 tsqe2 Jun 18 10:42:27 tsqe2/tsqe2 sshd[9749]: Local disconnected: Connection closed.
+- 1150652547 2006.06.18 tsqe2 Jun 18 10:42:27 tsqe2/tsqe2 sshd[9749]: connection lost: 'Connection closed.'
+- 1150652548 2006.06.18 tsqe2 Jun 18 10:42:28 tsqe2/tsqe2 sshd2[9770]: Now running on #41#'s privileges.
+- 1150652548 2006.06.18 tsqe2 Jun 18 10:42:28 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652548 2006.06.18 tsqe2 Jun 18 10:42:28 tsqe2/tsqe2 sshd[9766]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652549 2006.06.18 tsqe2 Jun 18 10:42:29 tsqe2/tsqe2 sshd[9766]: Local disconnected: Connection closed.
+- 1150652549 2006.06.18 tsqe2 Jun 18 10:42:29 tsqe2/tsqe2 sshd[9766]: connection lost: 'Connection closed.'
+- 1150652550 2006.06.18 tsqe2 Jun 18 10:42:30 tsqe2/tsqe2 sshd2[9785]: Now running on #41#'s privileges.
+- 1150652550 2006.06.18 tsqe2 Jun 18 10:42:30 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652550 2006.06.18 tsqe2 Jun 18 10:42:30 tsqe2/tsqe2 sshd[9781]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652551 2006.06.18 tsqe2 Jun 18 10:42:31 tsqe2/tsqe2 sshd[9781]: Local disconnected: Connection closed.
+- 1150652551 2006.06.18 tsqe2 Jun 18 10:42:31 tsqe2/tsqe2 sshd[9781]: connection lost: 'Connection closed.'
+- 1150652552 2006.06.18 tsqe2 Jun 18 10:42:32 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652552 2006.06.18 tsqe2 Jun 18 10:42:32 tsqe2/tsqe2 sshd[9796]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652553 2006.06.18 tsqe2 Jun 18 10:42:33 tsqe2/tsqe2 sshd2[9800]: Now running on #41#'s privileges.
+- 1150652553 2006.06.18 tsqe2 Jun 18 10:42:33 tsqe2/tsqe2 sshd[9796]: Local disconnected: Connection closed.
+- 1150652553 2006.06.18 tsqe2 Jun 18 10:42:33 tsqe2/tsqe2 sshd[9796]: connection lost: 'Connection closed.'
+- 1150652554 2006.06.18 tsqe2 Jun 18 10:42:34 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652554 2006.06.18 tsqe2 Jun 18 10:42:34 tsqe2/tsqe2 sshd[9811]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652555 2006.06.18 tsqe2 Jun 18 10:42:35 tsqe2/tsqe2 sshd2[9815]: Now running on #41#'s privileges.
+- 1150652555 2006.06.18 tsqe2 Jun 18 10:42:35 tsqe2/tsqe2 sshd[9811]: Local disconnected: Connection closed.
+- 1150652555 2006.06.18 tsqe2 Jun 18 10:42:35 tsqe2/tsqe2 sshd[9811]: connection lost: 'Connection closed.'
+- 1150652556 2006.06.18 tsqe2 Jun 18 10:42:36 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652556 2006.06.18 tsqe2 Jun 18 10:42:36 tsqe2/tsqe2 sshd[9826]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652557 2006.06.18 tsqe2 Jun 18 10:42:37 tsqe2/tsqe2 sshd2[9831]: Now running on #41#'s privileges.
+- 1150652557 2006.06.18 tsqe2 Jun 18 10:42:37 tsqe2/tsqe2 sshd[9826]: Local disconnected: Connection closed.
+- 1150652557 2006.06.18 tsqe2 Jun 18 10:42:37 tsqe2/tsqe2 sshd[9826]: connection lost: 'Connection closed.'
+- 1150652558 2006.06.18 aadmin1 Jun 18 10:42:38 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652558 2006.06.18 tsqe2 Jun 18 10:42:38 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652558 2006.06.18 tsqe2 Jun 18 10:42:38 tsqe2/tsqe2 sshd[9843]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652559 2006.06.18 tsqe2 Jun 18 10:42:39 tsqe2/tsqe2 sshd2[9847]: Now running on #41#'s privileges.
+- 1150652559 2006.06.18 tsqe2 Jun 18 10:42:39 tsqe2/tsqe2 sshd[9843]: Local disconnected: Connection closed.
+- 1150652559 2006.06.18 tsqe2 Jun 18 10:42:39 tsqe2/tsqe2 sshd[9843]: connection lost: 'Connection closed.'
+- 1150652560 2006.06.18 tsqe2 Jun 18 10:42:40 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652560 2006.06.18 tsqe2 Jun 18 10:42:40 tsqe2/tsqe2 sshd[9858]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652561 2006.06.18 aadmin1 Jun 18 10:42:41 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652561 2006.06.18 tsqe2 Jun 18 10:42:41 tsqe2/tsqe2 sshd2[9862]: Now running on #41#'s privileges.
+- 1150652561 2006.06.18 tsqe2 Jun 18 10:42:41 tsqe2/tsqe2 sshd[9858]: Local disconnected: Connection closed.
+- 1150652561 2006.06.18 tsqe2 Jun 18 10:42:41 tsqe2/tsqe2 sshd[9858]: connection lost: 'Connection closed.'
+- 1150652562 2006.06.18 tsqe2 Jun 18 10:42:42 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652562 2006.06.18 tsqe2 Jun 18 10:42:42 tsqe2/tsqe2 sshd[9873]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652563 2006.06.18 tsqe2 Jun 18 10:42:43 tsqe2/tsqe2 sshd2[9877]: Now running on #41#'s privileges.
+- 1150652563 2006.06.18 tsqe2 Jun 18 10:42:43 tsqe2/tsqe2 sshd[9873]: Local disconnected: Connection closed.
+- 1150652563 2006.06.18 tsqe2 Jun 18 10:42:43 tsqe2/tsqe2 sshd[9873]: connection lost: 'Connection closed.'
+- 1150652564 2006.06.18 tsqe2 Jun 18 10:42:44 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652564 2006.06.18 tsqe2 Jun 18 10:42:44 tsqe2/tsqe2 sshd[9888]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652565 2006.06.18 tsqe2 Jun 18 10:42:45 tsqe2/tsqe2 sshd2[9892]: Now running on #41#'s privileges.
+- 1150652565 2006.06.18 tsqe2 Jun 18 10:42:45 tsqe2/tsqe2 sshd[9888]: Local disconnected: Connection closed.
+- 1150652565 2006.06.18 tsqe2 Jun 18 10:42:45 tsqe2/tsqe2 sshd[9888]: connection lost: 'Connection closed.'
+- 1150652566 2006.06.18 tsqe2 Jun 18 10:42:46 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652566 2006.06.18 tsqe2 Jun 18 10:42:46 tsqe2/tsqe2 sshd[9903]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652567 2006.06.18 tsqe2 Jun 18 10:42:47 tsqe2/tsqe2 sshd2[9908]: Now running on #41#'s privileges.
+- 1150652567 2006.06.18 tsqe2 Jun 18 10:42:47 tsqe2/tsqe2 sshd[9903]: Local disconnected: Connection closed.
+- 1150652567 2006.06.18 tsqe2 Jun 18 10:42:47 tsqe2/tsqe2 sshd[9903]: connection lost: 'Connection closed.'
+- 1150652568 2006.06.18 tsqe2 Jun 18 10:42:48 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652568 2006.06.18 tsqe2 Jun 18 10:42:48 tsqe2/tsqe2 sshd[9920]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652569 2006.06.18 tsqe2 Jun 18 10:42:49 tsqe2/tsqe2 sshd2[9924]: Now running on #41#'s privileges.
+- 1150652569 2006.06.18 tsqe2 Jun 18 10:42:49 tsqe2/tsqe2 sshd[9920]: Local disconnected: Connection closed.
+- 1150652569 2006.06.18 tsqe2 Jun 18 10:42:49 tsqe2/tsqe2 sshd[9920]: connection lost: 'Connection closed.'
+- 1150652570 2006.06.18 tsqe2 Jun 18 10:42:50 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652570 2006.06.18 tsqe2 Jun 18 10:42:50 tsqe2/tsqe2 sshd[9935]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652571 2006.06.18 tsqe2 Jun 18 10:42:51 tsqe2/tsqe2 sshd2[9939]: Now running on #41#'s privileges.
+- 1150652571 2006.06.18 tsqe2 Jun 18 10:42:51 tsqe2/tsqe2 sshd[9935]: Local disconnected: Connection closed.
+- 1150652571 2006.06.18 tsqe2 Jun 18 10:42:51 tsqe2/tsqe2 sshd[9935]: connection lost: 'Connection closed.'
+- 1150652572 2006.06.18 tsqe2 Jun 18 10:42:52 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652572 2006.06.18 tsqe2 Jun 18 10:42:52 tsqe2/tsqe2 sshd[9950]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652573 2006.06.18 tsqe2 Jun 18 10:42:53 tsqe2/tsqe2 sshd2[9954]: Now running on #41#'s privileges.
+- 1150652573 2006.06.18 tsqe2 Jun 18 10:42:53 tsqe2/tsqe2 sshd[9950]: Local disconnected: Connection closed.
+- 1150652573 2006.06.18 tsqe2 Jun 18 10:42:53 tsqe2/tsqe2 sshd[9950]: connection lost: 'Connection closed.'
+- 1150652574 2006.06.18 tsqe2 Jun 18 10:42:54 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652574 2006.06.18 tsqe2 Jun 18 10:42:54 tsqe2/tsqe2 sshd[9965]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652575 2006.06.18 tsqe2 Jun 18 10:42:55 tsqe2/tsqe2 sshd2[9969]: Now running on #41#'s privileges.
+- 1150652575 2006.06.18 tsqe2 Jun 18 10:42:55 tsqe2/tsqe2 sshd[9965]: Local disconnected: Connection closed.
+- 1150652575 2006.06.18 tsqe2 Jun 18 10:42:55 tsqe2/tsqe2 sshd[9965]: connection lost: 'Connection closed.'
+- 1150652576 2006.06.18 tsqe2 Jun 18 10:42:56 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652577 2006.06.18 tsqe2 Jun 18 10:42:57 tsqe2/tsqe2 sshd2[9984]: Now running on #41#'s privileges.
+- 1150652577 2006.06.18 tsqe2 Jun 18 10:42:57 tsqe2/tsqe2 sshd[9980]: Local disconnected: Connection closed.
+- 1150652577 2006.06.18 tsqe2 Jun 18 10:42:57 tsqe2/tsqe2 sshd[9980]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652577 2006.06.18 tsqe2 Jun 18 10:42:57 tsqe2/tsqe2 sshd[9980]: connection lost: 'Connection closed.'
+- 1150652578 2006.06.18 tsqe2 Jun 18 10:42:58 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652579 2006.06.18 tsqe2 Jun 18 10:42:59 tsqe2/tsqe2 sshd2[10001]: Now running on #41#'s privileges.
+- 1150652579 2006.06.18 tsqe2 Jun 18 10:42:59 tsqe2/tsqe2 sshd[9997]: Local disconnected: Connection closed.
+- 1150652579 2006.06.18 tsqe2 Jun 18 10:42:59 tsqe2/tsqe2 sshd[9997]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652579 2006.06.18 tsqe2 Jun 18 10:42:59 tsqe2/tsqe2 sshd[9997]: connection lost: 'Connection closed.'
+- 1150652580 2006.06.18 tsqe2 Jun 18 10:43:00 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652581 2006.06.18 #56# Jun 18 10:43:01 #56#/#56# crond(pam_unix)[21698]: session opened for user #57# by (uid=0)
+- 1150652581 2006.06.18 #56# Jun 18 10:43:01 #56#/#56# crond[21699]: (#57#) CMD (/home/#57#/ping2.sh)
+- 1150652581 2006.06.18 tsqe2 Jun 18 10:43:01 tsqe2/tsqe2 sshd2[10016]: Now running on #41#'s privileges.
+- 1150652581 2006.06.18 tsqe2 Jun 18 10:43:01 tsqe2/tsqe2 sshd[10012]: Local disconnected: Connection closed.
+- 1150652581 2006.06.18 tsqe2 Jun 18 10:43:01 tsqe2/tsqe2 sshd[10012]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652581 2006.06.18 tsqe2 Jun 18 10:43:01 tsqe2/tsqe2 sshd[10012]: connection lost: 'Connection closed.'
+- 1150652582 2006.06.18 tsqe2 Jun 18 10:43:02 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652583 2006.06.18 badmin1 Jun 18 10:43:03 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652583 2006.06.18 badmin2 Jun 18 10:43:03 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652583 2006.06.18 badmin3 Jun 18 10:43:03 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652583 2006.06.18 badmin4 Jun 18 10:43:03 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652583 2006.06.18 tsqe2 Jun 18 10:43:03 tsqe2/tsqe2 sshd2[10031]: Now running on #41#'s privileges.
+- 1150652583 2006.06.18 tsqe2 Jun 18 10:43:03 tsqe2/tsqe2 sshd[10027]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652584 2006.06.18 tsqe2 Jun 18 10:43:04 tsqe2/tsqe2 sshd[10027]: Local disconnected: Connection closed.
+- 1150652584 2006.06.18 tsqe2 Jun 18 10:43:04 tsqe2/tsqe2 sshd[10027]: connection lost: 'Connection closed.'
+- 1150652584 2006.06.18 tsqe2 Jun 18 10:43:04 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652585 2006.06.18 aadmin1 Jun 18 10:43:05 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652585 2006.06.18 tsqe2 Jun 18 10:43:05 tsqe2/tsqe2 sshd2[10046]: Now running on #41#'s privileges.
+- 1150652585 2006.06.18 tsqe2 Jun 18 10:43:05 tsqe2/tsqe2 sshd[10042]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# crond(pam_unix)[21659]: session closed for user #26#
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/cleanup[21715]: 5C13FF2012E: message-id=<20060618164306.5C13FF2012E@#56#.#207#>
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/cleanup[21715]: 671D1F200A2: message-id=<20060618164306.671D1F200A2@#56#.#207#>
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/local[21717]: 5C13FF2012E: to=<#26#@#56#.#207#>, orig_to=<#26#>, relay=local, delay=0, status=bounced (cannot access mailbox /var/mail/#26# for user #26#. error writing message: File too large)
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/pickup[20339]: 5C13FF2012E: uid=50055 from=<#26#>
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/qmgr[3261]: 5C13FF2012E: from=<#26#@#207#>, size=303443, nrcpt=1 (queue active)
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/qmgr[3261]: 5C13FF2012E: removed
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/qmgr[3261]: 671D1F200A2: from=<>, size=52080, nrcpt=1 (queue active)
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/qmgr[3261]: 671D1F200A2: removed
+- 1150652586 2006.06.18 #56# Jun 18 10:43:06 #56#/#56# postfix/smtp[21719]: 671D1F200A2: to=<#26#@#207#>, relay=#211#[#212#], delay=0, status=bounced (host #211#[#212#] said: 550 5.1.1 <#26#@#207#>... User unknown (in reply to RCPT TO command))
+- 1150652586 2006.06.18 tsqe2 Jun 18 10:43:06 tsqe2/tsqe2 sshd[10042]: Local disconnected: Connection closed.
+- 1150652586 2006.06.18 tsqe2 Jun 18 10:43:06 tsqe2/tsqe2 sshd[10042]: connection lost: 'Connection closed.'
+- 1150652586 2006.06.18 tsqe2 Jun 18 10:43:06 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652587 2006.06.18 tsqe2 Jun 18 10:43:07 tsqe2/tsqe2 sshd2[10061]: Now running on #41#'s privileges.
+- 1150652587 2006.06.18 tsqe2 Jun 18 10:43:07 tsqe2/tsqe2 sshd[10057]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652588 2006.06.18 tsqe2 Jun 18 10:43:08 tsqe2/tsqe2 sshd[10057]: Local disconnected: Connection closed.
+- 1150652588 2006.06.18 tsqe2 Jun 18 10:43:08 tsqe2/tsqe2 sshd[10057]: connection lost: 'Connection closed.'
+- 1150652588 2006.06.18 tsqe2 Jun 18 10:43:08 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652589 2006.06.18 tsqe2 Jun 18 10:43:09 tsqe2/tsqe2 sshd2[10078]: Now running on #41#'s privileges.
+- 1150652589 2006.06.18 tsqe2 Jun 18 10:43:09 tsqe2/tsqe2 sshd[10074]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652590 2006.06.18 tsqe2 Jun 18 10:43:10 tsqe2/tsqe2 sshd[10074]: Local disconnected: Connection closed.
+- 1150652590 2006.06.18 tsqe2 Jun 18 10:43:10 tsqe2/tsqe2 sshd[10074]: connection lost: 'Connection closed.'
+- 1150652590 2006.06.18 tsqe2 Jun 18 10:43:10 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652591 2006.06.18 #56# Jun 18 10:43:11 #56#/#56# crond(pam_unix)[21698]: session closed for user #57#
+- 1150652591 2006.06.18 tsqe2 Jun 18 10:43:11 tsqe2/tsqe2 sshd2[10093]: Now running on #41#'s privileges.
+- 1150652591 2006.06.18 tsqe2 Jun 18 10:43:11 tsqe2/tsqe2 sshd[10089]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652592 2006.06.18 tsqe2 Jun 18 10:43:12 tsqe2/tsqe2 sshd[10089]: Local disconnected: Connection closed.
+- 1150652592 2006.06.18 tsqe2 Jun 18 10:43:12 tsqe2/tsqe2 sshd[10089]: connection lost: 'Connection closed.'
+- 1150652592 2006.06.18 tsqe2 Jun 18 10:43:12 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652593 2006.06.18 tsqe2 Jun 18 10:43:13 tsqe2/tsqe2 sshd2[10108]: Now running on #41#'s privileges.
+- 1150652593 2006.06.18 tsqe2 Jun 18 10:43:13 tsqe2/tsqe2 sshd[10104]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652594 2006.06.18 aadmin1 Jun 18 10:43:14 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652594 2006.06.18 tsqe2 Jun 18 10:43:14 tsqe2/tsqe2 sshd[10104]: Local disconnected: Connection closed.
+- 1150652594 2006.06.18 tsqe2 Jun 18 10:43:14 tsqe2/tsqe2 sshd[10104]: connection lost: 'Connection closed.'
+- 1150652594 2006.06.18 tsqe2 Jun 18 10:43:14 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652595 2006.06.18 tsqe2 Jun 18 10:43:15 tsqe2/tsqe2 sshd2[10123]: Now running on #41#'s privileges.
+- 1150652595 2006.06.18 tsqe2 Jun 18 10:43:15 tsqe2/tsqe2 sshd[10119]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652596 2006.06.18 tsqe2 Jun 18 10:43:16 tsqe2/tsqe2 sshd[10119]: Local disconnected: Connection closed.
+- 1150652596 2006.06.18 tsqe2 Jun 18 10:43:16 tsqe2/tsqe2 sshd[10119]: connection lost: 'Connection closed.'
+- 1150652596 2006.06.18 tsqe2 Jun 18 10:43:16 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652597 2006.06.18 tsqe2 Jun 18 10:43:17 tsqe2/tsqe2 sshd2[10138]: Now running on #41#'s privileges.
+- 1150652597 2006.06.18 tsqe2 Jun 18 10:43:17 tsqe2/tsqe2 sshd[10134]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652598 2006.06.18 tsqe2 Jun 18 10:43:18 tsqe2/tsqe2 sshd[10134]: Local disconnected: Connection closed.
+- 1150652598 2006.06.18 tsqe2 Jun 18 10:43:18 tsqe2/tsqe2 sshd[10134]: connection lost: 'Connection closed.'
+- 1150652598 2006.06.18 tsqe2 Jun 18 10:43:18 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652599 2006.06.18 tsqe2 Jun 18 10:43:19 tsqe2/tsqe2 sshd2[10155]: Now running on #41#'s privileges.
+- 1150652599 2006.06.18 tsqe2 Jun 18 10:43:19 tsqe2/tsqe2 sshd[10151]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652600 2006.06.18 tsqe2 Jun 18 10:43:20 tsqe2/tsqe2 sshd[10151]: Local disconnected: Connection closed.
+- 1150652600 2006.06.18 tsqe2 Jun 18 10:43:20 tsqe2/tsqe2 sshd[10151]: connection lost: 'Connection closed.'
+- 1150652600 2006.06.18 tsqe2 Jun 18 10:43:20 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652601 2006.06.18 tsqe2 Jun 18 10:43:21 tsqe2/tsqe2 sshd2[10170]: Now running on #41#'s privileges.
+- 1150652601 2006.06.18 tsqe2 Jun 18 10:43:21 tsqe2/tsqe2 sshd[10166]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652602 2006.06.18 tsqe2 Jun 18 10:43:22 tsqe2/tsqe2 sshd[10166]: Local disconnected: Connection closed.
+- 1150652602 2006.06.18 tsqe2 Jun 18 10:43:22 tsqe2/tsqe2 sshd[10166]: connection lost: 'Connection closed.'
+- 1150652602 2006.06.18 tsqe2 Jun 18 10:43:22 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652603 2006.06.18 tsqe2 Jun 18 10:43:23 tsqe2/tsqe2 sshd2[10185]: Now running on #41#'s privileges.
+- 1150652603 2006.06.18 tsqe2 Jun 18 10:43:23 tsqe2/tsqe2 sshd[10181]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652604 2006.06.18 tsqe2 Jun 18 10:43:24 tsqe2/tsqe2 sshd[10181]: Local disconnected: Connection closed.
+- 1150652604 2006.06.18 tsqe2 Jun 18 10:43:24 tsqe2/tsqe2 sshd[10181]: connection lost: 'Connection closed.'
+- 1150652604 2006.06.18 tsqe2 Jun 18 10:43:24 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652605 2006.06.18 tsqe2 Jun 18 10:43:25 tsqe2/tsqe2 sshd2[10200]: Now running on #41#'s privileges.
+- 1150652605 2006.06.18 tsqe2 Jun 18 10:43:25 tsqe2/tsqe2 sshd[10196]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652606 2006.06.18 tsqe2 Jun 18 10:43:26 tsqe2/tsqe2 sshd[10196]: Local disconnected: Connection closed.
+- 1150652606 2006.06.18 tsqe2 Jun 18 10:43:26 tsqe2/tsqe2 sshd[10196]: connection lost: 'Connection closed.'
+- 1150652606 2006.06.18 tsqe2 Jun 18 10:43:26 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652607 2006.06.18 tsqe2 Jun 18 10:43:27 tsqe2/tsqe2 sshd2[10215]: Now running on #41#'s privileges.
+- 1150652607 2006.06.18 tsqe2 Jun 18 10:43:27 tsqe2/tsqe2 sshd[10211]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652608 2006.06.18 tsqe2 Jun 18 10:43:28 tsqe2/tsqe2 sshd[10211]: Local disconnected: Connection closed.
+- 1150652608 2006.06.18 tsqe2 Jun 18 10:43:28 tsqe2/tsqe2 sshd[10211]: connection lost: 'Connection closed.'
+- 1150652608 2006.06.18 tsqe2 Jun 18 10:43:28 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652609 2006.06.18 tsqe2 Jun 18 10:43:29 tsqe2/tsqe2 sshd2[10232]: Now running on #41#'s privileges.
+- 1150652609 2006.06.18 tsqe2 Jun 18 10:43:29 tsqe2/tsqe2 sshd[10228]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652610 2006.06.18 tsqe2 Jun 18 10:43:30 tsqe2/tsqe2 sshd[10228]: Local disconnected: Connection closed.
+- 1150652610 2006.06.18 tsqe2 Jun 18 10:43:30 tsqe2/tsqe2 sshd[10228]: connection lost: 'Connection closed.'
+- 1150652611 2006.06.18 aadmin1 Jun 18 10:43:31 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652611 2006.06.18 tsqe2 Jun 18 10:43:31 tsqe2/tsqe2 sshd2[10247]: Now running on #41#'s privileges.
+- 1150652611 2006.06.18 tsqe2 Jun 18 10:43:31 tsqe2/tsqe2 sshd[10243]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652611 2006.06.18 tsqe2 Jun 18 10:43:31 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652612 2006.06.18 tsqe2 Jun 18 10:43:32 tsqe2/tsqe2 sshd[10243]: Local disconnected: Connection closed.
+- 1150652612 2006.06.18 tsqe2 Jun 18 10:43:32 tsqe2/tsqe2 sshd[10243]: connection lost: 'Connection closed.'
+- 1150652613 2006.06.18 tsqe2 Jun 18 10:43:33 tsqe2/tsqe2 sshd2[10262]: Now running on #41#'s privileges.
+- 1150652613 2006.06.18 tsqe2 Jun 18 10:43:33 tsqe2/tsqe2 sshd[10258]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652613 2006.06.18 tsqe2 Jun 18 10:43:33 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652614 2006.06.18 tsqe2 Jun 18 10:43:34 tsqe2/tsqe2 sshd[10258]: Local disconnected: Connection closed.
+- 1150652614 2006.06.18 tsqe2 Jun 18 10:43:34 tsqe2/tsqe2 sshd[10258]: connection lost: 'Connection closed.'
+- 1150652615 2006.06.18 tsqe2 Jun 18 10:43:35 tsqe2/tsqe2 sshd2[10277]: Now running on #41#'s privileges.
+- 1150652615 2006.06.18 tsqe2 Jun 18 10:43:35 tsqe2/tsqe2 sshd[10273]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652615 2006.06.18 tsqe2 Jun 18 10:43:35 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652616 2006.06.18 tsqe2 Jun 18 10:43:36 tsqe2/tsqe2 sshd[10273]: Local disconnected: Connection closed.
+- 1150652616 2006.06.18 tsqe2 Jun 18 10:43:36 tsqe2/tsqe2 sshd[10273]: connection lost: 'Connection closed.'
+- 1150652617 2006.06.18 tsqe2 Jun 18 10:43:37 tsqe2/tsqe2 sshd2[10292]: Now running on #41#'s privileges.
+- 1150652617 2006.06.18 tsqe2 Jun 18 10:43:37 tsqe2/tsqe2 sshd[10288]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652617 2006.06.18 tsqe2 Jun 18 10:43:37 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652618 2006.06.18 tsqe2 Jun 18 10:43:38 tsqe2/tsqe2 sshd[10288]: Local disconnected: Connection closed.
+- 1150652618 2006.06.18 tsqe2 Jun 18 10:43:38 tsqe2/tsqe2 sshd[10288]: connection lost: 'Connection closed.'
+- 1150652619 2006.06.18 tsqe2 Jun 18 10:43:39 tsqe2/tsqe2 sshd[10305]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652619 2006.06.18 tsqe2 Jun 18 10:43:39 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652620 2006.06.18 tsqe2 Jun 18 10:43:40 tsqe2/tsqe2 sshd2[10309]: Now running on #41#'s privileges.
+- 1150652620 2006.06.18 tsqe2 Jun 18 10:43:40 tsqe2/tsqe2 sshd[10305]: Local disconnected: Connection closed.
+- 1150652620 2006.06.18 tsqe2 Jun 18 10:43:40 tsqe2/tsqe2 sshd[10305]: connection lost: 'Connection closed.'
+- 1150652621 2006.06.18 tsqe2 Jun 18 10:43:41 tsqe2/tsqe2 sshd[10320]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652621 2006.06.18 tsqe2 Jun 18 10:43:41 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652622 2006.06.18 tsqe2 Jun 18 10:43:42 tsqe2/tsqe2 sshd2[10324]: Now running on #41#'s privileges.
+- 1150652622 2006.06.18 tsqe2 Jun 18 10:43:42 tsqe2/tsqe2 sshd[10320]: Local disconnected: Connection closed.
+- 1150652622 2006.06.18 tsqe2 Jun 18 10:43:42 tsqe2/tsqe2 sshd[10320]: connection lost: 'Connection closed.'
+- 1150652623 2006.06.18 tsqe2 Jun 18 10:43:43 tsqe2/tsqe2 sshd[10335]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652623 2006.06.18 tsqe2 Jun 18 10:43:43 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652624 2006.06.18 tsqe2 Jun 18 10:43:44 tsqe2/tsqe2 sshd2[10339]: Now running on #41#'s privileges.
+- 1150652624 2006.06.18 tsqe2 Jun 18 10:43:44 tsqe2/tsqe2 sshd[10335]: Local disconnected: Connection closed.
+- 1150652624 2006.06.18 tsqe2 Jun 18 10:43:44 tsqe2/tsqe2 sshd[10335]: connection lost: 'Connection closed.'
+- 1150652625 2006.06.18 tsqe2 Jun 18 10:43:45 tsqe2/tsqe2 sshd[10350]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652625 2006.06.18 tsqe2 Jun 18 10:43:45 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652626 2006.06.18 tsqe2 Jun 18 10:43:46 tsqe2/tsqe2 sshd2[10354]: Now running on #41#'s privileges.
+- 1150652626 2006.06.18 tsqe2 Jun 18 10:43:46 tsqe2/tsqe2 sshd[10350]: Local disconnected: Connection closed.
+- 1150652626 2006.06.18 tsqe2 Jun 18 10:43:46 tsqe2/tsqe2 sshd[10350]: connection lost: 'Connection closed.'
+- 1150652627 2006.06.18 tsqe2 Jun 18 10:43:47 tsqe2/tsqe2 sshd[10365]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652627 2006.06.18 tsqe2 Jun 18 10:43:47 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652628 2006.06.18 aadmin1 Jun 18 10:43:48 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652628 2006.06.18 tsqe2 Jun 18 10:43:48 tsqe2/tsqe2 sshd2[10369]: Now running on #41#'s privileges.
+- 1150652628 2006.06.18 tsqe2 Jun 18 10:43:48 tsqe2/tsqe2 sshd[10365]: Local disconnected: Connection closed.
+- 1150652628 2006.06.18 tsqe2 Jun 18 10:43:48 tsqe2/tsqe2 sshd[10365]: connection lost: 'Connection closed.'
+- 1150652629 2006.06.18 tsqe2 Jun 18 10:43:49 tsqe2/tsqe2 sshd[10381]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652629 2006.06.18 tsqe2 Jun 18 10:43:49 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652630 2006.06.18 tsqe2 Jun 18 10:43:50 tsqe2/tsqe2 sshd2[10386]: Now running on #41#'s privileges.
+- 1150652630 2006.06.18 tsqe2 Jun 18 10:43:50 tsqe2/tsqe2 sshd[10381]: Local disconnected: Connection closed.
+- 1150652630 2006.06.18 tsqe2 Jun 18 10:43:50 tsqe2/tsqe2 sshd[10381]: connection lost: 'Connection closed.'
+- 1150652631 2006.06.18 tsqe2 Jun 18 10:43:51 tsqe2/tsqe2 sshd[10397]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652631 2006.06.18 tsqe2 Jun 18 10:43:51 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652632 2006.06.18 tsqe2 Jun 18 10:43:52 tsqe2/tsqe2 sshd2[10401]: Now running on #41#'s privileges.
+- 1150652632 2006.06.18 tsqe2 Jun 18 10:43:52 tsqe2/tsqe2 sshd[10397]: Local disconnected: Connection closed.
+- 1150652632 2006.06.18 tsqe2 Jun 18 10:43:52 tsqe2/tsqe2 sshd[10397]: connection lost: 'Connection closed.'
+- 1150652633 2006.06.18 tsqe2 Jun 18 10:43:53 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652634 2006.06.18 tsqe2 Jun 18 10:43:54 tsqe2/tsqe2 sshd2[10416]: Now running on #41#'s privileges.
+- 1150652634 2006.06.18 tsqe2 Jun 18 10:43:54 tsqe2/tsqe2 sshd[10412]: Local disconnected: Connection closed.
+- 1150652634 2006.06.18 tsqe2 Jun 18 10:43:54 tsqe2/tsqe2 sshd[10412]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652634 2006.06.18 tsqe2 Jun 18 10:43:54 tsqe2/tsqe2 sshd[10412]: connection lost: 'Connection closed.'
+- 1150652635 2006.06.18 tsqe2 Jun 18 10:43:55 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652636 2006.06.18 tsqe2 Jun 18 10:43:56 tsqe2/tsqe2 sshd2[10431]: Now running on #41#'s privileges.
+- 1150652636 2006.06.18 tsqe2 Jun 18 10:43:56 tsqe2/tsqe2 sshd[10427]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652637 2006.06.18 tsqe2 Jun 18 10:43:57 tsqe2/tsqe2 sshd[10427]: Local disconnected: Connection closed.
+- 1150652637 2006.06.18 tsqe2 Jun 18 10:43:57 tsqe2/tsqe2 sshd[10427]: connection lost: 'Connection closed.'
+- 1150652637 2006.06.18 tsqe2 Jun 18 10:43:57 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652638 2006.06.18 aadmin1 Jun 18 10:43:58 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652638 2006.06.18 tsqe2 Jun 18 10:43:58 tsqe2/tsqe2 sshd2[10447]: Now running on #41#'s privileges.
+- 1150652638 2006.06.18 tsqe2 Jun 18 10:43:58 tsqe2/tsqe2 sshd[10442]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652639 2006.06.18 tsqe2 Jun 18 10:43:59 tsqe2/tsqe2 sshd[10442]: Local disconnected: Connection closed.
+- 1150652639 2006.06.18 tsqe2 Jun 18 10:43:59 tsqe2/tsqe2 sshd[10442]: connection lost: 'Connection closed.'
+- 1150652639 2006.06.18 tsqe2 Jun 18 10:43:59 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652640 2006.06.18 tsqe2 Jun 18 10:44:00 tsqe2/tsqe2 sshd2[10464]: Now running on #41#'s privileges.
+- 1150652640 2006.06.18 tsqe2 Jun 18 10:44:00 tsqe2/tsqe2 sshd[10459]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652641 2006.06.18 tsqe2 Jun 18 10:44:01 tsqe2/tsqe2 sshd[10459]: Local disconnected: Connection closed.
+- 1150652641 2006.06.18 tsqe2 Jun 18 10:44:01 tsqe2/tsqe2 sshd[10459]: connection lost: 'Connection closed.'
+- 1150652641 2006.06.18 tsqe2 Jun 18 10:44:01 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652642 2006.06.18 tsqe2 Jun 18 10:44:02 tsqe2/tsqe2 sshd2[10479]: Now running on #41#'s privileges.
+- 1150652642 2006.06.18 tsqe2 Jun 18 10:44:02 tsqe2/tsqe2 sshd[10475]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652643 2006.06.18 tsqe2 Jun 18 10:44:03 tsqe2/tsqe2 sshd[10475]: Local disconnected: Connection closed.
+- 1150652643 2006.06.18 tsqe2 Jun 18 10:44:03 tsqe2/tsqe2 sshd[10475]: connection lost: 'Connection closed.'
+- 1150652643 2006.06.18 tsqe2 Jun 18 10:44:03 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652644 2006.06.18 tsqe2 Jun 18 10:44:04 tsqe2/tsqe2 sshd2[10494]: Now running on #41#'s privileges.
+- 1150652644 2006.06.18 tsqe2 Jun 18 10:44:04 tsqe2/tsqe2 sshd[10490]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652645 2006.06.18 tsqe2 Jun 18 10:44:05 tsqe2/tsqe2 sshd[10490]: Local disconnected: Connection closed.
+- 1150652645 2006.06.18 tsqe2 Jun 18 10:44:05 tsqe2/tsqe2 sshd[10490]: connection lost: 'Connection closed.'
+- 1150652645 2006.06.18 tsqe2 Jun 18 10:44:05 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652646 2006.06.18 tsqe2 Jun 18 10:44:06 tsqe2/tsqe2 sshd2[10509]: Now running on #41#'s privileges.
+- 1150652646 2006.06.18 tsqe2 Jun 18 10:44:06 tsqe2/tsqe2 sshd[10505]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652647 2006.06.18 badmin1 Jun 18 10:44:07 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652647 2006.06.18 badmin2 Jun 18 10:44:07 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652647 2006.06.18 badmin3 Jun 18 10:44:07 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652647 2006.06.18 badmin4 Jun 18 10:44:07 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652647 2006.06.18 tsqe2 Jun 18 10:44:07 tsqe2/tsqe2 sshd[10505]: Local disconnected: Connection closed.
+- 1150652647 2006.06.18 tsqe2 Jun 18 10:44:07 tsqe2/tsqe2 sshd[10505]: connection lost: 'Connection closed.'
+- 1150652647 2006.06.18 tsqe2 Jun 18 10:44:07 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652648 2006.06.18 tsqe2 Jun 18 10:44:08 tsqe2/tsqe2 sshd2[10524]: Now running on #41#'s privileges.
+- 1150652648 2006.06.18 tsqe2 Jun 18 10:44:08 tsqe2/tsqe2 sshd[10520]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652649 2006.06.18 tsqe2 Jun 18 10:44:09 tsqe2/tsqe2 sshd[10520]: Local disconnected: Connection closed.
+- 1150652649 2006.06.18 tsqe2 Jun 18 10:44:09 tsqe2/tsqe2 sshd[10520]: connection lost: 'Connection closed.'
+- 1150652649 2006.06.18 tsqe2 Jun 18 10:44:09 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652650 2006.06.18 tsqe2 Jun 18 10:44:10 tsqe2/tsqe2 sshd2[10541]: Now running on #41#'s privileges.
+- 1150652650 2006.06.18 tsqe2 Jun 18 10:44:10 tsqe2/tsqe2 sshd[10536]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652651 2006.06.18 tsqe2 Jun 18 10:44:11 tsqe2/tsqe2 sshd[10536]: Local disconnected: Connection closed.
+- 1150652651 2006.06.18 tsqe2 Jun 18 10:44:11 tsqe2/tsqe2 sshd[10536]: connection lost: 'Connection closed.'
+- 1150652651 2006.06.18 tsqe2 Jun 18 10:44:11 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652652 2006.06.18 tsqe2 Jun 18 10:44:12 tsqe2/tsqe2 sshd2[10556]: Now running on #41#'s privileges.
+- 1150652652 2006.06.18 tsqe2 Jun 18 10:44:12 tsqe2/tsqe2 sshd[10552]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652653 2006.06.18 tsqe2 Jun 18 10:44:13 tsqe2/tsqe2 sshd[10552]: Local disconnected: Connection closed.
+- 1150652653 2006.06.18 tsqe2 Jun 18 10:44:13 tsqe2/tsqe2 sshd[10552]: connection lost: 'Connection closed.'
+- 1150652653 2006.06.18 tsqe2 Jun 18 10:44:13 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652654 2006.06.18 tsqe2 Jun 18 10:44:14 tsqe2/tsqe2 sshd2[10571]: Now running on #41#'s privileges.
+- 1150652654 2006.06.18 tsqe2 Jun 18 10:44:14 tsqe2/tsqe2 sshd[10567]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652655 2006.06.18 tsqe2 Jun 18 10:44:15 tsqe2/tsqe2 sshd[10567]: Local disconnected: Connection closed.
+- 1150652655 2006.06.18 tsqe2 Jun 18 10:44:15 tsqe2/tsqe2 sshd[10567]: connection lost: 'Connection closed.'
+- 1150652655 2006.06.18 tsqe2 Jun 18 10:44:15 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652656 2006.06.18 aadmin1 Jun 18 10:44:16 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652656 2006.06.18 tsqe2 Jun 18 10:44:16 tsqe2/tsqe2 sshd2[10586]: Now running on #41#'s privileges.
+- 1150652656 2006.06.18 tsqe2 Jun 18 10:44:16 tsqe2/tsqe2 sshd[10582]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652657 2006.06.18 tsqe2 Jun 18 10:44:17 tsqe2/tsqe2 sshd[10582]: Local disconnected: Connection closed.
+- 1150652657 2006.06.18 tsqe2 Jun 18 10:44:17 tsqe2/tsqe2 sshd[10582]: connection lost: 'Connection closed.'
+- 1150652658 2006.06.18 tsqe2 Jun 18 10:44:18 tsqe2/tsqe2 sshd2[10601]: Now running on #41#'s privileges.
+- 1150652658 2006.06.18 tsqe2 Jun 18 10:44:18 tsqe2/tsqe2 sshd[10597]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652658 2006.06.18 tsqe2 Jun 18 10:44:18 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652659 2006.06.18 tsqe2 Jun 18 10:44:19 tsqe2/tsqe2 sshd[10597]: Local disconnected: Connection closed.
+- 1150652659 2006.06.18 tsqe2 Jun 18 10:44:19 tsqe2/tsqe2 sshd[10597]: connection lost: 'Connection closed.'
+- 1150652660 2006.06.18 tsqe2 Jun 18 10:44:20 tsqe2/tsqe2 sshd[10613]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652660 2006.06.18 tsqe2 Jun 18 10:44:20 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652661 2006.06.18 tsqe2 Jun 18 10:44:21 tsqe2/tsqe2 sshd2[10618]: Now running on #41#'s privileges.
+- 1150652661 2006.06.18 tsqe2 Jun 18 10:44:21 tsqe2/tsqe2 sshd[10613]: Local disconnected: Connection closed.
+- 1150652661 2006.06.18 tsqe2 Jun 18 10:44:21 tsqe2/tsqe2 sshd[10613]: connection lost: 'Connection closed.'
+- 1150652662 2006.06.18 tsqe2 Jun 18 10:44:22 tsqe2/tsqe2 sshd[10629]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652662 2006.06.18 tsqe2 Jun 18 10:44:22 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652663 2006.06.18 tsqe2 Jun 18 10:44:23 tsqe2/tsqe2 sshd2[10633]: Now running on #41#'s privileges.
+- 1150652663 2006.06.18 tsqe2 Jun 18 10:44:23 tsqe2/tsqe2 sshd[10629]: Local disconnected: Connection closed.
+- 1150652663 2006.06.18 tsqe2 Jun 18 10:44:23 tsqe2/tsqe2 sshd[10629]: connection lost: 'Connection closed.'
+- 1150652664 2006.06.18 tsqe2 Jun 18 10:44:24 tsqe2/tsqe2 sshd[10644]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652664 2006.06.18 tsqe2 Jun 18 10:44:24 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652665 2006.06.18 tsqe2 Jun 18 10:44:25 tsqe2/tsqe2 sshd2[10648]: Now running on #41#'s privileges.
+- 1150652665 2006.06.18 tsqe2 Jun 18 10:44:25 tsqe2/tsqe2 sshd[10644]: Local disconnected: Connection closed.
+- 1150652665 2006.06.18 tsqe2 Jun 18 10:44:25 tsqe2/tsqe2 sshd[10644]: connection lost: 'Connection closed.'
+- 1150652666 2006.06.18 tsqe2 Jun 18 10:44:26 tsqe2/tsqe2 sshd[10659]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652666 2006.06.18 tsqe2 Jun 18 10:44:26 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652667 2006.06.18 tsqe2 Jun 18 10:44:27 tsqe2/tsqe2 sshd2[10663]: Now running on #41#'s privileges.
+- 1150652667 2006.06.18 tsqe2 Jun 18 10:44:27 tsqe2/tsqe2 sshd[10659]: Local disconnected: Connection closed.
+- 1150652667 2006.06.18 tsqe2 Jun 18 10:44:27 tsqe2/tsqe2 sshd[10659]: connection lost: 'Connection closed.'
+- 1150652668 2006.06.18 tsqe2 Jun 18 10:44:28 tsqe2/tsqe2 sshd[10674]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652668 2006.06.18 tsqe2 Jun 18 10:44:28 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652669 2006.06.18 tsqe2 Jun 18 10:44:29 tsqe2/tsqe2 sshd2[10678]: Now running on #41#'s privileges.
+- 1150652669 2006.06.18 tsqe2 Jun 18 10:44:29 tsqe2/tsqe2 sshd[10674]: Local disconnected: Connection closed.
+- 1150652669 2006.06.18 tsqe2 Jun 18 10:44:29 tsqe2/tsqe2 sshd[10674]: connection lost: 'Connection closed.'
+- 1150652670 2006.06.18 tsqe2 Jun 18 10:44:30 tsqe2/tsqe2 sshd[10689]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652670 2006.06.18 tsqe2 Jun 18 10:44:30 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652671 2006.06.18 aadmin1 Jun 18 10:44:31 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652671 2006.06.18 tsqe2 Jun 18 10:44:31 tsqe2/tsqe2 sshd2[10694]: Now running on #41#'s privileges.
+- 1150652671 2006.06.18 tsqe2 Jun 18 10:44:31 tsqe2/tsqe2 sshd[10689]: Local disconnected: Connection closed.
+- 1150652671 2006.06.18 tsqe2 Jun 18 10:44:31 tsqe2/tsqe2 sshd[10689]: connection lost: 'Connection closed.'
+- 1150652672 2006.06.18 #2116# Jun 18 10:44:32 #2116#/#2116# crond(pam_unix)[3459]: session closed for user root
+- 1150652672 2006.06.18 #2116# Jun 18 10:44:32 #2116#/#2116# crond(pam_unix)[3459]: session opened for user root by (uid=0)
+- 1150652672 2006.06.18 #2116# Jun 18 10:44:32 #2116#/#2116# crond(pam_unix)[3460]: session closed for user root
+- 1150652672 2006.06.18 #2116# Jun 18 10:44:32 #2116#/#2116# crond(pam_unix)[3460]: session opened for user root by (uid=0)
+- 1150652672 2006.06.18 #2116# Jun 18 10:44:32 #2116#/#2116# crond[3461]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1150652672 2006.06.18 #2116# Jun 18 10:44:32 #2116#/#2116# crond[3462]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1150652672 2006.06.18 tsqe2 Jun 18 10:44:32 tsqe2/tsqe2 sshd[10706]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652672 2006.06.18 tsqe2 Jun 18 10:44:32 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652673 2006.06.18 tsqe2 Jun 18 10:44:33 tsqe2/tsqe2 sshd2[10710]: Now running on #41#'s privileges.
+- 1150652673 2006.06.18 tsqe2 Jun 18 10:44:33 tsqe2/tsqe2 sshd[10706]: Local disconnected: Connection closed.
+- 1150652673 2006.06.18 tsqe2 Jun 18 10:44:33 tsqe2/tsqe2 sshd[10706]: connection lost: 'Connection closed.'
+- 1150652674 2006.06.18 tsqe2 Jun 18 10:44:34 tsqe2/tsqe2 sshd[10721]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652674 2006.06.18 tsqe2 Jun 18 10:44:34 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652675 2006.06.18 tsqe2 Jun 18 10:44:35 tsqe2/tsqe2 sshd2[10725]: Now running on #41#'s privileges.
+- 1150652675 2006.06.18 tsqe2 Jun 18 10:44:35 tsqe2/tsqe2 sshd[10721]: Local disconnected: Connection closed.
+- 1150652675 2006.06.18 tsqe2 Jun 18 10:44:35 tsqe2/tsqe2 sshd[10721]: connection lost: 'Connection closed.'
+- 1150652676 2006.06.18 tsqe2 Jun 18 10:44:36 tsqe2/tsqe2 sshd[10736]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652676 2006.06.18 tsqe2 Jun 18 10:44:36 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652677 2006.06.18 tsqe2 Jun 18 10:44:37 tsqe2/tsqe2 sshd2[10740]: Now running on #41#'s privileges.
+- 1150652677 2006.06.18 tsqe2 Jun 18 10:44:37 tsqe2/tsqe2 sshd[10736]: Local disconnected: Connection closed.
+- 1150652677 2006.06.18 tsqe2 Jun 18 10:44:37 tsqe2/tsqe2 sshd[10736]: connection lost: 'Connection closed.'
+- 1150652678 2006.06.18 tsqe2 Jun 18 10:44:38 tsqe2/tsqe2 sshd[10751]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652678 2006.06.18 tsqe2 Jun 18 10:44:38 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652679 2006.06.18 tsqe2 Jun 18 10:44:39 tsqe2/tsqe2 sshd2[10755]: Now running on #41#'s privileges.
+- 1150652679 2006.06.18 tsqe2 Jun 18 10:44:39 tsqe2/tsqe2 sshd[10751]: Local disconnected: Connection closed.
+- 1150652679 2006.06.18 tsqe2 Jun 18 10:44:39 tsqe2/tsqe2 sshd[10751]: connection lost: 'Connection closed.'
+- 1150652680 2006.06.18 tsqe2 Jun 18 10:44:40 tsqe2/tsqe2 sshd[10766]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652680 2006.06.18 tsqe2 Jun 18 10:44:40 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652681 2006.06.18 tsqe2 Jun 18 10:44:41 tsqe2/tsqe2 sshd2[10771]: Now running on #41#'s privileges.
+- 1150652681 2006.06.18 tsqe2 Jun 18 10:44:41 tsqe2/tsqe2 sshd[10766]: Local disconnected: Connection closed.
+- 1150652681 2006.06.18 tsqe2 Jun 18 10:44:41 tsqe2/tsqe2 sshd[10766]: connection lost: 'Connection closed.'
+- 1150652682 2006.06.18 tsqe2 Jun 18 10:44:42 tsqe2/tsqe2 sshd[10783]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652682 2006.06.18 tsqe2 Jun 18 10:44:42 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652683 2006.06.18 tsqe2 Jun 18 10:44:43 tsqe2/tsqe2 sshd2[10787]: Now running on #41#'s privileges.
+- 1150652683 2006.06.18 tsqe2 Jun 18 10:44:43 tsqe2/tsqe2 sshd[10783]: Local disconnected: Connection closed.
+- 1150652683 2006.06.18 tsqe2 Jun 18 10:44:43 tsqe2/tsqe2 sshd[10783]: connection lost: 'Connection closed.'
+- 1150652684 2006.06.18 tsqe2 Jun 18 10:44:44 tsqe2/tsqe2 sshd[10798]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652684 2006.06.18 tsqe2 Jun 18 10:44:44 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652685 2006.06.18 aadmin1 Jun 18 10:44:45 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652685 2006.06.18 tsqe2 Jun 18 10:44:45 tsqe2/tsqe2 sshd2[10802]: Now running on #41#'s privileges.
+- 1150652685 2006.06.18 tsqe2 Jun 18 10:44:45 tsqe2/tsqe2 sshd[10798]: Local disconnected: Connection closed.
+- 1150652685 2006.06.18 tsqe2 Jun 18 10:44:45 tsqe2/tsqe2 sshd[10798]: connection lost: 'Connection closed.'
+- 1150652686 2006.06.18 tsqe2 Jun 18 10:44:46 tsqe2/tsqe2 sshd[10813]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652686 2006.06.18 tsqe2 Jun 18 10:44:46 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652687 2006.06.18 tsqe2 Jun 18 10:44:47 tsqe2/tsqe2 sshd2[10817]: Now running on #41#'s privileges.
+- 1150652687 2006.06.18 tsqe2 Jun 18 10:44:47 tsqe2/tsqe2 sshd[10813]: Local disconnected: Connection closed.
+- 1150652687 2006.06.18 tsqe2 Jun 18 10:44:47 tsqe2/tsqe2 sshd[10813]: connection lost: 'Connection closed.'
+- 1150652688 2006.06.18 tsqe2 Jun 18 10:44:48 tsqe2/tsqe2 sshd[10828]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652688 2006.06.18 tsqe2 Jun 18 10:44:48 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652689 2006.06.18 tsqe2 Jun 18 10:44:49 tsqe2/tsqe2 sshd2[10832]: Now running on #41#'s privileges.
+- 1150652689 2006.06.18 tsqe2 Jun 18 10:44:49 tsqe2/tsqe2 sshd[10828]: Local disconnected: Connection closed.
+- 1150652689 2006.06.18 tsqe2 Jun 18 10:44:49 tsqe2/tsqe2 sshd[10828]: connection lost: 'Connection closed.'
+- 1150652690 2006.06.18 tsqe2 Jun 18 10:44:50 tsqe2/tsqe2 sshd[10843]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652690 2006.06.18 tsqe2 Jun 18 10:44:50 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652691 2006.06.18 tsqe2 Jun 18 10:44:51 tsqe2/tsqe2 sshd2[10847]: Now running on #41#'s privileges.
+- 1150652691 2006.06.18 tsqe2 Jun 18 10:44:51 tsqe2/tsqe2 sshd[10843]: Local disconnected: Connection closed.
+- 1150652691 2006.06.18 tsqe2 Jun 18 10:44:51 tsqe2/tsqe2 sshd[10843]: connection lost: 'Connection closed.'
+- 1150652692 2006.06.18 tsqe2 Jun 18 10:44:52 tsqe2/tsqe2 sshd[10860]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652692 2006.06.18 tsqe2 Jun 18 10:44:52 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652693 2006.06.18 tsqe2 Jun 18 10:44:53 tsqe2/tsqe2 sshd2[10864]: Now running on #41#'s privileges.
+- 1150652693 2006.06.18 tsqe2 Jun 18 10:44:53 tsqe2/tsqe2 sshd[10860]: Local disconnected: Connection closed.
+- 1150652693 2006.06.18 tsqe2 Jun 18 10:44:53 tsqe2/tsqe2 sshd[10860]: connection lost: 'Connection closed.'
+- 1150652694 2006.06.18 tsqe2 Jun 18 10:44:54 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652695 2006.06.18 tsqe2 Jun 18 10:44:55 tsqe2/tsqe2 sshd2[10879]: Now running on #41#'s privileges.
+- 1150652695 2006.06.18 tsqe2 Jun 18 10:44:55 tsqe2/tsqe2 sshd[10875]: Local disconnected: Connection closed.
+- 1150652695 2006.06.18 tsqe2 Jun 18 10:44:55 tsqe2/tsqe2 sshd[10875]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652695 2006.06.18 tsqe2 Jun 18 10:44:55 tsqe2/tsqe2 sshd[10875]: connection lost: 'Connection closed.'
+- 1150652696 2006.06.18 tsqe2 Jun 18 10:44:56 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652697 2006.06.18 tsqe2 Jun 18 10:44:57 tsqe2/tsqe2 sshd2[10894]: Now running on #41#'s privileges.
+- 1150652697 2006.06.18 tsqe2 Jun 18 10:44:57 tsqe2/tsqe2 sshd[10890]: Local disconnected: Connection closed.
+- 1150652697 2006.06.18 tsqe2 Jun 18 10:44:57 tsqe2/tsqe2 sshd[10890]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652697 2006.06.18 tsqe2 Jun 18 10:44:57 tsqe2/tsqe2 sshd[10890]: connection lost: 'Connection closed.'
+- 1150652698 2006.06.18 tsqe2 Jun 18 10:44:58 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652699 2006.06.18 aadmin1 Jun 18 10:44:59 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A2] datasource
+- 1150652699 2006.06.18 tsqe2 Jun 18 10:44:59 tsqe2/tsqe2 sshd2[10909]: Now running on #41#'s privileges.
+- 1150652699 2006.06.18 tsqe2 Jun 18 10:44:59 tsqe2/tsqe2 sshd[10905]: Local disconnected: Connection closed.
+- 1150652699 2006.06.18 tsqe2 Jun 18 10:44:59 tsqe2/tsqe2 sshd[10905]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652700 2006.06.18 tsqe2 Jun 18 10:45:00 tsqe2/tsqe2 sshd[10905]: connection lost: 'Connection closed.'
+- 1150652700 2006.06.18 tsqe2 Jun 18 10:45:00 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652701 2006.06.18 #56# Jun 18 10:45:01 #56#/#56# crond(pam_unix)[21738]: session opened for user #57# by (uid=0)
+- 1150652701 2006.06.18 #56# Jun 18 10:45:01 #56#/#56# crond[21739]: (#57#) CMD (/home/#57#/ping2.sh)
+- 1150652701 2006.06.18 tsqe2 Jun 18 10:45:01 tsqe2/tsqe2 sshd2[10924]: Now running on #41#'s privileges.
+- 1150652701 2006.06.18 tsqe2 Jun 18 10:45:01 tsqe2/tsqe2 sshd[10920]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652702 2006.06.18 tsqe2 Jun 18 10:45:02 tsqe2/tsqe2 sshd[10920]: Local disconnected: Connection closed.
+- 1150652702 2006.06.18 tsqe2 Jun 18 10:45:02 tsqe2/tsqe2 sshd[10920]: connection lost: 'Connection closed.'
+- 1150652702 2006.06.18 tsqe2 Jun 18 10:45:02 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652703 2006.06.18 tsqe2 Jun 18 10:45:03 tsqe2/tsqe2 sshd2[10941]: Now running on #41#'s privileges.
+- 1150652703 2006.06.18 tsqe2 Jun 18 10:45:03 tsqe2/tsqe2 sshd[10937]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652704 2006.06.18 tsqe2 Jun 18 10:45:04 tsqe2/tsqe2 sshd[10937]: Local disconnected: Connection closed.
+- 1150652704 2006.06.18 tsqe2 Jun 18 10:45:04 tsqe2/tsqe2 sshd[10937]: connection lost: 'Connection closed.'
+- 1150652704 2006.06.18 tsqe2 Jun 18 10:45:04 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652705 2006.06.18 tsqe2 Jun 18 10:45:05 tsqe2/tsqe2 sshd2[10956]: Now running on #41#'s privileges.
+- 1150652705 2006.06.18 tsqe2 Jun 18 10:45:05 tsqe2/tsqe2 sshd[10952]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652706 2006.06.18 tsqe2 Jun 18 10:45:06 tsqe2/tsqe2 sshd[10952]: Local disconnected: Connection closed.
+- 1150652706 2006.06.18 tsqe2 Jun 18 10:45:06 tsqe2/tsqe2 sshd[10952]: connection lost: 'Connection closed.'
+- 1150652706 2006.06.18 tsqe2 Jun 18 10:45:06 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652707 2006.06.18 tsqe2 Jun 18 10:45:07 tsqe2/tsqe2 sshd2[10971]: Now running on #41#'s privileges.
+- 1150652707 2006.06.18 tsqe2 Jun 18 10:45:07 tsqe2/tsqe2 sshd[10967]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652708 2006.06.18 tsqe2 Jun 18 10:45:08 tsqe2/tsqe2 sshd[10967]: Local disconnected: Connection closed.
+- 1150652708 2006.06.18 tsqe2 Jun 18 10:45:08 tsqe2/tsqe2 sshd[10967]: connection lost: 'Connection closed.'
+- 1150652708 2006.06.18 tsqe2 Jun 18 10:45:08 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652709 2006.06.18 tsqe2 Jun 18 10:45:09 tsqe2/tsqe2 sshd2[10986]: Now running on #41#'s privileges.
+- 1150652709 2006.06.18 tsqe2 Jun 18 10:45:09 tsqe2/tsqe2 sshd[10982]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652710 2006.06.18 tsqe2 Jun 18 10:45:10 tsqe2/tsqe2 sshd[10982]: Local disconnected: Connection closed.
+- 1150652710 2006.06.18 tsqe2 Jun 18 10:45:10 tsqe2/tsqe2 sshd[10982]: connection lost: 'Connection closed.'
+- 1150652710 2006.06.18 tsqe2 Jun 18 10:45:10 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652711 2006.06.18 badmin1 Jun 18 10:45:11 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652711 2006.06.18 badmin2 Jun 18 10:45:11 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652711 2006.06.18 badmin3 Jun 18 10:45:11 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652711 2006.06.18 badmin4 Jun 18 10:45:11 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:de:04:5e via eth1: network B_net: no free leases
+- 1150652711 2006.06.18 tsqe2 Jun 18 10:45:11 tsqe2/tsqe2 sshd2[11001]: Now running on #41#'s privileges.
+- 1150652711 2006.06.18 tsqe2 Jun 18 10:45:11 tsqe2/tsqe2 sshd[10997]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652712 2006.06.18 #56# Jun 18 10:45:12 #56#/#56# crond(pam_unix)[21738]: session closed for user #57#
+- 1150652712 2006.06.18 tsqe2 Jun 18 10:45:12 tsqe2/tsqe2 sshd[10997]: Local disconnected: Connection closed.
+- 1150652712 2006.06.18 tsqe2 Jun 18 10:45:12 tsqe2/tsqe2 sshd[10997]: connection lost: 'Connection closed.'
+- 1150652712 2006.06.18 tsqe2 Jun 18 10:45:12 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652713 2006.06.18 aadmin1 Jun 18 10:45:13 src@aadmin1 /usr/sbin/gmetad[8292]: data_thread() got not answer from any [Thunderbird_A1] datasource
+- 1150652713 2006.06.18 tsqe2 Jun 18 10:45:13 tsqe2/tsqe2 sshd2[11018]: Now running on #41#'s privileges.
+- 1150652713 2006.06.18 tsqe2 Jun 18 10:45:13 tsqe2/tsqe2 sshd[11014]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652714 2006.06.18 tsqe2 Jun 18 10:45:14 tsqe2/tsqe2 sshd[11014]: Local disconnected: Connection closed.
+- 1150652714 2006.06.18 tsqe2 Jun 18 10:45:14 tsqe2/tsqe2 sshd[11014]: connection lost: 'Connection closed.'
+- 1150652714 2006.06.18 tsqe2 Jun 18 10:45:14 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652715 2006.06.18 tsqe2 Jun 18 10:45:15 tsqe2/tsqe2 sshd2[11033]: Now running on #41#'s privileges.
+- 1150652715 2006.06.18 tsqe2 Jun 18 10:45:15 tsqe2/tsqe2 sshd[11029]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652716 2006.06.18 tsqe2 Jun 18 10:45:16 tsqe2/tsqe2 sshd[11029]: Local disconnected: Connection closed.
+- 1150652716 2006.06.18 tsqe2 Jun 18 10:45:16 tsqe2/tsqe2 sshd[11029]: connection lost: 'Connection closed.'
+- 1150652716 2006.06.18 tsqe2 Jun 18 10:45:16 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652717 2006.06.18 tsqe2 Jun 18 10:45:17 tsqe2/tsqe2 sshd2[11048]: Now running on #41#'s privileges.
+- 1150652717 2006.06.18 tsqe2 Jun 18 10:45:17 tsqe2/tsqe2 sshd[11044]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652718 2006.06.18 tsqe2 Jun 18 10:45:18 tsqe2/tsqe2 sshd[11044]: Local disconnected: Connection closed.
+- 1150652718 2006.06.18 tsqe2 Jun 18 10:45:18 tsqe2/tsqe2 sshd[11044]: connection lost: 'Connection closed.'
+- 1150652718 2006.06.18 tsqe2 Jun 18 10:45:18 tsqe2/tsqe2 sshd[2466]: connection from "#569#"
+- 1150652719 2006.06.18 tsqe2 Jun 18 10:45:19 tsqe2/tsqe2 sshd2[11063]: Now running on #41#'s privileges.
+- 1150652719 2006.06.18 tsqe2 Jun 18 10:45:19 tsqe2/tsqe2 sshd[11059]: User #41#, coming from tbird-#2402#, authenticated.
+- 1150652720 2006.06.18 tsqe2 Jun 18 10:45:20 tsqe2/tsqe2 sshd[11059]: Local disconnected: Connection closed.
+- 1150652720 2006.06.18 tsqe2 Jun 18 10:45:20 tsqe2/tsqe2 sshd[11059]: connection lost: 'Connection closed.'
+- 1150652720 2006.06.18 tsqe2 Jun 18 10:45:20 tsqe2/tsqe2 sshd[2466]: connection from "#569#"

@@ -1,0 +1,50 @@
+debug wait enable.................0
+floating pt ex mode 1 enable......0
+instruction address space.........0
+data address space................0
+data address space................0
+data address space................0
+core configuration register: 0x00002000
+core configuration register: 0x00002000
+core configuration register: 0x00002000
+core configuration register: 0x00002000
+core configuration register: 0x00002000
+core configuration register: 0x00002000
+disable store gathering..................0
+disable store gathering..................0
+disable store gathering..................0
+generating core.42
+total of 1 ddr error(s) detected and corrected
+generating core.145
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+generating core.1978
+generating core.2040
+generating core.15
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+instruction cache parity error corrected
+generating core.16218
+instruction cache parity error corrected
+instruction cache parity error corrected
+generating core.8531
+generating core.2961
+generating core.15966
+generating core.42
+generating core.93
+generating core.2605
+generating core.6037
+generating core.886
+generating core.3053
+generating core.2790
+ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:51706
+instruction cache parity error corrected
+generating core.1488

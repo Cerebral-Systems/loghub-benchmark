@@ -1,0 +1,36 @@
+{
+  "indicator_locations": [
+    {
+      "file": "thunderbird-other.log",
+      "line": 15,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 21,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 24,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 27,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "thunderbird-other.log",
+      "line": 33,
+      "why_not_anomalous": "benign_info"
+    }
+  ],
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

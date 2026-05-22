@@ -1,0 +1,175 @@
+{
+  "allowed_roles": [
+    "trigger",
+    "propagation",
+    "consequence",
+    "noise"
+  ],
+  "allowed_root_causes": [
+    "vm_task_failure",
+    "network_error",
+    "image_pull_failure",
+    "other"
+  ],
+  "files": [
+    "openstack-nova-api.log",
+    "openstack-nova-compute.log",
+    "openstack-nova-scheduler.log"
+  ],
+  "is_incident": true,
+  "kendall_tau_threshold": 0.8,
+  "root_cause_type": "vm_task_failure",
+  "schema_version": "loghub-sre-answer-v2-seq",
+  "timeline": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1393,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1394,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1395,
+      "role": "propagation",
+      "sequence": 2
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1396,
+      "role": "propagation",
+      "sequence": 3
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1397,
+      "role": "propagation",
+      "sequence": 4
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1398,
+      "role": "propagation",
+      "sequence": 5
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1399,
+      "role": "propagation",
+      "sequence": 6
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1400,
+      "role": "propagation",
+      "sequence": 7
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1401,
+      "role": "propagation",
+      "sequence": 8
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1410,
+      "role": "propagation",
+      "sequence": 9
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1411,
+      "role": "propagation",
+      "sequence": 10
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1412,
+      "role": "propagation",
+      "sequence": 11
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1416,
+      "role": "propagation",
+      "sequence": 12
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1417,
+      "role": "propagation",
+      "sequence": 13
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1418,
+      "role": "propagation",
+      "sequence": 14
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1419,
+      "role": "propagation",
+      "sequence": 15
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1420,
+      "role": "propagation",
+      "sequence": 16
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1421,
+      "role": "propagation",
+      "sequence": 17
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1428,
+      "role": "propagation",
+      "sequence": 18
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1429,
+      "role": "propagation",
+      "sequence": 19
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1430,
+      "role": "propagation",
+      "sequence": 20
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1431,
+      "role": "propagation",
+      "sequence": 21
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1432,
+      "role": "propagation",
+      "sequence": 22
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1433,
+      "role": "propagation",
+      "sequence": 23
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1449,
+      "role": "propagation",
+      "sequence": 24
+    }
+  ]
+}

@@ -1,0 +1,1408 @@
+- 1152232683 2006.07.06 dn603 Jul 6 17:38:03 dn603/dn603 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1152232683 2006.07.06 dn889 Jul 6 17:38:03 dn889/dn889 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1152232687 2006.07.06 dn689 Jul 6 17:38:07 dn689/dn689 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1152232689 2006.07.06 dn505 Jul 6 17:38:09 dn505/dn505 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152232690 2006.07.06 dn361 Jul 6 17:38:10 dn361/dn361 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1152232694 2006.07.06 dn728 Jul 6 17:38:14 dn728/dn728 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1152232704 2006.07.06 dn673 Jul 6 17:38:24 dn673/dn673 ntpd[2332]: synchronized to 10.100.26.250, stratum 3
+- 1152232706 2006.07.06 dn179 Jul 6 17:38:26 dn179/dn179 ntpd[2267]: synchronized to 10.100.30.250, stratum 3
+- 1152232706 2006.07.06 dn307 Jul 6 17:38:26 dn307/dn307 ntpd[2293]: synchronized to 10.100.28.250, stratum 3
+- 1152232707 2006.07.06 dn173 Jul 6 17:38:27 dn173/dn173 ntpd[2269]: synchronized to 10.100.28.250, stratum 3
+- 1152232710 2006.07.06 dn652 Jul 6 17:38:30 dn652/dn652 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152232711 2006.07.06 dn190 Jul 6 17:38:31 dn190/dn190 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152232711 2006.07.06 dn537 Jul 6 17:38:31 dn537/dn537 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+- 1152232713 2006.07.06 dn976 Jul 6 17:38:33 dn976/dn976 ntpd[2262]: synchronized to 10.100.26.250, stratum 3
+- 1152232714 2006.07.06 dn705 Jul 6 17:38:34 dn705/dn705 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1152232719 2006.07.06 dn811 Jul 6 17:38:39 dn811/dn811 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152232720 2006.07.06 dn488 Jul 6 17:38:40 dn488/dn488 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+- 1152232722 2006.07.06 dn705 Jul 6 17:38:42 dn705/dn705 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1152232725 2006.07.06 dn568 Jul 6 17:38:45 dn568/dn568 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1152232730 2006.07.06 dn334 Jul 6 17:38:50 dn334/dn334 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1152232739 2006.07.06 dn397 Jul 6 17:38:59 dn397/dn397 ntpd[2283]: synchronized to 10.100.30.250, stratum 3
+- 1152232742 2006.07.06 dn4 Jul 6 17:39:02 dn4/dn4 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152232743 2006.07.06 dn678 Jul 6 17:39:03 dn678/dn678 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1152232745 2006.07.06 dn537 Jul 6 17:39:05 dn537/dn537 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1152232746 2006.07.06 dn833 Jul 6 17:39:06 dn833/dn833 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1152232747 2006.07.06 dn621 Jul 6 17:39:07 dn621/dn621 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1152232751 2006.07.06 dn976 Jul 6 17:39:11 dn976/dn976 ntpd[2262]: synchronized to 10.100.30.250, stratum 3
+- 1152232761 2006.07.06 dn960 Jul 6 17:39:21 dn960/dn960 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152232764 2006.07.06 dn162 Jul 6 17:39:24 dn162/dn162 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152232765 2006.07.06 dn890 Jul 6 17:39:25 dn890/dn890 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1152232775 2006.07.06 dn799 Jul 6 17:39:35 dn799/dn799 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152232776 2006.07.06 dn1003 Jul 6 17:39:36 dn1003/dn1003 ntpd[2265]: synchronized to 10.100.30.250, stratum 3
+- 1152232777 2006.07.06 dn1003 Jul 6 17:39:37 dn1003/dn1003 ntpd[2265]: synchronized to 10.100.26.250, stratum 3
+- 1152232779 2006.07.06 dn999 Jul 6 17:39:39 dn999/dn999 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152232780 2006.07.06 dn780 Jul 6 17:39:40 dn780/dn780 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152232781 2006.07.06 dn577 Jul 6 17:39:41 dn577/dn577 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152232781 2006.07.06 dn712 Jul 6 17:39:41 dn712/dn712 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1152232786 2006.07.06 dn819 Jul 6 17:39:46 dn819/dn819 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152232789 2006.07.06 dn219 Jul 6 17:39:49 dn219/dn219 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152232789 2006.07.06 dn631 Jul 6 17:39:49 dn631/dn631 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152232790 2006.07.06 dn172 Jul 6 17:39:50 dn172/dn172 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152232792 2006.07.06 dn609 Jul 6 17:39:52 dn609/dn609 ntpd[2347]: synchronized to 10.100.30.250, stratum 3
+- 1152232799 2006.07.06 dn969 Jul 6 17:39:59 dn969/dn969 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1152232807 2006.07.06 dn835 Jul 6 17:40:07 dn835/dn835 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152232810 2006.07.06 dn823 Jul 6 17:40:10 dn823/dn823 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152232810 2006.07.06 dn917 Jul 6 17:40:10 dn917/dn917 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152232813 2006.07.06 dn957 Jul 6 17:40:13 dn957/dn957 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152232815 2006.07.06 dn351 Jul 6 17:40:15 dn351/dn351 ntpd[2290]: synchronized to 10.100.28.250, stratum 3
+- 1152232816 2006.07.06 dn771 Jul 6 17:40:16 dn771/dn771 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1152232817 2006.07.06 dn907 Jul 6 17:40:17 dn907/dn907 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152232821 2006.07.06 dn166 Jul 6 17:40:21 dn166/dn166 ntpd[2267]: synchronized to 10.100.30.250, stratum 3
+- 1152232824 2006.07.06 dn1021 Jul 6 17:40:24 dn1021/dn1021 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152232825 2006.07.06 dn969 Jul 6 17:40:25 dn969/dn969 ntpd[2273]: synchronized to 10.100.28.250, stratum 3
+- 1152232827 2006.07.06 dn370 Jul 6 17:40:27 dn370/dn370 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152232827 2006.07.06 dn667 Jul 6 17:40:27 dn667/dn667 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1152232831 2006.07.06 dn18 Jul 6 17:40:31 dn18/dn18 ntpd[2211]: synchronized to 10.100.30.250, stratum 3
+- 1152232832 2006.07.06 dn410 Jul 6 17:40:32 dn410/dn410 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1152232832 2006.07.06 dn830 Jul 6 17:40:32 dn830/dn830 ntpd[4962]: synchronized to 10.100.28.250, stratum 3
+- 1152232838 2006.07.06 dn823 Jul 6 17:40:38 dn823/dn823 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152232840 2006.07.06 dn921 Jul 6 17:40:40 dn921/dn921 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152232841 2006.07.06 dn987 Jul 6 17:40:41 dn987/dn987 ntpd[2262]: synchronized to 10.100.30.250, stratum 3
+- 1152232846 2006.07.06 dn960 Jul 6 17:40:46 dn960/dn960 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152232852 2006.07.06 dn759 Jul 6 17:40:52 dn759/dn759 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+- 1152232852 2006.07.06 dn770 Jul 6 17:40:52 dn770/dn770 ntpd[2265]: synchronized to 10.100.30.250, stratum 3
+- 1152232853 2006.07.06 dn821 Jul 6 17:40:53 dn821/dn821 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152232857 2006.07.06 dn267 Jul 6 17:40:57 dn267/dn267 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152232857 2006.07.06 dn861 Jul 6 17:40:57 dn861/dn861 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152232860 2006.07.06 dn183 Jul 6 17:41:00 dn183/dn183 ntpd[2257]: synchronized to 10.100.30.250, stratum 3
+- 1152232860 2006.07.06 dn366 Jul 6 17:41:00 dn366/dn366 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1152232861 2006.07.06 dn6 Jul 6 17:41:01 dn6/dn6 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152232867 2006.07.06 dn598 Jul 6 17:41:07 dn598/dn598 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1152232870 2006.07.06 dn202 Jul 6 17:41:10 dn202/dn202 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152232870 2006.07.06 dn221 Jul 6 17:41:10 dn221/dn221 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152232875 2006.07.06 dn571 Jul 6 17:41:15 dn571/dn571 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152232876 2006.07.06 dn615 Jul 6 17:41:16 dn615/dn615 ntpd[2282]: synchronized to 10.100.26.250, stratum 3
+- 1152232881 2006.07.06 dn716 Jul 6 17:41:21 dn716/dn716 ntpd[2284]: synchronized to 10.100.26.250, stratum 3
+- 1152232883 2006.07.06 dn37 Jul 6 17:41:23 dn37/dn37 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1152232883 2006.07.06 dn560 Jul 6 17:41:23 dn560/dn560 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152232883 2006.07.06 dn774 Jul 6 17:41:23 dn774/dn774 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152232885 2006.07.06 dn687 Jul 6 17:41:25 dn687/dn687 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1152232889 2006.07.06 dn55 Jul 6 17:41:29 dn55/dn55 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152232891 2006.07.06 dn212 Jul 6 17:41:31 dn212/dn212 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152232894 2006.07.06 dn439 Jul 6 17:41:34 dn439/dn439 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1152232895 2006.07.06 dn821 Jul 6 17:41:35 dn821/dn821 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152232900 2006.07.06 dn753 Jul 6 17:41:40 dn753/dn753 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152232903 2006.07.06 dn274 Jul 6 17:41:43 dn274/dn274 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152232903 2006.07.06 dn525 Jul 6 17:41:43 dn525/dn525 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152232903 2006.07.06 dn623 Jul 6 17:41:43 dn623/dn623 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152232905 2006.07.06 dn7 Jul 6 17:41:45 dn7/dn7 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1152232906 2006.07.06 dn545 Jul 6 17:41:46 dn545/dn545 ntpd[2282]: synchronized to 10.100.30.250, stratum 3
+- 1152232907 2006.07.06 dn478 Jul 6 17:41:47 dn478/dn478 ntpd[2287]: synchronized to 10.100.28.250, stratum 3
+- 1152232912 2006.07.06 dn695 Jul 6 17:41:52 dn695/dn695 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1152232920 2006.07.06 dn707 Jul 6 17:42:00 dn707/dn707 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152232922 2006.07.06 dn180 Jul 6 17:42:02 dn180/dn180 ntpd[2267]: synchronized to 10.100.30.250, stratum 3
+- 1152232925 2006.07.06 dn348 Jul 6 17:42:05 dn348/dn348 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152232927 2006.07.06 dn889 Jul 6 17:42:07 dn889/dn889 ntpd[2263]: synchronized to 10.100.26.250, stratum 3
+- 1152232930 2006.07.06 dn738 Jul 6 17:42:10 dn738/dn738 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1152232931 2006.07.06 dn531 Jul 6 17:42:11 dn531/dn531 ntpd[2283]: synchronized to 10.100.30.250, stratum 3
+- 1152232932 2006.07.06 dn396 Jul 6 17:42:12 dn396/dn396 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1152232936 2006.07.06 dn794 Jul 6 17:42:16 dn794/dn794 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1152232940 2006.07.06 dn770 Jul 6 17:42:20 dn770/dn770 ntpd[2265]: synchronized to 10.100.26.250, stratum 3
+- 1152232948 2006.07.06 dn785 Jul 6 17:42:28 dn785/dn785 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1152232950 2006.07.06 dn669 Jul 6 17:42:30 dn669/dn669 ntpd[2335]: synchronized to 10.100.30.250, stratum 3
+- 1152232955 2006.07.06 dn235 Jul 6 17:42:35 dn235/dn235 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152232956 2006.07.06 dn370 Jul 6 17:42:36 dn370/dn370 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1152232969 2006.07.06 dn614 Jul 6 17:42:49 dn614/dn614 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1152232974 2006.07.06 dn90 Jul 6 17:42:54 dn90/dn90 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152232975 2006.07.06 dn565 Jul 6 17:42:55 dn565/dn565 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152232977 2006.07.06 dn701 Jul 6 17:42:57 dn701/dn701 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152232979 2006.07.06 dn657 Jul 6 17:42:59 dn657/dn657 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1152232982 2006.07.06 dn794 Jul 6 17:43:02 dn794/dn794 ntpd[2266]: synchronized to 10.100.28.250, stratum 3
+- 1152232983 2006.07.06 dn245 Jul 6 17:43:03 dn245/dn245 ntpd[2276]: synchronized to 10.100.28.250, stratum 3
+- 1152232985 2006.07.06 dn473 Jul 6 17:43:05 dn473/dn473 ntpd[2283]: synchronized to 10.100.28.250, stratum 3
+- 1152232990 2006.07.06 dn974 Jul 6 17:43:10 dn974/dn974 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1152232998 2006.07.06 dn301 Jul 6 17:43:18 dn301/dn301 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152233004 2006.07.06 dn1001 Jul 6 17:43:24 dn1001/dn1001 ntpd[2261]: synchronized to 10.100.26.250, stratum 3
+- 1152233004 2006.07.06 dn299 Jul 6 17:43:24 dn299/dn299 ntpd[2282]: synchronized to 10.100.30.250, stratum 3
+- 1152233011 2006.07.06 dn704 Jul 6 17:43:31 dn704/dn704 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1152233012 2006.07.06 dn348 Jul 6 17:43:32 dn348/dn348 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233015 2006.07.06 dn974 Jul 6 17:43:35 dn974/dn974 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152233019 2006.07.06 dn229 Jul 6 17:43:39 dn229/dn229 ntpd[2265]: synchronized to 10.100.26.250, stratum 3
+- 1152233020 2006.07.06 dn653 Jul 6 17:43:40 dn653/dn653 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1152233020 2006.07.06 dn910 Jul 6 17:43:40 dn910/dn910 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233022 2006.07.06 dn388 Jul 6 17:43:42 dn388/dn388 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1152233024 2006.07.06 dn1021 Jul 6 17:43:44 dn1021/dn1021 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152233025 2006.07.06 dn863 Jul 6 17:43:45 dn863/dn863 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233025 2006.07.06 dn910 Jul 6 17:43:45 dn910/dn910 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152233027 2006.07.06 dn581 Jul 6 17:43:47 dn581/dn581 ntpd[2344]: synchronized to 10.100.30.250, stratum 3
+- 1152233033 2006.07.06 dn62 Jul 6 17:43:53 dn62/dn62 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233037 2006.07.06 dn939 Jul 6 17:43:57 dn939/dn939 ntpd[2264]: synchronized to 10.100.30.250, stratum 3
+- 1152233040 2006.07.06 dn266 Jul 6 17:44:00 dn266/dn266 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1152233057 2006.07.06 dn176 Jul 6 17:44:17 dn176/dn176 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152233057 2006.07.06 dn211 Jul 6 17:44:17 dn211/dn211 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152233057 2006.07.06 dn575 Jul 6 17:44:17 dn575/dn575 ntpd[2336]: synchronized to 10.100.30.250, stratum 3
+- 1152233064 2006.07.06 dn950 Jul 6 17:44:24 dn950/dn950 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152233069 2006.07.06 dn594 Jul 6 17:44:29 dn594/dn594 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152233074 2006.07.06 dn322 Jul 6 17:44:34 dn322/dn322 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233074 2006.07.06 dn530 Jul 6 17:44:34 dn530/dn530 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1152233074 2006.07.06 dn987 Jul 6 17:44:34 dn987/dn987 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1152233077 2006.07.06 dn977 Jul 6 17:44:37 dn977/dn977 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1152233079 2006.07.06 dn207 Jul 6 17:44:39 dn207/dn207 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152233096 2006.07.06 dn314 Jul 6 17:44:56 dn314/dn314 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1152233099 2006.07.06 dn898 Jul 6 17:44:59 dn898/dn898 ntpd[2261]: synchronized to 10.100.28.250, stratum 3
+- 1152233102 2006.07.06 dn347 Jul 6 17:45:02 dn347/dn347 ntpd[2270]: synchronized to 10.100.30.250, stratum 3
+- 1152233104 2006.07.06 dn886 Jul 6 17:45:04 dn886/dn886 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1152233109 2006.07.06 dn730 Jul 6 17:45:09 dn730/dn730 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1152233120 2006.07.06 dn72 Jul 6 17:45:20 dn72/dn72 ntpd[2269]: synchronized to 10.100.30.250, stratum 3
+- 1152233122 2006.07.06 dn771 Jul 6 17:45:22 dn771/dn771 ntpd[2266]: synchronized to 10.100.28.250, stratum 3
+- 1152233125 2006.07.06 dn118 Jul 6 17:45:25 dn118/dn118 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1152233125 2006.07.06 dn962 Jul 6 17:45:25 dn962/dn962 ntpd[2261]: synchronized to 10.100.30.250, stratum 3
+- 1152233130 2006.07.06 dn727 Jul 6 17:45:30 dn727/dn727 ntpd[2288]: synchronized to 10.100.30.250, stratum 3
+- 1152233133 2006.07.06 dn258 Jul 6 17:45:33 dn258/dn258 ntpd[2294]: synchronized to 10.100.30.250, stratum 3
+- 1152233133 2006.07.06 dn44 Jul 6 17:45:33 dn44/dn44 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152233134 2006.07.06 dn339 Jul 6 17:45:34 dn339/dn339 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152233136 2006.07.06 dn498 Jul 6 17:45:36 dn498/dn498 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1152233138 2006.07.06 dn567 Jul 6 17:45:38 dn567/dn567 ntpd[2345]: synchronized to 10.100.28.250, stratum 3
+- 1152233140 2006.07.06 dn774 Jul 6 17:45:40 dn774/dn774 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152233141 2006.07.06 dn518 Jul 6 17:45:41 dn518/dn518 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233141 2006.07.06 dn793 Jul 6 17:45:41 dn793/dn793 ntpd[2264]: synchronized to 10.100.28.250, stratum 3
+- 1152233145 2006.07.06 dn976 Jul 6 17:45:45 dn976/dn976 ntpd[2262]: synchronized to 10.100.28.250, stratum 3
+- 1152233146 2006.07.06 dn462 Jul 6 17:45:46 dn462/dn462 ntpd[2271]: synchronized to 10.100.24.250, stratum 3
+- 1152233155 2006.07.06 dn162 Jul 6 17:45:55 dn162/dn162 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1152233155 2006.07.06 dn704 Jul 6 17:45:55 dn704/dn704 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1152233159 2006.07.06 dn714 Jul 6 17:45:59 dn714/dn714 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233160 2006.07.06 dn739 Jul 6 17:46:00 dn739/dn739 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152233163 2006.07.06 dn704 Jul 6 17:46:03 dn704/dn704 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1152233163 2006.07.06 dn796 Jul 6 17:46:03 dn796/dn796 ntpd[3388]: synchronized to 10.100.30.250, stratum 3
+- 1152233172 2006.07.06 dn582 Jul 6 17:46:12 dn582/dn582 ntpd[2288]: synchronized to 10.100.26.250, stratum 3
+- 1152233174 2006.07.06 dn810 Jul 6 17:46:14 dn810/dn810 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152233176 2006.07.06 dn355 Jul 6 17:46:16 dn355/dn355 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1152233177 2006.07.06 dn121 Jul 6 17:46:17 dn121/dn121 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1152233177 2006.07.06 dn810 Jul 6 17:46:17 dn810/dn810 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152233179 2006.07.06 dn558 Jul 6 17:46:19 dn558/dn558 ntpd[2334]: synchronized to 10.100.30.250, stratum 3
+- 1152233179 2006.07.06 dn741 Jul 6 17:46:19 dn741/dn741 ntpd[2231]: synchronized to 10.100.30.250, stratum 3
+- 1152233180 2006.07.06 dn552 Jul 6 17:46:20 dn552/dn552 ntpd[2345]: synchronized to 10.100.30.250, stratum 3
+- 1152233182 2006.07.06 dn104 Jul 6 17:46:22 dn104/dn104 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1152233184 2006.07.06 dn1010 Jul 6 17:46:24 dn1010/dn1010 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233185 2006.07.06 dn1010 Jul 6 17:46:25 dn1010/dn1010 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152233187 2006.07.06 dn659 Jul 6 17:46:27 dn659/dn659 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1152233193 2006.07.06 dn995 Jul 6 17:46:33 dn995/dn995 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1152233196 2006.07.06 dn376 Jul 6 17:46:36 dn376/dn376 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233200 2006.07.06 dn398 Jul 6 17:46:40 dn398/dn398 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233201 2006.07.06 dn508 Jul 6 17:46:41 dn508/dn508 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1152233205 2006.07.06 dn170 Jul 6 17:46:45 dn170/dn170 ntpd[2267]: synchronized to 10.100.28.250, stratum 3
+- 1152233206 2006.07.06 dn685 Jul 6 17:46:46 dn685/dn685 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1152233207 2006.07.06 dn122 Jul 6 17:46:47 dn122/dn122 smartd[1979]: Device: /dev/sda, Temperature changed -2 Celsius to 24 Celsius since last report
+- 1152233211 2006.07.06 dn937 Jul 6 17:46:51 dn937/dn937 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152233212 2006.07.06 dn640 Jul 6 17:46:52 dn640/dn640 ntpd[2242]: synchronized to 10.100.28.250, stratum 3
+- 1152233221 2006.07.06 dn207 Jul 6 17:47:01 dn207/dn207 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152233227 2006.07.06 dn425 Jul 6 17:47:07 dn425/dn425 ntpd[2287]: synchronized to 10.100.28.250, stratum 3
+- 1152233232 2006.07.06 dn697 Jul 6 17:47:12 dn697/dn697 ntpd[2291]: synchronized to 10.100.30.250, stratum 3
+- 1152233233 2006.07.06 dn216 Jul 6 17:47:13 dn216/dn216 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152233238 2006.07.06 dn752 Jul 6 17:47:18 dn752/dn752 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1152233244 2006.07.06 dn271 Jul 6 17:47:24 dn271/dn271 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233249 2006.07.06 dn860 Jul 6 17:47:29 dn860/dn860 ntpd[2264]: synchronized to 10.100.30.250, stratum 3
+- 1152233251 2006.07.06 dn568 Jul 6 17:47:31 dn568/dn568 ntpd[2293]: synchronized to 10.100.28.250, stratum 3
+- 1152233252 2006.07.06 dn824 Jul 6 17:47:32 dn824/dn824 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233252 2006.07.06 dn980 Jul 6 17:47:32 dn980/dn980 ntpd[2262]: synchronized to 10.100.30.250, stratum 3
+- 1152233253 2006.07.06 dn654 Jul 6 17:47:33 dn654/dn654 ntpd[2333]: synchronized to 10.100.30.250, stratum 3
+- 1152233256 2006.07.06 dn193 Jul 6 17:47:36 dn193/dn193 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1152233257 2006.07.06 dn758 Jul 6 17:47:37 dn758/dn758 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233262 2006.07.06 dn993 Jul 6 17:47:42 dn993/dn993 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233266 2006.07.06 dn993 Jul 6 17:47:46 dn993/dn993 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152233273 2006.07.06 dn647 Jul 6 17:47:53 dn647/dn647 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1152233275 2006.07.06 dn429 Jul 6 17:47:55 dn429/dn429 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152233275 2006.07.06 dn568 Jul 6 17:47:55 dn568/dn568 ntpd[2293]: synchronized to 10.100.26.250, stratum 3
+- 1152233277 2006.07.06 dn283 Jul 6 17:47:57 dn283/dn283 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152233279 2006.07.06 dn432 Jul 6 17:47:59 dn432/dn432 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+- 1152233284 2006.07.06 dn891 Jul 6 17:48:04 dn891/dn891 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1152233288 2006.07.06 dn589 Jul 6 17:48:08 dn589/dn589 ntpd[2253]: synchronized to 10.100.30.250, stratum 3
+- 1152233296 2006.07.06 dn708 Jul 6 17:48:16 dn708/dn708 ntpd[3389]: synchronized to 10.100.30.250, stratum 3
+- 1152233306 2006.07.06 dn859 Jul 6 17:48:26 dn859/dn859 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152233309 2006.07.06 dn819 Jul 6 17:48:29 dn819/dn819 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1152233310 2006.07.06 dn708 Jul 6 17:48:30 dn708/dn708 ntpd[3389]: synchronized to 10.100.26.250, stratum 3
+- 1152233311 2006.07.06 dn973 Jul 6 17:48:31 dn973/dn973 ntpd[2273]: synchronized to 10.100.30.250, stratum 3
+- 1152233318 2006.07.06 dn78 Jul 6 17:48:38 dn78/dn78 ntpd[2241]: synchronized to 10.100.26.250, stratum 3
+- 1152233319 2006.07.06 dn707 Jul 6 17:48:39 dn707/dn707 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152233320 2006.07.06 dn125 Jul 6 17:48:40 dn125/dn125 smartd[1977]: Device: /dev/sda, Temperature changed 2 Celsius to 28 Celsius since last report
+- 1152233320 2006.07.06 dn21 Jul 6 17:48:40 dn21/dn21 ntpd[2266]: synchronized to 10.100.30.250, stratum 3
+- 1152233321 2006.07.06 dn154 Jul 6 17:48:41 dn154/dn154 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233322 2006.07.06 dn565 Jul 6 17:48:42 dn565/dn565 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152233324 2006.07.06 dn380 Jul 6 17:48:44 dn380/dn380 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233324 2006.07.06 dn553 Jul 6 17:48:44 dn553/dn553 ntpd[2334]: synchronized to 10.100.28.250, stratum 3
+- 1152233324 2006.07.06 dn954 Jul 6 17:48:44 dn954/dn954 ntpd[2264]: synchronized to 10.100.30.250, stratum 3
+- 1152233325 2006.07.06 dn153 Jul 6 17:48:45 dn153/dn153 smartd[1982]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1152233329 2006.07.06 dn99 Jul 6 17:48:49 dn99/dn99 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233334 2006.07.06 dn855 Jul 6 17:48:54 dn855/dn855 ntpd[2261]: synchronized to 10.100.30.250, stratum 3
+- 1152233336 2006.07.06 dn862 Jul 6 17:48:56 dn862/dn862 ntpd[2263]: synchronized to 10.100.26.250, stratum 3
+- 1152233339 2006.07.06 dn208 Jul 6 17:48:59 dn208/dn208 ntpd[2271]: synchronized to 10.100.26.250, stratum 3
+- 1152233343 2006.07.06 dn350 Jul 6 17:49:03 dn350/dn350 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233350 2006.07.06 dn151 Jul 6 17:49:10 dn151/dn151 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233353 2006.07.06 dn801 Jul 6 17:49:13 dn801/dn801 ntpd[2265]: synchronized to 10.100.28.250, stratum 3
+- 1152233357 2006.07.06 dn241 Jul 6 17:49:17 dn241/dn241 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233362 2006.07.06 dn862 Jul 6 17:49:22 dn862/dn862 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1152233364 2006.07.06 dn156 Jul 6 17:49:24 dn156/dn156 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152233369 2006.07.06 dn875 Jul 6 17:49:29 dn875/dn875 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1152233369 2006.07.06 dn962 Jul 6 17:49:29 dn962/dn962 ntpd[2261]: synchronized to 10.100.28.250, stratum 3
+- 1152233370 2006.07.06 dn868 Jul 6 17:49:30 dn868/dn868 ntpd[2266]: synchronized to 10.100.28.250, stratum 3
+- 1152233372 2006.07.06 dn593 Jul 6 17:49:32 dn593/dn593 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152233377 2006.07.06 dn161 Jul 6 17:49:37 dn161/dn161 smartd[1979]: Device: /dev/sda, Temperature changed -2 Celsius to 34 Celsius since last report
+- 1152233377 2006.07.06 dn950 Jul 6 17:49:37 dn950/dn950 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152233385 2006.07.06 dn340 Jul 6 17:49:45 dn340/dn340 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1152233390 2006.07.06 dn785 Jul 6 17:49:50 dn785/dn785 ntpd[2263]: synchronized to 10.100.26.250, stratum 3
+- 1152233391 2006.07.06 dn424 Jul 6 17:49:51 dn424/dn424 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1152233393 2006.07.06 dn69 Jul 6 17:49:53 dn69/dn69 ntpd[2267]: synchronized to 10.100.28.250, stratum 3
+- 1152233402 2006.07.06 dn161 Jul 6 17:50:02 dn161/dn161 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152233403 2006.07.06 dn367 Jul 6 17:50:03 dn367/dn367 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152233403 2006.07.06 dn747 Jul 6 17:50:03 dn747/dn747 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1152233407 2006.07.06 dn694 Jul 6 17:50:07 dn694/dn694 ntpd[2270]: synchronized to 10.100.26.250, stratum 3
+- 1152233407 2006.07.06 dn997 Jul 6 17:50:07 dn997/dn997 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1152233408 2006.07.06 dn617 Jul 6 17:50:08 dn617/dn617 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1152233410 2006.07.06 dn9 Jul 6 17:50:10 dn9/dn9 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152233412 2006.07.06 dn900 Jul 6 17:50:12 dn900/dn900 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152233413 2006.07.06 dn385 Jul 6 17:50:13 dn385/dn385 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1152233418 2006.07.06 dn997 Jul 6 17:50:18 dn997/dn997 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1152233428 2006.07.06 dn462 Jul 6 17:50:28 dn462/dn462 ntpd[2271]: synchronized to 10.100.30.250, stratum 3
+- 1152233430 2006.07.06 dn7 Jul 6 17:50:30 dn7/dn7 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1152233433 2006.07.06 dn428 Jul 6 17:50:33 dn428/dn428 ntpd[2288]: synchronized to 10.100.30.250, stratum 3
+- 1152233442 2006.07.06 dn780 Jul 6 17:50:42 dn780/dn780 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1152233451 2006.07.06 dn957 Jul 6 17:50:51 dn957/dn957 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233452 2006.07.06 dn598 Jul 6 17:50:52 dn598/dn598 ntpd[2281]: synchronized to 10.100.28.250, stratum 3
+- 1152233452 2006.07.06 dn845 Jul 6 17:50:52 dn845/dn845 ntpd[2240]: synchronized to 10.100.24.250, stratum 3
+- 1152233462 2006.07.06 dn46 Jul 6 17:51:02 dn46/dn46 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233463 2006.07.06 dn555 Jul 6 17:51:03 dn555/dn555 ntpd[2270]: synchronized to 10.100.24.250, stratum 3
+- 1152233465 2006.07.06 dn800 Jul 6 17:51:05 dn800/dn800 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152233467 2006.07.06 dn970 Jul 6 17:51:07 dn970/dn970 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152233471 2006.07.06 dn146 Jul 6 17:51:11 dn146/dn146 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152233477 2006.07.06 dn420 Jul 6 17:51:17 dn420/dn420 ntpd[2287]: synchronized to 10.100.30.250, stratum 3
+- 1152233479 2006.07.06 dn40 Jul 6 17:51:19 dn40/dn40 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152233480 2006.07.06 dn588 Jul 6 17:51:20 dn588/dn588 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152233484 2006.07.06 dn533 Jul 6 17:51:24 dn533/dn533 ntpd[2290]: synchronized to 10.100.30.250, stratum 3
+- 1152233486 2006.07.06 dn364 Jul 6 17:51:26 dn364/dn364 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1152233488 2006.07.06 dn773 Jul 6 17:51:28 dn773/dn773 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152233491 2006.07.06 dn425 Jul 6 17:51:31 dn425/dn425 ntpd[2287]: synchronized to 10.100.26.250, stratum 3
+- 1152233511 2006.07.06 dn325 Jul 6 17:51:51 dn325/dn325 ntpd[2289]: synchronized to 10.100.30.250, stratum 3
+- 1152233516 2006.07.06 dn633 Jul 6 17:51:56 dn633/dn633 ntpd[2342]: synchronized to 10.100.28.250, stratum 3
+- 1152233517 2006.07.06 dn479 Jul 6 17:51:57 dn479/dn479 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152233521 2006.07.06 dn702 Jul 6 17:52:01 dn702/dn702 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152233525 2006.07.06 dn223 Jul 6 17:52:05 dn223/dn223 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1152233530 2006.07.06 dn1008 Jul 6 17:52:10 dn1008/dn1008 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152233533 2006.07.06 dn410 Jul 6 17:52:13 dn410/dn410 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+- 1152233541 2006.07.06 dn776 Jul 6 17:52:21 dn776/dn776 ntpd[3375]: synchronized to 10.100.28.250, stratum 3
+- 1152233547 2006.07.06 dn842 Jul 6 17:52:27 dn842/dn842 smartd[1975]: Device: /dev/sda, Temperature changed -2 Celsius to 28 Celsius since last report
+- 1152233549 2006.07.06 dn244 Jul 6 17:52:29 dn244/dn244 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152233554 2006.07.06 dn968 Jul 6 17:52:34 dn968/dn968 ntpd[2262]: synchronized to 10.100.28.250, stratum 3
+- 1152233562 2006.07.06 dn579 Jul 6 17:52:42 dn579/dn579 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152233563 2006.07.06 dn138 Jul 6 17:52:43 dn138/dn138 ntpd[2267]: synchronized to 10.100.24.250, stratum 3
+- 1152233563 2006.07.06 dn53 Jul 6 17:52:43 dn53/dn53 ntpd[2298]: synchronized to 10.100.28.250, stratum 3
+- 1152233574 2006.07.06 dn935 Jul 6 17:52:54 dn935/dn935 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152233583 2006.07.06 dn150 Jul 6 17:53:03 dn150/dn150 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1152233584 2006.07.06 dn215 Jul 6 17:53:04 dn215/dn215 ntpd[2273]: synchronized to 10.100.24.250, stratum 3
+- 1152233585 2006.07.06 dn547 Jul 6 17:53:05 dn547/dn547 ntpd[2344]: synchronized to 10.100.28.250, stratum 3
+- 1152233585 2006.07.06 dn884 Jul 6 17:53:05 dn884/dn884 smartd[1996]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1152233589 2006.07.06 dn551 Jul 6 17:53:09 dn551/dn551 ntpd[2282]: synchronized to 10.100.30.250, stratum 3
+- 1152233596 2006.07.06 dn797 Jul 6 17:53:16 dn797/dn797 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233598 2006.07.06 dn52 Jul 6 17:53:18 dn52/dn52 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233599 2006.07.06 dn142 Jul 6 17:53:19 dn142/dn142 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1152233599 2006.07.06 dn579 Jul 6 17:53:19 dn579/dn579 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152233605 2006.07.06 dn131 Jul 6 17:53:25 dn131/dn131 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1152233608 2006.07.06 dn996 Jul 6 17:53:28 dn996/dn996 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152233614 2006.07.06 dn190 Jul 6 17:53:34 dn190/dn190 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152233615 2006.07.06 dn247 Jul 6 17:53:35 dn247/dn247 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152233615 2006.07.06 dn596 Jul 6 17:53:35 dn596/dn596 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1152233616 2006.07.06 dn988 Jul 6 17:53:36 dn988/dn988 ntpd[2262]: synchronized to 10.100.30.250, stratum 3
+- 1152233620 2006.07.06 dn658 Jul 6 17:53:40 dn658/dn658 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152233631 2006.07.06 dn130 Jul 6 17:53:51 dn130/dn130 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233632 2006.07.06 dn351 Jul 6 17:53:52 dn351/dn351 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1152233634 2006.07.06 dn915 Jul 6 17:53:54 dn915/dn915 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233639 2006.07.06 dn679 Jul 6 17:53:59 dn679/dn679 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1152233641 2006.07.06 dn808 Jul 6 17:54:01 dn808/dn808 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1152233641 2006.07.06 dn915 Jul 6 17:54:01 dn915/dn915 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+- 1152233651 2006.07.06 dn228 Jul 6 17:54:11 dn228/dn228 ntpd[2270]: synchronized to 10.100.30.250, stratum 3
+- 1152233651 2006.07.06 dn788 Jul 6 17:54:11 dn788/dn788 ntpd[2290]: synchronized to 10.100.28.250, stratum 3
+- 1152233652 2006.07.06 dn787 Jul 6 17:54:12 dn787/dn787 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152233653 2006.07.06 dn596 Jul 6 17:54:13 dn596/dn596 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152233654 2006.07.06 dn287 Jul 6 17:54:14 dn287/dn287 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1152233654 2006.07.06 dn975 Jul 6 17:54:14 dn975/dn975 ntpd[2262]: synchronized to 10.100.30.250, stratum 3
+- 1152233656 2006.07.06 dn368 Jul 6 17:54:16 dn368/dn368 ntpd[2295]: synchronized to 10.100.30.250, stratum 3
+- 1152233658 2006.07.06 dn222 Jul 6 17:54:18 dn222/dn222 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152233659 2006.07.06 dn462 Jul 6 17:54:19 dn462/dn462 ntpd[2271]: synchronized to 10.100.26.250, stratum 3
+- 1152233663 2006.07.06 dn491 Jul 6 17:54:23 dn491/dn491 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152233670 2006.07.06 dn514 Jul 6 17:54:30 dn514/dn514 ntpd[2282]: synchronized to 10.100.24.250, stratum 3
+- 1152233670 2006.07.06 dn732 Jul 6 17:54:30 dn732/dn732 ntpd[2293]: synchronized to 10.100.30.250, stratum 3
+- 1152233672 2006.07.06 dn476 Jul 6 17:54:32 dn476/dn476 ntpd[2285]: synchronized to 10.100.24.250, stratum 3
+- 1152233676 2006.07.06 dn610 Jul 6 17:54:36 dn610/dn610 ntpd[2343]: synchronized to 10.100.30.250, stratum 3
+- 1152233682 2006.07.06 dn760 Jul 6 17:54:42 dn760/dn760 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1152233687 2006.07.06 dn287 Jul 6 17:54:47 dn287/dn287 ntpd[2292]: synchronized to 10.100.28.250, stratum 3
+- 1152233689 2006.07.06 dn743 Jul 6 17:54:49 dn743/dn743 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1152233690 2006.07.06 dn214 Jul 6 17:54:50 dn214/dn214 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1152233702 2006.07.06 dn83 Jul 6 17:55:02 dn83/dn83 ntpd[2282]: synchronized to 10.100.28.250, stratum 3
+- 1152233703 2006.07.06 dn582 Jul 6 17:55:03 dn582/dn582 ntpd[2288]: synchronized to 10.100.28.250, stratum 3
+- 1152233706 2006.07.06 dn554 Jul 6 17:55:06 dn554/dn554 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233708 2006.07.06 dn310 Jul 6 17:55:08 dn310/dn310 kernel: spyplt[25484]: segfault at 0000000000000000 rip 000000000041a43c rsp 0000007fbfffce00 error 6
+- 1152233716 2006.07.06 dn638 Jul 6 17:55:16 dn638/dn638 ntpd[2276]: synchronized to 10.100.30.250, stratum 3
+- 1152233720 2006.07.06 dn535 Jul 6 17:55:20 dn535/dn535 ntpd[2285]: synchronized to 10.100.28.250, stratum 3
+- 1152233720 2006.07.06 dn685 Jul 6 17:55:20 dn685/dn685 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1152233722 2006.07.06 dn937 Jul 6 17:55:22 dn937/dn937 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1152233729 2006.07.06 dn201 Jul 6 17:55:29 dn201/dn201 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152233736 2006.07.06 dn652 Jul 6 17:55:36 dn652/dn652 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233740 2006.07.06 dn354 Jul 6 17:55:40 dn354/dn354 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152233744 2006.07.06 dn27 Jul 6 17:55:44 dn27/dn27 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152233754 2006.07.06 dn340 Jul 6 17:55:54 dn340/dn340 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1152233755 2006.07.06 dn209 Jul 6 17:55:55 dn209/dn209 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1152233760 2006.07.06 dn854 Jul 6 17:56:00 dn854/dn854 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1152233761 2006.07.06 dn66 Jul 6 17:56:01 dn66/dn66 ntpd[2207]: synchronized to 10.100.30.250, stratum 3
+- 1152233766 2006.07.06 dn35 Jul 6 17:56:06 dn35/dn35 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152233770 2006.07.06 dn719 Jul 6 17:56:10 dn719/dn719 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233774 2006.07.06 dn57 Jul 6 17:56:14 dn57/dn57 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152233777 2006.07.06 dn479 Jul 6 17:56:17 dn479/dn479 ntpd[2279]: synchronized to 10.100.24.250, stratum 3
+- 1152233778 2006.07.06 dn35 Jul 6 17:56:18 dn35/dn35 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233797 2006.07.06 dn289 Jul 6 17:56:37 dn289/dn289 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1152233801 2006.07.06 dn547 Jul 6 17:56:41 dn547/dn547 ntpd[2344]: synchronized to 10.100.24.250, stratum 3
+- 1152233804 2006.07.06 dn303 Jul 6 17:56:44 dn303/dn303 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152233810 2006.07.06 dn942 Jul 6 17:56:50 dn942/dn942 ntpd[2273]: synchronized to 10.100.26.250, stratum 3
+- 1152233813 2006.07.06 dn506 Jul 6 17:56:53 dn506/dn506 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1152233815 2006.07.06 dn74 Jul 6 17:56:55 dn74/dn74 ntpd[2282]: synchronized to 10.100.28.250, stratum 3
+- 1152233820 2006.07.06 dn535 Jul 6 17:57:00 dn535/dn535 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1152233821 2006.07.06 dn963 Jul 6 17:57:01 dn963/dn963 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1152233822 2006.07.06 dn58 Jul 6 17:57:02 dn58/dn58 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1152233831 2006.07.06 dn538 Jul 6 17:57:11 dn538/dn538 ntpd[2291]: synchronized to 10.100.28.250, stratum 3
+- 1152233833 2006.07.06 dn1021 Jul 6 17:57:13 dn1021/dn1021 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152233839 2006.07.06 dn894 Jul 6 17:57:19 dn894/dn894 ntpd[2261]: synchronized to 10.100.26.250, stratum 3
+- 1152233842 2006.07.06 dn351 Jul 6 17:57:22 dn351/dn351 ntpd[2290]: synchronized to 10.100.28.250, stratum 3
+- 1152233844 2006.07.06 dn408 Jul 6 17:57:24 dn408/dn408 ntpd[2288]: synchronized to 10.100.30.250, stratum 3
+- 1152233846 2006.07.06 dn259 Jul 6 17:57:26 dn259/dn259 ntpd[2335]: synchronized to 10.100.30.250, stratum 3
+- 1152233847 2006.07.06 dn825 Jul 6 17:57:27 dn825/dn825 ntpd[2286]: synchronized to 10.100.30.250, stratum 3
+- 1152233851 2006.07.06 dn338 Jul 6 17:57:31 dn338/dn338 ntpd[2292]: synchronized to 10.100.28.250, stratum 3
+- 1152233853 2006.07.06 dn208 Jul 6 17:57:33 dn208/dn208 ntpd[2271]: synchronized to 10.100.24.250, stratum 3
+- 1152233857 2006.07.06 dn115 Jul 6 17:57:37 dn115/dn115 ntpd[2272]: synchronized to 10.100.30.250, stratum 3
+- 1152233860 2006.07.06 dn196 Jul 6 17:57:40 dn196/dn196 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152233863 2006.07.06 dn115 Jul 6 17:57:43 dn115/dn115 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1152233863 2006.07.06 dn587 Jul 6 17:57:43 dn587/dn587 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152233865 2006.07.06 dn823 Jul 6 17:57:45 dn823/dn823 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+- 1152233870 2006.07.06 dn594 Jul 6 17:57:50 dn594/dn594 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1152233873 2006.07.06 dn394 Jul 6 17:57:53 dn394/dn394 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152233874 2006.07.06 dn693 Jul 6 17:57:54 dn693/dn693 ntpd[2345]: synchronized to 10.100.30.250, stratum 3
+- 1152233876 2006.07.06 dn759 Jul 6 17:57:56 dn759/dn759 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1152233877 2006.07.06 dn378 Jul 6 17:57:57 dn378/dn378 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+- 1152233885 2006.07.06 dn962 Jul 6 17:58:05 dn962/dn962 ntpd[2261]: synchronized to 10.100.26.250, stratum 3
+- 1152233889 2006.07.06 dn194 Jul 6 17:58:09 dn194/dn194 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152233896 2006.07.06 dn704 Jul 6 17:58:16 dn704/dn704 ntpd[2285]: synchronized to 10.100.30.250, stratum 3
+- 1152233897 2006.07.06 dn220 Jul 6 17:58:17 dn220/dn220 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1152233899 2006.07.06 dn8 Jul 6 17:58:19 dn8/dn8 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152233900 2006.07.06 dn222 Jul 6 17:58:20 dn222/dn222 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152233903 2006.07.06 dn523 Jul 6 17:58:23 dn523/dn523 ntpd[2286]: synchronized to 10.100.26.250, stratum 3
+- 1152233903 2006.07.06 dn790 Jul 6 17:58:23 dn790/dn790 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152233910 2006.07.06 dn113 Jul 6 17:58:30 dn113/dn113 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152233932 2006.07.06 dn523 Jul 6 17:58:52 dn523/dn523 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+- 1152233934 2006.07.06 dn869 Jul 6 17:58:54 dn869/dn869 ntpd[2264]: synchronized to 10.100.30.250, stratum 3
+- 1152233935 2006.07.06 dn515 Jul 6 17:58:55 dn515/dn515 ntpd[2291]: synchronized to 10.100.28.250, stratum 3
+- 1152233936 2006.07.06 dn695 Jul 6 17:58:56 dn695/dn695 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1152233942 2006.07.06 dn12 Jul 6 17:59:02 dn12/dn12 ntpd[2268]: synchronized to 10.100.24.250, stratum 3
+- 1152233949 2006.07.06 dn790 Jul 6 17:59:09 dn790/dn790 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152233954 2006.07.06 dn889 Jul 6 17:59:14 dn889/dn889 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1152233958 2006.07.06 dn852 Jul 6 17:59:18 dn852/dn852 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152233959 2006.07.06 dn653 Jul 6 17:59:19 dn653/dn653 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152233959 2006.07.06 dn794 Jul 6 17:59:19 dn794/dn794 ntpd[2266]: synchronized to 10.100.24.250, stratum 3
+- 1152233960 2006.07.06 dn16 Jul 6 17:59:20 dn16/dn16 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1152233964 2006.07.06 dn857 Jul 6 17:59:24 dn857/dn857 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1152233969 2006.07.06 dn718 Jul 6 17:59:29 dn718/dn718 ntpd[2268]: synchronized to 10.100.28.250, stratum 3
+- 1152233974 2006.07.06 dn718 Jul 6 17:59:34 dn718/dn718 ntpd[2268]: synchronized to 10.100.24.250, stratum 3
+- 1152233977 2006.07.06 dn18 Jul 6 17:59:37 dn18/dn18 ntpd[2211]: synchronized to 10.100.28.250, stratum 3
+- 1152233980 2006.07.06 dn615 Jul 6 17:59:40 dn615/dn615 ntpd[2282]: synchronized to 10.100.24.250, stratum 3
+- 1152233983 2006.07.06 dn857 Jul 6 17:59:43 dn857/dn857 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1152233989 2006.07.06 dn336 Jul 6 17:59:49 dn336/dn336 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152233992 2006.07.06 dn576 Jul 6 17:59:52 dn576/dn576 ntpd[2347]: synchronized to 10.100.30.250, stratum 3
+- 1152233993 2006.07.06 dn611 Jul 6 17:59:53 dn611/dn611 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1152233993 2006.07.06 dn934 Jul 6 17:59:53 dn934/dn934 ntpd[2261]: synchronized to 10.100.30.250, stratum 3
+- 1152233998 2006.07.06 dn706 Jul 6 17:59:58 dn706/dn706 ntpd[2287]: synchronized to 10.100.26.250, stratum 3
+- 1152234001 2006.07.06 dn220 Jul 6 18:00:01 dn220/dn220 ntpd[2263]: synchronized to 10.100.26.250, stratum 3
+- 1152234002 2006.07.06 dn221 Jul 6 18:00:02 dn221/dn221 ntpd[2279]: synchronized to 10.100.24.250, stratum 3
+- 1152234010 2006.07.06 dn366 Jul 6 18:00:10 dn366/dn366 ntpd[2284]: synchronized to 10.100.26.250, stratum 3
+- 1152234011 2006.07.06 dn514 Jul 6 18:00:11 dn514/dn514 smartd[1984]: Device: /dev/sda, Temperature changed 2 Celsius to 41 Celsius since last report
+- 1152234015 2006.07.06 dn632 Jul 6 18:00:15 dn632/dn632 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152234028 2006.07.06 dn340 Jul 6 18:00:28 dn340/dn340 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152234030 2006.07.06 dn607 Jul 6 18:00:30 dn607/dn607 ntpd[2341]: synchronized to 10.100.24.250, stratum 3
+- 1152234035 2006.07.06 dn230 Jul 6 18:00:35 dn230/dn230 ntpd[2263]: synchronized to 10.100.28.250, stratum 3
+- 1152234039 2006.07.06 dn236 Jul 6 18:00:39 dn236/dn236 ntpd[2270]: synchronized to 10.100.28.250, stratum 3
+- 1152234041 2006.07.06 dn546 Jul 6 18:00:41 dn546/dn546 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1152234049 2006.07.06 dn335 Jul 6 18:00:49 dn335/dn335 ntpd[2288]: synchronized to 10.100.26.250, stratum 3
+- 1152234061 2006.07.06 dn10 Jul 6 18:01:01 dn10/dn10 crond(pam_unix)[1962]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn10 Jul 6 18:01:01 dn10/dn10 crond[1963]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn100 Jul 6 18:01:01 dn100/dn100 crond(pam_unix)[26127]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn100 Jul 6 18:01:01 dn100/dn100 crond[26128]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn1000 Jul 6 18:01:01 dn1000/dn1000 crond(pam_unix)[24717]: session closed for user root
+- 1152234061 2006.07.06 dn1000 Jul 6 18:01:01 dn1000/dn1000 crond(pam_unix)[24717]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn1000 Jul 6 18:01:01 dn1000/dn1000 crond[24718]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn1006 Jul 6 18:01:01 dn1006/dn1006 crond(pam_unix)[27400]: session closed for user root
+- 1152234061 2006.07.06 dn101 Jul 6 18:01:01 dn101/dn101 crond[27376]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn1011 Jul 6 18:01:01 dn1011/dn1011 crond(pam_unix)[23084]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn1015 Jul 6 18:01:01 dn1015/dn1015 crond(pam_unix)[23588]: session closed for user root
+- 1152234061 2006.07.06 dn1015 Jul 6 18:01:01 dn1015/dn1015 crond(pam_unix)[23588]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn1015 Jul 6 18:01:01 dn1015/dn1015 crond[23589]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn102 Jul 6 18:01:01 dn102/dn102 crond(pam_unix)[27301]: session closed for user root
+- 1152234061 2006.07.06 dn102 Jul 6 18:01:01 dn102/dn102 crond(pam_unix)[27301]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn102 Jul 6 18:01:01 dn102/dn102 crond[27302]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn1021 Jul 6 18:01:01 dn1021/dn1021 crond[32057]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn1023 Jul 6 18:01:01 dn1023/dn1023 crond[29027]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn1024 Jul 6 18:01:01 dn1024/dn1024 crond(pam_unix)[13078]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn104 Jul 6 18:01:01 dn104/dn104 crond(pam_unix)[27418]: session closed for user root
+- 1152234061 2006.07.06 dn104 Jul 6 18:01:01 dn104/dn104 crond(pam_unix)[27418]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn105 Jul 6 18:01:01 dn105/dn105 crond(pam_unix)[24718]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn106 Jul 6 18:01:01 dn106/dn106 crond[25469]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn110 Jul 6 18:01:01 dn110/dn110 crond(pam_unix)[26157]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn113 Jul 6 18:01:01 dn113/dn113 crond(pam_unix)[24370]: session closed for user root
+- 1152234061 2006.07.06 dn113 Jul 6 18:01:01 dn113/dn113 crond(pam_unix)[24370]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn113 Jul 6 18:01:01 dn113/dn113 crond[24371]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn116 Jul 6 18:01:01 dn116/dn116 crond(pam_unix)[16940]: session closed for user root
+- 1152234061 2006.07.06 dn116 Jul 6 18:01:01 dn116/dn116 crond(pam_unix)[16940]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn117 Jul 6 18:01:01 dn117/dn117 crond(pam_unix)[26166]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn119 Jul 6 18:01:01 dn119/dn119 crond(pam_unix)[24810]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn122 Jul 6 18:01:01 dn122/dn122 crond(pam_unix)[24552]: session closed for user root
+- 1152234061 2006.07.06 dn125 Jul 6 18:01:01 dn125/dn125 crond(pam_unix)[26069]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn127 Jul 6 18:01:01 dn127/dn127 crond(pam_unix)[26967]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn128 Jul 6 18:01:01 dn128/dn128 crond(pam_unix)[31988]: session closed for user root
+- 1152234061 2006.07.06 dn129 Jul 6 18:01:01 dn129/dn129 crond[25437]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn13 Jul 6 18:01:01 dn13/dn13 crond[28122]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn131 Jul 6 18:01:01 dn131/dn131 crond(pam_unix)[26936]: session closed for user root
+- 1152234061 2006.07.06 dn131 Jul 6 18:01:01 dn131/dn131 crond(pam_unix)[26936]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn132 Jul 6 18:01:01 dn132/dn132 crond[23020]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn136 Jul 6 18:01:01 dn136/dn136 crond(pam_unix)[21338]: session closed for user root
+- 1152234061 2006.07.06 dn138 Jul 6 18:01:01 dn138/dn138 crond(pam_unix)[27473]: session closed for user root
+- 1152234061 2006.07.06 dn147 Jul 6 18:01:01 dn147/dn147 crond(pam_unix)[24043]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn15 Jul 6 18:01:01 dn15/dn15 crond[24026]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn151 Jul 6 18:01:01 dn151/dn151 crond[27252]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn158 Jul 6 18:01:01 dn158/dn158 crond(pam_unix)[25777]: session closed for user root
+- 1152234061 2006.07.06 dn158 Jul 6 18:01:01 dn158/dn158 crond(pam_unix)[25777]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn158 Jul 6 18:01:01 dn158/dn158 crond[25778]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn164 Jul 6 18:01:01 dn164/dn164 crond(pam_unix)[24389]: session closed for user root
+- 1152234061 2006.07.06 dn166 Jul 6 18:01:01 dn166/dn166 crond(pam_unix)[24810]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn166 Jul 6 18:01:01 dn166/dn166 crond[24811]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn168 Jul 6 18:01:01 dn168/dn168 crond(pam_unix)[26154]: session closed for user root
+- 1152234061 2006.07.06 dn168 Jul 6 18:01:01 dn168/dn168 crond(pam_unix)[26154]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn17 Jul 6 18:01:01 dn17/dn17 crond(pam_unix)[24304]: session closed for user root
+- 1152234061 2006.07.06 dn17 Jul 6 18:01:01 dn17/dn17 crond(pam_unix)[24304]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn174 Jul 6 18:01:01 dn174/dn174 crond[24250]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn175 Jul 6 18:01:01 dn175/dn175 crond(pam_unix)[21096]: session closed for user root
+- 1152234061 2006.07.06 dn175 Jul 6 18:01:01 dn175/dn175 crond(pam_unix)[21096]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn175 Jul 6 18:01:01 dn175/dn175 crond[21097]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn176 Jul 6 18:01:01 dn176/dn176 crond(pam_unix)[24060]: session closed for user root
+- 1152234061 2006.07.06 dn176 Jul 6 18:01:01 dn176/dn176 crond(pam_unix)[24060]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn176 Jul 6 18:01:01 dn176/dn176 crond[24061]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn179 Jul 6 18:01:01 dn179/dn179 crond[24065]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn181 Jul 6 18:01:01 dn181/dn181 crond[24205]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn183 Jul 6 18:01:01 dn183/dn183 crond(pam_unix)[25759]: session closed for user root
+- 1152234061 2006.07.06 dn183 Jul 6 18:01:01 dn183/dn183 crond(pam_unix)[25759]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn184 Jul 6 18:01:01 dn184/dn184 crond(pam_unix)[24342]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn189 Jul 6 18:01:01 dn189/dn189 crond(pam_unix)[27324]: session closed for user root
+- 1152234061 2006.07.06 dn189 Jul 6 18:01:01 dn189/dn189 crond(pam_unix)[27324]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn189 Jul 6 18:01:01 dn189/dn189 crond[27325]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn19 Jul 6 18:01:01 dn19/dn19 crond(pam_unix)[32086]: session closed for user root
+- 1152234061 2006.07.06 dn19 Jul 6 18:01:01 dn19/dn19 crond(pam_unix)[32086]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn19 Jul 6 18:01:01 dn19/dn19 crond[32087]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn192 Jul 6 18:01:01 dn192/dn192 crond(pam_unix)[25832]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn196 Jul 6 18:01:01 dn196/dn196 crond[25510]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn203 Jul 6 18:01:01 dn203/dn203 crond[25649]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn207 Jul 6 18:01:01 dn207/dn207 crond(pam_unix)[24163]: session closed for user root
+- 1152234061 2006.07.06 dn209 Jul 6 18:01:01 dn209/dn209 crond(pam_unix)[25689]: session closed for user root
+- 1152234061 2006.07.06 dn21 Jul 6 18:01:01 dn21/dn21 crond(pam_unix)[7828]: session closed for user root
+- 1152234061 2006.07.06 dn21 Jul 6 18:01:01 dn21/dn21 crond[7829]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn211 Jul 6 18:01:01 dn211/dn211 crond[25378]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn213 Jul 6 18:01:01 dn213/dn213 crond(pam_unix)[24633]: session closed for user root
+- 1152234061 2006.07.06 dn217 Jul 6 18:01:01 dn217/dn217 crond(pam_unix)[24816]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn218 Jul 6 18:01:01 dn218/dn218 crond(pam_unix)[24964]: session closed for user root
+- 1152234061 2006.07.06 dn218 Jul 6 18:01:01 dn218/dn218 crond(pam_unix)[24964]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn218 Jul 6 18:01:01 dn218/dn218 crond[24965]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn220 Jul 6 18:01:01 dn220/dn220 crond[28151]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn222 Jul 6 18:01:01 dn222/dn222 crond[24684]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn223 Jul 6 18:01:01 dn223/dn223 crond(pam_unix)[25566]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn225 Jul 6 18:01:01 dn225/dn225 crond(pam_unix)[27088]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn226 Jul 6 18:01:01 dn226/dn226 crond(pam_unix)[27007]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn227 Jul 6 18:01:01 dn227/dn227 crond[26286]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn229 Jul 6 18:01:01 dn229/dn229 crond(pam_unix)[27415]: session closed for user root
+- 1152234061 2006.07.06 dn229 Jul 6 18:01:01 dn229/dn229 crond[27416]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn232 Jul 6 18:01:01 dn232/dn232 crond[9309]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn233 Jul 6 18:01:01 dn233/dn233 crond(pam_unix)[23636]: session closed for user root
+- 1152234061 2006.07.06 dn233 Jul 6 18:01:01 dn233/dn233 crond(pam_unix)[23636]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn233 Jul 6 18:01:01 dn233/dn233 crond[23637]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn236 Jul 6 18:01:01 dn236/dn236 crond(pam_unix)[25235]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn236 Jul 6 18:01:01 dn236/dn236 crond[25236]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn238 Jul 6 18:01:01 dn238/dn238 crond[24959]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn24 Jul 6 18:01:01 dn24/dn24 crond(pam_unix)[26776]: session closed for user root
+- 1152234061 2006.07.06 dn24 Jul 6 18:01:01 dn24/dn24 crond(pam_unix)[26776]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn24 Jul 6 18:01:01 dn24/dn24 crond[26777]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn240 Jul 6 18:01:01 dn240/dn240 crond(pam_unix)[24986]: session closed for user root
+- 1152234061 2006.07.06 dn240 Jul 6 18:01:01 dn240/dn240 crond(pam_unix)[24986]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn240 Jul 6 18:01:01 dn240/dn240 crond[24987]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn242 Jul 6 18:01:01 dn242/dn242 crond(pam_unix)[23847]: session closed for user root
+- 1152234061 2006.07.06 dn245 Jul 6 18:01:01 dn245/dn245 crond(pam_unix)[25014]: session closed for user root
+- 1152234061 2006.07.06 dn245 Jul 6 18:01:01 dn245/dn245 crond(pam_unix)[25014]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn245 Jul 6 18:01:01 dn245/dn245 crond[25015]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn246 Jul 6 18:01:01 dn246/dn246 crond(pam_unix)[24892]: session closed for user root
+- 1152234061 2006.07.06 dn246 Jul 6 18:01:01 dn246/dn246 crond(pam_unix)[24892]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn246 Jul 6 18:01:01 dn246/dn246 crond[24893]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn247 Jul 6 18:01:01 dn247/dn247 crond(pam_unix)[24937]: session closed for user root
+- 1152234061 2006.07.06 dn247 Jul 6 18:01:01 dn247/dn247 crond(pam_unix)[24937]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn247 Jul 6 18:01:01 dn247/dn247 crond[24938]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn249 Jul 6 18:01:01 dn249/dn249 crond(pam_unix)[24968]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn25 Jul 6 18:01:01 dn25/dn25 crond(pam_unix)[26429]: session closed for user root
+- 1152234061 2006.07.06 dn25 Jul 6 18:01:01 dn25/dn25 crond(pam_unix)[26429]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn25 Jul 6 18:01:01 dn25/dn25 crond[26430]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn251 Jul 6 18:01:01 dn251/dn251 crond(pam_unix)[24937]: session closed for user root
+- 1152234061 2006.07.06 dn251 Jul 6 18:01:01 dn251/dn251 crond(pam_unix)[24937]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn251 Jul 6 18:01:01 dn251/dn251 crond[24938]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn252 Jul 6 18:01:01 dn252/dn252 crond[9922]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn259 Jul 6 18:01:01 dn259/dn259 crond(pam_unix)[467]: session closed for user root
+- 1152234061 2006.07.06 dn259 Jul 6 18:01:01 dn259/dn259 crond(pam_unix)[467]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn259 Jul 6 18:01:01 dn259/dn259 crond[468]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn260 Jul 6 18:01:01 dn260/dn260 crond(pam_unix)[32536]: session closed for user root
+- 1152234061 2006.07.06 dn265 Jul 6 18:01:01 dn265/dn265 crond(pam_unix)[32435]: session closed for user root
+- 1152234061 2006.07.06 dn265 Jul 6 18:01:01 dn265/dn265 crond(pam_unix)[32435]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn265 Jul 6 18:01:01 dn265/dn265 crond[32436]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn267 Jul 6 18:01:01 dn267/dn267 crond(pam_unix)[32140]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn269 Jul 6 18:01:01 dn269/dn269 crond(pam_unix)[23967]: session closed for user root
+- 1152234061 2006.07.06 dn270 Jul 6 18:01:01 dn270/dn270 crond(pam_unix)[4842]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn272 Jul 6 18:01:01 dn272/dn272 crond(pam_unix)[24149]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn272 Jul 6 18:01:01 dn272/dn272 crond[24150]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn273 Jul 6 18:01:01 dn273/dn273 crond[22870]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn283 Jul 6 18:01:01 dn283/dn283 crond(pam_unix)[1473]: session closed for user root
+- 1152234061 2006.07.06 dn283 Jul 6 18:01:01 dn283/dn283 crond(pam_unix)[1473]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn283 Jul 6 18:01:01 dn283/dn283 crond[1474]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn285 Jul 6 18:01:01 dn285/dn285 crond(pam_unix)[1524]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn287 Jul 6 18:01:01 dn287/dn287 crond(pam_unix)[30310]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn287 Jul 6 18:01:01 dn287/dn287 crond[30311]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn288 Jul 6 18:01:01 dn288/dn288 crond(pam_unix)[24040]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn289 Jul 6 18:01:01 dn289/dn289 crond(pam_unix)[1346]: session closed for user root
+- 1152234061 2006.07.06 dn289 Jul 6 18:01:01 dn289/dn289 crond(pam_unix)[1346]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn290 Jul 6 18:01:01 dn290/dn290 crond(pam_unix)[695]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn290 Jul 6 18:01:01 dn290/dn290 crond[696]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn293 Jul 6 18:01:01 dn293/dn293 crond(pam_unix)[23319]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn294 Jul 6 18:01:01 dn294/dn294 crond(pam_unix)[25739]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn295 Jul 6 18:01:01 dn295/dn295 crond(pam_unix)[23960]: session closed for user root
+- 1152234061 2006.07.06 dn295 Jul 6 18:01:01 dn295/dn295 crond(pam_unix)[23960]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn295 Jul 6 18:01:01 dn295/dn295 crond[23961]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn296 Jul 6 18:01:01 dn296/dn296 crond(pam_unix)[28248]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn298 Jul 6 18:01:01 dn298/dn298 crond(pam_unix)[6601]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn3 Jul 6 18:01:01 dn3/dn3 crond(pam_unix)[25466]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn3 Jul 6 18:01:01 dn3/dn3 crond[25467]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn30 Jul 6 18:01:01 dn30/dn30 crond(pam_unix)[20055]: session closed for user root
+- 1152234061 2006.07.06 dn30 Jul 6 18:01:01 dn30/dn30 crond(pam_unix)[20055]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn30 Jul 6 18:01:01 dn30/dn30 crond[20056]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn303 Jul 6 18:01:01 dn303/dn303 crond(pam_unix)[25518]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn304 Jul 6 18:01:01 dn304/dn304 crond(pam_unix)[22074]: session closed for user root
+- 1152234061 2006.07.06 dn305 Jul 6 18:01:01 dn305/dn305 crond(pam_unix)[25341]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn305 Jul 6 18:01:01 dn305/dn305 crond[25342]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn307 Jul 6 18:01:01 dn307/dn307 crond(pam_unix)[25604]: session closed for user root
+- 1152234061 2006.07.06 dn307 Jul 6 18:01:01 dn307/dn307 crond(pam_unix)[25604]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn307 Jul 6 18:01:01 dn307/dn307 crond[25605]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn312 Jul 6 18:01:01 dn312/dn312 crond[26027]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn314 Jul 6 18:01:01 dn314/dn314 crond(pam_unix)[25811]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn317 Jul 6 18:01:01 dn317/dn317 crond(pam_unix)[22440]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn318 Jul 6 18:01:01 dn318/dn318 crond(pam_unix)[26234]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn318 Jul 6 18:01:01 dn318/dn318 crond[26235]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn320 Jul 6 18:01:01 dn320/dn320 crond(pam_unix)[25603]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn322 Jul 6 18:01:01 dn322/dn322 crond[24528]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn324 Jul 6 18:01:01 dn324/dn324 crond[21822]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn325 Jul 6 18:01:01 dn325/dn325 crond(pam_unix)[21586]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn326 Jul 6 18:01:01 dn326/dn326 crond(pam_unix)[24293]: session closed for user root
+- 1152234061 2006.07.06 dn328 Jul 6 18:01:01 dn328/dn328 crond(pam_unix)[22952]: session closed for user root
+- 1152234061 2006.07.06 dn328 Jul 6 18:01:01 dn328/dn328 crond(pam_unix)[22952]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn329 Jul 6 18:01:01 dn329/dn329 crond(pam_unix)[30808]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn330 Jul 6 18:01:01 dn330/dn330 crond(pam_unix)[26071]: session closed for user root
+- 1152234061 2006.07.06 dn330 Jul 6 18:01:01 dn330/dn330 crond(pam_unix)[26071]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn330 Jul 6 18:01:01 dn330/dn330 crond[26072]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn332 Jul 6 18:01:01 dn332/dn332 crond(pam_unix)[26152]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn334 Jul 6 18:01:01 dn334/dn334 crond(pam_unix)[27148]: session closed for user root
+- 1152234061 2006.07.06 dn334 Jul 6 18:01:01 dn334/dn334 crond(pam_unix)[27148]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn334 Jul 6 18:01:01 dn334/dn334 crond[27149]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn335 Jul 6 18:01:01 dn335/dn335 crond(pam_unix)[21329]: session closed for user root
+- 1152234061 2006.07.06 dn336 Jul 6 18:01:01 dn336/dn336 crond(pam_unix)[28339]: session closed for user root
+- 1152234061 2006.07.06 dn336 Jul 6 18:01:01 dn336/dn336 crond(pam_unix)[28339]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn336 Jul 6 18:01:01 dn336/dn336 crond[28340]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn337 Jul 6 18:01:01 dn337/dn337 crond(pam_unix)[27278]: session closed for user root
+- 1152234061 2006.07.06 dn340 Jul 6 18:01:01 dn340/dn340 crond(pam_unix)[26900]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn343 Jul 6 18:01:01 dn343/dn343 crond(pam_unix)[25015]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn344 Jul 6 18:01:01 dn344/dn344 crond[28570]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn349 Jul 6 18:01:01 dn349/dn349 crond(pam_unix)[22713]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn352 Jul 6 18:01:01 dn352/dn352 crond(pam_unix)[26263]: session closed for user root
+- 1152234061 2006.07.06 dn353 Jul 6 18:01:01 dn353/dn353 crond(pam_unix)[28075]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn354 Jul 6 18:01:01 dn354/dn354 crond(pam_unix)[25874]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn356 Jul 6 18:01:01 dn356/dn356 crond(pam_unix)[25930]: session closed for user root
+- 1152234061 2006.07.06 dn356 Jul 6 18:01:01 dn356/dn356 crond(pam_unix)[25930]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn356 Jul 6 18:01:01 dn356/dn356 crond[25931]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn357 Jul 6 18:01:01 dn357/dn357 crond[25517]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn358 Jul 6 18:01:01 dn358/dn358 crond(pam_unix)[25975]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn358 Jul 6 18:01:01 dn358/dn358 crond[25976]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn36 Jul 6 18:01:01 dn36/dn36 crond(pam_unix)[25048]: session closed for user root
+- 1152234061 2006.07.06 dn36 Jul 6 18:01:01 dn36/dn36 crond(pam_unix)[25048]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn36 Jul 6 18:01:01 dn36/dn36 crond[25049]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn363 Jul 6 18:01:01 dn363/dn363 crond(pam_unix)[25918]: session closed for user root
+- 1152234061 2006.07.06 dn364 Jul 6 18:01:01 dn364/dn364 crond(pam_unix)[442]: session closed for user root
+- 1152234061 2006.07.06 dn366 Jul 6 18:01:01 dn366/dn366 crond(pam_unix)[26495]: session closed for user root
+- 1152234061 2006.07.06 dn366 Jul 6 18:01:01 dn366/dn366 crond(pam_unix)[26495]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn366 Jul 6 18:01:01 dn366/dn366 crond[26496]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn367 Jul 6 18:01:01 dn367/dn367 crond[27746]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn369 Jul 6 18:01:01 dn369/dn369 crond(pam_unix)[23179]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn37 Jul 6 18:01:01 dn37/dn37 crond(pam_unix)[25636]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn370 Jul 6 18:01:01 dn370/dn370 crond[26233]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn374 Jul 6 18:01:01 dn374/dn374 crond[22606]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn376 Jul 6 18:01:01 dn376/dn376 crond(pam_unix)[26201]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn378 Jul 6 18:01:01 dn378/dn378 crond(pam_unix)[26251]: session closed for user root
+- 1152234061 2006.07.06 dn382 Jul 6 18:01:01 dn382/dn382 crond(pam_unix)[26438]: session closed for user root
+- 1152234061 2006.07.06 dn382 Jul 6 18:01:01 dn382/dn382 crond(pam_unix)[26438]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn382 Jul 6 18:01:01 dn382/dn382 crond[26439]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn383 Jul 6 18:01:01 dn383/dn383 crond(pam_unix)[28019]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn385 Jul 6 18:01:01 dn385/dn385 crond(pam_unix)[21048]: session closed for user root
+- 1152234061 2006.07.06 dn385 Jul 6 18:01:01 dn385/dn385 crond(pam_unix)[21048]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn385 Jul 6 18:01:01 dn385/dn385 crond[21049]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn388 Jul 6 18:01:01 dn388/dn388 crond(pam_unix)[26555]: session closed for user root
+- 1152234061 2006.07.06 dn390 Jul 6 18:01:01 dn390/dn390 crond(pam_unix)[26470]: session closed for user root
+- 1152234061 2006.07.06 dn394 Jul 6 18:01:01 dn394/dn394 crond(pam_unix)[27227]: session closed for user root
+- 1152234061 2006.07.06 dn394 Jul 6 18:01:01 dn394/dn394 crond(pam_unix)[27227]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn400 Jul 6 18:01:01 dn400/dn400 crond(pam_unix)[29604]: session closed for user root
+- 1152234061 2006.07.06 dn400 Jul 6 18:01:01 dn400/dn400 crond(pam_unix)[29604]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn400 Jul 6 18:01:01 dn400/dn400 crond[29605]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn401 Jul 6 18:01:01 dn401/dn401 crond(pam_unix)[30869]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn403 Jul 6 18:01:01 dn403/dn403 crond(pam_unix)[27099]: session closed for user root
+- 1152234061 2006.07.06 dn403 Jul 6 18:01:01 dn403/dn403 crond(pam_unix)[27099]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn406 Jul 6 18:01:01 dn406/dn406 crond[26767]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn407 Jul 6 18:01:01 dn407/dn407 crond(pam_unix)[26050]: session closed for user root
+- 1152234061 2006.07.06 dn407 Jul 6 18:01:01 dn407/dn407 crond[26051]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn408 Jul 6 18:01:01 dn408/dn408 crond(pam_unix)[31462]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn408 Jul 6 18:01:01 dn408/dn408 crond[31463]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn41 Jul 6 18:01:01 dn41/dn41 crond(pam_unix)[17431]: session closed for user root
+- 1152234061 2006.07.06 dn411 Jul 6 18:01:01 dn411/dn411 crond(pam_unix)[23598]: session closed for user root
+- 1152234061 2006.07.06 dn411 Jul 6 18:01:01 dn411/dn411 crond[23599]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn412 Jul 6 18:01:01 dn412/dn412 crond[23427]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn413 Jul 6 18:01:01 dn413/dn413 crond(pam_unix)[23574]: session closed for user root
+- 1152234061 2006.07.06 dn414 Jul 6 18:01:01 dn414/dn414 crond[22268]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn416 Jul 6 18:01:01 dn416/dn416 crond(pam_unix)[22711]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn418 Jul 6 18:01:01 dn418/dn418 crond(pam_unix)[23606]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn421 Jul 6 18:01:01 dn421/dn421 crond[21710]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn423 Jul 6 18:01:01 dn423/dn423 crond(pam_unix)[23377]: session closed for user root
+- 1152234061 2006.07.06 dn423 Jul 6 18:01:01 dn423/dn423 crond[23378]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn424 Jul 6 18:01:01 dn424/dn424 crond(pam_unix)[25937]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn428 Jul 6 18:01:01 dn428/dn428 crond(pam_unix)[21827]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn432 Jul 6 18:01:01 dn432/dn432 crond[21960]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn436 Jul 6 18:01:01 dn436/dn436 crond(pam_unix)[21882]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn438 Jul 6 18:01:01 dn438/dn438 crond(pam_unix)[20639]: session closed for user root
+- 1152234061 2006.07.06 dn440 Jul 6 18:01:01 dn440/dn440 crond(pam_unix)[20669]: session closed for user root
+- 1152234061 2006.07.06 dn441 Jul 6 18:01:01 dn441/dn441 crond[20862]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn442 Jul 6 18:01:01 dn442/dn442 crond(pam_unix)[9505]: session closed for user root
+- 1152234061 2006.07.06 dn443 Jul 6 18:01:01 dn443/dn443 crond(pam_unix)[22689]: session closed for user root
+- 1152234061 2006.07.06 dn443 Jul 6 18:01:01 dn443/dn443 crond(pam_unix)[22689]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn443 Jul 6 18:01:01 dn443/dn443 crond[22690]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn447 Jul 6 18:01:01 dn447/dn447 crond[22275]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn449 Jul 6 18:01:01 dn449/dn449 crond(pam_unix)[21627]: session closed for user root
+- 1152234061 2006.07.06 dn449 Jul 6 18:01:01 dn449/dn449 crond(pam_unix)[21627]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn453 Jul 6 18:01:01 dn453/dn453 crond(pam_unix)[26589]: session closed for user root
+- 1152234061 2006.07.06 dn453 Jul 6 18:01:01 dn453/dn453 crond(pam_unix)[26589]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn455 Jul 6 18:01:01 dn455/dn455 crond(pam_unix)[22673]: session closed for user root
+- 1152234061 2006.07.06 dn456 Jul 6 18:01:01 dn456/dn456 crond(pam_unix)[26918]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn456 Jul 6 18:01:01 dn456/dn456 crond[26919]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn458 Jul 6 18:01:01 dn458/dn458 crond(pam_unix)[24459]: session closed for user root
+- 1152234061 2006.07.06 dn458 Jul 6 18:01:01 dn458/dn458 crond(pam_unix)[24459]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn458 Jul 6 18:01:01 dn458/dn458 crond[24460]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn459 Jul 6 18:01:01 dn459/dn459 crond[26532]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn46 Jul 6 18:01:01 dn46/dn46 crond(pam_unix)[26234]: session closed for user root
+- 1152234061 2006.07.06 dn462 Jul 6 18:01:01 dn462/dn462 crond(pam_unix)[24011]: session closed for user root
+- 1152234061 2006.07.06 dn462 Jul 6 18:01:01 dn462/dn462 crond(pam_unix)[24011]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn462 Jul 6 18:01:01 dn462/dn462 crond[24012]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn463 Jul 6 18:01:01 dn463/dn463 crond[28420]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn464 Jul 6 18:01:01 dn464/dn464 crond(pam_unix)[4259]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn465 Jul 6 18:01:01 dn465/dn465 crond[24935]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn468 Jul 6 18:01:01 dn468/dn468 crond(pam_unix)[12862]: session closed for user root
+- 1152234061 2006.07.06 dn469 Jul 6 18:01:01 dn469/dn469 crond[23100]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn47 Jul 6 18:01:01 dn47/dn47 crond(pam_unix)[28840]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn472 Jul 6 18:01:01 dn472/dn472 crond(pam_unix)[25639]: session closed for user root
+- 1152234061 2006.07.06 dn472 Jul 6 18:01:01 dn472/dn472 crond[25640]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn476 Jul 6 18:01:01 dn476/dn476 crond(pam_unix)[29873]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn476 Jul 6 18:01:01 dn476/dn476 crond[29874]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn477 Jul 6 18:01:01 dn477/dn477 crond[26815]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn478 Jul 6 18:01:01 dn478/dn478 crond(pam_unix)[25895]: session closed for user root
+- 1152234061 2006.07.06 dn478 Jul 6 18:01:01 dn478/dn478 crond(pam_unix)[25895]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn478 Jul 6 18:01:01 dn478/dn478 crond[25896]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn48 Jul 6 18:01:01 dn48/dn48 crond(pam_unix)[28861]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn483 Jul 6 18:01:01 dn483/dn483 crond(pam_unix)[28660]: session closed for user root
+- 1152234061 2006.07.06 dn483 Jul 6 18:01:01 dn483/dn483 crond(pam_unix)[28660]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn483 Jul 6 18:01:01 dn483/dn483 crond[28661]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn484 Jul 6 18:01:01 dn484/dn484 crond[25027]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn486 Jul 6 18:01:01 dn486/dn486 crond(pam_unix)[29888]: session closed for user root
+- 1152234061 2006.07.06 dn486 Jul 6 18:01:01 dn486/dn486 crond(pam_unix)[29888]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn488 Jul 6 18:01:01 dn488/dn488 crond[26071]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn489 Jul 6 18:01:01 dn489/dn489 crond(pam_unix)[24147]: session closed for user root
+- 1152234061 2006.07.06 dn490 Jul 6 18:01:01 dn490/dn490 crond[22936]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn491 Jul 6 18:01:01 dn491/dn491 crond(pam_unix)[26233]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn491 Jul 6 18:01:01 dn491/dn491 crond[26234]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn496 Jul 6 18:01:01 dn496/dn496 crond(pam_unix)[22673]: session closed for user root
+- 1152234061 2006.07.06 dn499 Jul 6 18:01:01 dn499/dn499 crond(pam_unix)[22670]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn5 Jul 6 18:01:01 dn5/dn5 crond(pam_unix)[26075]: session closed for user root
+- 1152234061 2006.07.06 dn5 Jul 6 18:01:01 dn5/dn5 crond[26076]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn503 Jul 6 18:01:01 dn503/dn503 crond(pam_unix)[22091]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn506 Jul 6 18:01:01 dn506/dn506 crond(pam_unix)[22762]: session closed for user root
+- 1152234061 2006.07.06 dn508 Jul 6 18:01:01 dn508/dn508 crond(pam_unix)[22869]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn509 Jul 6 18:01:01 dn509/dn509 crond(pam_unix)[4705]: session closed for user root
+- 1152234061 2006.07.06 dn510 Jul 6 18:01:01 dn510/dn510 crond(pam_unix)[21001]: session closed for user root
+- 1152234061 2006.07.06 dn510 Jul 6 18:01:01 dn510/dn510 crond(pam_unix)[21001]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn512 Jul 6 18:01:01 dn512/dn512 crond(pam_unix)[23172]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn513 Jul 6 18:01:01 dn513/dn513 crond(pam_unix)[23326]: session closed for user root
+- 1152234061 2006.07.06 dn513 Jul 6 18:01:01 dn513/dn513 crond(pam_unix)[23326]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn514 Jul 6 18:01:01 dn514/dn514 crond(pam_unix)[22951]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn514 Jul 6 18:01:01 dn514/dn514 crond[22952]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn519 Jul 6 18:01:01 dn519/dn519 crond(pam_unix)[20931]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn523 Jul 6 18:01:01 dn523/dn523 crond(pam_unix)[21060]: session closed for user root
+- 1152234061 2006.07.06 dn524 Jul 6 18:01:01 dn524/dn524 crond[21344]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn528 Jul 6 18:01:01 dn528/dn528 crond[21269]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn530 Jul 6 18:01:01 dn530/dn530 crond(pam_unix)[20785]: session closed for user root
+- 1152234061 2006.07.06 dn530 Jul 6 18:01:01 dn530/dn530 crond[20786]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn531 Jul 6 18:01:01 dn531/dn531 crond[23019]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn532 Jul 6 18:01:01 dn532/dn532 crond(pam_unix)[23255]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn532 Jul 6 18:01:01 dn532/dn532 crond[23256]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn535 Jul 6 18:01:01 dn535/dn535 crond(pam_unix)[20968]: session closed for user root
+- 1152234061 2006.07.06 dn537 Jul 6 18:01:01 dn537/dn537 crond[25663]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn538 Jul 6 18:01:01 dn538/dn538 crond[26298]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn542 Jul 6 18:01:01 dn542/dn542 crond(pam_unix)[24905]: session closed for user root
+- 1152234061 2006.07.06 dn542 Jul 6 18:01:01 dn542/dn542 crond(pam_unix)[24905]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn542 Jul 6 18:01:01 dn542/dn542 crond[24906]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn545 Jul 6 18:01:01 dn545/dn545 crond(pam_unix)[26725]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn545 Jul 6 18:01:01 dn545/dn545 crond[26726]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn55 Jul 6 18:01:01 dn55/dn55 crond(pam_unix)[27251]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn55 Jul 6 18:01:01 dn55/dn55 crond[27252]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn551 Jul 6 18:01:01 dn551/dn551 crond[25100]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn556 Jul 6 18:01:01 dn556/dn556 crond(pam_unix)[24052]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn557 Jul 6 18:01:01 dn557/dn557 crond(pam_unix)[24208]: session closed for user root
+- 1152234061 2006.07.06 dn558 Jul 6 18:01:01 dn558/dn558 crond(pam_unix)[22943]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn562 Jul 6 18:01:01 dn562/dn562 crond(pam_unix)[23602]: session closed for user root
+- 1152234061 2006.07.06 dn562 Jul 6 18:01:01 dn562/dn562 crond[23603]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn563 Jul 6 18:01:01 dn563/dn563 crond(pam_unix)[23946]: session closed for user root
+- 1152234061 2006.07.06 dn563 Jul 6 18:01:01 dn563/dn563 crond[23947]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn564 Jul 6 18:01:01 dn564/dn564 crond(pam_unix)[21026]: session closed for user root
+- 1152234061 2006.07.06 dn564 Jul 6 18:01:01 dn564/dn564 crond(pam_unix)[21026]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn564 Jul 6 18:01:01 dn564/dn564 crond[21027]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn568 Jul 6 18:01:01 dn568/dn568 crond(pam_unix)[21175]: session closed for user root
+- 1152234061 2006.07.06 dn568 Jul 6 18:01:01 dn568/dn568 crond(pam_unix)[21175]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn568 Jul 6 18:01:01 dn568/dn568 crond[21176]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn573 Jul 6 18:01:01 dn573/dn573 crond[28011]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn576 Jul 6 18:01:01 dn576/dn576 crond(pam_unix)[28168]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn576 Jul 6 18:01:01 dn576/dn576 crond[28169]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn579 Jul 6 18:01:01 dn579/dn579 crond(pam_unix)[26952]: session closed for user root
+- 1152234061 2006.07.06 dn579 Jul 6 18:01:01 dn579/dn579 crond(pam_unix)[26952]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn579 Jul 6 18:01:01 dn579/dn579 crond[26953]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn58 Jul 6 18:01:01 dn58/dn58 crond[29170]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn580 Jul 6 18:01:01 dn580/dn580 crond(pam_unix)[24655]: session closed for user root
+- 1152234061 2006.07.06 dn580 Jul 6 18:01:01 dn580/dn580 crond(pam_unix)[24655]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn580 Jul 6 18:01:01 dn580/dn580 crond[24656]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn582 Jul 6 18:01:01 dn582/dn582 crond(pam_unix)[30514]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn582 Jul 6 18:01:01 dn582/dn582 crond[30515]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn586 Jul 6 18:01:01 dn586/dn586 crond(pam_unix)[23101]: session closed for user root
+- 1152234061 2006.07.06 dn587 Jul 6 18:01:01 dn587/dn587 crond(pam_unix)[6400]: session closed for user root
+- 1152234061 2006.07.06 dn59 Jul 6 18:01:01 dn59/dn59 crond(pam_unix)[3724]: session closed for user root
+- 1152234061 2006.07.06 dn59 Jul 6 18:01:01 dn59/dn59 crond(pam_unix)[3724]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn59 Jul 6 18:01:01 dn59/dn59 crond[3725]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn594 Jul 6 18:01:01 dn594/dn594 crond(pam_unix)[28934]: session closed for user root
+- 1152234061 2006.07.06 dn596 Jul 6 18:01:01 dn596/dn596 crond(pam_unix)[26888]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn596 Jul 6 18:01:01 dn596/dn596 crond[26889]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn597 Jul 6 18:01:01 dn597/dn597 crond(pam_unix)[1424]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn598 Jul 6 18:01:01 dn598/dn598 crond(pam_unix)[24597]: session closed for user root
+- 1152234061 2006.07.06 dn599 Jul 6 18:01:01 dn599/dn599 crond(pam_unix)[25672]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn599 Jul 6 18:01:01 dn599/dn599 crond[25673]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn601 Jul 6 18:01:01 dn601/dn601 crond(pam_unix)[22322]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn601 Jul 6 18:01:01 dn601/dn601 crond[22323]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn604 Jul 6 18:01:01 dn604/dn604 crond(pam_unix)[18681]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn611 Jul 6 18:01:01 dn611/dn611 crond(pam_unix)[29302]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn614 Jul 6 18:01:01 dn614/dn614 crond(pam_unix)[25803]: session closed for user root
+- 1152234061 2006.07.06 dn614 Jul 6 18:01:01 dn614/dn614 crond[25804]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn619 Jul 6 18:01:01 dn619/dn619 crond[24433]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn621 Jul 6 18:01:01 dn621/dn621 crond(pam_unix)[28175]: session closed for user root
+- 1152234061 2006.07.06 dn621 Jul 6 18:01:01 dn621/dn621 crond(pam_unix)[28175]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn621 Jul 6 18:01:01 dn621/dn621 crond[28176]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn624 Jul 6 18:01:01 dn624/dn624 crond(pam_unix)[29788]: session closed for user root
+- 1152234061 2006.07.06 dn627 Jul 6 18:01:01 dn627/dn627 crond[506]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn630 Jul 6 18:01:01 dn630/dn630 crond(pam_unix)[21824]: session closed for user root
+- 1152234061 2006.07.06 dn630 Jul 6 18:01:01 dn630/dn630 crond(pam_unix)[21824]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn630 Jul 6 18:01:01 dn630/dn630 crond[21825]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn633 Jul 6 18:01:01 dn633/dn633 crond(pam_unix)[24763]: session closed for user root
+- 1152234061 2006.07.06 dn633 Jul 6 18:01:01 dn633/dn633 crond[24764]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn634 Jul 6 18:01:01 dn634/dn634 crond(pam_unix)[23774]: session closed for user root
+- 1152234061 2006.07.06 dn636 Jul 6 18:01:01 dn636/dn636 crond(pam_unix)[21961]: session closed for user root
+- 1152234061 2006.07.06 dn636 Jul 6 18:01:01 dn636/dn636 crond(pam_unix)[21961]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn636 Jul 6 18:01:01 dn636/dn636 crond[21962]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn64 Jul 6 18:01:01 dn64/dn64 crond(pam_unix)[16779]: session closed for user root
+- 1152234061 2006.07.06 dn640 Jul 6 18:01:01 dn640/dn640 crond(pam_unix)[18764]: session closed for user root
+- 1152234061 2006.07.06 dn640 Jul 6 18:01:01 dn640/dn640 crond(pam_unix)[18764]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn640 Jul 6 18:01:01 dn640/dn640 crond[18765]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn642 Jul 6 18:01:01 dn642/dn642 crond(pam_unix)[24430]: session closed for user root
+- 1152234061 2006.07.06 dn644 Jul 6 18:01:01 dn644/dn644 crond(pam_unix)[23020]: session closed for user root
+- 1152234061 2006.07.06 dn646 Jul 6 18:01:01 dn646/dn646 crond[21133]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn647 Jul 6 18:01:01 dn647/dn647 crond[22702]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn651 Jul 6 18:01:01 dn651/dn651 crond(pam_unix)[22377]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn652 Jul 6 18:01:01 dn652/dn652 crond(pam_unix)[20797]: session closed for user root
+- 1152234061 2006.07.06 dn652 Jul 6 18:01:01 dn652/dn652 crond[20798]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn653 Jul 6 18:01:01 dn653/dn653 crond[27052]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn658 Jul 6 18:01:01 dn658/dn658 crond(pam_unix)[20874]: session closed for user root
+- 1152234061 2006.07.06 dn658 Jul 6 18:01:01 dn658/dn658 crond(pam_unix)[20874]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn658 Jul 6 18:01:01 dn658/dn658 crond[20875]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn659 Jul 6 18:01:01 dn659/dn659 crond(pam_unix)[22397]: session closed for user root
+- 1152234061 2006.07.06 dn660 Jul 6 18:01:01 dn660/dn660 crond(pam_unix)[27202]: session closed for user root
+- 1152234061 2006.07.06 dn660 Jul 6 18:01:01 dn660/dn660 crond(pam_unix)[27202]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn660 Jul 6 18:01:01 dn660/dn660 crond[27203]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn661 Jul 6 18:01:01 dn661/dn661 crond(pam_unix)[23930]: session closed for user root
+- 1152234061 2006.07.06 dn666 Jul 6 18:01:01 dn666/dn666 crond(pam_unix)[25082]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn668 Jul 6 18:01:01 dn668/dn668 crond(pam_unix)[26077]: session closed for user root
+- 1152234061 2006.07.06 dn668 Jul 6 18:01:01 dn668/dn668 crond(pam_unix)[26077]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn67 Jul 6 18:01:01 dn67/dn67 crond(pam_unix)[25263]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn67 Jul 6 18:01:01 dn67/dn67 crond[25264]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn671 Jul 6 18:01:01 dn671/dn671 crond(pam_unix)[27764]: session closed for user root
+- 1152234061 2006.07.06 dn672 Jul 6 18:01:01 dn672/dn672 crond(pam_unix)[27770]: session closed for user root
+- 1152234061 2006.07.06 dn672 Jul 6 18:01:01 dn672/dn672 crond(pam_unix)[27770]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn672 Jul 6 18:01:01 dn672/dn672 crond[27771]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn677 Jul 6 18:01:01 dn677/dn677 crond(pam_unix)[19905]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn680 Jul 6 18:01:01 dn680/dn680 crond[19861]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn684 Jul 6 18:01:01 dn684/dn684 crond(pam_unix)[21486]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn686 Jul 6 18:01:01 dn686/dn686 crond[22207]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn687 Jul 6 18:01:01 dn687/dn687 crond(pam_unix)[3704]: session closed for user root
+- 1152234061 2006.07.06 dn687 Jul 6 18:01:01 dn687/dn687 crond(pam_unix)[3704]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn694 Jul 6 18:01:01 dn694/dn694 crond[26113]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn696 Jul 6 18:01:01 dn696/dn696 crond[22420]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn698 Jul 6 18:01:01 dn698/dn698 crond(pam_unix)[22365]: session closed for user root
+- 1152234061 2006.07.06 dn699 Jul 6 18:01:01 dn699/dn699 crond(pam_unix)[22576]: session closed for user root
+- 1152234061 2006.07.06 dn70 Jul 6 18:01:01 dn70/dn70 crond[28726]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn701 Jul 6 18:01:01 dn701/dn701 crond[22684]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn705 Jul 6 18:01:01 dn705/dn705 crond(pam_unix)[25122]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn705 Jul 6 18:01:01 dn705/dn705 crond[25123]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn708 Jul 6 18:01:01 dn708/dn708 crond[19919]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn709 Jul 6 18:01:01 dn709/dn709 crond(pam_unix)[22196]: session closed for user root
+- 1152234061 2006.07.06 dn709 Jul 6 18:01:01 dn709/dn709 crond(pam_unix)[22196]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn709 Jul 6 18:01:01 dn709/dn709 crond[22197]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn710 Jul 6 18:01:01 dn710/dn710 crond[22252]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn711 Jul 6 18:01:01 dn711/dn711 crond(pam_unix)[30997]: session closed for user root
+- 1152234061 2006.07.06 dn711 Jul 6 18:01:01 dn711/dn711 crond[30998]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn712 Jul 6 18:01:01 dn712/dn712 crond(pam_unix)[22240]: session closed for user root
+- 1152234061 2006.07.06 dn714 Jul 6 18:01:01 dn714/dn714 crond(pam_unix)[27750]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn715 Jul 6 18:01:01 dn715/dn715 crond(pam_unix)[27279]: session closed for user root
+- 1152234061 2006.07.06 dn716 Jul 6 18:01:01 dn716/dn716 crond(pam_unix)[25007]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn718 Jul 6 18:01:01 dn718/dn718 crond(pam_unix)[26555]: session closed for user root
+- 1152234061 2006.07.06 dn721 Jul 6 18:01:01 dn721/dn721 crond[20738]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn724 Jul 6 18:01:01 dn724/dn724 crond(pam_unix)[21268]: session closed for user root
+- 1152234061 2006.07.06 dn724 Jul 6 18:01:01 dn724/dn724 crond(pam_unix)[21268]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn724 Jul 6 18:01:01 dn724/dn724 crond[21269]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn725 Jul 6 18:01:01 dn725/dn725 crond[21328]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn727 Jul 6 18:01:01 dn727/dn727 crond(pam_unix)[22045]: session closed for user root
+- 1152234061 2006.07.06 dn727 Jul 6 18:01:01 dn727/dn727 crond(pam_unix)[22045]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn727 Jul 6 18:01:01 dn727/dn727 crond[22046]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn734 Jul 6 18:01:01 dn734/dn734 crond(pam_unix)[1157]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn734 Jul 6 18:01:01 dn734/dn734 crond[1158]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn737 Jul 6 18:01:01 dn737/dn737 crond(pam_unix)[2257]: session closed for user root
+- 1152234061 2006.07.06 dn737 Jul 6 18:01:01 dn737/dn737 crond(pam_unix)[2257]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn737 Jul 6 18:01:01 dn737/dn737 crond[2258]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn741 Jul 6 18:01:01 dn741/dn741 crond[26917]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn743 Jul 6 18:01:01 dn743/dn743 crond[24740]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn744 Jul 6 18:01:01 dn744/dn744 crond(pam_unix)[32091]: session closed for user root
+- 1152234061 2006.07.06 dn746 Jul 6 18:01:01 dn746/dn746 crond(pam_unix)[3625]: session closed for user root
+- 1152234061 2006.07.06 dn747 Jul 6 18:01:01 dn747/dn747 crond(pam_unix)[1137]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn748 Jul 6 18:01:01 dn748/dn748 crond[3962]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn75 Jul 6 18:01:01 dn75/dn75 crond(pam_unix)[25621]: session closed for user root
+- 1152234061 2006.07.06 dn753 Jul 6 18:01:01 dn753/dn753 crond[32394]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn754 Jul 6 18:01:01 dn754/dn754 crond(pam_unix)[24724]: session closed for user root
+- 1152234061 2006.07.06 dn757 Jul 6 18:01:01 dn757/dn757 crond(pam_unix)[2698]: session closed for user root
+- 1152234061 2006.07.06 dn757 Jul 6 18:01:01 dn757/dn757 crond(pam_unix)[2698]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn757 Jul 6 18:01:01 dn757/dn757 crond[2699]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn759 Jul 6 18:01:01 dn759/dn759 crond(pam_unix)[23825]: session closed for user root
+- 1152234061 2006.07.06 dn760 Jul 6 18:01:01 dn760/dn760 crond(pam_unix)[24256]: session closed for user root
+- 1152234061 2006.07.06 dn762 Jul 6 18:01:01 dn762/dn762 crond(pam_unix)[24808]: session closed for user root
+- 1152234061 2006.07.06 dn762 Jul 6 18:01:01 dn762/dn762 crond(pam_unix)[24808]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn762 Jul 6 18:01:01 dn762/dn762 crond[24809]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn767 Jul 6 18:01:01 dn767/dn767 crond(pam_unix)[4900]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn768 Jul 6 18:01:01 dn768/dn768 crond(pam_unix)[3449]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn77 Jul 6 18:01:01 dn77/dn77 crond(pam_unix)[28390]: session closed for user root
+- 1152234061 2006.07.06 dn770 Jul 6 18:01:01 dn770/dn770 crond(pam_unix)[26510]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn771 Jul 6 18:01:01 dn771/dn771 crond(pam_unix)[25822]: session closed for user root
+- 1152234061 2006.07.06 dn773 Jul 6 18:01:01 dn773/dn773 crond(pam_unix)[28039]: session closed for user root
+- 1152234061 2006.07.06 dn774 Jul 6 18:01:01 dn774/dn774 crond(pam_unix)[26296]: session closed for user root
+- 1152234061 2006.07.06 dn774 Jul 6 18:01:01 dn774/dn774 crond(pam_unix)[26296]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn774 Jul 6 18:01:01 dn774/dn774 crond[26297]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn777 Jul 6 18:01:01 dn777/dn777 crond(pam_unix)[26037]: session closed for user root
+- 1152234061 2006.07.06 dn777 Jul 6 18:01:01 dn777/dn777 crond(pam_unix)[26037]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn777 Jul 6 18:01:01 dn777/dn777 crond[26038]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn778 Jul 6 18:01:01 dn778/dn778 crond[26873]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn784 Jul 6 18:01:01 dn784/dn784 crond(pam_unix)[26154]: session closed for user root
+- 1152234061 2006.07.06 dn784 Jul 6 18:01:01 dn784/dn784 crond(pam_unix)[26154]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn784 Jul 6 18:01:01 dn784/dn784 crond[26155]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn786 Jul 6 18:01:01 dn786/dn786 crond(pam_unix)[25059]: session closed for user root
+- 1152234061 2006.07.06 dn786 Jul 6 18:01:01 dn786/dn786 crond(pam_unix)[25059]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn786 Jul 6 18:01:01 dn786/dn786 crond[25060]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn792 Jul 6 18:01:01 dn792/dn792 crond(pam_unix)[23134]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn793 Jul 6 18:01:01 dn793/dn793 crond(pam_unix)[26348]: session closed for user root
+- 1152234061 2006.07.06 dn793 Jul 6 18:01:01 dn793/dn793 crond(pam_unix)[26348]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn797 Jul 6 18:01:01 dn797/dn797 crond(pam_unix)[23389]: session closed for user root
+- 1152234061 2006.07.06 dn797 Jul 6 18:01:01 dn797/dn797 crond(pam_unix)[23389]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn797 Jul 6 18:01:01 dn797/dn797 crond[23390]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn798 Jul 6 18:01:01 dn798/dn798 crond[23141]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn799 Jul 6 18:01:01 dn799/dn799 crond(pam_unix)[23116]: session closed for user root
+- 1152234061 2006.07.06 dn799 Jul 6 18:01:01 dn799/dn799 crond[23117]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn800 Jul 6 18:01:01 dn800/dn800 crond[23500]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn804 Jul 6 18:01:01 dn804/dn804 crond(pam_unix)[31008]: session closed for user root
+- 1152234061 2006.07.06 dn804 Jul 6 18:01:01 dn804/dn804 crond(pam_unix)[31008]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn816 Jul 6 18:01:01 dn816/dn816 crond(pam_unix)[29963]: session closed for user root
+- 1152234061 2006.07.06 dn816 Jul 6 18:01:01 dn816/dn816 crond(pam_unix)[29963]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn816 Jul 6 18:01:01 dn816/dn816 crond[29964]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn818 Jul 6 18:01:01 dn818/dn818 crond(pam_unix)[29464]: session closed for user root
+- 1152234061 2006.07.06 dn820 Jul 6 18:01:01 dn820/dn820 crond(pam_unix)[22238]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn821 Jul 6 18:01:01 dn821/dn821 crond(pam_unix)[29605]: session closed for user root
+- 1152234061 2006.07.06 dn828 Jul 6 18:01:01 dn828/dn828 crond(pam_unix)[11491]: session closed for user root
+- 1152234061 2006.07.06 dn828 Jul 6 18:01:01 dn828/dn828 crond(pam_unix)[11491]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn828 Jul 6 18:01:01 dn828/dn828 crond[11492]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn83 Jul 6 18:01:01 dn83/dn83 crond[28381]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn831 Jul 6 18:01:01 dn831/dn831 crond(pam_unix)[29397]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn831 Jul 6 18:01:01 dn831/dn831 crond[29398]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn833 Jul 6 18:01:01 dn833/dn833 crond(pam_unix)[29345]: session closed for user root
+- 1152234061 2006.07.06 dn834 Jul 6 18:01:01 dn834/dn834 crond[30296]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn836 Jul 6 18:01:01 dn836/dn836 crond[30238]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn837 Jul 6 18:01:01 dn837/dn837 crond[466]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn838 Jul 6 18:01:01 dn838/dn838 crond(pam_unix)[31504]: session closed for user root
+- 1152234061 2006.07.06 dn84 Jul 6 18:01:01 dn84/dn84 crond(pam_unix)[24433]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn84 Jul 6 18:01:01 dn84/dn84 crond[24434]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn841 Jul 6 18:01:01 dn841/dn841 crond(pam_unix)[32117]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn844 Jul 6 18:01:01 dn844/dn844 crond(pam_unix)[30334]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn848 Jul 6 18:01:01 dn848/dn848 crond(pam_unix)[22518]: session closed for user root
+- 1152234061 2006.07.06 dn848 Jul 6 18:01:01 dn848/dn848 crond(pam_unix)[22518]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn848 Jul 6 18:01:01 dn848/dn848 crond[22519]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn851 Jul 6 18:01:01 dn851/dn851 crond(pam_unix)[24657]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn854 Jul 6 18:01:01 dn854/dn854 crond[24826]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn861 Jul 6 18:01:01 dn861/dn861 crond(pam_unix)[22907]: session closed for user root
+- 1152234061 2006.07.06 dn861 Jul 6 18:01:01 dn861/dn861 crond(pam_unix)[22907]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn861 Jul 6 18:01:01 dn861/dn861 crond[22908]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn866 Jul 6 18:01:01 dn866/dn866 crond[19420]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn869 Jul 6 18:01:01 dn869/dn869 crond(pam_unix)[22495]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn869 Jul 6 18:01:01 dn869/dn869 crond[22496]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn87 Jul 6 18:01:01 dn87/dn87 crond(pam_unix)[25580]: session closed for user root
+- 1152234061 2006.07.06 dn87 Jul 6 18:01:01 dn87/dn87 crond(pam_unix)[25580]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn87 Jul 6 18:01:01 dn87/dn87 crond[25581]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn872 Jul 6 18:01:01 dn872/dn872 crond(pam_unix)[24525]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn873 Jul 6 18:01:01 dn873/dn873 crond[26210]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn875 Jul 6 18:01:01 dn875/dn875 crond[21990]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn877 Jul 6 18:01:01 dn877/dn877 crond(pam_unix)[23009]: session closed for user root
+- 1152234061 2006.07.06 dn877 Jul 6 18:01:01 dn877/dn877 crond(pam_unix)[23009]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn880 Jul 6 18:01:01 dn880/dn880 crond[27371]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn888 Jul 6 18:01:01 dn888/dn888 crond(pam_unix)[28780]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn890 Jul 6 18:01:01 dn890/dn890 crond(pam_unix)[24334]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn892 Jul 6 18:01:01 dn892/dn892 crond(pam_unix)[24165]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn892 Jul 6 18:01:01 dn892/dn892 crond[24166]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn894 Jul 6 18:01:01 dn894/dn894 crond(pam_unix)[24389]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn896 Jul 6 18:01:01 dn896/dn896 crond(pam_unix)[22829]: session closed for user root
+- 1152234061 2006.07.06 dn896 Jul 6 18:01:01 dn896/dn896 crond(pam_unix)[22829]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn896 Jul 6 18:01:01 dn896/dn896 crond[22830]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn897 Jul 6 18:01:01 dn897/dn897 crond(pam_unix)[16751]: session closed for user root
+- 1152234061 2006.07.06 dn897 Jul 6 18:01:01 dn897/dn897 crond(pam_unix)[16751]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn899 Jul 6 18:01:01 dn899/dn899 crond[25836]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn902 Jul 6 18:01:01 dn902/dn902 crond(pam_unix)[23563]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn904 Jul 6 18:01:01 dn904/dn904 crond(pam_unix)[24024]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn904 Jul 6 18:01:01 dn904/dn904 crond[24025]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn905 Jul 6 18:01:01 dn905/dn905 crond(pam_unix)[23457]: session closed for user root
+- 1152234061 2006.07.06 dn905 Jul 6 18:01:01 dn905/dn905 crond(pam_unix)[23457]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn905 Jul 6 18:01:01 dn905/dn905 crond[23458]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn909 Jul 6 18:01:01 dn909/dn909 crond(pam_unix)[23722]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn909 Jul 6 18:01:01 dn909/dn909 crond[23723]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn916 Jul 6 18:01:01 dn916/dn916 crond(pam_unix)[5375]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn917 Jul 6 18:01:01 dn917/dn917 crond[2196]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn920 Jul 6 18:01:01 dn920/dn920 crond(pam_unix)[1712]: session closed for user root
+- 1152234061 2006.07.06 dn923 Jul 6 18:01:01 dn923/dn923 crond(pam_unix)[3489]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn923 Jul 6 18:01:01 dn923/dn923 crond[3490]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn924 Jul 6 18:01:01 dn924/dn924 crond(pam_unix)[3633]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn926 Jul 6 18:01:01 dn926/dn926 crond[27630]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn931 Jul 6 18:01:01 dn931/dn931 crond(pam_unix)[26770]: session closed for user root
+- 1152234061 2006.07.06 dn931 Jul 6 18:01:01 dn931/dn931 crond(pam_unix)[26770]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn931 Jul 6 18:01:01 dn931/dn931 crond[26771]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn932 Jul 6 18:01:01 dn932/dn932 crond[11674]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn933 Jul 6 18:01:01 dn933/dn933 crond[25823]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn936 Jul 6 18:01:01 dn936/dn936 crond(pam_unix)[936]: session closed for user root
+- 1152234061 2006.07.06 dn936 Jul 6 18:01:01 dn936/dn936 crond(pam_unix)[936]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn936 Jul 6 18:01:01 dn936/dn936 crond[937]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn94 Jul 6 18:01:01 dn94/dn94 crond(pam_unix)[24461]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn944 Jul 6 18:01:01 dn944/dn944 crond[25854]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn946 Jul 6 18:01:01 dn946/dn946 crond[27195]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn948 Jul 6 18:01:01 dn948/dn948 crond(pam_unix)[26017]: session closed for user root
+- 1152234061 2006.07.06 dn953 Jul 6 18:01:01 dn953/dn953 crond[22002]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn956 Jul 6 18:01:01 dn956/dn956 crond(pam_unix)[21738]: session closed for user root
+- 1152234061 2006.07.06 dn957 Jul 6 18:01:01 dn957/dn957 crond[21567]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn958 Jul 6 18:01:01 dn958/dn958 crond(pam_unix)[21553]: session closed for user root
+- 1152234061 2006.07.06 dn958 Jul 6 18:01:01 dn958/dn958 crond[21554]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn959 Jul 6 18:01:01 dn959/dn959 crond(pam_unix)[28785]: session closed for user root
+- 1152234061 2006.07.06 dn960 Jul 6 18:01:01 dn960/dn960 crond[24297]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn963 Jul 6 18:01:01 dn963/dn963 crond(pam_unix)[22827]: session closed for user root
+- 1152234061 2006.07.06 dn965 Jul 6 18:01:01 dn965/dn965 crond(pam_unix)[26089]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn968 Jul 6 18:01:01 dn968/dn968 crond(pam_unix)[22924]: session closed for user root
+- 1152234061 2006.07.06 dn97 Jul 6 18:01:01 dn97/dn97 crond(pam_unix)[24350]: session closed for user root
+- 1152234061 2006.07.06 dn97 Jul 6 18:01:01 dn97/dn97 crond[24351]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn970 Jul 6 18:01:01 dn970/dn970 crond[23405]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn974 Jul 6 18:01:01 dn974/dn974 crond[27563]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn977 Jul 6 18:01:01 dn977/dn977 crond(pam_unix)[1036]: session closed for user root
+- 1152234061 2006.07.06 dn98 Jul 6 18:01:01 dn98/dn98 crond[24622]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn989 Jul 6 18:01:01 dn989/dn989 crond[3656]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn99 Jul 6 18:01:01 dn99/dn99 crond[28788]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn992 Jul 6 18:01:01 dn992/dn992 crond(pam_unix)[23634]: session closed for user root
+- 1152234061 2006.07.06 dn993 Jul 6 18:01:01 dn993/dn993 crond(pam_unix)[1996]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn993 Jul 6 18:01:01 dn993/dn993 crond[1997]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234061 2006.07.06 dn995 Jul 6 18:01:01 dn995/dn995 crond(pam_unix)[25108]: session opened for user root by (uid=0)
+- 1152234061 2006.07.06 dn995 Jul 6 18:01:01 dn995/dn995 crond[25109]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn1007 Jul 6 18:01:02 dn1007/dn1007 crond(pam_unix)[28221]: session closed for user root
+- 1152234062 2006.07.06 dn1009 Jul 6 18:01:02 dn1009/dn1009 crond(pam_unix)[23060]: session closed for user root
+- 1152234062 2006.07.06 dn1011 Jul 6 18:01:02 dn1011/dn1011 crond(pam_unix)[23084]: session closed for user root
+- 1152234062 2006.07.06 dn1013 Jul 6 18:01:02 dn1013/dn1013 crond(pam_unix)[24665]: session closed for user root
+- 1152234062 2006.07.06 dn1014 Jul 6 18:01:02 dn1014/dn1014 crond(pam_unix)[20148]: session closed for user root
+- 1152234062 2006.07.06 dn1014 Jul 6 18:01:02 dn1014/dn1014 crond(pam_unix)[20148]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn1014 Jul 6 18:01:02 dn1014/dn1014 crond[20149]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn1016 Jul 6 18:01:02 dn1016/dn1016 crond(pam_unix)[29010]: session closed for user root
+- 1152234062 2006.07.06 dn1017 Jul 6 18:01:02 dn1017/dn1017 crond(pam_unix)[26104]: session closed for user root
+- 1152234062 2006.07.06 dn110 Jul 6 18:01:02 dn110/dn110 crond(pam_unix)[26157]: session closed for user root
+- 1152234062 2006.07.06 dn13 Jul 6 18:01:02 dn13/dn13 crond(pam_unix)[28121]: session closed for user root
+- 1152234062 2006.07.06 dn137 Jul 6 18:01:02 dn137/dn137 crond(pam_unix)[23595]: session closed for user root
+- 1152234062 2006.07.06 dn153 Jul 6 18:01:02 dn153/dn153 crond(pam_unix)[27603]: session closed for user root
+- 1152234062 2006.07.06 dn167 Jul 6 18:01:02 dn167/dn167 crond(pam_unix)[29432]: session closed for user root
+- 1152234062 2006.07.06 dn167 Jul 6 18:01:02 dn167/dn167 crond(pam_unix)[29432]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn167 Jul 6 18:01:02 dn167/dn167 crond[29433]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn22 Jul 6 18:01:02 dn22/dn22 crond(pam_unix)[26994]: session closed for user root
+- 1152234062 2006.07.06 dn241 Jul 6 18:01:02 dn241/dn241 crond(pam_unix)[25306]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn299 Jul 6 18:01:02 dn299/dn299 crond(pam_unix)[28396]: session closed for user root
+- 1152234062 2006.07.06 dn301 Jul 6 18:01:02 dn301/dn301 crond(pam_unix)[28668]: session closed for user root
+- 1152234062 2006.07.06 dn306 Jul 6 18:01:02 dn306/dn306 crond[21631]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn310 Jul 6 18:01:02 dn310/dn310 kernel: spyplt[25544]: segfault at 0000000000000000 rip 000000000041a43c rsp 0000007fbfffce00 error 6
+- 1152234062 2006.07.06 dn333 Jul 6 18:01:02 dn333/dn333 crond(pam_unix)[26476]: session closed for user root
+- 1152234062 2006.07.06 dn333 Jul 6 18:01:02 dn333/dn333 crond[26477]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn368 Jul 6 18:01:02 dn368/dn368 crond(pam_unix)[19100]: session closed for user root
+- 1152234062 2006.07.06 dn457 Jul 6 18:01:02 dn457/dn457 crond(pam_unix)[24930]: session closed for user root
+- 1152234062 2006.07.06 dn476 Jul 6 18:01:02 dn476/dn476 crond(pam_unix)[29873]: session closed for user root
+- 1152234062 2006.07.06 dn53 Jul 6 18:01:02 dn53/dn53 crond(pam_unix)[24767]: session closed for user root
+- 1152234062 2006.07.06 dn53 Jul 6 18:01:02 dn53/dn53 crond(pam_unix)[24767]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn53 Jul 6 18:01:02 dn53/dn53 crond[24768]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn541 Jul 6 18:01:02 dn541/dn541 crond[24635]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn549 Jul 6 18:01:02 dn549/dn549 crond(pam_unix)[23978]: session closed for user root
+- 1152234062 2006.07.06 dn550 Jul 6 18:01:02 dn550/dn550 crond(pam_unix)[26525]: session closed for user root
+- 1152234062 2006.07.06 dn571 Jul 6 18:01:02 dn571/dn571 crond[28460]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn60 Jul 6 18:01:02 dn60/dn60 crond(pam_unix)[22347]: session closed for user root
+- 1152234062 2006.07.06 dn60 Jul 6 18:01:02 dn60/dn60 crond(pam_unix)[22347]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn60 Jul 6 18:01:02 dn60/dn60 crond[22348]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn612 Jul 6 18:01:02 dn612/dn612 crond(pam_unix)[24275]: session closed for user root
+- 1152234062 2006.07.06 dn625 Jul 6 18:01:02 dn625/dn625 crond(pam_unix)[18973]: session closed for user root
+- 1152234062 2006.07.06 dn625 Jul 6 18:01:02 dn625/dn625 crond(pam_unix)[18973]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn679 Jul 6 18:01:02 dn679/dn679 crond(pam_unix)[24469]: session closed for user root
+- 1152234062 2006.07.06 dn680 Jul 6 18:01:02 dn680/dn680 crond(pam_unix)[19860]: session closed for user root
+- 1152234062 2006.07.06 dn681 Jul 6 18:01:02 dn681/dn681 crond(pam_unix)[24219]: session closed for user root
+- 1152234062 2006.07.06 dn683 Jul 6 18:01:02 dn683/dn683 crond(pam_unix)[31178]: session closed for user root
+- 1152234062 2006.07.06 dn685 Jul 6 18:01:02 dn685/dn685 crond(pam_unix)[19947]: session closed for user root
+- 1152234062 2006.07.06 dn685 Jul 6 18:01:02 dn685/dn685 crond[19948]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn689 Jul 6 18:01:02 dn689/dn689 crond(pam_unix)[28943]: session closed for user root
+- 1152234062 2006.07.06 dn69 Jul 6 18:01:02 dn69/dn69 crond(pam_unix)[29766]: session closed for user root
+- 1152234062 2006.07.06 dn693 Jul 6 18:01:02 dn693/dn693 crond(pam_unix)[26654]: session closed for user root
+- 1152234062 2006.07.06 dn738 Jul 6 18:01:02 dn738/dn738 crond(pam_unix)[4867]: session closed for user root
+- 1152234062 2006.07.06 dn742 Jul 6 18:01:02 dn742/dn742 crond(pam_unix)[2504]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn755 Jul 6 18:01:02 dn755/dn755 crond(pam_unix)[11768]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn789 Jul 6 18:01:02 dn789/dn789 crond(pam_unix)[23290]: session closed for user root
+- 1152234062 2006.07.06 dn8 Jul 6 18:01:02 dn8/dn8 crond(pam_unix)[25849]: session closed for user root
+- 1152234062 2006.07.06 dn809 Jul 6 18:01:02 dn809/dn809 crond[29474]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn83 Jul 6 18:01:02 dn83/dn83 crond(pam_unix)[28380]: session closed for user root
+- 1152234062 2006.07.06 dn858 Jul 6 18:01:02 dn858/dn858 crond(pam_unix)[20029]: session closed for user root
+- 1152234062 2006.07.06 dn858 Jul 6 18:01:02 dn858/dn858 crond(pam_unix)[20029]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn858 Jul 6 18:01:02 dn858/dn858 crond[20030]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn868 Jul 6 18:01:02 dn868/dn868 crond(pam_unix)[22325]: session closed for user root
+- 1152234062 2006.07.06 dn870 Jul 6 18:01:02 dn870/dn870 crond(pam_unix)[25662]: session closed for user root
+- 1152234062 2006.07.06 dn871 Jul 6 18:01:02 dn871/dn871 crond(pam_unix)[25720]: session closed for user root
+- 1152234062 2006.07.06 dn874 Jul 6 18:01:02 dn874/dn874 crond(pam_unix)[6256]: session closed for user root
+- 1152234062 2006.07.06 dn875 Jul 6 18:01:02 dn875/dn875 crond(pam_unix)[21989]: session closed for user root
+- 1152234062 2006.07.06 dn876 Jul 6 18:01:02 dn876/dn876 crond(pam_unix)[24037]: session closed for user root
+- 1152234062 2006.07.06 dn884 Jul 6 18:01:02 dn884/dn884 crond(pam_unix)[15637]: session opened for user root by (uid=0)
+- 1152234062 2006.07.06 dn886 Jul 6 18:01:02 dn886/dn886 crond(pam_unix)[25007]: session closed for user root
+- 1152234062 2006.07.06 dn887 Jul 6 18:01:02 dn887/dn887 crond(pam_unix)[23574]: session closed for user root
+- 1152234062 2006.07.06 dn889 Jul 6 18:01:02 dn889/dn889 crond(pam_unix)[24213]: session closed for user root
+- 1152234062 2006.07.06 dn893 Jul 6 18:01:02 dn893/dn893 crond(pam_unix)[24128]: session closed for user root
+- 1152234062 2006.07.06 dn894 Jul 6 18:01:02 dn894/dn894 crond(pam_unix)[24389]: session closed for user root
+- 1152234062 2006.07.06 dn916 Jul 6 18:01:02 dn916/dn916 crond(pam_unix)[5375]: session closed for user root
+- 1152234062 2006.07.06 dn942 Jul 6 18:01:02 dn942/dn942 crond(pam_unix)[27062]: session closed for user root
+- 1152234062 2006.07.06 dn942 Jul 6 18:01:02 dn942/dn942 crond[27063]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234062 2006.07.06 dn981 Jul 6 18:01:02 dn981/dn981 crond(pam_unix)[23276]: session closed for user root
+- 1152234062 2006.07.06 dn986 Jul 6 18:01:02 dn986/dn986 crond(pam_unix)[24162]: session closed for user root
+- 1152234062 2006.07.06 dn988 Jul 6 18:01:02 dn988/dn988 crond(pam_unix)[25171]: session closed for user root
+- 1152234062 2006.07.06 dn993 Jul 6 18:01:02 dn993/dn993 crond(pam_unix)[1996]: session closed for user root
+- 1152234063 2006.07.06 dn362 Jul 6 18:01:03 dn362/dn362 crond(pam_unix)[25584]: session closed for user root
+- 1152234063 2006.07.06 dn717 Jul 6 18:01:03 dn717/dn717 crond(pam_unix)[26086]: session closed for user root
+- 1152234063 2006.07.06 dn884 Jul 6 18:01:03 dn884/dn884 crond(pam_unix)[15637]: session closed for user root
+- 1152234063 2006.07.06 dn884 Jul 6 18:01:03 dn884/dn884 crond[15638]: (root) CMD (run-parts /etc/cron.hourly)
+- 1152234064 2006.07.06 dn536 Jul 6 18:01:04 dn536/dn536 crond(pam_unix)[27886]: session closed for user root
+- 1152234064 2006.07.06 dn62 Jul 6 18:01:04 dn62/dn62 crond(pam_unix)[20552]: session closed for user root
+- 1152234064 2006.07.06 dn992 Jul 6 18:01:04 dn992/dn992 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1152234065 2006.07.06 dn538 Jul 6 18:01:05 dn538/dn538 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1152234070 2006.07.06 dn711 Jul 6 18:01:10 dn711/dn711 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1152234075 2006.07.06 dn148 Jul 6 18:01:15 dn148/dn148 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1152234079 2006.07.06 dn778 Jul 6 18:01:19 dn778/dn778 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1152234080 2006.07.06 dn239 Jul 6 18:01:20 dn239/dn239 smartd[1992]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1152234080 2006.07.06 dn869 Jul 6 18:01:20 dn869/dn869 ntpd[2264]: synchronized to 10.100.24.250, stratum 3
+- 1152234080 2006.07.06 dn886 Jul 6 18:01:20 dn886/dn886 ntpd[2266]: synchronized to 10.100.24.250, stratum 3
+- 1152234081 2006.07.06 dn736 Jul 6 18:01:21 dn736/dn736 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1152234082 2006.07.06 dn258 Jul 6 18:01:22 dn258/dn258 ntpd[2294]: synchronized to 10.100.24.250, stratum 3
+- 1152234082 2006.07.06 dn724 Jul 6 18:01:22 dn724/dn724 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152234083 2006.07.06 dn948 Jul 6 18:01:23 dn948/dn948 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152234085 2006.07.06 dn745 Jul 6 18:01:25 dn745/dn745 ntpd[2284]: synchronized to 10.100.26.250, stratum 3
+- 1152234089 2006.07.06 dn1020 Jul 6 18:01:29 dn1020/dn1020 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152234094 2006.07.06 dn763 Jul 6 18:01:34 dn763/dn763 ntpd[2287]: synchronized to 10.100.24.250, stratum 3
+- 1152234095 2006.07.06 dn470 Jul 6 18:01:35 dn470/dn470 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1152234095 2006.07.06 dn692 Jul 6 18:01:35 dn692/dn692 ntpd[2294]: synchronized to 10.100.24.250, stratum 3
+- 1152234096 2006.07.06 dn594 Jul 6 18:01:36 dn594/dn594 ntpd[2268]: synchronized to 10.100.26.250, stratum 3
+- 1152234101 2006.07.06 dn574 Jul 6 18:01:41 dn574/dn574 ntpd[2350]: synchronized to 10.100.26.250, stratum 3
+- 1152234104 2006.07.06 dn672 Jul 6 18:01:44 dn672/dn672 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152234105 2006.07.06 dn530 Jul 6 18:01:45 dn530/dn530 smartd[1990]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1152234107 2006.07.06 dn981 Jul 6 18:01:47 dn981/dn981 ntpd[2273]: synchronized to 10.100.24.250, stratum 3
+- 1152234110 2006.07.06 dn739 Jul 6 18:01:50 dn739/dn739 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152234113 2006.07.06 dn966 Jul 6 18:01:53 dn966/dn966 ntpd[2273]: synchronized to 10.100.28.250, stratum 3
+- 1152234113 2006.07.06 dn999 Jul 6 18:01:53 dn999/dn999 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1152234121 2006.07.06 dn106 Jul 6 18:02:01 dn106/dn106 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1152234130 2006.07.06 dn682 Jul 6 18:02:10 dn682/dn682 ntpd[2295]: synchronized to 10.100.30.250, stratum 3
+- 1152234136 2006.07.06 dn715 Jul 6 18:02:16 dn715/dn715 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1152234139 2006.07.06 dn574 Jul 6 18:02:19 dn574/dn574 smartd[1988]: Device: /dev/sda, Temperature changed 2 Celsius to 28 Celsius since last report
+- 1152234141 2006.07.06 dn768 Jul 6 18:02:21 dn768/dn768 ntpd[2288]: synchronized to 10.100.30.250, stratum 3
+- 1152234142 2006.07.06 dn470 Jul 6 18:02:22 dn470/dn470 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152234145 2006.07.06 dn577 Jul 6 18:02:25 dn577/dn577 smartd[1980]: Device: /dev/sda, Temperature changed 2 Celsius to 37 Celsius since last report
+- 1152234147 2006.07.06 dn925 Jul 6 18:02:27 dn925/dn925 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152234149 2006.07.06 dn606 Jul 6 18:02:29 dn606/dn606 ntpd[2345]: synchronized to 10.100.30.250, stratum 3
+- 1152234157 2006.07.06 dn653 Jul 6 18:02:37 dn653/dn653 smartd[1975]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1152234157 2006.07.06 dn670 Jul 6 18:02:37 dn670/dn670 smartd[1984]: Device: /dev/sda, Temperature changed -2 Celsius to 32 Celsius since last report
+- 1152234159 2006.07.06 dn674 Jul 6 18:02:39 dn674/dn674 smartd[1993]: Device: /dev/sda, Temperature changed -2 Celsius to 36 Celsius since last report
+- 1152234160 2006.07.06 dn695 Jul 6 18:02:40 dn695/dn695 smartd[1983]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1152234161 2006.07.06 dn108 Jul 6 18:02:41 dn108/dn108 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152234161 2006.07.06 dn676 Jul 6 18:02:41 dn676/dn676 smartd[1987]: Device: /dev/sda, Temperature changed -2 Celsius to 33 Celsius since last report
+- 1152234163 2006.07.06 dn686 Jul 6 18:02:43 dn686/dn686 smartd[1984]: Device: /dev/sda, Temperature changed -2 Celsius to 31 Celsius since last report
+- 1152234172 2006.07.06 dn462 Jul 6 18:02:52 dn462/dn462 ntpd[2271]: synchronized to 10.100.28.250, stratum 3
+- 1152234173 2006.07.06 dn827 Jul 6 18:02:53 dn827/dn827 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152234176 2006.07.06 dn204 Jul 6 18:02:56 dn204/dn204 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152234177 2006.07.06 dn750 Jul 6 18:02:57 dn750/dn750 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152234185 2006.07.06 dn739 Jul 6 18:03:05 dn739/dn739 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152234189 2006.07.06 dn659 Jul 6 18:03:09 dn659/dn659 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1152234198 2006.07.06 dn582 Jul 6 18:03:18 dn582/dn582 ntpd[2288]: synchronized to 10.100.24.250, stratum 3
+- 1152234203 2006.07.06 dn134 Jul 6 18:03:23 dn134/dn134 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1152234204 2006.07.06 dn134 Jul 6 18:03:24 dn134/dn134 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152234207 2006.07.06 dn895 Jul 6 18:03:27 dn895/dn895 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1152234208 2006.07.06 dn475 Jul 6 18:03:28 dn475/dn475 ntpd[2284]: synchronized to 10.100.30.250, stratum 3
+- 1152234212 2006.07.06 dn1010 Jul 6 18:03:32 dn1010/dn1010 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152234212 2006.07.06 dn358 Jul 6 18:03:32 dn358/dn358 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1152234216 2006.07.06 dn680 Jul 6 18:03:36 dn680/dn680 ntpd[2280]: synchronized to 10.100.30.250, stratum 3
+- 1152234220 2006.07.06 dn965 Jul 6 18:03:40 dn965/dn965 ntpd[2273]: synchronized to 10.100.24.250, stratum 3
+- 1152234222 2006.07.06 dn358 Jul 6 18:03:42 dn358/dn358 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152234224 2006.07.06 dn155 Jul 6 18:03:44 dn155/dn155 ntpd[2278]: synchronized to 10.100.30.250, stratum 3
+- 1152234224 2006.07.06 dn815 Jul 6 18:03:44 dn815/dn815 ntpd[2265]: synchronized to 10.100.28.250, stratum 3
+- 1152234224 2006.07.06 dn818 Jul 6 18:03:44 dn818/dn818 ntpd[2264]: synchronized to 10.100.28.250, stratum 3
+- 1152234224 2006.07.06 dn928 Jul 6 18:03:44 dn928/dn928 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152234228 2006.07.06 dn387 Jul 6 18:03:48 dn387/dn387 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1152234229 2006.07.06 dn616 Jul 6 18:03:49 dn616/dn616 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+- 1152234232 2006.07.06 dn420 Jul 6 18:03:52 dn420/dn420 ntpd[2287]: synchronized to 10.100.24.250, stratum 3
+- 1152234256 2006.07.06 dn317 Jul 6 18:04:16 dn317/dn317 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152234261 2006.07.06 dn791 Jul 6 18:04:21 dn791/dn791 ntpd[2266]: synchronized to 10.100.24.250, stratum 3
+- 1152234264 2006.07.06 dn975 Jul 6 18:04:24 dn975/dn975 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1152234270 2006.07.06 dn634 Jul 6 18:04:30 dn634/dn634 ntpd[2292]: synchronized to 10.100.28.250, stratum 3
+- 1152234271 2006.07.06 dn884 Jul 6 18:04:31 dn884/dn884 ntpd[3387]: synchronized to 10.100.28.250, stratum 3
+- 1152234275 2006.07.06 dn559 Jul 6 18:04:35 dn559/dn559 ntpd[2268]: synchronized to 10.100.30.250, stratum 3
+- 1152234277 2006.07.06 dn71 Jul 6 18:04:37 dn71/dn71 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152234279 2006.07.06 dn218 Jul 6 18:04:39 dn218/dn218 ntpd[2279]: synchronized to 10.100.24.250, stratum 3
+- 1152234291 2006.07.06 dn188 Jul 6 18:04:51 dn188/dn188 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152234293 2006.07.06 dn188 Jul 6 18:04:53 dn188/dn188 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152234295 2006.07.06 dn873 Jul 6 18:04:55 dn873/dn873 ntpd[2265]: synchronized to 10.100.30.250, stratum 3
+- 1152234297 2006.07.06 dn234 Jul 6 18:04:57 dn234/dn234 ntpd[2269]: synchronized to 10.100.30.250, stratum 3
+- 1152234300 2006.07.06 dn485 Jul 6 18:05:00 dn485/dn485 ntpd[2293]: synchronized to 10.100.24.250, stratum 3
+- 1152234314 2006.07.06 dn651 Jul 6 18:05:14 dn651/dn651 ntpd[2270]: synchronized to 10.100.24.250, stratum 3
+- 1152234315 2006.07.06 dn891 Jul 6 18:05:15 dn891/dn891 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152234316 2006.07.06 dn227 Jul 6 18:05:16 dn227/dn227 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152234322 2006.07.06 dn61 Jul 6 18:05:22 dn61/dn61 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152234327 2006.07.06 dn89 Jul 6 18:05:27 dn89/dn89 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1152234331 2006.07.06 dn169 Jul 6 18:05:31 dn169/dn169 ntpd[2270]: synchronized to 10.100.26.250, stratum 3
+- 1152234333 2006.07.06 dn287 Jul 6 18:05:33 dn287/dn287 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1152234333 2006.07.06 dn859 Jul 6 18:05:33 dn859/dn859 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1152234335 2006.07.06 dn708 Jul 6 18:05:35 dn708/dn708 ntpd[3389]: synchronized to 10.100.24.250, stratum 3
+- 1152234342 2006.07.06 dn377 Jul 6 18:05:42 dn377/dn377 ntpd[2290]: synchronized to 10.100.26.250, stratum 3
+- 1152234342 2006.07.06 dn78 Jul 6 18:05:42 dn78/dn78 ntpd[2241]: synchronized to 10.100.24.250, stratum 3
+- 1152234344 2006.07.06 dn707 Jul 6 18:05:44 dn707/dn707 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1152234347 2006.07.06 dn565 Jul 6 18:05:47 dn565/dn565 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1152234348 2006.07.06 dn529 Jul 6 18:05:48 dn529/dn529 ntpd[2292]: synchronized to 10.100.30.250, stratum 3
+- 1152234350 2006.07.06 dn612 Jul 6 18:05:50 dn612/dn612 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+- 1152234351 2006.07.06 dn635 Jul 6 18:05:51 dn635/dn635 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1152234361 2006.07.06 dn590 Jul 6 18:06:01 dn590/dn590 ntpd[2343]: synchronized to 10.100.26.250, stratum 3
+- 1152234364 2006.07.06 dn819 Jul 6 18:06:04 dn819/dn819 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1152234364 2006.07.06 dn826 Jul 6 18:06:04 dn826/dn826 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1152234386 2006.07.06 dn668 Jul 6 18:06:26 dn668/dn668 ntpd[2282]: synchronized to 10.100.26.250, stratum 3
+- 1152234387 2006.07.06 dn801 Jul 6 18:06:27 dn801/dn801 ntpd[2265]: synchronized to 10.100.26.250, stratum 3
+- 1152234388 2006.07.06 dn378 Jul 6 18:06:28 dn378/dn378 ntpd[2286]: synchronized to 10.100.28.250, stratum 3
+- 1152234389 2006.07.06 dn862 Jul 6 18:06:29 dn862/dn862 ntpd[2263]: synchronized to 10.100.28.250, stratum 3
+- 1152234391 2006.07.06 dn80 Jul 6 18:06:31 dn80/dn80 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152234396 2006.07.06 dn328 Jul 6 18:06:36 dn328/dn328 ntpd[2291]: synchronized to 10.100.28.250, stratum 3
+- 1152234398 2006.07.06 dn593 Jul 6 18:06:38 dn593/dn593 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1152234401 2006.07.06 dn950 Jul 6 18:06:41 dn950/dn950 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152234404 2006.07.06 dn128 Jul 6 18:06:44 dn128/dn128 smartd[1991]: Device: /dev/sda, Temperature changed -2 Celsius to 25 Celsius since last report
+- 1152234417 2006.07.06 dn785 Jul 6 18:06:57 dn785/dn785 ntpd[2263]: synchronized to 10.100.24.250, stratum 3
+- 1152234421 2006.07.06 dn249 Jul 6 18:07:01 dn249/dn249 ntpd[2276]: synchronized to 10.100.24.250, stratum 3
+- 1152234422 2006.07.06 dn200 Jul 6 18:07:02 dn200/dn200 ntpd[2279]: synchronized to 10.100.30.250, stratum 3
+- 1152234422 2006.07.06 dn249 Jul 6 18:07:02 dn249/dn249 ntpd[2276]: synchronized to 10.100.26.250, stratum 3
+- 1152234430 2006.07.06 dn906 Jul 6 18:07:10 dn906/dn906 ntpd[2261]: synchronized to 10.100.30.250, stratum 3
+- 1152234437 2006.07.06 dn371 Jul 6 18:07:17 dn371/dn371 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152234437 2006.07.06 dn810 Jul 6 18:07:17 dn810/dn810 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152234440 2006.07.06 dn18 Jul 6 18:07:20 dn18/dn18 ntpd[2211]: synchronized to 10.100.26.250, stratum 3
+- 1152234441 2006.07.06 dn764 Jul 6 18:07:21 dn764/dn764 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1152234446 2006.07.06 dn906 Jul 6 18:07:26 dn906/dn906 smartd[1963]: Device: /dev/sda, Temperature changed 2 Celsius to 30 Celsius since last report
+- 1152234450 2006.07.06 dn180 Jul 6 18:07:30 dn180/dn180 ntpd[2267]: synchronized to 10.100.24.250, stratum 3
+- 1152234454 2006.07.06 dn871 Jul 6 18:07:34 dn871/dn871 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+- 1152234458 2006.07.06 dn723 Jul 6 18:07:38 dn723/dn723 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1152234458 2006.07.06 dn935 Jul 6 18:07:38 dn935/dn935 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152234463 2006.07.06 dn711 Jul 6 18:07:43 dn711/dn711 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152234498 2006.07.06 dn358 Jul 6 18:08:18 dn358/dn358 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1152234503 2006.07.06 dn816 Jul 6 18:08:23 dn816/dn816 ntpd[2264]: synchronized to 10.100.28.250, stratum 3
+- 1152234510 2006.07.06 dn706 Jul 6 18:08:30 dn706/dn706 ntpd[2287]: synchronized to 10.100.28.250, stratum 3
+- 1152234511 2006.07.06 dn614 Jul 6 18:08:31 dn614/dn614 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152234512 2006.07.06 dn641 Jul 6 18:08:32 dn641/dn641 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152234516 2006.07.06 dn24 Jul 6 18:08:36 dn24/dn24 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1152234522 2006.07.06 dn533 Jul 6 18:08:42 dn533/dn533 ntpd[2290]: synchronized to 10.100.28.250, stratum 3
+- 1152234522 2006.07.06 dn633 Jul 6 18:08:42 dn633/dn633 ntpd[2342]: synchronized to 10.100.24.250, stratum 3
+- 1152234530 2006.07.06 dn776 Jul 6 18:08:50 dn776/dn776 ntpd[3375]: synchronized to 10.100.24.250, stratum 3
+- 1152234560 2006.07.06 dn229 Jul 6 18:09:20 dn229/dn229 ntpd[2265]: synchronized to 10.100.24.250, stratum 3
+- 1152234565 2006.07.06 dn901 Jul 6 18:09:25 dn901/dn901 ntpd[2094]: synchronized to 10.100.26.250, stratum 3
+- 1152234571 2006.07.06 dn325 Jul 6 18:09:31 dn325/dn325 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1152234575 2006.07.06 dn200 Jul 6 18:09:35 dn200/dn200 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152234582 2006.07.06 dn577 Jul 6 18:09:42 dn577/dn577 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152234583 2006.07.06 dn524 Jul 6 18:09:43 dn524/dn524 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152234586 2006.07.06 dn395 Jul 6 18:09:46 dn395/dn395 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152234591 2006.07.06 dn244 Jul 6 18:09:51 dn244/dn244 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152234596 2006.07.06 dn118 Jul 6 18:09:56 dn118/dn118 ntpd[2273]: synchronized to 10.100.26.250, stratum 3
+- 1152234602 2006.07.06 dn695 Jul 6 18:10:02 dn695/dn695 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1152234606 2006.07.06 dn958 Jul 6 18:10:06 dn958/dn958 ntpd[2273]: synchronized to 10.100.28.250, stratum 3
+- 1152234611 2006.07.06 dn237 Jul 6 18:10:11 dn237/dn237 ntpd[2268]: synchronized to 10.100.24.250, stratum 3
+- 1152234614 2006.07.06 dn182 Jul 6 18:10:14 dn182/dn182 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152234618 2006.07.06 dn2 Jul 6 18:10:18 dn2/dn2 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152234624 2006.07.06 dn999 Jul 6 18:10:24 dn999/dn999 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152234630 2006.07.06 dn700 Jul 6 18:10:30 dn700/dn700 ntpd[2291]: synchronized to 10.100.28.250, stratum 3
+- 1152234631 2006.07.06 dn86 Jul 6 18:10:31 dn86/dn86 ntpd[2278]: synchronized to 10.100.24.250, stratum 3
+- 1152234632 2006.07.06 dn54 Jul 6 18:10:32 dn54/dn54 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152234642 2006.07.06 dn988 Jul 6 18:10:42 dn988/dn988 ntpd[2262]: synchronized to 10.100.26.250, stratum 3
+- 1152234652 2006.07.06 dn237 Jul 6 18:10:52 dn237/dn237 ntpd[2268]: synchronized to 10.100.26.250, stratum 3
+- 1152234653 2006.07.06 dn247 Jul 6 18:10:53 dn247/dn247 ntpd[2268]: synchronized to 10.100.26.250, stratum 3
+- 1152234665 2006.07.06 dn474 Jul 6 18:11:05 dn474/dn474 ntpd[2288]: synchronized to 10.100.24.250, stratum 3
+- 1152234689 2006.07.06 dn795 Jul 6 18:11:29 dn795/dn795 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152234697 2006.07.06 dn229 Jul 6 18:11:37 dn229/dn229 ntpd[2265]: synchronized to 10.100.28.250, stratum 3
+- 1152234699 2006.07.06 dn538 Jul 6 18:11:39 dn538/dn538 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1152234703 2006.07.06 dn716 Jul 6 18:11:43 dn716/dn716 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1152234709 2006.07.06 dn17 Jul 6 18:11:49 dn17/dn17 ntpd[2266]: synchronized to 10.100.24.250, stratum 3
+- 1152234711 2006.07.06 dn121 Jul 6 18:11:51 dn121/dn121 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152234717 2006.07.06 dn810 Jul 6 18:11:57 dn810/dn810 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152234721 2006.07.06 dn854 Jul 6 18:12:01 dn854/dn854 ntpd[2275]: synchronized to 10.100.26.250, stratum 3
+- 1152234723 2006.07.06 dn358 Jul 6 18:12:03 dn358/dn358 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152234725 2006.07.06 dn999 Jul 6 18:12:05 dn999/dn999 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152234728 2006.07.06 dn625 Jul 6 18:12:08 dn625/dn625 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1152234737 2006.07.06 dn928 Jul 6 18:12:17 dn928/dn928 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1152234742 2006.07.06 dn402 Jul 6 18:12:22 dn402/dn402 ntpd[2285]: synchronized to 10.100.24.250, stratum 3
+- 1152234750 2006.07.06 dn24 Jul 6 18:12:30 dn24/dn24 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1152234750 2006.07.06 dn3 Jul 6 18:12:30 dn3/dn3 ntpd[2267]: synchronized to 10.100.26.250, stratum 3
+- 1152234758 2006.07.06 dn809 Jul 6 18:12:38 dn809/dn809 ntpd[2265]: synchronized to 10.100.24.250, stratum 3
+- 1152234779 2006.07.06 dn1001 Jul 6 18:12:59 dn1001/dn1001 ntpd[2261]: synchronized to 10.100.24.250, stratum 3
+- 1152234781 2006.07.06 dn946 Jul 6 18:13:01 dn946/dn946 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1152234785 2006.07.06 dn970 Jul 6 18:13:05 dn970/dn970 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152234786 2006.07.06 dn710 Jul 6 18:13:06 dn710/dn710 ntpd[2286]: synchronized to 10.100.24.250, stratum 3
+- 1152234796 2006.07.06 dn173 Jul 6 18:13:16 dn173/dn173 ntpd[2269]: synchronized to 10.100.24.250, stratum 3
+- 1152234800 2006.07.06 dn973 Jul 6 18:13:20 dn973/dn973 ntpd[2273]: synchronized to 10.100.28.250, stratum 3
+- 1152234804 2006.07.06 dn567 Jul 6 18:13:24 dn567/dn567 ntpd[2345]: synchronized to 10.100.26.250, stratum 3
+- 1152234805 2006.07.06 dn490 Jul 6 18:13:25 dn490/dn490 ntpd[2343]: synchronized to 10.100.24.250, stratum 3
+- 1152234806 2006.07.06 dn35 Jul 6 18:13:26 dn35/dn35 ntpd[2278]: synchronized to 10.100.26.250, stratum 3
+- 1152234819 2006.07.06 dn309 Jul 6 18:13:39 dn309/dn309 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1152234831 2006.07.06 dn780 Jul 6 18:13:51 dn780/dn780 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152234845 2006.07.06 dn305 Jul 6 18:14:05 dn305/dn305 ntpd[2282]: synchronized to 10.100.24.250, stratum 3
+- 1152234858 2006.07.06 dn599 Jul 6 18:14:18 dn599/dn599 ntpd[2268]: synchronized to 10.100.24.250, stratum 3
+- 1152234860 2006.07.06 dn692 Jul 6 18:14:20 dn692/dn692 ntpd[2294]: synchronized to 10.100.26.250, stratum 3
+- 1152234860 2006.07.06 dn847 Jul 6 18:14:20 dn847/dn847 ntpd[2264]: synchronized to 10.100.26.250, stratum 3
+- 1152234865 2006.07.06 dn921 Jul 6 18:14:25 dn921/dn921 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152234867 2006.07.06 dn17 Jul 6 18:14:27 dn17/dn17 ntpd[2266]: synchronized to 10.100.26.250, stratum 3
+- 1152234867 2006.07.06 dn707 Jul 6 18:14:27 dn707/dn707 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152234867 2006.07.06 dn82 Jul 6 18:14:27 dn82/dn82 ntpd[2278]: synchronized to 10.100.28.250, stratum 3
+- 1152234868 2006.07.06 dn866 Jul 6 18:14:28 dn866/dn866 ntpd[2262]: synchronized to 10.100.24.250, stratum 3
+- 1152234877 2006.07.06 dn411 Jul 6 18:14:37 dn411/dn411 ntpd[2291]: synchronized to 10.100.24.250, stratum 3
+- 1152234878 2006.07.06 dn208 Jul 6 18:14:38 dn208/dn208 ntpd[2271]: synchronized to 10.100.30.250, stratum 3
+- 1152234879 2006.07.06 dn691 Jul 6 18:14:39 dn691/dn691 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1152234880 2006.07.06 dn548 Jul 6 18:14:40 dn548/dn548 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1152234881 2006.07.06 dn515 Jul 6 18:14:41 dn515/dn515 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1152234881 2006.07.06 dn59 Jul 6 18:14:41 dn59/dn59 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1152234889 2006.07.06 dn411 Jul 6 18:14:49 dn411/dn411 ntpd[2291]: synchronized to 10.100.26.250, stratum 3
+- 1152234892 2006.07.06 dn216 Jul 6 18:14:52 dn216/dn216 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152234892 2006.07.06 dn9 Jul 6 18:14:52 dn9/dn9 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152234916 2006.07.06 dn981 Jul 6 18:15:16 dn981/dn981 ntpd[2273]: synchronized to 10.100.26.250, stratum 3
+- 1152234919 2006.07.06 dn190 Jul 6 18:15:19 dn190/dn190 ntpd[2277]: synchronized to 10.100.30.250, stratum 3
+- 1152234920 2006.07.06 dn525 Jul 6 18:15:20 dn525/dn525 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152234932 2006.07.06 dn813 Jul 6 18:15:32 dn813/dn813 ntpd[2274]: synchronized to 10.100.30.250, stratum 3
+- 1152234934 2006.07.06 dn615 Jul 6 18:15:34 dn615/dn615 ntpd[2282]: synchronized to 10.100.30.250, stratum 3
+- 1152234937 2006.07.06 dn180 Jul 6 18:15:37 dn180/dn180 ntpd[2267]: synchronized to 10.100.26.250, stratum 3
+- 1152234955 2006.07.06 dn37 Jul 6 18:15:55 dn37/dn37 ntpd[2281]: synchronized to 10.100.30.250, stratum 3
+- 1152234955 2006.07.06 dn460 Jul 6 18:15:55 dn460/dn460 ntpd[2276]: synchronized to 10.100.24.250, stratum 3
+- 1152234957 2006.07.06 dn531 Jul 6 18:15:57 dn531/dn531 ntpd[2283]: synchronized to 10.100.26.250, stratum 3
+- 1152234971 2006.07.06 dn889 Jul 6 18:16:11 dn889/dn889 ntpd[2263]: synchronized to 10.100.28.250, stratum 3
+- 1152234974 2006.07.06 dn707 Jul 6 18:16:14 dn707/dn707 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152234979 2006.07.06 dn839 Jul 6 18:16:19 dn839/dn839 ntpd[2273]: synchronized to 10.100.26.250, stratum 3
+- 1152234980 2006.07.06 dn23 Jul 6 18:16:20 dn23/dn23 ntpd[2261]: synchronized to 10.100.28.250, stratum 3
+- 1152234980 2006.07.06 dn47 Jul 6 18:16:20 dn47/dn47 ntpd[2266]: synchronized to 10.100.26.250, stratum 3
+- 1152234983 2006.07.06 dn653 Jul 6 18:16:23 dn653/dn653 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152234987 2006.07.06 dn458 Jul 6 18:16:27 dn458/dn458 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1152234992 2006.07.06 dn78 Jul 6 18:16:32 dn78/dn78 ntpd[2241]: synchronized to 10.100.26.250, stratum 3
+- 1152234998 2006.07.06 dn737 Jul 6 18:16:38 dn737/dn737 ntpd[2283]: synchronized to 10.100.24.250, stratum 3
+- 1152234999 2006.07.06 dn545 Jul 6 18:16:39 dn545/dn545 ntpd[2282]: synchronized to 10.100.24.250, stratum 3
+- 1152235000 2006.07.06 dn113 Jul 6 18:16:40 dn113/dn113 ntpd[2277]: synchronized to 10.100.28.250, stratum 3
+- 1152235000 2006.07.06 dn959 Jul 6 18:16:40 dn959/dn959 ntpd[2272]: synchronized to 10.100.28.250, stratum 3
+- 1152235001 2006.07.06 dn785 Jul 6 18:16:41 dn785/dn785 ntpd[2263]: synchronized to 10.100.30.250, stratum 3
+- 1152235025 2006.07.06 dn220 Jul 6 18:17:05 dn220/dn220 ntpd[2263]: synchronized to 10.100.28.250, stratum 3
+- 1152235026 2006.07.06 dn290 Jul 6 18:17:06 dn290/dn290 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152235032 2006.07.06 dn456 Jul 6 18:17:12 dn456/dn456 ntpd[2289]: synchronized to 10.100.28.250, stratum 3
+- 1152235036 2006.07.06 dn838 Jul 6 18:17:16 dn838/dn838 ntpd[2276]: synchronized to 10.100.28.250, stratum 3
+- 1152235037 2006.07.06 dn541 Jul 6 18:17:17 dn541/dn541 ntpd[2282]: synchronized to 10.100.30.250, stratum 3
+- 1152235042 2006.07.06 dn581 Jul 6 18:17:22 dn581/dn581 ntpd[2344]: synchronized to 10.100.28.250, stratum 3
+- 1152235052 2006.07.06 dn504 Jul 6 18:17:32 dn504/dn504 ntpd[2333]: synchronized to 10.100.24.250, stratum 3
+- 1152235056 2006.07.06 dn289 Jul 6 18:17:36 dn289/dn289 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152235076 2006.07.06 dn335 Jul 6 18:17:56 dn335/dn335 ntpd[2288]: synchronized to 10.100.28.250, stratum 3
+- 1152235079 2006.07.06 dn581 Jul 6 18:17:59 dn581/dn581 ntpd[2344]: synchronized to 10.100.26.250, stratum 3
+- 1152235079 2006.07.06 dn863 Jul 6 18:17:59 dn863/dn863 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+- 1152235082 2006.07.06 dn698 Jul 6 18:18:02 dn698/dn698 ntpd[2281]: synchronized to 10.100.26.250, stratum 3
+- 1152235085 2006.07.06 dn729 Jul 6 18:18:05 dn729/dn729 ntpd[2288]: synchronized to 10.100.28.250, stratum 3
+- 1152235086 2006.07.06 dn16 Jul 6 18:18:06 dn16/dn16 smartd[1966]: Device: /dev/sda, Temperature changed 3 Celsius to 31 Celsius since last report
+- 1152235088 2006.07.06 dn11 Jul 6 18:18:08 dn11/dn11 smartd[1978]: Device: /dev/sda, Temperature changed 2 Celsius to 34 Celsius since last report
+- 1152235089 2006.07.06 dn1021 Jul 6 18:18:09 dn1021/dn1021 ntpd[2275]: synchronized to 10.100.28.250, stratum 3
+- 1152235097 2006.07.06 dn1015 Jul 6 18:18:17 dn1015/dn1015 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152235097 2006.07.06 dn496 Jul 6 18:18:17 dn496/dn496 ntpd[2293]: synchronized to 10.100.28.250, stratum 3
+- 1152235098 2006.07.06 dn213 Jul 6 18:18:18 dn213/dn213 ntpd[2274]: synchronized to 10.100.28.250, stratum 3
+- 1152235098 2006.07.06 dn530 Jul 6 18:18:18 dn530/dn530 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152235098 2006.07.06 dn80 Jul 6 18:18:18 dn80/dn80 ntpd[2280]: synchronized to 10.100.26.250, stratum 3
+- 1152235106 2006.07.06 dn172 Jul 6 18:18:26 dn172/dn172 ntpd[2279]: synchronized to 10.100.28.250, stratum 3
+- 1152235106 2006.07.06 dn757 Jul 6 18:18:26 dn757/dn757 ntpd[3353]: synchronized to 10.100.26.250, stratum 3
+- 1152235108 2006.07.06 dn699 Jul 6 18:18:28 dn699/dn699 ntpd[2293]: synchronized to 10.100.26.250, stratum 3
+- 1152235111 2006.07.06 dn456 Jul 6 18:18:31 dn456/dn456 ntpd[2289]: synchronized to 10.100.24.250, stratum 3
+- 1152235114 2006.07.06 dn745 Jul 6 18:18:34 dn745/dn745 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1152235114 2006.07.06 dn94 Jul 6 18:18:34 dn94/dn94 smartd[1978]: Device: /dev/sda, Temperature changed 2 Celsius to 30 Celsius since last report
+- 1152235119 2006.07.06 dn308 Jul 6 18:18:39 dn308/dn308 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1152235121 2006.07.06 dn952 Jul 6 18:18:41 dn952/dn952 ntpd[2263]: synchronized to 10.100.26.250, stratum 3
+- 1152235125 2006.07.06 dn180 Jul 6 18:18:45 dn180/dn180 smartd[1965]: Device: /dev/sda, Temperature changed 2 Celsius to 31 Celsius since last report
+- 1152235126 2006.07.06 dn153 Jul 6 18:18:46 dn153/dn153 smartd[1982]: Device: /dev/sda, Temperature changed 2 Celsius to 34 Celsius since last report
+- 1152235127 2006.07.06 dn564 Jul 6 18:18:47 dn564/dn564 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152235129 2006.07.06 dn149 Jul 6 18:18:49 dn149/dn149 smartd[1973]: Device: /dev/sda, Temperature changed 2 Celsius to 34 Celsius since last report
+- 1152235130 2006.07.06 dn186 Jul 6 18:18:50 dn186/dn186 smartd[1978]: Device: /dev/sda, Temperature changed 2 Celsius to 32 Celsius since last report
+- 1152235138 2006.07.06 dn579 Jul 6 18:18:58 dn579/dn579 ntpd[2280]: synchronized to 10.100.28.250, stratum 3
+- 1152235141 2006.07.06 dn173 Jul 6 18:19:01 dn173/dn173 smartd[1967]: Device: /dev/sda, Temperature changed 2 Celsius to 28 Celsius since last report
+- 1152235141 2006.07.06 dn219 Jul 6 18:19:01 dn219/dn219 smartd[1976]: Device: /dev/sda, Temperature changed 2 Celsius to 32 Celsius since last report
+- 1152235144 2006.07.06 dn691 Jul 6 18:19:04 dn691/dn691 ntpd[2292]: synchronized to 10.100.24.250, stratum 3
+- 1152235145 2006.07.06 dn249 Jul 6 18:19:05 dn249/dn249 smartd[1974]: Device: /dev/sda, Temperature changed -2 Celsius to 30 Celsius since last report
+- 1152235148 2006.07.06 dn341 Jul 6 18:19:08 dn341/dn341 ntpd[2344]: synchronized to 10.100.24.250, stratum 3
+- 1152235151 2006.07.06 dn994 Jul 6 18:19:11 dn994/dn994 ntpd[2272]: synchronized to 10.100.24.250, stratum 3
+- 1152235164 2006.07.06 dn822 Jul 6 18:19:24 dn822/dn822 ntpd[2273]: synchronized to 10.100.26.250, stratum 3
+- 1152235172 2006.07.06 dn507 Jul 6 18:19:32 dn507/dn507 ntpd[2270]: synchronized to 10.100.28.250, stratum 3
+- 1152235178 2006.07.06 dn144 Jul 6 18:19:38 dn144/dn144 ntpd[2269]: synchronized to 10.100.30.250, stratum 3
+- 1152235180 2006.07.06 dn223 Jul 6 18:19:40 dn223/dn223 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152235180 2006.07.06 dn277 Jul 6 18:19:40 dn277/dn277 ntpd[2293]: synchronized to 10.100.24.250, stratum 3
+- 1152235194 2006.07.06 dn340 Jul 6 18:19:54 dn340/dn340 ntpd[2289]: synchronized to 10.100.26.250, stratum 3
+- 1152235194 2006.07.06 dn383 Jul 6 18:19:54 dn383/dn383 ntpd[2292]: synchronized to 10.100.26.250, stratum 3
+- 1152235196 2006.07.06 dn275 Jul 6 18:19:56 dn275/dn275 ntpd[2277]: synchronized to 10.100.26.250, stratum 3
+- 1152235198 2006.07.06 dn844 Jul 6 18:19:58 dn844/dn844 ntpd[2274]: synchronized to 10.100.26.250, stratum 3
+- 1152235199 2006.07.06 dn756 Jul 6 18:19:59 dn756/dn756 ntpd[2273]: synchronized to 10.100.24.250, stratum 3
+- 1152235199 2006.07.06 dn830 Jul 6 18:19:59 dn830/dn830 ntpd[4962]: synchronized to 10.100.24.250, stratum 3
+- 1152235204 2006.07.06 dn750 Jul 6 18:20:04 dn750/dn750 ntpd[2274]: synchronized to 10.100.24.250, stratum 3
+- 1152235213 2006.07.06 dn37 Jul 6 18:20:13 dn37/dn37 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1152235215 2006.07.06 dn746 Jul 6 18:20:15 dn746/dn746 ntpd[2284]: synchronized to 10.100.28.250, stratum 3
+- 1152235220 2006.07.06 dn355 Jul 6 18:20:20 dn355/dn355 ntpd[2290]: synchronized to 10.100.24.250, stratum 3
+- 1152235223 2006.07.06 dn22 Jul 6 18:20:23 dn22/dn22 ntpd[2279]: synchronized to 10.100.26.250, stratum 3
+- 1152235223 2006.07.06 dn746 Jul 6 18:20:23 dn746/dn746 ntpd[2284]: synchronized to 10.100.24.250, stratum 3
+- 1152235224 2006.07.06 dn858 Jul 6 18:20:24 dn858/dn858 smartd[1995]: Device: /dev/sda, Temperature changed 2 Celsius to 30 Celsius since last report
+- 1152235226 2006.07.06 dn553 Jul 6 18:20:26 dn553/dn553 ntpd[2334]: synchronized to 10.100.26.250, stratum 3
+- 1152235227 2006.07.06 dn465 Jul 6 18:20:27 dn465/dn465 ntpd[2280]: synchronized to 10.100.24.250, stratum 3
+- 1152235228 2006.07.06 dn275 Jul 6 18:20:28 dn275/dn275 ntpd[2277]: synchronized to 10.100.24.250, stratum 3
+- 1152235230 2006.07.06 dn641 Jul 6 18:20:30 dn641/dn641 ntpd[2275]: synchronized to 10.100.24.250, stratum 3
+- 1152235231 2006.07.06 dn834 Jul 6 18:20:31 dn834/dn834 ntpd[2275]: synchronized to 10.100.30.250, stratum 3
+- 1152235232 2006.07.06 dn104 Jul 6 18:20:32 dn104/dn104 ntpd[2266]: synchronized to 10.100.26.250, stratum 3
+- 1152235236 2006.07.06 dn675 Jul 6 18:20:36 dn675/dn675 ntpd[2281]: synchronized to 10.100.24.250, stratum 3
+- 1152235241 2006.07.06 dn738 Jul 6 18:20:41 dn738/dn738 ntpd[2273]: synchronized to 10.100.24.250, stratum 3
+- 1152235245 2006.07.06 dn50 Jul 6 18:20:45 dn50/dn50 ntpd[2278]: synchronized to 10.100.24.250, stratum 3

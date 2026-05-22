@@ -1,0 +1,9 @@
+- 1131969943 2005.11.14 UNKNOWN_LOCATION 2005-11-14-04.05.43.623099 UNKNOWN_LOCATION NULL CMCS INFO Starting SystemController
+- 1131969947 2005.11.14 UNKNOWN_LOCATION 2005-11-14-04.05.47.173382 UNKNOWN_LOCATION NULL CMCS INFO Controlling BG/L rows [ 0 1 2 3 4 5 6 7 ]
+- 1131969947 2005.11.14 UNKNOWN_LOCATION 2005-11-14-04.05.47.299731 UNKNOWN_LOCATION NULL CMCS INFO Running as background command
+- 1131981761 2005.11.14 UNKNOWN_LOCATION 2005-11-14-07.22.41.999889 UNKNOWN_LOCATION NULL DISCOVERY INFO Ido chip status changed: FF:F2:9F:16:EB:8B:00:0D:60:E9:14:74 ip=10.0.0.140 v=13 t=4 status=M Mon Nov 14 07:14:42 PST 2005
+- 1132021827 2005.11.14 - 2005-11-14-18.30.27.521920 RAS KERNEL FATAL Kill job 49064 timed out. Block freed.
+- 1132058437 2005.11.15 NULL 2005-11-15-04.40.37.084676 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties
+- 1132058437 2005.11.15 NULL 2005-11-15-04.40.37.725236 NULL RAS MMCS INFO ciodb has been restarted.
+- 1132058437 2005.11.15 NULL 2005-11-15-04.40.37.725243 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120
+- 1132058437 2005.11.15 NULL 2005-11-15-04.40.37.726737 NULL RAS MMCS INFO idoproxydb has been started: $Name: DRV460_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1

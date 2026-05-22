@@ -1,0 +1,7 @@
+- 1131566461 2005.11.09 en257 Nov 9 12:01:01 en257/en257 crond(pam_unix)[8950]: session closed for user root
+- 1131566461 2005.11.09 en257 Nov 9 12:01:01 en257/en257 crond(pam_unix)[8950]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 en257 Nov 9 12:01:01 en257/en257 crond[8951]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131566461 2005.11.09 en74 Nov 9 12:01:01 en74/en74 crond(pam_unix)[3080]: session closed for user root
+- 1131566461 2005.11.09 en74 Nov 9 12:01:01 en74/en74 crond(pam_unix)[3080]: session opened for user root by (uid=0)
+- 1131566461 2005.11.09 en74 Nov 9 12:01:01 en74/en74 crond[3081]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131567306 2005.11.09 en14 Nov 9 12:15:06 en14/en14 smartd[1971]: Device: /dev/sda, Temperature changed -2 Celsius to 26 Celsius since last report

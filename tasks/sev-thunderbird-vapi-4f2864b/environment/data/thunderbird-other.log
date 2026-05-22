@@ -1,0 +1,313 @@
+- 1141523787 2006.03.04 #8# Mar 4 17:56:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141523843 2006.03.04 #2116# Mar 4 17:57:23 #2116#/#2116# crond(pam_unix)[21349]: session closed for user root
+- 1141523843 2006.03.04 #2116# Mar 4 17:57:23 #2116#/#2116# crond(pam_unix)[21349]: session opened for user root by (uid=0)
+- 1141523843 2006.03.04 #2116# Mar 4 17:57:23 #2116#/#2116# crond(pam_unix)[21350]: session closed for user root
+- 1141523843 2006.03.04 #2116# Mar 4 17:57:23 #2116#/#2116# crond(pam_unix)[21350]: session opened for user root by (uid=0)
+- 1141523843 2006.03.04 #2116# Mar 4 17:57:23 #2116#/#2116# crond[21351]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141523843 2006.03.04 #2116# Mar 4 17:57:23 #2116#/#2116# crond[21352]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141523899 2006.03.04 aadmin1 Mar 4 17:58:19 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e1:59:58 via eth1
+- 1141523899 2006.03.04 aadmin1 Mar 4 17:58:19 src@aadmin1 dhcpd: DHCPOFFER on 10.100.1.15 to 00:11:43:e1:59:58 via eth1
+- 1141523899 2006.03.04 aadmin2 Mar 4 17:58:19 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e1:59:58 via eth1: network A_net: no free leases
+- 1141523899 2006.03.04 aadmin3 Mar 4 17:58:19 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e1:59:58 via eth1: network A_net: no free leases
+- 1141523899 2006.03.04 aadmin4 Mar 4 17:58:19 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e1:59:58 via eth1: network A_net: no free leases
+- 1141523901 2006.03.04 aadmin1 Mar 4 17:58:21 src@aadmin1 dhcpd: DHCPACK on 10.100.1.15 to 00:11:43:e1:59:58 via eth1
+- 1141523901 2006.03.04 aadmin1 Mar 4 17:58:21 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.1.15 (10.100.0.250) from 00:11:43:e1:59:58 via eth1
+- 1141523901 2006.03.04 aadmin1 Mar 4 17:58:21 src@aadmin1 xinetd[1859]: START: tftp pid=6267 from=10.100.1.15
+- 1141523901 2006.03.04 aadmin2 Mar 4 17:58:21 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.1.15 (10.100.0.250) from 00:11:43:e1:59:58 via eth1: unknown lease 10.100.1.15.
+- 1141523901 2006.03.04 aadmin3 Mar 4 17:58:21 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.1.15 (10.100.0.250) from 00:11:43:e1:59:58 via eth1: unknown lease 10.100.1.15.
+- 1141523901 2006.03.04 aadmin4 Mar 4 17:58:21 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.1.15 (10.100.0.250) from 00:11:43:e1:59:58 via eth1: unknown lease 10.100.1.15.
+- 1141523904 2006.03.04 dadmin4 Mar 4 17:58:24 src@dadmin4 ntpd[1874]: synchronized to 10.100.0.251, stratum 2
+- 1141523907 2006.03.04 #8# Mar 4 17:58:27 #8#/#8# last message repeated 2 times
+- 1141523923 2006.03.04 aadmin1 Mar 4 17:58:43 src@aadmin1 in.tftpd[5390]: tftp: client does not accept options
+- 1141523978 2006.03.04 aadmin1 Mar 4 17:59:38 src@aadmin1 xinetd[1859]: START: rsync pid=6280 from=10.100.1.15
+- 1141523978 2006.03.04 aadmin1 Mar 4 17:59:38 src@aadmin1 xinetd[1859]: START: rsync pid=6281 from=10.100.1.15
+- 1141523978 2006.03.04 aadmin1 Mar 4 17:59:38 src@aadmin1 xinetd[1859]: START: rsync pid=6282 from=10.100.1.15
+- 1141523978 2006.03.04 aadmin1 Mar 4 17:59:38 src@aadmin1 xinetd[1859]: START: rsync pid=6283 from=10.100.1.15
+- 1141523979 2006.03.04 aadmin1 Mar 4 17:59:39 src@aadmin1 xinetd[1859]: START: rsync pid=6284 from=10.100.1.15
+- 1141523979 2006.03.04 aadmin1 Mar 4 17:59:39 src@aadmin1 xinetd[1859]: START: rsync pid=6285 from=10.100.1.15
+- 1141524001 2006.03.04 aadmin1 Mar 4 18:00:01 src@aadmin1 crond(pam_unix)[6286]: session opened for user root by (uid=0)
+- 1141524001 2006.03.04 aadmin1 Mar 4 18:00:01 src@aadmin1 crond[6287]: (root) CMD (/projects/tbird/temps/get_temps a &> /dev/null)
+- 1141524001 2006.03.04 badmin1 Mar 4 18:00:01 src@badmin1 crond(pam_unix)[571]: session opened for user root by (uid=0)
+- 1141524001 2006.03.04 badmin1 Mar 4 18:00:01 src@badmin1 crond[572]: (root) CMD (/projects/tbird/temps/get_temps b &> /dev/null)
+- 1141524001 2006.03.04 cadmin1 Mar 4 18:00:01 src@cadmin1 crond(pam_unix)[23374]: session opened for user root by (uid=0)
+- 1141524001 2006.03.04 cadmin1 Mar 4 18:00:01 src@cadmin1 crond[23375]: (root) CMD (/projects/tbird/temps/get_temps c &> /dev/null)
+- 1141524001 2006.03.04 dadmin1 Mar 4 18:00:01 src@dadmin1 crond(pam_unix)[28615]: session opened for user root by (uid=0)
+- 1141524001 2006.03.04 dadmin1 Mar 4 18:00:01 src@dadmin1 crond[28616]: (root) CMD (/projects/tbird/temps/get_temps d &> /dev/null)
+- 1141524001 2006.03.04 eadmin1 Mar 4 18:00:01 src@eadmin1 crond(pam_unix)[16486]: session opened for user root by (uid=0)
+- 1141524001 2006.03.04 eadmin1 Mar 4 18:00:01 src@eadmin1 crond[16487]: (root) CMD (/projects/tbird/temps/get_temps e &> /dev/null)
+- 1141524001 2006.03.04 #56# Mar 4 18:00:01 #56#/#56# crond(pam_unix)[1302]: session closed for user root
+- 1141524001 2006.03.04 #56# Mar 4 18:00:01 #56#/#56# crond(pam_unix)[1302]: session opened for user root by (uid=0)
+- 1141524001 2006.03.04 #56# Mar 4 18:00:01 #56#/#56# crond[1303]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/qmgr: Permission denied
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: Authorized to #41#, krb5 principal #41#@#24# (krb5_kuserok)
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: authenticating '#41#@#24#' to 'krbtgt/#24#@#24#'
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: banner: Kerberos 5
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: ccache dir: /tmp
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: configured realm '#24#'
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: flag: no ignore_afs
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: flag: no krb4_convert
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: flag: user_check
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: flag: validate
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: flag: warn
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: flags: forwardable not proxiable
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: keytab: /etc/v5srvtab
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: renewable lifetime: 36000
+- 1141524027 2006.03.04 #8# Mar 4 18:00:27 #8#/#8# sshd[13548]: pam_krb5[13548]: ticket lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd(pam_unix)[13550]: session closed for user #41#
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd(pam_unix)[13550]: session opened for user #41# by (uid=0)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd(pam_unix)[13554]: session closed for user #41#
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd(pam_unix)[13554]: session opened for user #41# by (uid=0)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13548]: Accepted gssapi-with-mic for #41# from ::ffff:#133# port 44641 ssh2
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13548]: pam_krb5[13548]: krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328353 (Decrypt integrity check failed)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13548]: pam_krb5[13548]: pam_acct_mgmt returning 0 (Success)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: banner: Kerberos 5
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: banner: Kerberos 5
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: ccache dir: /tmp
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: ccache dir: /tmp
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: configured realm '#24#'
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: configured realm '#24#'
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: no ignore_afs
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: no ignore_afs
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: no krb4_convert
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: no krb4_convert
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: user_check
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: user_check
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: validate
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: validate
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: warn
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flag: warn
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flags: forwardable not proxiable
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: flags: forwardable not proxiable
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: keytab: /etc/v5srvtab
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: keytab: /etc/v5srvtab
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: no v5 creds for user '#41#', skipping session cleanup
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: no v5 creds for user '#41#', skipping session setup
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: pam_close_session returning 0 (Success)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: pam_open_session returning 0 (Success)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: renewable lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: renewable lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: ticket lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13550]: pam_krb5[13550]: ticket lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: Accepted gssapi-with-mic for #41# from ::ffff:#133# port 44642 ssh2
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: Authorized to #41#, krb5 principal #41#@#24# (krb5_kuserok)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: authenticating '#41#@#24#' to 'krbtgt/#24#@#24#'
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: banner: Kerberos 5
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: ccache dir: /tmp
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: configured realm '#24#'
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: flag: no ignore_afs
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: flag: no krb4_convert
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: flag: user_check
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: flag: validate
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: flag: warn
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: flags: forwardable not proxiable
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: keytab: /etc/v5srvtab
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: krb5_get_init_creds_password(krbtgt/#24#@#24#) returned -1765328353 (Decrypt integrity check failed)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: pam_acct_mgmt returning 0 (Success)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: renewable lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13552]: pam_krb5[13552]: ticket lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: banner: Kerberos 5
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: banner: Kerberos 5
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: ccache dir: /tmp
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: ccache dir: /tmp
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: configured realm '#24#'
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: configured realm '#24#'
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: no ignore_afs
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: no ignore_afs
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: no krb4_convert
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: no krb4_convert
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: user_check
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: user_check
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: validate
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: validate
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: warn
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flag: warn
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flags: forwardable not proxiable
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: flags: forwardable not proxiable
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: keytab: /etc/v5srvtab
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: keytab: /etc/v5srvtab
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: no v5 creds for user '#41#', skipping session cleanup
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: no v5 creds for user '#41#', skipping session setup
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: pam_close_session returning 0 (Success)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: pam_open_session returning 0 (Success)
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: renewable lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: renewable lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: ticket lifetime: 36000
+- 1141524028 2006.03.04 #8# Mar 4 18:00:28 #8#/#8# sshd[13554]: pam_krb5[13554]: ticket lifetime: 36000
+- 1141524030 2006.03.04 eadmin1 Mar 4 18:00:30 src@eadmin1 crond(pam_unix)[16486]: session closed for user root
+- 1141524034 2006.03.04 badmin1 Mar 4 18:00:34 src@badmin1 crond(pam_unix)[571]: session closed for user root
+- 1141524036 2006.03.04 aadmin1 Mar 4 18:00:36 src@aadmin1 crond(pam_unix)[6286]: session closed for user root
+- 1141524037 2006.03.04 dadmin1 Mar 4 18:00:37 src@dadmin1 crond(pam_unix)[28615]: session closed for user root
+- 1141524061 2006.03.04 aadmin3 Mar 4 18:01:01 src@aadmin3 crond(pam_unix)[8674]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 aadmin4 Mar 4 18:01:01 src@aadmin4 crond(pam_unix)[9846]: session closed for user root
+- 1141524061 2006.03.04 aadmin4 Mar 4 18:01:01 src@aadmin4 crond(pam_unix)[9846]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 aadmin4 Mar 4 18:01:01 src@aadmin4 crond[9847]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 #8# Mar 4 18:01:01 #8#/#8# crond(pam_unix)[13556]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 #1# Mar 4 18:01:01 #1#/#1# crond[4778]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 badmin2 Mar 4 18:01:01 src@badmin2 crond[14154]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 badmin3 Mar 4 18:01:01 src@badmin3 crond(pam_unix)[5295]: session closed for user root
+- 1141524061 2006.03.04 badmin3 Mar 4 18:01:01 src@badmin3 crond(pam_unix)[5295]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 badmin3 Mar 4 18:01:01 src@badmin3 crond[5296]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond(pam_unix)[5739]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: banner: Kerberos 5
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: ccache dir: /tmp
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: configured realm '#24#'
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: flag: no ignore_afs
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: flag: no krb4_convert
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: flag: user_check
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: flag: validate
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: flag: warn
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: flags: forwardable not proxiable
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: keytab: /etc/v5srvtab
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: no v5 creds for user 'root', skipping session setup
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: pam_open_session returning 0 (Success)
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: renewable lifetime: 36000
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: renewable lifetime: 36000
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5739]: pam_krb5[5739]: ticket lifetime: 36000
+- 1141524061 2006.03.04 #31# Mar 4 18:01:01 #31#/#31# crond[5740]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 cadmin2 Mar 4 18:01:01 src@cadmin2 crond(pam_unix)[9117]: session closed for user root
+- 1141524061 2006.03.04 cadmin2 Mar 4 18:01:01 src@cadmin2 crond(pam_unix)[9117]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 cadmin2 Mar 4 18:01:01 src@cadmin2 crond[9118]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 #9# Mar 4 18:01:01 #9#/#9# crond(pam_unix)[3288]: session closed for user root
+- 1141524061 2006.03.04 #9# Mar 4 18:01:01 #9#/#9# crond[3288]: pam_krb5[3288]: configured realm '#24#'
+- 1141524061 2006.03.04 #9# Mar 4 18:01:01 #9#/#9# crond[3288]: pam_krb5[3288]: flag: no ignore_afs
+- 1141524061 2006.03.04 #9# Mar 4 18:01:01 #9#/#9# crond[3288]: pam_krb5[3288]: no v5 creds for user 'root', skipping session cleanup
+- 1141524061 2006.03.04 #9# Mar 4 18:01:01 #9#/#9# crond[3289]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 #32# Mar 4 18:01:01 #32#/#32# crond[25939]: pam_krb5[25939]: flag: no ignore_afs
+- 1141524061 2006.03.04 dadmin1 Mar 4 18:01:01 src@dadmin1 crond(pam_unix)[31692]: session closed for user root
+- 1141524061 2006.03.04 dadmin1 Mar 4 18:01:01 src@dadmin1 crond(pam_unix)[31692]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 dadmin2 Mar 4 18:01:01 src@dadmin2 crond(pam_unix)[15003]: session closed for user root
+- 1141524061 2006.03.04 dadmin2 Mar 4 18:01:01 src@dadmin2 crond(pam_unix)[15003]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 dadmin2 Mar 4 18:01:01 src@dadmin2 crond[15004]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524061 2006.03.04 dadmin3 Mar 4 18:01:01 src@dadmin3 crond(pam_unix)[7056]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 eadmin1 Mar 4 18:01:01 src@eadmin1 crond(pam_unix)[19563]: session closed for user root
+- 1141524061 2006.03.04 #56# Mar 4 18:01:01 #56#/#56# crond(pam_unix)[1305]: session closed for user root
+- 1141524061 2006.03.04 #56# Mar 4 18:01:01 #56#/#56# crond(pam_unix)[1305]: session opened for user root by (uid=0)
+- 1141524061 2006.03.04 #56# Mar 4 18:01:01 #56#/#56# crond[1306]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524062 2006.03.04 #33# Mar 4 18:01:02 #33#/#33# crond[29355]: pam_krb5[29355]: flag: no krb4_convert
+- 1141524062 2006.03.04 #33# Mar 4 18:01:02 #33#/#33# crond[29356]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524063 2006.03.04 cadmin1 Mar 4 18:01:03 src@cadmin1 crond(pam_unix)[23374]: session closed for user root
+- 1141524087 2006.03.04 #8# Mar 4 18:01:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524122 2006.03.04 tsqe2 Mar 4 18:02:02 tsqe2/tsqe2 crond(pam_unix)[5524]: session closed for user root
+- 1141524122 2006.03.04 tsqe2 Mar 4 18:02:02 tsqe2/tsqe2 crond(pam_unix)[5524]: session opened for user root by (uid=0)
+- 1141524122 2006.03.04 tsqe2 Mar 4 18:02:02 tsqe2/tsqe2 crond[5525]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141524143 2006.03.04 #2116# Mar 4 18:02:23 #2116#/#2116# crond(pam_unix)[21354]: session closed for user root
+- 1141524143 2006.03.04 #2116# Mar 4 18:02:23 #2116#/#2116# crond(pam_unix)[21354]: session opened for user root by (uid=0)
+- 1141524143 2006.03.04 #2116# Mar 4 18:02:23 #2116#/#2116# crond[21355]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141524147 2006.03.04 #8# Mar 4 18:02:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524267 2006.03.04 #8# Mar 4 18:04:27 #8#/#8# last message repeated 2 times
+- 1141524294 2006.03.04 cadmin3 Mar 4 18:04:54 src@cadmin3 ntpd[1874]: synchronized to 10.100.24.251, stratum 2
+- 1141524327 2006.03.04 #8# Mar 4 18:05:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524327 2006.03.04 #8# Mar 4 18:05:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/qmgr: Permission denied
+- 1141524371 2006.03.04 aadmin1 Mar 4 18:06:11 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e1:6f:b2 via eth1: network A_net: no free leases
+- 1141524371 2006.03.04 aadmin2 Mar 4 18:06:11 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e1:6f:b2 via eth1: network A_net: no free leases
+- 1141524371 2006.03.04 aadmin3 Mar 4 18:06:11 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e1:6f:b2 via eth1: network A_net: no free leases
+- 1141524371 2006.03.04 aadmin4 Mar 4 18:06:11 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e1:6f:b2 via eth1
+- 1141524371 2006.03.04 aadmin4 Mar 4 18:06:11 src@aadmin4 dhcpd: DHCPOFFER on 10.100.6.42 to 00:11:43:e1:6f:b2 via eth1
+- 1141524373 2006.03.04 aadmin1 Mar 4 18:06:13 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.6.42 (10.100.6.250) from 00:11:43:e1:6f:b2 via eth1: unknown lease 10.100.6.42.
+- 1141524373 2006.03.04 aadmin2 Mar 4 18:06:13 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.6.42 (10.100.6.250) from 00:11:43:e1:6f:b2 via eth1: unknown lease 10.100.6.42.
+- 1141524373 2006.03.04 aadmin3 Mar 4 18:06:13 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.6.42 (10.100.6.250) from 00:11:43:e1:6f:b2 via eth1: unknown lease 10.100.6.42.
+- 1141524373 2006.03.04 aadmin4 Mar 4 18:06:13 src@aadmin4 dhcpd: DHCPACK on 10.100.6.42 to 00:11:43:e1:6f:b2 via eth1
+- 1141524373 2006.03.04 aadmin4 Mar 4 18:06:13 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.6.42 (10.100.6.250) from 00:11:43:e1:6f:b2 via eth1
+- 1141524373 2006.03.04 aadmin4 Mar 4 18:06:13 src@aadmin4 xinetd[1858]: START: tftp pid=9848 from=10.100.6.42
+- 1141524387 2006.03.04 #8# Mar 4 18:06:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524443 2006.03.04 #2116# Mar 4 18:07:23 #2116#/#2116# crond(pam_unix)[21356]: session closed for user root
+- 1141524443 2006.03.04 #2116# Mar 4 18:07:23 #2116#/#2116# crond(pam_unix)[21356]: session opened for user root by (uid=0)
+- 1141524443 2006.03.04 #2116# Mar 4 18:07:23 #2116#/#2116# crond(pam_unix)[21357]: session closed for user root
+- 1141524443 2006.03.04 #2116# Mar 4 18:07:23 #2116#/#2116# crond(pam_unix)[21357]: session opened for user root by (uid=0)
+- 1141524443 2006.03.04 #2116# Mar 4 18:07:23 #2116#/#2116# crond[21358]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141524443 2006.03.04 #2116# Mar 4 18:07:23 #2116#/#2116# crond[21359]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141524456 2006.03.04 aadmin4 Mar 4 18:07:36 src@aadmin4 xinetd[1858]: START: rsync pid=9861 from=10.100.6.42
+- 1141524456 2006.03.04 aadmin4 Mar 4 18:07:36 src@aadmin4 xinetd[1858]: START: rsync pid=9862 from=10.100.6.42
+- 1141524456 2006.03.04 aadmin4 Mar 4 18:07:36 src@aadmin4 xinetd[1858]: START: rsync pid=9863 from=10.100.6.42
+- 1141524457 2006.03.04 aadmin4 Mar 4 18:07:37 src@aadmin4 xinetd[1858]: START: rsync pid=9864 from=10.100.6.42
+- 1141524457 2006.03.04 aadmin4 Mar 4 18:07:37 src@aadmin4 xinetd[1858]: START: rsync pid=9865 from=10.100.6.42
+- 1141524457 2006.03.04 aadmin4 Mar 4 18:07:37 src@aadmin4 xinetd[1858]: START: rsync pid=9866 from=10.100.6.42
+- 1141524507 2006.03.04 #8# Mar 4 18:08:27 #8#/#8# last message repeated 2 times
+- 1141524601 2006.03.04 aadmin1 Mar 4 18:10:01 src@aadmin1 crond(pam_unix)[9366]: session opened for user root by (uid=0)
+- 1141524601 2006.03.04 aadmin1 Mar 4 18:10:01 src@aadmin1 crond[9367]: (root) CMD (/projects/tbird/temps/get_temps a &> /dev/null)
+- 1141524601 2006.03.04 badmin1 Mar 4 18:10:01 src@badmin1 crond(pam_unix)[3712]: session opened for user root by (uid=0)
+- 1141524601 2006.03.04 badmin1 Mar 4 18:10:01 src@badmin1 crond[3713]: (root) CMD (/projects/tbird/temps/get_temps b &> /dev/null)
+- 1141524601 2006.03.04 cadmin1 Mar 4 18:10:01 src@cadmin1 crond(pam_unix)[26453]: session opened for user root by (uid=0)
+- 1141524601 2006.03.04 cadmin1 Mar 4 18:10:01 src@cadmin1 crond[26454]: (root) CMD (/projects/tbird/temps/get_temps c &> /dev/null)
+- 1141524601 2006.03.04 dadmin1 Mar 4 18:10:01 src@dadmin1 crond(pam_unix)[31694]: session opened for user root by (uid=0)
+- 1141524601 2006.03.04 dadmin1 Mar 4 18:10:01 src@dadmin1 crond[31695]: (root) CMD (/projects/tbird/temps/get_temps d &> /dev/null)
+- 1141524601 2006.03.04 eadmin1 Mar 4 18:10:01 src@eadmin1 crond(pam_unix)[19565]: session opened for user root by (uid=0)
+- 1141524601 2006.03.04 eadmin1 Mar 4 18:10:01 src@eadmin1 crond[19566]: (root) CMD (/projects/tbird/temps/get_temps e &> /dev/null)
+- 1141524601 2006.03.04 #56# Mar 4 18:10:01 #56#/#56# crond(pam_unix)[1317]: session closed for user root
+- 1141524601 2006.03.04 #56# Mar 4 18:10:01 #56#/#56# crond(pam_unix)[1317]: session opened for user root by (uid=0)
+- 1141524601 2006.03.04 #56# Mar 4 18:10:01 #56#/#56# crond[1318]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141524627 2006.03.04 #8# Mar 4 18:10:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524627 2006.03.04 #8# Mar 4 18:10:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524627 2006.03.04 #8# Mar 4 18:10:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/qmgr: Permission denied
+- 1141524630 2006.03.04 eadmin1 Mar 4 18:10:30 src@eadmin1 crond(pam_unix)[19565]: session closed for user root
+- 1141524634 2006.03.04 aadmin1 Mar 4 18:10:34 src@aadmin1 crond(pam_unix)[9366]: session closed for user root
+- 1141524635 2006.03.04 badmin1 Mar 4 18:10:35 src@badmin1 crond(pam_unix)[3712]: session closed for user root
+- 1141524635 2006.03.04 cadmin1 Mar 4 18:10:35 src@cadmin1 crond(pam_unix)[26453]: session closed for user root
+- 1141524636 2006.03.04 dadmin1 Mar 4 18:10:36 src@dadmin1 crond(pam_unix)[31694]: session closed for user root
+- 1141524687 2006.03.04 #8# Mar 4 18:11:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524731 2006.03.04 cadmin3 Mar 4 18:12:11 src@cadmin3 ntpd[1874]: synchronized to 10.100.0.251, stratum 2
+- 1141524743 2006.03.04 #2116# Mar 4 18:12:23 #2116#/#2116# crond(pam_unix)[21361]: session opened for user root by (uid=0)
+- 1141524743 2006.03.04 #2116# Mar 4 18:12:23 #2116#/#2116# crond[21362]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141524744 2006.03.04 #2116# Mar 4 18:12:24 #2116#/#2116# crond(pam_unix)[21361]: session closed for user root
+- 1141524752 2006.03.04 aadmin4 Mar 4 18:12:32 src@aadmin4 ntpd[1874]: synchronized to 10.100.20.251, stratum 2
+- 1141524807 2006.03.04 #8# Mar 4 18:13:27 #8#/#8# last message repeated 2 times
+- 1141524927 2006.03.04 #8# Mar 4 18:15:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524927 2006.03.04 #8# Mar 4 18:15:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141524927 2006.03.04 #8# Mar 4 18:15:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/qmgr: Permission denied
+- 1141524970 2006.03.04 aadmin4 Mar 4 18:16:10 src@aadmin4 in.tftpd[9645]: tftp: client does not accept options
+- 1141524987 2006.03.04 #8# Mar 4 18:16:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525044 2006.03.04 #2116# Mar 4 18:17:24 #2116#/#2116# crond(pam_unix)[21363]: session closed for user root
+- 1141525044 2006.03.04 #2116# Mar 4 18:17:24 #2116#/#2116# crond(pam_unix)[21363]: session opened for user root by (uid=0)
+- 1141525044 2006.03.04 #2116# Mar 4 18:17:24 #2116#/#2116# crond(pam_unix)[21364]: session closed for user root
+- 1141525044 2006.03.04 #2116# Mar 4 18:17:24 #2116#/#2116# crond(pam_unix)[21364]: session opened for user root by (uid=0)
+- 1141525044 2006.03.04 #2116# Mar 4 18:17:24 #2116#/#2116# crond[21365]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141525044 2006.03.04 #2116# Mar 4 18:17:24 #2116#/#2116# crond[21366]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141525107 2006.03.04 #8# Mar 4 18:18:27 #8#/#8# last message repeated 2 times
+- 1141525201 2006.03.04 aadmin1 Mar 4 18:20:01 src@aadmin1 crond(pam_unix)[12443]: session opened for user root by (uid=0)
+- 1141525201 2006.03.04 aadmin1 Mar 4 18:20:01 src@aadmin1 crond[12444]: (root) CMD (/projects/tbird/temps/get_temps a &> /dev/null)
+- 1141525201 2006.03.04 badmin1 Mar 4 18:20:01 src@badmin1 crond(pam_unix)[6789]: session opened for user root by (uid=0)
+- 1141525201 2006.03.04 badmin1 Mar 4 18:20:01 src@badmin1 crond[6790]: (root) CMD (/projects/tbird/temps/get_temps b &> /dev/null)
+- 1141525201 2006.03.04 cadmin1 Mar 4 18:20:01 src@cadmin1 crond(pam_unix)[29530]: session opened for user root by (uid=0)
+- 1141525201 2006.03.04 cadmin1 Mar 4 18:20:01 src@cadmin1 crond[29531]: (root) CMD (/projects/tbird/temps/get_temps c &> /dev/null)
+- 1141525201 2006.03.04 eadmin1 Mar 4 18:20:01 src@eadmin1 crond(pam_unix)[22642]: session opened for user root by (uid=0)
+- 1141525201 2006.03.04 eadmin1 Mar 4 18:20:01 src@eadmin1 crond[22643]: (root) CMD (/projects/tbird/temps/get_temps e &> /dev/null)
+- 1141525201 2006.03.04 #56# Mar 4 18:20:01 #56#/#56# crond(pam_unix)[1320]: session closed for user root
+- 1141525201 2006.03.04 #56# Mar 4 18:20:01 #56#/#56# crond(pam_unix)[1320]: session opened for user root by (uid=0)
+- 1141525201 2006.03.04 #56# Mar 4 18:20:01 #56#/#56# crond[1321]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141525202 2006.03.04 dadmin1 Mar 4 18:20:02 src@dadmin1 crond(pam_unix)[2356]: session opened for user root by (uid=0)
+- 1141525202 2006.03.04 dadmin1 Mar 4 18:20:02 src@dadmin1 crond[2357]: (root) CMD (/projects/tbird/temps/get_temps d &> /dev/null)
+- 1141525227 2006.03.04 #8# Mar 4 18:20:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525227 2006.03.04 #8# Mar 4 18:20:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525227 2006.03.04 #8# Mar 4 18:20:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/qmgr: Permission denied
+- 1141525231 2006.03.04 eadmin1 Mar 4 18:20:31 src@eadmin1 crond(pam_unix)[22642]: session closed for user root
+- 1141525234 2006.03.04 aadmin1 Mar 4 18:20:34 src@aadmin1 crond(pam_unix)[12443]: session closed for user root
+- 1141525236 2006.03.04 badmin1 Mar 4 18:20:36 src@badmin1 crond(pam_unix)[6789]: session closed for user root
+- 1141525237 2006.03.04 dadmin1 Mar 4 18:20:37 src@dadmin1 crond(pam_unix)[2356]: session closed for user root
+- 1141525254 2006.03.04 cadmin1 Mar 4 18:20:54 src@cadmin1 crond(pam_unix)[29530]: session closed for user root
+- 1141525287 2006.03.04 #8# Mar 4 18:21:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525288 2006.03.04 dadmin3 Mar 4 18:21:28 src@dadmin3 ntpd[1881]: synchronized to 10.100.0.251, stratum 2
+- 1141525288 2006.03.04 dadmin3 Mar 4 18:21:28 src@dadmin3 ntpd[1881]: synchronized to 10.100.12.251, stratum 2
+- 1141525292 2006.03.04 aadmin4 Mar 4 18:21:32 src@aadmin4 ntpd[1874]: synchronized to 10.100.248.3, stratum 2
+- 1141525343 2006.03.04 #2116# Mar 4 18:22:23 #2116#/#2116# crond(pam_unix)[21368]: session closed for user root
+- 1141525343 2006.03.04 #2116# Mar 4 18:22:23 #2116#/#2116# crond(pam_unix)[21368]: session opened for user root by (uid=0)
+- 1141525343 2006.03.04 #2116# Mar 4 18:22:23 #2116#/#2116# crond[21369]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141525407 2006.03.04 #8# Mar 4 18:23:27 #8#/#8# last message repeated 2 times
+- 1141525527 2006.03.04 #8# Mar 4 18:25:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525527 2006.03.04 #8# Mar 4 18:25:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525527 2006.03.04 #8# Mar 4 18:25:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/qmgr: Permission denied
+- 1141525583 2006.03.04 cadmin3 Mar 4 18:26:23 src@cadmin3 ntpd[1874]: synchronized to 10.100.16.251, stratum 2
+- 1141525587 2006.03.04 #8# Mar 4 18:26:27 #8#/#8# postfix/master[2361]: warning: master_wakeup_timer_event: service public/pickup: Permission denied
+- 1141525609 2006.03.04 eadmin2 Mar 4 18:26:49 src@eadmin2 ntpd[1875]: synchronized to 10.100.0.251, stratum 2
+- 1141525643 2006.03.04 #2116# Mar 4 18:27:23 #2116#/#2116# crond(pam_unix)[21370]: session closed for user root
+- 1141525643 2006.03.04 #2116# Mar 4 18:27:23 #2116#/#2116# crond(pam_unix)[21370]: session opened for user root by (uid=0)
+- 1141525643 2006.03.04 #2116# Mar 4 18:27:23 #2116#/#2116# crond(pam_unix)[21372]: session closed for user root
+- 1141525643 2006.03.04 #2116# Mar 4 18:27:23 #2116#/#2116# crond(pam_unix)[21372]: session opened for user root by (uid=0)
+- 1141525643 2006.03.04 #2116# Mar 4 18:27:23 #2116#/#2116# crond[21371]: (root) CMD (/usr/bin/mrtg /etc/mrtg/mrtg.cfg --lock-file /var/lock/mrtg/mrtg_l --confcache-file /var/lib/mrtg/mrtg.ok)
+- 1141525643 2006.03.04 #2116# Mar 4 18:27:23 #2116#/#2116# crond[21373]: (root) CMD (/usr/lib64/sa/sa1 1 1)
+- 1141525704 2006.03.04 #2116# Mar 4 18:28:24 #2116#/#2116# crond(pam_unix)[21375]: session closed for user root
+- 1141525704 2006.03.04 #2116# Mar 4 18:28:24 #2116#/#2116# crond(pam_unix)[21375]: session opened for user root by (uid=0)
+- 1141525704 2006.03.04 #2116# Mar 4 18:28:24 #2116#/#2116# crond[21376]: (root) CMD (run-parts /etc/cron.hourly)
+- 1141525707 2006.03.04 #8# Mar 4 18:28:27 #8#/#8# last message repeated 2 times
+- 1141525756 2006.03.04 cadmin3 Mar 4 18:29:16 src@cadmin3 ntpd[1874]: synchronized to 10.100.0.251, stratum 2

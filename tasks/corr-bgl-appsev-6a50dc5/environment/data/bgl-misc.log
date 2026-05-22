@@ -1,0 +1,29 @@
+- 1133928921 2005.12.06 - 2005-12-06-20.15.21.720577 0 (5438708) iar 0x00544eb8, dear 0x01fc5640 (543 RAS KERNEL INFO Kernel detected 5438714 integer alignment exceptions (5438707) iar 0x00544ea8, dear 0x01fc5620 (5438708) iar 0x00544eb8, dear 0x01fc5640 (5438709) iar 0x00544ea8, dear 0x01fc5660 (5438710) iar 0x00544eb8, dear 0x01fc5680 (5438711) iar 0x00544ee0, dear 0x01fc56a0 (5438712) iar 0x00544ef0, dear 0x01fc56c0 (5438713) iar 0x00544ee0, dear 0x01fc56e0 (5438714) iar 0x00544ef0, dear 0x01fc5700
+- 1133928921 2005.12.06 - 2005-12-06-20.15.21.825122 0 (4211594) iar 0x00544eb8, dear 0x01fc1e20 (421 RAS KERNEL INFO Kernel detected 4211600 integer alignment exceptions (4211593) iar 0x00544ea8, dear 0x01fc1e00 (4211594) iar 0x00544eb8, dear 0x01fc1e20 (4211595) iar 0x00544ea8, dear 0x01fc1e40 (4211596) iar 0x00544eb8, dear 0x01fc1e60 (4211597) iar 0x00544ee0, dear 0x01fc1e80 (4211598) iar 0x00544ef0, dear 0x01fc1ea0 (4211599) iar 0x00544ee0, dear 0x01fc1ec0 (4211600) iar 0x00544ef0, dear 0x01fc1ee0
+- 1133929445 2005.12.06 - 2005-12-06-20.24.05.205217 RAS KERNEL FATAL Kill job 56828 timed out. Block freed.
+MASABNORM 1133929449 2005.12.06 NULL 2005-12-06-20.24.09.566159 NULL RAS BGLMASTER FAILURE ciodb exited abnormally due to signal: Aborted
+- 1133929450 2005.12.06 NULL 2005-12-06-20.24.10.121264 NULL RAS MMCS INFO ciodb has been restarted.
+- 1133960559 2005.12.07 NULL 2005-12-07-05.02.39.403071 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties
+- 1133960560 2005.12.07 NULL 2005-12-07-05.02.40.001169 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120 --shutdown-timeout 240
+- 1133960560 2005.12.07 NULL 2005-12-07-05.02.40.003947 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R2M0_500_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+- 1133960560 2005.12.07 NULL 2005-12-07-05.02.40.008852 NULL RAS MMCS INFO ciodb has been restarted.
+- 1134022709 2005.12.07 - 2005-12-07-22.18.29.368964 RAS KERNEL FATAL Kill job 57111 timed out. Block freed.
+MASABNORM 1134022710 2005.12.07 NULL 2005-12-07-22.18.30.056716 NULL RAS BGLMASTER FAILURE ciodb exited abnormally due to signal: Aborted
+- 1134022710 2005.12.07 NULL 2005-12-07-22.18.30.686040 NULL RAS MMCS INFO ciodb has been restarted.
+- 1134024205 2005.12.07 UNKNOWN_LOCATION 2005-12-07-22.43.25.547304 UNKNOWN_LOCATION NULL CMCS INFO Starting SystemController
+- 1134024209 2005.12.07 UNKNOWN_LOCATION 2005-12-07-22.43.29.121916 UNKNOWN_LOCATION NULL CMCS INFO Controlling BG/L rows [ 0 1 2 3 4 5 6 7 ]
+- 1134024209 2005.12.07 UNKNOWN_LOCATION 2005-12-07-22.43.29.257879 UNKNOWN_LOCATION NULL CMCS INFO Running as background command
+- 1134026119 2005.12.07 - 2005-12-07-23.15.19.151349 RAS KERNEL FATAL Kill job 57113 timed out. Block freed.
+MASABNORM 1134026121 2005.12.07 NULL 2005-12-07-23.15.21.508320 NULL RAS BGLMASTER FAILURE ciodb exited abnormally due to signal: Aborted
+- 1134026122 2005.12.07 NULL 2005-12-07-23.15.22.047813 NULL RAS MMCS INFO ciodb has been restarted.
+- 1134059234 2005.12.08 NULL 2005-12-08-08.27.14.495871 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties
+- 1134059235 2005.12.08 NULL 2005-12-08-08.27.15.103113 NULL RAS MMCS INFO ciodb has been restarted.
+- 1134059235 2005.12.08 NULL 2005-12-08-08.27.15.114532 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R2M0_500_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+- 1134059235 2005.12.08 NULL 2005-12-08-08.27.15.119705 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120 --shutdown-timeout 240
+- 1134070562 2005.12.08 NULL 2005-12-08-11.36.02.473601 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties
+- 1134070564 2005.12.08 NULL 2005-12-08-11.36.04.352485 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R2M0_500_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+- 1134070564 2005.12.08 NULL 2005-12-08-11.36.04.356540 NULL RAS MMCS INFO ciodb has been restarted.
+- 1134070564 2005.12.08 NULL 2005-12-08-11.36.04.439494 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120 --shutdown-timeout 240
+- 1134099662 2005.12.08 UNKNOWN_LOCATION 2005-12-08-19.41.02.386550 UNKNOWN_LOCATION NULL CMCS INFO Starting SystemController
+- 1134099665 2005.12.08 UNKNOWN_LOCATION 2005-12-08-19.41.05.994014 UNKNOWN_LOCATION NULL CMCS INFO Controlling BG/L rows [ 0 1 2 3 4 5 6 7 ]
+- 1134099666 2005.12.08 UNKNOWN_LOCATION 2005-12-08-19.41.06.161111 UNKNOWN_LOCATION NULL CMCS INFO Running as background command

@@ -1,0 +1,208 @@
+- 1131573601 2005.11.09 dn493 Nov 9 14:00:01 dn493/dn493 ntpd[31891]: synchronized to 10.100.28.250, stratum 3
+- 1131573604 2005.11.09 dn611 Nov 9 14:00:04 dn611/dn611 ntpd[25581]: synchronized to 10.100.26.250, stratum 3
+- 1131573612 2005.11.09 dn916 Nov 9 14:00:12 dn916/dn916 ntpd[3025]: synchronized to 10.100.30.250, stratum 3
+- 1131573612 2005.11.09 dn920 Nov 9 14:00:12 dn920/dn920 ntpd[3722]: synchronized to 10.100.28.250, stratum 3
+- 1131573620 2005.11.09 dn45 Nov 9 14:00:20 dn45/dn45 ntpd[20455]: synchronized to 10.100.28.250, stratum 3
+- 1131573646 2005.11.09 dn782 Nov 9 14:00:46 dn782/dn782 ntpd[848]: synchronized to 10.100.24.250, stratum 3
+- 1131573661 2005.11.09 dn131 Nov 9 14:01:01 dn131/dn131 crond(pam_unix)[2922]: session closed for user root
+- 1131573661 2005.11.09 dn131 Nov 9 14:01:01 dn131/dn131 crond(pam_unix)[2922]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn131 Nov 9 14:01:01 dn131/dn131 crond[2923]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn161 Nov 9 14:01:01 dn161/dn161 crond(pam_unix)[2930]: session closed for user root
+- 1131573661 2005.11.09 dn161 Nov 9 14:01:01 dn161/dn161 crond(pam_unix)[2930]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn161 Nov 9 14:01:01 dn161/dn161 crond[2931]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn225 Nov 9 14:01:01 dn225/dn225 crond(pam_unix)[2925]: session closed for user root
+- 1131573661 2005.11.09 dn225 Nov 9 14:01:01 dn225/dn225 crond(pam_unix)[2925]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn225 Nov 9 14:01:01 dn225/dn225 crond[2926]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn261 Nov 9 14:01:01 dn261/dn261 crond(pam_unix)[2916]: session closed for user root
+- 1131573661 2005.11.09 dn261 Nov 9 14:01:01 dn261/dn261 crond(pam_unix)[2916]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn261 Nov 9 14:01:01 dn261/dn261 crond[2917]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn3 Nov 9 14:01:01 dn3/dn3 crond(pam_unix)[2917]: session closed for user root
+- 1131573661 2005.11.09 dn3 Nov 9 14:01:01 dn3/dn3 crond(pam_unix)[2917]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn3 Nov 9 14:01:01 dn3/dn3 crond[2918]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn596 Nov 9 14:01:01 dn596/dn596 crond(pam_unix)[2736]: session closed for user root
+- 1131573661 2005.11.09 dn596 Nov 9 14:01:01 dn596/dn596 crond(pam_unix)[2736]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn596 Nov 9 14:01:01 dn596/dn596 crond[2737]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn700 Nov 9 14:01:01 dn700/dn700 crond(pam_unix)[2916]: session closed for user root
+- 1131573661 2005.11.09 dn700 Nov 9 14:01:01 dn700/dn700 crond(pam_unix)[2916]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn700 Nov 9 14:01:01 dn700/dn700 crond[2917]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn73 Nov 9 14:01:01 dn73/dn73 crond(pam_unix)[2926]: session closed for user root
+- 1131573661 2005.11.09 dn73 Nov 9 14:01:01 dn73/dn73 crond(pam_unix)[2926]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn73 Nov 9 14:01:01 dn73/dn73 crond[2927]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn731 Nov 9 14:01:01 dn731/dn731 crond(pam_unix)[2925]: session closed for user root
+- 1131573661 2005.11.09 dn731 Nov 9 14:01:01 dn731/dn731 crond(pam_unix)[2925]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn731 Nov 9 14:01:01 dn731/dn731 crond[2926]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn754 Nov 9 14:01:01 dn754/dn754 crond(pam_unix)[2922]: session closed for user root
+- 1131573661 2005.11.09 dn754 Nov 9 14:01:01 dn754/dn754 crond(pam_unix)[2922]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn754 Nov 9 14:01:01 dn754/dn754 crond[2923]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573661 2005.11.09 dn978 Nov 9 14:01:01 dn978/dn978 crond(pam_unix)[2929]: session closed for user root
+- 1131573661 2005.11.09 dn978 Nov 9 14:01:01 dn978/dn978 crond(pam_unix)[2929]: session opened for user root by (uid=0)
+- 1131573661 2005.11.09 dn978 Nov 9 14:01:01 dn978/dn978 crond[2930]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573662 2005.11.09 dn228 Nov 9 14:01:02 dn228/dn228 crond(pam_unix)[2924]: session closed for user root
+- 1131573662 2005.11.09 dn228 Nov 9 14:01:02 dn228/dn228 crond(pam_unix)[2924]: session opened for user root by (uid=0)
+- 1131573662 2005.11.09 dn228 Nov 9 14:01:02 dn228/dn228 crond[2925]: (root) CMD (run-parts /etc/cron.hourly)
+- 1131573674 2005.11.09 dn703 Nov 9 14:01:14 dn703/dn703 ntpd[3586]: synchronized to 10.100.24.250, stratum 3
+- 1131573675 2005.11.09 dn703 Nov 9 14:01:15 dn703/dn703 ntpd[3586]: synchronized to 10.100.28.250, stratum 3
+- 1131573680 2005.11.09 dn433 Nov 9 14:01:20 dn433/dn433 ntpd[31963]: synchronized to 10.100.24.250, stratum 3
+- 1131573713 2005.11.09 dn915 Nov 9 14:01:53 dn915/dn915 ntpd[6560]: synchronized to 10.100.24.250, stratum 3
+- 1131573716 2005.11.09 dn937 Nov 9 14:01:56 dn937/dn937 ntpd[3655]: synchronized to 10.100.30.250, stratum 3
+- 1131573724 2005.11.09 dn317 Nov 9 14:02:04 dn317/dn317 ntpd[31632]: synchronized to 10.100.28.250, stratum 3
+- 1131573727 2005.11.09 dn168 Nov 9 14:02:07 dn168/dn168 ntpd[10643]: synchronized to 10.100.28.250, stratum 3
+- 1131573740 2005.11.09 dn805 Nov 9 14:02:20 dn805/dn805 ntpd[543]: synchronized to 10.100.30.250, stratum 3
+- 1131573752 2005.11.09 dn881 Nov 9 14:02:32 dn881/dn881 ntpd[2795]: synchronized to 10.100.26.250, stratum 3
+- 1131573761 2005.11.09 dn599 Nov 9 14:02:41 dn599/dn599 ntpd[682]: synchronized to 10.100.28.250, stratum 3
+- 1131573770 2005.11.09 dn452 Nov 9 14:02:50 dn452/dn452 ntpd[32216]: synchronized to 10.100.24.250, stratum 3
+- 1131573773 2005.11.09 dn782 Nov 9 14:02:53 dn782/dn782 ntpd[848]: synchronized to 10.100.30.250, stratum 3
+- 1131573775 2005.11.09 dn709 Nov 9 14:02:55 dn709/dn709 ntpd[1150]: synchronized to 10.100.30.250, stratum 3
+- 1131573777 2005.11.09 dn756 Nov 9 14:02:57 dn756/dn756 ntpd[32114]: synchronized to 10.100.24.250, stratum 3
+- 1131573778 2005.11.09 dn638 Nov 9 14:02:58 dn638/dn638 ntpd[766]: synchronized to 10.100.26.250, stratum 3
+- 1131573783 2005.11.09 dn309 Nov 9 14:03:03 dn309/dn309 ntpd[1982]: synchronized to 10.100.24.250, stratum 3
+- 1131573790 2005.11.09 dn309 Nov 9 14:03:10 dn309/dn309 ntpd[1982]: synchronized to 10.100.30.250, stratum 3
+- 1131573790 2005.11.09 dn52 Nov 9 14:03:10 dn52/dn52 ntpd[19791]: synchronized to 10.100.30.250, stratum 3
+- 1131573828 2005.11.09 dn17 Nov 9 14:03:48 dn17/dn17 ntpd[20574]: synchronized to 10.100.26.250, stratum 3
+- 1131573845 2005.11.09 dn795 Nov 9 14:04:05 dn795/dn795 ntpd[1690]: synchronized to 10.100.28.250, stratum 3
+- 1131573879 2005.11.09 dn439 Nov 9 14:04:39 dn439/dn439 ntpd[31964]: synchronized to 10.100.26.250, stratum 3
+- 1131573880 2005.11.09 dn827 Nov 9 14:04:40 dn827/dn827 ntpd[4554]: synchronized to 10.100.24.250, stratum 3
+- 1131573889 2005.11.09 dn439 Nov 9 14:04:49 dn439/dn439 ntpd[31964]: synchronized to 10.100.28.250, stratum 3
+- 1131573900 2005.11.09 dn200 Nov 9 14:05:00 dn200/dn200 ntpd[11584]: synchronized to 10.100.24.250, stratum 3
+- 1131573905 2005.11.09 dn899 Nov 9 14:05:05 dn899/dn899 ntpd[3632]: synchronized to 10.100.26.250, stratum 3
+- 1131573914 2005.11.09 dn77 Nov 9 14:05:14 dn77/dn77 ntpd[9978]: synchronized to 10.100.28.250, stratum 3
+- 1131573918 2005.11.09 dn703 Nov 9 14:05:18 dn703/dn703 ntpd[3586]: synchronized to 10.100.30.250, stratum 3
+- 1131573922 2005.11.09 dn627 Nov 9 14:05:22 dn627/dn627 ntpd[32755]: synchronized to 10.100.24.250, stratum 3
+- 1131573924 2005.11.09 dn150 Nov 9 14:05:24 dn150/dn150 ntpd[10270]: synchronized to 10.100.28.250, stratum 3
+- 1131573924 2005.11.09 dn927 Nov 9 14:05:24 dn927/dn927 ntpd[4090]: synchronized to 10.100.26.250, stratum 3
+- 1131573939 2005.11.09 dn516 Nov 9 14:05:39 dn516/dn516 ntpd[31844]: synchronized to 10.100.26.250, stratum 3
+- 1131573966 2005.11.09 dn365 Nov 9 14:06:06 dn365/dn365 ntpd[31991]: synchronized to 10.100.26.250, stratum 3
+- 1131573984 2005.11.09 dn236 Nov 9 14:06:24 dn236/dn236 ntpd[11603]: synchronized to 10.100.28.250, stratum 3
+- 1131574029 2005.11.09 dn200 Nov 9 14:07:09 dn200/dn200 ntpd[11584]: synchronized to 10.100.30.250, stratum 3
+- 1131574043 2005.11.09 dn184 Nov 9 14:07:23 dn184/dn184 ntpd[11609]: synchronized to 10.100.30.250, stratum 3
+- 1131574043 2005.11.09 dn448 Nov 9 14:07:23 dn448/dn448 ntpd[32156]: synchronized to 10.100.24.250, stratum 3
+- 1131574045 2005.11.09 dn901 Nov 9 14:07:25 dn901/dn901 ntpd[3798]: synchronized to 10.100.24.250, stratum 3
+- 1131574057 2005.11.09 dn492 Nov 9 14:07:37 dn492/dn492 ntpd[31168]: synchronized to 10.100.28.250, stratum 3
+- 1131574060 2005.11.09 dn353 Nov 9 14:07:40 dn353/dn353 ntpd[32308]: synchronized to 10.100.24.250, stratum 3
+- 1131574060 2005.11.09 dn353 Nov 9 14:07:40 dn353/dn353 ntpd[32308]: synchronized to 10.100.28.250, stratum 3
+- 1131574062 2005.11.09 dn208 Nov 9 14:07:42 dn208/dn208 ntpd[12982]: synchronized to 10.100.30.250, stratum 3
+- 1131574074 2005.11.09 dn140 Nov 9 14:07:54 dn140/dn140 ntpd[7737]: synchronized to 10.100.28.250, stratum 3
+- 1131574074 2005.11.09 dn356 Nov 9 14:07:54 dn356/dn356 ntpd[32234]: synchronized to 10.100.24.250, stratum 3
+- 1131574082 2005.11.09 dn180 Nov 9 14:08:02 dn180/dn180 ntpd[11690]: synchronized to 10.100.24.250, stratum 3
+- 1131574083 2005.11.09 dn814 Nov 9 14:08:03 dn814/dn814 ntpd[668]: synchronized to 10.100.28.250, stratum 3
+- 1131574090 2005.11.09 dn144 Nov 9 14:08:10 dn144/dn144 ntpd[9617]: synchronized to 10.100.28.250, stratum 3
+- 1131574101 2005.11.09 dn186 Nov 9 14:08:21 dn186/dn186 ntpd[11151]: synchronized to 10.100.28.250, stratum 3
+- 1131574107 2005.11.09 dn611 Nov 9 14:08:27 dn611/dn611 ntpd[25581]: synchronized to 10.100.24.250, stratum 3
+- 1131574111 2005.11.09 dn317 Nov 9 14:08:31 dn317/dn317 ntpd[31632]: synchronized to 10.100.30.250, stratum 3
+- 1131574117 2005.11.09 dn365 Nov 9 14:08:37 dn365/dn365 ntpd[31991]: synchronized to 10.100.24.250, stratum 3
+- 1131574151 2005.11.09 dn53 Nov 9 14:09:11 dn53/dn53 ntpd[20458]: synchronized to 10.100.24.250, stratum 3
+- 1131574154 2005.11.09 dn142 Nov 9 14:09:14 dn142/dn142 ntpd[9516]: synchronized to 10.100.28.250, stratum 3
+- 1131574162 2005.11.09 dn790 Nov 9 14:09:22 dn790/dn790 ntpd[1016]: synchronized to 10.100.28.250, stratum 3
+- 1131574185 2005.11.09 dn927 Nov 9 14:09:45 dn927/dn927 ntpd[4090]: synchronized to 10.100.28.250, stratum 3
+- 1131574194 2005.11.09 dn381 Nov 9 14:09:54 dn381/dn381 ntpd[32324]: synchronized to 10.100.28.250, stratum 3
+- 1131574198 2005.11.09 dn1003 Nov 9 14:09:58 dn1003/dn1003 ntpd[651]: synchronized to 10.100.24.250, stratum 3
+- 1131574219 2005.11.09 dn53 Nov 9 14:10:19 dn53/dn53 ntpd[20458]: synchronized to 10.100.28.250, stratum 3
+- 1131574222 2005.11.09 dn262 Nov 9 14:10:22 dn262/dn262 ntpd[32530]: synchronized to 10.100.24.250, stratum 3
+- 1131574222 2005.11.09 dn267 Nov 9 14:10:22 dn267/dn267 ntpd[32703]: synchronized to 10.100.28.250, stratum 3
+- 1131574226 2005.11.09 dn568 Nov 9 14:10:26 dn568/dn568 ntpd[31543]: synchronized to 10.100.26.250, stratum 3
+- 1131574228 2005.11.09 dn783 Nov 9 14:10:28 dn783/dn783 ntpd[5650]: synchronized to 10.100.26.250, stratum 3
+- 1131574230 2005.11.09 dn637 Nov 9 14:10:30 dn637/dn637 ntpd[1218]: synchronized to 10.100.24.250, stratum 3
+- 1131574231 2005.11.09 dn795 Nov 9 14:10:31 dn795/dn795 ntpd[1690]: synchronized to 10.100.24.250, stratum 3
+- 1131574234 2005.11.09 dn816 Nov 9 14:10:34 dn816/dn816 ntpd[593]: synchronized to 10.100.30.250, stratum 3
+- 1131574239 2005.11.09 dn1008 Nov 9 14:10:39 dn1008/dn1008 ntpd[424]: synchronized to 10.100.24.250, stratum 3
+- 1131574244 2005.11.09 dn317 Nov 9 14:10:44 dn317/dn317 ntpd[31632]: synchronized to 10.100.28.250, stratum 3
+- 1131574251 2005.11.09 dn564 Nov 9 14:10:51 dn564/dn564 ntpd[31599]: synchronized to 10.100.26.250, stratum 3
+- 1131574256 2005.11.09 dn177 Nov 9 14:10:56 dn177/dn177 ntpd[11493]: synchronized to 10.100.26.250, stratum 3
+- 1131574260 2005.11.09 dn708 Nov 9 14:11:00 dn708/dn708 ntpd[534]: synchronized to 10.100.24.250, stratum 3
+- 1131574268 2005.11.09 dn84 Nov 9 14:11:08 dn84/dn84 ntpd[10005]: synchronized to 10.100.28.250, stratum 3
+- 1131574269 2005.11.09 dn309 Nov 9 14:11:09 dn309/dn309 ntpd[1982]: synchronized to 10.100.24.250, stratum 3
+- 1131574280 2005.11.09 dn944 Nov 9 14:11:20 dn944/dn944 ntpd[3941]: synchronized to 10.100.28.250, stratum 3
+- 1131574287 2005.11.09 dn756 Nov 9 14:11:27 dn756/dn756 ntpd[32114]: synchronized to 10.100.30.250, stratum 3
+- 1131574288 2005.11.09 dn756 Nov 9 14:11:28 dn756/dn756 ntpd[32114]: synchronized to 10.100.28.250, stratum 3
+- 1131574302 2005.11.09 dn899 Nov 9 14:11:42 dn899/dn899 ntpd[3632]: synchronized to 10.100.28.250, stratum 3
+- 1131574310 2005.11.09 dn81 Nov 9 14:11:50 dn81/dn81 ntpd[9310]: synchronized to 10.100.24.250, stratum 3
+- 1131574314 2005.11.09 dn916 Nov 9 14:11:54 dn916/dn916 ntpd[3025]: synchronized to 10.100.26.250, stratum 3
+- 1131574316 2005.11.09 dn23 Nov 9 14:11:56 dn23/dn23 ntpd[20078]: synchronized to 10.100.24.250, stratum 3
+- 1131574318 2005.11.09 dn470 Nov 9 14:11:58 dn470/dn470 ntpd[32285]: synchronized to 10.100.26.250, stratum 3
+- 1131574328 2005.11.09 dn855 Nov 9 14:12:08 dn855/dn855 ntpd[4094]: synchronized to 10.100.26.250, stratum 3
+- 1131574333 2005.11.09 dn804 Nov 9 14:12:13 dn804/dn804 ntpd[1011]: synchronized to 10.100.28.250, stratum 3
+- 1131574342 2005.11.09 dn372 Nov 9 14:12:22 dn372/dn372 ntpd[31110]: synchronized to 10.100.26.250, stratum 3
+- 1131574347 2005.11.09 dn180 Nov 9 14:12:27 dn180/dn180 ntpd[11690]: synchronized to 10.100.28.250, stratum 3
+- 1131574352 2005.11.09 dn464 Nov 9 14:12:32 dn464/dn464 ntpd[32184]: synchronized to 10.100.30.250, stratum 3
+- 1131574358 2005.11.09 dn534 Nov 9 14:12:38 dn534/dn534 ntpd[31732]: synchronized to 10.100.24.250, stratum 3
+- 1131574358 2005.11.09 dn659 Nov 9 14:12:38 dn659/dn659 ntpd[395]: synchronized to 10.100.24.250, stratum 3
+- 1131574360 2005.11.09 dn736 Nov 9 14:12:40 dn736/dn736 ntpd[1119]: synchronized to 10.100.28.250, stratum 3
+- 1131574362 2005.11.09 dn513 Nov 9 14:12:42 dn513/dn513 ntpd[31236]: synchronized to 10.100.26.250, stratum 3
+- 1131574366 2005.11.09 dn464 Nov 9 14:12:46 dn464/dn464 ntpd[32184]: synchronized to 10.100.24.250, stratum 3
+- 1131574373 2005.11.09 dn534 Nov 9 14:12:53 dn534/dn534 ntpd[31732]: synchronized to 10.100.26.250, stratum 3
+- 1131574373 2005.11.09 dn751 Nov 9 14:12:53 dn751/dn751 ntpd[31397]: synchronized to 10.100.24.250, stratum 3
+- 1131574380 2005.11.09 dn945 Nov 9 14:13:00 dn945/dn945 ntpd[12195]: synchronized to 10.100.28.250, stratum 3
+- 1131574390 2005.11.09 dn362 Nov 9 14:13:10 dn362/dn362 ntpd[30947]: synchronized to 10.100.24.250, stratum 3
+- 1131574400 2005.11.09 dn1014 Nov 9 14:13:20 dn1014/dn1014 ntpd[32700]: synchronized to 10.100.30.250, stratum 3
+- 1131574421 2005.11.09 dn828 Nov 9 14:13:41 dn828/dn828 ntpd[4709]: synchronized to 10.100.24.250, stratum 3
+- 1131574424 2005.11.09 dn788 Nov 9 14:13:44 dn788/dn788 ntpd[32400]: synchronized to 10.100.28.250, stratum 3
+- 1131574434 2005.11.09 dn1013 Nov 9 14:13:54 dn1013/dn1013 ntpd[32692]: synchronized to 10.100.26.250, stratum 3
+- 1131574436 2005.11.09 dn502 Nov 9 14:13:56 dn502/dn502 ntpd[31932]: synchronized to 10.100.28.250, stratum 3
+- 1131574444 2005.11.09 dn703 Nov 9 14:14:04 dn703/dn703 ntpd[3586]: synchronized to 10.100.24.250, stratum 3
+- 1131574456 2005.11.09 dn616 Nov 9 14:14:16 dn616/dn616 ntpd[521]: synchronized to 10.100.28.250, stratum 3
+- 1131574457 2005.11.09 dn855 Nov 9 14:14:17 dn855/dn855 ntpd[4094]: synchronized to 10.100.28.250, stratum 3
+- 1131574464 2005.11.09 dn185 Nov 9 14:14:24 dn185/dn185 ntpd[11146]: synchronized to 10.100.26.250, stratum 3
+- 1131574468 2005.11.09 dn843 Nov 9 14:14:28 dn843/dn843 ntpd[2908]: synchronized to 10.100.24.250, stratum 3
+- 1131574469 2005.11.09 dn880 Nov 9 14:14:29 dn880/dn880 ntpd[2075]: synchronized to 10.100.28.250, stratum 3
+- 1131574512 2005.11.09 dn593 Nov 9 14:15:12 dn593/dn593 ntpd[32387]: synchronized to 10.100.26.250, stratum 3
+- 1131574527 2005.11.09 dn358 Nov 9 14:15:27 dn358/dn358 ntpd[32286]: synchronized to 10.100.30.250, stratum 3
+- 1131574531 2005.11.09 dn222 Nov 9 14:15:31 dn222/dn222 ntpd[10983]: synchronized to 10.100.28.250, stratum 3
+- 1131574532 2005.11.09 dn32 Nov 9 14:15:32 dn32/dn32 ntpd[19432]: synchronized to 10.100.24.250, stratum 3
+- 1131574535 2005.11.09 dn828 Nov 9 14:15:35 dn828/dn828 ntpd[4709]: synchronized to 10.100.30.250, stratum 3
+- 1131574541 2005.11.09 dn749 Nov 9 14:15:41 dn749/dn749 ntpd[31951]: synchronized to 10.100.24.250, stratum 3
+- 1131574545 2005.11.09 dn535 Nov 9 14:15:45 dn535/dn535 ntpd[31726]: synchronized to 10.100.28.250, stratum 3
+- 1131574545 2005.11.09 dn586 Nov 9 14:15:45 dn586/dn586 ntpd[32336]: synchronized to 10.100.24.250, stratum 3
+- 1131574547 2005.11.09 dn613 Nov 9 14:15:47 dn613/dn613 ntpd[544]: synchronized to 10.100.30.250, stratum 3
+- 1131574549 2005.11.09 dn127 Nov 9 14:15:49 dn127/dn127 ntpd[10406]: synchronized to 10.100.30.250, stratum 3
+- 1131574554 2005.11.09 dn422 Nov 9 14:15:54 dn422/dn422 ntpd[32413]: synchronized to 10.100.28.250, stratum 3
+- 1131574560 2005.11.09 dn425 Nov 9 14:16:00 dn425/dn425 ntpd[2709]: synchronized to 10.100.28.250, stratum 3
+- 1131574566 2005.11.09 dn539 Nov 9 14:16:06 dn539/dn539 ntpd[31693]: synchronized to 10.100.24.250, stratum 3
+- 1131574570 2005.11.09 dn466 Nov 9 14:16:10 dn466/dn466 ntpd[31818]: synchronized to 10.100.28.250, stratum 3
+- 1131574580 2005.11.09 dn389 Nov 9 14:16:20 dn389/dn389 ntpd[31150]: synchronized to 10.100.26.250, stratum 3
+- 1131574583 2005.11.09 dn81 Nov 9 14:16:23 dn81/dn81 ntpd[9310]: synchronized to 10.100.28.250, stratum 3
+- 1131574583 2005.11.09 dn955 Nov 9 14:16:23 dn955/dn955 ntpd[32753]: synchronized to 10.100.26.250, stratum 3
+- 1131574591 2005.11.09 dn101 Nov 9 14:16:31 dn101/dn101 ntpd[10843]: synchronized to 10.100.26.250, stratum 3
+- 1131574600 2005.11.09 dn671 Nov 9 14:16:40 dn671/dn671 ntpd[32055]: synchronized to 10.100.28.250, stratum 3
+- 1131574601 2005.11.09 dn637 Nov 9 14:16:41 dn637/dn637 ntpd[1218]: synchronized to 10.100.30.250, stratum 3
+- 1131574602 2005.11.09 dn234 Nov 9 14:16:42 dn234/dn234 ntpd[11132]: synchronized to 10.100.24.250, stratum 3
+- 1131574603 2005.11.09 dn101 Nov 9 14:16:43 dn101/dn101 ntpd[10843]: synchronized to 10.100.24.250, stratum 3
+- 1131574614 2005.11.09 dn888 Nov 9 14:16:54 dn888/dn888 ntpd[2872]: synchronized to 10.100.28.250, stratum 3
+- 1131574616 2005.11.09 dn49 Nov 9 14:16:56 dn49/dn49 ntpd[23097]: synchronized to 10.100.28.250, stratum 3
+- 1131574617 2005.11.09 dn814 Nov 9 14:16:57 dn814/dn814 ntpd[668]: synchronized to 10.100.24.250, stratum 3
+- 1131574625 2005.11.09 dn362 Nov 9 14:17:05 dn362/dn362 ntpd[30947]: synchronized to 10.100.28.250, stratum 3
+- 1131574629 2005.11.09 dn611 Nov 9 14:17:09 dn611/dn611 ntpd[25581]: synchronized to 10.100.30.250, stratum 3
+- 1131574639 2005.11.09 dn675 Nov 9 14:17:19 dn675/dn675 ntpd[1372]: synchronized to 10.100.28.250, stratum 3
+- 1131574642 2005.11.09 dn579 Nov 9 14:17:22 dn579/dn579 ntpd[32176]: synchronized to 10.100.28.250, stratum 3
+- 1131574643 2005.11.09 dn223 Nov 9 14:17:23 dn223/dn223 ntpd[10302]: synchronized to 10.100.28.250, stratum 3
+- 1131574649 2005.11.09 dn108 Nov 9 14:17:29 dn108/dn108 ntpd[10643]: synchronized to 10.100.24.250, stratum 3
+- 1131574652 2005.11.09 dn118 Nov 9 14:17:32 dn118/dn118 ntpd[10663]: synchronized to 10.100.28.250, stratum 3
+- 1131574657 2005.11.09 dn687 Nov 9 14:17:37 dn687/dn687 ntpd[1293]: synchronized to 10.100.30.250, stratum 3
+- 1131574667 2005.11.09 dn230 Nov 9 14:17:47 dn230/dn230 ntpd[11116]: synchronized to 10.100.24.250, stratum 3
+- 1131574683 2005.11.09 dn857 Nov 9 14:18:03 dn857/dn857 ntpd[23469]: synchronized to 10.100.28.250, stratum 3
+- 1131574690 2005.11.09 dn403 Nov 9 14:18:10 dn403/dn403 ntpd[32013]: synchronized to 10.100.28.250, stratum 3
+- 1131574696 2005.11.09 dn626 Nov 9 14:18:16 dn626/dn626 ntpd[32731]: synchronized to 10.100.28.250, stratum 3
+- 1131574707 2005.11.09 dn593 Nov 9 14:18:27 dn593/dn593 ntpd[32387]: synchronized to 10.100.28.250, stratum 3
+- 1131574709 2005.11.09 dn72 Nov 9 14:18:29 dn72/dn72 ntpd[20139]: synchronized to 10.100.28.250, stratum 3
+- 1131574711 2005.11.09 dn145 Nov 9 14:18:31 dn145/dn145 ntpd[31416]: synchronized to 10.100.24.250, stratum 3
+- 1131574715 2005.11.09 dn514 Nov 9 14:18:35 dn514/dn514 ntpd[31382]: synchronized to 10.100.28.250, stratum 3
+- 1131574726 2005.11.09 dn271 Nov 9 14:18:46 dn271/dn271 ntpd[31956]: synchronized to 10.100.30.250, stratum 3
+- 1131574729 2005.11.09 dn365 Nov 9 14:18:49 dn365/dn365 ntpd[31991]: synchronized to 10.100.30.250, stratum 3
+- 1131574734 2005.11.09 dn736 Nov 9 14:18:54 dn736/dn736 ntpd[1119]: synchronized to 10.100.26.250, stratum 3
+- 1131574742 2005.11.09 dn238 Nov 9 14:19:02 dn238/dn238 ntpd[10639]: synchronized to 10.100.24.250, stratum 3
+- 1131574743 2005.11.09 dn238 Nov 9 14:19:03 dn238/dn238 ntpd[10639]: synchronized to 10.100.26.250, stratum 3
+- 1131574743 2005.11.09 dn701 Nov 9 14:19:03 dn701/dn701 ntpd[3599]: synchronized to 10.100.24.250, stratum 3
+- 1131574744 2005.11.09 dn102 Nov 9 14:19:04 dn102/dn102 ntpd[10651]: synchronized to 10.100.30.250, stratum 3
+- 1131574744 2005.11.09 dn701 Nov 9 14:19:04 dn701/dn701 ntpd[3599]: synchronized to 10.100.30.250, stratum 3
+- 1131574754 2005.11.09 dn652 Nov 9 14:19:14 dn652/dn652 ntpd[29930]: synchronized to 10.100.24.250, stratum 3
+- 1131574755 2005.11.09 dn943 Nov 9 14:19:15 dn943/dn943 ntpd[3570]: synchronized to 10.100.24.250, stratum 3
+- 1131574757 2005.11.09 dn731 Nov 9 14:19:17 dn731/dn731 ntpd[2257]: synchronized to 10.100.26.250, stratum 3
+- 1131574758 2005.11.09 dn145 Nov 9 14:19:18 dn145/dn145 ntpd[31416]: synchronized to 10.100.30.250, stratum 3
+- 1131574758 2005.11.09 dn723 Nov 9 14:19:18 dn723/dn723 ntpd[1000]: synchronized to 10.100.26.250, stratum 3
+- 1131574761 2005.11.09 dn49 Nov 9 14:19:21 dn49/dn49 ntpd[23097]: synchronized to 10.100.24.250, stratum 3
+- 1131574766 2005.11.09 dn125 Nov 9 14:19:26 dn125/dn125 ntpd[31993]: synchronized to 10.100.24.250, stratum 3
+- 1131574770 2005.11.09 dn743 Nov 9 14:19:30 dn743/dn743 ntpd[24314]: synchronized to 10.100.24.250, stratum 3
+- 1131574771 2005.11.09 dn987 Nov 9 14:19:31 dn987/dn987 ntpd[1095]: synchronized to 10.100.24.250, stratum 3
+- 1131574772 2005.11.09 dn260 Nov 9 14:19:32 dn260/dn260 ntpd[10344]: synchronized to 10.100.26.250, stratum 3
+- 1131574772 2005.11.09 dn519 Nov 9 14:19:32 dn519/dn519 ntpd[32164]: synchronized to 10.100.30.250, stratum 3
+- 1131574777 2005.11.09 dn245 Nov 9 14:19:37 dn245/dn245 ntpd[10227]: synchronized to 10.100.28.250, stratum 3
+- 1131574779 2005.11.09 dn330 Nov 9 14:19:39 dn330/dn330 ntpd[31623]: synchronized to 10.100.28.250, stratum 3

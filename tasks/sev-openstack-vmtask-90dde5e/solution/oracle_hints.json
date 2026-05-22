@@ -1,0 +1,110 @@
+{
+  "anomaly_keys": [
+    "1643649d-2f42-4303-bfcd-7798baec19f9"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1517
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1518
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1519
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1520
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1521
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1522
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1523
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1524
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1525
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1531
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1532
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1533
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1540
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1541
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1542
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1543
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1544
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1545
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1549
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1550
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1551
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1552
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1553
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1554
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1567
+    }
+  ],
+  "root_cause_type": "vm_task_failure",
+  "severity": "P1",
+  "severity_justification": "single_critical"
+}

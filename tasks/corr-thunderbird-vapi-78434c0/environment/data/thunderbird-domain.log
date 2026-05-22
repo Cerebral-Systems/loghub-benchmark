@@ -1,0 +1,4 @@
+- 1150652471 2006.06.18 dn749 Jun 18 10:41:11 dn749/dn749 ntpd[2272]: synchronized to 10.100.26.250, stratum 3
+- 1150652553 2006.06.18 dn1021 Jun 18 10:42:33 dn1021/dn1021 smartd[1977]: Device: /dev/sda, Temperature changed 2 Celsius to 31 Celsius since last report
+- 1150652582 2006.06.18 dn424 Jun 18 10:43:02 dn424/dn424 ntpd[2285]: synchronized to 10.100.26.250, stratum 3
+- 1150652707 2006.06.18 dn358 Jun 18 10:45:07 dn358/dn358 ntpd[2289]: synchronized to 10.100.26.250, stratum 3

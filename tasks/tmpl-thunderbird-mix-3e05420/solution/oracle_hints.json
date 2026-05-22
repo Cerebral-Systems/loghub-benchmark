@@ -1,0 +1,234 @@
+{
+  "input_file": "thunderbird-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        9,
+        16,
+        17,
+        28,
+        31,
+        36,
+        45,
+        51,
+        61,
+        70,
+        72,
+        76,
+        77,
+        80,
+        81,
+        82,
+        89,
+        95,
+        100,
+        101,
+        102,
+        104,
+        105,
+        107,
+        111
+      ],
+      "template": "synchronized to <*>, stratum <*>",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        25,
+        30,
+        32,
+        37,
+        44,
+        46,
+        47,
+        48,
+        60,
+        71,
+        73,
+        74,
+        75,
+        78,
+        79,
+        83,
+        84,
+        85,
+        86,
+        88,
+        90,
+        91,
+        92,
+        96,
+        97,
+        98,
+        99,
+        103,
+        106,
+        108,
+        109,
+        110,
+        112
+      ],
+      "template": "data_thread() got not answer from any [Thunderbird_<*>] datasource",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 10,
+      "matching_lines": [
+        10,
+        49,
+        87
+      ],
+      "template": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 19,
+      "matching_lines": [
+        19,
+        62,
+        93
+      ],
+      "template": "[ib_sm_sweep.c:1455]: No topology change",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 20,
+      "matching_lines": [
+        20,
+        63,
+        94
+      ],
+      "template": "[ib_sm_sweep.c:1482]: No configuration change required",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 21,
+      "matching_lines": [
+        21,
+        26,
+        27,
+        29,
+        50
+      ],
+      "template": "unable to qualify my own domain name (<*>) -- using short name",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 22,
+      "matching_lines": [
+        22,
+        33,
+        38,
+        41,
+        52
+      ],
+      "template": "session closed for user root",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 23,
+      "matching_lines": [
+        23,
+        34,
+        39,
+        42,
+        55
+      ],
+      "template": "<*>: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<<*>>, relay=#<*>#@localhost",
+      "template_id": "T8"
+    },
+    {
+      "example_line_number": 24,
+      "matching_lines": [
+        24,
+        35,
+        40,
+        43,
+        56
+      ],
+      "template": "<*>: to=root, ctladdr=root (0/0), delay=<*>:<*>:<*>, xdelay=<*>:<*>:<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>.<*>.<*>, stat=Deferred: Connection refused by [<*>]",
+      "template_id": "T9"
+    },
+    {
+      "example_line_number": 53,
+      "matching_lines": [
+        53,
+        114,
+        115
+      ],
+      "template": "DHCPDISCOVER from <*> via eth1",
+      "template_id": "T10"
+    },
+    {
+      "example_line_number": 54,
+      "matching_lines": [
+        54,
+        116
+      ],
+      "template": "DHCPOFFER on <*> to <*> via eth1",
+      "template_id": "T11"
+    },
+    {
+      "example_line_number": 57,
+      "matching_lines": [
+        57,
+        58,
+        59
+      ],
+      "template": "DHCPDISCOVER from <*> via eth1: network A_net: no free leases",
+      "template_id": "T12"
+    },
+    {
+      "example_line_number": 64,
+      "matching_lines": [
+        64,
+        113
+      ],
+      "template": "DHCPACK on <*> to <*> via eth1",
+      "template_id": "T13"
+    },
+    {
+      "example_line_number": 65,
+      "matching_lines": [
+        65
+      ],
+      "template": "DHCPREQUEST for <*> (<*>) from <*> via eth1",
+      "template_id": "T14"
+    },
+    {
+      "example_line_number": 66,
+      "matching_lines": [
+        66
+      ],
+      "template": "START: tftp pid=<*> from=<*>",
+      "template_id": "T15"
+    },
+    {
+      "example_line_number": 67,
+      "matching_lines": [
+        67,
+        68,
+        69
+      ],
+      "template": "DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.",
+      "template_id": "T16"
+    }
+  ],
+  "total_unique_templates": 16
+}

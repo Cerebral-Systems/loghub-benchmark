@@ -1,0 +1,26 @@
+{
+  "anomaly_keys": [
+    "blk_-1000723577943457888"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 45
+    },
+    {
+      "file": "hdfs-namenode.log",
+      "line": 109
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 123
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 162
+    }
+  ],
+  "root_cause_type": "datanode_unreachable",
+  "severity": "P0",
+  "severity_justification": "single_critical"
+}

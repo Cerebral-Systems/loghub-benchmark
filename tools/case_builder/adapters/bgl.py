@@ -19,10 +19,16 @@ from pathlib import Path
 from typing import Iterator
 
 from .base import AdapterBase, CandidateCase, LabelIndex, LogSlice
+from .fp_classifier import classify_fp_line, is_scary_line
 
 # Sized for whole-corpus runs; tests monkeypatch these.
 MIN_SLICE_LINES = 5_000
 MAX_SLICE_LINES = 15_000
+
+# FP windows are smaller and require all-`-` lines.
+FP_SLICE_LINES = 5_000
+FP_MIN_INDICATORS = 3
+FP_MAX_INDICATORS = 5
 
 NORMAL_TAG = "-"
 
@@ -244,6 +250,89 @@ class BGLAdapter(AdapterBase):
         h = hashlib.sha256(f"{seed}|{anchor}".encode()).digest()
         return int.from_bytes(h[:8], "big")
 
+    # --- false-positive window iteration (T1) ------------------------------
+
+    def iter_false_positive_windows(
+        self,
+        input_path: Path,
+        labels: LabelIndex,
+        *,
+        max_cases: int | None = None,
+        seed: int = 0,
+    ) -> Iterator[CandidateCase]:
+        """Scan the log streaming, building windows of FP_SLICE_LINES
+        consecutive `-` lines. For each candidate window, mine 3–5 scary
+        lines and yield a case.
+
+        We use a single pass with a sliding tail buffer so the multi-GB
+        Thunderbird log doesn't have to be materialized in RAM.
+        """
+        log_path = self._locate_log(input_path)
+
+        yielded = 0
+        # We iterate, collecting consecutive normal-tagged lines until we
+        # have FP_SLICE_LINES of them; then mine indicators, yield, and
+        # reset. Note we don't reset to the next line of the log — we
+        # reset to "start collecting a fresh window from scratch" so
+        # cases don't overlap.
+        with log_path.open(errors="replace") as fh:
+            buffer: list[str] = []
+            buffer_start: int = 0  # 0-based line index where buffer started
+            line_no = -1
+            for line_no, raw in enumerate(fh):
+                line = raw.rstrip("\n")
+                tag = self._tag_of(line)
+                if tag != NORMAL_TAG:
+                    # Anomalous line breaks the run; reset.
+                    buffer = []
+                    buffer_start = line_no + 1
+                    continue
+                if not buffer:
+                    buffer_start = line_no
+                buffer.append(line)
+                if len(buffer) >= FP_SLICE_LINES:
+                    indicators = self._mine_fp_indicators(buffer)
+                    if len(indicators) >= FP_MIN_INDICATORS:
+                        slice_seed = self._mix_seed(seed, buffer_start)
+                        slice_ = LogSlice(
+                            lines=tuple(buffer),
+                            offset=buffer_start,
+                            length=len(buffer),
+                        )
+                        yield CandidateCase(
+                            case_id=self.case_id(slice_, []),
+                            dataset_name=self.dataset_name,
+                            adapter_version=self.adapter_version,
+                            slice=slice_,
+                            anomaly_line_ids=(),
+                            root_cause="no_incident",
+                            anomaly_keys=(),
+                            extra={
+                                "fp_indicators": indicators,
+                                "slice_seed": slice_seed,
+                            },
+                            task_type="fp",
+                        )
+                        yielded += 1
+                        if max_cases is not None and yielded >= max_cases:
+                            return
+                    # Reset and look for next disjoint window.
+                    buffer = []
+                    buffer_start = line_no + 1
+
+    @staticmethod
+    def _mine_fp_indicators(window: list[str]) -> list[dict]:
+        out: list[dict] = []
+        for i, line in enumerate(window):
+            if is_scary_line(line):
+                out.append({
+                    "line": i + 1,
+                    "why_not_anomalous": classify_fp_line(line),
+                })
+                if len(out) >= FP_MAX_INDICATORS:
+                    break
+        return out
+
     # --- slice selection ---------------------------------------------------
 
     def select_slice(
@@ -282,6 +371,45 @@ class BGLAdapter(AdapterBase):
             end = n_lines
             offset = max(0, end - size)
         return offset, end - offset
+
+    # --- temporal parsing (T2) -------------------------------------------
+
+    # BGL format: TAG epoch_ts YYYY.MM.DD RACK ...
+    # Component is the alert tag (or "NORMAL" for `-`-tagged lines).
+    # Lower precedence number = earlier in the causal chain. The actual
+    # taxonomy is dataset-specific; we approximate with "kernel-level
+    # events precede app-level events" since kernel events typically
+    # trigger application failures, not the other way around.
+    _COMPONENT_PRECEDENCE_PREFIXES: tuple[tuple[str, int], ...] = (
+        ("KERN", 0),  # kernel-level: storage, term, etc.
+        ("APP", 5),   # app-level: appsev, appres, etc.
+    )
+
+    def parse_event(self, line: str) -> dict | None:
+        """Return {timestamp, component, level} for a BGL/Thunderbird line.
+
+        Token 0 = TAG (or `-`), token 1 = epoch seconds.
+        Component = TAG. Level = always "ALERT" for non-`-` lines.
+        """
+        parts = line.split(None, 3)
+        if len(parts) < 2:
+            return None
+        tag = parts[0]
+        try:
+            ts = int(parts[1])
+        except ValueError:
+            return None
+        component = tag if tag != "-" else "NORMAL"
+        level = "ALERT" if tag != "-" else "INFO"
+        return {"timestamp": ts, "component": component, "level": level}
+
+    def component_precedence(self, component: str) -> int:
+        for prefix, prec in self._COMPONENT_PRECEDENCE_PREFIXES:
+            if component.startswith(prefix):
+                return prec
+        if component == "NORMAL":
+            return 100
+        return 10
 
     # --- root-cause classification ----------------------------------------
 

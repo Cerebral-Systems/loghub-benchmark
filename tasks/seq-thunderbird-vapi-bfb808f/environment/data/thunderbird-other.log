@@ -1,0 +1,676 @@
+- 1132540770 2005.11.20 badmin1 Nov 20 18:39:30 src@badmin1 sshd(pam_unix)[3354]: session opened for user root by (uid=0)
+- 1132540770 2005.11.20 badmin1 Nov 20 18:39:30 src@badmin1 sshd[3352]: Accepted publickey for root from ::ffff:10.100.248.1 port 54678 ssh2
+- 1132540783 2005.11.20 badmin1 Nov 20 18:39:43 src@badmin1 sshd(pam_unix)[3398]: session opened for user root by (uid=0)
+- 1132540783 2005.11.20 badmin1 Nov 20 18:39:43 src@badmin1 sshd[3396]: Accepted publickey for root from ::ffff:10.100.248.1 port 54814 ssh2
+- 1132540788 2005.11.20 badmin1 Nov 20 18:39:48 src@badmin1 sshd(pam_unix)[3442]: session opened for user root by (uid=0)
+- 1132540788 2005.11.20 badmin1 Nov 20 18:39:48 src@badmin1 sshd[3440]: Accepted publickey for root from ::ffff:10.100.248.1 port 54905 ssh2
+- 1132540799 2005.11.20 badmin1 Nov 20 18:39:59 src@badmin1 sshd(pam_unix)[3486]: session opened for user root by (uid=0)
+- 1132540799 2005.11.20 badmin1 Nov 20 18:39:59 src@badmin1 sshd[3484]: Accepted publickey for root from ::ffff:10.100.248.1 port 55013 ssh2
+- 1132540801 2005.11.20 aadmin1 Nov 20 18:40:01 src@aadmin1 crond(pam_unix)[5750]: session opened for user root by (uid=0)
+- 1132540801 2005.11.20 aadmin1 Nov 20 18:40:01 src@aadmin1 crond[5751]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1132540801 2005.11.20 badmin1 Nov 20 18:40:01 src@badmin1 crond(pam_unix)[3528]: session opened for user root by (uid=0)
+- 1132540801 2005.11.20 badmin1 Nov 20 18:40:01 src@badmin1 crond[3529]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1132540801 2005.11.20 cadmin1 Nov 20 18:40:01 src@cadmin1 crond(pam_unix)[21709]: session opened for user root by (uid=0)
+- 1132540801 2005.11.20 cadmin1 Nov 20 18:40:01 src@cadmin1 crond[21710]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1132540801 2005.11.20 dadmin1 Nov 20 18:40:01 src@dadmin1 crond(pam_unix)[28279]: session opened for user root by (uid=0)
+- 1132540801 2005.11.20 dadmin1 Nov 20 18:40:01 src@dadmin1 crond[28280]: (root) CMD (/projects/tbird/temps/get_temps d)
+- 1132540801 2005.11.20 eadmin1 Nov 20 18:40:01 src@eadmin1 crond(pam_unix)[23844]: session opened for user root by (uid=0)
+- 1132540801 2005.11.20 eadmin1 Nov 20 18:40:01 src@eadmin1 crond[23845]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1132540806 2005.11.20 badmin1 Nov 20 18:40:06 src@badmin1 sshd(pam_unix)[6607]: session opened for user root by (uid=0)
+- 1132540806 2005.11.20 badmin1 Nov 20 18:40:06 src@badmin1 sshd[6605]: Accepted publickey for root from ::ffff:10.100.248.1 port 55105 ssh2
+- 1132540810 2005.11.20 badmin1 Nov 20 18:40:10 src@badmin1 sshd(pam_unix)[6651]: session opened for user root by (uid=0)
+- 1132540810 2005.11.20 badmin1 Nov 20 18:40:10 src@badmin1 sshd[6649]: Accepted publickey for root from ::ffff:10.100.248.1 port 55149 ssh2
+- 1132540818 2005.11.20 badmin1 Nov 20 18:40:18 src@badmin1 sshd(pam_unix)[6695]: session opened for user root by (uid=0)
+- 1132540818 2005.11.20 badmin1 Nov 20 18:40:18 src@badmin1 sshd[6693]: Accepted publickey for root from ::ffff:10.100.248.1 port 55254 ssh2
+- 1132540823 2005.11.20 badmin1 Nov 20 18:40:23 src@badmin1 sshd(pam_unix)[6739]: session opened for user root by (uid=0)
+- 1132540823 2005.11.20 badmin1 Nov 20 18:40:23 src@badmin1 sshd[6737]: Accepted publickey for root from ::ffff:10.100.248.1 port 55333 ssh2
+- 1132540828 2005.11.20 badmin1 Nov 20 18:40:28 src@badmin1 sshd(pam_unix)[6783]: session opened for user root by (uid=0)
+- 1132540828 2005.11.20 badmin1 Nov 20 18:40:28 src@badmin1 sshd[6781]: Accepted publickey for root from ::ffff:10.100.248.1 port 55402 ssh2
+- 1132540830 2005.11.20 eadmin1 Nov 20 18:40:30 src@eadmin1 sendmail[26920]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1132540832 2005.11.20 aadmin1 Nov 20 18:40:32 src@aadmin1 sendmail[8828]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1132540833 2005.11.20 cadmin1 Nov 20 18:40:33 src@cadmin1 sendmail[24785]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1132540833 2005.11.20 dadmin1 Nov 20 18:40:33 src@dadmin1 sendmail[31355]: My unqualified host name (dadmin1) unknown; sleeping for retry
+- 1132540834 2005.11.20 badmin1 Nov 20 18:40:34 src@badmin1 sshd(pam_unix)[6827]: session opened for user root by (uid=0)
+- 1132540834 2005.11.20 badmin1 Nov 20 18:40:34 src@badmin1 sshd[6825]: Accepted publickey for root from ::ffff:10.100.248.1 port 55468 ssh2
+- 1132540837 2005.11.20 badmin1 Nov 20 18:40:37 src@badmin1 sendmail[6869]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1132540838 2005.11.20 badmin1 Nov 20 18:40:38 src@badmin1 sshd(pam_unix)[6872]: session opened for user root by (uid=0)
+- 1132540838 2005.11.20 badmin1 Nov 20 18:40:38 src@badmin1 sshd[6870]: Accepted publickey for root from ::ffff:10.100.248.1 port 55525 ssh2
+- 1132540859 2005.11.20 badmin1 Nov 20 18:40:59 src@badmin1 sshd(pam_unix)[6916]: session opened for user root by (uid=0)
+- 1132540859 2005.11.20 badmin1 Nov 20 18:40:59 src@badmin1 sshd[6914]: Accepted publickey for root from ::ffff:10.100.248.1 port 55775 ssh2
+- 1132540863 2005.11.20 badmin1 Nov 20 18:41:03 src@badmin1 sshd(pam_unix)[6960]: session opened for user root by (uid=0)
+- 1132540863 2005.11.20 badmin1 Nov 20 18:41:03 src@badmin1 sshd[6958]: Accepted publickey for root from ::ffff:10.100.248.1 port 55816 ssh2
+- 1132540867 2005.11.20 badmin1 Nov 20 18:41:07 src@badmin1 sshd(pam_unix)[7004]: session opened for user root by (uid=0)
+- 1132540867 2005.11.20 badmin1 Nov 20 18:41:07 src@badmin1 sshd[7002]: Accepted publickey for root from ::ffff:10.100.248.1 port 55886 ssh2
+- 1132540887 2005.11.20 badmin1 Nov 20 18:41:27 src@badmin1 sshd(pam_unix)[7048]: session opened for user root by (uid=0)
+- 1132540887 2005.11.20 badmin1 Nov 20 18:41:27 src@badmin1 sshd[7046]: Accepted publickey for root from ::ffff:10.100.248.1 port 56137 ssh2
+- 1132540890 2005.11.20 eadmin1 Nov 20 18:41:30 src@eadmin1 sendmail[26920]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1132540891 2005.11.20 eadmin1 Nov 20 18:41:31 src@eadmin1 crond(pam_unix)[23844]: session closed for user root
+- 1132540891 2005.11.20 eadmin1 Nov 20 18:41:31 src@eadmin1 sendmail[26920]: jAL1fUvJ026920: from=root, size=631354, class=0, nrcpts=1, msgid=<200511210141.jAL1fUvJ026920@eadmin1>, relay=#7#@localhost
+- 1132540891 2005.11.20 eadmin1 Nov 20 18:41:31 src@eadmin1 sendmail[26920]: jAL1fUvJ026920: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=661354, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132540892 2005.11.20 aadmin1 Nov 20 18:41:32 src@aadmin1 sendmail[8828]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1132540892 2005.11.20 badmin1 Nov 20 18:41:32 src@badmin1 sshd(pam_unix)[7092]: session opened for user root by (uid=0)
+- 1132540892 2005.11.20 badmin1 Nov 20 18:41:32 src@badmin1 sshd[7090]: Accepted publickey for root from ::ffff:10.100.248.1 port 56190 ssh2
+- 1132540893 2005.11.20 cadmin1 Nov 20 18:41:33 src@cadmin1 sendmail[24785]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1132540893 2005.11.20 dadmin1 Nov 20 18:41:33 src@dadmin1 sendmail[31355]: unable to qualify my own domain name (dadmin1) -- using short name
+- 1132540894 2005.11.20 aadmin1 Nov 20 18:41:34 src@aadmin1 crond(pam_unix)[5750]: session closed for user root
+- 1132540894 2005.11.20 aadmin1 Nov 20 18:41:34 src@aadmin1 sendmail[8828]: jAL1fWr4008828: from=root, size=1589488, class=0, nrcpts=1, msgid=<200511210141.jAL1fWr4008828@aadmin1>, relay=#7#@localhost
+- 1132540894 2005.11.20 aadmin1 Nov 20 18:41:34 src@aadmin1 sendmail[8828]: jAL1fWr4008828: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1619488, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132540895 2005.11.20 cadmin1 Nov 20 18:41:35 src@cadmin1 crond(pam_unix)[21709]: session closed for user root
+- 1132540895 2005.11.20 cadmin1 Nov 20 18:41:35 src@cadmin1 sendmail[24785]: jAL1fXK1024785: from=root, size=1556749, class=0, nrcpts=1, msgid=<200511210141.jAL1fXK1024785@cadmin1>, relay=#7#@localhost
+- 1132540895 2005.11.20 cadmin1 Nov 20 18:41:35 src@cadmin1 sendmail[24785]: jAL1fXK1024785: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1586749, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132540895 2005.11.20 dadmin1 Nov 20 18:41:35 src@dadmin1 crond(pam_unix)[28279]: session closed for user root
+- 1132540895 2005.11.20 dadmin1 Nov 20 18:41:35 src@dadmin1 sendmail[31355]: jAL1fXAq031355: from=root, size=1541310, class=0, nrcpts=1, msgid=<200511210141.jAL1fXAq031355@dadmin1>, relay=#7#@localhost
+- 1132540895 2005.11.20 dadmin1 Nov 20 18:41:35 src@dadmin1 sendmail[31355]: jAL1fXAq031355: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1571310, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132540896 2005.11.20 badmin1 Nov 20 18:41:36 src@badmin1 sshd(pam_unix)[7136]: session opened for user root by (uid=0)
+- 1132540896 2005.11.20 badmin1 Nov 20 18:41:36 src@badmin1 sshd[7134]: Accepted publickey for root from ::ffff:10.100.248.1 port 56217 ssh2
+- 1132540897 2005.11.20 badmin1 Nov 20 18:41:37 src@badmin1 sendmail[6869]: unable to qualify my own domain name (badmin1) -- using short name
+- 1132540899 2005.11.20 badmin1 Nov 20 18:41:39 src@badmin1 crond(pam_unix)[3528]: session closed for user root
+- 1132540899 2005.11.20 badmin1 Nov 20 18:41:39 src@badmin1 sendmail[6869]: jAL1fbVM006869: from=root, size=1566128, class=0, nrcpts=1, msgid=<200511210141.jAL1fbVM006869@badmin1>, relay=#7#@localhost
+- 1132540899 2005.11.20 badmin1 Nov 20 18:41:39 src@badmin1 sendmail[6869]: jAL1fbVM006869: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1596128, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132540915 2005.11.20 badmin1 Nov 20 18:41:55 src@badmin1 sshd(pam_unix)[7180]: session opened for user root by (uid=0)
+- 1132540915 2005.11.20 badmin1 Nov 20 18:41:55 src@badmin1 sshd[7178]: Accepted publickey for root from ::ffff:10.100.248.1 port 56510 ssh2
+- 1132540920 2005.11.20 badmin1 Nov 20 18:42:00 src@badmin1 sshd(pam_unix)[7224]: session opened for user root by (uid=0)
+- 1132540920 2005.11.20 badmin1 Nov 20 18:42:00 src@badmin1 sshd[7222]: Accepted publickey for root from ::ffff:10.100.248.1 port 56590 ssh2
+- 1132540925 2005.11.20 badmin1 Nov 20 18:42:05 src@badmin1 sshd(pam_unix)[7268]: session opened for user root by (uid=0)
+- 1132540925 2005.11.20 badmin1 Nov 20 18:42:05 src@badmin1 sshd[7266]: Accepted publickey for root from ::ffff:10.100.248.1 port 56604 ssh2
+- 1132540944 2005.11.20 badmin1 Nov 20 18:42:24 src@badmin1 sshd(pam_unix)[7312]: session opened for user root by (uid=0)
+- 1132540944 2005.11.20 badmin1 Nov 20 18:42:24 src@badmin1 sshd[7310]: Accepted publickey for root from ::ffff:10.100.248.1 port 56935 ssh2
+- 1132540950 2005.11.20 badmin1 Nov 20 18:42:30 src@badmin1 sshd(pam_unix)[7356]: session opened for user root by (uid=0)
+- 1132540950 2005.11.20 badmin1 Nov 20 18:42:30 src@badmin1 sshd[7354]: Accepted publickey for root from ::ffff:10.100.248.1 port 56977 ssh2
+- 1132540953 2005.11.20 aadmin4 Nov 20 18:42:33 src@aadmin4 ntpd[6991]: synchronized to 10.100.8.251, stratum 2
+- 1132540954 2005.11.20 badmin1 Nov 20 18:42:34 src@badmin1 sshd(pam_unix)[7400]: session opened for user root by (uid=0)
+- 1132540954 2005.11.20 badmin1 Nov 20 18:42:34 src@badmin1 sshd[7398]: Accepted publickey for root from ::ffff:10.100.248.1 port 57030 ssh2
+- 1132540972 2005.11.20 badmin1 Nov 20 18:42:52 src@badmin1 sshd(pam_unix)[7444]: session opened for user root by (uid=0)
+- 1132540972 2005.11.20 badmin1 Nov 20 18:42:52 src@badmin1 sshd[7442]: Accepted publickey for root from ::ffff:10.100.248.1 port 57296 ssh2
+- 1132540979 2005.11.20 badmin1 Nov 20 18:42:59 src@badmin1 sshd(pam_unix)[7488]: session opened for user root by (uid=0)
+- 1132540979 2005.11.20 badmin1 Nov 20 18:42:59 src@badmin1 sshd[7486]: Accepted publickey for root from ::ffff:10.100.248.1 port 57350 ssh2
+- 1132540982 2005.11.20 badmin1 Nov 20 18:43:02 src@badmin1 sshd(pam_unix)[7532]: session opened for user root by (uid=0)
+- 1132540982 2005.11.20 badmin1 Nov 20 18:43:02 src@badmin1 sshd[7530]: Accepted publickey for root from ::ffff:10.100.248.1 port 57391 ssh2
+- 1132541001 2005.11.20 badmin1 Nov 20 18:43:21 src@badmin1 sshd(pam_unix)[7576]: session opened for user root by (uid=0)
+- 1132541001 2005.11.20 badmin1 Nov 20 18:43:21 src@badmin1 sshd[7574]: Accepted publickey for root from ::ffff:10.100.248.1 port 57643 ssh2
+- 1132541008 2005.11.20 badmin1 Nov 20 18:43:28 src@badmin1 sshd(pam_unix)[7620]: session opened for user root by (uid=0)
+- 1132541008 2005.11.20 badmin1 Nov 20 18:43:28 src@badmin1 sshd[7618]: Accepted publickey for root from ::ffff:10.100.248.1 port 57724 ssh2
+- 1132541011 2005.11.20 badmin1 Nov 20 18:43:31 src@badmin1 sshd(pam_unix)[7664]: session opened for user root by (uid=0)
+- 1132541011 2005.11.20 badmin1 Nov 20 18:43:31 src@badmin1 sshd[7662]: Accepted publickey for root from ::ffff:10.100.248.1 port 57738 ssh2
+- 1132541025 2005.11.20 badmin3 Nov 20 18:43:45 src@badmin3 in.tftpd[23850]: tftp: client does not accept options
+- 1132541029 2005.11.20 badmin1 Nov 20 18:43:49 src@badmin1 sshd(pam_unix)[7708]: session opened for user root by (uid=0)
+- 1132541029 2005.11.20 badmin1 Nov 20 18:43:49 src@badmin1 sshd[7706]: Accepted publickey for root from ::ffff:10.100.248.1 port 58029 ssh2
+- 1132541036 2005.11.20 badmin1 Nov 20 18:43:56 src@badmin1 sshd(pam_unix)[7752]: session opened for user root by (uid=0)
+- 1132541036 2005.11.20 badmin1 Nov 20 18:43:56 src@badmin1 sshd[7750]: Accepted publickey for root from ::ffff:10.100.248.1 port 58096 ssh2
+- 1132541039 2005.11.20 badmin1 Nov 20 18:43:59 src@badmin1 sshd(pam_unix)[7796]: session opened for user root by (uid=0)
+- 1132541039 2005.11.20 badmin1 Nov 20 18:43:59 src@badmin1 sshd[7794]: Accepted publickey for root from ::ffff:10.100.248.1 port 58100 ssh2
+- 1132541058 2005.11.20 badmin1 Nov 20 18:44:18 src@badmin1 sshd(pam_unix)[7840]: session opened for user root by (uid=0)
+- 1132541058 2005.11.20 badmin1 Nov 20 18:44:18 src@badmin1 sshd[7838]: Accepted publickey for root from ::ffff:10.100.248.1 port 58404 ssh2
+- 1132541065 2005.11.20 badmin1 Nov 20 18:44:25 src@badmin1 sshd(pam_unix)[7884]: session opened for user root by (uid=0)
+- 1132541065 2005.11.20 badmin1 Nov 20 18:44:25 src@badmin1 sshd[7882]: Accepted publickey for root from ::ffff:10.100.248.1 port 58470 ssh2
+- 1132541068 2005.11.20 badmin1 Nov 20 18:44:28 src@badmin1 sshd(pam_unix)[7928]: session opened for user root by (uid=0)
+- 1132541068 2005.11.20 badmin1 Nov 20 18:44:28 src@badmin1 sshd[7926]: Accepted publickey for root from ::ffff:10.100.248.1 port 58500 ssh2
+- 1132541087 2005.11.20 badmin1 Nov 20 18:44:47 src@badmin1 sshd(pam_unix)[7972]: session opened for user root by (uid=0)
+- 1132541087 2005.11.20 badmin1 Nov 20 18:44:47 src@badmin1 sshd[7970]: Accepted publickey for root from ::ffff:10.100.248.1 port 58765 ssh2
+- 1132541094 2005.11.20 badmin1 Nov 20 18:44:54 src@badmin1 sshd(pam_unix)[8016]: session opened for user root by (uid=0)
+- 1132541094 2005.11.20 badmin1 Nov 20 18:44:54 src@badmin1 sshd[8014]: Accepted publickey for root from ::ffff:10.100.248.1 port 58831 ssh2
+- 1132541097 2005.11.20 badmin1 Nov 20 18:44:57 src@badmin1 sshd(pam_unix)[8060]: session opened for user root by (uid=0)
+- 1132541097 2005.11.20 badmin1 Nov 20 18:44:57 src@badmin1 sshd[8058]: Accepted publickey for root from ::ffff:10.100.248.1 port 58847 ssh2
+- 1132541116 2005.11.20 badmin1 Nov 20 18:45:16 src@badmin1 sshd(pam_unix)[8104]: session opened for user root by (uid=0)
+- 1132541116 2005.11.20 badmin1 Nov 20 18:45:16 src@badmin1 sshd[8102]: Accepted publickey for root from ::ffff:10.100.248.1 port 59113 ssh2
+- 1132541121 2005.11.20 badmin1 Nov 20 18:45:21 src@badmin1 ntpd[20534]: synchronized to 10.100.16.251, stratum 2
+- 1132541123 2005.11.20 badmin1 Nov 20 18:45:23 src@badmin1 sshd(pam_unix)[8148]: session opened for user root by (uid=0)
+- 1132541123 2005.11.20 badmin1 Nov 20 18:45:23 src@badmin1 sshd[8146]: Accepted publickey for root from ::ffff:10.100.248.1 port 59205 ssh2
+- 1132541126 2005.11.20 badmin1 Nov 20 18:45:26 src@badmin1 sshd(pam_unix)[8192]: session opened for user root by (uid=0)
+- 1132541126 2005.11.20 badmin1 Nov 20 18:45:26 src@badmin1 sshd[8190]: Accepted publickey for root from ::ffff:10.100.248.1 port 59258 ssh2
+- 1132541144 2005.11.20 badmin1 Nov 20 18:45:44 src@badmin1 sshd(pam_unix)[8236]: session opened for user root by (uid=0)
+- 1132541144 2005.11.20 badmin1 Nov 20 18:45:44 src@badmin1 sshd[8234]: Accepted publickey for root from ::ffff:10.100.248.1 port 59514 ssh2
+- 1132541152 2005.11.20 badmin1 Nov 20 18:45:52 src@badmin1 sshd(pam_unix)[8280]: session opened for user root by (uid=0)
+- 1132541152 2005.11.20 badmin1 Nov 20 18:45:52 src@badmin1 sshd[8278]: Accepted publickey for root from ::ffff:10.100.248.1 port 59592 ssh2
+- 1132541155 2005.11.20 badmin1 Nov 20 18:45:55 src@badmin1 sshd(pam_unix)[8324]: session opened for user root by (uid=0)
+- 1132541155 2005.11.20 badmin1 Nov 20 18:45:55 src@badmin1 sshd[8322]: Accepted publickey for root from ::ffff:10.100.248.1 port 59645 ssh2
+- 1132541173 2005.11.20 badmin1 Nov 20 18:46:13 src@badmin1 sshd(pam_unix)[8368]: session opened for user root by (uid=0)
+- 1132541173 2005.11.20 badmin1 Nov 20 18:46:13 src@badmin1 sshd[8366]: Accepted publickey for root from ::ffff:10.100.248.1 port 59861 ssh2
+- 1132541181 2005.11.20 badmin1 Nov 20 18:46:21 src@badmin1 sshd(pam_unix)[8412]: session opened for user root by (uid=0)
+- 1132541181 2005.11.20 badmin1 Nov 20 18:46:21 src@badmin1 sshd[8410]: Accepted publickey for root from ::ffff:10.100.248.1 port 59966 ssh2
+- 1132541184 2005.11.20 badmin1 Nov 20 18:46:24 src@badmin1 sshd(pam_unix)[8456]: session opened for user root by (uid=0)
+- 1132541184 2005.11.20 badmin1 Nov 20 18:46:24 src@badmin1 sshd[8454]: Accepted publickey for root from ::ffff:10.100.248.1 port 60006 ssh2
+- 1132541202 2005.11.20 badmin1 Nov 20 18:46:42 src@badmin1 sshd(pam_unix)[8500]: session opened for user root by (uid=0)
+- 1132541202 2005.11.20 badmin1 Nov 20 18:46:42 src@badmin1 sshd[8498]: Accepted publickey for root from ::ffff:10.100.248.1 port 60235 ssh2
+- 1132541210 2005.11.20 badmin1 Nov 20 18:46:50 src@badmin1 sshd(pam_unix)[8544]: session opened for user root by (uid=0)
+- 1132541210 2005.11.20 badmin1 Nov 20 18:46:50 src@badmin1 sshd[8542]: Accepted publickey for root from ::ffff:10.100.248.1 port 60327 ssh2
+- 1132541213 2005.11.20 badmin1 Nov 20 18:46:53 src@badmin1 sshd(pam_unix)[8588]: session opened for user root by (uid=0)
+- 1132541213 2005.11.20 badmin1 Nov 20 18:46:53 src@badmin1 sshd[8586]: Accepted publickey for root from ::ffff:10.100.248.1 port 60393 ssh2
+- 1132541231 2005.11.20 badmin1 Nov 20 18:47:11 src@badmin1 sshd(pam_unix)[8632]: session opened for user root by (uid=0)
+- 1132541231 2005.11.20 badmin1 Nov 20 18:47:11 src@badmin1 sshd[8630]: Accepted publickey for root from ::ffff:10.100.248.1 port 60608 ssh2
+- 1132541239 2005.11.20 badmin1 Nov 20 18:47:19 src@badmin1 sshd(pam_unix)[8676]: session opened for user root by (uid=0)
+- 1132541239 2005.11.20 badmin1 Nov 20 18:47:19 src@badmin1 sshd[8674]: Accepted publickey for root from ::ffff:10.100.248.1 port 60714 ssh2
+- 1132541242 2005.11.20 badmin1 Nov 20 18:47:22 src@badmin1 sshd(pam_unix)[8720]: session opened for user root by (uid=0)
+- 1132541242 2005.11.20 badmin1 Nov 20 18:47:22 src@badmin1 sshd[8718]: Accepted publickey for root from ::ffff:10.100.248.1 port 60754 ssh2
+- 1132541257 2005.11.20 badmin1 Nov 20 18:47:37 src@badmin1 ntpd[20534]: synchronized to 10.100.24.251, stratum 2
+- 1132541259 2005.11.20 badmin1 Nov 20 18:47:39 src@badmin1 sshd(pam_unix)[8764]: session opened for user root by (uid=0)
+- 1132541259 2005.11.20 badmin1 Nov 20 18:47:39 src@badmin1 sshd[8762]: Accepted publickey for root from ::ffff:10.100.248.1 port 60956 ssh2
+- 1132541268 2005.11.20 badmin1 Nov 20 18:47:48 src@badmin1 sshd(pam_unix)[8808]: session opened for user root by (uid=0)
+- 1132541268 2005.11.20 badmin1 Nov 20 18:47:48 src@badmin1 sshd[8806]: Accepted publickey for root from ::ffff:10.100.248.1 port 32844 ssh2
+- 1132541271 2005.11.20 badmin1 Nov 20 18:47:51 src@badmin1 sshd(pam_unix)[8852]: session opened for user root by (uid=0)
+- 1132541271 2005.11.20 badmin1 Nov 20 18:47:51 src@badmin1 sshd[8850]: Accepted publickey for root from ::ffff:10.100.248.1 port 32910 ssh2
+- 1132541288 2005.11.20 badmin1 Nov 20 18:48:08 src@badmin1 sshd(pam_unix)[8896]: session opened for user root by (uid=0)
+- 1132541288 2005.11.20 badmin1 Nov 20 18:48:08 src@badmin1 sshd[8894]: Accepted publickey for root from ::ffff:10.100.248.1 port 33099 ssh2
+- 1132541297 2005.11.20 badmin1 Nov 20 18:48:17 src@badmin1 sshd(pam_unix)[8940]: session opened for user root by (uid=0)
+- 1132541297 2005.11.20 badmin1 Nov 20 18:48:17 src@badmin1 sshd[8938]: Accepted publickey for root from ::ffff:10.100.248.1 port 33218 ssh2
+- 1132541300 2005.11.20 badmin1 Nov 20 18:48:20 src@badmin1 sshd(pam_unix)[8984]: session opened for user root by (uid=0)
+- 1132541300 2005.11.20 badmin1 Nov 20 18:48:20 src@badmin1 sshd[8982]: Accepted publickey for root from ::ffff:10.100.248.1 port 33246 ssh2
+- 1132541317 2005.11.20 badmin1 Nov 20 18:48:37 src@badmin1 sshd(pam_unix)[9028]: session opened for user root by (uid=0)
+- 1132541317 2005.11.20 badmin1 Nov 20 18:48:37 src@badmin1 sshd[9026]: Accepted publickey for root from ::ffff:10.100.248.1 port 33473 ssh2
+- 1132541326 2005.11.20 badmin1 Nov 20 18:48:46 src@badmin1 sshd(pam_unix)[9072]: session opened for user root by (uid=0)
+- 1132541326 2005.11.20 badmin1 Nov 20 18:48:46 src@badmin1 sshd[9070]: Accepted publickey for root from ::ffff:10.100.248.1 port 33658 ssh2
+- 1132541329 2005.11.20 badmin1 Nov 20 18:48:49 src@badmin1 sshd(pam_unix)[9116]: session opened for user root by (uid=0)
+- 1132541329 2005.11.20 badmin1 Nov 20 18:48:49 src@badmin1 sshd[9114]: Accepted publickey for root from ::ffff:10.100.248.1 port 33672 ssh2
+- 1132541345 2005.11.20 badmin1 Nov 20 18:49:05 src@badmin1 sshd(pam_unix)[9160]: session opened for user root by (uid=0)
+- 1132541345 2005.11.20 badmin1 Nov 20 18:49:05 src@badmin1 sshd[9158]: Accepted publickey for root from ::ffff:10.100.248.1 port 33847 ssh2
+- 1132541350 2005.11.20 cadmin2 Nov 20 18:49:10 src@cadmin2 ntpd[21926]: synchronized to 10.100.24.251, stratum 2
+- 1132541355 2005.11.20 badmin1 Nov 20 18:49:15 src@badmin1 sshd(pam_unix)[9204]: session opened for user root by (uid=0)
+- 1132541355 2005.11.20 badmin1 Nov 20 18:49:15 src@badmin1 sshd[9202]: Accepted publickey for root from ::ffff:10.100.248.1 port 34019 ssh2
+- 1132541358 2005.11.20 badmin1 Nov 20 18:49:18 src@badmin1 sshd(pam_unix)[9248]: session opened for user root by (uid=0)
+- 1132541358 2005.11.20 badmin1 Nov 20 18:49:18 src@badmin1 sshd[9246]: Accepted publickey for root from ::ffff:10.100.248.1 port 34059 ssh2
+- 1132541374 2005.11.20 badmin1 Nov 20 18:49:34 src@badmin1 sshd(pam_unix)[9292]: session opened for user root by (uid=0)
+- 1132541374 2005.11.20 badmin1 Nov 20 18:49:34 src@badmin1 sshd[9290]: Accepted publickey for root from ::ffff:10.100.248.1 port 34221 ssh2
+- 1132541384 2005.11.20 badmin1 Nov 20 18:49:44 src@badmin1 sshd(pam_unix)[9336]: session opened for user root by (uid=0)
+- 1132541384 2005.11.20 badmin1 Nov 20 18:49:44 src@badmin1 sshd[9334]: Accepted publickey for root from ::ffff:10.100.248.1 port 34367 ssh2
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# kernel: klogd 1.4.1, log source = /proc/kmsg started.
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# logger: Install: apply updates
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# logger: Kickstart Install: Reducing mingetty count ...
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# logger: Kickstart: Configure sysctl parameters
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# logger: Kickstart: setup authorization schema
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# logger: Kickstart: setup soft links and NFS mounts
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# syslog: klogd startup succeeded
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# syslog: syslogd startup succeeded
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# syslogd 1.4.1: restart.
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# userhelper[14660]: pam_timestamp: updated timestamp file `/var/run/sudo/root/unknown'
+- 1132541385 2005.11.20 #1# Nov 20 18:49:45 #1#/#1# userhelper[14661]: running '/usr/sbin/up2date-config' with root privileges on behalf of 'root'
+- 1132541386 2005.11.20 #1# Nov 20 18:49:46 #1#/#1# logger: Kickstart Install: CAP tarball
+- 1132541387 2005.11.20 #1# Nov 20 18:49:47 #1#/#1# kernel: audit(1132537787.552:0): avc: denied { write } for pid=14596 comm=minilogd name=log dev=ram0 ino=199 scontext=user_u:system_r:syslogd_t tcontext=user_u:object_r:file_t tclass=sock_file
+- 1132541387 2005.11.20 #1# Nov 20 18:49:47 #1#/#1# syslog: klogd shutdown failed
+- 1132541387 2005.11.20 badmin1 Nov 20 18:49:47 src@badmin1 sshd(pam_unix)[9380]: session opened for user root by (uid=0)
+- 1132541387 2005.11.20 badmin1 Nov 20 18:49:47 src@badmin1 sshd[9378]: Accepted publickey for root from ::ffff:10.100.248.1 port 34433 ssh2
+- 1132541401 2005.11.20 aadmin1 Nov 20 18:50:01 src@aadmin1 crond(pam_unix)[9455]: session opened for user root by (uid=0)
+- 1132541401 2005.11.20 aadmin1 Nov 20 18:50:01 src@aadmin1 crond[9456]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1132541401 2005.11.20 badmin1 Nov 20 18:50:01 src@badmin1 crond(pam_unix)[9422]: session opened for user root by (uid=0)
+- 1132541401 2005.11.20 badmin1 Nov 20 18:50:01 src@badmin1 crond[9423]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1132541401 2005.11.20 cadmin1 Nov 20 18:50:01 src@cadmin1 crond(pam_unix)[24786]: session opened for user root by (uid=0)
+- 1132541401 2005.11.20 cadmin1 Nov 20 18:50:01 src@cadmin1 crond[24787]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1132541401 2005.11.20 dadmin1 Nov 20 18:50:01 src@dadmin1 crond(pam_unix)[31356]: session opened for user root by (uid=0)
+- 1132541401 2005.11.20 dadmin1 Nov 20 18:50:01 src@dadmin1 crond[31357]: (root) CMD (/projects/tbird/temps/get_temps d)
+- 1132541401 2005.11.20 eadmin1 Nov 20 18:50:01 src@eadmin1 crond(pam_unix)[26921]: session opened for user root by (uid=0)
+- 1132541401 2005.11.20 eadmin1 Nov 20 18:50:01 src@eadmin1 crond[26922]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1132541403 2005.11.20 badmin1 Nov 20 18:50:03 src@badmin1 sshd(pam_unix)[11008]: session opened for user root by (uid=0)
+- 1132541403 2005.11.20 badmin1 Nov 20 18:50:03 src@badmin1 sshd[10958]: Accepted publickey for root from ::ffff:10.100.248.1 port 34570 ssh2
+- 1132541404 2005.11.20 badmin1 Nov 20 18:50:04 src@badmin1 sshd(pam_unix)[11756]: session opened for user root by (uid=0)
+- 1132541404 2005.11.20 badmin1 Nov 20 18:50:04 src@badmin1 sshd[11709]: Accepted publickey for root from ::ffff:10.100.248.1 port 34571 ssh2
+- 1132541409 2005.11.20 badmin1 Nov 20 18:50:09 src@badmin1 sshd(pam_unix)[12588]: session opened for user root by (uid=0)
+- 1132541409 2005.11.20 badmin1 Nov 20 18:50:09 src@badmin1 sshd[12586]: Accepted publickey for root from ::ffff:10.100.248.1 port 34716 ssh2
+- 1132541416 2005.11.20 badmin1 Nov 20 18:50:16 src@badmin1 sshd(pam_unix)[12632]: session opened for user root by (uid=0)
+- 1132541416 2005.11.20 badmin1 Nov 20 18:50:16 src@badmin1 sshd[12630]: Accepted publickey for root from ::ffff:10.100.248.1 port 34795 ssh2
+- 1132541421 2005.11.20 badmin1 Nov 20 18:50:21 src@badmin1 sshd(pam_unix)[12676]: session opened for user root by (uid=0)
+- 1132541421 2005.11.20 badmin1 Nov 20 18:50:21 src@badmin1 sshd[12674]: Accepted publickey for root from ::ffff:10.100.248.1 port 34835 ssh2
+- 1132541423 2005.11.20 badmin1 Nov 20 18:50:23 src@badmin1 sshd(pam_unix)[12720]: session opened for user root by (uid=0)
+- 1132541423 2005.11.20 badmin1 Nov 20 18:50:23 src@badmin1 sshd[12718]: Accepted publickey for root from ::ffff:10.100.248.1 port 34836 ssh2
+- 1132541426 2005.11.20 #1# Nov 20 18:50:26 #1#/#1# logger: Kickstart Install: SNL COE Legal Banner
+- 1132541426 2005.11.20 #1# Nov 20 18:50:26 #1#/#1# logger: Kickstart Install: setup CAP sysconfig file
+- 1132541428 2005.11.20 badmin1 Nov 20 18:50:28 src@badmin1 sshd(pam_unix)[12764]: session opened for user root by (uid=0)
+- 1132541428 2005.11.20 badmin1 Nov 20 18:50:28 src@badmin1 sshd[12762]: Accepted publickey for root from ::ffff:10.100.248.1 port 34879 ssh2
+- 1132541429 2005.11.20 #1# Nov 20 18:50:29 #1#/#1# logger: Kickstart Install: OSCAR modules RPMS
+- 1132541430 2005.11.20 badmin1 Nov 20 18:50:30 src@badmin1 sshd(pam_unix)[12808]: session opened for user root by (uid=0)
+- 1132541430 2005.11.20 badmin1 Nov 20 18:50:30 src@badmin1 sshd[12806]: Accepted publickey for root from ::ffff:10.100.248.1 port 34921 ssh2
+- 1132541430 2005.11.20 eadmin1 Nov 20 18:50:30 src@eadmin1 sendmail[29998]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1132541432 2005.11.20 badmin1 Nov 20 18:50:32 src@badmin1 sshd(pam_unix)[12852]: session opened for user root by (uid=0)
+- 1132541432 2005.11.20 badmin1 Nov 20 18:50:32 src@badmin1 sshd[12850]: Accepted publickey for root from ::ffff:10.100.248.1 port 34935 ssh2
+- 1132541433 2005.11.20 aadmin1 Nov 20 18:50:33 src@aadmin1 sendmail[13590]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1132541433 2005.11.20 badmin1 Nov 20 18:50:33 src@badmin1 sshd(pam_unix)[12896]: session opened for user root by (uid=0)
+- 1132541433 2005.11.20 badmin1 Nov 20 18:50:33 src@badmin1 sshd[12894]: Accepted publickey for root from ::ffff:10.100.248.1 port 34949 ssh2
+- 1132541433 2005.11.20 cadmin1 Nov 20 18:50:33 src@cadmin1 sendmail[27862]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1132541434 2005.11.20 dadmin1 Nov 20 18:50:34 src@dadmin1 sendmail[2004]: My unqualified host name (dadmin1) unknown; sleeping for retry
+- 1132541435 2005.11.20 badmin1 Nov 20 18:50:35 src@badmin1 sendmail[12938]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1132541436 2005.11.20 #1# Nov 20 18:50:36 #1#/#1# logger: Kickstart Install: SISUITE Client RPMS
+- 1132541442 2005.11.20 #1# Nov 20 18:50:42 #1#/#1# logger: Kickstart Install: pdsh + ssh packages
+- 1132541446 2005.11.20 #1# Nov 20 18:50:46 #1#/#1# logger: Kickstart Install: oneSIS RPM
+- 1132541450 2005.11.20 #1# Nov 20 18:50:50 #1#/#1# logger: Kickstart Install: SUN JDK Package
+- 1132541459 2005.11.20 badmin1 Nov 20 18:50:59 src@badmin1 sshd(pam_unix)[12941]: session opened for user root by (uid=0)
+- 1132541459 2005.11.20 badmin1 Nov 20 18:50:59 src@badmin1 sshd[12939]: Accepted publickey for root from ::ffff:10.100.248.1 port 35295 ssh2
+- 1132541460 2005.11.20 badmin1 Nov 20 18:51:00 src@badmin1 sshd(pam_unix)[12985]: session opened for user root by (uid=0)
+- 1132541460 2005.11.20 badmin1 Nov 20 18:51:00 src@badmin1 sshd[12983]: Accepted publickey for root from ::ffff:10.100.248.1 port 35309 ssh2
+- 1132541462 2005.11.20 badmin1 Nov 20 18:51:02 src@badmin1 sshd(pam_unix)[13029]: session opened for user root by (uid=0)
+- 1132541462 2005.11.20 badmin1 Nov 20 18:51:02 src@badmin1 sshd[13027]: Accepted publickey for root from ::ffff:10.100.248.1 port 35337 ssh2
+- 1132541464 2005.11.20 aadmin1 Nov 20 18:51:04 src@aadmin1 xinetd[18274]: START: rsync pid=13594 from=10.100.4.251
+- 1132541464 2005.11.20 aadmin1 Nov 20 18:51:04 src@aadmin1 xinetd[18274]: START: rsync pid=13595 from=10.100.4.251
+- 1132541464 2005.11.20 #1# Nov 20 18:51:04 #1#/#1# logger: Kickstart: configure services
+- 1132541465 2005.11.20 aadmin1 Nov 20 18:51:05 src@aadmin1 sshd(pam_unix)[13599]: session opened for user root by (uid=0)
+- 1132541465 2005.11.20 aadmin1 Nov 20 18:51:05 src@aadmin1 sshd[13597]: Accepted publickey for root from ::ffff:10.100.4.251 port 35558 ssh2
+- 1132541465 2005.11.20 aadmin1 Nov 20 18:51:05 src@aadmin1 xinetd[18274]: START: rsync pid=13596 from=10.100.4.251
+- 1132541465 2005.11.20 #1# Nov 20 18:51:05 #1#/#1# logger: Kickstart Install: Prepare speconf_sync to work
+- 1132541465 2005.11.20 #1# Nov 20 18:51:05 #1#/#1# logger: Kickstart Install: Torque Mom and Maui speconf Tree
+- 1132541465 2005.11.20 #1# Nov 20 18:51:05 #1#/#1# logger: Kickstart: setup firstboot
+- 1132541465 2005.11.20 #1# Nov 20 18:51:05 #1#/#1# logger: Kickstart: setup firstboot for ganglia client software
+- 1132541465 2005.11.20 #1# Nov 20 18:51:05 #1#/#1# userhelper[14865]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1132541465 2005.11.20 #1# Nov 20 18:51:05 #1#/#1# userhelper[14866]: running '/usr/sbin/up2date --nox -i ganglia-gmond' with root privileges on behalf of 'root'
+- 1132541468 2005.11.20 #1# Nov 20 18:51:08 #1#/#1# gmond: gmond startup succeeded
+- 1132541469 2005.11.20 #1# Nov 20 18:51:09 #1#/#1# gmond: gmond shutdown succeeded
+- 1132541469 2005.11.20 #1# Nov 20 18:51:09 #1#/#1# logger: Kickstart Install: Setup to become a Tbird login
+- 1132541469 2005.11.20 #1# Nov 20 18:51:09 #1#/#1# logger: Kickstart Install: tbird kernel package
+- 1132541469 2005.11.20 #1# Nov 20 18:51:09 #1#/#1# logger: Kickstart: setup firstboot for tbird panasas env
+- 1132541487 2005.11.20 badmin1 Nov 20 18:51:27 src@badmin1 sshd(pam_unix)[13073]: session opened for user root by (uid=0)
+- 1132541487 2005.11.20 badmin1 Nov 20 18:51:27 src@badmin1 sshd[13071]: Accepted publickey for root from ::ffff:10.100.248.1 port 35619 ssh2
+- 1132541488 2005.11.20 badmin1 Nov 20 18:51:28 src@badmin1 sshd(pam_unix)[13117]: session opened for user root by (uid=0)
+- 1132541488 2005.11.20 badmin1 Nov 20 18:51:28 src@badmin1 sshd[13115]: Accepted publickey for root from ::ffff:10.100.248.1 port 35633 ssh2
+- 1132541490 2005.11.20 eadmin1 Nov 20 18:51:30 src@eadmin1 sendmail[29998]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1132541491 2005.11.20 badmin1 Nov 20 18:51:31 src@badmin1 sshd(pam_unix)[13162]: session opened for user root by (uid=0)
+- 1132541491 2005.11.20 badmin1 Nov 20 18:51:31 src@badmin1 sshd[13160]: Accepted publickey for root from ::ffff:10.100.248.1 port 35685 ssh2
+- 1132541491 2005.11.20 eadmin1 Nov 20 18:51:31 src@eadmin1 crond(pam_unix)[26921]: session closed for user root
+- 1132541491 2005.11.20 eadmin1 Nov 20 18:51:31 src@eadmin1 sendmail[29998]: jAL1pUHl029998: from=root, size=631354, class=0, nrcpts=1, msgid=<200511210151.jAL1pUHl029998@eadmin1>, relay=#7#@localhost
+- 1132541491 2005.11.20 eadmin1 Nov 20 18:51:31 src@eadmin1 sendmail[29998]: jAL1pUHl029998: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=661354, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132541493 2005.11.20 aadmin1 Nov 20 18:51:33 src@aadmin1 sendmail[13590]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1132541493 2005.11.20 cadmin1 Nov 20 18:51:33 src@cadmin1 sendmail[27862]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1132541494 2005.11.20 cadmin1 Nov 20 18:51:34 src@cadmin1 crond(pam_unix)[24786]: session closed for user root
+- 1132541494 2005.11.20 cadmin1 Nov 20 18:51:34 src@cadmin1 sendmail[27862]: jAL1pXSr027862: from=root, size=1556749, class=0, nrcpts=1, msgid=<200511210151.jAL1pXSr027862@cadmin1>, relay=#7#@localhost
+- 1132541494 2005.11.20 cadmin1 Nov 20 18:51:34 src@cadmin1 sendmail[27862]: jAL1pXSr027862: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=1586749, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132541494 2005.11.20 dadmin1 Nov 20 18:51:34 src@dadmin1 sendmail[2004]: unable to qualify my own domain name (dadmin1) -- using short name
+- 1132541495 2005.11.20 aadmin1 Nov 20 18:51:35 src@aadmin1 crond(pam_unix)[9455]: session closed for user root
+- 1132541495 2005.11.20 aadmin1 Nov 20 18:51:35 src@aadmin1 sendmail[13590]: jAL1pX2j013590: from=root, size=1588425, class=0, nrcpts=1, msgid=<200511210151.jAL1pX2j013590@aadmin1>, relay=#7#@localhost
+- 1132541495 2005.11.20 aadmin1 Nov 20 18:51:35 src@aadmin1 sendmail[13590]: jAL1pX2j013590: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1618425, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132541495 2005.11.20 badmin1 Nov 20 18:51:35 src@badmin1 sendmail[12938]: unable to qualify my own domain name (badmin1) -- using short name
+- 1132541496 2005.11.20 dadmin1 Nov 20 18:51:36 src@dadmin1 crond(pam_unix)[31356]: session closed for user root
+- 1132541496 2005.11.20 dadmin1 Nov 20 18:51:36 src@dadmin1 sendmail[2004]: jAL1pYg2002004: from=root, size=1541310, class=0, nrcpts=1, msgid=<200511210151.jAL1pYg2002004@dadmin1>, relay=#7#@localhost
+- 1132541496 2005.11.20 dadmin1 Nov 20 18:51:36 src@dadmin1 sendmail[2004]: jAL1pYg2002004: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1571310, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132541497 2005.11.20 #1# Nov 20 18:51:37 #1#/#1# logger: setup NTP client
+- 1132541497 2005.11.20 #1# Nov 20 18:51:37 #1#/#1# ntpd: ntpd shutdown failed
+- 1132541497 2005.11.20 badmin1 Nov 20 18:51:37 src@badmin1 crond(pam_unix)[9422]: session closed for user root
+- 1132541497 2005.11.20 badmin1 Nov 20 18:51:37 src@badmin1 sendmail[12938]: jAL1pZlB012938: from=root, size=1566116, class=0, nrcpts=1, msgid=<200511210151.jAL1pZlB012938@badmin1>, relay=#7#@localhost
+- 1132541497 2005.11.20 badmin1 Nov 20 18:51:37 src@badmin1 sendmail[12938]: jAL1pZlB012938: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1596116, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537897.815:0): avc: denied { read write } for pid=19257 comm=ntpdate name=tty dev=ram0 ino=46 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537897.924:0): avc: denied { read } for pid=19257 comm=ntpdate path=/tmp/product/.buildstamp dev=ramfs ino=731 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.041:0): avc: denied { read } for pid=19257 comm=ntpdate path=/tmp/biosdev (deleted) dev=ramfs ino=954 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:ramfs_t tclass=blk_file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.158:0): avc: denied { read } for pid=19257 comm=ntpdate path=/.buildstamp dev=ram0 ino=125 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.266:0): avc: denied { append } for pid=19257 comm=ntpdate path=/tmp/anaconda.log dev=ramfs ino=390 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:ramfs_t tclass=file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.380:0): avc: denied { read write } for pid=19257 comm=ntpdate path=socket:[683] dev=sockfs ino=683 scontext=user_u:system_r:ntpd_t tcontext=user_u:system_r:unconfined_t tclass=udp_socket
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.503:0): avc: denied { search } for pid=19257 comm=ntpdate name=dev dev=ram0 ino=30 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=dir
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.607:0): avc: denied { write } for pid=19257 comm=ntpdate name=log dev=ram0 ino=199 scontext=user_u:system_r:ntpd_t tcontext=user_u:object_r:file_t tclass=sock_file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# kernel: audit(1132537898.629:0): avc: denied { getattr } for pid=19265 comm=ntpd path=/dev/null dev=ram0 ino=40 scontext=user_u:system_r:ntpd_t tcontext=system_u:object_r:file_t tclass=chr_file
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd: succeeded
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd: ntpd startup succeeded
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: Listening on interface eth0, 10.100.4.251#123
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: Listening on interface lo, 127.0.0.1#123
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: Listening on interface wildcard, 0.0.0.0#123
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: configure: keyword "authenticate" unknown, line ignored
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: frequency initialized 0.000 PPM from /var/lib/ntp/drift
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: kernel time sync status 0040
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: ntpd #2#@1.1190-r Mon Oct 11 09:15:58 EDT 2004 (1)
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpd[19265]: precision = 1.000 usec
+- 1132541498 2005.11.20 #1# Nov 20 18:51:38 #1#/#1# ntpdate[19257]: step time server 10.100.0.250 offset -0.355790 sec
+- 1132541501 2005.11.20 #1# Nov 20 18:51:41 #1#/#1# logger: Kickstart Install: Dell OMSA Package
+- 1132541501 2005.11.20 #1# Nov 20 18:51:41 #1#/#1# userhelper[19275]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1132541501 2005.11.20 #1# Nov 20 18:51:41 #1#/#1# userhelper[19276]: running '/usr/sbin/up2date --nox -i netsnmp' with root privileges on behalf of 'root'
+- 1132541502 2005.11.20 #1# Nov 20 18:51:42 #1#/#1# userhelper[19277]: pam_timestamp: updated timestamp file `/var/run/sudo/root/console'
+- 1132541502 2005.11.20 #1# Nov 20 18:51:42 #1#/#1# userhelper[19278]: running '/usr/sbin/up2date --nox -i -f kernel-devel' with root privileges on behalf of 'root'
+- 1132541515 2005.11.20 #1# Nov 20 18:51:55 #1#/#1# logger: Kickstart Install: Dell BIOS CONF Package
+- 1132541515 2005.11.20 #1# Nov 20 18:51:55 #1#/#1# logger: Kickstart: setup the cisco (topspin) ib stack
+- 1132541516 2005.11.20 badmin1 Nov 20 18:51:56 src@badmin1 sshd(pam_unix)[13206]: session opened for user root by (uid=0)
+- 1132541516 2005.11.20 badmin1 Nov 20 18:51:56 src@badmin1 sshd[13204]: Accepted publickey for root from ::ffff:10.100.248.1 port 36042 ssh2
+- 1132541517 2005.11.20 badmin1 Nov 20 18:51:57 src@badmin1 sshd(pam_unix)[13250]: session opened for user root by (uid=0)
+- 1132541517 2005.11.20 badmin1 Nov 20 18:51:57 src@badmin1 sshd[13248]: Accepted publickey for root from ::ffff:10.100.248.1 port 36058 ssh2
+- 1132541520 2005.11.20 badmin1 Nov 20 18:52:00 src@badmin1 sshd(pam_unix)[13294]: session opened for user root by (uid=0)
+- 1132541520 2005.11.20 badmin1 Nov 20 18:52:00 src@badmin1 sshd[13292]: Accepted publickey for root from ::ffff:10.100.248.1 port 36125 ssh2
+- 1132541525 2005.11.20 #1# Nov 20 18:52:05 #1#/#1# logger: Kickstart Install: TBIRD Dell FIRMWARE Update Module
+- 1132541525 2005.11.20 #1# Nov 20 18:52:05 #1#/#1# logger: Kickstart/Yast Install: Finished installation on localhost.localdomain
+- 1132541525 2005.11.20 badmin4 Nov 20 18:52:05 src@badmin4 ntpd[4905]: synchronized to 10.100.248.3, stratum 2
+- 1132541529 2005.11.20 #1# Nov 20 18:52:09 #1#/#1# exiting on signal 15
+- 1132541545 2005.11.20 badmin1 Nov 20 18:52:25 src@badmin1 sshd(pam_unix)[13338]: session opened for user root by (uid=0)
+- 1132541545 2005.11.20 badmin1 Nov 20 18:52:25 src@badmin1 sshd(pam_unix)[13357]: session opened for user root by (uid=0)
+- 1132541545 2005.11.20 badmin1 Nov 20 18:52:25 src@badmin1 sshd[13336]: Accepted publickey for root from ::ffff:10.100.248.1 port 36404 ssh2
+- 1132541545 2005.11.20 badmin1 Nov 20 18:52:25 src@badmin1 sshd[13352]: Accepted publickey for root from ::ffff:10.100.248.1 port 36405 ssh2
+- 1132541549 2005.11.20 badmin1 Nov 20 18:52:29 src@badmin1 sshd(pam_unix)[13426]: session opened for user root by (uid=0)
+- 1132541549 2005.11.20 badmin1 Nov 20 18:52:29 src@badmin1 sshd[13424]: Accepted publickey for root from ::ffff:10.100.248.1 port 36460 ssh2
+- 1132541570 2005.11.20 aadmin1 Nov 20 18:52:50 src@aadmin1 in.tftpd[15046]: tftp: client does not accept options
+- 1132541574 2005.11.20 badmin1 Nov 20 18:52:54 src@badmin1 sshd(pam_unix)[13470]: session opened for user root by (uid=0)
+- 1132541574 2005.11.20 badmin1 Nov 20 18:52:54 src@badmin1 sshd(pam_unix)[13496]: session opened for user root by (uid=0)
+- 1132541574 2005.11.20 badmin1 Nov 20 18:52:54 src@badmin1 sshd[13468]: Accepted publickey for root from ::ffff:10.100.248.1 port 36765 ssh2
+- 1132541574 2005.11.20 badmin1 Nov 20 18:52:54 src@badmin1 sshd[13487]: Accepted publickey for root from ::ffff:10.100.248.1 port 36766 ssh2
+- 1132541578 2005.11.20 badmin1 Nov 20 18:52:58 src@badmin1 sshd(pam_unix)[13558]: session opened for user root by (uid=0)
+- 1132541578 2005.11.20 badmin1 Nov 20 18:52:58 src@badmin1 sshd[13556]: Accepted publickey for root from ::ffff:10.100.248.1 port 36859 ssh2
+- 1132541602 2005.11.20 badmin1 Nov 20 18:53:22 src@badmin1 sshd(pam_unix)[13602]: session opened for user root by (uid=0)
+- 1132541602 2005.11.20 badmin1 Nov 20 18:53:22 src@badmin1 sshd[13600]: Accepted publickey for root from ::ffff:10.100.248.1 port 37113 ssh2
+- 1132541603 2005.11.20 badmin1 Nov 20 18:53:23 src@badmin1 sshd(pam_unix)[13646]: session opened for user root by (uid=0)
+- 1132541603 2005.11.20 badmin1 Nov 20 18:53:23 src@badmin1 sshd[13644]: Accepted publickey for root from ::ffff:10.100.248.1 port 37114 ssh2
+- 1132541607 2005.11.20 badmin1 Nov 20 18:53:27 src@badmin1 sshd(pam_unix)[13690]: session opened for user root by (uid=0)
+- 1132541607 2005.11.20 badmin1 Nov 20 18:53:27 src@badmin1 sshd[13688]: Accepted publickey for root from ::ffff:10.100.248.1 port 37234 ssh2
+- 1132541631 2005.11.20 badmin1 Nov 20 18:53:51 src@badmin1 sshd(pam_unix)[13734]: session opened for user root by (uid=0)
+- 1132541631 2005.11.20 badmin1 Nov 20 18:53:51 src@badmin1 sshd[13732]: Accepted publickey for root from ::ffff:10.100.248.1 port 37509 ssh2
+- 1132541632 2005.11.20 badmin1 Nov 20 18:53:52 src@badmin1 sshd(pam_unix)[13778]: session opened for user root by (uid=0)
+- 1132541632 2005.11.20 badmin1 Nov 20 18:53:52 src@badmin1 sshd[13776]: Accepted publickey for root from ::ffff:10.100.248.1 port 37510 ssh2
+- 1132541636 2005.11.20 badmin1 Nov 20 18:53:56 src@badmin1 sshd(pam_unix)[13822]: session opened for user root by (uid=0)
+- 1132541636 2005.11.20 badmin1 Nov 20 18:53:56 src@badmin1 sshd[13820]: Accepted publickey for root from ::ffff:10.100.248.1 port 37556 ssh2
+- 1132541660 2005.11.20 badmin1 Nov 20 18:54:20 src@badmin1 sshd(pam_unix)[13868]: session opened for user root by (uid=0)
+- 1132541660 2005.11.20 badmin1 Nov 20 18:54:20 src@badmin1 sshd(pam_unix)[13884]: session opened for user root by (uid=0)
+- 1132541660 2005.11.20 badmin1 Nov 20 18:54:20 src@badmin1 sshd[13864]: Accepted publickey for root from ::ffff:10.100.248.1 port 37885 ssh2
+- 1132541660 2005.11.20 badmin1 Nov 20 18:54:20 src@badmin1 sshd[13866]: Accepted publickey for root from ::ffff:10.100.248.1 port 37886 ssh2
+- 1132541664 2005.11.20 badmin1 Nov 20 18:54:24 src@badmin1 sshd(pam_unix)[13954]: session opened for user root by (uid=0)
+- 1132541664 2005.11.20 badmin1 Nov 20 18:54:24 src@badmin1 sshd[13952]: Accepted publickey for root from ::ffff:10.100.248.1 port 37940 ssh2
+- 1132541689 2005.11.20 badmin1 Nov 20 18:54:49 src@badmin1 sshd(pam_unix)[13998]: session opened for user root by (uid=0)
+- 1132541689 2005.11.20 badmin1 Nov 20 18:54:49 src@badmin1 sshd(pam_unix)[14043]: session opened for user root by (uid=0)
+- 1132541689 2005.11.20 badmin1 Nov 20 18:54:49 src@badmin1 sshd[13996]: Accepted publickey for root from ::ffff:10.100.248.1 port 38246 ssh2
+- 1132541689 2005.11.20 badmin1 Nov 20 18:54:49 src@badmin1 sshd[14041]: Accepted publickey for root from ::ffff:10.100.248.1 port 38261 ssh2
+- 1132541693 2005.11.20 badmin1 Nov 20 18:54:53 src@badmin1 sshd(pam_unix)[14087]: session opened for user root by (uid=0)
+- 1132541693 2005.11.20 badmin1 Nov 20 18:54:53 src@badmin1 sshd[14085]: Accepted publickey for root from ::ffff:10.100.248.1 port 38344 ssh2
+- 1132541700 2005.11.20 aadmin1 Nov 20 18:55:00 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132541700 2005.11.20 aadmin1 Nov 20 18:55:00 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541700 2005.11.20 aadmin2 Nov 20 18:55:00 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541700 2005.11.20 aadmin3 Nov 20 18:55:00 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541700 2005.11.20 aadmin4 Nov 20 18:55:00 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541702 2005.11.20 aadmin1 Nov 20 18:55:02 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541702 2005.11.20 aadmin1 Nov 20 18:55:02 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+- 1132541702 2005.11.20 aadmin1 Nov 20 18:55:02 src@aadmin1 xinetd[18274]: START: tftp pid=13644 from=10.100.4.251
+- 1132541702 2005.11.20 aadmin2 Nov 20 18:55:02 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541702 2005.11.20 aadmin3 Nov 20 18:55:02 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541702 2005.11.20 aadmin4 Nov 20 18:55:02 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541717 2005.11.20 badmin1 Nov 20 18:55:17 src@badmin1 sshd(pam_unix)[14131]: session opened for user root by (uid=0)
+- 1132541717 2005.11.20 badmin1 Nov 20 18:55:17 src@badmin1 sshd[14129]: Accepted publickey for root from ::ffff:10.100.248.1 port 38672 ssh2
+- 1132541718 2005.11.20 badmin1 Nov 20 18:55:18 src@badmin1 sshd(pam_unix)[14175]: session opened for user root by (uid=0)
+- 1132541718 2005.11.20 badmin1 Nov 20 18:55:18 src@badmin1 sshd[14173]: Accepted publickey for root from ::ffff:10.100.248.1 port 38673 ssh2
+- 1132541722 2005.11.20 badmin1 Nov 20 18:55:22 src@badmin1 sshd(pam_unix)[14219]: session opened for user root by (uid=0)
+- 1132541722 2005.11.20 badmin1 Nov 20 18:55:22 src@badmin1 sshd[14217]: Accepted publickey for root from ::ffff:10.100.248.1 port 38744 ssh2
+- 1132541725 2005.11.20 aadmin1 Nov 20 18:55:25 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541725 2005.11.20 aadmin1 Nov 20 18:55:25 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132541725 2005.11.20 aadmin1 Nov 20 18:55:25 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132541725 2005.11.20 aadmin1 Nov 20 18:55:25 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541725 2005.11.20 aadmin1 Nov 20 18:55:25 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541725 2005.11.20 aadmin1 Nov 20 18:55:25 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+- 1132541725 2005.11.20 aadmin2 Nov 20 18:55:25 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541725 2005.11.20 aadmin2 Nov 20 18:55:25 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541725 2005.11.20 aadmin2 Nov 20 18:55:25 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541725 2005.11.20 aadmin3 Nov 20 18:55:25 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541725 2005.11.20 aadmin3 Nov 20 18:55:25 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541725 2005.11.20 aadmin3 Nov 20 18:55:25 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541725 2005.11.20 aadmin4 Nov 20 18:55:25 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541725 2005.11.20 aadmin4 Nov 20 18:55:25 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541725 2005.11.20 aadmin4 Nov 20 18:55:25 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541726 2005.11.20 aadmin1 Nov 20 18:55:26 src@aadmin1 dhcpd: DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541726 2005.11.20 aadmin1 Nov 20 18:55:26 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132541726 2005.11.20 aadmin1 Nov 20 18:55:26 src@aadmin1 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1
+- 1132541726 2005.11.20 aadmin1 Nov 20 18:55:26 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541726 2005.11.20 aadmin1 Nov 20 18:55:26 src@aadmin1 dhcpd: DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1
+- 1132541726 2005.11.20 aadmin1 Nov 20 18:55:26 src@aadmin1 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1
+- 1132541726 2005.11.20 aadmin2 Nov 20 18:55:26 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541726 2005.11.20 aadmin2 Nov 20 18:55:26 src@aadmin2 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541726 2005.11.20 aadmin2 Nov 20 18:55:26 src@aadmin2 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541726 2005.11.20 aadmin3 Nov 20 18:55:26 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541726 2005.11.20 aadmin3 Nov 20 18:55:26 src@aadmin3 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541726 2005.11.20 aadmin3 Nov 20 18:55:26 src@aadmin3 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541726 2005.11.20 aadmin4 Nov 20 18:55:26 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541726 2005.11.20 aadmin4 Nov 20 18:55:26 src@aadmin4 dhcpd: DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases
+- 1132541726 2005.11.20 aadmin4 Nov 20 18:55:26 src@aadmin4 dhcpd: DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.
+- 1132541746 2005.11.20 badmin1 Nov 20 18:55:46 src@badmin1 sshd(pam_unix)[14263]: session opened for user root by (uid=0)
+- 1132541746 2005.11.20 badmin1 Nov 20 18:55:46 src@badmin1 sshd[14261]: Accepted publickey for root from ::ffff:10.100.248.1 port 39018 ssh2
+- 1132541747 2005.11.20 badmin1 Nov 20 18:55:47 src@badmin1 sshd(pam_unix)[14307]: session opened for user root by (uid=0)
+- 1132541747 2005.11.20 badmin1 Nov 20 18:55:47 src@badmin1 sshd[14305]: Accepted publickey for root from ::ffff:10.100.248.1 port 39034 ssh2
+- 1132541751 2005.11.20 badmin1 Nov 20 18:55:51 src@badmin1 sshd(pam_unix)[14351]: session opened for user root by (uid=0)
+- 1132541751 2005.11.20 badmin1 Nov 20 18:55:51 src@badmin1 sshd[14349]: Accepted publickey for root from ::ffff:10.100.248.1 port 39105 ssh2
+- 1132541774 2005.11.20 badmin1 Nov 20 18:56:14 src@badmin1 sshd(pam_unix)[14395]: session opened for user root by (uid=0)
+- 1132541774 2005.11.20 badmin1 Nov 20 18:56:14 src@badmin1 sshd[14393]: Accepted publickey for root from ::ffff:10.100.248.1 port 39379 ssh2
+- 1132541776 2005.11.20 badmin1 Nov 20 18:56:16 src@badmin1 sshd(pam_unix)[14439]: session opened for user root by (uid=0)
+- 1132541776 2005.11.20 badmin1 Nov 20 18:56:16 src@badmin1 sshd[14437]: Accepted publickey for root from ::ffff:10.100.248.1 port 39380 ssh2
+- 1132541780 2005.11.20 badmin1 Nov 20 18:56:20 src@badmin1 sshd(pam_unix)[14483]: session opened for user root by (uid=0)
+- 1132541780 2005.11.20 badmin1 Nov 20 18:56:20 src@badmin1 sshd[14481]: Accepted publickey for root from ::ffff:10.100.248.1 port 39449 ssh2
+- 1132541803 2005.11.20 badmin1 Nov 20 18:56:43 src@badmin1 sshd(pam_unix)[14527]: session opened for user root by (uid=0)
+- 1132541803 2005.11.20 badmin1 Nov 20 18:56:43 src@badmin1 sshd[14525]: Accepted publickey for root from ::ffff:10.100.248.1 port 39779 ssh2
+- 1132541805 2005.11.20 badmin1 Nov 20 18:56:45 src@badmin1 sshd(pam_unix)[14571]: session opened for user root by (uid=0)
+- 1132541805 2005.11.20 badmin1 Nov 20 18:56:45 src@badmin1 sshd[14569]: Accepted publickey for root from ::ffff:10.100.248.1 port 39782 ssh2
+- 1132541809 2005.11.20 badmin1 Nov 20 18:56:49 src@badmin1 sshd(pam_unix)[14615]: session opened for user root by (uid=0)
+- 1132541809 2005.11.20 badmin1 Nov 20 18:56:49 src@badmin1 sshd[14613]: Accepted publickey for root from ::ffff:10.100.248.1 port 39823 ssh2
+- 1132541832 2005.11.20 badmin1 Nov 20 18:57:12 src@badmin1 sshd(pam_unix)[14659]: session opened for user root by (uid=0)
+- 1132541832 2005.11.20 badmin1 Nov 20 18:57:12 src@badmin1 sshd[14657]: Accepted publickey for root from ::ffff:10.100.248.1 port 40116 ssh2
+- 1132541834 2005.11.20 badmin1 Nov 20 18:57:14 src@badmin1 sshd(pam_unix)[14703]: session opened for user root by (uid=0)
+- 1132541834 2005.11.20 badmin1 Nov 20 18:57:14 src@badmin1 sshd[14701]: Accepted publickey for root from ::ffff:10.100.248.1 port 40156 ssh2
+- 1132541838 2005.11.20 badmin1 Nov 20 18:57:18 src@badmin1 sshd(pam_unix)[14747]: session opened for user root by (uid=0)
+- 1132541838 2005.11.20 badmin1 Nov 20 18:57:18 src@badmin1 sshd[14745]: Accepted publickey for root from ::ffff:10.100.248.1 port 40184 ssh2
+- 1132541860 2005.11.20 badmin1 Nov 20 18:57:40 src@badmin1 sshd(pam_unix)[14791]: session opened for user root by (uid=0)
+- 1132541860 2005.11.20 badmin1 Nov 20 18:57:40 src@badmin1 sshd[14789]: Accepted publickey for root from ::ffff:10.100.248.1 port 40474 ssh2
+- 1132541863 2005.11.20 badmin1 Nov 20 18:57:43 src@badmin1 sshd(pam_unix)[14835]: session opened for user root by (uid=0)
+- 1132541863 2005.11.20 badmin1 Nov 20 18:57:43 src@badmin1 sshd[14833]: Accepted publickey for root from ::ffff:10.100.248.1 port 40515 ssh2
+- 1132541867 2005.11.20 badmin1 Nov 20 18:57:47 src@badmin1 sshd(pam_unix)[14879]: session opened for user root by (uid=0)
+- 1132541867 2005.11.20 badmin1 Nov 20 18:57:47 src@badmin1 sshd[14877]: Accepted publickey for root from ::ffff:10.100.248.1 port 40558 ssh2
+- 1132541889 2005.11.20 badmin1 Nov 20 18:58:09 src@badmin1 sshd(pam_unix)[14923]: session opened for user root by (uid=0)
+- 1132541889 2005.11.20 badmin1 Nov 20 18:58:09 src@badmin1 sshd[14921]: Accepted publickey for root from ::ffff:10.100.248.1 port 40875 ssh2
+- 1132541892 2005.11.20 badmin1 Nov 20 18:58:12 src@badmin1 sshd(pam_unix)[14967]: session opened for user root by (uid=0)
+- 1132541892 2005.11.20 badmin1 Nov 20 18:58:12 src@badmin1 sshd[14965]: Accepted publickey for root from ::ffff:10.100.248.1 port 40915 ssh2
+- 1132541896 2005.11.20 badmin1 Nov 20 18:58:16 src@badmin1 sshd(pam_unix)[15011]: session opened for user root by (uid=0)
+- 1132541896 2005.11.20 badmin1 Nov 20 18:58:16 src@badmin1 sshd[15009]: Accepted publickey for root from ::ffff:10.100.248.1 port 40955 ssh2
+- 1132541902 2005.11.20 badmin1 Nov 20 18:58:22 src@badmin1 dhcpd: DHCPDISCOVER from 00:11:43:e1:56:7b via eth1: network B_net: no free leases
+- 1132541902 2005.11.20 badmin2 Nov 20 18:58:22 src@badmin2 dhcpd: DHCPDISCOVER from 00:11:43:e1:56:7b via eth1: network B_net: no free leases
+- 1132541902 2005.11.20 badmin3 Nov 20 18:58:22 src@badmin3 dhcpd: DHCPDISCOVER from 00:11:43:e1:56:7b via eth1
+- 1132541902 2005.11.20 badmin3 Nov 20 18:58:22 src@badmin3 dhcpd: DHCPOFFER on 10.100.12.63 to 00:11:43:e1:56:7b via eth1
+- 1132541902 2005.11.20 badmin4 Nov 20 18:58:22 src@badmin4 dhcpd: DHCPDISCOVER from 00:11:43:e1:56:7b via eth1: network B_net: no free leases
+- 1132541906 2005.11.20 badmin1 Nov 20 18:58:26 src@badmin1 dhcpd: DHCPREQUEST for 10.100.12.63 (10.100.12.250) from 00:11:43:e1:56:7b via eth1: unknown lease 10.100.12.63.
+- 1132541906 2005.11.20 badmin2 Nov 20 18:58:26 src@badmin2 dhcpd: DHCPREQUEST for 10.100.12.63 (10.100.12.250) from 00:11:43:e1:56:7b via eth1: unknown lease 10.100.12.63.
+- 1132541906 2005.11.20 badmin3 Nov 20 18:58:26 src@badmin3 dhcpd: DHCPACK on 10.100.12.63 to 00:11:43:e1:56:7b via eth1
+- 1132541906 2005.11.20 badmin3 Nov 20 18:58:26 src@badmin3 dhcpd: DHCPREQUEST for 10.100.12.63 (10.100.12.250) from 00:11:43:e1:56:7b via eth1
+- 1132541906 2005.11.20 badmin3 Nov 20 18:58:26 src@badmin3 xinetd[9090]: START: tftp pid=23993 from=10.100.12.63
+- 1132541906 2005.11.20 badmin4 Nov 20 18:58:26 src@badmin4 dhcpd: DHCPREQUEST for 10.100.12.63 (10.100.12.250) from 00:11:43:e1:56:7b via eth1: unknown lease 10.100.12.63.
+- 1132541917 2005.11.20 badmin1 Nov 20 18:58:37 src@badmin1 sshd(pam_unix)[15055]: session opened for user root by (uid=0)
+- 1132541917 2005.11.20 badmin1 Nov 20 18:58:37 src@badmin1 sshd[15053]: Accepted publickey for root from ::ffff:10.100.248.1 port 41249 ssh2
+- 1132541921 2005.11.20 badmin1 Nov 20 18:58:41 src@badmin1 sshd(pam_unix)[15099]: session opened for user root by (uid=0)
+- 1132541921 2005.11.20 badmin1 Nov 20 18:58:41 src@badmin1 sshd[15097]: Accepted publickey for root from ::ffff:10.100.248.1 port 41276 ssh2
+- 1132541922 2005.11.20 #9# Nov 20 18:58:42 #9#/#9# crond(pam_unix)[18623]: session closed for user root
+- 1132541922 2005.11.20 #9# Nov 20 18:58:42 #9#/#9# crond(pam_unix)[18623]: session opened for user root by (uid=0)
+- 1132541922 2005.11.20 #9# Nov 20 18:58:42 #9#/#9# crond[18624]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132541922 2005.11.20 #32# Nov 20 18:58:42 #32#/#32# crond(pam_unix)[25602]: session closed for user root
+- 1132541922 2005.11.20 #32# Nov 20 18:58:42 #32#/#32# crond(pam_unix)[25602]: session opened for user root by (uid=0)
+- 1132541922 2005.11.20 #32# Nov 20 18:58:42 #32#/#32# crond[25603]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132541925 2005.11.20 badmin1 Nov 20 18:58:45 src@badmin1 sshd(pam_unix)[15143]: session opened for user root by (uid=0)
+- 1132541925 2005.11.20 badmin1 Nov 20 18:58:45 src@badmin1 sshd[15141]: Accepted publickey for root from ::ffff:10.100.248.1 port 41356 ssh2
+- 1132541942 2005.11.20 badmin3 Nov 20 18:59:02 src@badmin3 ntpd[4986]: synchronized to 10.100.24.251, stratum 2
+- 1132541946 2005.11.20 badmin1 Nov 20 18:59:06 src@badmin1 sshd(pam_unix)[15187]: session opened for user root by (uid=0)
+- 1132541946 2005.11.20 badmin1 Nov 20 18:59:06 src@badmin1 sshd[15185]: Accepted publickey for root from ::ffff:10.100.248.1 port 41635 ssh2
+- 1132541950 2005.11.20 badmin1 Nov 20 18:59:10 src@badmin1 sshd(pam_unix)[15231]: session opened for user root by (uid=0)
+- 1132541950 2005.11.20 badmin1 Nov 20 18:59:10 src@badmin1 sshd[15229]: Accepted publickey for root from ::ffff:10.100.248.1 port 41663 ssh2
+- 1132541953 2005.11.20 badmin1 Nov 20 18:59:13 src@badmin1 sshd(pam_unix)[15275]: session opened for user root by (uid=0)
+- 1132541953 2005.11.20 badmin1 Nov 20 18:59:13 src@badmin1 sshd[15273]: Accepted publickey for root from ::ffff:10.100.248.1 port 41680 ssh2
+- 1132541974 2005.11.20 badmin1 Nov 20 18:59:34 src@badmin1 sshd(pam_unix)[15319]: session opened for user root by (uid=0)
+- 1132541974 2005.11.20 badmin1 Nov 20 18:59:34 src@badmin1 sshd[15317]: Accepted publickey for root from ::ffff:10.100.248.1 port 41996 ssh2
+- 1132541979 2005.11.20 badmin1 Nov 20 18:59:39 src@badmin1 sshd(pam_unix)[15363]: session opened for user root by (uid=0)
+- 1132541979 2005.11.20 badmin1 Nov 20 18:59:39 src@badmin1 sshd[15361]: Accepted publickey for root from ::ffff:10.100.248.1 port 42042 ssh2
+- 1132541982 2005.11.20 badmin1 Nov 20 18:59:42 src@badmin1 sshd(pam_unix)[15407]: session opened for user root by (uid=0)
+- 1132541982 2005.11.20 badmin1 Nov 20 18:59:42 src@badmin1 sshd[15405]: Accepted publickey for root from ::ffff:10.100.248.1 port 42097 ssh2
+- 1132542001 2005.11.20 aadmin1 Nov 20 19:00:01 src@aadmin1 crond(pam_unix)[13651]: session opened for user root by (uid=0)
+- 1132542001 2005.11.20 aadmin1 Nov 20 19:00:01 src@aadmin1 crond[13652]: (root) CMD (/projects/tbird/temps/get_temps a)
+- 1132542001 2005.11.20 badmin1 Nov 20 19:00:01 src@badmin1 crond(pam_unix)[15449]: session opened for user root by (uid=0)
+- 1132542001 2005.11.20 badmin1 Nov 20 19:00:01 src@badmin1 crond[15450]: (root) CMD (/projects/tbird/temps/get_temps b)
+- 1132542001 2005.11.20 cadmin1 Nov 20 19:00:01 src@cadmin1 crond(pam_unix)[27863]: session opened for user root by (uid=0)
+- 1132542001 2005.11.20 cadmin1 Nov 20 19:00:01 src@cadmin1 crond[27864]: (root) CMD (/projects/tbird/temps/get_temps c)
+- 1132542001 2005.11.20 dadmin1 Nov 20 19:00:01 src@dadmin1 crond(pam_unix)[2005]: session opened for user root by (uid=0)
+- 1132542001 2005.11.20 dadmin1 Nov 20 19:00:01 src@dadmin1 crond[2006]: (root) CMD (/projects/tbird/temps/get_temps d)
+- 1132542001 2005.11.20 eadmin1 Nov 20 19:00:01 src@eadmin1 crond(pam_unix)[29999]: session opened for user root by (uid=0)
+- 1132542001 2005.11.20 eadmin1 Nov 20 19:00:01 src@eadmin1 crond[30000]: (root) CMD (/projects/tbird/temps/get_temps e)
+- 1132542002 2005.11.20 badmin1 Nov 20 19:00:02 src@badmin1 sshd(pam_unix)[17047]: session opened for user root by (uid=0)
+- 1132542002 2005.11.20 badmin1 Nov 20 19:00:02 src@badmin1 sshd[17001]: Accepted publickey for root from ::ffff:10.100.248.1 port 42370 ssh2
+- 1132542008 2005.11.20 badmin1 Nov 20 19:00:08 src@badmin1 sshd(pam_unix)[18572]: session opened for user root by (uid=0)
+- 1132542008 2005.11.20 badmin1 Nov 20 19:00:08 src@badmin1 sshd[18570]: Accepted publickey for root from ::ffff:10.100.248.1 port 42428 ssh2
+- 1132542009 2005.11.20 badmin1 Nov 20 19:00:09 src@badmin1 sshd(pam_unix)[18612]: session opened for user root by (uid=0)
+- 1132542009 2005.11.20 badmin1 Nov 20 19:00:09 src@badmin1 sshd[18608]: Accepted publickey for root from ::ffff:10.100.248.1 port 42431 ssh2
+- 1132542014 2005.11.20 dadmin3 Nov 20 19:00:14 src@dadmin3 ntpd[25247]: synchronized to 10.100.8.251, stratum 2
+- 1132542020 2005.11.20 badmin1 Nov 20 19:00:20 src@badmin1 sshd(pam_unix)[18660]: session opened for user root by (uid=0)
+- 1132542020 2005.11.20 badmin1 Nov 20 19:00:20 src@badmin1 sshd(pam_unix)[18704]: session opened for user root by (uid=0)
+- 1132542020 2005.11.20 badmin1 Nov 20 19:00:20 src@badmin1 sshd[18658]: Accepted publickey for root from ::ffff:10.100.248.1 port 42550 ssh2
+- 1132542020 2005.11.20 badmin1 Nov 20 19:00:20 src@badmin1 sshd[18702]: Accepted publickey for root from ::ffff:10.100.248.1 port 42551 ssh2
+- 1132542031 2005.11.20 eadmin1 Nov 20 19:00:31 src@eadmin1 sendmail[615]: My unqualified host name (eadmin1) unknown; sleeping for retry
+- 1132542032 2005.11.20 aadmin1 Nov 20 19:00:32 src@aadmin1 sendmail[16729]: My unqualified host name (aadmin1) unknown; sleeping for retry
+- 1132542033 2005.11.20 cadmin1 Nov 20 19:00:33 src@cadmin1 sendmail[30940]: My unqualified host name (cadmin1) unknown; sleeping for retry
+- 1132542033 2005.11.20 dadmin1 Nov 20 19:00:33 src@dadmin1 sendmail[5088]: My unqualified host name (dadmin1) unknown; sleeping for retry
+- 1132542037 2005.11.20 badmin1 Nov 20 19:00:37 src@badmin1 sendmail[18746]: My unqualified host name (badmin1) unknown; sleeping for retry
+- 1132542040 2005.11.20 badmin1 Nov 20 19:00:40 src@badmin1 sshd(pam_unix)[18749]: session opened for user root by (uid=0)
+- 1132542040 2005.11.20 badmin1 Nov 20 19:00:40 src@badmin1 sshd[18747]: Accepted publickey for root from ::ffff:10.100.248.1 port 42856 ssh2
+- 1132542049 2005.11.20 badmin1 Nov 20 19:00:49 src@badmin1 sshd(pam_unix)[18793]: session opened for user root by (uid=0)
+- 1132542049 2005.11.20 badmin1 Nov 20 19:00:49 src@badmin1 sshd[18791]: Accepted publickey for root from ::ffff:10.100.248.1 port 42911 ssh2
+- 1132542055 2005.11.20 badmin1 Nov 20 19:00:55 src@badmin1 sshd(pam_unix)[18837]: session opened for user root by (uid=0)
+- 1132542055 2005.11.20 badmin1 Nov 20 19:00:55 src@badmin1 sshd[18835]: Accepted publickey for root from ::ffff:10.100.248.1 port 42989 ssh2
+- 1132542061 2005.11.20 aadmin1 Nov 20 19:01:01 src@aadmin1 crond(pam_unix)[16730]: session closed for user root
+- 1132542061 2005.11.20 aadmin1 Nov 20 19:01:01 src@aadmin1 crond(pam_unix)[16730]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 aadmin1 Nov 20 19:01:01 src@aadmin1 crond[16731]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 aadmin2 Nov 20 19:01:01 src@aadmin2 crond(pam_unix)[4863]: session closed for user root
+- 1132542061 2005.11.20 aadmin2 Nov 20 19:01:01 src@aadmin2 crond(pam_unix)[4863]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 aadmin2 Nov 20 19:01:01 src@aadmin2 crond[4864]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 aadmin3 Nov 20 19:01:01 src@aadmin3 crond(pam_unix)[19368]: session closed for user root
+- 1132542061 2005.11.20 aadmin3 Nov 20 19:01:01 src@aadmin3 crond(pam_unix)[19368]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 aadmin3 Nov 20 19:01:01 src@aadmin3 crond[19369]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 aadmin4 Nov 20 19:01:01 src@aadmin4 crond(pam_unix)[7889]: session closed for user root
+- 1132542061 2005.11.20 aadmin4 Nov 20 19:01:01 src@aadmin4 crond(pam_unix)[7889]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 aadmin4 Nov 20 19:01:01 src@aadmin4 crond[7890]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 #8# Nov 20 19:01:01 #8#/#8# crond(pam_unix)[3811]: session closed for user root
+- 1132542061 2005.11.20 #8# Nov 20 19:01:01 #8#/#8# crond(pam_unix)[3811]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 #8# Nov 20 19:01:01 #8#/#8# crond[3812]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 badmin1 Nov 20 19:01:01 src@badmin1 crond(pam_unix)[18879]: session closed for user root
+- 1132542061 2005.11.20 badmin1 Nov 20 19:01:01 src@badmin1 crond(pam_unix)[18879]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 badmin1 Nov 20 19:01:01 src@badmin1 crond[18880]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 badmin2 Nov 20 19:01:01 src@badmin2 crond(pam_unix)[27382]: session closed for user root
+- 1132542061 2005.11.20 badmin2 Nov 20 19:01:01 src@badmin2 crond(pam_unix)[27382]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 badmin2 Nov 20 19:01:01 src@badmin2 crond[27383]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 badmin3 Nov 20 19:01:01 src@badmin3 crond(pam_unix)[24006]: session closed for user root
+- 1132542061 2005.11.20 badmin3 Nov 20 19:01:01 src@badmin3 crond(pam_unix)[24006]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 badmin3 Nov 20 19:01:01 src@badmin3 crond[24007]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 badmin4 Nov 20 19:01:01 src@badmin4 crond(pam_unix)[30242]: session closed for user root
+- 1132542061 2005.11.20 badmin4 Nov 20 19:01:01 src@badmin4 crond(pam_unix)[30242]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 badmin4 Nov 20 19:01:01 src@badmin4 crond[30243]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 #21# Nov 20 19:01:01 #21#/#21# crond(pam_unix)[20911]: session closed for user root
+- 1132542061 2005.11.20 #21# Nov 20 19:01:01 #21#/#21# crond(pam_unix)[20911]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 #21# Nov 20 19:01:01 #21#/#21# crond[20912]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 #31# Nov 20 19:01:01 #31#/#31# crond(pam_unix)[24464]: session closed for user root
+- 1132542061 2005.11.20 #31# Nov 20 19:01:01 #31#/#31# crond(pam_unix)[24464]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 #31# Nov 20 19:01:01 #31#/#31# crond[24465]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 cadmin1 Nov 20 19:01:01 src@cadmin1 crond(pam_unix)[30941]: session closed for user root
+- 1132542061 2005.11.20 cadmin1 Nov 20 19:01:01 src@cadmin1 crond(pam_unix)[30941]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 cadmin1 Nov 20 19:01:01 src@cadmin1 crond[30942]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 cadmin2 Nov 20 19:01:01 src@cadmin2 crond(pam_unix)[25928]: session closed for user root
+- 1132542061 2005.11.20 cadmin2 Nov 20 19:01:01 src@cadmin2 crond(pam_unix)[25928]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 cadmin2 Nov 20 19:01:01 src@cadmin2 crond[25929]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 cadmin3 Nov 20 19:01:01 src@cadmin3 crond(pam_unix)[6163]: session closed for user root
+- 1132542061 2005.11.20 cadmin3 Nov 20 19:01:01 src@cadmin3 crond(pam_unix)[6163]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 cadmin3 Nov 20 19:01:01 src@cadmin3 crond[6164]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 cadmin4 Nov 20 19:01:01 src@cadmin4 crond(pam_unix)[29446]: session closed for user root
+- 1132542061 2005.11.20 cadmin4 Nov 20 19:01:01 src@cadmin4 crond(pam_unix)[29446]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 cadmin4 Nov 20 19:01:01 src@cadmin4 crond[29447]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 dadmin1 Nov 20 19:01:01 src@dadmin1 crond(pam_unix)[5089]: session closed for user root
+- 1132542061 2005.11.20 dadmin1 Nov 20 19:01:01 src@dadmin1 crond(pam_unix)[5089]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 dadmin1 Nov 20 19:01:01 src@dadmin1 crond[5090]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 dadmin2 Nov 20 19:01:01 src@dadmin2 crond(pam_unix)[26967]: session closed for user root
+- 1132542061 2005.11.20 dadmin2 Nov 20 19:01:01 src@dadmin2 crond(pam_unix)[26967]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 dadmin2 Nov 20 19:01:01 src@dadmin2 crond[26968]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 dadmin3 Nov 20 19:01:01 src@dadmin3 crond(pam_unix)[16074]: session closed for user root
+- 1132542061 2005.11.20 dadmin3 Nov 20 19:01:01 src@dadmin3 crond(pam_unix)[16074]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 dadmin3 Nov 20 19:01:01 src@dadmin3 crond[16075]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 dadmin4 Nov 20 19:01:01 src@dadmin4 crond(pam_unix)[11701]: session closed for user root
+- 1132542061 2005.11.20 dadmin4 Nov 20 19:01:01 src@dadmin4 crond(pam_unix)[11701]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 dadmin4 Nov 20 19:01:01 src@dadmin4 crond[11702]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 #33# Nov 20 19:01:01 #33#/#33# crond(pam_unix)[21778]: session closed for user root
+- 1132542061 2005.11.20 #33# Nov 20 19:01:01 #33#/#33# crond(pam_unix)[21778]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 #33# Nov 20 19:01:01 #33#/#33# crond[21779]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 #33# Nov 20 19:01:01 #33#/#33# pam_limits[21778]: process_limit: processing hard nofile 32768 for DEFAULT
+- 1132542061 2005.11.20 #33# Nov 20 19:01:01 #33#/#33# pam_limits[21778]: process_limit: processing hard nproc 32768 for DEFAULT
+- 1132542061 2005.11.20 #33# Nov 20 19:01:01 #33#/#33# pam_limits[21778]: process_limit: processing soft nofile 32768 for DEFAULT
+- 1132542061 2005.11.20 #25# Nov 20 19:01:01 #25#/#25# crond(pam_unix)[18182]: session closed for user root
+- 1132542061 2005.11.20 #25# Nov 20 19:01:01 #25#/#25# crond(pam_unix)[18182]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 #25# Nov 20 19:01:01 #25#/#25# crond[18183]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 eadmin1 Nov 20 19:01:01 src@eadmin1 crond(pam_unix)[616]: session closed for user root
+- 1132542061 2005.11.20 eadmin1 Nov 20 19:01:01 src@eadmin1 crond(pam_unix)[616]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 eadmin1 Nov 20 19:01:01 src@eadmin1 crond[617]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542061 2005.11.20 eadmin2 Nov 20 19:01:01 src@eadmin2 crond(pam_unix)[23546]: session closed for user root
+- 1132542061 2005.11.20 eadmin2 Nov 20 19:01:01 src@eadmin2 crond(pam_unix)[23546]: session opened for user root by (uid=0)
+- 1132542061 2005.11.20 eadmin2 Nov 20 19:01:01 src@eadmin2 crond[23547]: (root) CMD (run-parts /etc/cron.hourly)
+- 1132542069 2005.11.20 badmin1 Nov 20 19:01:09 src@badmin1 sshd(pam_unix)[18883]: session opened for user root by (uid=0)
+- 1132542069 2005.11.20 badmin1 Nov 20 19:01:09 src@badmin1 sshd[18881]: Accepted publickey for root from ::ffff:10.100.248.1 port 43216 ssh2
+- 1132542077 2005.11.20 badmin1 Nov 20 19:01:17 src@badmin1 sshd(pam_unix)[18927]: session opened for user root by (uid=0)
+- 1132542077 2005.11.20 badmin1 Nov 20 19:01:17 src@badmin1 sshd[18925]: Accepted publickey for root from ::ffff:10.100.248.1 port 43310 ssh2
+- 1132542084 2005.11.20 badmin1 Nov 20 19:01:24 src@badmin1 sshd(pam_unix)[18971]: session opened for user root by (uid=0)
+- 1132542084 2005.11.20 badmin1 Nov 20 19:01:24 src@badmin1 sshd[18969]: Accepted publickey for root from ::ffff:10.100.248.1 port 43428 ssh2
+- 1132542091 2005.11.20 eadmin1 Nov 20 19:01:31 src@eadmin1 crond(pam_unix)[29999]: session closed for user root
+- 1132542091 2005.11.20 eadmin1 Nov 20 19:01:31 src@eadmin1 sendmail[615]: jAL21VDN000615: from=root, size=631354, class=0, nrcpts=1, msgid=<200511210201.jAL21VDN000615@eadmin1>, relay=#7#@localhost
+- 1132542091 2005.11.20 eadmin1 Nov 20 19:01:31 src@eadmin1 sendmail[615]: jAL21VDN000615: to=root, ctladdr=root (0/0), delay=00:00:00, xdelay=00:00:00, mailer=relay, pri=661354, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132542091 2005.11.20 eadmin1 Nov 20 19:01:31 src@eadmin1 sendmail[615]: unable to qualify my own domain name (eadmin1) -- using short name
+- 1132542092 2005.11.20 aadmin1 Nov 20 19:01:32 src@aadmin1 sendmail[16729]: unable to qualify my own domain name (aadmin1) -- using short name
+- 1132542093 2005.11.20 cadmin1 Nov 20 19:01:33 src@cadmin1 sendmail[30940]: unable to qualify my own domain name (cadmin1) -- using short name
+- 1132542093 2005.11.20 dadmin1 Nov 20 19:01:33 src@dadmin1 sendmail[5088]: unable to qualify my own domain name (dadmin1) -- using short name
+- 1132542094 2005.11.20 aadmin1 Nov 20 19:01:34 src@aadmin1 crond(pam_unix)[13651]: session closed for user root
+- 1132542094 2005.11.20 aadmin1 Nov 20 19:01:34 src@aadmin1 sendmail[16729]: jAL21WWp016729: from=root, size=1588879, class=0, nrcpts=1, msgid=<200511210201.jAL21WWp016729@aadmin1>, relay=#7#@localhost
+- 1132542094 2005.11.20 aadmin1 Nov 20 19:01:34 src@aadmin1 sendmail[16729]: jAL21WWp016729: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1618879, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132542095 2005.11.20 cadmin1 Nov 20 19:01:35 src@cadmin1 crond(pam_unix)[27863]: session closed for user root
+- 1132542095 2005.11.20 cadmin1 Nov 20 19:01:35 src@cadmin1 sendmail[30940]: jAL21Xc8030940: from=root, size=1556749, class=0, nrcpts=1, msgid=<200511210201.jAL21Xc8030940@cadmin1>, relay=#7#@localhost
+- 1132542095 2005.11.20 cadmin1 Nov 20 19:01:35 src@cadmin1 sendmail[30940]: jAL21Xc8030940: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1586749, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132542095 2005.11.20 dadmin1 Nov 20 19:01:35 src@dadmin1 crond(pam_unix)[2005]: session closed for user root
+- 1132542095 2005.11.20 dadmin1 Nov 20 19:01:35 src@dadmin1 sendmail[5088]: jAL21XeU005088: from=root, size=1541310, class=0, nrcpts=1, msgid=<200511210201.jAL21XeU005088@dadmin1>, relay=#7#@localhost
+- 1132542095 2005.11.20 dadmin1 Nov 20 19:01:35 src@dadmin1 sendmail[5088]: jAL21XeU005088: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1571310, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132542097 2005.11.20 badmin1 Nov 20 19:01:37 src@badmin1 sendmail[18746]: unable to qualify my own domain name (badmin1) -- using short name
+- 1132542098 2005.11.20 badmin1 Nov 20 19:01:38 src@badmin1 sshd(pam_unix)[19015]: session opened for user root by (uid=0)
+- 1132542098 2005.11.20 badmin1 Nov 20 19:01:38 src@badmin1 sshd[19013]: Accepted publickey for root from ::ffff:10.100.248.1 port 43603 ssh2
+- 1132542099 2005.11.20 badmin1 Nov 20 19:01:39 src@badmin1 crond(pam_unix)[15449]: session closed for user root
+- 1132542099 2005.11.20 badmin1 Nov 20 19:01:39 src@badmin1 sendmail[18746]: jAL21boD018746: from=root, size=1566039, class=0, nrcpts=1, msgid=<200511210201.jAL21boD018746@badmin1>, relay=#7#@localhost
+- 1132542099 2005.11.20 badmin1 Nov 20 19:01:39 src@badmin1 sendmail[18746]: jAL21boD018746: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1596039, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]
+- 1132542106 2005.11.20 badmin1 Nov 20 19:01:46 src@badmin1 sshd(pam_unix)[19059]: session opened for user root by (uid=0)
+- 1132542106 2005.11.20 badmin1 Nov 20 19:01:46 src@badmin1 sshd[19057]: Accepted publickey for root from ::ffff:10.100.248.1 port 43659 ssh2
+- 1132542113 2005.11.20 badmin1 Nov 20 19:01:53 src@badmin1 sshd(pam_unix)[19103]: session opened for user root by (uid=0)
+- 1132542113 2005.11.20 badmin1 Nov 20 19:01:53 src@badmin1 sshd[19101]: Accepted publickey for root from ::ffff:10.100.248.1 port 43789 ssh2
+- 1132542127 2005.11.20 badmin1 Nov 20 19:02:07 src@badmin1 sshd(pam_unix)[19147]: session opened for user root by (uid=0)
+- 1132542127 2005.11.20 badmin1 Nov 20 19:02:07 src@badmin1 sshd[19145]: Accepted publickey for root from ::ffff:10.100.248.1 port 43976 ssh2
+- 1132542135 2005.11.20 badmin1 Nov 20 19:02:15 src@badmin1 sshd(pam_unix)[19191]: session opened for user root by (uid=0)
+- 1132542135 2005.11.20 badmin1 Nov 20 19:02:15 src@badmin1 sshd[19189]: Accepted publickey for root from ::ffff:10.100.248.1 port 44020 ssh2
+- 1132542142 2005.11.20 badmin1 Nov 20 19:02:22 src@badmin1 sshd(pam_unix)[19235]: session opened for user root by (uid=0)
+- 1132542142 2005.11.20 badmin1 Nov 20 19:02:22 src@badmin1 sshd[19233]: Accepted publickey for root from ::ffff:10.100.248.1 port 44111 ssh2
+- 1132542156 2005.11.20 badmin1 Nov 20 19:02:36 src@badmin1 sshd(pam_unix)[19279]: session opened for user root by (uid=0)
+- 1132542156 2005.11.20 badmin1 Nov 20 19:02:36 src@badmin1 sshd[19277]: Accepted publickey for root from ::ffff:10.100.248.1 port 44337 ssh2
+- 1132542164 2005.11.20 badmin1 Nov 20 19:02:44 src@badmin1 sshd(pam_unix)[19323]: session opened for user root by (uid=0)
+- 1132542164 2005.11.20 badmin1 Nov 20 19:02:44 src@badmin1 sshd[19321]: Accepted publickey for root from ::ffff:10.100.248.1 port 44406 ssh2
+- 1132542171 2005.11.20 badmin1 Nov 20 19:02:51 src@badmin1 sshd(pam_unix)[19367]: session opened for user root by (uid=0)
+- 1132542171 2005.11.20 badmin1 Nov 20 19:02:51 src@badmin1 sshd[19365]: Accepted publickey for root from ::ffff:10.100.248.1 port 44498 ssh2
+- 1132542185 2005.11.20 badmin1 Nov 20 19:03:05 src@badmin1 sshd(pam_unix)[19411]: session opened for user root by (uid=0)
+- 1132542185 2005.11.20 badmin1 Nov 20 19:03:05 src@badmin1 sshd[19409]: Accepted publickey for root from ::ffff:10.100.248.1 port 44724 ssh2
+- 1132542193 2005.11.20 badmin1 Nov 20 19:03:13 src@badmin1 sshd(pam_unix)[19455]: session opened for user root by (uid=0)
+- 1132542193 2005.11.20 badmin1 Nov 20 19:03:13 src@badmin1 sshd[19453]: Accepted publickey for root from ::ffff:10.100.248.1 port 44780 ssh2
+- 1132542199 2005.11.20 badmin1 Nov 20 19:03:19 src@badmin1 sshd(pam_unix)[19499]: session opened for user root by (uid=0)
+- 1132542199 2005.11.20 badmin1 Nov 20 19:03:19 src@badmin1 sshd[19497]: Accepted publickey for root from ::ffff:10.100.248.1 port 44898 ssh2
+- 1132542213 2005.11.20 badmin1 Nov 20 19:03:33 src@badmin1 sshd(pam_unix)[19543]: session opened for user root by (uid=0)
+- 1132542213 2005.11.20 badmin1 Nov 20 19:03:33 src@badmin1 sshd[19541]: Accepted publickey for root from ::ffff:10.100.248.1 port 45068 ssh2
+- 1132542222 2005.11.20 badmin1 Nov 20 19:03:42 src@badmin1 sshd(pam_unix)[19587]: session opened for user root by (uid=0)
+- 1132542222 2005.11.20 badmin1 Nov 20 19:03:42 src@badmin1 sshd[19585]: Accepted publickey for root from ::ffff:10.100.248.1 port 45165 ssh2
+- 1132542228 2005.11.20 badmin1 Nov 20 19:03:48 src@badmin1 sshd(pam_unix)[19631]: session opened for user root by (uid=0)
+- 1132542228 2005.11.20 badmin1 Nov 20 19:03:48 src@badmin1 sshd[19629]: Accepted publickey for root from ::ffff:10.100.248.1 port 45220 ssh2
+- 1132542242 2005.11.20 badmin1 Nov 20 19:04:02 src@badmin1 sshd(pam_unix)[19675]: session opened for user root by (uid=0)
+- 1132542242 2005.11.20 badmin1 Nov 20 19:04:02 src@badmin1 sshd[19673]: Accepted publickey for root from ::ffff:10.100.248.1 port 45416 ssh2
+- 1132542251 2005.11.20 badmin1 Nov 20 19:04:11 src@badmin1 sshd(pam_unix)[19719]: session opened for user root by (uid=0)
+- 1132542251 2005.11.20 badmin1 Nov 20 19:04:11 src@badmin1 sshd[19717]: Accepted publickey for root from ::ffff:10.100.248.1 port 45514 ssh2
+- 1132542257 2005.11.20 badmin1 Nov 20 19:04:17 src@badmin1 sshd(pam_unix)[19763]: session opened for user root by (uid=0)
+- 1132542257 2005.11.20 badmin1 Nov 20 19:04:17 src@badmin1 sshd[19761]: Accepted publickey for root from ::ffff:10.100.248.1 port 45633 ssh2
+- 1132542271 2005.11.20 badmin1 Nov 20 19:04:31 src@badmin1 sshd(pam_unix)[19807]: session opened for user root by (uid=0)
+- 1132542271 2005.11.20 badmin1 Nov 20 19:04:31 src@badmin1 sshd[19805]: Accepted publickey for root from ::ffff:10.100.248.1 port 45794 ssh2
+- 1132542280 2005.11.20 badmin1 Nov 20 19:04:40 src@badmin1 sshd(pam_unix)[19851]: session opened for user root by (uid=0)
+- 1132542280 2005.11.20 badmin1 Nov 20 19:04:40 src@badmin1 sshd[19849]: Accepted publickey for root from ::ffff:10.100.248.1 port 45901 ssh2
+- 1132542286 2005.11.20 badmin1 Nov 20 19:04:46 src@badmin1 sshd(pam_unix)[19895]: session opened for user root by (uid=0)
+- 1132542286 2005.11.20 badmin1 Nov 20 19:04:46 src@badmin1 sshd[19893]: Accepted publickey for root from ::ffff:10.100.248.1 port 46007 ssh2
+- 1132542300 2005.11.20 badmin1 Nov 20 19:05:00 src@badmin1 sshd(pam_unix)[19939]: session opened for user root by (uid=0)
+- 1132542300 2005.11.20 badmin1 Nov 20 19:05:00 src@badmin1 sshd[19937]: Accepted publickey for root from ::ffff:10.100.248.1 port 46155 ssh2
+- 1132542309 2005.11.20 badmin1 Nov 20 19:05:09 src@badmin1 sshd(pam_unix)[19983]: session opened for user root by (uid=0)
+- 1132542309 2005.11.20 badmin1 Nov 20 19:05:09 src@badmin1 sshd[19981]: Accepted publickey for root from ::ffff:10.100.248.1 port 46300 ssh2
+- 1132542315 2005.11.20 badmin1 Nov 20 19:05:15 src@badmin1 sshd(pam_unix)[20027]: session opened for user root by (uid=0)
+- 1132542315 2005.11.20 badmin1 Nov 20 19:05:15 src@badmin1 sshd[20025]: Accepted publickey for root from ::ffff:10.100.248.1 port 46380 ssh2
+- 1132542329 2005.11.20 badmin1 Nov 20 19:05:29 src@badmin1 sshd(pam_unix)[20071]: session opened for user root by (uid=0)
+- 1132542329 2005.11.20 badmin1 Nov 20 19:05:29 src@badmin1 sshd[20069]: Accepted publickey for root from ::ffff:10.100.248.1 port 46516 ssh2
+- 1132542338 2005.11.20 badmin1 Nov 20 19:05:38 src@badmin1 sshd(pam_unix)[20115]: session opened for user root by (uid=0)
+- 1132542338 2005.11.20 badmin1 Nov 20 19:05:38 src@badmin1 sshd[20113]: Accepted publickey for root from ::ffff:10.100.248.1 port 46675 ssh2
+- 1132542344 2005.11.20 badmin1 Nov 20 19:05:44 src@badmin1 sshd(pam_unix)[20159]: session opened for user root by (uid=0)
+- 1132542344 2005.11.20 badmin1 Nov 20 19:05:44 src@badmin1 sshd[20157]: Accepted publickey for root from ::ffff:10.100.248.1 port 46741 ssh2
+- 1132542357 2005.11.20 badmin1 Nov 20 19:05:57 src@badmin1 sshd(pam_unix)[20203]: session opened for user root by (uid=0)
+- 1132542357 2005.11.20 badmin1 Nov 20 19:05:57 src@badmin1 sshd[20201]: Accepted publickey for root from ::ffff:10.100.248.1 port 46877 ssh2
+- 1132542366 2005.11.20 badmin1 Nov 20 19:06:06 src@badmin1 sshd(pam_unix)[20247]: session opened for user root by (uid=0)
+- 1132542366 2005.11.20 badmin1 Nov 20 19:06:06 src@badmin1 sshd[20245]: Accepted publickey for root from ::ffff:10.100.248.1 port 47049 ssh2
+- 1132542373 2005.11.20 badmin1 Nov 20 19:06:13 src@badmin1 sshd(pam_unix)[20291]: session opened for user root by (uid=0)
+- 1132542373 2005.11.20 badmin1 Nov 20 19:06:13 src@badmin1 sshd[20289]: Accepted publickey for root from ::ffff:10.100.248.1 port 47128 ssh2
+- 1132542386 2005.11.20 badmin1 Nov 20 19:06:26 src@badmin1 sshd(pam_unix)[20335]: session opened for user root by (uid=0)
+- 1132542386 2005.11.20 badmin1 Nov 20 19:06:26 src@badmin1 sshd[20333]: Accepted publickey for root from ::ffff:10.100.248.1 port 47221 ssh2
+- 1132542395 2005.11.20 badmin1 Nov 20 19:06:35 src@badmin1 sshd(pam_unix)[20379]: session opened for user root by (uid=0)
+- 1132542395 2005.11.20 badmin1 Nov 20 19:06:35 src@badmin1 sshd[20377]: Accepted publickey for root from ::ffff:10.100.248.1 port 47414 ssh2
+- 1132542402 2005.11.20 badmin1 Nov 20 19:06:42 src@badmin1 sshd(pam_unix)[20423]: session opened for user root by (uid=0)
+- 1132542402 2005.11.20 badmin1 Nov 20 19:06:42 src@badmin1 sshd[20421]: Accepted publickey for root from ::ffff:10.100.248.1 port 47502 ssh2
+- 1132542414 2005.11.20 badmin1 Nov 20 19:06:54 src@badmin1 sshd(pam_unix)[20467]: session opened for user root by (uid=0)
+- 1132542414 2005.11.20 badmin1 Nov 20 19:06:54 src@badmin1 sshd[20465]: Accepted publickey for root from ::ffff:10.100.248.1 port 47582 ssh2
+- 1132542424 2005.11.20 badmin1 Nov 20 19:07:04 src@badmin1 sshd(pam_unix)[20511]: session opened for user root by (uid=0)
+- 1132542424 2005.11.20 badmin1 Nov 20 19:07:04 src@badmin1 sshd[20509]: Accepted publickey for root from ::ffff:10.100.248.1 port 47756 ssh2

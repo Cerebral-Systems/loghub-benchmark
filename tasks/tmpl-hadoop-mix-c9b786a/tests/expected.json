@@ -1,0 +1,366 @@
+{
+  "files": [
+    "hadoop-2k.log"
+  ],
+  "n_input_lines": 200,
+  "rand_index_threshold": 0.85,
+  "schema_version": "loghub-sre-answer-v2-tmpl",
+  "template_count_tolerance": 1,
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        13,
+        14,
+        26,
+        27,
+        38,
+        41,
+        53,
+        55,
+        56,
+        88,
+        89
+      ],
+      "template": "Progress of TaskAttempt attempt_<*> is : <*>.<*>",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3,
+        5,
+        6,
+        10,
+        12,
+        15,
+        19,
+        21,
+        22,
+        28,
+        30,
+        31,
+        35,
+        37,
+        39,
+        44,
+        46,
+        47,
+        51,
+        54,
+        64,
+        70,
+        80,
+        83,
+        84,
+        99,
+        107,
+        110,
+        111,
+        115,
+        117,
+        118,
+        122,
+        124,
+        125,
+        129,
+        131,
+        132,
+        136,
+        137,
+        141,
+        143,
+        144,
+        148,
+        150,
+        151,
+        155,
+        157,
+        158,
+        162,
+        164,
+        165,
+        169,
+        171,
+        172,
+        176,
+        178,
+        179,
+        183,
+        185,
+        186,
+        190,
+        192,
+        193,
+        197,
+        199,
+        200
+      ],
+      "template": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 4,
+      "matching_lines": [
+        4,
+        7,
+        11,
+        16,
+        20,
+        23,
+        29,
+        32,
+        36,
+        40,
+        45,
+        48,
+        52,
+        65,
+        81,
+        85,
+        108,
+        112,
+        116,
+        119,
+        123,
+        126,
+        130,
+        133,
+        138,
+        142,
+        145,
+        149,
+        152,
+        156,
+        159,
+        163,
+        166,
+        170,
+        173,
+        177,
+        180,
+        184,
+        187,
+        191,
+        194,
+        198
+      ],
+      "template": "Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>_<*>] for <*> seconds.  Will retry shortly ...",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 8,
+      "matching_lines": [
+        8,
+        17,
+        24,
+        33,
+        42,
+        49,
+        66,
+        86,
+        113,
+        120,
+        127,
+        134,
+        139,
+        146,
+        153,
+        160,
+        167,
+        174,
+        181,
+        188,
+        195
+      ],
+      "template": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 9,
+      "matching_lines": [
+        9,
+        18,
+        25,
+        34,
+        43,
+        50,
+        67,
+        87,
+        114,
+        121,
+        128,
+        135,
+        140,
+        147,
+        154,
+        161,
+        168,
+        175,
+        182,
+        189,
+        196
+      ],
+      "template": "ERROR IN CONTACTING RM.",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 57,
+      "matching_lines": [
+        57,
+        90
+      ],
+      "template": "Task: attempt_<*> - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 58,
+      "matching_lines": [
+        58,
+        59,
+        91,
+        92
+      ],
+      "template": "Diagnostics report from attempt_<*>: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 60,
+      "matching_lines": [
+        60,
+        93
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP",
+      "template_id": "T8"
+    },
+    {
+      "example_line_number": 61,
+      "matching_lines": [
+        61,
+        94
+      ],
+      "template": "Processing the event EventType: CONTAINER_REMOTE_<*> for container container_<*> taskAttempt attempt_<*>",
+      "template_id": "T9"
+    },
+    {
+      "example_line_number": 62,
+      "matching_lines": [
+        62,
+        95
+      ],
+      "template": "KILLING attempt_<*>",
+      "template_id": "T10"
+    },
+    {
+      "example_line_number": 63,
+      "matching_lines": [
+        63,
+        96
+      ],
+      "template": "Opening proxy : <*>:<*>",
+      "template_id": "T11"
+    },
+    {
+      "example_line_number": 68,
+      "matching_lines": [
+        68,
+        97
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP",
+      "template_id": "T12"
+    },
+    {
+      "example_line_number": 69,
+      "matching_lines": [
+        69,
+        98
+      ],
+      "template": "Processing the event EventType: TASK_ABORT",
+      "template_id": "T13"
+    },
+    {
+      "example_line_number": 71,
+      "matching_lines": [
+        71,
+        100
+      ],
+      "template": "Task cleanup failed for attempt attempt_<*>",
+      "template_id": "T14"
+    },
+    {
+      "example_line_number": 72,
+      "matching_lines": [
+        72,
+        101
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED",
+      "template_id": "T15"
+    },
+    {
+      "example_line_number": 73,
+      "matching_lines": [
+        73,
+        74,
+        102,
+        103
+      ],
+      "template": "Resolved <*> to /default-rack",
+      "template_id": "T16"
+    },
+    {
+      "example_line_number": 75,
+      "matching_lines": [
+        75,
+        104
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from NEW to UNASSIGNED",
+      "template_id": "T17"
+    },
+    {
+      "example_line_number": 76,
+      "matching_lines": [
+        76
+      ],
+      "template": "Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>",
+      "template_id": "T18"
+    },
+    {
+      "example_line_number": 77,
+      "matching_lines": [
+        77
+      ],
+      "template": "Thread Thread[eventHandlingThread,<*>,main] threw an Exception.",
+      "template_id": "T19"
+    },
+    {
+      "example_line_number": 78,
+      "matching_lines": [
+        78,
+        105
+      ],
+      "template": "<*> failures on node MININT-<*>",
+      "template_id": "T20"
+    },
+    {
+      "example_line_number": 79,
+      "matching_lines": [
+        79,
+        106
+      ],
+      "template": "Added attempt_<*> to list of failed maps",
+      "template_id": "T21"
+    },
+    {
+      "example_line_number": 82,
+      "matching_lines": [
+        82,
+        109
+      ],
+      "template": "Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>",
+      "template_id": "T22"
+    }
+  ],
+  "total_unique_templates": 22
+}

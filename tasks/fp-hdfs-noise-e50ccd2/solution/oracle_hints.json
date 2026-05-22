@@ -1,0 +1,31 @@
+{
+  "indicator_locations": [
+    {
+      "file": "hdfs-misc.log",
+      "line": 1,
+      "why_not_anomalous": "expected_event"
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 2,
+      "why_not_anomalous": "expected_event"
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 3,
+      "why_not_anomalous": "expected_event"
+    },
+    {
+      "file": "hdfs-misc.log",
+      "line": 4,
+      "why_not_anomalous": "expected_event"
+    }
+  ],
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

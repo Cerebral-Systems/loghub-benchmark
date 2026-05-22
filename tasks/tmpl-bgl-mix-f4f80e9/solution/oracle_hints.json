@@ -1,0 +1,178 @@
+{
+  "input_file": "bgl-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "template": "generating core.<*>",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 10,
+      "matching_lines": [
+        10
+      ],
+      "template": "ciod: LOGIN chdir(<*>) failed: No such file or directory",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 13,
+      "matching_lines": [
+        13,
+        15,
+        23,
+        26,
+        89
+      ],
+      "template": "CE sym <*>, at <*>, mask <*>",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 14,
+      "matching_lines": [
+        14
+      ],
+      "template": "<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 29,
+      "matching_lines": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ],
+      "template": "data TLB error interrupt",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 90,
+      "matching_lines": [
+        90
+      ],
+      "template": "ciod: Message code <*> is not <*> or <*>",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 91,
+      "matching_lines": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "template": "data storage interrupt",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 99,
+      "matching_lines": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "template": "instruction address: <*>",
+      "template_id": "T8"
+    }
+  ],
+  "total_unique_templates": 8
+}

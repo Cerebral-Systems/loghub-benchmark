@@ -1,0 +1,19 @@
+{
+  "causal_chain": [
+    {
+      "component": "thunderbird-compute.log",
+      "evidence_line": 6,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "thunderbird-domain.log",
+      "evidence_line": 4,
+      "role": "downstream",
+      "step": 1
+    }
+  ],
+  "root_cause_type": "vapi",
+  "root_component": "thunderbird-compute.log"
+}

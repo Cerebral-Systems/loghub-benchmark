@@ -1,0 +1,53 @@
+{
+  "allowed_roles": [
+    "trigger",
+    "propagation",
+    "consequence",
+    "noise"
+  ],
+  "allowed_root_causes": [
+    "replication_failure",
+    "data_corruption",
+    "datanode_unreachable",
+    "namenode_error",
+    "timeout",
+    "other"
+  ],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
+  ],
+  "is_incident": true,
+  "kendall_tau_threshold": 0.8,
+  "root_cause_type": "other",
+  "schema_version": "loghub-sre-answer-v2-seq",
+  "timeline": [
+    {
+      "file": "hdfs-namenode.log",
+      "line": 6536,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 4524,
+      "role": "consequence",
+      "sequence": 1
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 4531,
+      "role": "consequence",
+      "sequence": 2
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 5501,
+      "role": "consequence",
+      "sequence": 3
+    }
+  ]
+}

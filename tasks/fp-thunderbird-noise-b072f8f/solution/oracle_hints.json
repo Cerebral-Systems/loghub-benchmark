@@ -1,0 +1,36 @@
+{
+  "indicator_locations": [
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 1,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 2,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 3,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 4,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "thunderbird-tbird.log",
+      "line": 5,
+      "why_not_anomalous": "transient_state"
+    }
+  ],
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

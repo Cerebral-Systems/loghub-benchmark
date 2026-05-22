@@ -1,0 +1,332 @@
+{
+  "input_file": "hadoop-2k.log",
+  "templates": [
+    {
+      "example_line_number": 1,
+      "matching_lines": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17,
+        41,
+        46,
+        65,
+        70,
+        84,
+        89
+      ],
+      "template": "Resolved <*> to /default-rack",
+      "template_id": "T1"
+    },
+    {
+      "example_line_number": 3,
+      "matching_lines": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        19
+      ],
+      "template": "task_<*> Task Transitioned from NEW to SCHEDULED",
+      "template_id": "T2"
+    },
+    {
+      "example_line_number": 20,
+      "matching_lines": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from NEW to UNASSIGNED",
+      "template_id": "T3"
+    },
+    {
+      "example_line_number": 31,
+      "matching_lines": [
+        31
+      ],
+      "template": "mapResourceRequest:<memory:<*>, vCores:<*>>",
+      "template_id": "T4"
+    },
+    {
+      "example_line_number": 32,
+      "matching_lines": [
+        32
+      ],
+      "template": "Event Writer setup for JobId: job_<*>, File: hdfs://<*>",
+      "template_id": "T5"
+    },
+    {
+      "example_line_number": 33,
+      "matching_lines": [
+        33
+      ],
+      "template": "reduceResourceRequest:<memory:<*>, vCores:<*>>",
+      "template_id": "T6"
+    },
+    {
+      "example_line_number": 34,
+      "matching_lines": [
+        34
+      ],
+      "template": "Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>",
+      "template_id": "T7"
+    },
+    {
+      "example_line_number": 35,
+      "matching_lines": [
+        35,
+        61,
+        80,
+        99
+      ],
+      "template": "getResources() for application_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*>> knownNMs=<*>",
+      "template_id": "T8"
+    },
+    {
+      "example_line_number": 36,
+      "matching_lines": [
+        36,
+        38,
+        43,
+        62,
+        67,
+        81,
+        86,
+        100,
+        105,
+        107,
+        109,
+        114,
+        116
+      ],
+      "template": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>>",
+      "template_id": "T9"
+    },
+    {
+      "example_line_number": 37,
+      "matching_lines": [
+        37,
+        39,
+        44,
+        63,
+        68,
+        82,
+        87,
+        101,
+        106,
+        108,
+        110,
+        115
+      ],
+      "template": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>",
+      "template_id": "T10"
+    },
+    {
+      "example_line_number": 40,
+      "matching_lines": [
+        40,
+        64,
+        83
+      ],
+      "template": "Got allocated containers <*>",
+      "template_id": "T11"
+    },
+    {
+      "example_line_number": 42,
+      "matching_lines": [
+        42,
+        66,
+        85
+      ],
+      "template": "Assigned container container_<*> to attempt_<*>",
+      "template_id": "T12"
+    },
+    {
+      "example_line_number": 45,
+      "matching_lines": [
+        45,
+        69,
+        88
+      ],
+      "template": "After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:0 ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>",
+      "template_id": "T13"
+    },
+    {
+      "example_line_number": 47,
+      "matching_lines": [
+        47
+      ],
+      "template": "The job-jar file on the remote FS is hdfs://<*>",
+      "template_id": "T14"
+    },
+    {
+      "example_line_number": 48,
+      "matching_lines": [
+        48
+      ],
+      "template": "The job-conf file on the remote FS is <*>",
+      "template_id": "T15"
+    },
+    {
+      "example_line_number": 49,
+      "matching_lines": [
+        49
+      ],
+      "template": "Adding #<*> tokens and #<*> secret keys for NM use for launching container",
+      "template_id": "T16"
+    },
+    {
+      "example_line_number": 50,
+      "matching_lines": [
+        50
+      ],
+      "template": "Size of containertokens_dob is <*>",
+      "template_id": "T17"
+    },
+    {
+      "example_line_number": 51,
+      "matching_lines": [
+        51
+      ],
+      "template": "Putting shuffle token in serviceData",
+      "template_id": "T18"
+    },
+    {
+      "example_line_number": 52,
+      "matching_lines": [
+        52,
+        71,
+        90
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED",
+      "template_id": "T19"
+    },
+    {
+      "example_line_number": 53,
+      "matching_lines": [
+        53,
+        72,
+        91
+      ],
+      "template": "Processing the event EventType: CONTAINER_REMOTE_<*> for container container_<*> taskAttempt attempt_<*>",
+      "template_id": "T20"
+    },
+    {
+      "example_line_number": 54,
+      "matching_lines": [
+        54,
+        73,
+        92
+      ],
+      "template": "Launching attempt_<*>",
+      "template_id": "T21"
+    },
+    {
+      "example_line_number": 55,
+      "matching_lines": [
+        55,
+        74,
+        93
+      ],
+      "template": "Opening proxy : <*>:<*>",
+      "template_id": "T22"
+    },
+    {
+      "example_line_number": 56,
+      "matching_lines": [
+        56,
+        75,
+        94
+      ],
+      "template": "Shuffle port returned by ContainerManager for attempt_<*> : <*>",
+      "template_id": "T23"
+    },
+    {
+      "example_line_number": 57,
+      "matching_lines": [
+        57,
+        76,
+        95
+      ],
+      "template": "TaskAttempt: [attempt_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [<*>:<*>]",
+      "template_id": "T24"
+    },
+    {
+      "example_line_number": 58,
+      "matching_lines": [
+        58,
+        77,
+        96
+      ],
+      "template": "attempt_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING",
+      "template_id": "T25"
+    },
+    {
+      "example_line_number": 59,
+      "matching_lines": [
+        59,
+        78,
+        97
+      ],
+      "template": "ATTEMPT_START task_<*>",
+      "template_id": "T26"
+    },
+    {
+      "example_line_number": 60,
+      "matching_lines": [
+        60,
+        79,
+        98
+      ],
+      "template": "task_<*> Task Transitioned from SCHEDULED to RUNNING",
+      "template_id": "T27"
+    },
+    {
+      "example_line_number": 102,
+      "matching_lines": [
+        102,
+        111
+      ],
+      "template": "Auth successful for job_<*> (auth:SIMPLE)",
+      "template_id": "T28"
+    },
+    {
+      "example_line_number": 103,
+      "matching_lines": [
+        103,
+        112
+      ],
+      "template": "JVM with ID : jvm_<*> asked for a task",
+      "template_id": "T29"
+    },
+    {
+      "example_line_number": 104,
+      "matching_lines": [
+        104,
+        113
+      ],
+      "template": "JVM with ID: jvm_<*> given task: <*>_<*>",
+      "template_id": "T30"
+    }
+  ],
+  "total_unique_templates": 30
+}

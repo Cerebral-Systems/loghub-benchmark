@@ -1,0 +1,137 @@
+{
+  "allowed_justifications": [
+    "multi_component",
+    "single_critical",
+    "recoverable",
+    "transient_warning"
+  ],
+  "allowed_root_causes": [
+    "vm_task_failure",
+    "network_error",
+    "image_pull_failure",
+    "other"
+  ],
+  "allowed_severities": [
+    "P0",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "anomaly_keys": [
+    "544fd51c-4edc-4780-baae-ba1d80a0acfc"
+  ],
+  "component_count": 1,
+  "evidence": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1049
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1050
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1051
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1052
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1053
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1054
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1055
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1056
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1057
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1062
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1063
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1064
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1068
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1069
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1070
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1071
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1072
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1073
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1084
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1085
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1086
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1087
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1088
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1089
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1102
+    }
+  ],
+  "files": [
+    "openstack-nova-api.log",
+    "openstack-nova-compute.log",
+    "openstack-nova-scheduler.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_type": "vm_task_failure",
+  "schema_version": "loghub-sre-answer-v2-sev",
+  "severity": "P1",
+  "severity_justification": "single_critical"
+}

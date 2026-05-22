@@ -1,0 +1,116 @@
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+task_1445144423722_0020_m_000004 Task Transitioned from NEW to SCHEDULED
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+task_1445144423722_0020_m_000005 Task Transitioned from NEW to SCHEDULED
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+task_1445144423722_0020_m_000006 Task Transitioned from NEW to SCHEDULED
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+task_1445144423722_0020_m_000007 Task Transitioned from NEW to SCHEDULED
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+task_1445144423722_0020_m_000008 Task Transitioned from NEW to SCHEDULED
+Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack
+Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack
+task_1445144423722_0020_m_000009 Task Transitioned from NEW to SCHEDULED
+task_1445144423722_0020_r_000000 Task Transitioned from NEW to SCHEDULED
+attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000004_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000008_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+attempt_1445144423722_0020_r_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+mapResourceRequest:<memory:1024, vCores:1>
+Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist
+reduceResourceRequest:<memory:1024, vCores:1>
+Before Scheduling: PendingReds:1 ScheduledMaps:10 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:0 ContRel:0 HostLocal:0 RackLocal:0
+getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:10240, vCores:-17> knownNMs=4
+Recalculating schedule, headroom=<memory:10240, vCores:-17>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:10240, vCores:-17>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Got allocated containers 1
+Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+Assigned container container_1445144423722_0020_01_000002 to attempt_1445144423722_0020_m_000000_0
+Recalculating schedule, headroom=<memory:8192, vCores:-19>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+After Scheduling: PendingReds:1 ScheduledMaps:9 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:0 RackLocal:1
+Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack
+The job-jar file on the remote FS is hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.jar
+The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml
+Adding #0 tokens and #1 secret keys for NM use for launching container
+Size of containertokens_dob is 1
+Putting shuffle token in serviceData
+attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000002 taskAttempt attempt_1445144423722_0020_m_000000_0
+Launching attempt_1445144423722_0020_m_000000_0
+Opening proxy : 04DN8IQ.fareast.corp.microsoft.com:54883
+Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000000_0 : 13562
+TaskAttempt: [attempt_1445144423722_0020_m_000000_0] using containerId: [container_1445144423722_0020_01_000002 on NM: [04DN8IQ.fareast.corp.microsoft.com:54883]
+attempt_1445144423722_0020_m_000000_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+ATTEMPT_START task_1445144423722_0020_m_000000
+task_1445144423722_0020_m_000000 Task Transitioned from SCHEDULED to RUNNING
+getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:7168, vCores:-20> knownNMs=4
+Recalculating schedule, headroom=<memory:7168, vCores:-20>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Got allocated containers 1
+Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+Assigned container container_1445144423722_0020_01_000003 to attempt_1445144423722_0020_m_000001_0
+Recalculating schedule, headroom=<memory:5120, vCores:-22>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+After Scheduling: PendingReds:1 ScheduledMaps:8 ScheduledReds:0 AssignedMaps:2 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:0 RackLocal:2
+Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0
+Launching attempt_1445144423722_0020_m_000001_0
+Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368
+Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000001_0 : 13562
+TaskAttempt: [attempt_1445144423722_0020_m_000001_0] using containerId: [container_1445144423722_0020_01_000003 on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368]
+attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+ATTEMPT_START task_1445144423722_0020_m_000001
+task_1445144423722_0020_m_000001 Task Transitioned from SCHEDULED to RUNNING
+getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:4096, vCores:-23> knownNMs=4
+Recalculating schedule, headroom=<memory:4096, vCores:-23>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Got allocated containers 1
+Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+Assigned container container_1445144423722_0020_01_000004 to attempt_1445144423722_0020_m_000002_0
+Recalculating schedule, headroom=<memory:3072, vCores:-24>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+After Scheduling: PendingReds:1 ScheduledMaps:7 ScheduledReds:0 AssignedMaps:3 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:0 RackLocal:3
+Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0
+Launching attempt_1445144423722_0020_m_000002_0
+Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368
+Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000002_0 : 13562
+TaskAttempt: [attempt_1445144423722_0020_m_000002_0] using containerId: [container_1445144423722_0020_01_000004 on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368]
+attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+ATTEMPT_START task_1445144423722_0020_m_000002
+task_1445144423722_0020_m_000002 Task Transitioned from SCHEDULED to RUNNING
+getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:1024, vCores:-26> knownNMs=4
+Recalculating schedule, headroom=<memory:1024, vCores:-26>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Auth successful for job_1445144423722_0020 (auth:SIMPLE)
+JVM with ID : jvm_1445144423722_0020_m_000002 asked for a task
+JVM with ID: jvm_1445144423722_0020_m_000002 given task: attempt_1445144423722_0020_m_000000_0
+Recalculating schedule, headroom=<memory:1024, vCores:-26>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Auth successful for job_1445144423722_0020 (auth:SIMPLE)
+JVM with ID : jvm_1445144423722_0020_m_000003 asked for a task
+JVM with ID: jvm_1445144423722_0020_m_000003 given task: attempt_1445144423722_0020_m_000001_0
+Recalculating schedule, headroom=<memory:0, vCores:-27>
+Reduce slow start threshold not met. completedMapsForReduceSlowstart 1
+Recalculating schedule, headroom=<memory:0, vCores:-27>

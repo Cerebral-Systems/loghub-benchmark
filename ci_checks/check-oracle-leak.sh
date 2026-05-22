@@ -76,12 +76,53 @@ all_leaves = [
 ]
 
 # Answer-shaped tokens (always forbidden in any environment/ file).
+schema_version = expected.get("schema_version", "")
 answer_shaped = {
-    expected.get("schema_version", ""),
+    schema_version,
     '"root_cause_type"',
     '"anomaly_line_ids"',
     '"recommended_action"',
 }
+# v2-fp (false-positive triage) tasks have a different answer schema.
+if schema_version.endswith("-v2-fp"):
+    answer_shaped.update({
+        '"false_positive_indicators"',
+        '"why_not_anomalous"',
+        '"is_incident"',
+        '"confidence"',
+    })
+    for label in expected.get("allowed_why_not_anomalous", []):
+        if isinstance(label, str) and "_" in label:
+            answer_shaped.add(label)
+# v2-seq (temporal sequence) answers add timeline-shape tokens.
+if schema_version.endswith("-v2-seq"):
+    answer_shaped.update({
+        '"timeline"',
+        '"sequence"',
+        '"trigger"',
+        '"propagation"',
+        '"consequence"',
+    })
+# v2-corr (cross-component correlation) answers add causal-chain tokens.
+if schema_version.endswith("-v2-corr"):
+    answer_shaped.update({
+        '"causal_chain"',
+        '"caused_by_step"',
+        '"root_component"',
+    })
+# v2-sev (severity classification) answers add severity-shape tokens.
+if schema_version.endswith("-v2-sev"):
+    answer_shaped.update({
+        '"severity"',
+        '"severity_justification"',
+        '"P0"', '"P1"', '"P2"', '"P3"',
+    })
+    for label in expected.get("allowed_justifications", []):
+        if isinstance(label, str) and "_" in label:
+            answer_shaped.add(label)
+# v2-tmpl (template extraction) — only check non-log files for the schema
+# header. The log content IS the input; templates are by-design generalizations
+# of those lines, so per-template-text leak checks make no sense.
 for label in [expected.get("root_cause_type"), *expected.get("allowed_root_causes", []),
               *expected.get("safe_recommendations", [])]:
     if isinstance(label, str) and ("_" in label):
@@ -90,6 +131,8 @@ answer_shaped.discard("")
 
 env_dir = task_dir / "environment"
 failures = []
+
+is_tmpl = schema_version.endswith("-v2-tmpl")
 
 for path in env_dir.rglob("*"):
     if not path.is_file():
@@ -104,6 +147,14 @@ for path in env_dir.rglob("*"):
         for needle in answer_shaped:
             if needle and needle in text:
                 failures.append(f"{relative}: answer-shaped string {needle!r} in agent-visible log")
+                break
+    elif is_tmpl:
+        # For v2-tmpl, template strings (the leaves) ARE legitimate
+        # generalizations of input log content — checking them against
+        # non-log env files is too noisy. Restrict to answer-shaped tokens.
+        for needle in answer_shaped:
+            if needle and needle in text:
+                failures.append(f"{relative}: answer-shaped string {needle!r}")
                 break
     else:
         for needle in all_leaves:

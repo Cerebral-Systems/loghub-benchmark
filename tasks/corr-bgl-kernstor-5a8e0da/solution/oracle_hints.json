@@ -1,0 +1,26 @@
+{
+  "causal_chain": [
+    {
+      "component": "bgl-racks-a.log",
+      "evidence_line": 3,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "bgl-racks-c.log",
+      "evidence_line": 33,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "bgl-racks-b.log",
+      "evidence_line": 1,
+      "role": "downstream",
+      "step": 2
+    }
+  ],
+  "root_cause_type": "kernstor",
+  "root_component": "bgl-racks-a.log"
+}

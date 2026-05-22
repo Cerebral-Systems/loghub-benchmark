@@ -1,0 +1,196 @@
+428412 floating point alignment exceptions
+441348 floating point alignment exceptions
+iar 001061d4 dear 024696cc
+iar 00106348 dear 024696bc
+iar 00106204 dear 02f75edc
+CE sym 21, at 0x111d8c60, mask 0x01
+instruction cache parity error corrected
+CE sym 34, at 0x11e7ed80, mask 0x80
+2 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 6
+instruction cache parity error corrected
+ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1: invalid or missing program image, Permission denied
+ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1: invalid or missing program image, Permission denied
+iar 00105e88 dear 02f6436c
+iar 00105e84 dear 0244f29c
+CE sym 30, at 0x042358a0, mask 0x20
+ciod: generated 128 core files for program /g/g24/germann2/BGL-demo/SPaSM_mpi
+iar 001061e8 dear 0247012c
+iar 001061e8 dear 0247015c
+iar 00106200 dear 0247016c
+iar 001061b4 dear 024701dc
+iar 001061e8 dear 0247015c
+iar 00106200 dear 0247019c
+iar 00105e84 dear 024701dc
+iar 00106200 dear 0247019c
+iar 001061e8 dear 0247015c
+iar 001061e8 dear 0247018c
+iar 001061e8 dear 0247015c
+iar 001061e8 dear 0247012c
+iar 001061b4 dear 0247017c
+iar 001061b4 dear 024701ac
+iar 001061b4 dear 0247017c
+iar 00106200 dear 0247019c
+iar 001061e8 dear 0247015c
+iar 001061b4 dear 0247017c
+19220208 floating point alignment exceptions
+Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00589370 90990003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+program interrupt: privileged instruction...0
+iar 00106ba0 dear 0246de3c
+iar 00106b98 dear 0246dd9c
+iar 00106c0c dear 0246de1c
+5302707 floating point alignment exceptions
+iar 00106448 dear 0246dbbc
+iar 00106448 dear 0246db5c
+iar 00106448 dear 0246dbec
+CE sym 25, at 0x10e1bce0, mask 0x40
+iar 00106288 dear 02f7a0fc
+iar 00113890 dear 0fee9c3c
+iar 00113898 dear 0fee9c4c
+iar 00113898 dear 0fee9c4c
+5 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected
+CE sym 9, at 0x12870760, mask 0x40
+3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected
+CE sym 6, at 0x00e462c0, mask 0x02
+CE sym 25, at 0x00e19cc0, mask 0x10
+2 ddr errors(s) detected and corrected on rank 0, symbol 4, bit 4
+CE sym 15, at 0x1bb2fe80, mask 0x02
+rts: kernel terminated for reason 1004
+iar 00106274 dear 0246da8c
+iar 00106448 dear 0246dacc
+iar 00106298 dear 02f7a18c
+488205 floating point alignment exceptions
+ciod: generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.new_comp
+1 ddr errors(s) detected and corrected on rank 0, symbol 8, bit 7
+CE sym 25, at 0x12127ee0, mask 0x10
+rts: kernel terminated for reason 1004
+Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ wire, suppressing further interrupts of same type
+ciod: generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.rel2
+ciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111
+ciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111
+Node card VPD check: U11 node in processor card slot J04 do not match. VPD ecid 04D58088CB2FFFFF08031C104CE9, found 04CA80D8012FFFFF08061A8094CB
+Node card VPD check: U11 node in processor card slot J10 do not match. VPD ecid 07570DD8002FFFFF09031B7090E2, found 04D480D8482FFFFF0A071BA052DE
+rts: kernel terminated for reason 1004
+Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=009756d5 8bfa0003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007
+ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM.460-1115: invalid or missing program image, Permission denied
+18507114 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 198 seconds
+26741629 torus sender z- retransmission error(s) (dcr 0x02f9) detected and corrected over 268 seconds
+ciod: Received signal 15, code=0, errno=0, address=0x000001b0
+ciod: Received signal 15, code=0, errno=0, address=0x000001b0
+ciod: Received signal 15, code=0, errno=0, address=0x000001b0
+CE sym 28, at 0x1efc7020, mask 0x20
+ciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV
+ciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV
+Lustre mount FAILED : bglio78 : block_id : location
+ciod: Received signal 15, code=0, errno=0, address=0x000001b0
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4)
+ciod: Received signal 15, code=0, errno=0, address=0x000001b2
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41554, Connection timed out
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52839, Connection reset by peer
+ciod: Received signal 15, code=0, errno=0, address=0x0000044a
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:52930, Connection reset by peer
+ciod: Received signal 15, code=0, errno=0, address=0x0000044d
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53387, Connection reset by peer
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41060, Connection timed out
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41587, Connection reset by peer
+CE sym 14, at 0x136cd5e0, mask 0x04
+dbcr0=0x00000000 dbsr=0x00000000 ccr0=0x40002000
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41534, Link has been severed
+ciod: Received signal 15, code=0, errno=0, address=0x00001a12
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:54780, Link has been severed
+ciod: Received signal 15, code=0, errno=0, address=0x000001f8
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:60243, Link has been severed
+ciod: Received signal 15, code=0, errno=0, address=0x000001f5
+ciod: Received signal 15, code=0, errno=0, address=0x000001f2
+ciod: Error reading message prefix on CioStream socket to 172.16.96.116:47189, Link has been severed
+r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000
+ciod: Received signal 15, code=0, errno=0, address=0x000001f2
+ciod: Received signal 15, code=0, errno=0, address=0x000001f5
+13 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 4562 seconds
+ciod: Received signal 15, code=0, errno=0, address=0x000001f2
+ciod: Received signal 15, code=0, errno=0, address=0x000001f2
+Node card VPD check: U01 node in processor card slot J05 do not match. VPD ecid 04D37DF2DE7BFFFF0D081AF0DAD2, found 04DD80740E2FFFFF0A0C19D0CEBD
+ciod: Received signal 15, code=0, errno=0, address=0x000001f5
+CE sym 1, at 0x01d7eaa0, mask 0x02
+ciod: LOGIN chdir(/g/g0/spelce1/Linpack_SWL) failed: No such file or directory
+ciod: LOGIN chdir(/g/g0/spelce1/Linpack_SWL) failed: No such file or directory
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10722 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10740 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10744 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10700 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10732 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10655 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10650 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10686 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10674 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10722 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10730 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10686 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10692 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10660 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10752 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10732 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10676 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10752 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10728 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10712 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10718 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10722 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10644 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10738 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10646 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10710 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10706 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10765 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10698 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10744 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10740 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10684 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10652 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+1966 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10738 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10714 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10718 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10698 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10644 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10752 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10698 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+10666 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
+0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.
+10738 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.
