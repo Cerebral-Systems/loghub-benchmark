@@ -117,3 +117,36 @@ def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
 
 def test_root_cause_in_allowed_set(answer: dict, expected: dict):
     assert answer["root_cause_type"] in expected["allowed_root_causes"]
+
+
+
+def _build_caused_by_edges(chain):
+    """Build directed edges (parent_node -> child_node) from a causal_chain.
+    Nodes are (component, evidence_line) tuples; edges follow caused_by_step.
+    """
+    step_to_node = {s["step"]: (s["component"], s["evidence_line"]) for s in chain}
+    edges = set()
+    for s in chain:
+        cbs = s.get("caused_by_step")
+        if cbs is None:
+            continue
+        child = (s["component"], s["evidence_line"])
+        parent = step_to_node.get(cbs)
+        if parent is not None:
+            edges.add((parent, child))
+    return edges
+
+
+def test_caused_by_links_match_ground_truth(answer: dict, expected: dict):
+    """Every ground-truth causal edge (parent_node -> child_node) must appear
+    in the agent's chain. Catches the skip-link cheat where agent gets the
+    nodes right but constructs the wrong causal topology between them.
+    Agent can have extra edges; cannot miss real ones.
+    """
+    truth_edges = _build_caused_by_edges(expected["causal_chain"])
+    agent_edges = _build_caused_by_edges(answer.get("causal_chain", []))
+    missing = truth_edges - agent_edges
+    assert not missing, (
+        f"agent's causal_chain is missing {len(missing)} ground-truth edges: "
+        f"{sorted(str(m) for m in missing)[:3]}"
+    )

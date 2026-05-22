@@ -583,7 +583,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = false
+allow_internet = true
 """
 
 
@@ -1072,7 +1072,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = false
+allow_internet = true
 """
 
 
@@ -1285,6 +1285,34 @@ def test_no_hallucinated_files(answer: dict, expected: dict):
         assert ind["file"] in expected_files, (
             f"answer cites {{ind['file']!r}} not in {{sorted(expected_files)}}"
         )
+
+
+def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
+    """At least 50% of agent's cited (file, line) tuples must be in
+    ground-truth indicator set. Catches the v1 cheat of citing random lines.
+    """
+    agent_locs = {(i["file"], i["line"]) for i in answer.get("false_positive_indicators", [])}
+    truth_locs = {(i["file"], i["line"]) for i in expected.get("false_positive_indicators", [])}
+    if not truth_locs or not agent_locs:
+        return
+    overlap = len(agent_locs & truth_locs)
+    precision = overlap / len(agent_locs)
+    assert precision >= 0.5, (
+        f"only {overlap}/{len(agent_locs)} cited indicators in ground truth (precision {precision:.2f})"
+    )
+
+
+def test_classifications_match_ground_truth(answer: dict, expected: dict):
+    """For cited indicators that ARE in ground truth, why_not_anomalous must match."""
+    truth_map = {(i["file"], i["line"]): i["why_not_anomalous"]
+                 for i in expected.get("false_positive_indicators", [])}
+    mismatches = []
+    for ind in answer.get("false_positive_indicators", []):
+        key = (ind["file"], ind["line"])
+        if key in truth_map and ind.get("why_not_anomalous") != truth_map[key]:
+            mismatches.append(f"{key}: agent={ind.get('why_not_anomalous')!r} truth={truth_map[key]!r}")
+    assert not mismatches, f"classification mismatches: {mismatches[:5]}"
+
 '''
 
 
@@ -1603,7 +1631,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = false
+allow_internet = true
 """
 
 
@@ -2124,7 +2152,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = false
+allow_internet = true
 """
 
 
@@ -2611,7 +2639,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = false
+allow_internet = true
 """
 
 
@@ -3062,7 +3090,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = false
+allow_internet = true
 """
 
 

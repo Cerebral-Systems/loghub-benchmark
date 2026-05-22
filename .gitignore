@@ -15,3 +15,6 @@ baselines/
 pilot-jobs/
 .DS_Store
 .claude/
+oracle-runs/
+mesh-results-mesh/
+mesh-results-opensre/
