@@ -246,7 +246,69 @@ This is the citable headline. The fp row no longer inflates the mean; the 0.859 
 ### What's next
 
 - Gap 6 (corr verifier) — same pattern, patches landed for all 20 corr tasks, re-run pending.
-- Gap 7 (failure-mode analysis) — extracted from existing run data; top failure modes by frequency:
-  - `test_root_cause_matches_ground_truth` (51 tasks affected) — most common DeepSeek error is picking wrong root-cause taxonomy bucket
-  - `test_no_cross_file_line_confusion` (47 tasks) — agent cites line N of file A but text actually at line N of file B
-  - `test_evidence_within_ground_truth` (47 tasks) — over-citing evidence outside truth set
+
+## Update — Gap 4 (latency) and Gap 7 (failure-mode) analysis done (2026-05-22)
+
+### Gap 4 — Per-task latency from `result.json`
+
+Extracted from `started_at`/`finished_at` timestamps in each per-trial `result.json`.
+
+**Overall** (n=160):
+- Mean: 2.6 min, median: 2.2 min
+- Range: 1.3 min – 8.7 min
+- p90: 4.1 min, p99: 7.6 min
+
+**By task type:**
+
+| Type | Mean latency | Median | p90 | Mean reward |
+|---|---|---|---|---|
+| `fp` | 1.8 min | 1.8 | 2.0 | 1.000 (pre-fix) |
+| `v1` | 2.1 min | 2.0 | 2.7 | 0.823 |
+| `sev` | 2.5 min | 2.4 | 3.7 | 0.894 |
+| `tmpl` | 2.6 min | 2.3 | 3.7 | 0.956 |
+| `corr` | 3.2 min | 2.8 | 6.8 | 0.815 |
+| `seq` | 4.4 min | 4.2 | 7.0 | 0.877 |
+
+**Pearson r(latency, reward) = −0.237** — modest negative correlation. Slow tasks score slightly worse, but it's not deterministic. Some hard-but-correct tasks exist (e.g., `seq-thunderbird-vapi-60ea24c` at 5.7 min, reward 1.0).
+
+`fp` was fastest (1.8 min avg) AND scored perfect 1.0 — both symptoms of the same laxness (agent finds the template-fill quickly).
+
+`seq` and `corr` are slowest, AND hardest by reward — the model spends more time but doesn't get it right. Consistent with the failure-mode analysis below.
+
+**Slowest 10 trials** all clustered in `seq` and `corr` on HDFS — confirms HDFS as the hardest dataset surface.
+
+### Gap 7 — Failure modes across the 160-task run
+
+Parsed pytest CTRF output from each trial's `verifier/test-stdout.txt` to identify which assertions failed most often.
+
+- **107 / 160 tasks** have ≥ 1 failed assertion (the partial-credit tasks).
+- **228 total failed assertions** across the run.
+- **11 unique failing tests** (out of ~13 assertions per task).
+
+**Top failing assertions:**
+
+| Failed test | Tasks affected | What it means |
+|---|---|---|
+| `test_root_cause_matches_ground_truth` | 51 | Agent picks wrong taxonomy bucket (e.g., `other` instead of `kernmntf`) |
+| `test_no_cross_file_line_confusion` | 47 | Agent cites line N of file A but the text is actually at line N of file B |
+| `test_evidence_within_ground_truth` | 47 | Agent over-cites evidence outside the ground-truth set |
+| `test_trigger_role_correct` | 18 | Wrong trigger event in temporal sequence |
+| `test_causal_chain_recall` | 16 | Missing ground-truth events in causal chain |
+| `test_minimum_evidence_count` | 16 | Cited fewer indicators than required minimum |
+| `test_root_component_matches` | 13 | Wrong root file in cross-component task |
+| `test_severity_matches_ground_truth` | 9 | Wrong P0-P3 classification |
+
+**Among the 40 tasks scoring < 0.8**, top failures:
+- `test_root_cause_matches_ground_truth` (35 tasks)
+- `test_no_cross_file_line_confusion` (31)
+- `test_evidence_within_ground_truth` (31)
+
+### Actionable insight from Gap 7
+
+The most common DeepSeek mistake is **wrong root-cause classification**, not wrong evidence location. The model is good at finding *where* the anomaly is but picks the wrong taxonomy label. That suggests:
+
+1. The root-cause taxonomies may need tightening (some categories ambiguous like `other` vs `other_alert`)
+2. Future agents trained on log-investigation should focus more on classification, less on retrieval
+3. A simple ablation: re-run with the agent ONLY required to do localization, no root cause — would isolate the localization-vs-classification capability gap
+
+The secondary failures (`no_cross_file_line_confusion`, `evidence_within_ground_truth`) are about precision: the agent cites *more* lines than ground truth has, and gets some line-number assignments wrong across files. These are interesting agent-skill measurements unique to multi-file investigation.
