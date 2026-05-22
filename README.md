@@ -18,9 +18,50 @@ committed 60-task set passes the substrate gates:
 - `make oracle-nop` is green on all tasks: oracle scores `60/60`, nop
   scores `0/60`.
 
-Real-agent leaderboard runs are intentionally not included yet; see
-[docs/baselines.md](docs/baselines.md) for the current validation
-baseline and remaining benchmarking caveats.
+First real-agent leaderboard entry below. See
+[docs/baselines.md](docs/baselines.md) for the substrate validation
+baseline and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
+for the full DeepSeek run report (per-dataset, per-skill, identified gaps).
+
+## Leaderboard
+
+| Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Runtime | Cost | Date |
+|---|---|---|---|---|---|---|---|---|
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.880** | 53 (33%) | 0 | 1h 44m | <$1 | 2026-05-22 |
+
+Per-dataset (DeepSeek V4-flash):
+
+| Dataset | n | Mean |
+|---|---|---|
+| Hadoop | 33 | 0.910 |
+| Thunderbird | 31 | 0.908 |
+| BGL | 36 | 0.901 |
+| OpenStack | 21 | 0.873 |
+| HDFS | 39 | 0.815 |
+
+Per-skill-type (DeepSeek V4-flash):
+
+| Skill | n | Mean | Notes |
+|---|---|---|---|
+| `tmpl` log template extraction | 20 | 0.956 | LogParser-style; strongest |
+| `sev` severity classification | 15 | 0.894 | P0–P3 calibration |
+| `seq` temporal sequence | 20 | 0.877 | Trigger ID + ordering |
+| `v1` anomaly localization | 60 | 0.823 | Original 60-task suite |
+| `corr` cross-component | 20 | 0.815 | Hardest skill — causal chain |
+| `fp` false-positive triage | 25 | 1.000 ⚠ | Verifier laxness flagged — see report Gap 1 |
+
+> The `fp` row is a perfect 1.0 across all 25 tasks because the verifier only
+> checks enum membership of `why_not_anomalous`, not match against ground truth.
+> Treat that number as format-compliance, not classification skill, until the
+> Gap 1 fix lands. See [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md#gap-1--fp-verifier-is-too-lenient-critical).
+
+Reproducing this run:
+
+```bash
+export DEEPSEEK_API_KEY=sk-...
+harbor run -p tasks/ --agent mini-swe-agent -m deepseek/deepseek-v4-flash \
+  --agent-timeout-multiplier 3.0 --job-name bench-deepseek-v4-flash -o baselines
+```
 
 ## What's in the box
 
