@@ -25,9 +25,9 @@ for the full DeepSeek run report (per-dataset, per-skill, identified gaps).
 
 ## Leaderboard
 
-| Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Runtime | Cost | Date |
-|---|---|---|---|---|---|---|---|---|
-| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.859** | 28 (18%) | 0 | 1h 44m | <$1 | 2026-05-22 |
+| Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Mean latency/task | Runtime | Cost | Date |
+|---|---|---|---|---|---|---|---|---|---|
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.859** | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
 
 Per-dataset (DeepSeek V4-flash):
 
@@ -41,14 +41,28 @@ Per-dataset (DeepSeek V4-flash):
 
 Per-skill-type (DeepSeek V4-flash):
 
-| Skill | n | Mean | Notes |
-|---|---|---|---|
-| `tmpl` log template extraction | 20 | 0.956 | LogParser-style; strongest |
-| `sev` severity classification | 15 | 0.894 | P0–P3 calibration |
-| `seq` temporal sequence | 20 | 0.877 | Trigger ID + ordering |
-| `v1` anomaly localization | 60 | 0.823 | Original 60-task suite |
-| `corr` cross-component | 20 | 0.815 | Hardest skill — causal chain |
-| `fp` false-positive triage | 25 | 0.865 | After Gap 1 verifier fix (was 1.000 before tightening) |
+| Skill | n | Mean | Mean latency | Notes |
+|---|---|---|---|---|
+| `tmpl` log template extraction | 20 | 0.956 | 2.6 min | LogParser-style; strongest |
+| `sev` severity classification | 15 | 0.894 | 2.5 min | P0–P3 calibration |
+| `seq` temporal sequence | 20 | 0.877 | 4.4 min | Trigger ID + ordering (slowest) |
+| `fp` false-positive triage | 25 | 0.865 | 1.8 min | After Gap 1 verifier fix (was 1.000 before tightening) |
+| `v1` anomaly localization | 60 | 0.823 | 2.1 min | Original 60-task suite |
+| `corr` cross-component | 20 | 0.815 | 3.2 min | Hardest skill — causal chain |
+
+**Latency correlation:** Pearson r(latency, reward) = **−0.237** — slow tasks score slightly worse on average, but the relationship is weak. Some hard tasks are slow AND correct (e.g., `seq-thunderbird-vapi-60ea24c` at 5.7 min, reward 1.0).
+
+**Top failure modes** (across the 107 tasks scoring < 1.0):
+
+| Failed assertion | Tasks affected | Skill area |
+|---|---|---|
+| `test_root_cause_matches_ground_truth` | 51 | Wrong taxonomy bucket (most common error) |
+| `test_no_cross_file_line_confusion` | 47 | Cited line N of file A but text is at line N of file B |
+| `test_evidence_within_ground_truth` | 47 | Over-cited evidence outside truth set |
+| `test_trigger_role_correct` | 18 | Wrong trigger in temporal sequence |
+| `test_causal_chain_recall` | 16 | Missing ground-truth events in causal chain |
+
+Actionable: DeepSeek finds anomaly *locations* well but mis-classifies *root causes* most often. The biggest skill gap is taxonomy mapping, not retrieval.
 
 > The `fp` row was previously 1.000 across all 25 tasks because the verifier only
 > checked enum membership. Gap 1 fix landed (2 new tests: indicators must overlap
