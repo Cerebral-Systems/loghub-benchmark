@@ -191,3 +191,62 @@ Tasks where DeepSeek struggled most (all in the 0.69–0.70 band, no catastrophi
 6. **Mesh adapter** (Path B from earlier discussion). 1-2 days build, ~$10 to run.
 
 After fixes #1-#3, the headline becomes citable. After #4-#6, we have a real comparative report.
+
+---
+
+## Update — Gap 1 fix landed (2026-05-22)
+
+Two new assertions added to all 25 fp `test_state.py` files (and exporter template):
+
+```python
+def test_indicators_match_ground_truth_set(answer, expected):
+    """≥50% of agent's cited (file, line) tuples must be in ground truth."""
+
+def test_classifications_match_ground_truth(answer, expected):
+    """For cited indicators that ARE in ground truth, why_not_anomalous must match."""
+```
+
+Oracle still passes (11/11 tests, was 9/9). Re-ran DeepSeek V4-flash on the 25 fp tasks with the tightened verifier.
+
+### Before / after — fp tasks alone
+
+| Metric | Before (Gap 1) | After fix |
+|---|---|---|
+| n | 25 | 25 |
+| Mean reward | 1.000 | **0.865** |
+| Median | 1.000 | 0.909 |
+| Fully solved | 25 (100%) | **0 (0%)** |
+| Distribution | all 1.0 | 12 × 0.818, 13 × 0.909 |
+
+DeepSeek now fails 1-2 of the 11 fp tests on every single task — confirming the laxness was real and the patch caught it. The new assertions are doing exactly the work they were designed to do.
+
+### Corrected overall benchmark numbers
+
+| Aggregate | Before | After |
+|---|---|---|
+| Overall mean | 0.880 | **0.859** |
+| Overall median | 0.875 | 0.846 |
+| Fully solved | 53 / 160 | **28 / 160** |
+
+This is the citable headline. The fp row no longer inflates the mean; the 0.859 reflects what DeepSeek V4-flash actually does on Loghub-SRE with rigorous verifiers.
+
+### Corrected per-skill-type table
+
+| Skill | n | Mean | Fully solved |
+|---|---|---|---|
+| `tmpl` log template extraction | 20 | 0.956 | 14 |
+| `sev` severity classification | 15 | 0.894 | 4 |
+| `seq` temporal sequence | 20 | 0.877 | 2 |
+| `fp` false-positive triage (post-fix) | 25 | **0.865** | **0** |
+| `v1` anomaly localization | 60 | 0.823 | 6 |
+| `corr` cross-component correlation | 20 | 0.815 | 2 |
+
+`fp` is now correctly placed in the difficulty band (between `seq` and `v1`), not artificially saturated at 1.0.
+
+### What's next
+
+- Gap 6 (corr verifier) — same pattern, patches landed for all 20 corr tasks, re-run pending.
+- Gap 7 (failure-mode analysis) — extracted from existing run data; top failure modes by frequency:
+  - `test_root_cause_matches_ground_truth` (51 tasks affected) — most common DeepSeek error is picking wrong root-cause taxonomy bucket
+  - `test_no_cross_file_line_confusion` (47 tasks) — agent cites line N of file A but text actually at line N of file B
+  - `test_evidence_within_ground_truth` (47 tasks) — over-citing evidence outside truth set

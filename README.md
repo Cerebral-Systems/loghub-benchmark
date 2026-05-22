@@ -27,7 +27,7 @@ for the full DeepSeek run report (per-dataset, per-skill, identified gaps).
 
 | Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Runtime | Cost | Date |
 |---|---|---|---|---|---|---|---|---|
-| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.880** | 53 (33%) | 0 | 1h 44m | <$1 | 2026-05-22 |
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.859** | 28 (18%) | 0 | 1h 44m | <$1 | 2026-05-22 |
 
 Per-dataset (DeepSeek V4-flash):
 
@@ -48,12 +48,13 @@ Per-skill-type (DeepSeek V4-flash):
 | `seq` temporal sequence | 20 | 0.877 | Trigger ID + ordering |
 | `v1` anomaly localization | 60 | 0.823 | Original 60-task suite |
 | `corr` cross-component | 20 | 0.815 | Hardest skill — causal chain |
-| `fp` false-positive triage | 25 | 1.000 ⚠ | Verifier laxness flagged — see report Gap 1 |
+| `fp` false-positive triage | 25 | 0.865 | After Gap 1 verifier fix (was 1.000 before tightening) |
 
-> The `fp` row is a perfect 1.0 across all 25 tasks because the verifier only
-> checks enum membership of `why_not_anomalous`, not match against ground truth.
-> Treat that number as format-compliance, not classification skill, until the
-> Gap 1 fix lands. See [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md#gap-1--fp-verifier-is-too-lenient-critical).
+> The `fp` row was previously 1.000 across all 25 tasks because the verifier only
+> checked enum membership. Gap 1 fix landed (2 new tests: indicators must overlap
+> ground truth ≥ 50%, classifications must match where indicators overlap). Re-run
+> dropped fp mean from 1.000 → 0.865 and overall mean from 0.880 → 0.859. The
+> 0.865 fp number is now a real classification-skill measurement, not format-compliance.
 
 Reproducing this run:
 
