@@ -32,7 +32,7 @@ for the full DeepSeek run report (per-dataset, per-skill, identified gaps).
 
 | Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Mean latency/task | Runtime | Cost | Date |
 |---|---|---|---|---|---|---|---|---|---|
-| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.859** | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.850** | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
 
 Per-dataset (DeepSeek V4-flash):
 
@@ -53,7 +53,7 @@ Per-skill-type (DeepSeek V4-flash):
 | `seq` temporal sequence | 20 | 0.877 | 4.4 min | Trigger ID + ordering (slowest) |
 | `fp` false-positive triage | 25 | 0.865 | 1.8 min | After Gap 1 verifier fix (was 1.000 before tightening) |
 | `v1` anomaly localization | 60 | 0.823 | 2.1 min | Original 60-task suite |
-| `corr` cross-component | 20 | 0.815 | 3.2 min | Hardest skill — causal chain |
+| `corr` cross-component | 20 | 0.745 | 3.2 min | Hardest skill — causal chain. After Gap 6 verifier fix (was 0.815 before; new `test_caused_by_links_match_ground_truth` caught wrong causal topology) |
 
 **Latency correlation:** Pearson r(latency, reward) = **−0.237** — slow tasks score slightly worse on average, but the relationship is weak. Some hard tasks are slow AND correct (e.g., `seq-thunderbird-vapi-60ea24c` at 5.7 min, reward 1.0).
 
@@ -69,11 +69,11 @@ Per-skill-type (DeepSeek V4-flash):
 
 Actionable: DeepSeek finds anomaly *locations* well but mis-classifies *root causes* most often. The biggest skill gap is taxonomy mapping, not retrieval.
 
-> The `fp` row was previously 1.000 across all 25 tasks because the verifier only
-> checked enum membership. Gap 1 fix landed (2 new tests: indicators must overlap
-> ground truth ≥ 50%, classifications must match where indicators overlap). Re-run
-> dropped fp mean from 1.000 → 0.865 and overall mean from 0.880 → 0.859. The
-> 0.865 fp number is now a real classification-skill measurement, not format-compliance.
+> Verifier rigor history:
+> - **Original** (no fixes): overall mean 0.880, `fp` mean 1.000, `corr` mean 0.815
+> - **After Gap 1** (fp verifier — ground-truth set + classification match): overall 0.859, fp 0.865
+> - **After Gap 6** (corr verifier — `caused_by_step` topology match): overall **0.850**, corr 0.745
+> Both fixes tightened the verifier without breaking oracle (still passes 11/11 on fp tasks). The 0.850 is the citable headline.
 
 Reproducing this run:
 
@@ -233,24 +233,55 @@ additions or new corpora, not from hand-authoring single tasks —
 read [docs/dataset-adapters.md](docs/dataset-adapters.md) for the
 adapter contract.
 
-## Citing
+## Data attribution
 
-If you use the benchmark, please cite the underlying Loghub paper plus
-the dataset-specific papers your task draws from:
+This benchmark redistributes small slices (10k–30k lines per task) of log data
+from the [**LogPAI Loghub corpus**](https://github.com/logpai/loghub), used here
+under its license for **research and academic work**. The Loghub corpus is not
+BSD/MIT-licensed; it carries a custom research-use license that requires
+citation and reference to the source repository for any redistribution. See
+[Loghub's `LICENSE`](https://github.com/logpai/loghub/blob/master/LICENSE)
+for the upstream terms.
+
+The benchmark code (adapters, exporter, verifiers, tooling) in this repo is
+MIT-licensed via `pyproject.toml`. The log slices baked into each task's
+`environment/data/` directory are governed by the Loghub license, not MIT.
+
+### Required citations
+
+If you use Loghub-SRE in research or publish results from it, please cite
+the Loghub corpus paper:
 
 > Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. *Loghub:
 > A Large Collection of System Log Datasets for AI-driven Log Analytics*.
 > IEEE International Symposium on Software Reliability Engineering (ISSRE), 2023.
+> arXiv:2008.06448
 
-HDFS_v1 tasks also cite:
+### Per-dataset upstream citations
 
-> Wei Xu, Ling Huang, Armando Fox, David Patterson, Michael Jordan.
-> *Detecting Large-Scale System Problems by Mining Console Logs*.
-> SOSP 2009.
+Each dataset has its own original publication that LogPAI asks downstream
+users to cite. Tasks in this benchmark inherit those obligations:
+
+| Tasks using this data | Required upstream citation |
+|---|---|
+| `hdfs-*`, `corr-hdfs-*`, `seq-hdfs-*`, `sev-hdfs-*`, `tmpl-hdfs-*`, `fp-hdfs-*` | Wei Xu, Ling Huang, Armando Fox, David Patterson, Michael Jordan. *Detecting Large-Scale System Problems by Mining Console Logs*. **SOSP 2009.** |
+| `hadoop-*`, `corr-hadoop-*`, `seq-hadoop-*`, `sev-hadoop-*`, `tmpl-hadoop-*`, `fp-hadoop-*` | Qingwei Lin, Hongyu Zhang, Jian-Guang Lou, Yu Zhang, Xuewei Chen. *Log Clustering Based Problem Identification for Online Service Systems*. **ICSE 2016.** |
+| `openstack-*`, `corr-openstack-*`, `seq-openstack-*`, `sev-openstack-*`, `tmpl-openstack-*`, `fp-openstack-*` | Min Du, Feifei Li, Guineng Zheng, Vivek Srikumar. *DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning*. **CCS 2017.** |
+| `bgl-*`, `corr-bgl-*`, `seq-bgl-*`, `sev-bgl-*`, `tmpl-bgl-*`, `fp-bgl-*` | Adam J. Oliner, Jon Stearley. *What Supercomputers Say: A Study of Five System Logs*. **DSN 2007.** Originally distributed via [USENIX CFDR](https://www.usenix.org/cfdr-data) (Computer Failure Data Repository); BGL logs collected at Lawrence Livermore National Lab (LLNL). |
+| `thunderbird-*`, `corr-thunderbird-*`, `seq-thunderbird-*`, `sev-thunderbird-*`, `tmpl-thunderbird-*`, `fp-thunderbird-*` | Same Oliner & Stearley, DSN 2007 paper. Thunderbird logs collected at Sandia National Labs (SNL). Same USENIX CFDR distribution. |
+
+The full canonical citation text is also reproduced in each task's
+`instruction.md` so attribution travels with the data when individual tasks
+are extracted or shared.
 
 ## License
 
-The benchmark code is MIT-licensed; see `pyproject.toml`. The log slices
-baked into each task image inherit Loghub's BSD license. Citation lives
-in each task's `instruction.md` so the attribution travels with the
-data.
+- **Benchmark code** (adapters, exporter, verifiers, tooling, this README): MIT — see `pyproject.toml`.
+- **Log data redistributed under `tasks/*/environment/data/`**: governed by the LogPAI Loghub license — see `https://github.com/logpai/loghub/blob/master/LICENSE`. Free for research and academic work, citation required.
+- **Per-dataset upstream**: each underlying dataset's original publication carries its own license/citation requirements; see the table above.
+
+Commercial uses other than research/evaluation (e.g., redistributing the raw
+log corpus inside a paid product) require explicit permission from LogPAI and
+the upstream dataset owners. Open-source benchmark use, internal R&D evaluation,
+and published comparative results are unambiguously within scope of the Loghub
+research-use license.
