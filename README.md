@@ -233,24 +233,55 @@ additions or new corpora, not from hand-authoring single tasks —
 read [docs/dataset-adapters.md](docs/dataset-adapters.md) for the
 adapter contract.
 
-## Citing
+## Data attribution
 
-If you use the benchmark, please cite the underlying Loghub paper plus
-the dataset-specific papers your task draws from:
+This benchmark redistributes small slices (10k–30k lines per task) of log data
+from the [**LogPAI Loghub corpus**](https://github.com/logpai/loghub), used here
+under its license for **research and academic work**. The Loghub corpus is not
+BSD/MIT-licensed; it carries a custom research-use license that requires
+citation and reference to the source repository for any redistribution. See
+[Loghub's `LICENSE`](https://github.com/logpai/loghub/blob/master/LICENSE)
+for the upstream terms.
+
+The benchmark code (adapters, exporter, verifiers, tooling) in this repo is
+MIT-licensed via `pyproject.toml`. The log slices baked into each task's
+`environment/data/` directory are governed by the Loghub license, not MIT.
+
+### Required citations
+
+If you use Loghub-SRE in research or publish results from it, please cite
+the Loghub corpus paper:
 
 > Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. *Loghub:
 > A Large Collection of System Log Datasets for AI-driven Log Analytics*.
 > IEEE International Symposium on Software Reliability Engineering (ISSRE), 2023.
+> arXiv:2008.06448
 
-HDFS_v1 tasks also cite:
+### Per-dataset upstream citations
 
-> Wei Xu, Ling Huang, Armando Fox, David Patterson, Michael Jordan.
-> *Detecting Large-Scale System Problems by Mining Console Logs*.
-> SOSP 2009.
+Each dataset has its own original publication that LogPAI asks downstream
+users to cite. Tasks in this benchmark inherit those obligations:
+
+| Tasks using this data | Required upstream citation |
+|---|---|
+| `hdfs-*`, `corr-hdfs-*`, `seq-hdfs-*`, `sev-hdfs-*`, `tmpl-hdfs-*`, `fp-hdfs-*` | Wei Xu, Ling Huang, Armando Fox, David Patterson, Michael Jordan. *Detecting Large-Scale System Problems by Mining Console Logs*. **SOSP 2009.** |
+| `hadoop-*`, `corr-hadoop-*`, `seq-hadoop-*`, `sev-hadoop-*`, `tmpl-hadoop-*`, `fp-hadoop-*` | Qingwei Lin, Hongyu Zhang, Jian-Guang Lou, Yu Zhang, Xuewei Chen. *Log Clustering Based Problem Identification for Online Service Systems*. **ICSE 2016.** |
+| `openstack-*`, `corr-openstack-*`, `seq-openstack-*`, `sev-openstack-*`, `tmpl-openstack-*`, `fp-openstack-*` | Min Du, Feifei Li, Guineng Zheng, Vivek Srikumar. *DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning*. **CCS 2017.** |
+| `bgl-*`, `corr-bgl-*`, `seq-bgl-*`, `sev-bgl-*`, `tmpl-bgl-*`, `fp-bgl-*` | Adam J. Oliner, Jon Stearley. *What Supercomputers Say: A Study of Five System Logs*. **DSN 2007.** Originally distributed via [USENIX CFDR](https://www.usenix.org/cfdr-data) (Computer Failure Data Repository); BGL logs collected at Lawrence Livermore National Lab (LLNL). |
+| `thunderbird-*`, `corr-thunderbird-*`, `seq-thunderbird-*`, `sev-thunderbird-*`, `tmpl-thunderbird-*`, `fp-thunderbird-*` | Same Oliner & Stearley, DSN 2007 paper. Thunderbird logs collected at Sandia National Labs (SNL). Same USENIX CFDR distribution. |
+
+The full canonical citation text is also reproduced in each task's
+`instruction.md` so attribution travels with the data when individual tasks
+are extracted or shared.
 
 ## License
 
-The benchmark code is MIT-licensed; see `pyproject.toml`. The log slices
-baked into each task image inherit Loghub's BSD license. Citation lives
-in each task's `instruction.md` so the attribution travels with the
-data.
+- **Benchmark code** (adapters, exporter, verifiers, tooling, this README): MIT — see `pyproject.toml`.
+- **Log data redistributed under `tasks/*/environment/data/`**: governed by the LogPAI Loghub license — see `https://github.com/logpai/loghub/blob/master/LICENSE`. Free for research and academic work, citation required.
+- **Per-dataset upstream**: each underlying dataset's original publication carries its own license/citation requirements; see the table above.
+
+Commercial uses other than research/evaluation (e.g., redistributing the raw
+log corpus inside a paid product) require explicit permission from LogPAI and
+the upstream dataset owners. Open-source benchmark use, internal R&D evaluation,
+and published comparative results are unambiguously within scope of the Loghub
+research-use license.
