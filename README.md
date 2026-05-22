@@ -1,22 +1,27 @@
 # Loghub SRE Harbor benchmark
 
 A Harbor-compatible benchmark for SRE log-investigation skills.
-60 curated tasks built from the Loghub corpus (`logpai/loghub`).
+**160 curated tasks** built from the Loghub corpus (`logpai/loghub`), covering
+6 distinct skill types: anomaly localization (v1, 60 tasks), plus 5 v2 skill
+axes — false-positive triage, temporal sequence reconstruction, cross-component
+correlation, severity classification, and log-template extraction (100 tasks).
 Each task ships a Docker environment with 3–6 partitioned log files
-totalling 5k–30k lines and asks the agent to **locate the anomaly**,
-**cite verbatim evidence** as `(file, line, snippet)` tuples,
-**classify the root cause** against a dataset-specific taxonomy, and
-**recommend a safe SRE action**. The verifier writes a fractional reward (`passed_tests / non_skipped_tests`) to `/logs/verifier/reward.txt`, so partial-correct answers register on a continuous 0–1 scale.
+totalling 5k–30k lines and asks the agent to investigate the logs and produce
+a structured JSON answer that the verifier grades on schema-specific
+assertions. The verifier writes a fractional reward (`passed_tests / non_skipped_tests`)
+to `/logs/verifier/reward.txt`, so partial-correct answers register on a
+continuous 0–1 scale.
 
 ## Status
 
 Loghub-SRE is ready for community testing as a Harbor benchmark. The
-committed 60-task set passes the substrate gates:
+committed 160-task set (60 v1 + 100 v2) passes the substrate gates:
 
-- `266` adapter/exporter/repo-invariant tests pass.
-- `make static` passes all `12 × 60` static checks.
-- `make oracle-nop` is green on all tasks: oracle scores `60/60`, nop
-  scores `0/60`.
+- adapter/exporter/repo-invariant tests pass.
+- `make static` passes all `12 × 160` static checks.
+- `make oracle-nop` is green on all tasks: oracle scores `160/160`, nop
+  scores `0/160`. Verified end-to-end via `harbor run --agent oracle`
+  on every task (11m 25s, 0 exceptions).
 
 First real-agent leaderboard entry below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
@@ -88,7 +93,19 @@ harbor run -p tasks/ --agent mini-swe-agent -m deepseek/deepseek-v4-flash \
 | Thunderbird | 10 | Same inline format as BGL | by hostname role (compute / edge / domain / …) |
 | OpenStack | 5 | 4 anomalous VM UUIDs from `anomaly_labels.txt` (rapid-destroy faults) | by OpenStack service (nova-api / nova-compute / nova-scheduler) |
 
-Total: 60 tasks. Distribution and rationale: see [docs/dataset-adapters.md](docs/dataset-adapters.md).
+v1 anomaly-localization subtotal: 60 tasks. Distribution and rationale: see [docs/dataset-adapters.md](docs/dataset-adapters.md).
+
+v2 added 100 more tasks across 5 new skill axes — same 5 datasets, different answer schemas and verifier assertions:
+
+| Skill type | Slug prefix | Count | What it tests |
+|---|---|---|---|
+| False-positive triage | `fp-*` | 25 | `is_incident: false` discrimination + categorize benign noise |
+| Temporal sequence | `seq-*` | 20 | Ordered evidence + trigger ID + propagation roles |
+| Cross-component correlation | `corr-*` | 20 | Root component + causal chain across files (4 datasets; OpenStack omitted — anomalies don't span components) |
+| Severity classification | `sev-*` | 15 | P0–P3 calibration with justification consistency |
+| Log template extraction | `tmpl-*` | 20 | Partition raw lines into EventTemplates (LogParser-style) |
+
+Total: **160 tasks** across **6 skill types** × 5 datasets. See [docs/PLAN_V2.md](docs/PLAN_V2.md) for v2 design and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md) for per-skill agent performance.
 
 ## How a task works
 
@@ -162,7 +179,7 @@ harbor run -p tasks/hdfs-datanode-0b694b5 --agent nop       # reward=0
 Run every gate the CI workflows run, locally:
 
 ```bash
-make validate-all    # unit + static (12 checks × 60 tasks) + oracle/nop
+make validate-all    # unit + static (12 checks × 160 tasks) + oracle/nop
 ```
 
 Regenerate the committed curated set exactly from its manifest:
@@ -184,14 +201,16 @@ set -a; . .env; set +a    # MOONSHOT_API_KEY
     --output-dir /tmp/m7-checks
 ```
 
-Latest 60-task pass report: [docs/rubric-pass-report.md](docs/rubric-pass-report.md)
-(0 fails on both runs at ~$3 total spend).
+Latest v1 60-task rubric pass report: [docs/rubric-pass-report.md](docs/rubric-pass-report.md)
+(0 fails on both runs at ~$3 total spend). The 100 v2 tasks haven't been
+rubric-graded yet; they're validated via oracle/nop gates + the per-task pytest
+verifier assertions.
 
 ## Repo layout
 
 ```
 loghub-benchmark/
-├── tasks/                       # 60 curated tasks (committed)
+├── tasks/                       # 160 curated tasks (60 v1 + 100 v2)
 ├── tools/
 │   ├── case_builder/            # adapters + exporter + tests
 │   └── rubric_check/            # Moonshot rubric grader
