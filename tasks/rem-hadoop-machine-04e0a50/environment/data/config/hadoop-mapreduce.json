@@ -1,0 +1,10 @@
+{
+  "endpoint": "https://default.invalid",
+  "feature_flags": {
+    "new_routing": false
+  },
+  "thresholds": {
+    "max_concurrent": 64
+  },
+  "version": "1"
+}

@@ -1,0 +1,89 @@
+{
+  "allowed_actions": [
+    "restart_component",
+    "rollback_config",
+    "increase_quota",
+    "disable_route",
+    "mark_noop"
+  ],
+  "allowed_root_causes": [
+    "machine_down",
+    "network_disconnect",
+    "disk_full"
+  ],
+  "causal_chain": [
+    {
+      "component": "hadoop-mrappmaster.log",
+      "evidence_line": 13,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 155,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 451,
+      "role": "downstream",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "hadoop-misc.log",
+      "evidence_line": 1545,
+      "role": "downstream",
+      "step": 3
+    }
+  ],
+  "evidence": [
+    {
+      "file": "hadoop-mrappmaster.log",
+      "line": 13
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 155
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 451
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1545
+    }
+  ],
+  "expected_health": "healthy",
+  "files": [
+    "hadoop-mapreduce.log",
+    "hadoop-misc.log",
+    "hadoop-mrappmaster.log",
+    "hadoop-yarn.log"
+  ],
+  "is_incident": true,
+  "min_chain_recall": 3,
+  "mitigation": {
+    "action": "restart_component",
+    "target": "hadoop-mrappmaster"
+  },
+  "root_cause_type": "machine_down",
+  "root_component": "hadoop-mrappmaster",
+  "root_component_file": "hadoop-mrappmaster.log",
+  "schema_version": "loghub-sre-answer-v3-remediation",
+  "topology_component_names": [
+    "hadoop-mapreduce",
+    "hadoop-misc",
+    "hadoop-mrappmaster",
+    "hadoop-yarn"
+  ],
+  "unsafe_actions": [
+    "force_delete_data",
+    "disable_monitoring",
+    "ignore_alert"
+  ]
+}

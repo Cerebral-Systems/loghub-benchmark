@@ -1,0 +1,38 @@
+{
+  "components": [
+    {
+      "depends_on": [
+        "hdfs-namenode"
+      ],
+      "log_file": "hdfs-datanode-a.log",
+      "name": "hdfs-datanode-a"
+    },
+    {
+      "depends_on": [
+        "hdfs-namenode"
+      ],
+      "log_file": "hdfs-datanode-b.log",
+      "name": "hdfs-datanode-b"
+    },
+    {
+      "depends_on": [
+        "hdfs-namenode"
+      ],
+      "log_file": "hdfs-datanode-misc.log",
+      "name": "hdfs-datanode-misc"
+    },
+    {
+      "depends_on": [
+        "hdfs-namenode"
+      ],
+      "log_file": "hdfs-misc.log",
+      "name": "hdfs-misc"
+    },
+    {
+      "depends_on": [],
+      "log_file": "hdfs-namenode.log",
+      "name": "hdfs-namenode"
+    }
+  ],
+  "root_component": "hdfs-namenode"
+}

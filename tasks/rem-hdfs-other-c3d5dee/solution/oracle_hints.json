@@ -1,0 +1,54 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "hdfs-namenode.log",
+      "line": 8450
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 6031
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 6424
+    },
+    {
+      "file": "hdfs-datanode-misc.log",
+      "line": 6586
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "hdfs-namenode.log",
+      "evidence_line": 8450,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hdfs-datanode-a.log",
+      "evidence_line": 6031,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hdfs-datanode-b.log",
+      "evidence_line": 6424,
+      "role": "downstream",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "hdfs-datanode-misc.log",
+      "evidence_line": 6586,
+      "role": "downstream",
+      "step": 3
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "restart_component",
+  "root_cause_type": "other",
+  "root_component_file": "hdfs-namenode.log",
+  "root_component_name": "hdfs-namenode"
+}

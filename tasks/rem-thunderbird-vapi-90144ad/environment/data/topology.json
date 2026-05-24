@@ -1,0 +1,38 @@
+{
+  "components": [
+    {
+      "depends_on": [],
+      "log_file": "thunderbird-compute.log",
+      "name": "thunderbird-compute"
+    },
+    {
+      "depends_on": [
+        "thunderbird-compute"
+      ],
+      "log_file": "thunderbird-domain.log",
+      "name": "thunderbird-domain"
+    },
+    {
+      "depends_on": [
+        "thunderbird-compute"
+      ],
+      "log_file": "thunderbird-edge.log",
+      "name": "thunderbird-edge"
+    },
+    {
+      "depends_on": [
+        "thunderbird-compute"
+      ],
+      "log_file": "thunderbird-other.log",
+      "name": "thunderbird-other"
+    },
+    {
+      "depends_on": [
+        "thunderbird-compute"
+      ],
+      "log_file": "thunderbird-tbird.log",
+      "name": "thunderbird-tbird"
+    }
+  ],
+  "root_component": "thunderbird-compute"
+}

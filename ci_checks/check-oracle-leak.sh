@@ -70,9 +70,34 @@ def leaves(obj):
 
 
 file_basenames = set(expected.get("files", []))
+# Structural labels that legitimately appear in env-side artifacts (topology,
+# state, bin scripts) even though they are leaves of expected.json. These are
+# role/health/action enum tokens that the v3 remediation task is REQUIRED to
+# show the agent (the bin scripts have to accept them as inputs).
+structural_exempt = {
+    # generic enum tokens used by topology + state JSON
+    "root", "downstream", "trigger", "propagation", "consequence",
+    "healthy", "degraded", "unhealthy", "unknown",
+    "schema_version", "is_incident",
+    # mitigation enum (legitimately referenced by /app/bin/apply_mitigation)
+    "restart_component", "rollback_config", "increase_quota",
+    "disable_route", "mark_noop",
+    # unsafe enum (referenced by docstrings + instructions)
+    "force_delete_data", "disable_monitoring", "ignore_alert",
+}
+# v3-remediation also exposes the bare component names + the .log filenames
+# to the agent — those leak through topology.json and Dockerfile by design.
+schema_version_peek = expected.get("schema_version", "")
+if schema_version_peek.endswith("-v3-remediation"):
+    structural_exempt |= set(expected.get("topology_component_names", []))
+    if expected.get("root_component"):
+        structural_exempt.add(expected["root_component"])
+    if expected.get("root_component_file"):
+        structural_exempt.add(expected["root_component_file"])
+
 all_leaves = [
     s for s in leaves(expected)
-    if s and s not in file_basenames and len(s) >= 4
+    if s and s not in file_basenames and s not in structural_exempt and len(s) >= 4
 ]
 
 # Answer-shaped tokens (always forbidden in any environment/ file).
@@ -120,6 +145,17 @@ if schema_version.endswith("-v2-sev"):
     for label in expected.get("allowed_justifications", []):
         if isinstance(label, str) and "_" in label:
             answer_shaped.add(label)
+# v3-remediation (outcome / mitigation) answers add chain + mitigation tokens.
+if schema_version.endswith("-v3-remediation"):
+    answer_shaped.update({
+        '"causal_chain"',
+        '"caused_by_step"',
+        '"root_component"',
+        '"mitigation"',
+        '"expected_health"',
+        '"postcheck"',
+    })
+
 # v2-tmpl (template extraction) — only check non-log files for the schema
 # header. The log content IS the input; templates are by-design generalizations
 # of those lines, so per-template-text leak checks make no sense.

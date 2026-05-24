@@ -1,0 +1,117 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 597
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 598
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 599
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 600
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 601
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 602
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 603
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 604
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 605
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 607
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 608
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 609
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 616
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 617
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 618
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 619
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 620
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 621
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 625
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 626
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 627
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 628
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 629
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 630
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 650
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "openstack-nova-compute.log",
+      "evidence_line": 597,
+      "role": "root",
+      "step": 0
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "restart_component",
+  "root_cause_type": "vm_task_failure",
+  "root_component_file": "openstack-nova-compute.log",
+  "root_component_name": "openstack-nova-compute"
+}

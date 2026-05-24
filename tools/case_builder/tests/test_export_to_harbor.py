@@ -122,11 +122,11 @@ def test_partition_hadoop_drops_synthetic_headers():
     assert ex._partition_hadoop("### anomalous_job=application_1_002") is None
 
 
-def test_partition_bgl_buckets_by_full_location_token():
+def test_partition_bgl_buckets_by_rack_token():
     line_a = "- 1 2005.06.03 R03-M0-N0-C:J12-U11 ts host RAS KERNEL INFO foo"
     line_b = "- 1 2005.06.03 R03-M0-N1-C:J12-U11 ts host RAS KERNEL INFO bar"
-    assert ex._partition_bgl(line_a).startswith("bgl-nodes-")
-    assert ex._partition_bgl(line_b).startswith("bgl-nodes-")
+    assert ex._partition_bgl(line_a).startswith("bgl-racks-")
+    assert ex._partition_bgl(line_b).startswith("bgl-racks-")
     assert ex._partition_bgl(line_a) == ex._partition_bgl(line_a)
 
 
@@ -176,22 +176,22 @@ def test_expected_json_uses_v2_schema(tmp_path: Path):
     # Plus the legacy fields the verifier still uses.
     assert expected["root_cause_type"] == "datanode_unreachable"
     assert expected["anomaly_keys"] == ["blk_42"]
-    assert expected["evidence_validation"] == {"mode": "exact_location"}
+    assert expected["min_evidence_count"] == 2
     assert expected["files"]
 
 
-def test_inline_label_expected_json_omits_huge_ground_truth_locations(tmp_path: Path):
+def test_bgl_expected_json_carries_partitioned_locations(tmp_path: Path):
     out = tmp_path / "tasks"
     ex.export_case(_make_bgl_case(), out, author_name="x", author_email="x@example.com")
     expected = json.loads((out / "bgl-kerndtlb-1234567" / "tests" / "expected.json").read_text())
-    assert expected["evidence"] == []
-    assert expected["evidence_validation"]["mode"] == "inline_label"
-    assert expected["evidence_validation"]["tag_to_root_cause"]["KERNDTLB"] == "kerndtlb"
+    assert expected["evidence"]
+    assert all({"file", "line"}.issubset(e) for e in expected["evidence"])
+    assert "evidence_validation" not in expected
     hints = json.loads((out / "bgl-kerndtlb-1234567" / "solution" / "oracle_hints.json").read_text())
-    assert hints["anomaly_locations"]
+    assert hints["anomaly_locations"] == expected["evidence"]
 
 
-def test_inline_label_oracle_hints_match_expected_root_cause(tmp_path: Path):
+def test_bgl_oracle_hints_preserve_adapter_anomaly_locations(tmp_path: Path):
     out = tmp_path / "tasks"
     case = _make_bgl_case(anomaly_line_ids=[1, 3, 4])
     ex.export_case(case, out, author_name="x", author_email="x@example.com")
@@ -202,7 +202,7 @@ def test_inline_label_oracle_hints_match_expected_root_cause(tmp_path: Path):
     for loc in hints["anomaly_locations"]:
         line = (data_dir / loc["file"]).read_text().splitlines()[loc["line"] - 1]
         cited_tags.append(line.split(None, 1)[0])
-    assert cited_tags == ["KERNDTLB", "KERNDTLB"]
+    assert cited_tags == ["KERNDTLB", "KERNDTLB", "APPSEV"]
 
 
 def test_anomaly_line_ids_translated_to_file_line_tuples(tmp_path: Path):

@@ -1,0 +1,24 @@
+{
+  "components": [
+    {
+      "depends_on": [
+        "openstack-nova-compute"
+      ],
+      "log_file": "openstack-nova-api.log",
+      "name": "openstack-nova-api"
+    },
+    {
+      "depends_on": [],
+      "log_file": "openstack-nova-compute.log",
+      "name": "openstack-nova-compute"
+    },
+    {
+      "depends_on": [
+        "openstack-nova-compute"
+      ],
+      "log_file": "openstack-nova-scheduler.log",
+      "name": "openstack-nova-scheduler"
+    }
+  ],
+  "root_component": "openstack-nova-compute"
+}

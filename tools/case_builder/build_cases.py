@@ -72,10 +72,13 @@ def build(
         case_iter = adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed)
     elif task_type == "fp":
         case_iter = adapter.iter_false_positive_windows(input_path, labels, max_cases=max_cases, seed=seed)
-    elif task_type in ("seq", "corr", "sev"):
-        # T2/T3/T4: reuse v1 anomaly cases; the timeline / causal-chain /
-        # severity is derived at export time. We mark the task_type here
-        # so the exporter dispatches to the right path.
+    elif task_type in ("seq", "corr", "sev", "rem"):
+        # T2/T3/T4/T6: reuse v1 anomaly cases; the timeline / causal-chain /
+        # severity / remediation metadata is derived at export time. We mark
+        # the task_type here so the exporter dispatches to the right path.
+        # rem cases additionally require `extra["rem"]` to be populated by
+        # the build_rem_tasks.py driver — bare anomaly cases cannot be
+        # rem-exported directly.
         def _retag_iter():
             from .adapters.base import CandidateCase
             for c in adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed):
@@ -169,7 +172,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument(
         "--task-type",
         default="anomaly",
-        choices=("anomaly", "fp", "seq", "corr", "sev", "tmpl"),
+        choices=("anomaly", "fp", "seq", "corr", "sev", "tmpl", "rem"),
         help="Which adapter generator to invoke. 'anomaly' (v1, default) calls "
         "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows. "
         "'seq' (v2/T2), 'corr' (v2/T3), and 'sev' (v2/T4) reuse v1 anomaly "

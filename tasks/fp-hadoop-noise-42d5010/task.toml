@@ -2,6 +2,10 @@
 #
 # Loghub-SRE-v2 T1 (false-positive triage) — the agent must recognize a
 # benign window and explain the noise, not flag a false anomaly.
+#
+# Pytest is installed system-wide in the Dockerfile (apt python3-pytest +
+# pip pytest-json-ctrf) so the verifier runs deterministically regardless
+# of which CLI agent / runtime the candidate uses.
 version = "1.0"
 
 [task]

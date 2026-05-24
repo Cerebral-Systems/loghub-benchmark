@@ -10,15 +10,16 @@ partitioned by component:
   - `/app/hdfs-misc.log`
   - `/app/hdfs-namenode.log`
 
-Beyond locating the anomaly, you must assign a severity that an oncall
-SRE would act on:
-
-| Severity | Trigger (any one matches) |
-|----------|---------------------------|
-| **P0**   | ≥3 components affected, OR critical-tag fault (machine_down, KERNSTOR, KERNTERM, CPU/ECC/NMI hardware fault, namenode_error, datanode_unreachable) |
-| **P1**   | 2 components affected, OR severe-tag fault (network_disconnect, KERNDTLB, APPSEV, vm_task_failure, network_error, SCSI/CHK_DSK/EXT_FS storage, replication_failure, data_corruption) |
-| **P2**   | 1 component, recoverable indicator (disk_full, image_pull_failure, APPREAD, APPRES, KERNMNTF, MPT, timeout) |
-| **P3**   | Single transient warning, no impact (APPUNAV, VAPI/PBS_*, other_alert, other) |
+Beyond locating the anomaly, you must assign a severity an oncall SRE
+would act on. The four-level rubric (P0/P1/P2/P3) follows standard
+incident-management practice: P0 means cluster-wide impact or a
+hardware/kernel fault that risks data; P1 means a single critical
+service has failed; P2 means a recoverable component-level error
+(retry-recoverable, capacity, or transient hardware); P3 means a
+single transient warning with no observed user impact. Decide based
+on the evidence you actually see in the logs: how many components
+show error activity, and whether the underlying fault is recoverable
+or hard.
 
 Write **`/app/answer.json`**:
 

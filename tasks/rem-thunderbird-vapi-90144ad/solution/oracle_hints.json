@@ -1,0 +1,32 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-compute.log",
+      "line": 6
+    },
+    {
+      "file": "thunderbird-domain.log",
+      "line": 4
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "thunderbird-compute.log",
+      "evidence_line": 6,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "thunderbird-domain.log",
+      "evidence_line": 4,
+      "role": "downstream",
+      "step": 1
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "restart_component",
+  "root_cause_type": "vapi",
+  "root_component_file": "thunderbird-compute.log",
+  "root_component_name": "thunderbird-compute"
+}
