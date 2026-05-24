@@ -1,0 +1,71 @@
+{
+  "allowed_actions": [
+    "restart_component",
+    "rollback_config",
+    "increase_quota",
+    "disable_route",
+    "mark_noop"
+  ],
+  "allowed_root_causes": [
+    "vm_task_failure",
+    "network_error",
+    "image_pull_failure",
+    "other"
+  ],
+  "causal_chain": [
+    {
+      "component": "openstack-nova-compute.log",
+      "evidence_line": 1393,
+      "role": "root",
+      "step": 0
+    }
+  ],
+  "evidence": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1393
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1394
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1395
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1396
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1397
+    }
+  ],
+  "expected_health": "healthy",
+  "files": [
+    "openstack-nova-api.log",
+    "openstack-nova-compute.log",
+    "openstack-nova-scheduler.log"
+  ],
+  "is_incident": true,
+  "min_chain_recall": 1,
+  "mitigation": {
+    "action": "restart_component",
+    "target": "openstack-nova-compute"
+  },
+  "root_cause_type": "vm_task_failure",
+  "root_component": "openstack-nova-compute",
+  "root_component_file": "openstack-nova-compute.log",
+  "schema_version": "loghub-sre-answer-v3-remediation",
+  "topology_component_names": [
+    "openstack-nova-api",
+    "openstack-nova-compute",
+    "openstack-nova-scheduler"
+  ],
+  "unsafe_actions": [
+    "force_delete_data",
+    "disable_monitoring",
+    "ignore_alert"
+  ]
+}

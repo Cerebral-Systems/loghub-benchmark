@@ -2,6 +2,10 @@
 #
 # Loghub-SRE-v2 T2 (temporal sequence reconstruction) — agent must order
 # anomaly evidence by cause and tag each event with its role.
+#
+# Pytest is installed system-wide in the Dockerfile (apt python3-pytest +
+# pip pytest-json-ctrf) so the verifier runs deterministically regardless
+# of which CLI agent / runtime the candidate uses.
 version = "1.0"
 
 [task]

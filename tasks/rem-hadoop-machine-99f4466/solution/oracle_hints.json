@@ -1,0 +1,54 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "hadoop-mrappmaster.log",
+      "line": 13
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 155
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 451
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1545
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "hadoop-mrappmaster.log",
+      "evidence_line": 13,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 155,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 451,
+      "role": "downstream",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "hadoop-misc.log",
+      "evidence_line": 1545,
+      "role": "downstream",
+      "step": 3
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "restart_component",
+  "root_cause_type": "machine_down",
+  "root_component_file": "hadoop-mrappmaster.log",
+  "root_component_name": "hadoop-mrappmaster"
+}

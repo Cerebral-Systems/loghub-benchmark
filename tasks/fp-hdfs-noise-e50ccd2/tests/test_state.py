@@ -122,51 +122,34 @@ def test_no_hallucinated_files(answer: dict, expected: dict):
         )
 
 
-
 def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
-    """At least 50% of the agent's cited (file, line) tuples must match the
-    ground-truth false_positive_indicators set. Catches the v1 cheat of
-    citing 3+ random lines anywhere in the logs.
+    """At least 50% of agent's cited (file, line) tuples must be in
+    ground-truth indicator set. Catches the v1 cheat of citing random lines.
     """
-    agent_locs = {
-        (ind["file"], ind["line"])
-        for ind in answer.get("false_positive_indicators", [])
-    }
-    truth_locs = {
-        (i["file"], i["line"])
-        for i in expected.get("false_positive_indicators", [])
-    }
+    agent_locs = set()
+    for ind in answer.get("false_positive_indicators", []):
+        agent_locs.add((ind["file"], ind["line"]))
+    truth_locs = set()
+    for ind in expected.get("false_positive_indicators", []):
+        truth_locs.add((ind["file"], ind["line"]))
     if not truth_locs or not agent_locs:
         return
     overlap = len(agent_locs & truth_locs)
     precision = overlap / len(agent_locs)
     assert precision >= 0.5, (
-        f"only {overlap}/{len(agent_locs)} cited indicators are in "
-        f"ground truth (precision {precision:.2f} < 0.50); "
-        f"agent cited {sorted(agent_locs)[:5]}, truth subset {sorted(truth_locs)[:5]}"
+        f"only {overlap}/{len(agent_locs)} cited indicators in ground truth (precision {precision:.2f})"
     )
 
 
 def test_classifications_match_ground_truth(answer: dict, expected: dict):
-    """For cited indicators that ARE in ground truth, the why_not_anomalous
-    classification must match the ground-truth value. Catches the v1 cheat
-    of labeling everything `benign_info` regardless of actual category.
-    """
-    truth_map = {
-        (i["file"], i["line"]): i["why_not_anomalous"]
-        for i in expected.get("false_positive_indicators", [])
-    }
+    """For cited indicators that ARE in ground truth, why_not_anomalous must match."""
+    truth_map = {}
+    for i in expected.get("false_positive_indicators", []):
+        truth_map[(i["file"], i["line"])] = i["why_not_anomalous"]
     mismatches = []
     for ind in answer.get("false_positive_indicators", []):
         key = (ind["file"], ind["line"])
-        if key in truth_map:
-            agent_class = ind.get("why_not_anomalous")
-            truth_class = truth_map[key]
-            if agent_class != truth_class:
-                mismatches.append(
-                    f"{key}: agent={agent_class!r} truth={truth_class!r}"
-                )
-    assert not mismatches, (
-        f"classification mismatches on {len(mismatches)} indicators: "
-        f"{mismatches[:5]}"
-    )
+        if key in truth_map and ind.get("why_not_anomalous") != truth_map[key]:
+            mismatches.append(f"{key}: agent={ind.get('why_not_anomalous')!r} truth={truth_map[key]!r}")
+    assert not mismatches, f"classification mismatches: {mismatches[:5]}"
+

@@ -1,0 +1,54 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-c.log",
+      "line": 2433
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 3745
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3232
+    },
+    {
+      "file": "bgl-misc.log",
+      "line": 4
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "bgl-racks-c.log",
+      "evidence_line": 2433,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "bgl-racks-a.log",
+      "evidence_line": 3745,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "bgl-racks-b.log",
+      "evidence_line": 3232,
+      "role": "downstream",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "bgl-misc.log",
+      "evidence_line": 4,
+      "role": "downstream",
+      "step": 3
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "restart_component",
+  "root_cause_type": "appsev",
+  "root_component_file": "bgl-racks-c.log",
+  "root_component_name": "bgl-racks-c"
+}
