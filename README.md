@@ -1,86 +1,112 @@
 # Loghub SRE Harbor benchmark
 
 A Harbor-compatible benchmark for SRE log-investigation skills.
-**160 curated tasks** built from the Loghub corpus (`logpai/loghub`), covering
-6 distinct skill types: anomaly localization (v1, 60 tasks), plus 5 v2 skill
+**180 curated tasks** built from the Loghub corpus (`logpai/loghub`), covering
+7 distinct skill types: anomaly localization (v1, 60 tasks), 5 v2 skill
 axes — false-positive triage, temporal sequence reconstruction, cross-component
-correlation, severity classification, and log-template extraction (100 tasks).
-Each task ships a Docker environment with 3–6 partitioned log files
-totalling 5k–30k lines and asks the agent to investigate the logs and produce
-a structured JSON answer that the verifier grades on schema-specific
-assertions. The verifier writes a fractional reward (`passed_tests / non_skipped_tests`)
-to `/logs/verifier/reward.txt`, so partial-correct answers register on a
-continuous 0–1 scale.
+correlation, severity classification, and log-template extraction (100 tasks)
+— plus 20 outcome-oriented remediation tasks. Each task ships a Docker
+environment with partitioned log files and asks the agent to investigate the
+logs and produce a structured JSON answer that the verifier grades on
+schema-specific assertions. Remediation tasks also include topology, service
+state, config, and local mitigation tools; the verifier checks both diagnosis
+and recovered post-mitigation state. The verifier writes a fractional reward
+(`passed_tests / non_skipped_tests`) to `/logs/verifier/reward.txt`, so
+partial-correct answers register on a continuous 0–1 scale.
 
 ## Status
 
 Loghub-SRE is ready for community testing as a Harbor benchmark. The
-committed 160-task set (60 v1 + 100 v2) passes the substrate gates:
+committed 180-task set (60 v1 + 100 v2 + 20 remediation) passes the
+substrate gates:
 
 - adapter/exporter/repo-invariant tests pass.
-- `make static` passes all `12 × 160` static checks.
-- `make oracle-nop` is green on all tasks: oracle scores `160/160`, nop
-  scores `0/160`. Verified end-to-end via `harbor run --agent oracle`
-  on every task (11m 25s, 0 exceptions).
+- `make static` passes all `12 × 180` static checks.
+- `make oracle-nop` is green on all tasks: oracle scores `180/180`, nop
+  scores `0/180`.
 
-First real-agent leaderboard entry below. See
+Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
-baseline and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
-for the full DeepSeek run report (per-dataset, per-skill, identified gaps).
+baseline, [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md)
+for the outcome-task hardening report, and
+[docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
+for the historical 160-task DeepSeek report.
 
 ## Leaderboard
 
+Current 180-task hardened benchmark. Single run per row; "Errors" are Harbor
+trial exceptions. The mixed Mesh master row is included for traceability but is
+not a clean single-commit benchmark.
+
+| Model | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors | Mean latency/task | Runtime | Cost | Date |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `deepseek/deepseek-v4-flash` | **internal-harness / Mesh runtime v4** (`mesh@71f5094`) | `mesh-runtime-loghub-v4-deepseek-hardened-180` | 180 | **0.865** | 32 (18%) | 0 | 1.7 min | 1h 20m | n/a | 2026-05-25 |
+| `deepseek/deepseek-v4-flash` | internal-harness / Mesh master mixed (`8725cc8` + `b04c118`) | `mesh-runtime-master-deepseek-hardened-180` | 180 | 0.864 | 31 (17%) | 0 | 2.2 min | 1h 39m | n/a | 2026-05-26 |
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | `bench-deepseek-v4-flash-hardened-180` | 180 | 0.838 | 28 (16%) | 4 | 2.6 min | 2h 00m | n/a | 2026-05-24 |
+| `claude-opus-4-7[1m]` | Claude Code host-auth (`claude-code` 2.1.150) | `claude-host-auth-hardened-180` | 180 | 0.361 | 15 (8%) | 104 | 1.3 min | 1h 00m | $46.14 | 2026-05-24 |
+
+Historical 160-task reference:
+
 | Model | Harness | Tasks | Mean reward | Fully solved | Crashes | Mean latency/task | Runtime | Cost | Date |
-|---|---|---|---|---|---|---|---|---|---|
-| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | **0.850** | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | 0.850 | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
 
-Per-dataset (DeepSeek V4-flash):
+Per-dataset (current 180-task runs):
 
-| Dataset | n | Mean |
-|---|---|---|
-| Hadoop | 33 | 0.910 |
-| Thunderbird | 31 | 0.908 |
-| BGL | 36 | 0.901 |
-| OpenStack | 21 | 0.873 |
-| HDFS | 39 | 0.815 |
+| Dataset | n | Mesh + DeepSeek | DeepSeek + mini-swe | Claude Code Opus |
+|---|---:|---:|---:|---:|
+| BGL | 39 | 0.892 | 0.867 | 0.438 |
+| Hadoop | 42 | 0.858 | 0.828 | 0.280 |
+| HDFS | 49 | 0.821 | 0.769 | 0.362 |
+| OpenStack | 25 | 0.885 | 0.875 | 0.467 |
+| Thunderbird | 25 | 0.885 | 0.880 | 0.277 |
 
-Per-skill-type (DeepSeek V4-flash):
+Per-skill-type (current 180-task runs):
 
-| Skill | n | Mean | Mean latency | Notes |
-|---|---|---|---|---|
-| `tmpl` log template extraction | 20 | 0.956 | 2.6 min | LogParser-style; strongest |
-| `sev` severity classification | 15 | 0.894 | 2.5 min | P0–P3 calibration |
-| `seq` temporal sequence | 20 | 0.877 | 4.4 min | Trigger ID + ordering (slowest) |
-| `fp` false-positive triage | 25 | 0.865 | 1.8 min | After Gap 1 verifier fix (was 1.000 before tightening) |
-| `v1` anomaly localization | 60 | 0.823 | 2.1 min | Original 60-task suite |
-| `corr` cross-component | 20 | 0.745 | 3.2 min | Hardest skill — causal chain. After Gap 6 verifier fix (was 0.815 before; new `test_caused_by_links_match_ground_truth` caught wrong causal topology) |
+| Skill | n | Mesh + DeepSeek | DeepSeek + mini-swe | Claude Code Opus | Notes |
+|---|---:|---:|---:|---:|---|
+| `tmpl` log template extraction | 20 | 0.950 | **0.963** | 0.419 | LogParser-style; strongest for raw DeepSeek |
+| `rem` outcome remediation | 20 | **0.950** | 0.896 | 0.286 | Diagnose, apply local mitigation, pass health check |
+| `sev` severity classification | 15 | **0.906** | 0.806 | 0.283 | P0-P3 calibration without dataset-specific lookup table |
+| `fp` false-positive triage | 25 | **0.891** | 0.836 | 0.331 | Blind-triage prompt after verifier hardening |
+| `seq` temporal sequence | 20 | 0.867 | **0.879** | 0.308 | Trigger ID + ordering |
+| `v1` anomaly localization | 60 | **0.837** | 0.800 | 0.434 | Original anomaly-localization suite |
+| `corr` cross-component | 20 | 0.718 | **0.759** | 0.305 | Hardest skill: root component + causal chain |
 
-**Latency correlation:** Pearson r(latency, reward) = **−0.237** — slow tasks score slightly worse on average, but the relationship is weak. Some hard tasks are slow AND correct (e.g., `seq-thunderbird-vapi-60ea24c` at 5.7 min, reward 1.0).
+Mesh/internal-harness improves the DeepSeek baseline overall (+0.027 mean
+reward on the clean v4 run), with most of the lift coming from remediation,
+severity, false-positive triage, and v1 localization. Raw DeepSeek remains
+stronger on sequence, correlation, and template extraction.
 
-**Top failure modes** (across the 107 tasks scoring < 1.0):
+**Top failure modes** in the latest DeepSeek + `mini-swe-agent` 180-task run
+(152 tasks had at least one failed assertion):
 
 | Failed assertion | Tasks affected | Skill area |
 |---|---|---|
-| `test_root_cause_matches_ground_truth` | 51 | Wrong taxonomy bucket (most common error) |
-| `test_no_cross_file_line_confusion` | 47 | Cited line N of file A but text is at line N of file B |
-| `test_evidence_within_ground_truth` | 47 | Over-cited evidence outside truth set |
-| `test_trigger_role_correct` | 18 | Wrong trigger in temporal sequence |
-| `test_causal_chain_recall` | 16 | Missing ground-truth events in causal chain |
+| `test_root_cause_matches_ground_truth` | 56 | Wrong taxonomy bucket |
+| `test_no_cross_file_line_confusion` | 34 | Cited line N of file A but text is at line N of file B |
+| `test_evidence_within_ground_truth` | 34 | Over-cited evidence outside truth set |
+| `test_minimum_evidence_count` | 28 | Too little cited support |
+| `test_causal_chain_recall` | 25 | Missing ground-truth events in causal chain |
+| `test_trigger_role_correct` | 20 | Wrong trigger in temporal sequence |
 
-Actionable: DeepSeek finds anomaly *locations* well but mis-classifies *root causes* most often. The biggest skill gap is taxonomy mapping, not retrieval.
+Actionable: DeepSeek finds anomaly *locations* reasonably well but still
+mis-classifies *root causes* most often. Claude Code Opus under the host-auth
+adapter hit 104 trial errors in this run, so that row should be read as a
+harness/CLI integration result, not a model ceiling.
 
 > Verifier rigor history:
 > - **Original** (no fixes): overall mean 0.880, `fp` mean 1.000, `corr` mean 0.815
 > - **After Gap 1** (fp verifier — ground-truth set + classification match): overall 0.859, fp 0.865
 > - **After Gap 6** (corr verifier — `caused_by_step` topology match): overall **0.850**, corr 0.745
-> Both fixes tightened the verifier without breaking oracle (still passes 11/11 on fp tasks). The 0.850 is the citable headline.
+> Both fixes tightened the verifier without breaking oracle (still passes 11/11 on fp tasks). The 0.850 is the historical 160-task headline; the hardened 180-task leaderboard above supersedes it for current comparisons.
 
 Reproducing this run:
 
 ```bash
 export DEEPSEEK_API_KEY=sk-...
 harbor run -p tasks/ --agent mini-swe-agent -m deepseek/deepseek-v4-flash \
-  --agent-timeout-multiplier 3.0 --job-name bench-deepseek-v4-flash -o baselines
+  --agent-timeout-multiplier 3.0 --job-name bench-deepseek-v4-flash-hardened-180 -o baselines
 ```
 
 ## What's in the box
@@ -105,7 +131,17 @@ v2 added 100 more tasks across 5 new skill axes — same 5 datasets, different a
 | Severity classification | `sev-*` | 15 | P0–P3 calibration with justification consistency |
 | Log template extraction | `tmpl-*` | 20 | Partition raw lines into EventTemplates (LogParser-style) |
 
-Total: **160 tasks** across **6 skill types** × 5 datasets. See [docs/PLAN_V2.md](docs/PLAN_V2.md) for v2 design and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md) for per-skill agent performance.
+v3 adds an outcome-oriented remediation family:
+
+| Skill type | Slug prefix | Count | What it tests |
+|---|---|---:|---|
+| Remediation and recovery | `rem-*` | 20 | Root component diagnosis, mitigation choice, local action execution, and recovered health state |
+
+Total: **180 tasks** across **7 skill types** × 5 datasets. See
+[docs/PLAN_V2.md](docs/PLAN_V2.md) for v2 design,
+[docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md) for v3
+remediation hardening, and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
+for the historical 160-task DeepSeek report.
 
 ## How a task works
 
@@ -179,7 +215,7 @@ harbor run -p tasks/hdfs-datanode-0b694b5 --agent nop       # reward=0
 Run every gate the CI workflows run, locally:
 
 ```bash
-make validate-all    # unit + static (12 checks × 160 tasks) + oracle/nop
+make validate-all    # unit + static (12 checks × 180 tasks) + oracle/nop
 ```
 
 Regenerate the committed curated set exactly from its manifest:
@@ -203,14 +239,14 @@ set -a; . .env; set +a    # MOONSHOT_API_KEY
 
 Latest v1 60-task rubric pass report: [docs/rubric-pass-report.md](docs/rubric-pass-report.md)
 (0 fails on both runs at ~$3 total spend). The 100 v2 tasks haven't been
-rubric-graded yet; they're validated via oracle/nop gates + the per-task pytest
-verifier assertions.
+rubric-graded yet; neither have the 20 remediation tasks. They are validated
+via oracle/nop gates + the per-task pytest verifier assertions.
 
 ## Repo layout
 
 ```
 loghub-benchmark/
-├── tasks/                       # 160 curated tasks (60 v1 + 100 v2)
+├── tasks/                       # 180 curated tasks (60 v1 + 100 v2 + 20 remediation)
 ├── tools/
 │   ├── case_builder/            # adapters + exporter + tests
 │   └── rubric_check/            # Moonshot rubric grader
