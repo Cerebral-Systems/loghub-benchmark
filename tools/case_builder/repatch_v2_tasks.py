@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from . import export_to_harbor as ex
@@ -36,13 +37,32 @@ def _slug_to_case_meta(task_dir: Path) -> dict:
     dataset_token = parts[1] if parts[0] in {"fp", "sev", "seq", "corr", "tmpl", "rem"} else parts[0]
     dataset_name = by_prefix[dataset_token]
     file_basenames = sorted(expected.get("files", []))
+    anomaly_keys = _corr_anomaly_keys_from_existing(task_dir, expected, dataset_name)
     return {
         "dataset_name": dataset_name,
         "file_basenames": file_basenames,
         "slug": slug,
         "case_id": expected.get("case_id", "0" * 64),
         "root_cause": expected.get("root_cause_type", "other"),
+        "anomaly_keys": anomaly_keys,
     }
+
+
+def _corr_anomaly_keys_from_existing(task_dir: Path, expected: dict, dataset_name: str) -> tuple[str, ...]:
+    if dataset_name != "HDFS_v1":
+        return ()
+    for entry in expected.get("causal_chain", []):
+        path = task_dir / "environment" / "data" / entry.get("component", "")
+        line_no = entry.get("evidence_line")
+        if not path.is_file() or not isinstance(line_no, int):
+            continue
+        lines = path.read_text(errors="replace").splitlines()
+        if not (1 <= line_no <= len(lines)):
+            continue
+        match = re.search(r"blk_-?\d+", lines[line_no - 1])
+        if match:
+            return (match.group(0),)
+    return ()
 
 
 def _author_from_existing(task_dir: Path) -> tuple[str, str]:
@@ -122,7 +142,12 @@ def patch_seq(task_dir: Path) -> None:
 
 def patch_corr(task_dir: Path) -> None:
     meta = _slug_to_case_meta(task_dir)
-    case = {"dataset_name": meta["dataset_name"], "root_cause": meta["root_cause"], "case_id": meta["case_id"]}
+    case = {
+        "dataset_name": meta["dataset_name"],
+        "root_cause": meta["root_cause"],
+        "case_id": meta["case_id"],
+        "anomaly_keys": meta["anomaly_keys"],
+    }
     name, email = _author_from_existing(task_dir)
     (task_dir / "instruction.md").write_text(
         ex._render_instruction_corr(case, file_basenames=meta["file_basenames"], slug=meta["slug"])

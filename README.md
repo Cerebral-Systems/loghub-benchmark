@@ -35,15 +35,30 @@ for the historical 160-task DeepSeek report.
 ## Leaderboard
 
 Current 180-task hardened benchmark. Single run per row; "Errors" are Harbor
-trial exceptions. The mixed Mesh master row is included for traceability but is
-not a clean single-commit benchmark.
+trial exceptions. The latest Mesh row is the current best completed full run:
+`+0.0359` mean reward over raw DeepSeek and `+0.0090` over the prior Mesh v4
+run on the same 180 tasks.
 
 | Model | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors | Mean latency/task | Runtime | Cost | Date |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `deepseek/deepseek-v4-flash` | **internal-harness / Mesh latest Loghub adapter** (`mesh@e19322e`, adapter `652f7c0428a6`) | `mesh-runtime-e19322e-deepseek-adapter-652f7c0428a6-180-20260527T103903Z` | 180 | **0.874** | 57 (32%) | 0 | 1.4 min | 1h 21m | n/a | 2026-05-27 |
 | `deepseek/deepseek-v4-flash` | **internal-harness / Mesh runtime v4** (`mesh@71f5094`) | `mesh-runtime-loghub-v4-deepseek-hardened-180` | 180 | **0.865** | 32 (18%) | 0 | 1.7 min | 1h 20m | n/a | 2026-05-25 |
 | `deepseek/deepseek-v4-flash` | internal-harness / Mesh master mixed (`8725cc8` + `b04c118`) | `mesh-runtime-master-deepseek-hardened-180` | 180 | 0.864 | 31 (17%) | 0 | 2.2 min | 1h 39m | n/a | 2026-05-26 |
 | `deepseek/deepseek-v4-flash` | `mini-swe-agent` | `bench-deepseek-v4-flash-hardened-180` | 180 | 0.838 | 28 (16%) | 4 | 2.6 min | 2h 00m | n/a | 2026-05-24 |
 | `claude-opus-4-7[1m]` | Claude Code host-auth (`claude-code` 2.1.150) | `claude-host-auth-hardened-180` | 180 | 0.361 | 15 (8%) | 104 | 1.3 min | 1h 00m | $46.14 | 2026-05-24 |
+
+Latest full-run comparisons:
+
+| Comparison | Baseline mean | Mesh mean | Delta | Improved / regressed / same |
+|---|---:|---:|---:|---:|
+| Mesh latest vs raw DeepSeek + `mini-swe-agent` | 0.838 | **0.874** | **+0.036** | 75 / 34 / 71 |
+| Mesh latest vs Mesh runtime v4 | 0.865 | **0.874** | **+0.009** | 45 / 21 / 114 |
+
+Follow-up targeted hardening after the full run added deterministic HDFS
+block-flow tracing for correlation tasks. On the 5 HDFS correlation tasks,
+prompt-only hardening scored `0.691`; prompt + block-flow tracing scored
+`1.000` (`5/5`, no errors). A full 180-task rerun with that follow-up adapter
+has not been completed yet.
 
 Historical 160-task reference:
 
@@ -55,28 +70,28 @@ Per-dataset (current 180-task runs):
 
 | Dataset | n | Mesh + DeepSeek | DeepSeek + mini-swe | Claude Code Opus |
 |---|---:|---:|---:|---:|
-| BGL | 39 | 0.892 | 0.867 | 0.438 |
-| Hadoop | 42 | 0.858 | 0.828 | 0.280 |
-| HDFS | 49 | 0.821 | 0.769 | 0.362 |
-| OpenStack | 25 | 0.885 | 0.875 | 0.467 |
-| Thunderbird | 25 | 0.885 | 0.880 | 0.277 |
+| BGL | 40 | 0.931 | 0.867 | 0.438 |
+| Hadoop | 38 | 0.849 | 0.828 | 0.280 |
+| HDFS | 44 | 0.799 | 0.769 | 0.362 |
+| OpenStack | 25 | 0.875 | 0.875 | 0.467 |
+| Thunderbird | 33 | 0.934 | 0.880 | 0.277 |
 
 Per-skill-type (current 180-task runs):
 
 | Skill | n | Mesh + DeepSeek | DeepSeek + mini-swe | Claude Code Opus | Notes |
 |---|---:|---:|---:|---:|---|
-| `tmpl` log template extraction | 20 | 0.950 | **0.963** | 0.419 | LogParser-style; strongest for raw DeepSeek |
-| `rem` outcome remediation | 20 | **0.950** | 0.896 | 0.286 | Diagnose, apply local mitigation, pass health check |
-| `sev` severity classification | 15 | **0.906** | 0.806 | 0.283 | P0-P3 calibration without dataset-specific lookup table |
-| `fp` false-positive triage | 25 | **0.891** | 0.836 | 0.331 | Blind-triage prompt after verifier hardening |
-| `seq` temporal sequence | 20 | 0.867 | **0.879** | 0.308 | Trigger ID + ordering |
-| `v1` anomaly localization | 60 | **0.837** | 0.800 | 0.434 | Original anomaly-localization suite |
-| `corr` cross-component | 20 | 0.718 | **0.759** | 0.305 | Hardest skill: root component + causal chain |
+| `tmpl` log template extraction | 20 | 0.938 | **0.963** | 0.419 | LogParser-style; strongest for raw DeepSeek |
+| `rem` outcome remediation | 20 | **0.909** | 0.896 | 0.286 | Diagnose, apply local mitigation, pass health check |
+| `sev` severity classification | 15 | **0.911** | 0.806 | 0.283 | P0-P3 calibration without dataset-specific lookup table |
+| `fp` false-positive triage | 25 | **0.895** | 0.836 | 0.331 | Blind-triage prompt after verifier hardening |
+| `seq` temporal sequence | 20 | **0.883** | 0.879 | 0.308 | Trigger ID + ordering |
+| `v1` anomaly localization | 60 | **0.870** | 0.800 | 0.434 | Original anomaly-localization suite |
+| `corr` cross-component | 20 | 0.727 | **0.759** | 0.305 | Hardest skill: root component + causal chain; HDFS block-flow follow-up target scored 1.000 on 5-task slice |
 
-Mesh/internal-harness improves the DeepSeek baseline overall (+0.027 mean
-reward on the clean v4 run), with most of the lift coming from remediation,
-severity, false-positive triage, and v1 localization. Raw DeepSeek remains
-stronger on sequence, correlation, and template extraction.
+Mesh/internal-harness improves the raw DeepSeek baseline overall (+0.036 mean
+reward on the latest clean full run), with most of the lift coming from
+remediation, severity, false-positive triage, sequence, and v1 localization.
+Raw DeepSeek remains stronger on correlation and template extraction.
 
 **Top failure modes** in the latest DeepSeek + `mini-swe-agent` 180-task run
 (152 tasks had at least one failed assertion):

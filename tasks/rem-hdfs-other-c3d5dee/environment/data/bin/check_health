@@ -9,15 +9,24 @@ Exit 2  -> state file unreadable
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
 
 
 def main() -> int:
-    state_path = Path("/app/service_state.json")
+    p = argparse.ArgumentParser()
+    p.add_argument(
+        "--state",
+        default="/app/service_state.json",
+        help="path to service_state.json (default /app/service_state.json)",
+    )
+    args = p.parse_args()
+
+    state_path = Path(args.state)
     if not state_path.is_file():
-        print("missing /app/service_state.json", file=sys.stderr)
+        print(f"missing service_state.json: {state_path}", file=sys.stderr)
         return 2
     try:
         state = json.loads(state_path.read_text())

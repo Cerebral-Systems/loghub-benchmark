@@ -12,6 +12,7 @@ from pathlib import Path
 import pytest
 
 from tools.analysis import diff_oracle_agent as doa
+from tools.analysis import exact_failure_report as efr
 from tools.analysis import failure_modes as fm
 from tools.analysis import summarize_runs as sr
 
@@ -172,3 +173,61 @@ def test_diff_oracle_agent_flags_mismatch_in_mitigation() -> None:
     diff = doa.diff_answer_to_expected(answer, expected)
     assert diff["fields"]["mitigation.action"]["match"] is False
     assert diff["fields"]["postcheck.health_status"]["match"] is False
+
+
+# --- exact_failure_report ---------------------------------------------------
+
+
+def test_exact_failure_report_joins_reward_failures_and_expected_diff(tmp_path: Path) -> None:
+    run_dir = tmp_path / "run"
+    tasks_dir = tmp_path / "tasks"
+    run_dir.mkdir()
+    trial = _write_trial(
+        run_dir,
+        "rem-hdfs-other-abcd123",
+        "0",
+        0.75,
+        failures=[
+            ("test_root_cause_matches", "root_cause_type mismatch"),
+            ("test_mitigation_target_matches", "mitigation.action mismatch"),
+        ],
+    )
+    (trial / "artifacts").mkdir()
+    (trial / "artifacts" / "answer.json").write_text(
+        json.dumps(
+            {
+                "schema_version": "loghub-sre-answer-v3-remediation",
+                "is_incident": True,
+                "root_component": "hdfs-namenode",
+                "root_cause_type": "timeout",
+                "mitigation": {"action": "mark_noop", "target": "hdfs-namenode"},
+                "postcheck": {"health_status": "healthy"},
+            }
+        )
+    )
+    task_dir = tasks_dir / "rem-hdfs-other-abcd123" / "tests"
+    task_dir.mkdir(parents=True)
+    (task_dir / "expected.json").write_text(
+        json.dumps(
+            {
+                "schema_version": "loghub-sre-answer-v3-remediation",
+                "is_incident": True,
+                "root_component": "hdfs-namenode",
+                "root_cause_type": "other",
+                "mitigation": {"action": "restart_component", "target": "hdfs-namenode"},
+                "expected_health": "healthy",
+            }
+        )
+    )
+
+    rows = efr.collect_reports(run_dir, tasks_dir=tasks_dir)
+    assert len(rows) == 1
+    row = rows[0]
+    assert row.family == "rem"
+    assert row.dataset == "hdfs"
+    assert row.failure_categories == ["mitigation", "root_cause_enum"]
+    assert "root_cause_type" in row.field_diff["mismatches"]
+    assert "mitigation.action" in row.field_diff["mismatches"]
+    summary = efr.summarize(rows)
+    assert summary["failure_categories"]["root_cause_enum"] == 1
+    assert summary["field_mismatches"]["mitigation.action"] == 1
