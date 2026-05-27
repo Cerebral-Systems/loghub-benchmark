@@ -27,11 +27,7 @@ substrate gates:
 
 Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
-baseline, [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md)
-for the outcome-task hardening report, and
-[docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
-for the historical 160-task DeepSeek report.
-
+baseline.
 ## Leaderboard
 
 Current 180-task hardened benchmark. Single run per row; "Errors" are Harbor
