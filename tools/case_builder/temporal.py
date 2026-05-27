@@ -1,9 +1,9 @@
-"""Shared timeline-building for T2 (temporal sequence reconstruction).
+"""Shared timeline-building for the `seq` task family (temporal sequence reconstruction).
 
-Per docs/PLAN_V2.md T2, each adapter exposes a `parse_event(line)` that
-extracts (timestamp_int, component, level) from a log line. This module
-takes the adapter + a CandidateCase and returns a canonical ordered
-timeline of the anomaly lines tagged with `trigger` / `propagation` /
+Each adapter exposes a `parse_event(line)` that extracts
+(timestamp_int, component, level) from a log line. This module takes
+the adapter + a CandidateCase and returns a canonical ordered timeline
+of the anomaly lines tagged with `trigger` / `propagation` /
 `consequence` roles.
 
 Tiebreak rule: when two events share both timestamp and component

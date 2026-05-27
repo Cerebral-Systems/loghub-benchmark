@@ -5,18 +5,17 @@ committed to this repo. The case-builder (`tools/case_builder/`) reads
 the dataset directly off disk; the per-task Docker images bake only the
 specific slices each task needs.
 
-## Layout on this VM
+## Expected layout
+
+The case-builder accepts any corpus location via the `--input` flag; the
+paths below are the conventions this repo's tooling and existing docs
+use, but nothing in the code is hard-coded to them.
 
 | Path | Purpose |
 |---|---|
-| `/opt/mesh-benchmarks/external/loghub/` | Read-only clone of `logpai/loghub` with the published 2k samples (~13 MB). Useful for quick inspection. |
-| `/home/buildout/loghub-full/<dataset>/` | Full corpora extracted from Zenodo. Writable, ~480 GB free. |
+| `<host>/loghub/` | Read-only clone of `logpai/loghub` with the published 2k samples (~13 MB). Useful for quick inspection and for the `tmpl` adapter (which reads `<dataset>_2k.log_structured.csv`). |
+| `<host>/loghub-full/<dataset>/` | Full corpora extracted from Zenodo. Roughly 80 GB total across all five datasets. |
 | `tools/case_builder/tests/fixtures/` | Tiny synthetic fixtures committed for unit tests. Do not touch the real corpus from tests. |
-
-We intentionally do **not** use `/opt/mesh-benchmarks/external/loghub-full/`
-because `/opt/mesh-benchmarks/` is root-owned on this VM. If a future
-setup grants write access there, the case-builder accepts any path via
-`--input` so the only thing to update is this document.
 
 ## Datasets currently on disk
 
@@ -125,10 +124,15 @@ for future corpora.
 
 ## License
 
-Loghub is BSD-licensed; Loghub-2.0 is CC-BY-4.0. Per both licenses we
-may redistribute slices baked into Docker images provided we retain the
-upstream citation. The standard citation is recorded in each generated
-task's `instruction.md`:
+The Loghub corpus is **not** BSD/MIT-licensed; it carries a custom
+research-use license that requires citation and reference to the source
+repository for any redistribution. See
+[Loghub's `LICENSE`](https://github.com/logpai/loghub/blob/master/LICENSE)
+for the upstream terms. The slices this repo redistributes under
+`tasks/*/environment/data/` are governed by that license; see the
+top-level `README.md` "Data attribution" section and the per-dataset
+citation table for the full picture. The standard citation is also
+recorded in each generated task's `instruction.md`:
 
 > Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. *Loghub:
 > A Large Collection of System Log Datasets for AI-driven Log Analytics*.

@@ -138,9 +138,8 @@ v3 adds an outcome-oriented remediation family:
 | Remediation and recovery | `rem-*` | 20 | Root component diagnosis, mitigation choice, local action execution, and recovered health state |
 
 Total: **180 tasks** across **7 skill types** × 5 datasets. See
-[docs/PLAN_V2.md](docs/PLAN_V2.md) for v2 design,
 [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md) for v3
-remediation hardening, and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
+remediation hardening and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
 for the historical 160-task DeepSeek report.
 
 ## How a task works
@@ -197,7 +196,7 @@ Full per-test breakdown: [docs/scoring.md](docs/scoring.md).
 
 ```bash
 pip install harbor  # the test harness
-git clone https://github.com/<owner>/loghub-benchmark
+git clone https://github.com/hydrogenbond007/loghub-benchmark
 cd loghub-benchmark
 make unit            # adapter + exporter tests (instant)
 ```

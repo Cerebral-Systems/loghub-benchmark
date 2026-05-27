@@ -90,8 +90,9 @@ evidence citation match the expected root cause.
 
 ## Adding a new dataset
 
-1. Drop the corpus under `/home/buildout/loghub-full/<DatasetName>/`.
-   Document checksums + source URL in `docs/data-setup.md`.
+1. Drop the corpus under the conventional `<host>/loghub-full/<DatasetName>/`
+   layout (or anywhere — the case-builder accepts `--input`). Document
+   checksums + source URL in `docs/data-setup.md`.
 2. Add `tools/case_builder/adapters/<dataset>.py` implementing
    `AdapterBase`. Aim for ≤200 lines — most adapters are bookkeeping
    around 2–3 regexes and a label-file parser.

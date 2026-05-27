@@ -1,9 +1,7 @@
 # Loghub-SRE Hardening Redo — Final Quality Report
 
-**Branch:** `hardening-outcome-redo`
 **Date:** 2026-05-24
-**Author:** Madhav Goyal (Claude Opus 4.7 assisted)
-**Plan source:** `/root/loghub-hardening-logs/hardening-redo-plan.md`
+**Author:** Madhav Goyal
 
 ## Summary
 
@@ -115,8 +113,8 @@ untouched, so the verifier behaviour on prior agent runs is unchanged
 | `make oracle-nop` (all 180 tasks) | **180 / 180 — oracle=1.0, nop=0.0** |
 | `ci_checks/check-oracle-leak.sh` on rem-* | **All 20 clean** |
 | `ci_checks/check-oracle-derives.sh` on rem-* | **All 20 clean** |
-| Oracle/nop on all 20 rem tasks | **20 / 20 — oracle=1.0, nop=0.0** (see `.context/rem-validate.log`) |
-| Oracle/nop on patched v2 sample (10 real tasks across fp / sev / seq / corr / tmpl) | **10 / 10 — oracle=1.0, nop=0.0** (see `.context/v2-sample-validate.log`) |
+| Oracle/nop on all 20 rem tasks | **20 / 20 — oracle=1.0, nop=0.0** |
+| Oracle/nop on patched v2 sample (10 real tasks across fp / sev / seq / corr / tmpl) | **10 / 10 — oracle=1.0, nop=0.0** |
 
 ### Exporter unit-test cleanup
 
@@ -153,9 +151,7 @@ Four modules under `tools/analysis/`:
   overall, per-family, per-dataset, per-task, plus the failure-mode
   histogram.
 
-Smoke-tested against an actual Harbor run dir under
-`/tmp/harbor-m35-test/`. Sample output preserved under
-`.context/sample-quality-report.md` for reference.
+Smoke-tested against an actual Harbor run dir.
 
 ## Manual quality spot-review (rem)
 

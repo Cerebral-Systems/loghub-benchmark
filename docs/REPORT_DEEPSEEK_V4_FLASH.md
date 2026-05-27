@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-22
 **Run ID:** `bench-deepseek-v4-flash`
-**Repo state:** branch `autonomous-buildout-20260515` after PR #3 merge candidate (PLAN_V2 + T1-T5)
+**Repo state:** 160 tasks (60 v1 anomaly + 100 v2 across the 5 skill axes), before the v3 remediation family and the verifier hardening pass.
 
 ## TL;DR
 
@@ -23,7 +23,7 @@ DeepSeek V4-flash via `mini-swe-agent` solved **160/160 tasks without crashing**
 
 ## Methodology
 
-- **Tasks**: all 160 tasks under `tasks/` — 60 v1 anomaly localization + 100 v2 across 5 new skill types (T1-T5 from PLAN_V2.md).
+- **Tasks**: all 160 tasks under `tasks/` at the time of the run — 60 v1 anomaly localization + 100 v2 across the 5 skill axes (`fp`, `seq`, `corr`, `sev`, `tmpl`).
 - **Agent**: `mini-swe-agent` (Python loop, lean tool-use, no fancy prompt scaffolding) wrapping `deepseek/deepseek-v4-flash` via litellm.
 - **Container**: per-task Docker (Ubuntu 24.04 + python3 + curl + grep/awk), `allow_internet = true` so the agent's CLI install can complete.
 - **Timeout**: `--agent-timeout-multiplier 3.0` (900s per task), default Harbor concurrency.
