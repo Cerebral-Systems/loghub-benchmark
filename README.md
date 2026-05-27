@@ -1,12 +1,14 @@
 # Loghub SRE Harbor benchmark
 
 A Harbor-compatible benchmark for SRE log-investigation skills.
-**180 curated tasks** built from the Loghub corpus (`logpai/loghub`), covering
-7 distinct skill types: anomaly localization (v1, 60 tasks), 5 v2 skill
+**180 curated tasks** built from the Loghub corpus [(`logpai/loghub`)](https://github.com/logpai/loghub).
+
+It covers 7 distinct skill types: anomaly localization (v1, 60 tasks), 5 v2 skill
 axes — false-positive triage, temporal sequence reconstruction, cross-component
 correlation, severity classification, and log-template extraction (100 tasks)
-— plus 20 outcome-oriented remediation tasks. Each task ships a Docker
-environment with partitioned log files and asks the agent to investigate the
+— plus 20 outcome-oriented remediation tasks.
+
+Each task ships a Docker environment with partitioned log files and asks the agent to investigate the
 logs and produce a structured JSON answer that the verifier grades on
 schema-specific assertions. Remediation tasks also include topology, service
 state, config, and local mitigation tools; the verifier checks both diagnosis
@@ -28,6 +30,13 @@ substrate gates:
 Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
 baseline.
+
+Use Harbour to run the benchmark
+
+```bash
+harbor run -p loghub-benchmark/tasks --agent mini-swe-agent --model model
+
+```
 ## Leaderboard
 
 Current 180-task hardened benchmark. Single run per row; "Errors" are Harbor
