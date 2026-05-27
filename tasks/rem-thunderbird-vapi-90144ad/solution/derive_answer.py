@@ -64,15 +64,22 @@ def main() -> None:
 
     # Run the canonical mitigation against /app/service_state.json.
     mitigation_cmd = [
-        "/app/bin/apply_mitigation",
+        str(args.app_dir / "bin" / "apply_mitigation"),
         "--action", action,
         "--target", root_name,
+        "--state", str(args.app_dir / "service_state.json"),
+        "--topology", str(args.app_dir / "topology.json"),
     ]
     subprocess.check_call(mitigation_cmd)
 
     # Capture health status post-mitigation.
     proc = subprocess.run(
-        ["/app/bin/check_health"], capture_output=True, text=True
+        [
+            str(args.app_dir / "bin" / "check_health"),
+            "--state", str(args.app_dir / "service_state.json"),
+        ],
+        capture_output=True,
+        text=True,
     )
     first_line = (proc.stdout or "").splitlines()[0] if proc.stdout else ""
     if first_line.startswith("status="):

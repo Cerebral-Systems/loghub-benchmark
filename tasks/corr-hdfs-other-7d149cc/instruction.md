@@ -14,6 +14,14 @@ Anomalies appear in multiple files. Your job is not just to cite them
 — it's to identify which file is the **root cause** (where the chain
 started) and which are downstream consequences.
 
+Treat the causal chain as an operational trace, not just a search for loud
+ERROR/WARN lines. The root and downstream evidence can be INFO-level lifecycle
+events when those lines carry the shared object ID and explain how the incident
+propagated through components.
+
+The incident alert is keyed on block ID `blk_-1001299764911418845`.
+For HDFS, trace the same `blk_*` block ID across `NameSystem.allocateBlock`, `DataXceiver` receive/write, and `PacketResponder` lifecycle lines. A correct chain may start at the NameNode allocation line even when later DataNode lines look louder.
+
 Write **`/app/answer.json`** with this shape:
 
 ```json

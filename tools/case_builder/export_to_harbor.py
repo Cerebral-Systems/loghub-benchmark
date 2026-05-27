@@ -2110,6 +2110,7 @@ def _build_expected_corr(case: dict, chain: list[dict], root_component: str, fil
 def _render_instruction_corr(case: dict, *, file_basenames: list[str], slug: str) -> str:
     allowed = ", ".join(f"`{r}`" for r in _allowed_root_causes_for(case["dataset_name"]))
     files_md = "\n".join(f"  - `/app/{name}`" for name in file_basenames)
+    guidance = _render_corr_dataset_guidance(case)
     return f"""<!-- {CANARY} -->
 
 You are tracing the **causal chain** of a {case["dataset_name"]} system
@@ -2121,6 +2122,12 @@ log files, partitioned by component:
 Anomalies appear in multiple files. Your job is not just to cite them
 — it's to identify which file is the **root cause** (where the chain
 started) and which are downstream consequences.
+
+Treat the causal chain as an operational trace, not just a search for loud
+ERROR/WARN lines. The root and downstream evidence can be INFO-level lifecycle
+events when those lines carry the shared object ID and explain how the incident
+propagated through components.
+{guidance}
 
 Write **`/app/answer.json`** with this shape:
 
@@ -2154,6 +2161,30 @@ Rules:
 - `evidence_line` is 1-based within the cited component file.
 - `root_cause_type` is one of the allowed values for this dataset.
 """
+
+
+def _render_corr_dataset_guidance(case: dict) -> str:
+    dataset_name = case["dataset_name"]
+    if dataset_name == "HDFS_v1":
+        anomaly_keys = tuple(case.get("anomaly_keys") or ())
+        alert_key = f"\nThe incident alert is keyed on block ID `{anomaly_keys[0]}`." if anomaly_keys else ""
+        return (
+            f"{alert_key}\nFor HDFS, trace the same `blk_*` block ID across `NameSystem.allocateBlock`, "
+            "`DataXceiver` receive/write, and `PacketResponder` lifecycle lines. A correct "
+            "chain may start at the NameNode allocation line even when later DataNode lines "
+            "look louder."
+        )
+    if dataset_name == "Hadoop":
+        return (
+            "\nFor Hadoop, follow shared job/application/container IDs and timestamps across "
+            "MRAppMaster, YARN, MapReduce, and miscellaneous component logs."
+        )
+    if dataset_name == "OpenStack":
+        return (
+            "\nFor OpenStack, follow shared instance/request IDs and the nova API, scheduler, "
+            "and compute handoff order."
+        )
+    return ""
 
 
 def _render_task_toml_corr(
@@ -3842,15 +3873,24 @@ Exit 2  -> state file unreadable
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
 
 
 def main() -> int:
-    state_path = Path("/app/service_state.json")
+    p = argparse.ArgumentParser()
+    p.add_argument(
+        "--state",
+        default="/app/service_state.json",
+        help="path to service_state.json (default /app/service_state.json)",
+    )
+    args = p.parse_args()
+
+    state_path = Path(args.state)
     if not state_path.is_file():
-        print("missing /app/service_state.json", file=sys.stderr)
+        print(f"missing service_state.json: {{state_path}}", file=sys.stderr)
         return 2
     try:
         state = json.loads(state_path.read_text())
@@ -4152,15 +4192,22 @@ def main() -> None:
 
     # Run the canonical mitigation against /app/service_state.json.
     mitigation_cmd = [
-        "/app/bin/apply_mitigation",
+        str(args.app_dir / "bin" / "apply_mitigation"),
         "--action", action,
         "--target", root_name,
+        "--state", str(args.app_dir / "service_state.json"),
+        "--topology", str(args.app_dir / "topology.json"),
     ]
     subprocess.check_call(mitigation_cmd)
 
     # Capture health status post-mitigation.
     proc = subprocess.run(
-        ["/app/bin/check_health"], capture_output=True, text=True
+        [
+            str(args.app_dir / "bin" / "check_health"),
+            "--state", str(args.app_dir / "service_state.json"),
+        ],
+        capture_output=True,
+        text=True,
     )
     first_line = (proc.stdout or "").splitlines()[0] if proc.stdout else ""
     if first_line.startswith("status="):
