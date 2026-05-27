@@ -1,7 +1,6 @@
-"""Severity scoring for T4 (severity classification).
+"""Severity scoring for the `sev` task family.
 
-The rule table is the one in docs/PLAN_V2.md T4. Severity is computed
-from two inputs:
+Severity is computed from two inputs:
 
   - `tag`: the dataset-specific alert tag (or root_cause for datasets
     without inline tags, like Hadoop / HDFS / OpenStack).

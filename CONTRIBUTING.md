@@ -1,7 +1,8 @@
 # Contributing to Loghub SRE benchmark
 
-Tasks in this benchmark are **generated**, not hand-authored. The 60
-tasks committed to `tasks/` come out of the case-builder
+Tasks in this benchmark are **generated**, not hand-authored. The 180
+tasks committed to `tasks/` (60 v1 anomaly localization + 100 v2 across
+5 skill axes + 20 v3 outcome remediation) come out of the case-builder
 (`tools/case_builder/`) running over the Loghub corpus. The supported
 contribution paths reflect that:
 
@@ -21,7 +22,7 @@ corpus version with a known seed — that's how
 ## Local setup
 
 ```bash
-git clone https://github.com/<owner>/loghub-benchmark
+git clone https://github.com/hydrogenbond007/loghub-benchmark
 cd loghub-benchmark
 uv venv .venv-tools && source .venv-tools/bin/activate
 pip install harbor pytest pytest-json-ctrf openai  # openai for the rubric grader
@@ -37,8 +38,9 @@ the rubric grader you need a Moonshot or Anthropic API key; see
 The full spec lives in [`docs/dataset-adapters.md`](docs/dataset-adapters.md).
 Short version:
 
-1. Download the corpus into `/home/buildout/loghub-full/<DatasetName>/`
-   and record sizes + SHA-256 in `docs/data-setup.md`.
+1. Download the corpus into the conventional `<host>/loghub-full/<DatasetName>/`
+   layout (or anywhere — the case-builder accepts `--input`) and record
+   sizes + SHA-256 in `docs/data-setup.md`.
 2. Write the adapter (`tools/case_builder/adapters/<dataset>.py`)
    inheriting from `AdapterBase`. Aim for ≤200 lines.
 3. Commit a tiny synthetic fixture (10–30 lines + label file) under
@@ -71,7 +73,7 @@ Every PR must pass `make validate-all`. Concretely:
   themselves).
 - `make oracle-nop`: every task in `tasks/` yields
   `harbor run --agent oracle` reward=1 and `--agent nop` reward=0.
-  Slow (~10–15 min at 6-way parallelism for 60 tasks).
+  Slow (~30–45 min at 6-way parallelism for the full 180-task set).
 - The Moonshot rubric grader (`tools/rubric_check/moonshot_check.py`)
   yields 0 fails on the same two-run criterion documented in
   `docs/rubric-pass-report.md`.

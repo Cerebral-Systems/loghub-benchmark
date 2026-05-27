@@ -265,7 +265,7 @@ def make_slug(case: dict) -> str:
     """V1 anomaly slug: `<dataset>-<root-cause>-<short-id>`.
 
     v2 task types use `make_slug_v2()` instead to prepend a `<task-type>-`
-    prefix per docs/PLAN_V2.md.
+    prefix.
     """
     ds = DATASET_SLUG[case["dataset_name"]]
     rc = ROOT_CAUSE_SLUG.get(case["root_cause"], "other")

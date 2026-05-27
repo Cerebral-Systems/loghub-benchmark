@@ -1,8 +1,8 @@
 """Shared classifier for false-positive indicator lines.
 
-Per docs/PLAN_V2.md T1, FP windows contain scary-but-benign log lines. Each
-indicator is tagged with one of five `why_not_anomalous` categories so the
-T1 verifier can check both *which* lines the agent flags and *why*.
+FP windows contain scary-but-benign log lines. Each indicator is
+tagged with one of five `why_not_anomalous` categories so the `fp`
+verifier can check both *which* lines the agent flags and *why*.
 
 Categories (must match the enum in the v2-fp answer schema):
   - rate_limit_warning
