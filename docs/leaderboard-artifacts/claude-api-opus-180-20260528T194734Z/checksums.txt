@@ -1,0 +1,7 @@
+# SHA-256 checksums — claude-api-opus-180-20260528T194734Z
+# committed bundle files (paths relative to this directory):
+5285d567c7db93bdc0e5a74faf27d78cd5c91372f1c59887e4553f142795da03  result.json
+f62ad91579860b1ab0ce42c71df3cc656ee43a5e37f7ba090dffdddb84c36ed3  per_task.csv
+d8cd7e647136e1a5d05215f898f4781b409d2475b7492f402c10b08a82624817  SUMMARY.md
+# full-run tarball (archived outside git):
+a8c8d2b5425a057073b485baa91f3025c0890bb67a6c1660431be85e9b49b716  claude-api-opus-180-20260528T194734Z.tar.gz (at /home/buildout/benchmark-artifacts/)
