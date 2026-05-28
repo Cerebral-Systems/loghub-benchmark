@@ -2,7 +2,7 @@
 
 > Refresh note (2026-05-17): this report is the last completed two-pass
 > Moonshot rubric run. A rerun after the network-enabled task refresh was
-> attempted on Hetzner, but the configured Moonshot account returned an
+> attempted, but the configured Moonshot account returned an
 > insufficient-balance/quota error before the first task completed. Do not
 > treat the tables below as refreshed verdicts for the regenerated task set.
 
@@ -35,7 +35,7 @@ Code's tool-use streaming. Moonshot's Anthropic-compat endpoint at
 `api.moonshot.ai/anthropic` exposes `/v1/messages` but doesn't satisfy
 Claude Code's expectations (tested at runtime — returns
 `Exception: Claude Code returned an error result: success`). To stay
-within the moonshot/kimi API budget the user wired up, we wrote a
+within the available Moonshot/Kimi API budget, this repo includes a
 parallel rubric checker that:
 
 1. Loads the same `rubrics/task-implementation.toml`.

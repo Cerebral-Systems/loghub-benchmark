@@ -29,9 +29,8 @@ substrate gates:
 
 Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
-baseline.
-
-Use Harbour to run the benchmark
+baseline, [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md)
+for the outcome-task hardening report.
 
 ## Harness / Model Matrix
 
@@ -56,8 +55,11 @@ Completed full-run deltas:
 |---|---:|---:|---:|---:|
 | Mesh Loghub profile + DeepSeek vs raw DeepSeek | 0.860 | **0.895** | **+0.035** | +35 |
 | Mesh Loghub profile + Mimo vs raw Mimo | raw Mimo still running | **0.892** | n/a | n/a |
+
+Quick Harbor command:
+
 ```bash
-harbor run -p loghub-benchmark/tasks --agent mini-swe-agent --model model
+harbor run -p loghub-benchmark/tasks --agent mini-swe-agent --model <provider/model>
 ```
 
 Strict-boundary smoke runs:
@@ -129,7 +131,7 @@ harness/CLI integration result, not a model ceiling.
 Reproducing this run:
 
 ```bash
-export DEEPSEEK_API_KEY=sk-...
+export DEEPSEEK_API_KEY=<your key>
 harbor run -p tasks/ --agent mini-swe-agent -m deepseek/deepseek-v4-flash \
   --agent-timeout-multiplier 3.0 --job-name bench-deepseek-v4-flash-latest-180 -o baselines
 ```
@@ -164,8 +166,7 @@ v3 adds an outcome-oriented remediation family:
 
 Total: **180 tasks** across **7 skill types** × 5 datasets. See
 [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md) for v3
-remediation hardening and [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
-for the historical 160-task DeepSeek report.
+remediation hardening.
 
 ## How a task works
 

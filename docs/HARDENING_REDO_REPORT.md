@@ -1,7 +1,6 @@
 # Loghub-SRE Hardening Redo — Final Quality Report
 
 **Date:** 2026-05-24
-**Author:** Madhav Goyal
 
 ## Summary
 
