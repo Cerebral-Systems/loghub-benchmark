@@ -32,33 +32,44 @@ for the outcome-task hardening report, and
 [docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
 for the historical 160-task DeepSeek report.
 
-## Leaderboard
+## Harness / Model Matrix
 
-Current 180-task hardened benchmark. Single run per row; "Errors" are Harbor
-trial exceptions. The latest Mesh row is the current best completed full run:
-`+0.0359` mean reward over raw DeepSeek and `+0.0090` over the prior Mesh v4
-run on the same 180 tasks.
+Latest 180-task hardened benchmark runs from May 28, 2026. Single run per row;
+"Errors" are Harbor trial exceptions. Rows marked "pre-boundary" used the
+Loghub-specific Mesh profile and tools, but the adapter still performed
+structured benchmark finalization. The strict-boundary harness, where the
+adapter only copies `decision.reasoning.evidence_pack.domain_decision.answer`,
+has passed smoke tests but still needs a full 180-task rerun.
 
-| Model | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors | Mean latency/task | Runtime | Cost | Date |
-|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| `deepseek/deepseek-v4-flash` | **internal-harness / Mesh latest Loghub adapter** (`mesh@e19322e`, adapter `652f7c0428a6`) | `mesh-runtime-e19322e-deepseek-adapter-652f7c0428a6-180-20260527T103903Z` | 180 | **0.874** | 57 (32%) | 0 | 1.4 min | 1h 21m | n/a | 2026-05-27 |
-| `deepseek/deepseek-v4-flash` | **internal-harness / Mesh runtime v4** (`mesh@71f5094`) | `mesh-runtime-loghub-v4-deepseek-hardened-180` | 180 | **0.865** | 32 (18%) | 0 | 1.7 min | 1h 20m | n/a | 2026-05-25 |
-| `deepseek/deepseek-v4-flash` | internal-harness / Mesh master mixed (`8725cc8` + `b04c118`) | `mesh-runtime-master-deepseek-hardened-180` | 180 | 0.864 | 31 (17%) | 0 | 2.2 min | 1h 39m | n/a | 2026-05-26 |
-| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | `bench-deepseek-v4-flash-hardened-180` | 180 | 0.838 | 28 (16%) | 4 | 2.6 min | 2h 00m | n/a | 2026-05-24 |
-| `claude-opus-4-7[1m]` | Claude Code host-auth (`claude-code` 2.1.150) | `claude-host-auth-hardened-180` | 180 | 0.361 | 15 (8%) | 104 | 1.3 min | 1h 00m | $46.14 | 2026-05-24 |
+| Harness | Model / agent | Run ID | Status | Mean reward | Fully solved | Errors | Notes |
+|---|---|---|---:|---:|---:|---:|---|
+| Mesh Loghub profile, pre-boundary full run | `deepseek/deepseek-v4-flash` | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | **0.895** | 66 (37%) | 0 | Latest completed Mesh+DeepSeek full run |
+| Mesh Loghub profile, pre-boundary full run | `openai/mimo-v2.5-pro` | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | **0.892** | 64 (36%) | 0 | Latest completed Mesh+Mimo full run |
+| Raw Harbor + `mini-swe-agent` | `deepseek/deepseek-v4-flash` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | Clean raw DeepSeek baseline |
+| Raw Harbor + `mini-swe-agent` | `openai/mimo-v2.5-pro` | `bench-mimo-v2.5-pro-envmimo-latest-180-20260528T054915Z` | 171/180 completed; 2 running; 7 pending | 0.861 | 32 so far | 2 | Correct `.env.mimo`; still in progress |
+| Claude Code host-auth | `claude-opus-4-7[1m]` | `claude-host-auth-latest-180-20260528T054018Z` | 180/180 | 0.332 | 15 (8%) | 111 | CLI/session-limit integration failures dominate |
 
-Latest full-run comparisons:
+Completed full-run deltas:
 
-| Comparison | Baseline mean | Mesh mean | Delta | Improved / regressed / same |
+| Comparison | Baseline mean | Harness mean | Delta | Full-credit delta |
 |---|---:|---:|---:|---:|
-| Mesh latest vs raw DeepSeek + `mini-swe-agent` | 0.838 | **0.874** | **+0.036** | 75 / 34 / 71 |
-| Mesh latest vs Mesh runtime v4 | 0.865 | **0.874** | **+0.009** | 45 / 21 / 114 |
+| Mesh Loghub profile + DeepSeek vs raw DeepSeek | 0.860 | **0.895** | **+0.035** | +35 |
+| Mesh Loghub profile + Mimo vs raw Mimo | raw Mimo still running | **0.892** | n/a | n/a |
 
-Follow-up targeted hardening after the full run added deterministic HDFS
-block-flow tracing for correlation tasks. On the 5 HDFS correlation tasks,
-prompt-only hardening scored `0.691`; prompt + block-flow tracing scored
-`1.000` (`5/5`, no errors). A full 180-task rerun with that follow-up adapter
-has not been completed yet.
+Strict-boundary smoke runs:
+
+| Task family | Run ID | Reward | Boundary audit |
+|---|---|---:|---|
+| Localization | `mesh-domain-decision-boundary-smoke-20260528T100814Z` | 0.917 | `mesh_domain_decision_copy`; no semantic repair |
+| Correlation | `mesh-domain-decision-boundary-3task-20260528T100913Z` | 0.727 | `mesh_domain_decision_copy`; no semantic repair |
+| Template extraction | `mesh-domain-decision-boundary-tmpl-20260528T101037Z` | 0.875 | `mesh_domain_decision_copy`; no semantic repair |
+| Remediation | `mesh-domain-decision-boundary-rem-20260528T101037Z` | 0.727 | Mesh mitigation applied; adapter validator surfaced one citation mismatch |
+
+The strict-boundary adapter intentionally refuses to synthesize semantic
+fields. It requires Mesh to emit the benchmark answer in
+`decision.reasoning.evidence_pack.domain_decision.answer`; the adapter only
+validates, copies, and records provenance. Future Mesh leaderboard rows should
+come from a full 180-task strict-boundary rerun.
 
 Historical 160-task reference:
 
@@ -66,32 +77,27 @@ Historical 160-task reference:
 |---|---|---:|---:|---:|---:|---:|---:|---:|---|
 | `deepseek/deepseek-v4-flash` | `mini-swe-agent` | 160 | 0.850 | 28 (18%) | 0 | 2.6 min | 1h 44m | <$1 | 2026-05-22 |
 
-Per-dataset (current 180-task runs):
+Per-skill-type, latest completed DeepSeek full runs:
 
-| Dataset | n | Mesh + DeepSeek | DeepSeek + mini-swe | Claude Code Opus |
+| Skill | n | Mesh + DeepSeek | Raw DeepSeek | Delta |
 |---|---:|---:|---:|---:|
-| BGL | 40 | 0.931 | 0.867 | 0.438 |
-| Hadoop | 38 | 0.849 | 0.828 | 0.280 |
-| HDFS | 44 | 0.799 | 0.769 | 0.362 |
-| OpenStack | 25 | 0.875 | 0.875 | 0.467 |
-| Thunderbird | 33 | 0.934 | 0.880 | 0.277 |
+| `bgl` v1 localization subset | 15 | 0.978 | 0.872 | +0.106 |
+| `corr` cross-component correlation | 20 | 0.818 | 0.818 | +0.000 |
+| `fp` false-positive triage | 25 | 0.906 | 0.866 | +0.040 |
+| `hadoop` v1 localization subset | 12 | 0.821 | 0.776 | +0.045 |
+| `hdfs` v1 localization subset | 18 | 0.774 | 0.748 | +0.026 |
+| `openstack` v1 localization subset | 5 | 0.785 | 0.738 | +0.046 |
+| `rem` outcome remediation | 20 | 0.982 | 0.905 | +0.077 |
+| `seq` temporal sequence | 20 | 0.875 | 0.888 | -0.013 |
+| `sev` severity classification | 15 | 0.922 | 0.878 | +0.044 |
+| `thunderbird` v1 localization subset | 10 | 1.000 | 0.892 | +0.108 |
+| `tmpl` log template extraction | 20 | 0.938 | 0.963 | -0.025 |
 
-Per-skill-type (current 180-task runs):
-
-| Skill | n | Mesh + DeepSeek | DeepSeek + mini-swe | Claude Code Opus | Notes |
-|---|---:|---:|---:|---:|---|
-| `tmpl` log template extraction | 20 | 0.938 | **0.963** | 0.419 | LogParser-style; strongest for raw DeepSeek |
-| `rem` outcome remediation | 20 | **0.909** | 0.896 | 0.286 | Diagnose, apply local mitigation, pass health check |
-| `sev` severity classification | 15 | **0.911** | 0.806 | 0.283 | P0-P3 calibration without dataset-specific lookup table |
-| `fp` false-positive triage | 25 | **0.895** | 0.836 | 0.331 | Blind-triage prompt after verifier hardening |
-| `seq` temporal sequence | 20 | **0.883** | 0.879 | 0.308 | Trigger ID + ordering |
-| `v1` anomaly localization | 60 | **0.870** | 0.800 | 0.434 | Original anomaly-localization suite |
-| `corr` cross-component | 20 | 0.727 | **0.759** | 0.305 | Hardest skill: root component + causal chain; HDFS block-flow follow-up target scored 1.000 on 5-task slice |
-
-Mesh/internal-harness improves the raw DeepSeek baseline overall (+0.036 mean
-reward on the latest clean full run), with most of the lift coming from
-remediation, severity, false-positive triage, sequence, and v1 localization.
-Raw DeepSeek remains stronger on correlation and template extraction.
+Mesh improves the raw DeepSeek baseline overall in the latest completed full
+run, with most of the lift coming from remediation, severity,
+false-positive triage, and v1 localization. Raw DeepSeek remains slightly
+stronger on template extraction, and correlation remains a hard shared failure
+mode.
 
 **Top failure modes** in the latest DeepSeek + `mini-swe-agent` 180-task run
 (152 tasks had at least one failed assertion):
@@ -107,7 +113,7 @@ Raw DeepSeek remains stronger on correlation and template extraction.
 
 Actionable: DeepSeek finds anomaly *locations* reasonably well but still
 mis-classifies *root causes* most often. Claude Code Opus under the host-auth
-adapter hit 104 trial errors in this run, so that row should be read as a
+adapter hit 111 trial errors in this run, so that row should be read as a
 harness/CLI integration result, not a model ceiling.
 
 > Verifier rigor history:
@@ -121,7 +127,7 @@ Reproducing this run:
 ```bash
 export DEEPSEEK_API_KEY=sk-...
 harbor run -p tasks/ --agent mini-swe-agent -m deepseek/deepseek-v4-flash \
-  --agent-timeout-multiplier 3.0 --job-name bench-deepseek-v4-flash-hardened-180 -o baselines
+  --agent-timeout-multiplier 3.0 --job-name bench-deepseek-v4-flash-latest-180 -o baselines
 ```
 
 ## What's in the box
