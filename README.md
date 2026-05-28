@@ -1,12 +1,14 @@
 # Loghub SRE Harbor benchmark
 
 A Harbor-compatible benchmark for SRE log-investigation skills.
-**180 curated tasks** built from the Loghub corpus (`logpai/loghub`), covering
-7 distinct skill types: anomaly localization (v1, 60 tasks), 5 v2 skill
+**180 curated tasks** built from the Loghub corpus [(`logpai/loghub`)](https://github.com/logpai/loghub).
+
+It covers 7 distinct skill types: anomaly localization (v1, 60 tasks), 5 v2 skill
 axes — false-positive triage, temporal sequence reconstruction, cross-component
 correlation, severity classification, and log-template extraction (100 tasks)
-— plus 20 outcome-oriented remediation tasks. Each task ships a Docker
-environment with partitioned log files and asks the agent to investigate the
+— plus 20 outcome-oriented remediation tasks.
+
+Each task ships a Docker environment with partitioned log files and asks the agent to investigate the
 logs and produce a structured JSON answer that the verifier grades on
 schema-specific assertions. Remediation tasks also include topology, service
 state, config, and local mitigation tools; the verifier checks both diagnosis
@@ -27,10 +29,9 @@ substrate gates:
 
 Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
-baseline, [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md)
-for the outcome-task hardening report, and
-[docs/REPORT_DEEPSEEK_V4_FLASH.md](docs/REPORT_DEEPSEEK_V4_FLASH.md)
-for the historical 160-task DeepSeek report.
+baseline.
+
+Use Harbour to run the benchmark
 
 ## Harness / Model Matrix
 
@@ -55,6 +56,24 @@ Completed full-run deltas:
 |---|---:|---:|---:|---:|
 | Mesh Loghub profile + DeepSeek vs raw DeepSeek | 0.860 | **0.895** | **+0.035** | +35 |
 | Mesh Loghub profile + Mimo vs raw Mimo | raw Mimo still running | **0.892** | n/a | n/a |
+```bash
+harbor run -p loghub-benchmark/tasks --agent mini-swe-agent --model model
+
+```
+## Leaderboard
+
+Current 180-task hardened benchmark. Single run per row; "Errors" are Harbor
+trial exceptions. The latest Mesh row is the current best completed full run:
+`+0.0359` mean reward over raw DeepSeek and `+0.0090` over the prior Mesh v4
+run on the same 180 tasks.
+
+| Model | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors | Mean latency/task | Runtime | Cost | Date |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| `deepseek/deepseek-v4-flash` | **internal-harness / Mesh latest Loghub adapter** (`mesh@e19322e`, adapter `652f7c0428a6`) | `mesh-runtime-e19322e-deepseek-adapter-652f7c0428a6-180-20260527T103903Z` | 180 | **0.874** | 57 (32%) | 0 | 1.4 min | 1h 21m | n/a | 2026-05-27 |
+| `deepseek/deepseek-v4-flash` | **internal-harness / Mesh runtime v4** (`mesh@71f5094`) | `mesh-runtime-loghub-v4-deepseek-hardened-180` | 180 | **0.865** | 32 (18%) | 0 | 1.7 min | 1h 20m | n/a | 2026-05-25 |
+| `deepseek/deepseek-v4-flash` | internal-harness / Mesh master mixed (`8725cc8` + `b04c118`) | `mesh-runtime-master-deepseek-hardened-180` | 180 | 0.864 | 31 (17%) | 0 | 2.2 min | 1h 39m | n/a | 2026-05-26 |
+| `deepseek/deepseek-v4-flash` | `mini-swe-agent` | `bench-deepseek-v4-flash-hardened-180` | 180 | 0.838 | 28 (16%) | 4 | 2.6 min | 2h 00m | n/a | 2026-05-24 |
+| `claude-opus-4-7[1m]` | Claude Code host-auth (`claude-code` 2.1.150) | `claude-host-auth-hardened-180` | 180 | 0.361 | 15 (8%) | 104 | 1.3 min | 1h 00m | $46.14 | 2026-05-24 |
 
 Strict-boundary smoke runs:
 
