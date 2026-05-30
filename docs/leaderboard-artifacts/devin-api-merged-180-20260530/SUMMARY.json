@@ -1,0 +1,607 @@
+{
+  "created_at_utc": "20260530T051302Z",
+  "jobs": {
+    "devin-api-full-180-20260528T122056Z": {
+      "finished_at": "2026-05-28T14:54:45.958394",
+      "started_at": "2026-05-28T12:20:57.295784",
+      "stats": {
+        "cost_usd": null,
+        "evals": {
+          "devin-api-single-session__tasks": {
+            "exception_stats": {
+              "AgentTimeoutError": [
+                "rem-hadoop-machine-b38bf71__DHZXYzF"
+              ],
+              "JSONDecodeError": [
+                "hadoop-machine-a35690c__9MWEWKQ"
+              ],
+              "RuntimeError": [
+                "hdfs-other-02fbbad__kpvHoUm",
+                "seq-thunderbird-vapi-bfb808f__KodmfWM",
+                "corr-hdfs-other-2015555__M8Ff23t",
+                "tmpl-bgl-mix-f4f80e9__vjhoiYp",
+                "fp-hdfs-noise-fe22bac__rXQ9tV8",
+                "fp-hdfs-noise-e50ccd2__CpW6qRY",
+                "thunderbird-vapi-243ea32__HNWY2j8",
+                "seq-hdfs-other-1f260d4__poB46Lc",
+                "corr-hdfs-other-835c307__zYoAXk5",
+                "rem-hadoop-machine-b1e25bf__UWLer7S",
+                "fp-openstack-noise-c2ea054__hqjLPDR",
+                "tmpl-openstack-mix-931c507__nTa24tF",
+                "sev-hdfs-other-72dc9df__sPPPK2T",
+                "thunderbird-vapi-16dc6d5__KxrCAxK",
+                "tmpl-bgl-mix-cbae567__PX2vTSj",
+                "fp-hdfs-noise-85ae5a1__wZ3hUTR",
+                "rem-bgl-kernstor-dcb0274__RrGZ3is",
+                "hdfs-datanode-45679b9__FiTmDPe",
+                "tmpl-openstack-mix-e649d5c__qy8H8mV",
+                "sev-openstack-vmtask-baddf70__DTNHvvo",
+                "hadoop-disk-7421ef3__d8Lvy6n",
+                "thunderbird-vapi-1424314__sKRjWvT",
+                "openstack-vmtask-2024031__hYYhnKU",
+                "hadoop-network-f9aba47__4JdDvmk",
+                "seq-bgl-kernstor-c934b17__U8qQmeR",
+                "tmpl-hdfs-mix-4f0961b__S7sFqUG",
+                "fp-openstack-noise-03a2078__VpyTMf7",
+                "bgl-kernmntf-119e173__FZthGoY",
+                "bgl-appunav-f2aed4a__H7rijbz",
+                "hdfs-replication-63469ad__pUuhW37",
+                "bgl-appsev-242c2ef__j3Zxec8",
+                "seq-openstack-vmtask-4552fad__q43Bbqe",
+                "tmpl-hdfs-mix-70a8709__g76x47T",
+                "hdfs-replication-c4e83ae__JnzwrkS",
+                "tmpl-openstack-mix-763a801__WN9ymLQ",
+                "rem-openstack-vmtask-eed6597__2NkxjqL",
+                "fp-bgl-noise-315b89a__dx4QgaA",
+                "sev-thunderbird-vapi-4f2864b__6pVtfbo",
+                "hdfs-datanode-1d29d98__5zX3CYr",
+                "bgl-kernrtsp-fb570f9__JenVkJb",
+                "hadoop-machine-072a24d__KmxyA6V",
+                "hdfs-other-01d07b5__upzqh6a",
+                "hadoop-machine-2962a82__BroKqV8",
+                "rem-bgl-appsev-60b972e__qU6TXPm",
+                "corr-hadoop-machine-9c7168e__q6CiyxK",
+                "corr-hdfs-other-e2977c1__gh9bCi7",
+                "tmpl-bgl-mix-f6010e2__99DRJCB",
+                "hadoop-machine-83cb08d__gcVWeXt",
+                "hadoop-network-e61f883__Fv2YCdv",
+                "sev-bgl-kerndtlb-f433118__LgviM4u",
+                "seq-openstack-vmtask-b7c68ae__xhxYKK9",
+                "fp-thunderbird-noise-b30ff22__WMu5VoJ",
+                "fp-openstack-noise-56086d8__MnAwhSM",
+                "thunderbird-vapi-0f5b2e3__Yg3oVW4",
+                "bgl-kernmntf-1c3c5fd__jFKtKQ4",
+                "seq-thunderbird-vapi-472ec2b__cbH6akx",
+                "rem-hdfs-other-883eaef__rUFqBtN",
+                "corr-bgl-kernstor-e479137__62NHfmj",
+                "seq-hadoop-machine-5ffbe37__Xehqy5G",
+                "bgl-kernstor-2baf5ac__UTeKqGg",
+                "thunderbird-vapi-19c2f26__rU63BZV",
+                "thunderbird-vapi-281f03e__5XDanQa",
+                "sev-bgl-kernmntf-b5a87d9__Qfa26UX",
+                "fp-hadoop-noise-0e5d28f__JSt6JYW",
+                "sev-hadoop-machine-9e07249__3P7Fkyh",
+                "tmpl-thunderbird-mix-3e05420__CeCC9is",
+                "sev-openstack-vmtask-90dde5e__SyJShbS",
+                "hdfs-other-3038a60__nWDEhE7",
+                "bgl-kernstor-2c71dde__DKaQcxD",
+                "hdfs-other-0c66ee6__xyenQoH",
+                "seq-bgl-kernterm-91468df__dScfPRG",
+                "tmpl-thunderbird-mix-61ad3ed__aGAq5aP",
+                "sev-bgl-kernstor-ddf2db7__Wsirgn7",
+                "fp-bgl-noise-0cf70d1__ugpN7Yt",
+                "tmpl-thunderbird-mix-7cc6d1e__TN4Fpys",
+                "rem-hadoop-machine-2309f31__QTHUPfc",
+                "rem-thunderbird-vapi-d7b7184__RCAaqb4",
+                "rem-openstack-vmtask-af78b1a__PHYJuvW",
+                "seq-openstack-vmtask-1ab1a2a__v9DeVXB",
+                "rem-bgl-kernstor-6b707af__W4tkiNQ",
+                "fp-thunderbird-noise-b072f8f__Mma3w9e",
+                "hdfs-datanode-1676bed__JtHDhDi",
+                "fp-bgl-noise-369023f__CCaQg8P",
+                "bgl-appsev-3d1528a__gyZAw8j",
+                "sev-hdfs-other-d2b61da__CPFq9f6",
+                "bgl-alert-16891b3__Ni9ZqFg",
+                "tmpl-thunderbird-mix-aeda6f2__9P7ujtS",
+                "hadoop-network-d9fe22b__spCxWXH",
+                "bgl-kerndtlb-5a2a76f__3S9PsYB",
+                "rem-thunderbird-vapi-90144ad__sU3shSa",
+                "rem-openstack-vmtask-5d39f69__q2aNNws",
+                "hdfs-datanode-0b694b5__dZfTh99",
+                "sev-hdfs-datanode-a7c0766__ShknWa3",
+                "fp-hadoop-noise-428a9ad__boGFcgA",
+                "corr-thunderbird-vapi-4056ff1__bdTyWA3",
+                "fp-thunderbird-noise-38e9298__pEnYvLd",
+                "fp-openstack-noise-c07ecd8__hVyHB3X",
+                "fp-bgl-noise-41b306a__mrLzqUG",
+                "corr-hdfs-datanode-6c02c90__rDevtSa",
+                "thunderbird-vapi-18afa88__C6umXY5",
+                "seq-hdfs-other-28deb9d__5HTNVYe",
+                "hadoop-disk-d7423f3__vfXdouA",
+                "fp-hdfs-noise-8bf17c1__56jCswy",
+                "fp-hadoop-noise-98bfd23__Gwb2F2x",
+                "hdfs-other-1834c8a__Kr3n8e7",
+                "sev-hadoop-machine-ddc5c70__HxYT7Bx",
+                "corr-hadoop-machine-585eb4a__43eWMdw",
+                "fp-hdfs-noise-940a32f__PxNjrvD",
+                "tmpl-hadoop-mix-c9b786a__ENFU9JK",
+                "rem-openstack-vmtask-5bfa11a__reerbCF",
+                "hdfs-datanode-1b44f6f__xVEotUT",
+                "hdfs-other-44ab975__nahthQK",
+                "seq-thunderbird-vapi-60ea24c__WbAX2y8",
+                "rem-hdfs-other-3b66455__dAYLAhf",
+                "bgl-kerndtlb-63d6cf6__3k5tNZh",
+                "corr-bgl-appsev-6a50dc5__uF8gtqN",
+                "tmpl-hdfs-mix-57d7af0__jdNYDUw",
+                "openstack-vmtask-30d02c4__Mj369tu",
+                "seq-hdfs-other-41cf55d__Kk9xBgm",
+                "seq-hdfs-datanode-13167c0__Wv4b6jS",
+                "corr-thunderbird-vapi-4045e68__ivnmoLu",
+                "sev-thunderbird-vapi-4163bf9__kXKuPa4",
+                "thunderbird-vapi-01593fb__vWVAEbk",
+                "seq-openstack-vmtask-0965b62__3cpgza4",
+                "bgl-kernterm-21769e2__ZAtUd4k",
+                "fp-bgl-noise-1595526__LexjTnB",
+                "rem-hdfs-other-49f4fdc__P9Us7xF",
+                "bgl-kernterm-30d9b01__RqsRpcj",
+                "hdfs-datanode-0cfc87b__zWLMPzy",
+                "seq-thunderbird-vapi-78b9c17__CGs3vu9",
+                "corr-bgl-kernstor-6884c48__pEfB4DY",
+                "fp-hadoop-noise-42d5010__9pE6qCA",
+                "tmpl-hdfs-mix-3ac1e1c__DBFexUv",
+                "sev-openstack-vmtask-19ee3d4__4DhKceB",
+                "tmpl-hadoop-mix-68969f3__QsrMhox",
+                "sev-thunderbird-vapi-79b7bb8__FLzh5tb",
+                "corr-hadoop-machine-3bec6ac__8eHxxLg",
+                "hdfs-other-28ad439__3eKutkV",
+                "tmpl-hadoop-mix-f2ba19a__5maTWnQ",
+                "thunderbird-vapi-18c5761__Rnpn9pf",
+                "seq-hadoop-machine-ddc5c70__bJXxzbT",
+                "corr-thunderbird-vapi-9cb2ab3__VC73Fhi",
+                "rem-hadoop-machine-99f4466__PU2EL68",
+                "tmpl-openstack-mix-6264cdc__AwP2NtV",
+                "hadoop-machine-1543ee3__xRtw9KD",
+                "fp-hadoop-noise-bf9fea3__DJJWupw",
+                "corr-bgl-kernstor-5a8e0da__qvHd74q",
+                "corr-thunderbird-vapi-78434c0__UMNGxzo",
+                "thunderbird-vapi-1811141__EdCJZHP",
+                "corr-bgl-kernstor-43f19b9__yQTW6xG",
+                "seq-hadoop-machine-bfe1d7a__dzegScr",
+                "corr-hadoop-machine-9886cdb__zHiLviW",
+                "seq-bgl-appread-e741c25__nU4CasH",
+                "rem-hdfs-datanode-7480137__VDbcuvZ",
+                "rem-hadoop-machine-04e0a50__CwLfeTi",
+                "fp-thunderbird-noise-71c0a92__FVEfeva",
+                "hdfs-datanode-31cffcd__UvcyJWw",
+                "hadoop-machine-e087882__dcJ9ayu",
+                "tmpl-hadoop-mix-349e22a__pzczBiW"
+              ]
+            },
+            "metrics": [
+              {
+                "mean": 0.08833689458689459
+              }
+            ],
+            "n_errors": 161,
+            "n_trials": 20,
+            "pass_at_k": {},
+            "reward_stats": {
+              "reward": {
+                "0.0": [
+                  "rem-hadoop-machine-b38bf71__DHZXYzF"
+                ],
+                "0.6923076923076923": [
+                  "hdfs-other-0b71922__TZqsGti",
+                  "openstack-vmtask-0304240__hauwVbc"
+                ],
+                "0.7272727272727273": [
+                  "corr-hadoop-machine-29cd40d__X6ouDFL"
+                ],
+                "0.7692307692307693": [
+                  "hdfs-datanode-0ea6434__jHqMtUV"
+                ],
+                "0.8181818181818182": [
+                  "fp-thunderbird-noise-6fab501__BrBJqSs",
+                  "rem-hdfs-other-c3d5dee__Uom6eky",
+                  "corr-hdfs-other-7d149cc__HBzeekw",
+                  "fp-openstack-noise-e165ca6__f2EJnBb"
+                ],
+                "0.8333333333333334": [
+                  "seq-bgl-kernterm-60da0a9__5T6yg9c",
+                  "bgl-alert-bafd800__wqK8sCq",
+                  "sev-hadoop-machine-455cfbc__uznY97z"
+                ],
+                "0.8461538461538461": [
+                  "hadoop-disk-01f3662__XoBAh7L",
+                  "openstack-vmtask-632d9ef__3gyJwUp",
+                  "openstack-vmtask-4f58ba6__iHFr5M8"
+                ],
+                "0.875": [
+                  "tmpl-bgl-mix-179eff1__ZeyfCSQ"
+                ],
+                "0.9166666666666666": [
+                  "bgl-kerndtlb-d0e7135__jR5ENcp",
+                  "seq-hadoop-machine-227f3f0__4Dw3SW4"
+                ],
+                "1.0": [
+                  "corr-thunderbird-vapi-936bcda__smJ8LzM",
+                  "rem-bgl-kernstor-71147f6__vv6vkQU"
+                ]
+              }
+            }
+          }
+        },
+        "n_cache_tokens": null,
+        "n_cancelled_trials": 0,
+        "n_completed_trials": 180,
+        "n_errored_trials": 161,
+        "n_input_tokens": null,
+        "n_output_tokens": null,
+        "n_pending_trials": 0,
+        "n_retries": 0,
+        "n_running_trials": 0
+      }
+    },
+    "devin-api-remaining-160-20260529T095246Z": {
+      "finished_at": "2026-05-30T01:53:09.405636",
+      "started_at": "2026-05-29T09:52:47.928851",
+      "stats": {
+        "cost_usd": null,
+        "evals": {
+          "devin-api-single-session__tasks": {
+            "exception_stats": {
+              "AgentTimeoutError": [
+                "hadoop-machine-072a24d__dMFmH5b"
+              ],
+              "RuntimeError": [
+                "corr-hdfs-other-2015555__783pKAQ",
+                "hdfs-other-28ad439__xkpFEDM",
+                "tmpl-hadoop-mix-f2ba19a__KUQrQVe",
+                "thunderbird-vapi-18c5761__vuBL3sB",
+                "seq-hadoop-machine-ddc5c70__P5Vtr6T",
+                "corr-thunderbird-vapi-9cb2ab3__cNrQQvp",
+                "rem-hadoop-machine-99f4466__frH59kZ",
+                "tmpl-openstack-mix-6264cdc__LSzbWaa",
+                "hadoop-machine-1543ee3__TAdKGF3",
+                "fp-hadoop-noise-bf9fea3__rm48ugw",
+                "corr-bgl-kernstor-5a8e0da__dPMzGa2",
+                "corr-thunderbird-vapi-78434c0__YUdjQDX",
+                "thunderbird-vapi-1811141__UCnpKgN",
+                "corr-bgl-kernstor-43f19b9__AQ7dYwZ",
+                "seq-hadoop-machine-bfe1d7a__hVuhR8T",
+                "corr-hadoop-machine-9886cdb__wiiF3f2",
+                "seq-bgl-appread-e741c25__xjGqCUT",
+                "rem-hdfs-datanode-7480137__UTFUEMZ",
+                "rem-hadoop-machine-04e0a50__ba5FJzt",
+                "fp-thunderbird-noise-71c0a92__yTFQhRg",
+                "hdfs-datanode-31cffcd__gafZw3x",
+                "hadoop-machine-e087882__c5He4dF",
+                "tmpl-hadoop-mix-349e22a__A5w8SpV"
+              ],
+              "VerifierTimeoutError": [
+                "seq-openstack-vmtask-1ab1a2a__tuc9qSz"
+              ]
+            },
+            "metrics": [
+              {
+                "mean": 0.7410893793706294
+              }
+            ],
+            "n_errors": 25,
+            "n_trials": 136,
+            "pass_at_k": {},
+            "reward_stats": {
+              "reward": {
+                "0.0": [
+                  "hadoop-machine-072a24d__dMFmH5b"
+                ],
+                "0.45454545454545453": [
+                  "rem-openstack-vmtask-5bfa11a__Nm7Nj3B",
+                  "corr-hadoop-machine-3bec6ac__TFNLdsF"
+                ],
+                "0.6363636363636364": [
+                  "corr-hadoop-machine-585eb4a__584ZDcC"
+                ],
+                "0.6923076923076923": [
+                  "hdfs-other-0c66ee6__YRVaV2m"
+                ],
+                "0.7272727272727273": [
+                  "fp-hdfs-noise-85ae5a1__4vm5N9e",
+                  "corr-hadoop-machine-9c7168e__Qyh9Zok",
+                  "corr-thunderbird-vapi-4056ff1__6GY5yxo",
+                  "corr-bgl-appsev-6a50dc5__aba4N42"
+                ],
+                "0.75": [
+                  "sev-thunderbird-vapi-4f2864b__gqcXKaD",
+                  "sev-openstack-vmtask-90dde5e__xTG6Woh",
+                  "seq-hdfs-other-28deb9d__wUzGRPH",
+                  "sev-openstack-vmtask-19ee3d4__7J5nVWi"
+                ],
+                "0.7692307692307693": [
+                  "hadoop-machine-a35690c__CGVhWJQ",
+                  "hdfs-other-02fbbad__5z43YjH",
+                  "hdfs-datanode-45679b9__kmjE5i3",
+                  "hdfs-datanode-1d29d98__Phg43Vm",
+                  "hdfs-other-01d07b5__6Yo7jDk",
+                  "hdfs-other-3038a60__W4bWYRW",
+                  "hdfs-datanode-1676bed__2H6RPsk",
+                  "hdfs-datanode-0b694b5__uqpwhDY",
+                  "hadoop-disk-d7423f3__gtbuRLm",
+                  "hdfs-other-1834c8a__rBT8xAe",
+                  "hdfs-datanode-1b44f6f__JwYg8Wa",
+                  "hdfs-other-44ab975__zxe2Gqq",
+                  "hdfs-datanode-0cfc87b__bSWFHxk"
+                ],
+                "0.8181818181818182": [
+                  "fp-hdfs-noise-fe22bac__4kVJ38L",
+                  "fp-openstack-noise-c2ea054__cjfcmi4",
+                  "corr-hdfs-other-e2977c1__d847575",
+                  "fp-thunderbird-noise-b30ff22__wkpciqC",
+                  "rem-hdfs-other-883eaef__BbzCEqu",
+                  "fp-thunderbird-noise-b072f8f__xA98ZHh",
+                  "fp-bgl-noise-369023f__5dEAbTt",
+                  "fp-hadoop-noise-428a9ad__5rjRM4P",
+                  "fp-openstack-noise-c07ecd8__zYGhk7W",
+                  "fp-hdfs-noise-8bf17c1__DHqFJi6",
+                  "fp-hadoop-noise-98bfd23__HhUsPLj",
+                  "fp-hdfs-noise-940a32f__ADPFw8p",
+                  "rem-hdfs-other-3b66455__BpDrbTu",
+                  "fp-bgl-noise-1595526__tPF4zKN",
+                  "corr-bgl-kernstor-6884c48__FSycj5m"
+                ],
+                "0.8333333333333334": [
+                  "seq-thunderbird-vapi-bfb808f__bHpmhes",
+                  "seq-hdfs-other-1f260d4__x7i2aNm",
+                  "sev-hdfs-other-72dc9df__BWQanjc",
+                  "seq-bgl-kernstor-c934b17__TjK7r8L",
+                  "bgl-appsev-242c2ef__vms3TmL",
+                  "sev-bgl-kerndtlb-f433118__sqGBqQG",
+                  "sev-hdfs-other-d2b61da__gpvehEK",
+                  "bgl-alert-16891b3__ecEmCVU",
+                  "sev-hdfs-datanode-a7c0766__A5DE2cZ",
+                  "seq-hdfs-other-41cf55d__gUmUMGV",
+                  "seq-hdfs-datanode-13167c0__nCUS2z9"
+                ],
+                "0.8461538461538461": [
+                  "hadoop-disk-7421ef3__aEWYBjX",
+                  "openstack-vmtask-2024031__FcyYZ6D",
+                  "hadoop-network-f9aba47__sv7dFXb",
+                  "hdfs-replication-63469ad__be47YcS",
+                  "hdfs-replication-c4e83ae__SVBGMtt",
+                  "hadoop-machine-2962a82__Cm4dvoT",
+                  "hadoop-machine-83cb08d__aE4dxuZ",
+                  "hadoop-network-e61f883__QxGxRvC",
+                  "hadoop-network-d9fe22b__f6Hg9HW",
+                  "openstack-vmtask-30d02c4__jnSmgVX"
+                ],
+                "0.875": [
+                  "tmpl-openstack-mix-931c507__nxh4aT5",
+                  "tmpl-openstack-mix-e649d5c__KetZKs2",
+                  "tmpl-openstack-mix-763a801__c42go5f",
+                  "tmpl-hadoop-mix-c9b786a__UVrVDfu",
+                  "tmpl-hadoop-mix-68969f3__jnGkNHs"
+                ],
+                "0.9090909090909091": [
+                  "fp-hdfs-noise-e50ccd2__goGaRAr",
+                  "corr-hdfs-other-835c307__CCdGsoZ",
+                  "fp-openstack-noise-03a2078__oVXRJji",
+                  "fp-bgl-noise-315b89a__NVqkdeF",
+                  "rem-bgl-appsev-60b972e__VGXmzmT",
+                  "fp-openstack-noise-56086d8__KvPQuee",
+                  "fp-hadoop-noise-0e5d28f__ii8fT3K",
+                  "fp-bgl-noise-0cf70d1__FRTCrqE",
+                  "fp-thunderbird-noise-38e9298__HQLWtt9",
+                  "fp-bgl-noise-41b306a__cpNnfUJ",
+                  "corr-hdfs-datanode-6c02c90__eSj6Yuo",
+                  "rem-hdfs-other-49f4fdc__uCkK3xv",
+                  "fp-hadoop-noise-42d5010__SGrWhkR"
+                ],
+                "0.9166666666666666": [
+                  "thunderbird-vapi-16dc6d5__ut33c57",
+                  "sev-openstack-vmtask-baddf70__aDgSj2X",
+                  "bgl-appunav-f2aed4a__QY9X5fS",
+                  "seq-openstack-vmtask-4552fad__ti7ut8k",
+                  "seq-openstack-vmtask-b7c68ae__BiuzKW5",
+                  "seq-thunderbird-vapi-472ec2b__Y47uE2D",
+                  "seq-hadoop-machine-5ffbe37__LyB4hhi",
+                  "thunderbird-vapi-281f03e__VJWBAVj",
+                  "sev-hadoop-machine-9e07249__yNayXM7",
+                  "seq-bgl-kernterm-91468df__6VzNHsj",
+                  "bgl-kerndtlb-5a2a76f__HJDAB3J",
+                  "thunderbird-vapi-18afa88__Q87b2dg",
+                  "sev-hadoop-machine-ddc5c70__ghR6zFo",
+                  "seq-thunderbird-vapi-60ea24c__V8NyFFU",
+                  "bgl-kerndtlb-63d6cf6__9ZpZ6Cp",
+                  "sev-thunderbird-vapi-4163bf9__TRpDTRg",
+                  "thunderbird-vapi-01593fb__qvtQtVe",
+                  "seq-openstack-vmtask-0965b62__BJ4Dr9N",
+                  "bgl-kernterm-21769e2__VLzncjQ",
+                  "sev-thunderbird-vapi-79b7bb8__5JxrPfP"
+                ],
+                "1.0": [
+                  "tmpl-bgl-mix-f4f80e9__DEukhdw",
+                  "thunderbird-vapi-243ea32__78oFnco",
+                  "rem-hadoop-machine-b1e25bf__XTrujgu",
+                  "tmpl-bgl-mix-cbae567__8L794Mb",
+                  "rem-bgl-kernstor-dcb0274__Zc9Pm3R",
+                  "thunderbird-vapi-1424314__NomPjV7",
+                  "tmpl-hdfs-mix-4f0961b__9wfKcdf",
+                  "bgl-kernmntf-119e173__HZX4P7X",
+                  "tmpl-hdfs-mix-70a8709__KjSTYDE",
+                  "rem-openstack-vmtask-eed6597__zLyogoc",
+                  "bgl-kernrtsp-fb570f9__iojU2e2",
+                  "tmpl-bgl-mix-f6010e2__8ujAvpe",
+                  "thunderbird-vapi-0f5b2e3__Rxt4pdG",
+                  "bgl-kernmntf-1c3c5fd__pvjGL9y",
+                  "corr-bgl-kernstor-e479137__gCvHbr7",
+                  "bgl-kernstor-2baf5ac__y5vQVtm",
+                  "thunderbird-vapi-19c2f26__LEDiDUZ",
+                  "sev-bgl-kernmntf-b5a87d9__EfrPSCm",
+                  "tmpl-thunderbird-mix-3e05420__3Wo3jJW",
+                  "bgl-kernstor-2c71dde__u8Y8PBY",
+                  "tmpl-thunderbird-mix-61ad3ed__4fvQKWA",
+                  "sev-bgl-kernstor-ddf2db7__im79Rvi",
+                  "tmpl-thunderbird-mix-7cc6d1e__yZoFzDm",
+                  "rem-hadoop-machine-2309f31__7Gd3Kwo",
+                  "rem-thunderbird-vapi-d7b7184__wP5ZqPZ",
+                  "rem-openstack-vmtask-af78b1a__3FMsRDv",
+                  "rem-bgl-kernstor-6b707af__w4hnLDJ",
+                  "bgl-appsev-3d1528a__k7wYYge",
+                  "tmpl-thunderbird-mix-aeda6f2__gPBVQHP",
+                  "rem-thunderbird-vapi-90144ad__6WYaFwr",
+                  "rem-openstack-vmtask-5d39f69__3SDXEbQ",
+                  "tmpl-hdfs-mix-57d7af0__FXVGtoE",
+                  "corr-thunderbird-vapi-4045e68__M2Rnz5X",
+                  "bgl-kernterm-30d9b01__Axa9hco",
+                  "seq-thunderbird-vapi-78b9c17__aWLEEj6",
+                  "tmpl-hdfs-mix-3ac1e1c__B3eGRse"
+                ]
+              }
+            }
+          }
+        },
+        "n_cache_tokens": null,
+        "n_cancelled_trials": 0,
+        "n_completed_trials": 160,
+        "n_errored_trials": 25,
+        "n_input_tokens": null,
+        "n_output_tokens": null,
+        "n_pending_trials": 0,
+        "n_retries": 0,
+        "n_running_trials": 0
+      }
+    }
+  },
+  "merged": {
+    "known": 180,
+    "mean_180": 0.7470830095830095,
+    "missing": 0,
+    "remaining_unrewarded_errors": [
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "rem-hadoop-machine-99f4466"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "fp-hadoop-noise-bf9fea3"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "corr-thunderbird-vapi-78434c0"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "hdfs-datanode-31cffcd"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "hadoop-machine-e087882"
+      },
+      {
+        "exception_type": "VerifierTimeoutError",
+        "message": "Verifier execution timed out after 120.0 seconds",
+        "slug": "seq-openstack-vmtask-1ab1a2a"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 504: <html>\r",
+        "slug": "corr-hdfs-other-2015555"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "corr-thunderbird-vapi-9cb2ab3"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "corr-hadoop-machine-9886cdb"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "thunderbird-vapi-1811141"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "seq-bgl-appread-e741c25"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "rem-hadoop-machine-04e0a50"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "tmpl-openstack-mix-6264cdc"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "fp-thunderbird-noise-71c0a92"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "thunderbird-vapi-18c5761"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "tmpl-hadoop-mix-f2ba19a"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "tmpl-hadoop-mix-349e22a"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "seq-hadoop-machine-ddc5c70"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "hdfs-other-28ad439"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "corr-bgl-kernstor-43f19b9"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "hadoop-machine-1543ee3"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "seq-hadoop-machine-bfe1d7a"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "corr-bgl-kernstor-5a8e0da"
+      },
+      {
+        "exception_type": "RuntimeError",
+        "message": "Devin API POST https://api.devin.ai/v3/organizations/org_REDACTED/sessions failed: HTTP 403: {\"detail\":\"Your organization has a billing error. Error: out_of_quota\"}",
+        "slug": "rem-hdfs-datanode-7480137"
+      }
+    ],
+    "reward_sum": 134.47494172494171,
+    "source_counts": {
+      "old": 20,
+      "remaining": 160
+    }
+  }
+}

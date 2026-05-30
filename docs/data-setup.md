@@ -13,8 +13,8 @@ use, but nothing in the code is hard-coded to them.
 
 | Path | Purpose |
 |---|---|
-| `<host>/loghub/` | Read-only clone of `logpai/loghub` with the published 2k samples (~13 MB). Useful for quick inspection and for the `tmpl` adapter (which reads `<dataset>_2k.log_structured.csv`). |
-| `<host>/loghub-full/<dataset>/` | Full corpora extracted from Zenodo. Roughly 80 GB total across all five datasets. |
+| `<corpus-root>/loghub/` | Read-only clone of `logpai/loghub` with the published 2k samples (~13 MB). Useful for quick inspection and for the `tmpl` adapter (which reads `<dataset>_2k.log_structured.csv`). |
+| `<corpus-root>/loghub-full/<dataset>/` | Full corpora extracted from Zenodo. Roughly 80 GB total across all five datasets. |
 | `tools/case_builder/tests/fixtures/` | Tiny synthetic fixtures committed for unit tests. Do not touch the real corpus from tests. |
 
 ## Datasets currently on disk
@@ -23,9 +23,9 @@ use, but nothing in the code is hard-coded to them.
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `/home/buildout/loghub-full/HDFS/HDFS.log` | 1.47 GiB (11,175,629 lines) | `0783096174d7832c618337f9609e06e04abd86ddd7089b3c12b407e63bfebc52` |
-| `/home/buildout/loghub-full/HDFS/preprocessed/anomaly_label.csv` | 17.8 MiB (575,061 rows) | `1c711ed6c8848fc3243fb4d092f172f31d128c8a6ec7f26ebba72ab931885ed8` |
-| `/home/buildout/loghub-full/HDFS/HDFS_v1.zip` | 178.0 MiB | recorded in `HDFS_v1.zip.sha256` |
+| `$LOGHUB_DATA_DIR/HDFS/HDFS.log` | 1.47 GiB (11,175,629 lines) | `0783096174d7832c618337f9609e06e04abd86ddd7089b3c12b407e63bfebc52` |
+| `$LOGHUB_DATA_DIR/HDFS/preprocessed/anomaly_label.csv` | 17.8 MiB (575,061 rows) | `1c711ed6c8848fc3243fb4d092f172f31d128c8a6ec7f26ebba72ab931885ed8` |
+| `$LOGHUB_DATA_DIR/HDFS/HDFS_v1.zip` | 178.0 MiB | recorded in `HDFS_v1.zip.sha256` |
 
 Source: <https://zenodo.org/records/8196385/files/HDFS_v1.zip?download=1>
 (linked from the `logpai/loghub` README under "HDFS_v1").
@@ -33,7 +33,7 @@ Source: <https://zenodo.org/records/8196385/files/HDFS_v1.zip?download=1>
 To re-download from scratch:
 
 ```bash
-DEST=/home/buildout/loghub-full/HDFS
+DEST="${LOGHUB_DATA_DIR:-$HOME/loghub-full}/HDFS"
 mkdir -p "$DEST" && cd "$DEST"
 curl -sSL --retry 3 -o HDFS_v1.zip \
   'https://zenodo.org/records/8196385/files/HDFS_v1.zip?download=1'
@@ -50,9 +50,9 @@ templates, and an HDFS.npz. The case-builder only reads `HDFS.log` and
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `/home/buildout/loghub-full/Hadoop/Hadoop.zip` | 48.61 MiB | `79e63c6521e90ae164754a29d13e04e0c6c5e782490a7fe1e2b124f4f5737ced` |
-| `/home/buildout/loghub-full/Hadoop/abnormal_label.txt` | 2.2 KiB (55 jobs) | `b23800ec91f89ea403d18b6d6bce94d30b57092dbcfa523582357929c2be9414` |
-| `/home/buildout/loghub-full/Hadoop/application_*/container_*.log` | 52 MiB extracted | per-file; not pinned |
+| `$LOGHUB_DATA_DIR/Hadoop/Hadoop.zip` | 48.61 MiB | `79e63c6521e90ae164754a29d13e04e0c6c5e782490a7fe1e2b124f4f5737ced` |
+| `$LOGHUB_DATA_DIR/Hadoop/abnormal_label.txt` | 2.2 KiB (55 jobs) | `b23800ec91f89ea403d18b6d6bce94d30b57092dbcfa523582357929c2be9414` |
+| `$LOGHUB_DATA_DIR/Hadoop/application_*/container_*.log` | 52 MiB extracted | per-file; not pinned |
 
 Source: <https://zenodo.org/records/8196385/files/Hadoop.zip?download=1>.
 
@@ -66,8 +66,8 @@ concatenated slice.
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `/home/buildout/loghub-full/BGL/BGL.log` | 743 MiB (4,747,963 lines) | `666130b15ef44eb32fd02bd053e6c6e007c37696b5e7e8b9d8e45b729876a5d2` |
-| `/home/buildout/loghub-full/BGL/BGL.zip` | 55 MiB | `d67fd82a711aea0157a9b83175892c6ee60e384a2ddf5bc51f39118453816da8` |
+| `$LOGHUB_DATA_DIR/BGL/BGL.log` | 743 MiB (4,747,963 lines) | `666130b15ef44eb32fd02bd053e6c6e007c37696b5e7e8b9d8e45b729876a5d2` |
+| `$LOGHUB_DATA_DIR/BGL/BGL.zip` | 55 MiB | `d67fd82a711aea0157a9b83175892c6ee60e384a2ddf5bc51f39118453816da8` |
 
 Source: <https://zenodo.org/records/8196385/files/BGL.zip?download=1>.
 
@@ -82,8 +82,8 @@ anything outside that list collapses to `other_alert`.
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `/home/buildout/loghub-full/Thunderbird/Thunderbird.log` | 29.6 GiB (211,212,192 lines) | `3e8659d6efdf048bca6d682d376c74cf742a43cac66cb2a514241a103284f289` |
-| `/home/buildout/loghub-full/Thunderbird/Thunderbird.tar.gz` | 1.9 GiB | `228f8589b7cd569b727c5da654c647aa538dd3dd95541e675a40523c5fff37cf` |
+| `$LOGHUB_DATA_DIR/Thunderbird/Thunderbird.log` | 29.6 GiB (211,212,192 lines) | `3e8659d6efdf048bca6d682d376c74cf742a43cac66cb2a514241a103284f289` |
+| `$LOGHUB_DATA_DIR/Thunderbird/Thunderbird.tar.gz` | 1.9 GiB | `228f8589b7cd569b727c5da654c647aa538dd3dd95541e675a40523c5fff37cf` |
 
 Source: <https://zenodo.org/records/8196385/files/Thunderbird.tar.gz?download=1>.
 
@@ -103,11 +103,11 @@ runs.
 
 | File | Size | SHA-256 |
 |---|---|---|
-| `/home/buildout/loghub-full/OpenStack/openstack_normal1.log` | 14.8 MiB (52,312 lines) | `4e4d47347bdae198056bb3b0a8a755e1cb0100d6c6a30bbd4058684234769199` |
-| `/home/buildout/loghub-full/OpenStack/openstack_abnormal.log` | 5.2 MiB (18,434 lines) | `7ab718fbb2f2b804893955cecf37ad9533cfa0efaf5b03009474d5bb019b6af4` |
-| `/home/buildout/loghub-full/OpenStack/openstack_normal2.log` | 38.6 MiB (137,074 lines) | `3c51741dcea1fb0731d1f86588b12587707e7abea01e725ee16c9441b8b68db7` |
-| `/home/buildout/loghub-full/OpenStack/anomaly_labels.txt` | 243 B (4 UUIDs) | `0882aa484f285e3dda476ff39ed739603c446f27b76bb113e284cda6ebb09d0b` |
-| `/home/buildout/loghub-full/OpenStack/OpenStack.tar.gz` | 5.1 MiB | `87c98c5ed03262e05cdb7a6f3717033df76d88fda0f7d2db23bd9fa4200f1879` |
+| `$LOGHUB_DATA_DIR/OpenStack/openstack_normal1.log` | 14.8 MiB (52,312 lines) | `4e4d47347bdae198056bb3b0a8a755e1cb0100d6c6a30bbd4058684234769199` |
+| `$LOGHUB_DATA_DIR/OpenStack/openstack_abnormal.log` | 5.2 MiB (18,434 lines) | `7ab718fbb2f2b804893955cecf37ad9533cfa0efaf5b03009474d5bb019b6af4` |
+| `$LOGHUB_DATA_DIR/OpenStack/openstack_normal2.log` | 38.6 MiB (137,074 lines) | `3c51741dcea1fb0731d1f86588b12587707e7abea01e725ee16c9441b8b68db7` |
+| `$LOGHUB_DATA_DIR/OpenStack/anomaly_labels.txt` | 243 B (4 UUIDs) | `0882aa484f285e3dda476ff39ed739603c446f27b76bb113e284cda6ebb09d0b` |
+| `$LOGHUB_DATA_DIR/OpenStack/OpenStack.tar.gz` | 5.1 MiB | `87c98c5ed03262e05cdb7a6f3717033df76d88fda0f7d2db23bd9fa4200f1879` |
 
 Source: <https://zenodo.org/records/8196385/files/OpenStack.tar.gz?download=1>.
 

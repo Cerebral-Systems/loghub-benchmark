@@ -1,87 +1,49 @@
-# Devin API Benchmark Adapter
+# Devin API Agent
 
-Use the Devin API path for this benchmark, not a `mini-swe-agent` model swap.
-Devin is not a LiteLLM model behind the mini-SWE loop; it is a hosted agent
-session with its own VM, file attachment API, session lifecycle, and structured
-output field. The Harbor adapter is the correct boundary because Harbor owns the
-task container and verifier, while Devin owns the remote investigation session.
+This benchmark reports Devin as `Devin API, single-session`, not Devin
+Auto-Triage. Each Harbor task creates one fresh Devin API session with no
+cross-task memory, uploads a line-numbered `/app` snapshot as an attachment, and
+asks Devin to return the benchmark answer through `structured_output`.
 
-The adapter in `.context/devin_harbor_agent.py` runs one fresh Devin session per
-Harbor task:
+The runnable adapter is [`tools/agents/devin_harbor_agent.py`](../../tools/agents/devin_harbor_agent.py).
 
-1. Reads the task instruction and visible `/app` files from the Harbor
-   container.
-2. Builds a line-numbered text bundle so Devin can cite exact file/line
-   evidence.
-3. Uploads that bundle through the Devin attachment API.
-4. Creates a Devin session with a Draft-7 structured-output schema matching the
-   task family (`v2`, `fp`, `seq`, `corr`, `sev`, `tmpl`, or `v3-remediation`).
-5. Polls the session until terminal status or the wall-clock cap.
-6. Writes Devin's `structured_output` back to `/app/answer.json`.
-7. For remediation tasks, executes the exact `mitigation.action` and
-   `mitigation.target` selected by Devin via `/app/bin/apply_mitigation`, then
-   records the real `/app/bin/check_health` result in `postcheck`.
-
-This should be reported as `Devin (API, single-session, no memory)`, not
-`Devin Auto-Triage`. Auto-Triage's product-specific pieces (parent monitor,
-Slack/webhook trigger, cross-incident scratchpad, routing/dedup memory) are not
-part of this independent per-task Harbor run and would contaminate scores.
-
-## Run
-
-From a machine with Docker, Harbor, and `DEVIN_API_KEY` available:
+## Run A Full Benchmark
 
 ```bash
 export DEVIN_API_KEY=...
-export PYTHONPATH=".context:${PYTHONPATH:-}"
+export PYTHONPATH="tools/agents:${PYTHONPATH:-}"
+export DEVIN_MAX_ACU_LIMIT=3
+export DEVIN_WALL_TIMEOUT_SEC=900
+export DEVIN_POLL_INTERVAL_SEC=20
 
 harbor run \
   -p tasks \
   --agent-import-path devin_harbor_agent:DevinHarborAgent \
-  --n-concurrent 2 \
+  --n-concurrent 1 \
   --agent-timeout-multiplier 4.0 \
-  --job-name devin-api-single-session-hardened-180 \
+  --job-name devin-api-single-session-180 \
   -o jobs \
   -y \
   --quiet \
   --artifact /app/answer.json
 ```
 
-Or use the wrapper:
+The May 30, 2026 leaderboard row used the same per-task ACU cap (`3`) and
+adapter-side wall timeout (`900s`). It was merged from an initial partial run
+and a continuation run after credits were replenished; quota/API/timeouts are
+counted as zero in the merged score.
 
-```bash
-DEVIN_API_KEY=... .context/run-devin-api-hardened.sh
-```
+## Adapter Behavior
 
-Useful knobs:
+- Collects only visible `/app` files from the task container.
+- Excludes `/app/answer.json`.
+- Builds a text bundle with 1-based line numbers for every visible file.
+- Uploads that bundle through Devin's attachment API.
+- Selects the Draft-7 structured-output schema for the task family.
+- Writes Devin's structured output to `/app/answer.json`.
+- For remediation tasks, applies the selected mitigation inside Harbor and
+  records the real postcheck result.
+- Terminates the Devin session after answer capture to avoid continuing ACU use.
 
-| Env var | Default | Purpose |
-|---|---:|---|
-| `DEVIN_MAX_ACU_LIMIT` | `5` | Per-task ACU cap sent to Devin. Publish this with results. |
-| `DEVIN_WALL_TIMEOUT_SEC` | `1200` | Adapter-side polling cap. |
-| `DEVIN_POLL_INTERVAL_SEC` | `20` | Session polling interval. |
-| `HARBOR_N_CONCURRENT` | `2` | Parallel task count for the wrapper script. |
-| `HARBOR_TASK_PATH` | `tasks` | Full run or a task/slice path for pilots. |
-| `HARBOR_JOB_NAME` | `devin-api-single-session-hardened-180` | Output job id. |
-| `HARBOR_JOBS_DIR` | `jobs` | Job output directory. |
-
-Start with a small pilot before spending a full run:
-
-```bash
-HARBOR_TASK_PATH=tasks/hdfs-datanode-0b694b5 \
-HARBOR_JOB_NAME=devin-api-pilot-hdfs \
-HARBOR_N_CONCURRENT=1 \
-.context/run-devin-api-hardened.sh
-```
-
-## Caveats
-
-- The adapter transfers task evidence into Devin; Devin cannot directly browse
-  the Harbor container.
-- Remediation execution is mechanical: Devin chooses the action and target, the
-  adapter applies exactly those values.
-- Large tasks upload multi-megabyte line-numbered bundles, so API latency and
-  ACU use will be higher than mini-SWE local model calls.
-- If Devin returns no structured output, the adapter writes a minimal schema
-  placeholder so the Harbor trial completes with verifier failures rather than
-  a harness exception.
+Artifacts for the reported row are in
+[`docs/leaderboard-artifacts/devin-api-merged-180-20260530`](../leaderboard-artifacts/devin-api-merged-180-20260530/).
