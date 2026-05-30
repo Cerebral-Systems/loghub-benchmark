@@ -29,33 +29,36 @@ substrate gates:
 
 Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
-baseline, [docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md)
-for the outcome-task hardening report.
+baseline and
+[`docs/leaderboard-artifacts/devin-api-merged-180-20260530`](docs/leaderboard-artifacts/devin-api-merged-180-20260530/)
+for the Devin reproducibility bundle.
 
 ## Harness / Model Matrix
 
-Latest 180-task hardened benchmark runs from May 28-30, 2026. Single run per row;
-"Errors" are Harbor trial exceptions. Rows marked "pre-boundary" used the
-Loghub-specific Mesh profile and tools, but the adapter still performed
-structured benchmark finalization. The strict-boundary harness, where the
-adapter only copies `decision.reasoning.evidence_pack.domain_decision.answer`,
-has passed smoke tests but still needs a full 180-task rerun.
+Latest hardened 180-task runs from May 28-30, 2026. Single run per row unless
+explicitly marked as merged. "Errors" are Harbor trial exceptions counted as
+zero reward.
 
-| Harness | Model / agent | Run ID | Status | Mean reward | Fully solved | Errors | Notes |
-|---|---|---|---:|---:|---:|---:|---|
-| Mesh Loghub profile, pre-boundary full run | `deepseek/deepseek-v4-flash` | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | **0.915** | 66 (37%) | 0 | Latest completed Mesh+DeepSeek full run |
-| Mesh Loghub profile, pre-boundary full run | `xiaomi/mimo-v2.5-pro` | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | **0.892** | 64 (36%) | 0 | Latest completed Mesh+Mimo full run |
-| Claude Code API-key (`claude-code` 2.1.154) | `claude-opus-4-7` | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | Clean API-key Opus baseline; no subscription session cap. Proof: `docs/leaderboard-artifacts/` |
-| Raw Harbor + `mini-swe-agent` | `deepseek/deepseek-v4-flash` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | Clean raw DeepSeek baseline |
-| Raw Harbor + `mini-swe-agent` | `openai/mimo-v2.5-pro` | `bench-mimo-v2.5-pro-envmimo-latest-180-20260528T054915Z` | 171/180 completed; 2 running; 7 pending | 0.861 | 32 so far | 2 | Correct `.env.mimo`; still in progress |
-| Devin API, single-session | Devin | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | Merged from a 20-task partial and 160-task continuation; quota/API/timeouts counted as zero. Adapter and artifacts: [`docs/leaderboard-artifacts/devin-api-merged-180-20260530`](docs/leaderboard-artifacts/devin-api-merged-180-20260530/) |
+| Harness | Model / agent | Boundary / inference path | Run ID | Tasks | Mean reward | Fully solved | Errors | Runtime / cost | Notes |
+|---|---|---|---|---:|---:|---:|---:|---|---|
+| Mesh Loghub profile, pre-boundary full run | `deepseek/deepseek-v4-flash` | Mesh SRE profile builds evidence pack; adapter still performs structured finalization | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | **0.915** | 66 (37%) | 0 | n/a | Latest completed Mesh+DeepSeek full run |
+| Mesh Loghub profile, pre-boundary full run | `xiaomi/mimo-v2.5-pro` | Mesh SRE profile builds evidence pack; adapter still performs structured finalization | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | **0.892** | 64 (36%) | 0 | n/a | Latest completed Mesh+Mimo full run |
+| Claude Code API-key (`claude-code` 2.1.154) | `claude-opus-4-7` | Harbor `claude-code` agent with `ANTHROPIC_API_KEY`; no Claude.ai subscription session cap | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | 2h 48m; $99.55 | Clean Claude Code Opus baseline |
+| Raw Harbor + `mini-swe-agent` | `deepseek/deepseek-v4-flash` | Plain benchmark prompt and visible task files; no Loghub-specific runtime | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | n/a | Clean raw DeepSeek baseline |
+| Raw Harbor + `mini-swe-agent` | `openai/mimo-v2.5-pro` | Plain benchmark prompt and visible task files; no Loghub-specific runtime | `bench-mimo-v2.5-pro-envmimo-latest-180-20260528T054915Z` | 171/180 completed; 2 running; 7 pending | 0.861 | 32 so far | 2 | n/a | Correct `.env.mimo`; still in progress |
+| Devin API, single-session | Devin | Fresh Devin session per task; line-numbered `/app` bundle attachment; `structured_output`; no Auto-Triage memory | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | Cost not exported; 3 ACU cap/task | Merged from a 20-task partial and 160-task continuation; quota/API/timeouts counted as zero |
+
+Read the Devin row as Devin core via API, not Devin Auto-Triage. Auto-Triage's
+parent monitor, routing, and cross-incident memory are intentionally outside
+this per-task benchmark.
 
 Completed full-run deltas:
 
-| Comparison | Baseline mean | Harness mean | Delta | Full-credit delta |
-|---|---:|---:|---:|---:|
-| Mesh Loghub profile + DeepSeek vs raw DeepSeek | 0.860 | **0.895** | **+0.035** | +35 |
-| Mesh Loghub profile + Mimo vs raw Mimo | raw Mimo still running | **0.892** | n/a | n/a |
+| Comparison | Baseline mean | Harness mean | Delta | Notes |
+|---|---:|---:|---:|---|
+| Mesh Loghub profile + DeepSeek vs raw DeepSeek | 0.860 | **0.915** | **+0.055** | +35 full-credit tasks |
+| Claude Code API-key vs broken host-auth Claude Code | 0.361 | **0.878** | **+0.517** | Errors dropped from 104 to 0 by using `ANTHROPIC_API_KEY` |
+| Mesh Loghub profile + Mimo vs raw Mimo | raw Mimo still running | **0.892** | n/a | Raw Mimo row remains partial |
 
 Quick Harbor command:
 
@@ -119,9 +122,9 @@ mode.
 | `test_trigger_role_correct` | 20 | Wrong trigger in temporal sequence |
 
 Actionable: DeepSeek finds anomaly *locations* reasonably well but still
-mis-classifies *root causes* most often. Claude Code Opus under the host-auth
-adapter hit 111 trial errors in this run, so that row should be read as a
-harness/CLI integration result, not a model ceiling.
+mis-classifies *root causes* most often. The old Claude Code host-auth row was
+a harness/auth failure; the current Claude Code API-key row is the clean Opus
+baseline.
 
 > Verifier rigor history:
 > - **Original** (no fixes): overall mean 0.880, `fp` mean 1.000, `corr` mean 0.815
@@ -165,9 +168,7 @@ v3 adds an outcome-oriented remediation family:
 |---|---|---:|---|
 | Remediation and recovery | `rem-*` | 20 | Root component diagnosis, mitigation choice, local action execution, and recovered health state |
 
-Total: **180 tasks** across **7 skill types** × 5 datasets. See
-[docs/HARDENING_REDO_REPORT.md](docs/HARDENING_REDO_REPORT.md) for v3
-remediation hardening.
+Total: **180 tasks** across **7 skill types** × 5 datasets.
 
 ## How a task works
 
