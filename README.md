@@ -34,7 +34,7 @@ for the outcome-task hardening report.
 
 ## Harness / Model Matrix
 
-Latest 180-task hardened benchmark runs from May 28, 2026. Single run per row;
+Latest 180-task hardened benchmark runs from May 28-30, 2026. Single run per row;
 "Errors" are Harbor trial exceptions. Rows marked "pre-boundary" used the
 Loghub-specific Mesh profile and tools, but the adapter still performed
 structured benchmark finalization. The strict-boundary harness, where the
@@ -48,6 +48,7 @@ has passed smoke tests but still needs a full 180-task rerun.
 | Claude Code API-key (`claude-code` 2.1.154) | `claude-opus-4-7` | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | Clean API-key Opus baseline; no subscription session cap. Proof: `docs/leaderboard-artifacts/` |
 | Raw Harbor + `mini-swe-agent` | `deepseek/deepseek-v4-flash` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | Clean raw DeepSeek baseline |
 | Raw Harbor + `mini-swe-agent` | `openai/mimo-v2.5-pro` | `bench-mimo-v2.5-pro-envmimo-latest-180-20260528T054915Z` | 171/180 completed; 2 running; 7 pending | 0.861 | 32 so far | 2 | Correct `.env.mimo`; still in progress |
+| Devin API, single-session | Devin | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | Merged from a 20-task partial and 160-task continuation; quota/API/timeouts counted as zero. Adapter and artifacts: [`docs/leaderboard-artifacts/devin-api-merged-180-20260530`](docs/leaderboard-artifacts/devin-api-merged-180-20260530/) |
 
 Completed full-run deltas:
 
