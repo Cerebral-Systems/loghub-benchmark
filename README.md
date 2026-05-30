@@ -43,8 +43,8 @@ has passed smoke tests but still needs a full 180-task rerun.
 
 | Harness | Model / agent | Run ID | Status | Mean reward | Fully solved | Errors | Notes |
 |---|---|---|---:|---:|---:|---:|---|
-| Mesh Loghub profile, pre-boundary full run | `deepseek/deepseek-v4-flash` | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | **0.895** | 66 (37%) | 0 | Latest completed Mesh+DeepSeek full run |
-| Mesh Loghub profile, pre-boundary full run | `openai/mimo-v2.5-pro` | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | **0.892** | 64 (36%) | 0 | Latest completed Mesh+Mimo full run |
+| Mesh Loghub profile, pre-boundary full run | `deepseek/deepseek-v4-flash` | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | **0.915** | 66 (37%) | 0 | Latest completed Mesh+DeepSeek full run |
+| Mesh Loghub profile, pre-boundary full run | `xiaomi/mimo-v2.5-pro` | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | **0.892** | 64 (36%) | 0 | Latest completed Mesh+Mimo full run |
 | Claude Code API-key (`claude-code` 2.1.154) | `claude-opus-4-7` | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | Clean API-key Opus baseline; no subscription session cap. Proof: `docs/leaderboard-artifacts/` |
 | Raw Harbor + `mini-swe-agent` | `deepseek/deepseek-v4-flash` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | Clean raw DeepSeek baseline |
 | Raw Harbor + `mini-swe-agent` | `openai/mimo-v2.5-pro` | `bench-mimo-v2.5-pro-envmimo-latest-180-20260528T054915Z` | 171/180 completed; 2 running; 7 pending | 0.861 | 32 so far | 2 | Correct `.env.mimo`; still in progress |
