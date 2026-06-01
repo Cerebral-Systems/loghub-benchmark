@@ -21,12 +21,8 @@ Files:
 
 - `SUMMARY.json`: merged score and source job stats.
 - `merged-scores.csv`: one selected reward per task.
-- `devin-repro-final-20260530T051302Z-sanitized.tar.gz`: sanitized Harbor artifacts and
-  adapter snapshot. This excludes credentials and `/root/.env`.
-- `run-devin-api-hardened.sh`: original run wrapper used on the SSH machine.
-- `run-devin-remaining-160.sh`: continuation wrapper used on the SSH machine.
-- `terminate-devin-sessions-from-run.py`: cleanup helper used before the
-  continuation run.
+- `devin-repro-final-20260530T051302Z-sanitized.tar.gz`: sanitized Harbor artifacts 
+
 
 To rerun from this repository, use the tracked adapter:
 
