@@ -224,7 +224,7 @@ Full per-test breakdown: [docs/scoring.md](docs/scoring.md).
 
 ```bash
 pip install harbor  # the test harness
-git clone https://github.com/hydrogenbond007/loghub-benchmark
+git clone https://github.comCerebral-Systems/loghub-benchmark
 cd loghub-benchmark
 make unit            # adapter + exporter tests (instant)
 ```

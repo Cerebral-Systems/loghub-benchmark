@@ -15,7 +15,7 @@ authors = [
 ]
 keywords = ["sre", "benchmark", "loghub", "harbor", "observability", "incident-response"]
 classifiers = [
-  "Private :: Do Not Upload",
+  "Public",
 ]
 
 [project.scripts]
