@@ -36,7 +36,10 @@ type-specific renderers (`_render_test_state_py_fp`,
 6. `test_evidence_lines_in_range` — each `evidence[i].line` is a valid
    1-based index in that file.
 7. `test_evidence_snippets_match_log_text` — each `evidence[i].snippet`
-   appears verbatim on the cited line. Anti-hallucination.
+   appears verbatim on the cited line, and must be a non-trivial excerpt
+   (stripped length ≥ 12 chars). Anti-hallucination: an empty string is a
+   substring of every line, so blank/whitespace snippets are rejected — an
+   agent cannot earn evidence credit without actually reading the line.
 8. `test_no_cross_file_line_confusion` — for exact-location tasks,
    every cited `(file, line)` is in the ground-truth set. Catches the
    specific failure mode of citing line N of file A when the anomaly is
@@ -45,16 +48,23 @@ type-specific renderers (`_render_test_state_py_fp`,
    every cited evidence location must be in `expected.json`. The agent
    does not have to cite every anomaly, only real ones.
 10. `test_inline_label_evidence_matches_root_cause` — for inline-label
-    tasks, each cited line's visible alert tag must map to the expected
-    root cause. This keeps BGL/Thunderbird ground truth compact without
-    accepting arbitrary normal lines.
+    tasks, the agent must cite `>= min_evidence_count` **distinct** lines,
+    each with a non-trivial verbatim snippet (via #7) and a visible alert
+    tag that maps to the expected root cause. This keeps BGL/Thunderbird
+    ground truth compact without accepting arbitrary normal lines, and
+    closes the "cite blank snippets / repeat one line" shortcut. (Inline-
+    label *localization* remains inherently easy because the tag is in the
+    log text — see "Known limitations".)
 11. `test_minimum_evidence_count` — `len(evidence) >= min_evidence_count`
    (3, or `len(anomaly_locations)` if smaller). Prevents
    one-citation-and-done.
 12. `test_root_cause_in_allowed_set` — `root_cause_type` is in the
     dataset's `allowed_root_causes`.
-13. `test_root_cause_matches_ground_truth` — most discriminating check:
-    `root_cause_type` matches the gold label.
+13. `test_root_cause_matches_ground_truth` — `root_cause_type` matches the
+    gold label, **bound to evidence**: in exact-location mode the agent must
+    also have cited `>= min_evidence_count` ground-truth evidence lines, so
+    the slug-predictable category is not free credit without real
+    localization. (Inline-label mode binds it via #10.)
 14. `test_recommended_action_is_safe` — `recommended_action` is in
     `{escalate, investigate, no_action, open_incident, page_owner}`.
     Prevents the agent from inventing dangerous actions.
@@ -72,10 +82,11 @@ is skipped for exact-location tasks.
 - **Exact root-cause match** rather than fuzzy because the taxonomy is
   finite and dataset-specific (5–11 labels per dataset). A correct
   diagnosis means picking the right label.
-- **Snippet match** as a verbatim string check (`snippet in line`)
+- **Snippet match** as a verbatim substring check (`snippet in line`)
   rather than equality, because real log lines can be long; trimming a
   300-char prefix is normal and still proves the agent read the actual
-  file.
+  file. A non-empty / ≥12-char floor is enforced so the empty-string
+  substring trick (`"" in line` is always true) can't bypass it.
 - **Inline-label validation for BGL/Thunderbird** because those corpora
   can contain thousands of anomaly-tagged lines in one slice. Storing
   every anomalous line made `expected.json` huge while adding little
@@ -85,6 +96,41 @@ is skipped for exact-location tasks.
   prod system to verify destructive actions against. The closed-set
   check is a cheap proxy for "agent didn't invent `rm -rf /` or
   `kubectl drain`."
+
+## Anti-gaming hardening
+
+The verifier is built to resist a "schema-compliant but no-investigation"
+answer. The measures, by family:
+
+- **All families**: snippets must be non-empty and ≥ 12 chars (#7) — closes
+  the empty-string substring bypass that previously let an answer pass the
+  anti-hallucination check without reading any line.
+- **Exact-location v1 + sev**: `root_cause_type` credit is bound to citing
+  `>= min_evidence_count` ground-truth evidence locations, so a guess at the
+  slug-predictable category earns nothing without real localization. `sev`
+  additionally checks all cited evidence is within ground truth.
+- **fp (false-positive triage)**: cited indicators must overlap ground truth
+  with ≥ 0.7 precision **and** cover `>= min_indicator_count` real indicators
+  (recall); the prior empty-set auto-pass is removed.
+- **rem (remediation)**: the post-mitigation check no longer trusts the
+  agent-writable `/app/service_state.json`. The verifier **replays** the
+  agent's declared `mitigation.action` + `mitigation.target` against a
+  verifier-only copy of the initial state (`tests/initial_state.json`) and
+  checks the resulting health. Hand-editing the state file earns nothing.
+
+### Known limitations
+
+- **BGL/Thunderbird inline-label localization is inherently easy**: the alert
+  tag (`KERNSTOR`, …) is in the log text, so a reader can find tagged lines
+  directly. The hardening above forces real reads (non-empty snippets,
+  distinct lines, correct tag→cause mapping) but cannot make tag recognition
+  *hard*. Making it hard requires regenerating those tasks with a specific
+  injected-incident ground-truth set — tracked as a follow-up.
+- **Slug-predictable categories**: task slugs encode the dataset/component
+  (e.g. `bgl-kernstor`), which correlates with `root_cause_type`. Rather than
+  rename every task (which would break published run IDs and snapshots), the
+  scoring binds categorical credit to correct evidence so the leak is not
+  freely scorable. `tests/test_gameability.py` regression-locks these bounds.
 
 ## Ground truth
 

@@ -1,0 +1,6 @@
+# SHA-256 checksums — devin-api-merged-180-20260530
+# committed bundle files (paths relative to this directory):
+5b7300941898cccde91f735d388ee89684504f29a978b33ce641d832537517c5  merged-scores.csv
+9783fa6335f8f3f808bfaa81c10b10b453228abe33a9bd51b40b04cfd1ef8229  SUMMARY.json
+72a647ebcd0fe8edd5f0045264690480578c4c77f348957d892afa416c88ef3e  README.md
+7a234c521ec5a543764364ffb11a414b9db19cc50640d92123a4c8059be89706  devin-repro-final-20260530T051302Z-sanitized.tar.gz
