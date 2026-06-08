@@ -163,3 +163,43 @@ def test_empty_snippet_never_full_credit():
                "anomaly_keys": exp.get("anomaly_keys") or ["x"],
                "root_cause_type": exp["root_cause_type"], "recommended_action": "investigate"}
         assert H.score(td, ans) < 1.0
+
+
+def test_seq_trigger_only_not_full_credit():
+    """A timeline containing only the (correct) trigger must NOT score full
+    credit — sequence reconstruction requires covering the event chain, and
+    Kendall tau must not be vacuously 1.0 on <2 common events. Regression for
+    the one-event seq bypass."""
+    td = TASKS / "seq-hdfs-other-1f260d4"
+    exp = json.loads((td / "tests" / "expected.json").read_text())
+    trig = next(e for e in exp["timeline"] if e["role"] == "trigger")
+    with tempfile.TemporaryDirectory() as t:
+        app = Path(t) / "app"
+        app.mkdir()
+        H._setup_app(td, app)
+        line = (app / trig["file"]).read_text(errors="replace").splitlines()[trig["line"] - 1][:120]
+        ans = {"schema_version": exp["schema_version"], "is_incident": True,
+               "root_cause_type": exp["root_cause_type"],
+               "timeline": [{"file": trig["file"], "line": trig["line"],
+                             "snippet": line, "role": "trigger", "sequence": 0}]}
+        assert H.score(td, ans) < 1.0, "seq one-event scored full credit — recall gap re-opened"
+
+
+def test_fp_indicators_require_snippets():
+    """FP indicators with correct (file, line, why_not_anomalous) but NO
+    snippet must NOT score full credit — snippets are required so the
+    predictable benign locations can't be cited without reading. Regression
+    for the optional-snippet bypass."""
+    td = TASKS / "fp-hdfs-noise-85ae5a1"
+    exp = json.loads((td / "tests" / "expected.json").read_text())
+    gt = exp["false_positive_indicators"]
+    ans = {"schema_version": exp["schema_version"], "is_incident": False, "confidence": 0.9,
+           "false_positive_indicators": [
+               {"file": i["file"], "line": i["line"], "why_not_anomalous": i["why_not_anomalous"]}
+               for i in gt[:exp["min_indicator_count"]]],
+           "root_cause_type": exp.get("root_cause_type", "no_incident")}
+    with tempfile.TemporaryDirectory() as t:
+        app = Path(t) / "app"
+        app.mkdir()
+        H._setup_app(td, app)
+        assert H.score(td, ans) < 1.0, "fp no-snippet scored full credit — optional-snippet bypass re-opened"

@@ -88,15 +88,18 @@ def test_indicators_cite_real_lines(answer: dict, files_to_lines: dict):
         assert 1 <= ind["line"] <= n, (
             f"line {ind['line']} out of range 1..{n} for {ind['file']}"
         )
-        if "snippet" in ind:
-            actual = lines[ind["line"] - 1]
-            assert len(ind["snippet"].strip()) >= 12, (
-                f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {ind['snippet']!r}"
-            )
-            assert ind["snippet"] in actual, (
-                f"snippet {ind['snippet']!r} not verbatim in "
-                f"{ind['file']}:{ind['line']}"
-            )
+        # Snippet is REQUIRED (not optional): otherwise an agent can cite the
+        # predictable benign (file, line) tuples without reading the log and
+        # still pass. Must be a non-trivial verbatim excerpt of the cited line.
+        actual = lines[ind["line"] - 1]
+        assert "snippet" in ind and len(ind["snippet"].strip()) >= 12, (
+            f"indicator at {ind['file']}:{ind['line']} must include a "
+            f"non-trivial (>=12 char) verbatim snippet"
+        )
+        assert ind["snippet"] in actual, (
+            f"snippet {ind['snippet']!r} not verbatim in "
+            f"{ind['file']}:{ind['line']}"
+        )
 
 
 def test_classifications_in_allowed_set(answer: dict, expected: dict):

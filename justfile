@@ -46,9 +46,9 @@ oracle-nop:
       exit 1
     fi
 
-# Adapter + exporter unit tests.
+# Repo-invariant + gameability + adapter/exporter unit tests.
 unit:
-    .venv-tools/bin/python -m pytest tools/case_builder/tests -q
+    .venv-tools/bin/python -m pytest tests tools/case_builder/tests -q
 
 # Everything — same gates as the CI workflows.
 validate-all: unit static oracle-nop

@@ -62,17 +62,24 @@ scoreboard without the authors' infrastructure.
 | Model / agent | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors | Runtime / cost | Artifacts |
 |---|---|---|---:|---:|---:|---:|---|---|
 | `claude-opus-4-7` | Claude Code API-key (`claude-code` 2.1.154, `ANTHROPIC_API_KEY`) | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | 2h 48m; $99.55 | [bundle](docs/leaderboard-artifacts/claude-api-opus-180-20260528T194734Z/) (checksummed) |
-| Devin (core API) | Fresh session/task; line-numbered `/app` bundle; `structured_output` | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | 3 ACU cap/task | [bundle](docs/leaderboard-artifacts/devin-api-merged-180-20260530/) |
-| `deepseek/deepseek-v4-flash` | Raw Harbor + `mini-swe-agent` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | n/a | not committed |
-| `mimo-v2.5-pro` | Raw Harbor + `mini-swe-agent` | `bench-mimo-v2.5-pro-envmimo-latest-180` | partial (171/180 at capture) | 0.861* | 32 | 2 | n/a | not committed |
-
-`*` The raw Mimo row was a partial capture (171/180 complete) — treat as
-provisional. The raw `mini-swe-agent` rows are reproducible with the command
-below given provider keys, but no transcript bundle is committed.
+| Devin (core API) | Fresh session/task; line-numbered `/app` bundle; `structured_output` | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | 3 ACU cap/task | [bundle](docs/leaderboard-artifacts/devin-api-merged-180-20260530/) (checksummed) |
 
 Read the Devin row as Devin core via API, not Devin Auto-Triage (whose parent
 monitor, routing, and cross-incident memory are intentionally outside this
 per-task benchmark).
+
+### Reproducible by re-run (no committed bundle)
+
+Reproducible with the Harbor command below given provider keys, but no
+transcript bundle is committed, so the scoreboard cannot be verified after the
+fact.
+
+| Model / agent | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors |
+|---|---|---|---:|---:|---:|---:|
+| `deepseek/deepseek-v4-flash` | Raw Harbor + `mini-swe-agent` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 |
+| `mimo-v2.5-pro` | Raw Harbor + `mini-swe-agent` | `bench-mimo-v2.5-pro-envmimo-latest-180` | partial (171/180 at capture) | 0.861* | 32 | 2 |
+
+`*` The raw Mimo row was a partial capture (171/180 complete) — provisional.
 
 ### Authors' system — Mesh (not independently reproducible)
 

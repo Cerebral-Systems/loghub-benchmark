@@ -49,8 +49,8 @@ oracle-nop: ## Run harbor oracle/nop on every task (slow; needs Docker)
 	  exit 1; \
 	fi
 
-unit: ## Run case_builder + exporter unit tests
-	$(PYTHON) -m pytest tools/case_builder/tests -q
+unit: ## Run repo-invariant + gameability + case_builder/exporter unit tests
+	$(PYTHON) -m pytest tests tools/case_builder/tests -q
 
 validate-all: unit static oracle-nop ## Run every validation gate
 	@echo ""
