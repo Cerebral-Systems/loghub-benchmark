@@ -90,6 +90,9 @@ def test_indicators_cite_real_lines(answer: dict, files_to_lines: dict):
         )
         if "snippet" in ind:
             actual = lines[ind["line"] - 1]
+            assert len(ind["snippet"].strip()) >= 12, (
+                f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {ind['snippet']!r}"
+            )
             assert ind["snippet"] in actual, (
                 f"snippet {ind['snippet']!r} not verbatim in "
                 f"{ind['file']}:{ind['line']}"
@@ -123,8 +126,10 @@ def test_no_hallucinated_files(answer: dict, expected: dict):
 
 
 def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
-    """At least 50% of agent's cited (file, line) tuples must be in
-    ground-truth indicator set. Catches the v1 cheat of citing random lines.
+    """Cited (file, line) indicators must overlap the ground-truth set with
+    high precision AND cover at least `min_indicator_count` real indicators
+    (recall). Closes the cheat of citing arbitrary lines, and the prior
+    empty-set auto-pass that let an agent dodge the check entirely.
     """
     agent_locs = set()
     for ind in answer.get("false_positive_indicators", []):
@@ -132,12 +137,16 @@ def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
     truth_locs = set()
     for ind in expected.get("false_positive_indicators", []):
         truth_locs.add((ind["file"], ind["line"]))
-    if not truth_locs or not agent_locs:
-        return
+    assert truth_locs, "ground-truth indicator set is empty (task build error)"
+    assert agent_locs, "no false_positive_indicators cited"
     overlap = len(agent_locs & truth_locs)
     precision = overlap / len(agent_locs)
-    assert precision >= 0.5, (
+    assert precision >= 0.7, (
         f"only {overlap}/{len(agent_locs)} cited indicators in ground truth (precision {precision:.2f})"
+    )
+    need = min(expected["min_indicator_count"], len(truth_locs))
+    assert overlap >= need, (
+        f"only {overlap} real indicators identified; need >= {need} (recall)"
     )
 
 

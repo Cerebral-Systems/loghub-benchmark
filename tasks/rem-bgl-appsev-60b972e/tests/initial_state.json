@@ -1,0 +1,27 @@
+{
+  "components": {
+    "bgl-misc": {
+      "cascading_from": "bgl-racks-c",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "bgl-racks-a": {
+      "cascading_from": "bgl-racks-c",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "bgl-racks-b": {
+      "cascading_from": "bgl-racks-c",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "bgl-racks-c": {
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    }
+  }
+}

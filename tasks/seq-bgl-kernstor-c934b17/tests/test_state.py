@@ -92,6 +92,9 @@ def test_timeline_files_exist(answer: dict, files_to_lines: dict):
 def test_timeline_snippets_match(answer: dict, files_to_lines: dict):
     for ev in answer["timeline"]:
         actual = files_to_lines[ev["file"]][ev["line"] - 1]
+        assert len(ev["snippet"].strip()) >= 12, (
+            f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {ev['snippet']!r}"
+        )
         assert ev["snippet"] in actual
 
 

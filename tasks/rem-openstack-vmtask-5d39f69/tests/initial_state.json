@@ -1,0 +1,21 @@
+{
+  "components": {
+    "openstack-nova-api": {
+      "cascading_from": "openstack-nova-compute",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "openstack-nova-compute": {
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "openstack-nova-scheduler": {
+      "cascading_from": "openstack-nova-compute",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    }
+  }
+}

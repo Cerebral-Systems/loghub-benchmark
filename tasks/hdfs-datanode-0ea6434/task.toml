@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hdfs-datanode-0ea6434"
-description = "Loghub SRE investigation: locate datanode_unreachable incident across partitioned HDFS_v1 logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned HDFS_v1 logs."
 
 [[task.authors]]
 name = "madhav"

@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/thunderbird-vapi-243ea32"
-description = "Loghub SRE investigation: locate vapi incident across partitioned Thunderbird logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned Thunderbird logs."
 
 [[task.authors]]
 name = "madhav"

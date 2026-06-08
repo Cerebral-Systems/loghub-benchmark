@@ -1,0 +1,21 @@
+{
+  "components": {
+    "bgl-racks-a": {
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "bgl-racks-b": {
+      "cascading_from": "bgl-racks-a",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "bgl-racks-c": {
+      "cascading_from": "bgl-racks-a",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    }
+  }
+}

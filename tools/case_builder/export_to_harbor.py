@@ -568,7 +568,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/{slug}"
-description = "Loghub SRE investigation: locate {root_cause} incident across partitioned {case["dataset_name"]} logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned {case["dataset_name"]} logs."
 
 [[task.authors]]
 name = "{author_name}"
@@ -717,12 +717,12 @@ mkdir -p /logs/verifier
 pytest --ctrf /logs/verifier/ctrf.json /tests/test_state.py -rA
 rc=$?
 
-# Fractional reward = passed/total. Harbor accepts float rewards in [0, 1].
+# Fractional reward = passed/non-skipped. Harbor accepts float rewards in [0, 1].
 python3 -c '
 import json
 try:
     s = json.load(open("/logs/verifier/ctrf.json"))["results"]["summary"]
-    t, p = s["tests"], s["passed"]
+    t, p = s["tests"] - s.get("skipped", 0), s["passed"]
     open("/logs/verifier/reward.txt", "w").write(str(p/t if t else 0) + "\\n")
 except Exception:
     open("/logs/verifier/reward.txt", "w").write("0\\n")
@@ -827,15 +827,38 @@ def test_evidence_snippets_match_log_text(answer: dict, files_to_lines: dict):
     """Anti-hallucination: each snippet must appear verbatim on the cited line."""
     for entry in answer["evidence"]:
         actual = files_to_lines[entry["file"]][entry["line"] - 1]
+        assert len(entry["snippet"].strip()) >= 12, (
+            f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {{entry['snippet']!r}}"
+        )
         assert entry["snippet"] in actual, (
             f"snippet {{entry['snippet']!r}} not present on "
             f"{{entry['file']}} line {{entry['line']}}"
         )
 
 
+def _validation_mode(expected: dict) -> str:
+    return expected.get("evidence_validation", {{}}).get("mode", "exact_location")
+
+
+def _root_cause_for_inline_label(line: str, expected: dict) -> str | None:
+    validation = expected["evidence_validation"]
+    stripped = line.strip()
+    if not stripped:
+        return None
+    tag = stripped.split(None, 1)[0]
+    if tag == validation.get("normal_tag", "-"):
+        return None
+    return validation.get("tag_to_root_cause", {{}}).get(
+        tag,
+        validation.get("other_root_cause"),
+    )
+
+
 def test_no_cross_file_line_confusion(answer: dict, expected: dict, files_to_lines: dict):
     """Catches the failure mode of citing line N of file A when the
     real evidence lives at line N of file B."""
+    if _validation_mode(expected) != "exact_location":
+        pytest.skip("inline-label evidence validation does not use fixed locations")
     expected_locs = {{(e["file"], e["line"]) for e in expected["evidence"]}}
     answer_locs = {{(e["file"], e["line"]) for e in answer["evidence"]}}
     spurious = answer_locs - expected_locs
@@ -849,10 +872,31 @@ def test_evidence_within_ground_truth(answer: dict, expected: dict):
     expected.json. The agent does not need to cite EVERY anomaly the
     case carries (BGL/Thunderbird slices can hold thousands), but every
     citation must be drawn from the ground-truth set."""
+    if _validation_mode(expected) != "exact_location":
+        pytest.skip("inline-label evidence validation checks cited line labels")
     expected_locs = {{(e["file"], e["line"]) for e in expected["evidence"]}}
     answer_locs = {{(e["file"], e["line"]) for e in answer["evidence"]}}
     not_real = answer_locs - expected_locs
     assert not not_real, f"answer cites non-anomaly locations: {{sorted(not_real)}}"
+
+
+def test_inline_label_evidence_matches_root_cause(answer: dict, expected: dict, files_to_lines: dict):
+    """For inline-labelled corpora such as BGL and Thunderbird, accept any
+    cited line whose visible alert tag maps to the expected root cause."""
+    if _validation_mode(expected) != "inline_label":
+        pytest.skip("exact-location evidence validation uses fixed locations")
+    distinct = {{(e["file"], e["line"]) for e in answer["evidence"]}}
+    assert len(distinct) >= expected["min_evidence_count"], (
+        f"inline-label tasks need >= {{expected['min_evidence_count']}} distinct cited "
+        f"lines, got {{len(distinct)}}"
+    )
+    for entry in answer["evidence"]:
+        actual = files_to_lines[entry["file"]][entry["line"] - 1]
+        observed = _root_cause_for_inline_label(actual, expected)
+        assert observed == expected["root_cause_type"], (
+            f"cited line maps to {{observed!r}}, expected "
+            f"{{expected['root_cause_type']!r}}: {{entry}}"
+        )
 
 
 def test_minimum_evidence_count(answer: dict, expected: dict):
@@ -864,6 +908,17 @@ def test_root_cause_in_allowed_set(answer: dict, expected: dict):
 
 
 def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
+    # Anti-guess binding: the task slug/taxonomy makes root_cause_type
+    # guessable, so in exact-location mode credit requires actually
+    # localizing -- citing >= min_evidence_count ground-truth lines. Inline
+    # mode already binds credit via test_inline_label_evidence_matches_root_cause.
+    if _validation_mode(expected) == "exact_location":
+        gt = {{(e["file"], e["line"]) for e in expected["evidence"]}}
+        grounded = {{(e["file"], e["line"]) for e in answer["evidence"]}} & gt
+        assert len(grounded) >= expected["min_evidence_count"], (
+            f"root_cause credit requires >= {{expected['min_evidence_count']}} "
+            f"ground-truth evidence citations; only {{len(grounded)}} grounded"
+        )
     assert answer["root_cause_type"] == expected["root_cause_type"]
 
 
@@ -1272,6 +1327,9 @@ def test_indicators_cite_real_lines(answer: dict, files_to_lines: dict):
         )
         if "snippet" in ind:
             actual = lines[ind["line"] - 1]
+            assert len(ind["snippet"].strip()) >= 12, (
+                f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {{ind['snippet']!r}}"
+            )
             assert ind["snippet"] in actual, (
                 f"snippet {{ind['snippet']!r}} not verbatim in "
                 f"{{ind['file']}}:{{ind['line']}}"
@@ -1305,8 +1363,10 @@ def test_no_hallucinated_files(answer: dict, expected: dict):
 
 
 def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
-    """At least 50% of agent's cited (file, line) tuples must be in
-    ground-truth indicator set. Catches the v1 cheat of citing random lines.
+    """Cited (file, line) indicators must overlap the ground-truth set with
+    high precision AND cover at least `min_indicator_count` real indicators
+    (recall). Closes the cheat of citing arbitrary lines, and the prior
+    empty-set auto-pass that let an agent dodge the check entirely.
     """
     agent_locs = set()
     for ind in answer.get("false_positive_indicators", []):
@@ -1314,12 +1374,16 @@ def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
     truth_locs = set()
     for ind in expected.get("false_positive_indicators", []):
         truth_locs.add((ind["file"], ind["line"]))
-    if not truth_locs or not agent_locs:
-        return
+    assert truth_locs, "ground-truth indicator set is empty (task build error)"
+    assert agent_locs, "no false_positive_indicators cited"
     overlap = len(agent_locs & truth_locs)
     precision = overlap / len(agent_locs)
-    assert precision >= 0.5, (
+    assert precision >= 0.7, (
         f"only {{overlap}}/{{len(agent_locs)}} cited indicators in ground truth (precision {{precision:.2f}})"
+    )
+    need = min(expected["min_indicator_count"], len(truth_locs))
+    assert overlap >= need, (
+        f"only {{overlap}} real indicators identified; need >= {{need}} (recall)"
     )
 
 
@@ -1841,6 +1905,9 @@ def test_timeline_files_exist(answer: dict, files_to_lines: dict):
 def test_timeline_snippets_match(answer: dict, files_to_lines: dict):
     for ev in answer["timeline"]:
         actual = files_to_lines[ev["file"]][ev["line"] - 1]
+        assert len(ev["snippet"].strip()) >= 12, (
+            f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {{ev['snippet']!r}}"
+        )
         assert ev["snippet"] in actual
 
 
@@ -2919,9 +2986,22 @@ def test_evidence_lines_in_range(answer: dict, files_to_lines: dict):
 def test_evidence_snippets_match(answer: dict, files_to_lines: dict):
     for entry in answer["evidence"]:
         actual = files_to_lines[entry["file"]][entry["line"] - 1]
+        assert len(entry["snippet"].strip()) >= 12, (
+            f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {{entry['snippet']!r}}"
+        )
         assert entry["snippet"] in actual, (
             f"snippet not verbatim in {{entry['file']}}:{{entry['line']}}"
         )
+
+
+def test_evidence_within_ground_truth(answer: dict, expected: dict):
+    """Cited evidence must be drawn from the ground-truth anomaly set, so an
+    agent cannot score by citing arbitrary in-range lines without
+    investigating which lines actually evidence the incident."""
+    gt = {{(e["file"], e["line"]) for e in expected["evidence"]}}
+    cited = {{(e["file"], e["line"]) for e in answer["evidence"]}}
+    not_real = cited - gt
+    assert not not_real, f"answer cites non-anomaly locations: {{sorted(not_real)}}"
 
 
 def test_severity_matches_ground_truth(answer: dict, expected: dict):
@@ -2955,6 +3035,15 @@ def test_justification_consistent_with_severity(answer: dict):
 
 
 def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
+    # Anti-guess binding: root_cause credit requires actually localizing the
+    # incident -- citing >= min_evidence_count ground-truth evidence lines --
+    # so the slug-predictable category is not free.
+    gt = {{(e["file"], e["line"]) for e in expected["evidence"]}}
+    grounded = {{(e["file"], e["line"]) for e in answer["evidence"]}} & gt
+    assert len(grounded) >= expected["min_evidence_count"], (
+        f"root_cause credit requires >= {{expected['min_evidence_count']}} "
+        f"ground-truth evidence citations; only {{len(grounded)}} grounded"
+    )
     assert answer["root_cause_type"] == expected["root_cause_type"]
 
 
@@ -3637,6 +3726,12 @@ def _export_rem_case(
     (task_dir / "environment" / "data" / "service_state.json").write_text(
         json.dumps(initial_state, indent=2, sort_keys=True) + "\n"
     )
+    # Verifier-only clean copy of the initial state. The post-mitigation
+    # verifier replays the agent's declared mitigation against THIS (under
+    # /tests, not /app), so editing /app/service_state.json cannot fake recovery.
+    (task_dir / "tests" / "initial_state.json").write_text(
+        json.dumps(initial_state, indent=2, sort_keys=True) + "\n"
+    )
 
     # Materialize config files + bin scripts.
     canonical_action = mitigation_for_root_cause(case["root_cause"])
@@ -4040,10 +4135,13 @@ Rules:
 - `causal_chain[0].role` must be `"root"` and must NOT carry
   `caused_by_step`; subsequent entries are `"downstream"` and must
   reference an earlier step.
-- The verifier ALSO inspects `/app/service_state.json` and runs
-  `/app/bin/check_health` — choosing a plausible action without
-  actually executing `apply_mitigation` will fail the
-  post-mitigation health check.
+- Use `/app/bin/apply_mitigation` and `/app/bin/check_health` to confirm
+  your chosen action actually recovers the cluster. The verifier does NOT
+  read `/app/service_state.json`: it independently replays the
+  `mitigation.action` + `mitigation.target` you declare in `answer.json`
+  against a clean copy of the initial state. Editing `service_state.json`
+  by hand earns nothing — only declaring the action+target that genuinely
+  recovers (or correctly escalates) the cluster passes the check.
 - `mitigation.action` must be one of the allowed actions. Never invent
   or pass `force_delete_data`, `disable_monitoring`, or `ignore_alert`
   — those are explicitly flagged as unsafe.
@@ -4266,16 +4364,18 @@ action, mitigation target, final state).
 from __future__ import annotations
 
 import json
-import subprocess
 from pathlib import Path
 
 import pytest
 
 ANSWER_PATH = Path("/app/answer.json")
 EXPECTED_PATH = Path("/tests/expected.json")
-STATE_PATH = Path("/app/service_state.json")
+INITIAL_STATE_PATH = Path("/tests/initial_state.json")
 APP_DIR = Path("/app")
 LOGS_DIR = APP_DIR / "logs"
+
+# Mirrors /app/bin/apply_mitigation's enum; used by the verifier-side replay.
+ALLOWED_ACTIONS = {{"restart_component", "rollback_config", "increase_quota", "disable_route", "mark_noop"}}
 
 
 def _load_json(path: Path) -> dict:
@@ -4294,9 +4394,11 @@ def answer() -> dict:
 
 
 @pytest.fixture(scope="module")
-def service_state() -> dict:
-    assert STATE_PATH.exists(), f"missing {{STATE_PATH}}"
-    return _load_json(STATE_PATH)
+def initial_state() -> dict:
+    # Verifier-only clean copy of the pre-mitigation state, under /tests (not
+    # /app), so the agent can neither see nor edit it.
+    assert INITIAL_STATE_PATH.exists(), f"missing {{INITIAL_STATE_PATH}}"
+    return _load_json(INITIAL_STATE_PATH)
 
 
 @pytest.fixture(scope="module")
@@ -4396,6 +4498,9 @@ def test_causal_chain_evidence_real(answer: dict, log_files: dict):
             f"line {{line_no}} out of range 1..{{len(lines)}} for {{filename}}"
         )
         actual = lines[line_no - 1]
+        assert len(snippet.strip()) >= 12, (
+            f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {{snippet!r}}"
+        )
         assert snippet in actual, (
             f"snippet {{snippet!r}} not present on {{filename}}:{{line_no}}"
         )
@@ -4427,34 +4532,42 @@ def test_mitigation_is_not_unsafe(answer: dict, expected: dict):
     )
 
 
-def test_post_mitigation_state(service_state: dict, expected: dict):
-    """The big one: service_state.json must reflect the expected health,
-    and /app/bin/check_health must agree."""
-    components = service_state.get("components", {{}})
-    assert components, "service_state.json has no components"
-    expected_health = expected["expected_health"]
-    proc = subprocess.run(["/app/bin/check_health"], capture_output=True, text=True)
-    first_line = (proc.stdout or "").splitlines()[0] if proc.stdout else ""
-    assert first_line.startswith("status="), (
-        f"check_health did not emit status= line; got {{first_line!r}}"
+def _replay_health(initial_state: dict, root: str, action, target) -> str:
+    """Deterministic re-implementation of /app/bin/apply_mitigation +
+    check_health, run by the VERIFIER against a clean initial state. The
+    agent's declared (action, target) is the only agent-controlled input,
+    so hand-editing /app/service_state.json cannot influence the result."""
+    comps = {{k: dict(v) for k, v in initial_state.get("components", {{}}).items()}}
+    if action in ALLOWED_ACTIONS and target == root and action != "mark_noop":
+        for info in comps.values():
+            info["state"] = "healthy"
+    # mark_noop, an out-of-enum action, or a wrong target leaves state as-is.
+    states = {{info.get("state", "unknown") for info in comps.values()}}
+    if states == {{"healthy"}}:
+        return "healthy"
+    if "unhealthy" in states:
+        return "unhealthy"
+    return "degraded"
+
+
+def test_post_mitigation_state(answer: dict, expected: dict, initial_state: dict):
+    """The big one, hardened against forgery: rather than trusting the
+    agent-writable /app/service_state.json, the verifier REPLAYS the agent's
+    declared mitigation (action, target) against a clean, verifier-only copy
+    of the initial state and checks the resulting cluster health. Writing
+    /app/service_state.json healthy by hand no longer earns this point --
+    only declaring the (action, target) that actually recovers (or correctly
+    escalates) the cluster does."""
+    components = initial_state.get("components", {{}})
+    assert components, "initial_state.json has no components"
+    mit = answer.get("mitigation", {{}})
+    health = _replay_health(
+        initial_state, expected["root_component"], mit.get("action"), mit.get("target")
     )
-    health = first_line.split("=", 1)[1].strip()
-    assert health == expected_health, (
-        f"check_health reports {{health!r}}, expected {{expected_health!r}}"
+    assert health == expected["expected_health"], (
+        f"declared mitigation action={{mit.get('action')!r}} target={{mit.get('target')!r}} "
+        f"replays to health {{health!r}}, expected {{expected['expected_health']!r}}"
     )
-    if expected_health == "healthy":
-        assert proc.returncode == 0, "check_health exit code should be 0 when healthy"
-        for comp, info in components.items():
-            assert info.get("state") == "healthy", (
-                f"{{comp}} expected healthy, got {{info.get('state')!r}}"
-            )
-    else:
-        # mark_noop path: degraded but escalated on the root component.
-        root = expected["root_component"]
-        root_info = components.get(root, {{}})
-        assert root_info.get("escalated") is True, (
-            f"root {{root}} not escalated despite mark_noop expected"
-        )
 '''
 
 

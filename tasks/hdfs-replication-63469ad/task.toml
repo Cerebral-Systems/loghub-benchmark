@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hdfs-replication-63469ad"
-description = "Loghub SRE investigation: locate replication_failure incident across partitioned HDFS_v1 logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned HDFS_v1 logs."
 
 [[task.authors]]
 name = "madhav"
