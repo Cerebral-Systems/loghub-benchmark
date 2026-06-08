@@ -7,7 +7,7 @@ name = "loghub-sre-benchmark-tools"
 version = "0.1.0"
 description = "Internal tooling for the Loghub SRE Harbor benchmark (case-builder, exporters, leaderboard). The benchmark itself lives in tasks/."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = []
 license = { text = "MIT" }
 authors = [
@@ -15,7 +15,18 @@ authors = [
 ]
 keywords = ["sre", "benchmark", "loghub", "harbor", "observability", "incident-response"]
 classifiers = [
-  "Public",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Intended Audience :: Science/Research",
+  "Topic :: Software Development :: Testing",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-json-ctrf",
+  "scikit-learn>=1.6",
 ]
 
 [project.scripts]
@@ -30,7 +41,7 @@ where = ["."]
 include = ["tools*"]
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py312"
 line-length = 140
 
 [tool.ruff.lint]

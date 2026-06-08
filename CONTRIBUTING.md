@@ -22,7 +22,7 @@ corpus version with a known seed — that's how
 ## Local setup
 
 ```bash
-git clone https://github.com/hydrogenbond007/loghub-benchmark
+git clone https://github.com/Cerebral-Systems/loghub-benchmark
 cd loghub-benchmark
 uv venv .venv-tools && source .venv-tools/bin/activate
 pip install harbor pytest pytest-json-ctrf openai  # openai for the rubric grader
