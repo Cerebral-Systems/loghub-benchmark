@@ -22,10 +22,16 @@ Loghub-SRE is ready for community testing as a Harbor benchmark. The
 committed 180-task set (60 v1 + 100 v2 + 20 remediation) passes the
 substrate gates:
 
-- adapter/exporter/repo-invariant tests pass.
+- adapter/exporter/repo-invariant tests pass, including the
+  committed-vs-template drift gate, the ground-truth snapshot, and the
+  `tests/test_gameability.py` anti-reward-hacking regressions.
 - `make static` passes all `12 × 180` static checks.
 - `make oracle-nop` is green on all tasks: oracle scores `180/180`, nop
   scores `0/180`.
+
+The verifier was hardened for release against reward-hacking (see
+[docs/scoring.md](docs/scoring.md) → "Anti-gaming hardening"); the agent
+leaderboard below predates that hardening and will be re-run.
 
 Latest agent leaderboard entries are below. See
 [docs/baselines.md](docs/baselines.md) for the substrate validation
@@ -35,30 +41,65 @@ for the Devin reproducibility bundle.
 
 ## Harness / Model Matrix
 
-Latest hardened 180-task runs from May 28-30, 2026. Single run per row unless
-explicitly marked as merged. "Errors" are Harbor trial exceptions counted as
-zero reward.
+> ⚠️ **These numbers predate the release verifier hardening.** They were scored
+> under the pre-hardening verifier. The release hardening (non-empty snippet
+> floor, evidence-bound categorical credit, BGL/Thunderbird distinct-line
+> requirement, remediation replay grading, and the unified `passed/non-skipped`
+> reward across all 180 tasks — see [docs/scoring.md](docs/scoring.md)) changes
+> scoring, so these rows are **not directly comparable** to hardened-verifier
+> results. Every row will be re-run under the hardened verifier before the
+> leaderboard is treated as current; read the values below as pre-hardening
+> reference only.
 
-| Harness | Model / agent | Boundary / inference path | Run ID | Tasks | Mean reward | Fully solved | Errors | Runtime / cost | Notes |
-|---|---|---|---|---:|---:|---:|---:|---|---|
-| Mesh Loghub profile, pre-boundary full run | `deepseek/deepseek-v4-flash` | Mesh SRE profile builds evidence pack; adapter still performs structured finalization | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | **0.915** | 66 (37%) | 0 | n/a | Latest completed Mesh+DeepSeek full run |
-| Mesh Loghub profile, pre-boundary full run | `xiaomi/mimo-v2.5-pro` | Mesh SRE profile builds evidence pack; adapter still performs structured finalization | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | **0.892** | 64 (36%) | 0 | n/a | Latest completed Mesh+Mimo full run |
-| Claude Code API-key (`claude-code` 2.1.154) | `claude-opus-4-7` | Harbor `claude-code` agent with `ANTHROPIC_API_KEY`; no Claude.ai subscription session cap | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | 2h 48m; $99.55 | Clean Claude Code Opus baseline |
-| Raw Harbor + `mini-swe-agent` | `deepseek/deepseek-v4-flash` | Plain benchmark prompt and visible task files; no Loghub-specific runtime | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 | n/a | Clean raw DeepSeek baseline |
-| Raw Harbor + `mini-swe-agent` | `openai/mimo-v2.5-pro` | Plain benchmark prompt and visible task files; no Loghub-specific runtime | `bench-mimo-v2.5-pro-envmimo-latest-180-20260528T054915Z` | 171/180 completed; 2 running; 7 pending | 0.861 | 32 so far | 2 | n/a | Correct `.env.mimo`; still in progress |
-| Devin API, single-session | Devin | Fresh Devin session per task; line-numbered `/app` bundle attachment; `structured_output`; no Auto-Triage memory | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | Cost not exported; 3 ACU cap/task | Merged from a 20-task partial and 160-task continuation; quota/API/timeouts counted as zero |
+Runs from May 28-30, 2026. "Errors" are Harbor trial exceptions counted as zero
+reward.
 
-Read the Devin row as Devin core via API, not Devin Auto-Triage. Auto-Triage's
-parent monitor, routing, and cross-incident memory are intentionally outside
-this per-task benchmark.
+### Independently reproducible (artifact-backed)
 
-Completed full-run deltas:
+These rows ship a committed artifact bundle so a third party can verify the
+scoreboard without the authors' infrastructure.
+
+| Model / agent | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors | Runtime / cost | Artifacts |
+|---|---|---|---:|---:|---:|---:|---|---|
+| `claude-opus-4-7` | Claude Code API-key (`claude-code` 2.1.154, `ANTHROPIC_API_KEY`) | `claude-api-opus-180-20260528T194734Z` | 180/180 | 0.878 | 45 (25%) | 0 | 2h 48m; $99.55 | [bundle](docs/leaderboard-artifacts/claude-api-opus-180-20260528T194734Z/) (checksummed) |
+| Devin (core API) | Fresh session/task; line-numbered `/app` bundle; `structured_output` | `devin-api-merged-180-20260530` | 180/180 merged | 0.747 | 38 (21%) | 26 | 3 ACU cap/task | [bundle](docs/leaderboard-artifacts/devin-api-merged-180-20260530/) (checksummed) |
+
+Read the Devin row as Devin core via API, not Devin Auto-Triage (whose parent
+monitor, routing, and cross-incident memory are intentionally outside this
+per-task benchmark).
+
+### Reproducible by re-run (no committed bundle)
+
+Reproducible with the Harbor command below given provider keys, but no
+transcript bundle is committed, so the scoreboard cannot be verified after the
+fact.
+
+| Model / agent | Harness | Run ID | Tasks | Mean reward | Fully solved | Errors |
+|---|---|---|---:|---:|---:|---:|
+| `deepseek/deepseek-v4-flash` | Raw Harbor + `mini-swe-agent` | `bench-deepseek-v4-flash-latest-180-20260528T054018Z` | 180/180 | 0.860 | 31 (17%) | 0 |
+| `mimo-v2.5-pro` | Raw Harbor + `mini-swe-agent` | `bench-mimo-v2.5-pro-envmimo-latest-180` | partial (171/180 at capture) | 0.861* | 32 | 2 |
+
+`*` The raw Mimo row was a partial capture (171/180 complete) — provisional.
+
+### Authors' system — Mesh (not independently reproducible)
+
+Mesh (`mesh-intelligence`) is the authors' own framework and is **not part of
+this repository**, so these rows cannot be reproduced by a third party. They are
+reported for transparency, separated from the verifiable rows above, and run the
+adapter's structured finalization (not the strict boundary — see the
+strict-boundary smoke runs below).
+
+| Model / agent (Mesh Loghub profile) | Run ID | Tasks | Mean reward | Fully solved | Errors |
+|---|---|---:|---:|---:|---:|
+| `deepseek/deepseek-v4-flash` | `mesh-runtime-c0ec8e8-deepseek-latest-180-20260528T054018Z` | 180/180 | 0.915 | 66 (37%) | 0 |
+| `mimo-v2.5-pro` | `mesh-runtime-c0ec8e8-mimo-envmimo-latest-180-20260528T054915Z` | 180/180 | 0.892 | 64 (36%) | 0 |
+
+Pre-hardening deltas (same caveat as above):
 
 | Comparison | Baseline mean | Harness mean | Delta | Notes |
 |---|---:|---:|---:|---|
-| Mesh Loghub profile + DeepSeek vs raw DeepSeek | 0.860 | **0.915** | **+0.055** | +35 full-credit tasks |
-| Claude Code API-key vs broken host-auth Claude Code | 0.361 | **0.878** | **+0.517** | Errors dropped from 104 to 0 by using `ANTHROPIC_API_KEY` |
-| Mesh Loghub profile + Mimo vs raw Mimo | raw Mimo still running | **0.892** | n/a | Raw Mimo row remains partial |
+| Mesh + DeepSeek vs raw DeepSeek | 0.860 | 0.915 | +0.055 | authors' system; not independently reproducible |
+| Claude Code API-key vs broken host-auth Claude Code | 0.361 | 0.878 | +0.517 | errors dropped 104→0 by using `ANTHROPIC_API_KEY` |
 
 Quick Harbor command:
 
@@ -223,9 +264,10 @@ Full per-test breakdown: [docs/scoring.md](docs/scoring.md).
 ## Install
 
 ```bash
-pip install harbor  # the test harness
-git clone https://github.comCerebral-Systems/loghub-benchmark
+git clone https://github.com/Cerebral-Systems/loghub-benchmark
 cd loghub-benchmark
+uv venv .venv-tools && . .venv-tools/bin/activate
+pip install harbor pytest pytest-json-ctrf   # the test harness + verifier deps
 make unit            # adapter + exporter tests (instant)
 ```
 
@@ -245,10 +287,26 @@ Run every gate the CI workflows run, locally:
 make validate-all    # unit + static (12 checks × 180 tasks) + oracle/nop
 ```
 
-Regenerate the committed curated set exactly from its manifest:
+Regenerate the **v1** curated tasks (60) from the corpus manifest
+(`tools/case_builder/curated_selection.json`). This requires the Loghub
+corpus on disk with `LOGHUB_CORPUS` set (see
+[docs/data-setup.md](docs/data-setup.md)) and is non-destructive to the
+v2/v3 families:
 
 ```bash
+export LOGHUB_CORPUS=/path/to/loghub-full
 make rebuild-curated
+```
+
+The 100 v2 tasks come from the v2 exporter and the 20 v3 remediation tasks
+from `python -m tools.case_builder.build_rem_tasks` (which rebuilds from the
+committed tasks, no corpus walk). To re-render just the per-task verifier
+and test files in place from the `export_to_harbor` templates — no corpus
+needed — use the maintained re-render pass (CI asserts these never drift):
+
+```bash
+python -m tools.case_builder.rebuild_tests          # write in place
+python -m tools.case_builder.rebuild_tests --check   # CI drift gate
 ```
 
 ## Run the rubric grader

@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hadoop-network-f9aba47"
-description = "Loghub SRE investigation: locate network_disconnect incident across partitioned Hadoop logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned Hadoop logs."
 
 [[task.authors]]
 name = "madhav"

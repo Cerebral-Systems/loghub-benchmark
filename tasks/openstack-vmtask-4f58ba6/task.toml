@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/openstack-vmtask-4f58ba6"
-description = "Loghub SRE investigation: locate vm_task_failure incident across partitioned OpenStack logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned OpenStack logs."
 
 [[task.authors]]
 name = "madhav"

@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 from pathlib import Path
 
@@ -18,7 +19,9 @@ from .adapters import AdapterBase
 from .build_cases import ADAPTERS
 
 DEFAULT_MANIFEST = Path("tools/case_builder/curated_selection.json")
-DEFAULT_CORPUS_ROOT = Path("/home/buildout/loghub-full")
+# Corpus location is machine-specific; supply it via the LOGHUB_CORPUS env var
+# or --corpus-root. No baked-in absolute path so the tool is portable.
+DEFAULT_CORPUS_ROOT = Path(os.environ.get("LOGHUB_CORPUS", "loghub-full"))
 
 DATASET_TO_ADAPTER = {
     "HDFS_v1": "hdfs",

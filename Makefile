@@ -49,16 +49,16 @@ oracle-nop: ## Run harbor oracle/nop on every task (slow; needs Docker)
 	  exit 1; \
 	fi
 
-unit: ## Run case_builder + exporter unit tests
-	$(PYTHON) -m pytest tools/case_builder/tests -q
+unit: ## Run repo-invariant + gameability + case_builder/exporter unit tests
+	$(PYTHON) -m pytest tests tools/case_builder/tests -q
 
 validate-all: unit static oracle-nop ## Run every validation gate
 	@echo ""
 	@echo "All validation gates green."
 
-rebuild-curated: ## Rebuild exactly the committed curated-selection manifest
+rebuild-curated: ## Rebuild the committed v1 curated-selection manifest (needs LOGHUB_CORPUS + corpus on disk)
+	@test -n "$(LOGHUB_CORPUS)" || { echo "set LOGHUB_CORPUS to your loghub-full corpus path"; exit 1; }
 	$(PYTHON) -m tools.case_builder.rebuild_curated rebuild \
 	  --manifest tools/case_builder/curated_selection.json \
-	  --corpus-root /home/buildout/loghub-full \
-	  --output-dir tasks \
-	  --clear-output
+	  --corpus-root "$(LOGHUB_CORPUS)" \
+	  --output-dir tasks

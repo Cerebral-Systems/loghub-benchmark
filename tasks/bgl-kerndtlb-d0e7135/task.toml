@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/bgl-kerndtlb-d0e7135"
-description = "Loghub SRE investigation: locate kerndtlb incident across partitioned BGL logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned BGL logs."
 
 [[task.authors]]
 name = "madhav"

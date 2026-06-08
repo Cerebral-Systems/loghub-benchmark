@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -34,9 +35,9 @@ from pathlib import Path
 
 from tools.case_builder import build_cases, export_to_harbor
 
-# Per-dataset corpus directories on this VM. Override via --corpus-root
-# if you move the data.
-DEFAULT_CORPUS_ROOT = Path("/home/buildout/loghub-full")
+# Corpus location is machine-specific; supply it via the LOGHUB_CORPUS env var
+# or --corpus-root. No baked-in absolute path so the tool is portable.
+DEFAULT_CORPUS_ROOT = Path(os.environ.get("LOGHUB_CORPUS", "loghub-full"))
 DATASETS: tuple[tuple[str, str, int], ...] = (
     # (adapter_name, corpus_subdir, default_share_weight)
     ("hdfs", "HDFS", 4),

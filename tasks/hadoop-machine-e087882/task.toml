@@ -8,7 +8,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre/hadoop-machine-e087882"
-description = "Loghub SRE investigation: locate machine_down incident across partitioned Hadoop logs."
+description = "Loghub SRE investigation: locate and classify the incident across partitioned Hadoop logs."
 
 [[task.authors]]
 name = "madhav"

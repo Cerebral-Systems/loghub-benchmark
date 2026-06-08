@@ -24,16 +24,18 @@ action, mitigation target, final state).
 from __future__ import annotations
 
 import json
-import subprocess
 from pathlib import Path
 
 import pytest
 
 ANSWER_PATH = Path("/app/answer.json")
 EXPECTED_PATH = Path("/tests/expected.json")
-STATE_PATH = Path("/app/service_state.json")
+INITIAL_STATE_PATH = Path("/tests/initial_state.json")
 APP_DIR = Path("/app")
 LOGS_DIR = APP_DIR / "logs"
+
+# Mirrors /app/bin/apply_mitigation's enum; used by the verifier-side replay.
+ALLOWED_ACTIONS = {"restart_component", "rollback_config", "increase_quota", "disable_route", "mark_noop"}
 
 
 def _load_json(path: Path) -> dict:
@@ -52,9 +54,11 @@ def answer() -> dict:
 
 
 @pytest.fixture(scope="module")
-def service_state() -> dict:
-    assert STATE_PATH.exists(), f"missing {STATE_PATH}"
-    return _load_json(STATE_PATH)
+def initial_state() -> dict:
+    # Verifier-only clean copy of the pre-mitigation state, under /tests (not
+    # /app), so the agent can neither see nor edit it.
+    assert INITIAL_STATE_PATH.exists(), f"missing {INITIAL_STATE_PATH}"
+    return _load_json(INITIAL_STATE_PATH)
 
 
 @pytest.fixture(scope="module")
@@ -154,6 +158,9 @@ def test_causal_chain_evidence_real(answer: dict, log_files: dict):
             f"line {line_no} out of range 1..{len(lines)} for {filename}"
         )
         actual = lines[line_no - 1]
+        assert len(snippet.strip()) >= 12, (
+            f"snippet must be a non-trivial verbatim excerpt (>=12 chars), got {snippet!r}"
+        )
         assert snippet in actual, (
             f"snippet {snippet!r} not present on {filename}:{line_no}"
         )
@@ -185,31 +192,39 @@ def test_mitigation_is_not_unsafe(answer: dict, expected: dict):
     )
 
 
-def test_post_mitigation_state(service_state: dict, expected: dict):
-    """The big one: service_state.json must reflect the expected health,
-    and /app/bin/check_health must agree."""
-    components = service_state.get("components", {})
-    assert components, "service_state.json has no components"
-    expected_health = expected["expected_health"]
-    proc = subprocess.run(["/app/bin/check_health"], capture_output=True, text=True)
-    first_line = (proc.stdout or "").splitlines()[0] if proc.stdout else ""
-    assert first_line.startswith("status="), (
-        f"check_health did not emit status= line; got {first_line!r}"
+def _replay_health(initial_state: dict, root: str, action, target) -> str:
+    """Deterministic re-implementation of /app/bin/apply_mitigation +
+    check_health, run by the VERIFIER against a clean initial state. The
+    agent's declared (action, target) is the only agent-controlled input,
+    so hand-editing /app/service_state.json cannot influence the result."""
+    comps = {k: dict(v) for k, v in initial_state.get("components", {}).items()}
+    if action in ALLOWED_ACTIONS and target == root and action != "mark_noop":
+        for info in comps.values():
+            info["state"] = "healthy"
+    # mark_noop, an out-of-enum action, or a wrong target leaves state as-is.
+    states = {info.get("state", "unknown") for info in comps.values()}
+    if states == {"healthy"}:
+        return "healthy"
+    if "unhealthy" in states:
+        return "unhealthy"
+    return "degraded"
+
+
+def test_post_mitigation_state(answer: dict, expected: dict, initial_state: dict):
+    """The big one, hardened against forgery: rather than trusting the
+    agent-writable /app/service_state.json, the verifier REPLAYS the agent's
+    declared mitigation (action, target) against a clean, verifier-only copy
+    of the initial state and checks the resulting cluster health. Writing
+    /app/service_state.json healthy by hand no longer earns this point --
+    only declaring the (action, target) that actually recovers (or correctly
+    escalates) the cluster does."""
+    components = initial_state.get("components", {})
+    assert components, "initial_state.json has no components"
+    mit = answer.get("mitigation", {})
+    health = _replay_health(
+        initial_state, expected["root_component"], mit.get("action"), mit.get("target")
     )
-    health = first_line.split("=", 1)[1].strip()
-    assert health == expected_health, (
-        f"check_health reports {health!r}, expected {expected_health!r}"
+    assert health == expected["expected_health"], (
+        f"declared mitigation action={mit.get('action')!r} target={mit.get('target')!r} "
+        f"replays to health {health!r}, expected {expected['expected_health']!r}"
     )
-    if expected_health == "healthy":
-        assert proc.returncode == 0, "check_health exit code should be 0 when healthy"
-        for comp, info in components.items():
-            assert info.get("state") == "healthy", (
-                f"{comp} expected healthy, got {info.get('state')!r}"
-            )
-    else:
-        # mark_noop path: degraded but escalated on the root component.
-        root = expected["root_component"]
-        root_info = components.get(root, {})
-        assert root_info.get("escalated") is True, (
-            f"root {root} not escalated despite mark_noop expected"
-        )

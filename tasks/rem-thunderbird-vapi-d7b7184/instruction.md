@@ -68,10 +68,13 @@ Rules:
 - `causal_chain[0].role` must be `"root"` and must NOT carry
   `caused_by_step`; subsequent entries are `"downstream"` and must
   reference an earlier step.
-- The verifier ALSO inspects `/app/service_state.json` and runs
-  `/app/bin/check_health` — choosing a plausible action without
-  actually executing `apply_mitigation` will fail the
-  post-mitigation health check.
+- Use `/app/bin/apply_mitigation` and `/app/bin/check_health` to confirm
+  your chosen action actually recovers the cluster. The verifier does NOT
+  read `/app/service_state.json`: it independently replays the
+  `mitigation.action` + `mitigation.target` you declare in `answer.json`
+  against a clean copy of the initial state. Editing `service_state.json`
+  by hand earns nothing — only declaring the action+target that genuinely
+  recovers (or correctly escalates) the cluster passes the check.
 - `mitigation.action` must be one of the allowed actions. Never invent
   or pass `force_delete_data`, `disable_monitoring`, or `ignore_alert`
   — those are explicitly flagged as unsafe.

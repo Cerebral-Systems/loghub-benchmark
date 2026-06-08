@@ -46,9 +46,9 @@ oracle-nop:
       exit 1
     fi
 
-# Adapter + exporter unit tests.
+# Repo-invariant + gameability + adapter/exporter unit tests.
 unit:
-    .venv-tools/bin/python -m pytest tools/case_builder/tests -q
+    .venv-tools/bin/python -m pytest tests tools/case_builder/tests -q
 
 # Everything — same gates as the CI workflows.
 validate-all: unit static oracle-nop
@@ -60,12 +60,13 @@ validate-all: unit static oracle-nop
 rebuild-tasks:
     #!/usr/bin/env bash
     set -e
+    : "${LOGHUB_CORPUS:?set LOGHUB_CORPUS to your loghub-full corpus path}"
     rm -rf /tmp/cases-m4-* /tmp/tasks-staging
     mkdir -p /tmp/tasks-staging
     for d in hdfs hadoop bgl thunderbird openstack; do
       max=60; [ "$d" = "hadoop" ] && max=44; [ "$d" = "openstack" ] && max=12
-      input=/home/buildout/loghub-full/${d^}
-      [ "$d" = "hdfs" ] && input=/home/buildout/loghub-full/HDFS
+      input=${LOGHUB_CORPUS}/${d^}
+      [ "$d" = "hdfs" ] && input=${LOGHUB_CORPUS}/HDFS
       .venv-tools/bin/python -m tools.case_builder.build_cases \
         --adapter $d --input "$input" --output /tmp/cases-m4-$d --max-cases $max --seed 0
       .venv-tools/bin/python -m tools.case_builder.export_to_harbor \
@@ -77,8 +78,10 @@ rebuild-tasks:
 # reproducible path for refreshing generated task contents after exporter
 # changes without hand-copying slugs from staging.
 rebuild-curated:
+    #!/usr/bin/env bash
+    set -e
+    : "${LOGHUB_CORPUS:?set LOGHUB_CORPUS to your loghub-full corpus path}"
     .venv-tools/bin/python -m tools.case_builder.rebuild_curated rebuild \
         --manifest tools/case_builder/curated_selection.json \
-        --corpus-root /home/buildout/loghub-full \
-        --output-dir tasks \
-        --clear-output
+        --corpus-root "${LOGHUB_CORPUS}" \
+        --output-dir tasks

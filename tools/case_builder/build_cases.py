@@ -1,8 +1,8 @@
 """CLI: build JSON case specs from a Loghub dataset.
 
-    python -m tools.case-builder.build_cases \\
+    python -m tools.case_builder.build_cases \\
         --adapter hdfs \\
-        --input  /home/buildout/loghub-full/HDFS \\
+        --input  "$LOGHUB_CORPUS/HDFS" \\
         --output .benchmark/cases-hdfs \\
         --max-cases 20
 
