@@ -1,0 +1,26 @@
+{
+  "root_cause_type": "nmi",
+  "timeline": [
+    {
+      "component": "bn376",
+      "file": "thunderbird-misc.log",
+      "line": 2516,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "component": "bn376",
+      "file": "thunderbird-misc.log",
+      "line": 2517,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "component": "bn376",
+      "file": "thunderbird-misc.log",
+      "line": 2580,
+      "role": "propagation",
+      "sequence": 2
+    }
+  ]
+}

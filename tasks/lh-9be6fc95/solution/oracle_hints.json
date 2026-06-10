@@ -1,0 +1,17 @@
+{
+  "anomaly_keys": [
+    "KERNPAN",
+    "KERNMC"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 266
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 849
+    }
+  ],
+  "root_cause_type": "other_alert"
+}

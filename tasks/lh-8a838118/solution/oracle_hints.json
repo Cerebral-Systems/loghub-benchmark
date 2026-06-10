@@ -1,0 +1,27 @@
+{
+  "anomaly_keys": [
+    "KERNMC",
+    "KERNRTSP",
+    "KERNMC",
+    "KERNRTSP"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2727
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2789
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2832
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2877
+    }
+  ],
+  "root_cause_type": "kernrtsp"
+}

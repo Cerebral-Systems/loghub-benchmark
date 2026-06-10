@@ -29,19 +29,28 @@ import verifier_harness as H  # noqa: E402
 TASKS = Path(__file__).resolve().parent.parent / "tasks"
 
 REP = {
-    "v1_exact": "hdfs-datanode-0b694b5",
-    "v1_inline": "bgl-kernstor-2baf5ac",
-    "fp": "fp-hdfs-noise-85ae5a1",
-    "seq": "seq-hdfs-other-1f260d4",
-    "corr": "corr-hdfs-other-2015555",
-    "sev": "sev-hdfs-other-72dc9df",
+    "v1_exact": "lh-f53d4948",
+    "v1_inline": "lh-84158338",
+    "fp": "lh-a67368b6",
+    "seq": "lh-95c71c89",
+    "corr": "lh-c3d5deec",
+    "sev": "lh-72340082",
     "tmpl": "tmpl-hdfs-mix-3ac1e1c",
-    "rem": "rem-hdfs-other-49f4fdc",
+    "rem": "lh-26152f56",
 }
 
 
-def _score_oracle(slug: str) -> float:
+def _resolve_task(slug: str) -> Path:
+    """Scored tasks live in tasks/; the unscored tooling track (tmpl) keeps
+    its oracle invariant from tracks/tooling/."""
     td = TASKS / slug
+    if not td.exists():
+        td = TASKS.parent / "tracks" / "tooling" / slug
+    return td
+
+
+def _score_oracle(slug: str) -> float:
+    td = _resolve_task(slug)
     with tempfile.TemporaryDirectory() as t:
         app = Path(t) / "app"
         app.mkdir()
@@ -130,12 +139,12 @@ def _rem_forge(td: Path, app: Path) -> dict:
 # Ceilings are set a little above measured values so the tests are stable but
 # still fail loudly if a future change re-opens an exploit.
 @pytest.mark.parametrize("slug,builder,ceiling", [
-    ("hdfs-datanode-0b694b5", lambda td, app: _v1_degen(td, app, smart=False), 0.80),
-    ("hdfs-datanode-0b694b5", lambda td, app: _v1_degen(td, app, smart=True), 0.85),
-    ("bgl-kernstor-2baf5ac", lambda td, app: _v1_degen(td, app, smart=False), 0.95),
-    ("sev-hdfs-other-72dc9df", lambda td, app: _sev_degen(td, app, smart=False), 0.90),
-    ("sev-hdfs-other-72dc9df", lambda td, app: _sev_degen(td, app, smart=True), 0.90),
-    ("rem-hdfs-other-49f4fdc", _rem_forge, 0.75),
+    ("lh-f53d4948", lambda td, app: _v1_degen(td, app, smart=False), 0.80),
+    ("lh-f53d4948", lambda td, app: _v1_degen(td, app, smart=True), 0.85),
+    ("lh-84158338", lambda td, app: _v1_degen(td, app, smart=False), 0.95),
+    ("lh-72340082", lambda td, app: _sev_degen(td, app, smart=False), 0.90),
+    ("lh-72340082", lambda td, app: _sev_degen(td, app, smart=True), 0.90),
+    ("lh-26152f56", _rem_forge, 0.75),
 ])
 def test_degenerate_answer_scores_below_ceiling(slug, builder, ceiling):
     td = TASKS / slug
@@ -151,7 +160,7 @@ def test_degenerate_answer_scores_below_ceiling(slug, builder, ceiling):
 
 def test_empty_snippet_never_full_credit():
     """The headline exploit: empty snippets must never yield full credit."""
-    td = TASKS / "hdfs-datanode-0b694b5"
+    td = TASKS / "lh-f53d4948"
     with tempfile.TemporaryDirectory() as t:
         app = Path(t) / "app"
         app.mkdir()
@@ -170,7 +179,7 @@ def test_seq_trigger_only_not_full_credit():
     credit — sequence reconstruction requires covering the event chain, and
     Kendall tau must not be vacuously 1.0 on <2 common events. Regression for
     the one-event seq bypass."""
-    td = TASKS / "seq-hdfs-other-1f260d4"
+    td = TASKS / "lh-95c71c89"
     exp = json.loads((td / "tests" / "expected.json").read_text())
     trig = next(e for e in exp["timeline"] if e["role"] == "trigger")
     with tempfile.TemporaryDirectory() as t:
@@ -190,7 +199,7 @@ def test_fp_indicators_require_snippets():
     snippet must NOT score full credit — snippets are required so the
     predictable benign locations can't be cited without reading. Regression
     for the optional-snippet bypass."""
-    td = TASKS / "fp-hdfs-noise-85ae5a1"
+    td = TASKS / "lh-a67368b6"
     exp = json.loads((td / "tests" / "expected.json").read_text())
     gt = exp["false_positive_indicators"]
     ans = {"schema_version": exp["schema_version"], "is_incident": False, "confidence": 0.9,
@@ -207,10 +216,10 @@ def test_fp_indicators_require_snippets():
 
 # One representative task per family for the blind-floor regression.
 _FLOOR_SLUGS = [
-    "hdfs-datanode-0b694b5", "hadoop-machine-e087882", "bgl-kernstor-2baf5ac",
-    "thunderbird-vapi-01593fb", "openstack-vmtask-2024031", "fp-hdfs-noise-85ae5a1",
-    "seq-hadoop-machine-227f3f0", "corr-hadoop-machine-29cd40d",
-    "sev-hdfs-other-72dc9df", "tmpl-hdfs-mix-3ac1e1c", "rem-hdfs-other-49f4fdc",
+    "lh-f53d4948", "lh-ca997bb8", "lh-84158338",
+    "lh-2c60e732", "lh-ea0de35d", "lh-a67368b6",
+    "lh-a9a7e3b9", "lh-99f4466c",
+    "lh-72340082", "lh-26152f56",
 ]
 
 
@@ -257,7 +266,7 @@ def test_wrong_remedy_does_not_heal():
     increase_quota. An agent declaring restart_component (wrong-but-active)
     must lose both the action-match and the post-mitigation replay — the
     cluster stays broken when you restart a process to fix a full disk."""
-    td = TASKS / "rem-hadoop-disk-2aa8d76"
+    td = TASKS / "lh-57e73974"
     exp = json.loads((td / "tests" / "expected.json").read_text())
     assert exp["mitigation"]["action"] == "increase_quota", "fixture drifted"
     with tempfile.TemporaryDirectory() as t:
@@ -284,7 +293,11 @@ def test_all_rem_initial_states_carry_required_action():
     the canonical action, matching expected.json. Guards against any future
     re-render path dropping the field (which silently re-permits any active
     action in the replay)."""
-    rem_dirs = sorted(TASKS.glob("rem-*"))
+    # Opaque task ids: find rem tasks by schema, not by slug.
+    rem_dirs = sorted(
+        d for d in TASKS.iterdir()
+        if (d / "tests" / "initial_state.json").exists()
+    )
     assert rem_dirs, "no rem tasks found"
     for td in rem_dirs:
         state = json.loads((td / "tests" / "initial_state.json").read_text())

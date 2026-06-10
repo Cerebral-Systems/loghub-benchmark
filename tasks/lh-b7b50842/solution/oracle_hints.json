@@ -1,0 +1,26 @@
+{
+  "causal_chain": [
+    {
+      "component": "hdfs-namenode.log",
+      "evidence_line": 514,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hdfs-datanode-a.log",
+      "evidence_line": 356,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hdfs-datanode-misc.log",
+      "evidence_line": 472,
+      "role": "downstream",
+      "step": 2
+    }
+  ],
+  "root_cause_type": "datanode_unreachable",
+  "root_component": "hdfs-namenode.log"
+}

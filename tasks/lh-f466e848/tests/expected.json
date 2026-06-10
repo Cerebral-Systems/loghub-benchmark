@@ -1,0 +1,39 @@
+{
+  "allowed_why_not_anomalous": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ],
+  "false_positive_indicators": [],
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
+  ],
+  "incident_evidence": [
+    {
+      "file": "bgl-racks-c.log",
+      "line": 643
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 579
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 832
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1666
+    }
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "min_indicator_count": 0,
+  "root_cause_type": "other_alert",
+  "schema_version": "loghub-sre-answer-v2-fp"
+}

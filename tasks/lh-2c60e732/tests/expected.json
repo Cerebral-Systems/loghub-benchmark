@@ -1,0 +1,63 @@
+{
+  "allowed_root_causes": [
+    "chk_dsk",
+    "cpu",
+    "ecc",
+    "ext_fs",
+    "mpt",
+    "nmi",
+    "pbs_bfd",
+    "pbs_con",
+    "scsi",
+    "vapi",
+    "other_alert"
+  ],
+  "anomaly_keys": [
+    "CHK_DSK",
+    "CHK_DSK",
+    "CHK_DSK",
+    "CHK_DSK",
+    "CHK_DSK"
+  ],
+  "evidence": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3285
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3617
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3691
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3882
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5563
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 7790
+    }
+  ],
+  "files": [
+    "thunderbird-misc.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_scored": true,
+  "root_cause_type": "chk_dsk",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

@@ -1,0 +1,17 @@
+{
+  "anomaly_keys": [
+    "MASNORM",
+    "MASNORM"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-misc.log",
+      "line": 5
+    },
+    {
+      "file": "bgl-misc.log",
+      "line": 7
+    }
+  ],
+  "root_cause_type": "other_alert"
+}

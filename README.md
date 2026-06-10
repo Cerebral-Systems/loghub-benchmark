@@ -83,8 +83,8 @@ tasks — see [docs/data-setup.md](docs/data-setup.md)).
 ## Run
 
 ```bash
-harbor run -p tasks/hdfs-datanode-0b694b5 --agent oracle    # reward=1
-harbor run -p tasks/hdfs-datanode-0b694b5 --agent nop       # reward=0
+harbor run -p tasks/lh-f53d4948 --agent oracle    # reward=1
+harbor run -p tasks/lh-f53d4948 --agent nop       # reward=0
 make validate-all                                           # all CI gates locally
 ```
 

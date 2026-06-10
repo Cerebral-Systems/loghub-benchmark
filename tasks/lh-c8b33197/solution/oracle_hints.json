@@ -1,0 +1,12 @@
+{
+  "anomaly_keys": [
+    "KERNNOETH"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1689
+    }
+  ],
+  "root_cause_type": "other_alert"
+}

@@ -20,3 +20,4 @@ mesh-results-mesh/
 mesh-results-opensre/
 tools/agents/*
 !tools/agents/devin_harbor_agent.py
+launch/

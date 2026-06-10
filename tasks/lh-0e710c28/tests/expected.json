@@ -1,0 +1,51 @@
+{
+  "allowed_roles": [
+    "trigger",
+    "propagation",
+    "consequence",
+    "noise"
+  ],
+  "allowed_root_causes": [
+    "appread",
+    "appres",
+    "appsev",
+    "appunav",
+    "kerndtlb",
+    "kernmntf",
+    "kernrec",
+    "kernrtsp",
+    "kernstor",
+    "kernterm",
+    "other_alert"
+  ],
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
+  ],
+  "is_incident": true,
+  "kendall_tau_threshold": 0.8,
+  "root_cause_type": "other_alert",
+  "schema_version": "loghub-sre-answer-v2-seq",
+  "timeline": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4441,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4442,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 4510,
+      "role": "consequence",
+      "sequence": 2
+    }
+  ]
+}

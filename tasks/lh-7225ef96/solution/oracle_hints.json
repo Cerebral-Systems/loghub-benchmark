@@ -1,0 +1,12 @@
+{
+  "anomaly_keys": [
+    "ECC"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 6315
+    }
+  ],
+  "root_cause_type": "ecc"
+}

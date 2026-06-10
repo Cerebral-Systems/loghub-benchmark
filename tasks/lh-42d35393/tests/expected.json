@@ -1,0 +1,86 @@
+{
+  "allowed_root_causes": [
+    "appread",
+    "appres",
+    "appsev",
+    "appunav",
+    "kerndtlb",
+    "kernmntf",
+    "kernrec",
+    "kernrtsp",
+    "kernstor",
+    "kernterm",
+    "other_alert"
+  ],
+  "anomaly_keys": [
+    "KERNMC",
+    "KERNRTSP",
+    "KERNMC",
+    "KERNRTSP",
+    "KERNMC"
+  ],
+  "evidence": [
+    {
+      "file": "bgl-racks-b.log",
+      "line": 970
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1015
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1379
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1428
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1611
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1658
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 906
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1021
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1075
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1133
+    },
+    {
+      "file": "bgl-misc.log",
+      "line": 6
+    }
+  ],
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_scored": true,
+  "root_cause_type": "kernrtsp",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

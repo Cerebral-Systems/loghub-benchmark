@@ -1,0 +1,153 @@
+{
+  "allowed_roles": [
+    "trigger",
+    "propagation",
+    "consequence",
+    "noise"
+  ],
+  "allowed_root_causes": [
+    "appread",
+    "appres",
+    "appsev",
+    "appunav",
+    "kerndtlb",
+    "kernmntf",
+    "kernrec",
+    "kernrtsp",
+    "kernstor",
+    "kernterm",
+    "other_alert"
+  ],
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
+  ],
+  "is_incident": true,
+  "kendall_tau_threshold": 0.8,
+  "root_cause_type": "kernrtsp",
+  "schema_version": "loghub-sre-answer-v2-seq",
+  "timeline": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 364,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 365,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 408,
+      "role": "consequence",
+      "sequence": 2
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 597,
+      "role": "consequence",
+      "sequence": 3
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 601,
+      "role": "consequence",
+      "sequence": 4
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 491,
+      "role": "consequence",
+      "sequence": 5
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 571,
+      "role": "consequence",
+      "sequence": 6
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 613,
+      "role": "consequence",
+      "sequence": 7
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1720,
+      "role": "consequence",
+      "sequence": 8
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1722,
+      "role": "consequence",
+      "sequence": 9
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1723,
+      "role": "consequence",
+      "sequence": 10
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1724,
+      "role": "consequence",
+      "sequence": 11
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1725,
+      "role": "consequence",
+      "sequence": 12
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1726,
+      "role": "consequence",
+      "sequence": 13
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1557,
+      "role": "consequence",
+      "sequence": 14
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1602,
+      "role": "consequence",
+      "sequence": 15
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1750,
+      "role": "consequence",
+      "sequence": 16
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1853,
+      "role": "consequence",
+      "sequence": 17
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1898,
+      "role": "consequence",
+      "sequence": 18
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 2209,
+      "role": "consequence",
+      "sequence": 19
+    }
+  ]
+}

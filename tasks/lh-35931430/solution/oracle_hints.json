@@ -1,0 +1,12 @@
+{
+  "anomaly_keys": [
+    "PBS_BFD"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2622
+    }
+  ],
+  "root_cause_type": "pbs_bfd"
+}

@@ -1,0 +1,96 @@
+{
+  "root_cause_type": "other",
+  "timeline": [
+    {
+      "component": "dfs.FSNamesystem",
+      "file": "hdfs-namenode.log",
+      "line": 4056,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-a.log",
+      "line": 3176,
+      "role": "consequence",
+      "sequence": 1
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-b.log",
+      "line": 2831,
+      "role": "consequence",
+      "sequence": 2
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-b.log",
+      "line": 2835,
+      "role": "consequence",
+      "sequence": 3
+    },
+    {
+      "component": "dfs.FSNamesystem",
+      "file": "hdfs-namenode.log",
+      "line": 5882,
+      "role": "propagation",
+      "sequence": 4
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-misc.log",
+      "line": 4372,
+      "role": "consequence",
+      "sequence": 5
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-a.log",
+      "line": 4654,
+      "role": "consequence",
+      "sequence": 6
+    },
+    {
+      "component": "dfs.FSNamesystem",
+      "file": "hdfs-namenode.log",
+      "line": 5895,
+      "role": "propagation",
+      "sequence": 7
+    },
+    {
+      "component": "dfs.FSNamesystem",
+      "file": "hdfs-namenode.log",
+      "line": 5904,
+      "role": "propagation",
+      "sequence": 8
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-misc.log",
+      "line": 4401,
+      "role": "consequence",
+      "sequence": 9
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-b.log",
+      "line": 4128,
+      "role": "consequence",
+      "sequence": 10
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-misc.log",
+      "line": 4402,
+      "role": "consequence",
+      "sequence": 11
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-b.log",
+      "line": 4129,
+      "role": "consequence",
+      "sequence": 12
+    }
+  ]
+}

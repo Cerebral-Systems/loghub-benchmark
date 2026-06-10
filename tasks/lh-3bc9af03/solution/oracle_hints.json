@@ -1,0 +1,26 @@
+{
+  "causal_chain": [
+    {
+      "component": "hdfs-namenode.log",
+      "evidence_line": 6536,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hdfs-datanode-b.log",
+      "evidence_line": 4524,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hdfs-datanode-a.log",
+      "evidence_line": 5501,
+      "role": "downstream",
+      "step": 2
+    }
+  ],
+  "root_cause_type": "other",
+  "root_component": "hdfs-namenode.log"
+}

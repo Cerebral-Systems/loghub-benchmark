@@ -1,0 +1,48 @@
+{
+  "anomaly_keys": [
+    "KERNRTSP",
+    "KERNRTSP",
+    "KERNRTSP",
+    "KERNRTSP",
+    "KERNRTSP"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-b.log",
+      "line": 357
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 332
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 359
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 350
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 351
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 352
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1184
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1180
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1373
+    }
+  ],
+  "root_cause_type": "kernrtsp"
+}

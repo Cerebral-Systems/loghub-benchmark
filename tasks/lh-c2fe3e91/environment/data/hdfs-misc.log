@@ -1,0 +1,5 @@
+081111 093434 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-1605959424786597484
+081111 093434 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_2105552548014058351
+081111 093434 19 INFO dfs.FSDataset: Deleting block blk_8561925211949583574 file /mnt/hadoop/dfs/data/current/subdir48/blk_8561925211949583574
+081111 093435 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-365641807622900382
+081111 093438 13 INFO dfs.DataBlockScanner: Verification succeeded for blk_-8644910216985454631

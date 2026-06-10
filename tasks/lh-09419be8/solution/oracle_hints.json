@@ -1,0 +1,72 @@
+{
+  "anomaly_keys": [
+    "MPT",
+    "MPT",
+    "MPT",
+    "MPT",
+    "MPT"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 917
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 989
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2287
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3032
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3501
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4072
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4109
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4337
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4478
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4498
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4559
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5319
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5356
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 6361
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 6388
+    }
+  ],
+  "root_cause_type": "ext_fs"
+}

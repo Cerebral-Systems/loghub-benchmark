@@ -1,0 +1,36 @@
+{
+  "anomaly_keys": [
+    "SCSI",
+    "SCSI",
+    "SCSI",
+    "SCSI",
+    "SCSI"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2215
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2496
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2497
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2498
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2499
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2500
+    }
+  ],
+  "root_cause_type": "scsi"
+}

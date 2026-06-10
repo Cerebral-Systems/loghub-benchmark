@@ -1,0 +1,32 @@
+{
+  "anomaly_keys": [
+    "ECC",
+    "ECC",
+    "ECC",
+    "NMI",
+    "NMI"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3924
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3925
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3926
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3927
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3928
+    }
+  ],
+  "root_cause_type": "ecc"
+}

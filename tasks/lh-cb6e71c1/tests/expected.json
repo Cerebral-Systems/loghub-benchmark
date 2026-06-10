@@ -1,0 +1,47 @@
+{
+  "allowed_why_not_anomalous": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ],
+  "false_positive_indicators": [
+    {
+      "file": "openstack-nova-api.log",
+      "line": 27,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 28,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 31,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "openstack-nova-api.log",
+      "line": 78,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 75,
+      "why_not_anomalous": "transient_state"
+    }
+  ],
+  "files": [
+    "openstack-nova-api.log",
+    "openstack-nova-compute.log",
+    "openstack-nova-scheduler.log"
+  ],
+  "incident_evidence": [],
+  "is_incident": false,
+  "min_evidence_count": 0,
+  "min_indicator_count": 3,
+  "root_cause_type": "no_incident",
+  "schema_version": "loghub-sre-answer-v2-fp"
+}

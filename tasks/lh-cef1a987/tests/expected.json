@@ -1,0 +1,32 @@
+{
+  "allowed_why_not_anomalous": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ],
+  "false_positive_indicators": [],
+  "files": [
+    "thunderbird-misc.log"
+  ],
+  "incident_evidence": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5539
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5540
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5554
+    }
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "min_indicator_count": 0,
+  "root_cause_type": "nmi",
+  "schema_version": "loghub-sre-answer-v2-fp"
+}

@@ -1,0 +1,17 @@
+{
+  "anomaly_keys": [
+    "KERNMC",
+    "KERNPROG"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 170
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 183
+    }
+  ],
+  "root_cause_type": "other_alert"
+}

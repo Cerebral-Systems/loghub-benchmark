@@ -1,0 +1,32 @@
+{
+  "anomaly_keys": [
+    "MONPOW",
+    "MONPOW",
+    "MONPOW",
+    "MONPOW",
+    "MONPOW"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2062
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2065
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2413
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2421
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2431
+    }
+  ],
+  "root_cause_type": "other_alert"
+}

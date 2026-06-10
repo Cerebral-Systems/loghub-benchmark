@@ -1,0 +1,100 @@
+{
+  "anomaly_keys": [
+    "EXT_FS",
+    "EXT_FS",
+    "MPT",
+    "SCSI",
+    "SCSI"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4841
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4842
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4928
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5038
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5093
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5094
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5140
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5141
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5142
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5172
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5173
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5174
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5175
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5176
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5177
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5414
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5417
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5445
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5446
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5507
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5526
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5527
+    }
+  ],
+  "root_cause_type": "scsi"
+}

@@ -1,0 +1,114 @@
+{
+  "allowed_root_causes": [
+    "appread",
+    "appres",
+    "appsev",
+    "appunav",
+    "kerndtlb",
+    "kernmntf",
+    "kernrec",
+    "kernrtsp",
+    "kernstor",
+    "kernterm",
+    "other_alert"
+  ],
+  "anomaly_keys": [
+    "KERNMC",
+    "KERNRTSP",
+    "KERNMC",
+    "KERNRTSP",
+    "KERNMC"
+  ],
+  "evidence": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 695
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 781
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 830
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1013
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 916
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 973
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1526
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1593
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1819
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1874
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2626
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2631
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 2924
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2639
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 2940
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2665
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2741
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 3072
+    }
+  ],
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_scored": true,
+  "root_cause_type": "kernrtsp",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

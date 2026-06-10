@@ -1,0 +1,104 @@
+{
+  "anomaly_keys": [
+    "KERNMC",
+    "KERNRTSP",
+    "MONPOW",
+    "MONNULL",
+    "KERNMC"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 88
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 167
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 364
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 365
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 368
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 479
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 527
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 530
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 563
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 631
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 886
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 852
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 925
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1286
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1143
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1188
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1358
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1511
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1373
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1903
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1988
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 1613
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1990
+    }
+  ],
+  "root_cause_type": "other_alert"
+}

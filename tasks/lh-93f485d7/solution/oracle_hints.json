@@ -1,0 +1,27 @@
+{
+  "anomaly_keys": [
+    "MONPOW",
+    "MONNULL",
+    "KERNMC",
+    "MASNORM"
+  ],
+  "anomaly_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1061
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1062
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 1130
+    },
+    {
+      "file": "bgl-misc.log",
+      "line": 2579
+    }
+  ],
+  "root_cause_type": "other_alert"
+}
