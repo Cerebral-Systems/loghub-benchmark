@@ -15,12 +15,12 @@ from a path configured by `--input`.
 | Path | Role | Required for running tasks? |
 |---|---|---|
 | `tasks/` | The 180 published Harbor tasks (60 v1 + 100 v2 + 20 v3 remediation). | Yes |
-| `tools/case_builder/` | Adapters, exporter, curated rebuild tool. | Needed for regeneration |
+| `tools/case_builder/` | Adapters, exporter, curated rebuild, and the in-place test re-render (`rebuild_tests.py`). | Needed for regeneration |
 | `tools/case_builder/curated_selection.json` | Exact manifest for the committed task set. | Needed for reproducible rebuilds |
 | `tools/rubric_check/` | Moonshot-backed rubric checker. | Optional quality review |
 | `tools/stress_pack_generator/` | Large non-curated stress pack generator. | Optional stress testing |
 | `ci_checks/` | Static checks plus negative fixtures. | Needed for CI/static validation |
-| `tests/` | Repo invariant tests and case-id snapshots. | Needed for CI/unit validation |
+| `tests/` | Repo invariants, gameability regressions (`test_gameability.py`), the offline verifier harness (`verifier_harness.py`), and case-id + ground-truth snapshots (`snapshots/`). | Needed for CI/unit validation |
 | `rubrics/` | Harbor rubric definitions. | Needed for rubric review |
 | `.github/workflows/` | CI and manual trial workflows. | Needed for GitHub validation |
 | `docs/` | Public documentation. | No, but important for users |
@@ -101,18 +101,29 @@ skill type:
 Each schema has its own `tests/test_state.py` assertion set. v1 and
 the v2 incident-shaped families share the evidence-validation pattern
 described in `docs/scoring.md`; `tmpl` validates template-grouping
-recall against ground-truth `EventTemplate`s; `rem` additionally runs
-`/app/bin/check_health` and asserts the recovered post-mitigation
-state. HDFS, Hadoop, and OpenStack use exact `(file, line)` evidence
+recall against ground-truth `EventTemplate`s; `rem` grades recovery by
+**replaying** the agent's declared mitigation against a verifier-only
+`tests/initial_state.json` (the agent-writable `/app/service_state.json`
+is not trusted). HDFS, Hadoop, and OpenStack use exact `(file, line)` evidence
 checks; BGL and Thunderbird use inline-label validation so large
 slices stay reviewable.
 
 ## Regeneration
 
-Rebuild the committed task set exactly:
+Rebuild the v1 curated tasks from the corpus manifest (needs `LOGHUB_CORPUS`
+and the corpus on disk; non-destructive to the v2/v3 families):
 
 ```bash
+export LOGHUB_CORPUS=/path/to/loghub-full
 make rebuild-curated
+```
+
+Re-render the per-task verifier/test files in place from the templates
+(no corpus needed; CI asserts they never drift):
+
+```bash
+python -m tools.case_builder.rebuild_tests          # write in place
+python -m tools.case_builder.rebuild_tests --check   # drift gate
 ```
 
 Run the validation gates:

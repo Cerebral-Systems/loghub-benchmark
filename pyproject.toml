@@ -28,6 +28,14 @@ dev = [
   "pytest-json-ctrf",
   "scikit-learn>=1.6",
 ]
+# The pinned harness used for all published leaderboard rows. A Harbor
+# upgrade can change trial/verifier behaviour, so leaderboard runs must
+# use this exact version (and record it in the run artifacts).
+bench = [
+  "harbor==0.13.1",
+  "pytest",
+  "pytest-json-ctrf",
+]
 
 [project.scripts]
 loghub-build-cases = "tools.case_builder.build_cases:main"

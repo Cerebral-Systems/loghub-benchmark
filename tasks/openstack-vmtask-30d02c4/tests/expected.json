@@ -120,6 +120,7 @@
   ],
   "is_incident": true,
   "min_evidence_count": 3,
+  "root_cause_scored": false,
   "root_cause_type": "vm_task_failure",
   "safe_recommendations": [
     "escalate",

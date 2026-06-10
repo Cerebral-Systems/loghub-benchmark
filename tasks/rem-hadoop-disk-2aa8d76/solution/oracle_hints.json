@@ -1,0 +1,231 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "hadoop-misc.log",
+      "line": 1986
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1987
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1078
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1085
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1091
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1991
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1999
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2000
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2002
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2003
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2004
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2008
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2009
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2010
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2015
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2017
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2018
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2021
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2029
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2030
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2032
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2033
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2034
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2038
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2039
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2040
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2045
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2047
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2048
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1092
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2058
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2059
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2061
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2062
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2063
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2067
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2068
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2069
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2074
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2076
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1099
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2106
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2131
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1172
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2245
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 2798
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 331
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3738
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 3754
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 1288
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "hadoop-misc.log",
+      "evidence_line": 1986,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 1078,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 331,
+      "role": "downstream",
+      "step": 2
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "increase_quota",
+  "root_cause_type": "disk_full",
+  "root_component_file": "hadoop-misc.log",
+  "root_component_name": "hadoop-misc"
+}

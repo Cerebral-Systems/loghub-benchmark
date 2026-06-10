@@ -36,7 +36,7 @@ REP = {
     "corr": "corr-hdfs-other-2015555",
     "sev": "sev-hdfs-other-72dc9df",
     "tmpl": "tmpl-hdfs-mix-3ac1e1c",
-    "rem": "rem-hdfs-other-3b66455",
+    "rem": "rem-hdfs-other-49f4fdc",
 }
 
 
@@ -135,7 +135,7 @@ def _rem_forge(td: Path, app: Path) -> dict:
     ("bgl-kernstor-2baf5ac", lambda td, app: _v1_degen(td, app, smart=False), 0.95),
     ("sev-hdfs-other-72dc9df", lambda td, app: _sev_degen(td, app, smart=False), 0.90),
     ("sev-hdfs-other-72dc9df", lambda td, app: _sev_degen(td, app, smart=True), 0.90),
-    ("rem-hdfs-other-3b66455", _rem_forge, 0.75),
+    ("rem-hdfs-other-49f4fdc", _rem_forge, 0.75),
 ])
 def test_degenerate_answer_scores_below_ceiling(slug, builder, ceiling):
     td = TASKS / slug
@@ -203,3 +203,94 @@ def test_fp_indicators_require_snippets():
         app.mkdir()
         H._setup_app(td, app)
         assert H.score(td, ans) < 1.0, "fp no-snippet scored full credit — optional-snippet bypass re-opened"
+
+
+# One representative task per family for the blind-floor regression.
+_FLOOR_SLUGS = [
+    "hdfs-datanode-0b694b5", "hadoop-machine-e087882", "bgl-kernstor-2baf5ac",
+    "thunderbird-vapi-01593fb", "openstack-vmtask-2024031", "fp-hdfs-noise-85ae5a1",
+    "seq-hadoop-machine-227f3f0", "corr-hadoop-machine-29cd40d",
+    "sev-hdfs-other-72dc9df", "tmpl-hdfs-mix-3ac1e1c", "rem-hdfs-other-49f4fdc",
+]
+
+
+def _format_only_answer(td: Path) -> dict:
+    """Zero-investigation answer: the schema skeleton from instruction.md with
+    family-prior constants and EMPTY evidence/indicators/timeline/chain/templates.
+    This is what a leaderboard-gaming script can produce without reading logs."""
+    import re as _re
+    text = (td / "instruction.md").read_text()
+    m = _re.search(r"```json\s*\n(.*?)```", text, _re.DOTALL)
+    raw = m.group(1)
+    raw = _re.sub(r'"<[^>]*>"', '"placeholder"', raw)
+    raw = _re.sub(r"<float[^>]*>", "0.5", raw)
+    raw = _re.sub(r"<int[^>]*>", "0", raw)
+    raw = _re.sub(r"<[^>\n\"]*>", "0", raw)
+    ans = json.loads(raw)
+    for k in ("evidence", "false_positive_indicators", "timeline", "causal_chain",
+              "templates", "anomaly_keys"):
+        if k in ans:
+            ans[k] = []
+    if "is_incident" in ans:
+        ans["is_incident"] = not td.name.startswith("fp-")
+    if "total_unique_templates" in ans:
+        ans["total_unique_templates"] = 0
+    return ans
+
+
+@pytest.mark.parametrize("slug", _FLOOR_SLUGS)
+def test_blind_floor_is_zero(slug):
+    """The zero-investigation floor must stay at 0: schema compliance plus
+    family priors with no evidence earns NOTHING under gate-aware scoring.
+    If this regresses, structural tests have leaked back into the reward
+    denominator (the pre-v1.0 floor was 0.62)."""
+    td = TASKS / slug
+    ans = _format_only_answer(td)
+    assert H.score(td, ans) <= 0.05, (
+        f"{slug}: blind format-only answer scored above the floor — "
+        "gate/substantive split has regressed"
+    )
+
+
+def test_wrong_remedy_does_not_heal():
+    """Fault-specific replay: on a disk_full task the canonical remedy is
+    increase_quota. An agent declaring restart_component (wrong-but-active)
+    must lose both the action-match and the post-mitigation replay — the
+    cluster stays broken when you restart a process to fix a full disk."""
+    td = TASKS / "rem-hadoop-disk-2aa8d76"
+    exp = json.loads((td / "tests" / "expected.json").read_text())
+    assert exp["mitigation"]["action"] == "increase_quota", "fixture drifted"
+    with tempfile.TemporaryDirectory() as t:
+        app = Path(t) / "app"
+        app.mkdir()
+        H._setup_app(td, app)
+        right = H.oracle_answer(td, app)
+        assert H.score(td, right) == 1.0, "oracle no longer scores 1.0 on diverse-action rem"
+        wrong = json.loads(json.dumps(right))
+        wrong["mitigation"]["action"] = "restart_component"
+        r = H.score(td, wrong)
+        # Wrong remedy must lose BOTH the action-match AND the recovery
+        # replay (3/5 substantive = 0.6). A score of 0.8 here means the
+        # replay healed on the wrong action — exactly the fallback hole a
+        # re-render once re-opened by stripping required_action.
+        assert r <= 0.61, (
+            f"wrong-but-active remedy scored {r:.2f} (> 0.6) — the replay "
+            "is not fault-specific; check required_action in tests/initial_state.json"
+        )
+
+
+def test_all_rem_initial_states_carry_required_action():
+    """Every committed rem task's verifier-only initial_state.json must name
+    the canonical action, matching expected.json. Guards against any future
+    re-render path dropping the field (which silently re-permits any active
+    action in the replay)."""
+    rem_dirs = sorted(TASKS.glob("rem-*"))
+    assert rem_dirs, "no rem tasks found"
+    for td in rem_dirs:
+        state = json.loads((td / "tests" / "initial_state.json").read_text())
+        exp = json.loads((td / "tests" / "expected.json").read_text())
+        assert state.get("required_action") == exp["mitigation"]["action"], (
+            f"{td.name}: tests/initial_state.json required_action="
+            f"{state.get('required_action')!r} != expected mitigation "
+            f"{exp['mitigation']['action']!r}"
+        )

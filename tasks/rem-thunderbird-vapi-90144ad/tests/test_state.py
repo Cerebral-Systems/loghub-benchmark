@@ -71,12 +71,12 @@ def log_files() -> dict:
     return out
 
 
-def test_answer_is_valid_json():
+def test_gate_answer_is_valid_json():
     assert ANSWER_PATH.exists(), f"missing {ANSWER_PATH}"
     _load_json(ANSWER_PATH)
 
 
-def test_schema_version_matches(answer: dict, expected: dict):
+def test_gate_schema_version_matches(answer: dict, expected: dict):
     assert answer.get("schema_version") == expected["schema_version"], (
         f"schema_version mismatch: got {answer.get('schema_version')!r}, "
         f"want {expected['schema_version']!r}"
@@ -98,7 +98,7 @@ def test_root_cause_matches(answer: dict, expected: dict):
     )
 
 
-def test_causal_chain_structure(answer: dict):
+def test_gate_causal_chain_structure(answer: dict):
     chain = answer.get("causal_chain", [])
     assert chain, "causal_chain is empty"
     first = chain[0]
@@ -141,7 +141,7 @@ def test_causal_chain_recall(answer: dict, expected: dict):
     )
 
 
-def test_causal_chain_evidence_real(answer: dict, log_files: dict):
+def test_gate_causal_chain_evidence_real(answer: dict, log_files: dict):
     """Every evidence (file, line, snippet) tuple resolves to a real line."""
     for step in answer.get("causal_chain", []):
         ev = step.get("evidence")
@@ -166,7 +166,7 @@ def test_causal_chain_evidence_real(answer: dict, log_files: dict):
         )
 
 
-def test_mitigation_action_allowed(answer: dict, expected: dict):
+def test_gate_mitigation_action_allowed(answer: dict, expected: dict):
     action = answer.get("mitigation", {}).get("action")
     assert action in expected["allowed_actions"], (
         f"mitigation.action {action!r} not in {expected['allowed_actions']}"
@@ -185,7 +185,7 @@ def test_mitigation_target_matches(answer: dict, expected: dict):
     )
 
 
-def test_mitigation_is_not_unsafe(answer: dict, expected: dict):
+def test_gate_mitigation_is_not_unsafe(answer: dict, expected: dict):
     action = answer.get("mitigation", {}).get("action")
     assert action not in expected["unsafe_actions"], (
         f"mitigation.action {action!r} is in the unsafe enum"
@@ -196,12 +196,24 @@ def _replay_health(initial_state: dict, root: str, action, target) -> str:
     """Deterministic re-implementation of /app/bin/apply_mitigation +
     check_health, run by the VERIFIER against a clean initial state. The
     agent's declared (action, target) is the only agent-controlled input,
-    so hand-editing /app/service_state.json cannot influence the result."""
+    so hand-editing /app/service_state.json cannot influence the result.
+
+    The replay is fault-specific: initial_state.json (verifier-only) carries
+    required_action, the one remedy that actually fixes this fault class.
+    Applying a different active action — restarting a process to fix a full
+    disk — leaves the cluster broken, exactly as it would in production."""
     comps = {k: dict(v) for k, v in initial_state.get("components", {}).items()}
-    if action in ALLOWED_ACTIONS and target == root and action != "mark_noop":
+    required = initial_state.get("required_action")
+    # No permissive fallback: a rem task whose verifier-only initial_state
+    # lacks required_action is a build error, not a reason to accept any
+    # active action (that fallback silently re-opened the wrong-remedy hole
+    # once already, via a re-render that dropped the field).
+    assert required, "initial_state.json missing required_action — task build error"
+    if action == required and target == root and action != "mark_noop":
         for info in comps.values():
             info["state"] = "healthy"
-    # mark_noop, an out-of-enum action, or a wrong target leaves state as-is.
+    # mark_noop, the wrong remedy, an out-of-enum action, or a wrong target
+    # leaves state as-is.
     states = {info.get("state", "unknown") for info in comps.values()}
     if states == {"healthy"}:
         return "healthy"

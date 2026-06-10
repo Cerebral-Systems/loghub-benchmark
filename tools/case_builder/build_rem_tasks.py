@@ -120,6 +120,40 @@ def _causal_chain_from_seq(expected: dict) -> tuple[list[dict], str, list[dict]]
     return chain_out, root_file, anomaly_locations
 
 
+def _causal_chain_from_v1(expected: dict) -> tuple[list[dict], str, list[dict]]:
+    """Project a v1 localization expected.json into a corr-style causal chain.
+
+    The file holding the most ground-truth evidence becomes the root
+    component (step 0, first evidence line as the root event); every other
+    file with evidence becomes one downstream step. This lets v1 sources —
+    which carry the only action-diverse root causes in the committed set
+    (hadoop disk_full -> increase_quota, network_disconnect ->
+    disable_route) — seed remediation tasks."""
+    evidence = expected["evidence"]
+    by_file: dict[str, list[int]] = {}
+    for e in evidence:
+        by_file.setdefault(e["file"], []).append(e["line"])
+    if not by_file:
+        return [], "", []
+    root_file = max(by_file, key=lambda f: (len(by_file[f]), -min(by_file[f])))
+    chain_out: list[dict] = [{
+        "step": 0,
+        "component": root_file,
+        "role": "root",
+        "evidence_line": min(by_file[root_file]),
+    }]
+    for fname in sorted(f for f in by_file if f != root_file):
+        chain_out.append({
+            "step": len(chain_out),
+            "component": fname,
+            "role": "downstream",
+            "evidence_line": min(by_file[fname]),
+            "caused_by_step": 0,
+        })
+    anomaly_locations = [{"file": e["file"], "line": e["line"]} for e in evidence]
+    return chain_out, root_file, anomaly_locations
+
+
 def synthesize_rem_case(source_task_dir: Path) -> dict | None:
     """Build a case dict suitable for ex._export_rem_case() from a source task.
 
@@ -136,6 +170,13 @@ def synthesize_rem_case(source_task_dir: Path) -> dict | None:
         chain, root_file, anomaly_locations = _causal_chain_from_corr(expected)
     elif schema.endswith("-v2-seq"):
         chain, root_file, anomaly_locations = _causal_chain_from_seq(expected)
+    elif schema.endswith("-v2"):
+        # v1 localization source (exact-location evidence only).
+        if expected.get("evidence_validation", {}).get("mode") not in (None, "exact_location"):
+            return None
+        chain, root_file, anomaly_locations = _causal_chain_from_v1(expected)
+        if not chain:
+            return None
     else:
         return None
 
@@ -192,19 +233,23 @@ def build_default_selection(tasks_dir: Path) -> list[Path]:
             selection.append(path)
 
     prev = 0
-    take("corr-hdfs-", 5)
+    take("corr-hdfs-", 4)
     prev = len(selection)
-    take("corr-hadoop-", 5)
+    take("corr-hadoop-", 3)
+    # v1 hadoop sources carry the only action-diverse root causes in the
+    # committed set: disk_full -> increase_quota, network_disconnect ->
+    # disable_route. Without them every rem task's correct mitigation is
+    # restart_component and the action decision is a constant.
     prev = len(selection)
-    take("seq-openstack-", 5)
-    # seq-openstack only ships 4 cases. Fall back to extra BGL coverage for
-    # the remaining outcome-task slot — the original 20-task budget held BGL
-    # to 3, so a 4th BGL keeps the total at 20.
-    bgl_target = 3 + (5 - (len(selection) - prev))
+    take("hadoop-disk-", 3)
     prev = len(selection)
-    take("corr-bgl-", bgl_target)
+    take("hadoop-network-", 3)
     prev = len(selection)
-    take("corr-thunderbird-", 2)
+    take("seq-openstack-", 4)
+    prev = len(selection)
+    take("corr-bgl-", 2)
+    prev = len(selection)
+    take("corr-thunderbird-", 1)
     return selection
 
 

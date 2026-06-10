@@ -1,11 +1,26 @@
 # Scoring
 
-Per-task reward is **fractional**. The verifier runs
-`tests/test_state.py` against `/app/answer.json` and writes
-`passed_tests / non_skipped_tests` to `/logs/verifier/reward.txt`. A fully
-correct oracle answer still scores `1.0`, and the `nop` agent still
-scores `0.0`, but partially correct real-agent attempts keep useful
-signal instead of collapsing to all-or-nothing.
+Per-task reward is **gate-aware and fractional**. The verifier runs
+`tests/test_state.py` against `/app/answer.json`; assertions are split into
+
+- **gates** (`test_gate_*`): format/schema validity, enum membership,
+  citation integrity (files exist, lines in range, no cross-file
+  confusion), and action safety. Any gate failure → reward `0.0`;
+  passing gates earns **no credit**;
+- **substantive tests**: evidence-vs-ground-truth, root-cause match,
+  recall/ordering floors, recovery replay. The reward written to
+  `/logs/verifier/reward.txt` is `passed / non_skipped` over the
+  **substantive tests only**.
+
+A fully correct oracle answer scores `1.0` and `nop` scores `0.0`, while
+partially correct real-agent attempts keep useful signal. Crucially, a
+schema-compliant answer with **no investigation** scores `0.000`: the
+measured zero-effort floor (schema skeleton + family-prior constants +
+empty evidence) is 0.000 across all 180 tasks, regression-locked by
+`tests/test_gameability.py::test_blind_floor_is_zero`. Before the
+gate/substantive split this floor was 0.62 — structural checks sat in
+the same denominator as real ones, compressing the leaderboard's
+dynamic range.
 
 ## What the verifier asserts
 
@@ -20,6 +35,10 @@ type-specific renderers (`_render_test_state_py_fp`,
 `_render_test_state_py_rem`).
 
 ### v1 assertions, in order:
+
+(Gate/substantive split: items 1–6, 8, 12 and 14 are **gates** — rendered
+as `test_gate_*`, required but unscored. Items 7, 9, 10, 11 and 13 are the
+**substantive** tests that make up the reward denominator.)
 
 1. `test_answer_is_valid_json` — `/app/answer.json` exists and parses.
 2. `test_answer_schema_matches_spec` — required top-level keys are
@@ -117,6 +136,17 @@ answer. The measures, by family:
   agent's declared `mitigation.action` + `mitigation.target` against a
   verifier-only copy of the initial state (`tests/initial_state.json`) and
   checks the resulting health. Hand-editing the state file earns nothing.
+  The replay is additionally **fault-specific**: `initial_state.json`
+  carries `required_action` (the one remedy that fixes this fault class —
+  e.g. `increase_quota` for `disk_full`), and any other active action
+  leaves the replayed cluster broken. Correct-action ground truth is
+  diversified (restart_component / increase_quota / disable_route), so
+  "always restart" is no longer a constant winning move.
+- **Gate-aware reward (the structural fix)**: all format/integrity/enum
+  checks are gates that zero the reward on failure but earn nothing on
+  success. This moved the zero-effort floor from 0.62 to **0.000** —
+  before the split, a no-investigation answer out-scored 45–82% of the
+  reward range on some families purely through schema compliance.
 
 ### Known limitations
 
@@ -149,19 +179,33 @@ from real log content. This keeps the oracle honest: `solve.sh` cannot
 just `cat /tests/expected.json` because `/tests/` is not mounted during
 the agent phase.
 
-## Aggregate scoring
+## Aggregate scoring & leaderboard protocol
 
 When run across the full 180 tasks, the natural aggregates are:
 
-- **pass@1** — fraction of tasks where the agent's single attempt
-  yields `reward=1`.
+- **fully-solved rate** (pass@1) — fraction of tasks where the attempt
+  yields `reward=1`. **This is the headline leaderboard metric**: mean
+  reward compresses harness differences (three very different harnesses
+  landed within 0.03 mean of each other while their fully-solved rates
+  spread 27–37), so the binary resolved-rate discriminates better.
+- **mean reward** — secondary; useful for partial-credit trends.
 - **pass@k** — Harbor reports this natively when `-k k` is passed.
-- **per-dataset pass rate** — useful for spotting dataset-specific
-  failure modes (e.g. an agent that handles HDFS but drowns on
-  Thunderbird's 99.6% VAPI skew).
-- **per-root-cause pass rate** — sometimes more useful than per-dataset,
-  because incident families generalize across datasets (e.g. a
-  network-failure pattern looks similar in BGL and Thunderbird).
+- **per-dataset / per-root-cause pass rate** — for failure-mode analysis
+  (e.g. an agent that handles HDFS but drowns on Thunderbird's 99.6%
+  VAPI skew).
 
-Until a leaderboard helper is added, `harbor view <jobs-dir>` and the
-per-job `result.json` files are the manual path for these aggregates.
+**Leaderboard rows must follow this protocol:**
+
+1. **Pinned harness**: `harbor==0.13.1` (`pip install '.[bench]'`),
+   recorded in the run artifacts.
+2. **≥ 3 independent runs**; report fully-solved and mean reward as
+   mean ± 95% CI across runs. Single runs may be listed only as
+   provisional, clearly marked.
+3. **Cost & tokens columns**: total run cost (USD) and output tokens,
+   taken from Harbor's per-trial metrics, accompany every row.
+4. **Zero-effort floor row**: the leaderboard table includes the blind
+   format-only floor (currently 0.000) so readers can calibrate scores
+   against "no investigation at all".
+5. **Per-family numbers** are only quoted for families with n ≥ 10
+   tasks; smaller families (e.g. openstack v1, n=5) are too noisy for
+   per-family claims.

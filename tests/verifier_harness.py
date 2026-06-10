@@ -91,10 +91,25 @@ def score(task_dir: Path, answer: dict) -> float:
         )
         root = ET.parse(junit).getroot()
         suite = root if root.tag == "testsuite" else root.find("testsuite")
-        total = int(suite.get("tests", 0))
-        skipped = int(suite.get("skipped", 0))
-        failures = int(suite.get("failures", 0))
-        errors = int(suite.get("errors", 0))
-        denom = total - skipped
-        passed = denom - failures - errors
-        return passed / denom if denom else 0.0
+        # Gate-aware reward, mirroring tests/test.sh: any test_gate_* failure
+        # or error zeroes the reward; passing gates earns no credit. Reward =
+        # passed / non-skipped over the substantive (non-gate) tests only.
+        gate_failed = False
+        sub_live = 0
+        sub_passed = 0
+        for case in suite.iter("testcase"):
+            name = case.get("name", "")
+            failed = case.find("failure") is not None or case.find("error") is not None
+            skipped = case.find("skipped") is not None
+            if "test_gate_" in name:
+                if failed:
+                    gate_failed = True
+                continue
+            if skipped:
+                continue
+            sub_live += 1
+            if not failed:
+                sub_passed += 1
+        if gate_failed:
+            return 0.0
+        return sub_passed / sub_live if sub_live else 0.0

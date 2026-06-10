@@ -21,6 +21,7 @@
     "bgl-racks-c": {
       "escalated": false,
       "last_action": null,
+      "process_state": "not_responding",
       "state": "degraded"
     }
   }

@@ -3,6 +3,7 @@
     "bgl-racks-a": {
       "escalated": false,
       "last_action": null,
+      "process_state": "not_responding",
       "state": "degraded"
     },
     "bgl-racks-b": {

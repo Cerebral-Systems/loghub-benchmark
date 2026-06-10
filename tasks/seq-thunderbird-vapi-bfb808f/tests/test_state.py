@@ -62,20 +62,20 @@ def files_to_lines() -> dict:
     return out
 
 
-def test_answer_is_valid_json():
+def test_gate_answer_is_valid_json():
     assert ANSWER_PATH.exists()
     _load_json(ANSWER_PATH)
 
 
-def test_schema_version_matches(answer: dict, expected: dict):
+def test_gate_schema_version_matches(answer: dict, expected: dict):
     assert answer["schema_version"] == expected["schema_version"]
 
 
-def test_is_incident_true(answer: dict):
+def test_gate_is_incident_true(answer: dict):
     assert answer["is_incident"] is True
 
 
-def test_timeline_present(answer: dict):
+def test_gate_timeline_present(answer: dict):
     assert isinstance(answer.get("timeline"), list)
     assert answer["timeline"], "timeline is empty"
 
@@ -96,7 +96,7 @@ def test_timeline_recall(answer: dict, expected: dict):
     )
 
 
-def test_timeline_files_exist(answer: dict, files_to_lines: dict):
+def test_gate_timeline_files_exist(answer: dict, files_to_lines: dict):
     for ev in answer["timeline"]:
         assert ev["file"] in files_to_lines, (
             f"timeline references unknown file {ev['file']!r}"
@@ -114,7 +114,7 @@ def test_timeline_snippets_match(answer: dict, files_to_lines: dict):
         assert ev["snippet"] in actual
 
 
-def test_timeline_roles_in_allowed_set(answer: dict, expected: dict):
+def test_gate_timeline_roles_in_allowed_set(answer: dict, expected: dict):
     allowed = set(expected["allowed_roles"])
     for ev in answer["timeline"]:
         assert ev["role"] in allowed
@@ -165,5 +165,5 @@ def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
     assert answer["root_cause_type"] == expected["root_cause_type"]
 
 
-def test_root_cause_in_allowed_set(answer: dict, expected: dict):
+def test_gate_root_cause_in_allowed_set(answer: dict, expected: dict):
     assert answer["root_cause_type"] in expected["allowed_root_causes"]

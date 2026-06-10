@@ -15,6 +15,7 @@
     "hadoop-mrappmaster": {
       "escalated": false,
       "last_action": null,
+      "process_state": "not_responding",
       "state": "degraded"
     },
     "hadoop-yarn": {
@@ -23,5 +24,6 @@
       "last_action": null,
       "state": "degraded"
     }
-  }
+  },
+  "required_action": "restart_component"
 }

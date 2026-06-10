@@ -129,6 +129,59 @@ class AdapterBase:
             f"{type(self).__name__} does not implement iter_false_positive_windows"
         )
 
+    def iter_true_incident_fp_windows(
+        self,
+        input_path: Path,
+        labels: LabelIndex,
+        *,
+        max_cases: int | None = None,
+        seed: int = 0,
+        max_anomaly_lines: int = 8,
+    ) -> Iterator["CandidateCase"]:
+        """V2/T1 true-incident distractors: windows that DO contain a real
+        (sparse) incident, rendered under the fp triage schema so the
+        `is_incident` verdict is a genuine decision rather than a family
+        constant.
+
+        Default implementation wraps `iter_candidate_cases` and keeps only
+        *subtle* windows (1..max_anomaly_lines anomaly lines — a needle in
+        noise, not a wall of errors). Yields cases with:
+          - `task_type == "fp"`
+          - `extra["fp_true"] = True`
+          - `extra["incident_locations"]`: [{"line": int}] slice-relative
+            1-based anomaly locations,
+          - `root_cause` = the real classified label.
+        """
+        emitted = 0
+        # Distinct seed-space from the v1 sampler so fp-true windows do not
+        # simply duplicate committed v1 localization tasks.
+        for case in self.iter_candidate_cases(
+            input_path, labels, max_cases=None, seed=seed + 7919
+        ):
+            n = len(case.anomaly_line_ids)
+            if not (1 <= n <= max_anomaly_lines):
+                continue
+            yield CandidateCase(
+                case_id=case.case_id,
+                dataset_name=case.dataset_name,
+                adapter_version=case.adapter_version,
+                slice=case.slice,
+                anomaly_line_ids=case.anomaly_line_ids,
+                root_cause=case.root_cause,
+                anomaly_keys=case.anomaly_keys,
+                extra={
+                    **dict(case.extra),
+                    "fp_true": True,
+                    "incident_locations": [
+                        {"line": line_id} for line_id in case.anomaly_line_ids
+                    ],
+                },
+                task_type="fp",
+            )
+            emitted += 1
+            if max_cases is not None and emitted >= max_cases:
+                return
+
     def classify_root_cause(
         self,
         log_slice: list[str],

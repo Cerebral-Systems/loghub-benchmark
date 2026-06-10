@@ -64,10 +64,20 @@ Each of the 7 skill families has its own `schema_version` and answer shape:
 
 ## Grading
 
-**Fractional reward.** The verifier runs `tests/test_state.py` (pytest) against
-`/app/answer.json` and writes `passed / non_skipped` to
-`/logs/verifier/reward.txt` — a continuous 0–1 score (partial credit), uniform
-across all 180 tasks.
+**Gate-aware fractional reward.** The verifier runs `tests/test_state.py`
+(pytest) against `/app/answer.json`. Assertions are split into two classes:
+
+- **Gates** (`test_gate_*`) — format, schema, enum-membership, citation
+  integrity, and safety checks. Any gate failure zeroes the reward; passing
+  gates earns **no credit**.
+- **Substantive tests** — evidence-vs-ground-truth, root-cause match,
+  ordering/recall floors, recovery replay. The reward written to
+  `/logs/verifier/reward.txt` is `passed / non_skipped` over the substantive
+  tests only — a continuous 0–1 score, uniform across all 180 tasks.
+
+A schema-compliant answer with no real investigation scores **0.000** (the
+measured zero-effort floor across all 180 tasks); the oracle scores 1.0 and
+`nop` 0.0. `tests/test_gameability.py` regression-locks the floor.
 
 **What's asserted** (per family; full list in [scoring.md](scoring.md)): valid
 JSON, schema match, referenced files exist, line numbers in range, snippets
@@ -82,8 +92,24 @@ modes:
 nothing without grounded citations), empty/trivial snippets are rejected, and
 `rem` recovery is graded by **replaying the declared mitigation** against a
 verifier-only initial state (the agent-writable `/app/service_state.json` is not
-trusted). Regressions are locked by `tests/test_gameability.py`. See
+trusted). The replay is **fault-specific**: `tests/initial_state.json` carries
+the one remedy that actually fixes the fault class, so a wrong-but-active
+action (restarting a process to fix a full disk) leaves the replayed cluster
+broken. Regressions are locked by `tests/test_gameability.py`. See
 [scoring.md → Anti-gaming hardening](scoring.md).
+
+## Agent integration
+
+Any agent that Harbor can run works unmodified: the contract is "read `/app`,
+write `/app/answer.json`". Built-in CLI agents (`claude-code`,
+`mini-swe-agent`, `codex`, …) are selected with `--agent <name>`; a custom
+agent subclasses `harbor.agents.base.BaseAgent` (`name()`, `version()`,
+`setup()`, `run(instruction, environment, context)` → write
+`/app/answer.json` via `environment.exec`) and is selected with
+`--agent-import-path module.path:ClassName`. There is intentionally **no
+MCP/tool surface**: the tasks are plain files in the container, so any agent
+that can run shell commands can investigate. Pin the harness to
+`harbor==0.13.1` for comparable runs (`pip install '.[bench]'`).
 
 ## Oracle / nop contract
 

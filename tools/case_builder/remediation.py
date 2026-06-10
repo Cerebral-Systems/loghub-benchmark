@@ -113,6 +113,31 @@ DEGRADED_EXPECTED: frozenset[str] = frozenset(
     {"data_corruption", "cpu", "ecc", "nmi", "normal"}
 )
 
+# ---------------------------------------------------------------------------
+# Observable fault symptoms
+# ---------------------------------------------------------------------------
+#
+# Each canonical action corresponds to an observable symptom on the ROOT
+# component in service_state.json. The symptom is legitimate diagnostic
+# state (an SRE inspecting the cluster would see it), and it is what makes
+# the agent-visible tooling honest: /app/bin/apply_mitigation only clears
+# the symptom its action actually addresses, so running the wrong remedy
+# leaves the cluster visibly broken instead of "confirming" a bad fix.
+# The symptom names deliberately do NOT reuse root_cause_type labels.
+
+SYMPTOM_FOR_ACTION: dict[str, tuple[str, object, object]] = {
+    # action -> (symptom_field, broken_value, recovered_value)
+    "restart_component": ("process_state", "not_responding", "running"),
+    "increase_quota": ("storage_usage_pct", 100, 35),
+    "disable_route": ("peer_link", "flapping", "isolated"),
+    "rollback_config": ("config_status", "drifted", "known_good"),
+    "mark_noop": ("hardware_status", "failing_unrecoverable", "failing_unrecoverable"),
+}
+
+
+def symptom_for_action(action: str) -> tuple[str, object, object]:
+    return SYMPTOM_FOR_ACTION.get(action, SYMPTOM_FOR_ACTION["restart_component"])
+
 
 def mitigation_for_root_cause(root_cause: str) -> str:
     """Return the canonical mitigation action for a dataset root_cause.
@@ -172,9 +197,13 @@ def build_topology(file_basenames: Iterable[str], root_filename: str) -> dict:
     }
 
 
-def build_initial_state(file_basenames: Iterable[str], root_filename: str) -> dict:
-    """Encode 'pre-mitigation' state: root degraded, deps cascading."""
+def build_initial_state(
+    file_basenames: Iterable[str], root_filename: str, required_action: str = "restart_component"
+) -> dict:
+    """Encode 'pre-mitigation' state: root degraded with an observable fault
+    symptom (determined by the canonical action that fixes it), deps cascading."""
     root = component_name_from_filename(root_filename)
+    field, broken, _recovered = symptom_for_action(required_action)
     state: dict = {"components": {}}
     for name in sorted(file_basenames):
         comp = component_name_from_filename(name)
@@ -183,6 +212,7 @@ def build_initial_state(file_basenames: Iterable[str], root_filename: str) -> di
                 "state": "degraded",
                 "escalated": False,
                 "last_action": None,
+                field: broken,
             }
         else:
             state["components"][comp] = {
@@ -209,46 +239,47 @@ def simulate_apply_mitigation(
 ) -> dict:
     """Pure function: return the new state after applying (action, target).
 
-    Implements:
-      - restart_component, rollback_config, increase_quota, disable_route
-        applied to the root component: flip root to healthy and recover
-        its dependents (cascading_from cleared, state=healthy).
+    Fault-specific semantics: the root component carries an observable
+    symptom field (see ``SYMPTOM_FOR_ACTION``), and an active action heals
+    the cluster ONLY if it is the action that clears that symptom.
+    Restarting a process does not fix a full disk — the symptom (and the
+    degraded state) persists, exactly as in production.
+
+      - the matching active action applied to the root: clear the symptom,
+        flip root to healthy and recover its dependents.
       - mark_noop applied to the root: leave state degraded but set
         escalated=true. This is the right answer for unrecoverable causes.
-      - any other action+target combination: leave state untouched and
-        record `last_action` so the verifier can see what was attempted.
+      - a non-matching action, an out-of-enum action, or a wrong target:
+        leave health untouched and record `last_action` so the attempt is
+        visible.
     """
     new_state = {
         "components": {
             comp: dict(info) for comp, info in state.get("components", {}).items()
         }
     }
-    if action not in MITIGATION_ACTIONS:
-        # Out-of-enum: record attempt without changing health.
-        for info in new_state["components"].values():
-            info["last_action"] = action
-        return new_state
+    for info in new_state["components"].values():
+        info["last_action"] = action
 
-    if target != root_component:
-        for info in new_state["components"].values():
-            info["last_action"] = action
+    if action not in MITIGATION_ACTIONS or target != root_component:
         return new_state
 
     if action == "mark_noop":
-        for comp, info in new_state["components"].items():
-            info["last_action"] = action
-            if comp == root_component:
-                info["escalated"] = True
+        new_state["components"][root_component]["escalated"] = True
         return new_state
 
-    # restart_component / rollback_config / increase_quota / disable_route:
-    # the root recovers; its dependents recover too.
+    field, broken, recovered = symptom_for_action(action)
+    root_info = new_state["components"].get(root_component, {})
+    if root_info.get(field) != broken:
+        # Wrong remedy for the observed fault: nothing recovers.
+        return new_state
+
     for comp, info in new_state["components"].items():
-        info["last_action"] = action
         info["state"] = "healthy"
         info["cascading_from"] = None
         if comp == root_component:
             info["escalated"] = False
+            info[field] = recovered
     return new_state
 
 

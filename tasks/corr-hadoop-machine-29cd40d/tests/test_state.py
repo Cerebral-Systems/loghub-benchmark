@@ -36,16 +36,16 @@ def files_to_lines() -> dict:
     return out
 
 
-def test_answer_is_valid_json():
+def test_gate_answer_is_valid_json():
     assert ANSWER_PATH.exists()
     _load_json(ANSWER_PATH)
 
 
-def test_schema_version_matches(answer: dict, expected: dict):
+def test_gate_schema_version_matches(answer: dict, expected: dict):
     assert answer["schema_version"] == expected["schema_version"]
 
 
-def test_is_incident_true(answer: dict):
+def test_gate_is_incident_true(answer: dict):
     assert answer["is_incident"] is True
 
 
@@ -56,7 +56,7 @@ def test_root_component_matches(answer: dict, expected: dict):
     )
 
 
-def test_causal_chain_structure(answer: dict):
+def test_gate_causal_chain_structure(answer: dict):
     chain = answer.get("causal_chain", [])
     assert chain, "causal_chain is empty"
     first = chain[0]
@@ -123,7 +123,7 @@ def test_causal_chain_edge_correctness(answer: dict, expected: dict):
     )
 
 
-def test_caused_by_topology_acyclic(answer: dict):
+def test_gate_caused_by_topology_acyclic(answer: dict):
     """No cycles in the caused_by_step DAG."""
     chain = answer.get("causal_chain", [])
     step_to_parent: dict[int, int | None] = {}
@@ -142,7 +142,7 @@ def test_caused_by_topology_acyclic(answer: dict):
             cur = step_to_parent.get(cur)
 
 
-def test_evidence_lines_in_range(answer: dict, files_to_lines: dict):
+def test_gate_evidence_lines_in_range(answer: dict, files_to_lines: dict):
     for step in answer.get("causal_chain", []):
         component = step["component"]
         assert component in files_to_lines, f"unknown component file {component}"
@@ -155,5 +155,5 @@ def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
     assert answer["root_cause_type"] == expected["root_cause_type"]
 
 
-def test_root_cause_in_allowed_set(answer: dict, expected: dict):
+def test_gate_root_cause_in_allowed_set(answer: dict, expected: dict):
     assert answer["root_cause_type"] in expected["allowed_root_causes"]

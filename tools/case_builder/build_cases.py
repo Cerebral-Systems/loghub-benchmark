@@ -72,6 +72,10 @@ def build(
         case_iter = adapter.iter_candidate_cases(input_path, labels, max_cases=max_cases, seed=seed)
     elif task_type == "fp":
         case_iter = adapter.iter_false_positive_windows(input_path, labels, max_cases=max_cases, seed=seed)
+    elif task_type == "fp-true":
+        # T1 true-incident distractors: subtle real incidents rendered under
+        # the fp triage schema, so is_incident is a genuine decision.
+        case_iter = adapter.iter_true_incident_fp_windows(input_path, labels, max_cases=max_cases, seed=seed)
     elif task_type in ("seq", "corr", "sev", "rem"):
         # T2/T3/T4/T6: reuse v1 anomaly cases; the timeline / causal-chain /
         # severity / remediation metadata is derived at export time. We mark
@@ -172,7 +176,7 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument(
         "--task-type",
         default="anomaly",
-        choices=("anomaly", "fp", "seq", "corr", "sev", "tmpl", "rem"),
+        choices=("anomaly", "fp", "fp-true", "seq", "corr", "sev", "tmpl", "rem"),
         help="Which adapter generator to invoke. 'anomaly' (v1, default) calls "
         "iter_candidate_cases. 'fp' (v2/T1) calls iter_false_positive_windows. "
         "'seq' (v2/T2), 'corr' (v2/T3), and 'sev' (v2/T4) reuse v1 anomaly "
