@@ -453,8 +453,13 @@ class BGLAdapter(AdapterBase):
     def parse_event(self, line: str) -> dict | None:
         """Return {timestamp, component, level} for a BGL/Thunderbird line.
 
-        Token 0 = TAG (or `-`), token 1 = epoch seconds.
-        Component = TAG. Level = always "ALERT" for non-`-` lines.
+        Handles both line formats:
+        - raw (label column intact): token 0 = TAG (or `-`), token 1 = epoch.
+          Component = TAG.
+        - tag-stripped (adapter v2 slices): token 0 = epoch, token 1 = date,
+          token 2 = node/location. Component = the node token — a better
+          propagation-grouping key than the alert tag anyway (same node =
+          propagation, different node = consequence).
         """
         parts = line.split(None, 3)
         if len(parts) < 2:
@@ -463,7 +468,12 @@ class BGLAdapter(AdapterBase):
         try:
             ts = int(parts[1])
         except ValueError:
-            return None
+            try:
+                ts = int(parts[0])
+            except ValueError:
+                return None
+            component = parts[2] if len(parts) > 2 else "NODE"
+            return {"timestamp": ts, "component": component, "level": "ALERT"}
         component = tag if tag != "-" else "NORMAL"
         level = "ALERT" if tag != "-" else "INFO"
         return {"timestamp": ts, "component": component, "level": level}
