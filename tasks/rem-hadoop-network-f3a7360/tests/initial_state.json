@@ -9,6 +9,7 @@
     "hadoop-misc": {
       "escalated": false,
       "last_action": null,
+      "peer_link": "flapping",
       "state": "degraded"
     },
     "hadoop-mrappmaster": {
@@ -23,5 +24,6 @@
       "last_action": null,
       "state": "degraded"
     }
-  }
+  },
+  "required_action": "disable_route"
 }

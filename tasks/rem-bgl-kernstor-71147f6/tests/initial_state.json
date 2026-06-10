@@ -3,6 +3,7 @@
     "bgl-racks-a": {
       "escalated": false,
       "last_action": null,
+      "process_state": "not_responding",
       "state": "degraded"
     },
     "bgl-racks-b": {
@@ -17,5 +18,6 @@
       "last_action": null,
       "state": "degraded"
     }
-  }
+  },
+  "required_action": "restart_component"
 }

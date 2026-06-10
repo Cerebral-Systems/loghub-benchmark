@@ -204,8 +204,12 @@ def _replay_health(initial_state: dict, root: str, action, target) -> str:
     disk — leaves the cluster broken, exactly as it would in production."""
     comps = {k: dict(v) for k, v in initial_state.get("components", {}).items()}
     required = initial_state.get("required_action")
-    heals = action == required if required else (action in ALLOWED_ACTIONS and action != "mark_noop")
-    if heals and target == root and action != "mark_noop":
+    # No permissive fallback: a rem task whose verifier-only initial_state
+    # lacks required_action is a build error, not a reason to accept any
+    # active action (that fallback silently re-opened the wrong-remedy hole
+    # once already, via a re-render that dropped the field).
+    assert required, "initial_state.json missing required_action — task build error"
+    if action == required and target == root and action != "mark_noop":
         for info in comps.values():
             info["state"] = "healthy"
     # mark_noop, the wrong remedy, an out-of-enum action, or a wrong target

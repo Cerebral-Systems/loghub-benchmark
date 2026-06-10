@@ -9,6 +9,7 @@
     "openstack-nova-compute": {
       "escalated": false,
       "last_action": null,
+      "process_state": "not_responding",
       "state": "degraded"
     },
     "openstack-nova-scheduler": {

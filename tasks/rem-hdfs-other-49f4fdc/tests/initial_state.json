@@ -27,7 +27,9 @@
     "hdfs-namenode": {
       "escalated": false,
       "last_action": null,
+      "process_state": "not_responding",
       "state": "degraded"
     }
-  }
+  },
+  "required_action": "restart_component"
 }

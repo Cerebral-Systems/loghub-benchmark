@@ -52,11 +52,19 @@ def rendered_files(task_dir: Path) -> dict[str, str]:
     }
     if sv == "loghub-sre-answer-v3-remediation":
         # Verifier-only clean copy of the shipped (initial, pre-mitigation)
-        # state, mirrored from the agent-visible service_state.json. The
-        # post-mitigation verifier replays the declared mitigation against this.
+        # state, mirrored from the agent-visible service_state.json PLUS the
+        # verifier-only required_action (derived from the canonical
+        # mitigation in expected.json). Without required_action the replay
+        # cannot distinguish the right remedy from any active one — a plain
+        # copy here once silently stripped the field and re-opened the
+        # wrong-remedy hole.
+        state = json.loads(
+            (task_dir / "environment" / "data" / "service_state.json").read_text()
+        )
+        state["required_action"] = expected["mitigation"]["action"]
         out["tests/initial_state.json"] = (
-            task_dir / "environment" / "data" / "service_state.json"
-        ).read_text()
+            json.dumps(state, indent=2, sort_keys=True) + "\n"
+        )
     return out
 
 

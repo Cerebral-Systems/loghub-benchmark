@@ -269,4 +269,28 @@ def test_wrong_remedy_does_not_heal():
         wrong = json.loads(json.dumps(right))
         wrong["mitigation"]["action"] = "restart_component"
         r = H.score(td, wrong)
-        assert r < 1.0, "wrong-but-active remedy scored full credit — fault-specific replay regressed"
+        # Wrong remedy must lose BOTH the action-match AND the recovery
+        # replay (3/5 substantive = 0.6). A score of 0.8 here means the
+        # replay healed on the wrong action — exactly the fallback hole a
+        # re-render once re-opened by stripping required_action.
+        assert r <= 0.61, (
+            f"wrong-but-active remedy scored {r:.2f} (> 0.6) — the replay "
+            "is not fault-specific; check required_action in tests/initial_state.json"
+        )
+
+
+def test_all_rem_initial_states_carry_required_action():
+    """Every committed rem task's verifier-only initial_state.json must name
+    the canonical action, matching expected.json. Guards against any future
+    re-render path dropping the field (which silently re-permits any active
+    action in the replay)."""
+    rem_dirs = sorted(TASKS.glob("rem-*"))
+    assert rem_dirs, "no rem tasks found"
+    for td in rem_dirs:
+        state = json.loads((td / "tests" / "initial_state.json").read_text())
+        exp = json.loads((td / "tests" / "expected.json").read_text())
+        assert state.get("required_action") == exp["mitigation"]["action"], (
+            f"{td.name}: tests/initial_state.json required_action="
+            f"{state.get('required_action')!r} != expected mitigation "
+            f"{exp['mitigation']['action']!r}"
+        )

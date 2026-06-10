@@ -9,7 +9,8 @@
     "hadoop-misc": {
       "escalated": false,
       "last_action": null,
-      "state": "degraded"
+      "state": "degraded",
+      "storage_usage_pct": 100
     },
     "hadoop-mrappmaster": {
       "cascading_from": "hadoop-misc",
