@@ -477,6 +477,10 @@ def _build_expected(case: dict, anomaly_locations: list[dict], files: dict[str, 
         "safe_recommendations": list(SAFE_ACTIONS),
         "min_evidence_count": max(1, min(3, len(anomaly_locations))),
         "files": sorted(files),
+        # OpenStack's corpus carries a single injected fault across all 4
+        # anomalous instances, so root-cause classification is constant by
+        # construction — it is not scored there (evidence localization is).
+        "root_cause_scored": case["dataset_name"] != "OpenStack",
     }
 
 
@@ -924,6 +928,8 @@ def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
     # guessable, so in exact-location mode credit requires actually
     # localizing -- citing >= min_evidence_count ground-truth lines. Inline
     # mode already binds credit via test_inline_label_evidence_matches_root_cause.
+    if not expected.get("root_cause_scored", True):
+        pytest.skip("root cause is constant-by-construction for this dataset; evidence-only scoring")
     if _validation_mode(expected) == "exact_location":
         gt = {{(e["file"], e["line"]) for e in expected["evidence"]}}
         grounded = {{(e["file"], e["line"]) for e in answer["evidence"]}} & gt
@@ -981,36 +987,56 @@ def _export_fp_case(
         path = task_dir / "environment" / "data" / filename
         path.write_text("\n".join(files[filename]) + "\n", encoding="utf-8")
 
-    # Map adapter-space FP indicator lines → (file, line, why_not_anomalous)
-    fp_indicators_raw = case.get("extra", {}).get("fp_indicators", [])
-    indicator_locations: list[dict] = []
-    for ind in fp_indicators_raw:
-        slice_line_id = ind["line"]
-        idx = slice_line_id - 1
-        if not (0 <= idx < len(line_map)):
-            continue
-        mapped = line_map[idx]
-        if mapped is None:
-            continue
-        filename, file_line = mapped
-        indicator_locations.append({
-            "file": filename,
-            "line": file_line,
-            "why_not_anomalous": ind["why_not_anomalous"],
-        })
+    # The fp family is MIXED: benign-noise windows (is_incident=false, the
+    # agent cites false_positive_indicators) and subtle true incidents
+    # (is_incident=true, the agent cites incident_evidence). Without true
+    # distractors the family answer is a constant and discrimination is
+    # never actually tested.
+    fp_true = bool(case.get("extra", {}).get("fp_true"))
 
-    if len(indicator_locations) < 3:
-        raise RuntimeError(
-            f"FP case {case['case_id']}: fewer than 3 indicators survived partition mapping"
+    def _map_locs(raw: list[dict], extra_keys: tuple[str, ...] = ()) -> list[dict]:
+        out: list[dict] = []
+        for ind in raw:
+            idx = ind["line"] - 1
+            if not (0 <= idx < len(line_map)):
+                continue
+            mapped = line_map[idx]
+            if mapped is None:
+                continue
+            filename, file_line = mapped
+            loc = {"file": filename, "line": file_line}
+            for k in extra_keys:
+                if k in ind:
+                    loc[k] = ind[k]
+            out.append(loc)
+        return out
+
+    if fp_true:
+        incident_locations = _map_locs(case.get("extra", {}).get("incident_locations", []))
+        if len(incident_locations) < 1:
+            raise RuntimeError(
+                f"FP-true case {case['case_id']}: no incident evidence survived partition mapping"
+            )
+        indicator_locations: list[dict] = []
+    else:
+        indicator_locations = _map_locs(
+            case.get("extra", {}).get("fp_indicators", []), ("why_not_anomalous",)
         )
+        incident_locations = []
+        if len(indicator_locations) < 3:
+            raise RuntimeError(
+                f"FP case {case['case_id']}: fewer than 3 indicators survived partition mapping"
+            )
 
-    expected = _build_expected_fp(case, indicator_locations, files)
+    expected = _build_expected_fp(case, indicator_locations, incident_locations, files)
     (task_dir / "tests" / "expected.json").write_text(
         json.dumps(expected, indent=2, sort_keys=True) + "\n"
     )
 
     hints = {
+        "is_incident": fp_true,
         "indicator_locations": indicator_locations,
+        "incident_locations": incident_locations,
         "why_not_anomalous_choices": list(WHY_NOT_ANOMALOUS),
     }
     (task_dir / "solution" / "oracle_hints.json").write_text(
@@ -1045,16 +1071,23 @@ def _export_fp_case(
     return task_dir
 
 
-def _build_expected_fp(case: dict, indicators: list[dict], files: dict[str, list[str]]) -> dict:
+def _build_expected_fp(
+    case: dict,
+    indicators: list[dict],
+    incident_locations: list[dict],
+    files: dict[str, list[str]],
+) -> dict:
+    is_incident = bool(case.get("extra", {}).get("fp_true"))
     return {
         "schema_version": ANSWER_SCHEMA_VERSION_FP,
-        "is_incident": False,
+        "is_incident": is_incident,
         "false_positive_indicators": indicators,
+        "incident_evidence": incident_locations,
         "allowed_why_not_anomalous": list(WHY_NOT_ANOMALOUS),
-        "min_indicator_count": min(3, len(indicators)),
+        "min_indicator_count": min(3, len(indicators)) if indicators else 0,
+        "min_evidence_count": min(3, len(incident_locations)) if incident_locations else 0,
         "files": sorted(files),
-        # Keep `root_cause_type` slot for diff parity with v1 expected.json,
-        # though FP cases set it to "no_incident".
+        # "no_incident" for benign windows, the real label for true incidents.
         "root_cause_type": case.get("root_cause", "no_incident"),
     }
 
@@ -1071,12 +1104,12 @@ component:
 {files_md}
 
 Triage this window. The logs contain scary-looking substrings — WARN,
-ERROR, retries, throttling. Decide whether the activity reflects a real
-incident or whether the loud lines are benign noise that does not warrant
-paging an SRE. Cite specific lines that drove your conclusion and explain
-why each one does or does not indicate an incident.
+ERROR, retries, throttling. Some windows in this queue are benign noise;
+some hide a real incident among the noise. Decide which this one is, and
+cite the specific lines that drove your conclusion.
 
-Write **`/app/answer.json`** with this shape:
+Write **`/app/answer.json`**. If you conclude the window is **benign
+noise**:
 
 ```json
 {{
@@ -1090,21 +1123,38 @@ Write **`/app/answer.json`** with this shape:
       "why_not_anomalous": "<one of: {why_choices}>"
     }}
   ],
+  "incident_evidence": [],
+  "confidence": <float between 0 and 1>
+}}
+```
+
+If you conclude it is a **real incident**:
+
+```json
+{{
+  "schema_version": "{ANSWER_SCHEMA_VERSION_FP}",
+  "is_incident": true,
+  "false_positive_indicators": [],
+  "incident_evidence": [
+    {{
+      "file": "<one of the /app/*.log files>",
+      "line": <1-based line number in that file>,
+      "snippet": "<verbatim excerpt of that line>"
+    }}
+  ],
   "confidence": <float between 0 and 1>
 }}
 ```
 
 Rules:
 
-- Set `is_incident` according to your conclusion. If you decide this
-  window is benign noise, set it to `false` and populate
-  `false_positive_indicators`. The verifier's discrimination check
-  fires when you cry wolf — calibrate honestly.
-- Do NOT include an `evidence` field with `is_incident: true` as a
-  hedge; the verifier catches that v1-style cheat.
-- Cite **at least 3** indicators with explanations.
-- `false_positive_indicators[*].file` must be a basename (no `/app/` prefix).
-- Every `why_not_anomalous` must be one of the 5 allowed values.
+- Set `is_incident` according to your conclusion and populate exactly ONE
+  of the two citation lists — hedging by filling both is rejected.
+- Benign verdicts need **at least 3** indicators with explanations; every
+  `why_not_anomalous` must be one of the 5 allowed values.
+- Incident verdicts must cite the lines that evidence the incident
+  (verbatim snippets, exact file + 1-based line).
+- `*.file` must be a basename (no `/app/` prefix).
 - `confidence` is a float in [0, 1]. There's no penalty for low confidence;
   the field exists so a calibrated agent can flag uncertainty.
 - The verifier checks `/app/answer.json` only.
@@ -1122,8 +1172,9 @@ def _render_task_toml_fp(
     dataset_slug = DATASET_SLUG[case["dataset_name"]]
     return f"""# {CANARY}
 #
-# Loghub-SRE-v2 T1 (false-positive triage) — the agent must recognize a
-# benign window and explain the noise, not flag a false anomaly.
+# Loghub-SRE-v2 T1 (false-positive triage) — a mixed family: some windows
+# are benign noise, some hide a real incident. The agent must decide which
+# and cite the lines that prove it.
 #
 # Pytest is installed system-wide in the Dockerfile (apt python3-pytest +
 # pip pytest-json-ctrf) so the verifier runs deterministically regardless
@@ -1132,7 +1183,7 @@ version = "1.0"
 
 [task]
 name = "loghub-sre-v2/{slug}"
-description = "Loghub-SRE T1 false-positive triage: confirm no incident across partitioned {case["dataset_name"]} logs."
+description = "Loghub-SRE T1 triage: decide whether this partitioned {case["dataset_name"]} log window is a real incident or benign noise, with cited evidence."
 
 [[task.authors]]
 name = "{author_name}"
@@ -1219,22 +1270,33 @@ def main() -> None:
     args = p.parse_args()
 
     hints = json.loads(args.hints.read_text())
-    locations = hints["indicator_locations"]
+    is_incident = bool(hints.get("is_incident"))
 
     indicators = []
-    for loc in locations:
-        snippet = _read_line(args.app_dir, loc["file"], loc["line"])
-        indicators.append({{
-            "file": loc["file"],
-            "line": loc["line"],
-            "snippet": snippet[:300],
-            "why_not_anomalous": loc["why_not_anomalous"],
-        }})
+    evidence = []
+    if is_incident:
+        for loc in hints.get("incident_locations", []):
+            snippet = _read_line(args.app_dir, loc["file"], loc["line"])
+            evidence.append({{
+                "file": loc["file"],
+                "line": loc["line"],
+                "snippet": snippet[:300],
+            }})
+    else:
+        for loc in hints["indicator_locations"]:
+            snippet = _read_line(args.app_dir, loc["file"], loc["line"])
+            indicators.append({{
+                "file": loc["file"],
+                "line": loc["line"],
+                "snippet": snippet[:300],
+                "why_not_anomalous": loc["why_not_anomalous"],
+            }})
 
     answer = {{
         "schema_version": ANSWER_SCHEMA_VERSION_FP,
-        "is_incident": False,
+        "is_incident": is_incident,
         "false_positive_indicators": indicators,
+        "incident_evidence": evidence,
         "confidence": ORACLE_CONFIDENCE,
     }}
 
@@ -1297,27 +1359,44 @@ def test_gate_schema_version_matches(answer: dict, expected: dict):
     )
 
 
-def test_gate_is_incident_is_false(answer: dict):
-    """Discrimination test: agent must NOT flag this benign window as an incident."""
+def test_is_incident_matches(answer: dict, expected: dict):
+    """THE discrimination test. The fp family is mixed — some windows are
+    benign noise, some hide a real incident — so this verdict is a real,
+    substantive decision (crying wolf and missing an incident both fail).
+    A verdict earns credit only when paired with cited proof: a bare guess
+    with empty citation lists scores nothing."""
     assert "is_incident" in answer, "answer missing is_incident field"
-    assert answer["is_incident"] is False, (
-        "agent flagged a benign window as an incident — that's the failure mode T1 catches"
+    assert answer["is_incident"] is expected["is_incident"], (
+        "wrong triage verdict: said is_incident="
+        f"{{answer['is_incident']!r}}, truth is {{expected['is_incident']!r}}"
     )
+    proof = (
+        answer.get("incident_evidence")
+        if expected["is_incident"]
+        else answer.get("false_positive_indicators")
+    )
+    assert proof, "verdict without cited proof earns nothing — cite the lines"
 
 
-def test_gate_no_incident_evidence_returned(answer: dict):
-    """Catch the v1-style cheat of emitting evidence with is_incident=True."""
-    # A bare `evidence` field (v1 schema) combined with is_incident=False is
-    # permitted (caller might have hedged) but the value must be empty or absent.
-    evidence = answer.get("evidence", [])
-    if evidence:
-        assert not answer.get("is_incident", False), (
-            "answer has non-empty evidence — this is the v1-schema cheat"
+def test_gate_single_verdict_citations(answer: dict):
+    """No hedging: exactly one citation list may be populated, and it must
+    be the one matching the declared verdict."""
+    indicators = answer.get("false_positive_indicators", [])
+    evidence = answer.get("incident_evidence", []) or answer.get("evidence", [])
+    if answer.get("is_incident", False):
+        assert not indicators, (
+            "is_incident=true but false_positive_indicators is populated — pick one verdict"
+        )
+    else:
+        assert not evidence, (
+            "is_incident=false but incident evidence is populated — pick one verdict"
         )
 
 
 def test_indicators_present(answer: dict, expected: dict):
-    """At least min_indicator_count false-positive indicators."""
+    """At least min_indicator_count false-positive indicators (benign GT only)."""
+    if expected["is_incident"]:
+        pytest.skip("true-incident window: graded on incident_evidence instead")
     indicators = answer.get("false_positive_indicators", [])
     assert isinstance(indicators, list), "false_positive_indicators must be a list"
     assert len(indicators) >= expected["min_indicator_count"], (
@@ -1325,9 +1404,16 @@ def test_indicators_present(answer: dict, expected: dict):
     )
 
 
+def _all_citations(answer: dict) -> list:
+    return list(answer.get("false_positive_indicators", [])) + list(
+        answer.get("incident_evidence", [])
+    )
+
+
 def test_gate_indicators_cite_real_lines(answer: dict, files_to_lines: dict):
-    """Each indicator's (file, line) tuple resolves to a real line."""
-    for ind in answer.get("false_positive_indicators", []):
+    """Each cited (file, line) — indicator or incident evidence — resolves
+    to a real line with a non-trivial verbatim snippet."""
+    for ind in _all_citations(answer):
         assert ind["file"] in files_to_lines, (
             f"indicator references unknown file {{ind['file']!r}}; "
             f"available: {{sorted(files_to_lines)}}"
@@ -1371,10 +1457,28 @@ def test_gate_confidence_well_formed(answer: dict):
 
 def test_gate_no_hallucinated_files(answer: dict, expected: dict):
     expected_files = set(expected["files"])
-    for ind in answer.get("false_positive_indicators", []):
+    for ind in _all_citations(answer):
         assert ind["file"] in expected_files, (
             f"answer cites {{ind['file']!r}} not in {{sorted(expected_files)}}"
         )
+
+
+def test_incident_evidence_within_ground_truth(answer: dict, expected: dict):
+    """True-incident windows: cited incident evidence must be real anomaly
+    locations, with a recall floor — the agent has to find the incident,
+    not just declare one."""
+    if not expected["is_incident"]:
+        pytest.skip("benign window: graded on false_positive_indicators instead")
+    truth_locs = {{(e["file"], e["line"]) for e in expected.get("incident_evidence", [])}}
+    assert truth_locs, "ground-truth incident evidence is empty (task build error)"
+    cited = {{(e["file"], e["line"]) for e in answer.get("incident_evidence", [])}}
+    assert cited, "no incident_evidence cited — substantive credit requires citations"
+    not_real = cited - truth_locs
+    assert not not_real, f"cited non-anomaly locations: {{sorted(not_real)[:5]}}"
+    need = min(expected.get("min_evidence_count", 1), len(truth_locs))
+    assert len(cited & truth_locs) >= need, (
+        f"only {{len(cited & truth_locs)}} real incident lines cited; need >= {{need}}"
+    )
 
 
 def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
@@ -1382,7 +1486,10 @@ def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
     high precision AND cover at least `min_indicator_count` real indicators
     (recall). Closes the cheat of citing arbitrary lines, and the prior
     empty-set auto-pass that let an agent dodge the check entirely.
+    (Benign GT only — true-incident windows are graded on incident_evidence.)
     """
+    if expected["is_incident"]:
+        pytest.skip("true-incident window: graded on incident_evidence instead")
     agent_locs = set()
     for ind in answer.get("false_positive_indicators", []):
         agent_locs.add((ind["file"], ind["line"]))
@@ -1404,6 +1511,8 @@ def test_indicators_match_ground_truth_set(answer: dict, expected: dict):
 
 def test_classifications_match_ground_truth(answer: dict, expected: dict):
     """For cited indicators that ARE in ground truth, why_not_anomalous must match."""
+    if expected["is_incident"]:
+        pytest.skip("true-incident window: no benign classifications to grade")
     assert answer.get("false_positive_indicators"), (
         "no indicators cited — substantive credit requires citations"
     )

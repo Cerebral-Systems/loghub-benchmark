@@ -179,6 +179,8 @@ def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
     # guessable, so in exact-location mode credit requires actually
     # localizing -- citing >= min_evidence_count ground-truth lines. Inline
     # mode already binds credit via test_inline_label_evidence_matches_root_cause.
+    if not expected.get("root_cause_scored", True):
+        pytest.skip("root cause is constant-by-construction for this dataset; evidence-only scoring")
     if _validation_mode(expected) == "exact_location":
         gt = {(e["file"], e["line"]) for e in expected["evidence"]}
         grounded = {(e["file"], e["line"]) for e in answer["evidence"]} & gt
