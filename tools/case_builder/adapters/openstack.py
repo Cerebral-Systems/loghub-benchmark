@@ -48,6 +48,10 @@ ROOT_CAUSE_PATTERNS: tuple[tuple[re.Pattern[str], str], ...] = (
 
 
 class OpenStackAdapter(AdapterBase):
+    # Coarse (app/VM-level) labels: windows carry many anomaly lines;
+    # the fp-true 'subtle' ceiling must be wider or no window qualifies.
+    FP_TRUE_MAX_ANOMALY_LINES = 40
+
     dataset_name = "OpenStack"
     adapter_version = "1"
     root_cause_taxonomy = (
