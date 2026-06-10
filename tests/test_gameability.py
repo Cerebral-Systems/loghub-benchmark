@@ -203,3 +203,50 @@ def test_fp_indicators_require_snippets():
         app.mkdir()
         H._setup_app(td, app)
         assert H.score(td, ans) < 1.0, "fp no-snippet scored full credit — optional-snippet bypass re-opened"
+
+
+# One representative task per family for the blind-floor regression.
+_FLOOR_SLUGS = [
+    "hdfs-datanode-0b694b5", "hadoop-machine-e087882", "bgl-kernstor-2baf5ac",
+    "thunderbird-vapi-01593fb", "openstack-vmtask-2024031", "fp-hdfs-noise-85ae5a1",
+    "seq-hadoop-machine-227f3f0", "corr-hadoop-machine-29cd40d",
+    "sev-hdfs-other-72dc9df", "tmpl-hdfs-mix-3ac1e1c", "rem-hdfs-other-3b66455",
+]
+
+
+def _format_only_answer(td: Path) -> dict:
+    """Zero-investigation answer: the schema skeleton from instruction.md with
+    family-prior constants and EMPTY evidence/indicators/timeline/chain/templates.
+    This is what a leaderboard-gaming script can produce without reading logs."""
+    import re as _re
+    text = (td / "instruction.md").read_text()
+    m = _re.search(r"```json\s*\n(.*?)```", text, _re.DOTALL)
+    raw = m.group(1)
+    raw = _re.sub(r'"<[^>]*>"', '"placeholder"', raw)
+    raw = _re.sub(r"<float[^>]*>", "0.5", raw)
+    raw = _re.sub(r"<int[^>]*>", "0", raw)
+    raw = _re.sub(r"<[^>\n\"]*>", "0", raw)
+    ans = json.loads(raw)
+    for k in ("evidence", "false_positive_indicators", "timeline", "causal_chain",
+              "templates", "anomaly_keys"):
+        if k in ans:
+            ans[k] = []
+    if "is_incident" in ans:
+        ans["is_incident"] = not td.name.startswith("fp-")
+    if "total_unique_templates" in ans:
+        ans["total_unique_templates"] = 0
+    return ans
+
+
+@pytest.mark.parametrize("slug", _FLOOR_SLUGS)
+def test_blind_floor_is_zero(slug):
+    """The zero-investigation floor must stay at 0: schema compliance plus
+    family priors with no evidence earns NOTHING under gate-aware scoring.
+    If this regresses, structural tests have leaked back into the reward
+    denominator (the pre-v1.0 floor was 0.62)."""
+    td = TASKS / slug
+    ans = _format_only_answer(td)
+    assert H.score(td, ans) <= 0.05, (
+        f"{slug}: blind format-only answer scored above the floor — "
+        "gate/substantive split has regressed"
+    )

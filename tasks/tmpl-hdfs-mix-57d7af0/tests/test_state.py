@@ -56,12 +56,12 @@ def _rand_index(gt_assignment: dict[int, int], pr_assignment: dict[int, int]) ->
     return agree / total if total else 1.0
 
 
-def test_answer_is_valid_json():
+def test_gate_answer_is_valid_json():
     assert ANSWER_PATH.exists()
     _load_json(ANSWER_PATH)
 
 
-def test_schema_version_matches(answer: dict, expected: dict):
+def test_gate_schema_version_matches(answer: dict, expected: dict):
     assert answer["schema_version"] == expected["schema_version"]
 
 
@@ -74,7 +74,7 @@ def test_total_unique_templates_close_to_truth(answer: dict, expected: dict):
     )
 
 
-def test_total_matches_template_list_length(answer: dict):
+def test_gate_total_matches_template_list_length(answer: dict):
     assert answer["total_unique_templates"] == len(answer["templates"])
 
 
@@ -89,7 +89,7 @@ def test_every_line_assigned_to_template(answer: dict, expected: dict):
     assert not missing, f"lines not assigned: {sorted(list(missing))[:20]}"
 
 
-def test_no_line_in_multiple_templates(answer: dict, expected: dict):
+def test_gate_no_line_in_multiple_templates(answer: dict, expected: dict):
     """Each input line appears in exactly one template's matching_lines."""
     seen: dict[int, str] = {}
     n = expected["n_input_lines"]
@@ -106,6 +106,10 @@ def test_template_grouping_rand_index(answer: dict, expected: dict):
     """Pairwise same-template agreement vs ground truth must meet threshold."""
     gt = _flatten_assignments(expected["templates"])
     pr = _flatten_assignments(answer["templates"])
+    assert len(set(gt) & set(pr)) >= 2, (
+        "too few assigned lines to grade grouping — the pairwise check needs "
+        ">= 2 lines in common with ground truth"
+    )
     score = _rand_index(gt, pr)
     threshold = expected["rand_index_threshold"]
     assert score >= threshold, f"Rand index {score:.3f} < {threshold}"

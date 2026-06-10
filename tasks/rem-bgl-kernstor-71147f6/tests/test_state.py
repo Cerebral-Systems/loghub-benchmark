@@ -71,12 +71,12 @@ def log_files() -> dict:
     return out
 
 
-def test_answer_is_valid_json():
+def test_gate_answer_is_valid_json():
     assert ANSWER_PATH.exists(), f"missing {ANSWER_PATH}"
     _load_json(ANSWER_PATH)
 
 
-def test_schema_version_matches(answer: dict, expected: dict):
+def test_gate_schema_version_matches(answer: dict, expected: dict):
     assert answer.get("schema_version") == expected["schema_version"], (
         f"schema_version mismatch: got {answer.get('schema_version')!r}, "
         f"want {expected['schema_version']!r}"
@@ -98,7 +98,7 @@ def test_root_cause_matches(answer: dict, expected: dict):
     )
 
 
-def test_causal_chain_structure(answer: dict):
+def test_gate_causal_chain_structure(answer: dict):
     chain = answer.get("causal_chain", [])
     assert chain, "causal_chain is empty"
     first = chain[0]
@@ -141,7 +141,7 @@ def test_causal_chain_recall(answer: dict, expected: dict):
     )
 
 
-def test_causal_chain_evidence_real(answer: dict, log_files: dict):
+def test_gate_causal_chain_evidence_real(answer: dict, log_files: dict):
     """Every evidence (file, line, snippet) tuple resolves to a real line."""
     for step in answer.get("causal_chain", []):
         ev = step.get("evidence")
@@ -166,7 +166,7 @@ def test_causal_chain_evidence_real(answer: dict, log_files: dict):
         )
 
 
-def test_mitigation_action_allowed(answer: dict, expected: dict):
+def test_gate_mitigation_action_allowed(answer: dict, expected: dict):
     action = answer.get("mitigation", {}).get("action")
     assert action in expected["allowed_actions"], (
         f"mitigation.action {action!r} not in {expected['allowed_actions']}"
@@ -185,7 +185,7 @@ def test_mitigation_target_matches(answer: dict, expected: dict):
     )
 
 
-def test_mitigation_is_not_unsafe(answer: dict, expected: dict):
+def test_gate_mitigation_is_not_unsafe(answer: dict, expected: dict):
     action = answer.get("mitigation", {}).get("action")
     assert action not in expected["unsafe_actions"], (
         f"mitigation.action {action!r} is in the unsafe enum"
