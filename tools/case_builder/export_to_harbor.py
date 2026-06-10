@@ -3769,12 +3769,17 @@ def _export_rem_case(
     # Verifier-only clean copy of the initial state. The post-mitigation
     # verifier replays the agent's declared mitigation against THIS (under
     # /tests, not /app), so editing /app/service_state.json cannot fake recovery.
+    # required_action makes the replay fault-specific: only the remedy that
+    # actually fixes this fault class heals the cluster (a wrong-but-active
+    # action no longer replays to healthy). It lives ONLY in the /tests copy —
+    # the agent-visible /app/service_state.json stays clean.
+    canonical_action = mitigation_for_root_cause(case["root_cause"])
     (task_dir / "tests" / "initial_state.json").write_text(
-        json.dumps(initial_state, indent=2, sort_keys=True) + "\n"
+        json.dumps({**initial_state, "required_action": canonical_action},
+                   indent=2, sort_keys=True) + "\n"
     )
 
     # Materialize config files + bin scripts.
-    canonical_action = mitigation_for_root_cause(case["root_cause"])
     configs = build_component_configs(files_in.keys(), root_file, canonical_action)
     for comp_name, pair in configs.items():
         (task_dir / "environment" / "data" / "config" / f"{comp_name}.json").write_text(
@@ -4576,12 +4581,20 @@ def _replay_health(initial_state: dict, root: str, action, target) -> str:
     """Deterministic re-implementation of /app/bin/apply_mitigation +
     check_health, run by the VERIFIER against a clean initial state. The
     agent's declared (action, target) is the only agent-controlled input,
-    so hand-editing /app/service_state.json cannot influence the result."""
+    so hand-editing /app/service_state.json cannot influence the result.
+
+    The replay is fault-specific: initial_state.json (verifier-only) carries
+    required_action, the one remedy that actually fixes this fault class.
+    Applying a different active action — restarting a process to fix a full
+    disk — leaves the cluster broken, exactly as it would in production."""
     comps = {{k: dict(v) for k, v in initial_state.get("components", {{}}).items()}}
-    if action in ALLOWED_ACTIONS and target == root and action != "mark_noop":
+    required = initial_state.get("required_action")
+    heals = action == required if required else (action in ALLOWED_ACTIONS and action != "mark_noop")
+    if heals and target == root and action != "mark_noop":
         for info in comps.values():
             info["state"] = "healthy"
-    # mark_noop, an out-of-enum action, or a wrong target leaves state as-is.
+    # mark_noop, the wrong remedy, an out-of-enum action, or a wrong target
+    # leaves state as-is.
     states = {{info.get("state", "unknown") for info in comps.values()}}
     if states == {{"healthy"}}:
         return "healthy"

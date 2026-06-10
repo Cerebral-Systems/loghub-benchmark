@@ -1,0 +1,27 @@
+{
+  "components": {
+    "hadoop-mapreduce": {
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "hadoop-misc": {
+      "cascading_from": "hadoop-mapreduce",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "hadoop-mrappmaster": {
+      "cascading_from": "hadoop-mapreduce",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    },
+    "hadoop-yarn": {
+      "cascading_from": "hadoop-mapreduce",
+      "escalated": false,
+      "last_action": null,
+      "state": "degraded"
+    }
+  }
+}

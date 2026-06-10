@@ -36,7 +36,7 @@ REP = {
     "corr": "corr-hdfs-other-2015555",
     "sev": "sev-hdfs-other-72dc9df",
     "tmpl": "tmpl-hdfs-mix-3ac1e1c",
-    "rem": "rem-hdfs-other-3b66455",
+    "rem": "rem-hdfs-other-49f4fdc",
 }
 
 
@@ -135,7 +135,7 @@ def _rem_forge(td: Path, app: Path) -> dict:
     ("bgl-kernstor-2baf5ac", lambda td, app: _v1_degen(td, app, smart=False), 0.95),
     ("sev-hdfs-other-72dc9df", lambda td, app: _sev_degen(td, app, smart=False), 0.90),
     ("sev-hdfs-other-72dc9df", lambda td, app: _sev_degen(td, app, smart=True), 0.90),
-    ("rem-hdfs-other-3b66455", _rem_forge, 0.75),
+    ("rem-hdfs-other-49f4fdc", _rem_forge, 0.75),
 ])
 def test_degenerate_answer_scores_below_ceiling(slug, builder, ceiling):
     td = TASKS / slug
@@ -210,7 +210,7 @@ _FLOOR_SLUGS = [
     "hdfs-datanode-0b694b5", "hadoop-machine-e087882", "bgl-kernstor-2baf5ac",
     "thunderbird-vapi-01593fb", "openstack-vmtask-2024031", "fp-hdfs-noise-85ae5a1",
     "seq-hadoop-machine-227f3f0", "corr-hadoop-machine-29cd40d",
-    "sev-hdfs-other-72dc9df", "tmpl-hdfs-mix-3ac1e1c", "rem-hdfs-other-3b66455",
+    "sev-hdfs-other-72dc9df", "tmpl-hdfs-mix-3ac1e1c", "rem-hdfs-other-49f4fdc",
 ]
 
 
@@ -250,3 +250,23 @@ def test_blind_floor_is_zero(slug):
         f"{slug}: blind format-only answer scored above the floor — "
         "gate/substantive split has regressed"
     )
+
+
+def test_wrong_remedy_does_not_heal():
+    """Fault-specific replay: on a disk_full task the canonical remedy is
+    increase_quota. An agent declaring restart_component (wrong-but-active)
+    must lose both the action-match and the post-mitigation replay — the
+    cluster stays broken when you restart a process to fix a full disk."""
+    td = TASKS / "rem-hadoop-disk-2aa8d76"
+    exp = json.loads((td / "tests" / "expected.json").read_text())
+    assert exp["mitigation"]["action"] == "increase_quota", "fixture drifted"
+    with tempfile.TemporaryDirectory() as t:
+        app = Path(t) / "app"
+        app.mkdir()
+        H._setup_app(td, app)
+        right = H.oracle_answer(td, app)
+        assert H.score(td, right) == 1.0, "oracle no longer scores 1.0 on diverse-action rem"
+        wrong = json.loads(json.dumps(right))
+        wrong["mitigation"]["action"] = "restart_component"
+        r = H.score(td, wrong)
+        assert r < 1.0, "wrong-but-active remedy scored full credit — fault-specific replay regressed"

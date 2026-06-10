@@ -1,0 +1,231 @@
+{
+  "anomaly_locations": [
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 441
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 543
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 572
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 575
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1661
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 600
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1705
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 614
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 618
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1708
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 619
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1711
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 630
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1771
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 650
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1796
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 651
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 677
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1813
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 680
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1817
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 682
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1820
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 698
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 205
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 210
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 215
+    },
+    {
+      "file": "hadoop-yarn.log",
+      "line": 220
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 723
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 724
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 730
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 731
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 733
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 734
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 736
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 737
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 744
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 745
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 753
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 754
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 761
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 762
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 765
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 766
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 772
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 773
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 775
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 776
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 780
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 781
+    }
+  ],
+  "causal_chain": [
+    {
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 441,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-misc.log",
+      "evidence_line": 1661,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 205,
+      "role": "downstream",
+      "step": 2
+    }
+  ],
+  "expected_health": "healthy",
+  "mitigation_action": "increase_quota",
+  "root_cause_type": "disk_full",
+  "root_component_file": "hadoop-mapreduce.log",
+  "root_component_name": "hadoop-mapreduce"
+}

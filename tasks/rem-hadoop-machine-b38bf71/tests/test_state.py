@@ -196,12 +196,20 @@ def _replay_health(initial_state: dict, root: str, action, target) -> str:
     """Deterministic re-implementation of /app/bin/apply_mitigation +
     check_health, run by the VERIFIER against a clean initial state. The
     agent's declared (action, target) is the only agent-controlled input,
-    so hand-editing /app/service_state.json cannot influence the result."""
+    so hand-editing /app/service_state.json cannot influence the result.
+
+    The replay is fault-specific: initial_state.json (verifier-only) carries
+    required_action, the one remedy that actually fixes this fault class.
+    Applying a different active action — restarting a process to fix a full
+    disk — leaves the cluster broken, exactly as it would in production."""
     comps = {k: dict(v) for k, v in initial_state.get("components", {}).items()}
-    if action in ALLOWED_ACTIONS and target == root and action != "mark_noop":
+    required = initial_state.get("required_action")
+    heals = action == required if required else (action in ALLOWED_ACTIONS and action != "mark_noop")
+    if heals and target == root and action != "mark_noop":
         for info in comps.values():
             info["state"] = "healthy"
-    # mark_noop, an out-of-enum action, or a wrong target leaves state as-is.
+    # mark_noop, the wrong remedy, an out-of-enum action, or a wrong target
+    # leaves state as-is.
     states = {info.get("state", "unknown") for info in comps.values()}
     if states == {"healthy"}:
         return "healthy"

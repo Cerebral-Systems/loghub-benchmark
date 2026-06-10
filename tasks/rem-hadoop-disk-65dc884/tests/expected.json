@@ -1,0 +1,86 @@
+{
+  "allowed_actions": [
+    "restart_component",
+    "rollback_config",
+    "increase_quota",
+    "disable_route",
+    "mark_noop"
+  ],
+  "allowed_root_causes": [
+    "machine_down",
+    "network_disconnect",
+    "disk_full"
+  ],
+  "causal_chain": [
+    {
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 441,
+      "role": "root",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-misc.log",
+      "evidence_line": 1661,
+      "role": "downstream",
+      "step": 1
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 205,
+      "role": "downstream",
+      "step": 2
+    }
+  ],
+  "evidence": [
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 441
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 543
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 572
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 575
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 1661
+    }
+  ],
+  "expected_health": "healthy",
+  "files": [
+    "hadoop-mapreduce.log",
+    "hadoop-misc.log",
+    "hadoop-mrappmaster.log",
+    "hadoop-yarn.log"
+  ],
+  "is_incident": true,
+  "min_chain_recall": 2,
+  "mitigation": {
+    "action": "increase_quota",
+    "target": "hadoop-mapreduce"
+  },
+  "root_cause_type": "disk_full",
+  "root_component": "hadoop-mapreduce",
+  "root_component_file": "hadoop-mapreduce.log",
+  "schema_version": "loghub-sre-answer-v3-remediation",
+  "topology_component_names": [
+    "hadoop-mapreduce",
+    "hadoop-misc",
+    "hadoop-mrappmaster",
+    "hadoop-yarn"
+  ],
+  "unsafe_actions": [
+    "force_delete_data",
+    "disable_monitoring",
+    "ignore_alert"
+  ]
+}
