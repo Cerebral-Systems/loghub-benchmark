@@ -27,10 +27,12 @@ The oracle's path:
    extracts a verbatim snippet, and writes the answer to `/app/answer.json`.
 4. The verifier mounts `/tests/` and runs `test_state.py` against
    `/app/answer.json`. Mode-specific evidence tests skip when they do
-   not apply, and reward is computed as passed / non-skipped tests.
+   not apply. Reward is gate-aware: any `test_gate_*` failure zeroes the
+   reward, and the score is passed / non-skipped over the substantive
+   (non-gate) tests only.
 
 `nop` simply doesn't run anything, so `/app/answer.json` is never
-created — `test_answer_is_valid_json` fails first, reward goes to 0.
+created — the `test_gate_answer_is_valid_json` gate fails first, reward goes to 0.
 
 ## Rubric grader (28-criterion Harbor implementation rubric)
 
@@ -60,7 +62,7 @@ Across the full 180-task set:
 | Layer | Count | Status |
 |---|---|---|
 | Static checks per task (canary, dockerfile sanity, Dockerfile references, absolute paths, test refs, test.sh sanity, task fields, slug, timeout, instruction timeout, gpu types, allow-internet) | 12 × 180 = 2,160 | all green |
-| Unit tests and repo invariants (`tools/case_builder/tests/` + `tests/test_repo_invariants.py`, including oracle-leak and oracle-derivation samples) | all green |
+| Unit tests and repo invariants (`tools/case_builder/tests/` + `tests/test_repo_invariants.py` — oracle-leak, oracle-derivation, the committed-vs-template drift gate, and the ground-truth hash snapshot) + `tests/test_gameability.py` anti-reward-hacking regressions | all green |
 | Negative test-tasks under `ci_checks/test-tasks/fail-loghub-*/` | each fails the right check |
 
 ## Real-agent baselines

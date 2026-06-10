@@ -20,8 +20,17 @@ and `make oracle-nop` (oracle 180/180, nop 0/180).
 
 ## Harness / model matrix
 
+> **v1.0 re-baseline in progress.** The rows below were measured under the
+> pre-v1.0 reward (`passed / non_skipped`, zero-effort floor 0.62). v1.0
+> switches to gate-aware scoring (zero-effort floor **0.000** — schema
+> compliance earns nothing) and diversified remediation actions, so these
+> numbers are not comparable to v1.0 runs. The v1.0 table will report
+> **fully-solved rate** as the headline metric, mean reward with 95% CIs over
+> ≥3 runs, per-row cost, and a published zero-effort floor row.
+> Leaderboard protocol: [docs/scoring.md](docs/scoring.md).
+
 180-task runs (May 2026). "Errors" are Harbor trial exceptions counted as zero
-reward. Committed run artifacts are linked.
+reward. Committed run artifacts are linked. Harness: `harbor==0.13.1`.
 
 | Harness | Model / agent | Tasks | Mean reward | Fully solved | Errors | Artifacts |
 |---|---|---:|---:|---:|---:|---|
@@ -64,7 +73,7 @@ Distribution and rationale: [docs/dataset-adapters.md](docs/dataset-adapters.md)
 git clone https://github.com/Cerebral-Systems/loghub-benchmark
 cd loghub-benchmark
 uv venv .venv-tools && . .venv-tools/bin/activate
-pip install harbor pytest pytest-json-ctrf   # the test harness + verifier deps
+pip install 'harbor==0.13.1' pytest pytest-json-ctrf   # pinned harness + verifier deps
 make unit            # adapter + exporter + invariant tests (instant)
 ```
 
