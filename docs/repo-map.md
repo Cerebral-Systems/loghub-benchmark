@@ -14,7 +14,9 @@ from a path configured by `--input`.
 
 | Path | Role | Required for running tasks? |
 |---|---|---|
-| `tasks/` | The 180 published Harbor tasks (60 v1 + 100 v2 + 20 v3 remediation). | Yes |
+| `tasks/` | The 180 scored Harbor tasks, opaque `lh-<hash>` ids (60 v1 + 100 v2: fp 25 / seq 28 / corr 32 / sev 15 + 20 v3 remediation). | Yes |
+| `tracks/tooling/` | 20 unscored log-template-extraction tasks (contaminated GT + mechanizable; kept off the leaderboard). | Optional |
+| `docs/task-id-map.json` | Maps each opaque `lh-<hash>` id back to its descriptive build slug. | Reference |
 | `tools/case_builder/` | Adapters, exporter, curated rebuild, and the in-place test re-render (`rebuild_tests.py`). | Needed for regeneration |
 | `tools/case_builder/curated_selection.json` | Exact manifest for the committed task set. | Needed for reproducible rebuilds |
 | `tools/rubric_check/` | Moonshot-backed rubric checker. | Optional quality review |
@@ -95,8 +97,8 @@ skill type:
 | `seq` temporal sequence | `loghub-sre-answer-v2-seq` |
 | `corr` cross-component correlation | `loghub-sre-answer-v2-corr` |
 | `sev` severity classification | `loghub-sre-answer-v2-sev` |
-| `tmpl` log template extraction | `loghub-sre-answer-v2-tmpl` |
 | `rem` outcome remediation | `loghub-sre-answer-v3-remediation` |
+| `tmpl` log template extraction *(unscored, `tracks/tooling/`)* | `loghub-sre-answer-v2-tmpl` |
 
 Each schema has its own `tests/test_state.py` assertion set. v1 and
 the v2 incident-shaped families share the evidence-validation pattern
