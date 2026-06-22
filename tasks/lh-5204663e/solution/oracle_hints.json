@@ -1,0 +1,29 @@
+{
+  "incident_locations": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 537
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 538
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 606
+    },
+    {
+      "file": "bgl-misc.log",
+      "line": 2578
+    }
+  ],
+  "indicator_locations": [],
+  "is_incident": true,
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

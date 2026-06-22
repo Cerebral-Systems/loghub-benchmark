@@ -80,13 +80,13 @@ and in `tests/expected.json` `root_cause_type`.
 
 ## Evidence validation
 
-`expected.json` includes an `evidence_validation` mode. HDFS, Hadoop,
-and OpenStack use `exact_location`, where every cited `(file, line)`
-must be present in the generated evidence set. BGL and Thunderbird use
-`inline_label`, where the verifier reads the cited line's visible alert
-tag and maps it through the adapter taxonomy. That keeps large inline-
-label slices reviewable without weakening the requirement that every
-evidence citation match the expected root cause.
+`expected.json` includes an `evidence_validation` mode. The committed
+scored tasks use `exact_location`, where every cited `(file, line)` must
+be present in the generated evidence set. BGL and Thunderbird still load
+their raw upstream labels from the first log column, but the exporter
+strips that visible tag from agent-visible logs before scoring, so
+localization is based on the generated ground-truth coordinates rather
+than label-grep.
 
 ## Adding a new dataset
 

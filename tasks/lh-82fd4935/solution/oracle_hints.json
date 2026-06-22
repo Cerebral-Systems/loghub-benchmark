@@ -1,0 +1,29 @@
+{
+  "incident_locations": [
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4360
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 3065
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 3072
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 3756
+    }
+  ],
+  "indicator_locations": [],
+  "is_incident": true,
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

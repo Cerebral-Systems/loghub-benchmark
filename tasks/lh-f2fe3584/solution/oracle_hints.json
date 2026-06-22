@@ -1,0 +1,38 @@
+{
+  "incident_locations": [],
+  "indicator_locations": [
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 13,
+      "why_not_anomalous": "benign_info"
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 183,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "hadoop-mapreduce.log",
+      "line": 208,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 602,
+      "why_not_anomalous": "transient_state"
+    },
+    {
+      "file": "hadoop-misc.log",
+      "line": 603,
+      "why_not_anomalous": "benign_info"
+    }
+  ],
+  "is_incident": false,
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

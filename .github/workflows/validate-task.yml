@@ -117,10 +117,16 @@ jobs:
           PR_NUMBER: ${{ needs.check-trigger.outputs.pr_number }}
           REPO: ${{ github.repository }}
         run: |
+          # Only validate tasks that still EXIST at the PR head. A whole-set
+          # regen (e.g. the v1.0 opaque rename) lists the deleted old dirs in
+          # the PR file set too; without this filter they become matrix
+          # entries whose instruction.md is gone, failing similarity before
+          # oracle/nop ever run.
           TASKS=$(gh api "repos/${REPO}/pulls/${PR_NUMBER}/files" --paginate --jq '.[].filename' | \
             grep -E '^tasks/' | \
             cut -d'/' -f1-2 | \
             sort -u | \
+            while IFS= read -r t; do [ -d "$t" ] && echo "$t"; done | \
             jq -R -s -c 'split("\n") | map(select(length > 0))')
 
           echo "tasks=$TASKS" >> $GITHUB_OUTPUT

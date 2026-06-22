@@ -1,0 +1,29 @@
+{
+  "causal_chain": [
+    {
+      "component": "hdfs-namenode.log",
+      "evidence_line": 6536,
+      "role": "root",
+      "snippet": "081110 011423 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_000371_0/part-00371. blk_-1009207079038502874",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hdfs-datanode-b.log",
+      "evidence_line": 4524,
+      "role": "downstream",
+      "snippet": "081110 011424 5275 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1009207079038502874 src: /10.251.122.79:40097 dest: /10.251.122.79:50010",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hdfs-datanode-a.log",
+      "evidence_line": 5501,
+      "role": "downstream",
+      "snippet": "081110 011428 5308 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1009207079038502874 src: /10.251.27.63:47062 dest: /10.251.27.63:50010",
+      "step": 2
+    }
+  ],
+  "root_cause_type": "other",
+  "root_component": "hdfs-namenode.log"
+}

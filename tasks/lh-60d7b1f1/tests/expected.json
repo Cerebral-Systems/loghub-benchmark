@@ -1,0 +1,130 @@
+{
+  "allowed_root_causes": [
+    "chk_dsk",
+    "cpu",
+    "ecc",
+    "ext_fs",
+    "mpt",
+    "nmi",
+    "pbs_bfd",
+    "pbs_con",
+    "scsi",
+    "vapi",
+    "other_alert"
+  ],
+  "anomaly_keys": [
+    "EXT_FS",
+    "EXT_FS",
+    "MPT",
+    "SCSI",
+    "SCSI"
+  ],
+  "evidence": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4841
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4842
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4928
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5038
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5093
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5094
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5140
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5141
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5142
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5172
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5173
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5174
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5175
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5176
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5177
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5414
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5417
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5445
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5446
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5507
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5526
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5527
+    }
+  ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
+  "files": [
+    "thunderbird-misc.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_scored": true,
+  "root_cause_type": "scsi",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

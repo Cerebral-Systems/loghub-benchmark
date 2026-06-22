@@ -1,0 +1,54 @@
+{
+  "allowed_root_causes": [
+    "replication_failure",
+    "data_corruption",
+    "datanode_unreachable",
+    "namenode_error",
+    "timeout",
+    "other"
+  ],
+  "causal_chain": [
+    {
+      "component": "hdfs-namenode.log",
+      "evidence_line": 1099,
+      "role": "root",
+      "snippet": "081109 211657 32 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_200811092030_0001_m_001208_0/part-01208. blk_-1001299764911418845",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hdfs-datanode-a.log",
+      "evidence_line": 817,
+      "role": "downstream",
+      "snippet": "081109 211657 1590 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1001299764911418845 src: /10.251.214.112:49376 dest: /10.251.214.112:50010",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hdfs-datanode-b.log",
+      "evidence_line": 729,
+      "role": "downstream",
+      "snippet": "081109 211657 1699 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1001299764911418845 src: /10.251.127.47:35655 dest: /10.251.127.47:50010",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "hdfs-datanode-misc.log",
+      "evidence_line": 2151,
+      "role": "downstream",
+      "snippet": "081109 211746 1592 INFO dfs.DataNode$PacketResponder: PacketResponder 0 for block blk_-1001299764911418845 terminating",
+      "step": 3
+    }
+  ],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
+  ],
+  "is_incident": true,
+  "root_cause_type": "other",
+  "root_component": "hdfs-namenode.log",
+  "schema_version": "loghub-sre-answer-v2-corr"
+}

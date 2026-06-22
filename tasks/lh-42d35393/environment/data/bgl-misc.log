@@ -1,0 +1,10 @@
+1130774951 2005.10.31 - 2005-10-31-08.09.11.539422 RAS KERNEL FATAL Kill job 48102 timed out. Block freed.
+1130821945 2005.10.31 - 2005-10-31-21.12.25.762602 RAS KERNEL FATAL Kill job 48119 timed out. Block freed.
+1130868077 2005.11.01 NULL 2005-11-01-10.01.17.354734 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y
+1130868077 2005.11.01 NULL 2005-11-01-10.01.17.960518 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R1M2_255_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+1130868078 2005.11.01 NULL 2005-11-01-10.01.18.143849 NULL RAS MMCS INFO ciodb has been restarted.
+1130868082 2005.11.01 NULL 2005-11-01-10.01.22.495664 NULL RAS BGLMASTER FAILURE mmcs_server exited normally with exit code 1
+1130868225 2005.11.01 NULL 2005-11-01-10.03.45.575991 NULL RAS BGLMASTER INFO BGLMaster has been started: ./BGLMaster --consoleip 127.0.0.1 --consoleport 32035 --configfile bglmaster.init --autorestart y
+1130868226 2005.11.01 NULL 2005-11-01-10.03.46.140785 NULL RAS MMCS INFO idoproxydb has been started: $Name: V1R1M2_255_2005 $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1
+1130868226 2005.11.01 NULL 2005-11-01-10.03.46.325024 NULL RAS MMCS INFO mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog /bgl/BlueLight/logs/BGL --reconnect-blocks all --shutdown-timeout 120
+1130868226 2005.11.01 NULL 2005-11-01-10.03.46.325360 NULL RAS MMCS INFO ciodb has been restarted.

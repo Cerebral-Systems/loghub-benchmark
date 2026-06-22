@@ -52,7 +52,15 @@ TAG_TO_SLUG: dict[str, str] = {tag: tag.lower() for tag in TOP_TAGS}
 
 class BGLAdapter(AdapterBase):
     dataset_name = "BGL"
-    adapter_version = "1"
+    # v2 (tag-strip): the inline alert tag is supervision leakage from the
+    # dataset format — column 0 literally labels every anomalous line, so
+    # localization degenerated to `grep -v '^-'`. v2 strips the label column
+    # from the agent-visible slice (classification still uses it for ground
+    # truth), caps windows at MAX_ANOMALIES_PER_WINDOW so exact-location
+    # expected.json stays reviewable, and round-robins slice anchors across
+    # alert classes so rare tags are represented (Thunderbird was 100% vapi).
+    adapter_version = "2"
+    MAX_ANOMALIES_PER_WINDOW: int = 40
     # Subclasses (e.g. ThunderbirdAdapter) override these four class attrs
     # plus root_cause_taxonomy to inherit BGL's inline-tag slicing logic
     # without reimplementing it.
@@ -137,6 +145,7 @@ class BGLAdapter(AdapterBase):
             anomaly_indices_all=anomaly_indices_all,
             seed=seed,
             max_cases=max_cases,
+            labels=labels,
         )
         if not plans:
             return
@@ -156,19 +165,44 @@ class BGLAdapter(AdapterBase):
             if not in_window:
                 continue
             anomaly_lines = [(idx - offset) + 1 for idx in in_window]
+            # Classify from the RAW buffer (tags intact), then strip the
+            # label column from the agent-visible lines. Line numbers are
+            # preserved — stripping is a per-line transform.
             root_cause = self.classify_root_cause(list(slice_.lines), anomaly_lines)
+            stripped = LogSlice(
+                lines=tuple(self._strip_tag(line) for line in slice_.lines),
+                offset=offset,
+                length=length,
+            )
             yield CandidateCase(
-                case_id=self.case_id(slice_, anomaly_lines),
+                case_id=self.case_id(stripped, anomaly_lines),
                 dataset_name=self.dataset_name,
                 adapter_version=self.adapter_version,
-                slice=slice_,
+                slice=stripped,
                 anomaly_line_ids=tuple(anomaly_lines),
                 root_cause=root_cause,
                 anomaly_keys=tuple(
                     labels.entries[str(idx)] for idx in in_window[:5]
                 ),
-                extra={"slice_seed": plan["slice_seed"], "anchor": plan["anchor"]},
+                extra={
+                    "slice_seed": plan["slice_seed"],
+                    "anchor": plan["anchor"],
+                    "tag_stripped": True,
+                },
             )
+
+    @staticmethod
+    def _strip_tag(line: str) -> str:
+        """Remove the leading alert-label column ('-' or a tag like KERNSTOR).
+
+        The rest of the line — timestamps, node ids, the actual message —
+        is untouched, so the agent must find anomalies by content, not by
+        grepping the curated label."""
+        stripped = line.strip()
+        if not stripped:
+            return line
+        parts = line.split(None, 1)
+        return parts[1] if len(parts) == 2 else ""
 
     @staticmethod
     def _count_lines(log_path: Path) -> int:
@@ -182,10 +216,34 @@ class BGLAdapter(AdapterBase):
         anomaly_indices_all: list[int],
         seed: int,
         max_cases: int | None,
+        labels: LabelIndex | None = None,
     ) -> list[dict]:
         """Compute slice geometry and dedup overlapping windows. Returns
-        the plans in priority order (i.e. the order cases will be yielded)."""
+        the plans in priority order (i.e. the order cases will be yielded).
+
+        Anchors are round-robined across alert classes (when labels are
+        available) so rare tags get windows — without this, frequency
+        ordering made Thunderbird 100% vapi. Windows holding more than
+        MAX_ANOMALIES_PER_WINDOW tagged lines are skipped: the exact-
+        location ground truth must list every in-window anomaly, and a
+        wall-of-alerts window is a worse task than a needle-in-noise one."""
         order = self._deterministic_order(anomaly_indices_all, seed)
+        if labels is not None:
+            # Bucket by alert class, preserving the deterministic order
+            # inside each bucket, then interleave buckets (rarest first so
+            # they land even when max_cases is small).
+            buckets: dict[str, list[int]] = {}
+            for anchor in order:
+                tag = labels.entries.get(str(anchor), "")
+                buckets.setdefault(tag, []).append(anchor)
+            by_rarity = sorted(buckets, key=lambda t: (len(buckets[t]), t))
+            interleaved: list[int] = []
+            longest = max(len(v) for v in buckets.values())
+            for i in range(longest):
+                for t in by_rarity:
+                    if i < len(buckets[t]):
+                        interleaved.append(buckets[t][i])
+            order = interleaved
         plans: list[dict] = []
         covered: set[int] = set()
         # anomaly_indices_all is sorted; use bisect for O(log n) window queries
@@ -202,6 +260,8 @@ class BGLAdapter(AdapterBase):
             right = bisect.bisect_left(anomaly_indices_all, offset + length)
             in_window = anomaly_indices_all[left:right]
             if not in_window:
+                continue
+            if len(in_window) > self.MAX_ANOMALIES_PER_WINDOW:
                 continue
             covered.update(in_window)
             plans.append({
@@ -294,8 +354,13 @@ class BGLAdapter(AdapterBase):
                     indicators = self._mine_fp_indicators(buffer)
                     if len(indicators) >= FP_MIN_INDICATORS:
                         slice_seed = self._mix_seed(seed, buffer_start)
+                        # Strip the label column from benign windows too:
+                        # the mixed fp family's true-incident windows come
+                        # from iter_candidate_cases (stripped), so an
+                        # unstripped benign window — or its all-'-' label
+                        # column — would discriminate the classes for free.
                         slice_ = LogSlice(
-                            lines=tuple(buffer),
+                            lines=tuple(self._strip_tag(line) for line in buffer),
                             offset=buffer_start,
                             length=len(buffer),
                         )
@@ -388,8 +453,13 @@ class BGLAdapter(AdapterBase):
     def parse_event(self, line: str) -> dict | None:
         """Return {timestamp, component, level} for a BGL/Thunderbird line.
 
-        Token 0 = TAG (or `-`), token 1 = epoch seconds.
-        Component = TAG. Level = always "ALERT" for non-`-` lines.
+        Handles both line formats:
+        - raw (label column intact): token 0 = TAG (or `-`), token 1 = epoch.
+          Component = TAG.
+        - tag-stripped (adapter v2 slices): token 0 = epoch, token 1 = date,
+          token 2 = node/location. Component = the node token — a better
+          propagation-grouping key than the alert tag anyway (same node =
+          propagation, different node = consequence).
         """
         parts = line.split(None, 3)
         if len(parts) < 2:
@@ -398,7 +468,12 @@ class BGLAdapter(AdapterBase):
         try:
             ts = int(parts[1])
         except ValueError:
-            return None
+            try:
+                ts = int(parts[0])
+            except ValueError:
+                return None
+            component = parts[2] if len(parts) > 2 else "NODE"
+            return {"timestamp": ts, "component": component, "level": "ALERT"}
         component = tag if tag != "-" else "NORMAL"
         level = "ALERT" if tag != "-" else "INFO"
         return {"timestamp": ts, "component": component, "level": level}

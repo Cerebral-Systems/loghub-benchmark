@@ -1,0 +1,52 @@
+{
+  "allowed_root_causes": [
+    "chk_dsk",
+    "cpu",
+    "ecc",
+    "ext_fs",
+    "mpt",
+    "nmi",
+    "pbs_bfd",
+    "pbs_con",
+    "scsi",
+    "vapi",
+    "other_alert"
+  ],
+  "anomaly_keys": [
+    "NMI",
+    "NMI",
+    "ECC"
+  ],
+  "evidence": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 11328
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 11329
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 11392
+    }
+  ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
+  "files": [
+    "thunderbird-misc.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_scored": true,
+  "root_cause_type": "nmi",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

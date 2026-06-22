@@ -43,6 +43,10 @@ JOB_LINE_RE = re.compile(r"^\+?\s*(application_\d+_\d+)\s*$")
 
 
 class HadoopAdapter(AdapterBase):
+    # Coarse (app/VM-level) labels: windows carry many anomaly lines;
+    # the fp-true 'subtle' ceiling must be wider or no window qualifies.
+    FP_TRUE_MAX_ANOMALY_LINES = 40
+
     dataset_name = "Hadoop"
     adapter_version = "1"
     # Cases only emit anomalous root causes; 'normal' is preserved for the

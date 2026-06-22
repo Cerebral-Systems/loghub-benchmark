@@ -10,8 +10,13 @@ see [scoring.md](scoring.md); for how tasks are generated, see
 Every task is a self-contained [Harbor](https://www.harborframework.com/docs/tasks)
 task directory:
 
+Task ids are **opaque** (`tasks/lh-<hash>/`) so the directory name leaks no
+dataset or root-cause hint; `docs/task-id-map.json` maps each back to its
+descriptive build slug. The 20 unscored log-template-extraction tasks live under
+`tracks/tooling/` (same layout), not in `tasks/`.
+
 ```
-tasks/<slug>/
+tasks/lh-<hash>/
 ├── instruction.md         # the prompt the agent sees
 ├── task.toml              # Harbor metadata ([task]/[metadata]/[environment]/[agent]/[verifier])
 ├── environment/
@@ -50,17 +55,24 @@ The agent writes `/app/answer.json`. v1 localization example:
 }
 ```
 
-Each of the 7 skill families has its own `schema_version` and answer shape:
+Each skill family has its own `schema_version` and answer shape. Six are
+**scored** (180 tasks); template extraction ships as an **unscored tooling
+track** under `tracks/tooling/`:
 
-| Family | schema_version | Answer shape |
-|---|---|---|
-| v1 localization | `…-v2` | `evidence[]` + `anomaly_keys` + `root_cause_type` + `recommended_action` |
-| false-positive | `…-v2-fp` | `false_positive_indicators[]` + `why_not_anomalous` |
-| temporal sequence | `…-v2-seq` | `timeline[]` (ordered) + trigger + roles |
-| correlation | `…-v2-corr` | `root_component` + `causal_chain[]` (role, caused_by_step) |
-| severity | `…-v2-sev` | `severity` (P0–P3) + `severity_justification` + `evidence[]` |
-| template extraction | `…-v2-tmpl` | `templates[]` partitioning all lines |
-| remediation (v3) | `…-v3-remediation` | causal chain + `mitigation` (action, target) + recovered health |
+| Family | Count | schema_version | Answer shape |
+|---|---:|---|---|
+| v1 localization | 60 | `…-v2` | `evidence[]` + `anomaly_keys` + `root_cause_type` + `recommended_action` |
+| false-positive (mixed) | 25 | `…-v2-fp` | verdict `is_incident` + `false_positive_indicators[]` **or** `incident_evidence[]` |
+| temporal sequence | 28 | `…-v2-seq` | `timeline[]` (ordered) + trigger + roles |
+| correlation | 32 | `…-v2-corr` | `root_component` + `causal_chain[]` (role, caused_by_step) |
+| severity | 15 | `…-v2-sev` | `severity` (P0–P3) + `severity_justification` + `evidence[]` |
+| remediation (v3) | 20 | `…-v3-remediation` | causal chain + `mitigation` (action, target) + recovered health |
+| *template extraction (unscored)* | *20* | `…-v2-tmpl` | `templates[]` partitioning all lines — `tracks/tooling/` |
+
+The false-positive family is **mixed**: ~60% benign-noise windows
+(`is_incident=false`, cite `false_positive_indicators[]`) and ~40% subtle true
+incidents (`is_incident=true`, cite `incident_evidence[]`), so the verdict is a
+real decision, not a family constant.
 
 ## Grading
 
@@ -85,8 +97,8 @@ appear **verbatim** (non-empty, ≥12 chars), evidence is **within the
 ground-truth set**, `root_cause_type` is in the dataset taxonomy and matches the
 gold label, and `recommended_action` is in the safe set. Evidence-validation
 modes:
-- **exact-location** (HDFS / Hadoop / OpenStack): cited `(file, line)` must be in the GT set.
-- **inline-label** (BGL / Thunderbird): each cited line's visible alert tag must map to the expected root cause, over ≥ `min_evidence_count` distinct lines.
+- **exact-location** (committed scored tasks): cited `(file, line)` must be in the GT set.
+- **inline-label** (legacy/future-only): each cited line's visible alert tag must map to the expected root cause, over ≥ `min_evidence_count` distinct lines.
 
 **Anti-gaming.** Credit is bound to evidence (a slug-guessable category earns
 nothing without grounded citations), empty/trivial snippets are rejected, and

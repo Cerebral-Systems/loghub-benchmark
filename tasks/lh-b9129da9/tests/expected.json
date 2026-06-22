@@ -1,0 +1,43 @@
+{
+  "allowed_root_causes": [
+    "chk_dsk",
+    "cpu",
+    "ecc",
+    "ext_fs",
+    "mpt",
+    "nmi",
+    "pbs_bfd",
+    "pbs_con",
+    "scsi",
+    "vapi",
+    "other_alert"
+  ],
+  "causal_chain": [
+    {
+      "component": "thunderbird-edge.log",
+      "evidence_line": 1,
+      "role": "root",
+      "snippet": "VAPI 1150652438 2006.06.18 en383 Jun 18 10:40:38 en383/en383 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "thunderbird-compute.log",
+      "evidence_line": 177,
+      "role": "downstream",
+      "snippet": "VAPI 1150652455 2006.06.18 cn234 Jun 18 10:40:55 cn234/cn234 kernel: [KERNEL_IB][tsIbTavorMadProcess][/mnt_projects/sysapps/src/ib/topspin/topspin-src-3.2.0-16/ib/tavor/provider/obj_host_amd64_custom1_rhel4/ts_ib_tavor/tavor_mad.c:152]InfiniHost0: EVAPI_process_local_mad failed, return code = -254 (",
+      "step": 1
+    }
+  ],
+  "files": [
+    "thunderbird-compute.log",
+    "thunderbird-domain.log",
+    "thunderbird-edge.log",
+    "thunderbird-other.log",
+    "thunderbird-tbird.log"
+  ],
+  "is_incident": true,
+  "root_cause_type": "vapi",
+  "root_component": "thunderbird-edge.log",
+  "schema_version": "loghub-sre-answer-v2-corr"
+}

@@ -129,6 +129,13 @@ class AdapterBase:
             f"{type(self).__name__} does not implement iter_false_positive_windows"
         )
 
+    # "Subtle incident" ceiling for fp-true windows. Line-labeled corpora
+    # (BGL/Thunderbird/HDFS) keep the tight default; coarse-labeled corpora
+    # (Hadoop app-level, OpenStack per-VM) label whole regions anomalous,
+    # so their windows legitimately carry more anomaly lines — adapters
+    # override this or no fp-true window survives the filter.
+    FP_TRUE_MAX_ANOMALY_LINES: int = 8
+
     def iter_true_incident_fp_windows(
         self,
         input_path: Path,
@@ -136,7 +143,7 @@ class AdapterBase:
         *,
         max_cases: int | None = None,
         seed: int = 0,
-        max_anomaly_lines: int = 8,
+        max_anomaly_lines: int | None = None,
     ) -> Iterator["CandidateCase"]:
         """V2/T1 true-incident distractors: windows that DO contain a real
         (sparse) incident, rendered under the fp triage schema so the
@@ -152,6 +159,8 @@ class AdapterBase:
             1-based anomaly locations,
           - `root_cause` = the real classified label.
         """
+        if max_anomaly_lines is None:
+            max_anomaly_lines = self.FP_TRUE_MAX_ANOMALY_LINES
         emitted = 0
         # Distinct seed-space from the v1 sampler so fp-true windows do not
         # simply duplicate committed v1 localization tasks.

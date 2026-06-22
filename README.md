@@ -1,18 +1,29 @@
 # Loghub SRE Harbor benchmark
 
 A Harbor-compatible benchmark for SRE log-investigation skills.
-**180 curated tasks** built from the Loghub corpus [(`logpai/loghub`)](https://github.com/logpai/loghub),
-across **7 skill types × 5 datasets**: anomaly localization (v1, 60), false-positive
+**180 scored tasks** built from the Loghub corpus [(`logpai/loghub`)](https://github.com/logpai/loghub),
+across **6 skill types × 5 datasets**: anomaly localization (v1, 60), false-positive
 triage, temporal-sequence reconstruction, cross-component correlation, severity
-classification, log-template extraction (v2, 100), and outcome-oriented
-remediation (v3, 20).
+classification (v2, 100), and outcome-oriented remediation (v3, 20). A 7th type,
+log-template extraction, ships as a **20-task unscored tooling track**
+([`tracks/tooling/`](tracks/tooling/)) — see [why](docs/data-provenance.md).
+
+Tasks carry **opaque ids** (`lh-<hash>`) so the slug leaks no dataset or
+root-cause hint; the human-readable mapping is in
+[docs/task-id-map.json](docs/task-id-map.json).
 
 Each task ships a Docker environment with partitioned log files and asks the
 agent to investigate and emit a structured JSON answer (`/app/answer.json`). The
-verifier grades it on schema-specific assertions and writes a fractional reward
-(`passed / non_skipped`) to `/logs/verifier/reward.txt`, so partially-correct
-answers register on a continuous 0–1 scale. Full layout and grading:
+verifier grades it with **gate-aware scoring**: format/integrity checks are gates
+(any failure → reward 0, passing earns no credit), and the fractional reward
+(`passed / non_skipped` over the substantive tests) is written to
+`/logs/verifier/reward.txt`. A schema-compliant no-investigation answer scores
+**0.000**. Full layout and grading:
 **[docs/structure-and-grading.md](docs/structure-and-grading.md)**.
+
+Committed tasks set `[environment].allow_internet = false`; verifier
+dependencies are baked into the task image, and agent/runtime dependencies must
+come from the local harness setup rather than task-time installs.
 
 Status: ready for community testing. The committed set passes every gate —
 adapter/exporter/repo-invariant tests, `make static` (12 checks × 180 tasks),
@@ -55,17 +66,23 @@ harbor run -p tasks/ --agent mini-swe-agent -m deepseek/deepseek-v4-flash \
 |---|---|---|
 | HDFS_v1 | 575k labelled blocks; heuristic root-cause | by component (NameNode / DataNode-a/b / FSNamesystem) |
 | Hadoop | gold `abnormal_label.txt` (machine_down / disk_full / network_disconnect) | by component (MRAppMaster / mapreduce / yarn) |
-| BGL | inline 0th-column alert tag (KERNDTLB, APPSEV, KERNSTOR, …) | by node/location token |
-| Thunderbird | same inline format as BGL | by hostname role (compute / edge / domain) |
-| OpenStack | anomalous VM UUIDs from `anomaly_labels.txt` | by service (nova-api / -compute / -scheduler) |
+| BGL | inline alert tag (KERNDTLB, APPSEV, KERNSTOR, …), **stripped from the visible logs** so localization is content-based, not label-grep | by node/location token |
+| Thunderbird | same inline format as BGL, alert tag **stripped**; slices are class-balanced (not 99% VAPI) | by hostname role (compute / edge / domain) |
+| OpenStack | anomalous VM UUIDs from `anomaly_labels.txt` (single injected fault → root cause is constant, so it is **evidence-only scored**) | by service (nova-api / -compute / -scheduler) |
+
+Scored set (180):
 
 | Layer | Skill types | Tasks |
 |---|---|---:|
 | v1 | anomaly localization | 60 |
-| v2 | false-positive triage, temporal sequence, cross-component correlation, severity, template extraction | 100 |
+| v2 | false-positive triage (25), temporal sequence (28), cross-component correlation (32), severity (15) | 100 |
 | v3 | remediation & recovery | 20 |
 
-Distribution and rationale: [docs/dataset-adapters.md](docs/dataset-adapters.md).
+Plus an **unscored tooling track**: log-template extraction (20), in
+[`tracks/tooling/`](tracks/tooling/) — kept out of the leaderboard because its
+ground truth comes from the published Loghub-2k templates (contamination) and a
+deterministic templater solves it (mechanizable). Distribution and rationale:
+[docs/dataset-adapters.md](docs/dataset-adapters.md), [docs/data-provenance.md](docs/data-provenance.md).
 
 ## Install
 
@@ -83,8 +100,8 @@ tasks — see [docs/data-setup.md](docs/data-setup.md)).
 ## Run
 
 ```bash
-harbor run -p tasks/hdfs-datanode-0b694b5 --agent oracle    # reward=1
-harbor run -p tasks/hdfs-datanode-0b694b5 --agent nop       # reward=0
+harbor run -p tasks/lh-f53d4948 --agent oracle    # reward=1
+harbor run -p tasks/lh-f53d4948 --agent nop       # reward=0
 make validate-all                                           # all CI gates locally
 ```
 
@@ -104,7 +121,7 @@ modes, and the determinism/canary/anti-leak gates are documented in
 per-assertion list in [docs/scoring.md](docs/scoring.md)).
 
 ```
-tasks/<slug>/
+tasks/lh-<hash>/        # opaque id — the slug encodes nothing about the answer
 ├── instruction.md     # what the agent sees
 ├── task.toml          # Harbor metadata
 ├── environment/       # Dockerfile + data/*.log  (agent-visible)
@@ -116,7 +133,8 @@ tasks/<slug>/
 
 ```
 loghub-benchmark/
-├── tasks/                       # 180 curated tasks (60 v1 + 100 v2 + 20 remediation)
+├── tasks/                       # 180 scored tasks, opaque lh-<hash> ids (60 v1 + 100 v2 + 20 remediation)
+├── tracks/tooling/              # 20 unscored log-template-extraction tasks
 ├── tools/case_builder/          # adapters + exporter + rebuild_tests
 ├── tools/rubric_check/          # Moonshot rubric grader
 ├── tests/                       # repo invariants, gameability regressions, snapshots
@@ -124,6 +142,8 @@ loghub-benchmark/
 ├── rubrics/                     # Harbor rubric TOMLs
 └── .github/workflows/           # PR validation (static + oracle/nop + rubric)
 ```
+
+`docs/task-id-map.json` maps each opaque id back to its descriptive build slug.
 
 Fuller map: [docs/repo-map.md](docs/repo-map.md).
 

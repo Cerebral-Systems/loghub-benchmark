@@ -1,0 +1,26 @@
+{
+  "root_cause_type": "other_alert",
+  "timeline": [
+    {
+      "component": "R06-M1-NF",
+      "file": "bgl-racks-a.log",
+      "line": 4441,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "component": "R06-M1-NF",
+      "file": "bgl-racks-a.log",
+      "line": 4442,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "component": "R06-M0-N5-C:J14-U01",
+      "file": "bgl-racks-a.log",
+      "line": 4510,
+      "role": "consequence",
+      "sequence": 2
+    }
+  ]
+}

@@ -10,6 +10,7 @@ Fails if max similarity >= threshold (default 80%).
 
 from __future__ import annotations
 
+import json
 import subprocess
 import sys
 import tempfile
@@ -17,6 +18,17 @@ from pathlib import Path
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
+
+def _schema_of(task_dir: Path) -> str | None:
+    """The task's schema_version (skill family), or None if unavailable."""
+    p = task_dir / "tests" / "expected.json"
+    if not p.exists():
+        return None
+    try:
+        return json.loads(p.read_text()).get("schema_version")
+    except (ValueError, OSError):
+        return None
 
 SIMILARITY_THRESHOLD = 0.80
 # CUSTOMIZE — add reference repos to compare against for duplicate detection.
@@ -140,10 +152,20 @@ def main() -> int:
     reference_instructions: dict[str, str] = {}
 
     task_name = task_path.name
+    candidate_schema = _schema_of(task_path)
     local_tasks_dir = Path("tasks")
     if local_tasks_dir.exists():
         local = load_instructions(local_tasks_dir, exclude_task=task_name)
         for tid, text in local.items():
+            # This is a GENERATED benchmark: tasks of the same skill family
+            # (same schema_version) share an instruction template by
+            # construction — only the log slice and the answer differ, so
+            # their instruction-text similarity is high BY DESIGN and is not
+            # duplication. Skip same-family local siblings; the guard still
+            # catches a task copied from a DIFFERENT family, or (via
+            # REFERENCE_REPOS) lifted from another repo.
+            if candidate_schema and _schema_of(local_tasks_dir / tid) == candidate_schema:
+                continue
             reference_instructions[f"local/{tid}"] = text
 
     repos = [parse_repo_entry(r) for r in REFERENCE_REPOS]

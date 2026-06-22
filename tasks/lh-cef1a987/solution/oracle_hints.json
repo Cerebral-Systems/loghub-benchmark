@@ -1,0 +1,25 @@
+{
+  "incident_locations": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5539
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5540
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 5554
+    }
+  ],
+  "indicator_locations": [],
+  "is_incident": true,
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

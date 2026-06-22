@@ -1,0 +1,33 @@
+{
+  "root_cause_type": "datanode_unreachable",
+  "timeline": [
+    {
+      "component": "dfs.FSNamesystem",
+      "file": "hdfs-namenode.log",
+      "line": 514,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-a.log",
+      "line": 356,
+      "role": "consequence",
+      "sequence": 1
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-a.log",
+      "line": 434,
+      "role": "consequence",
+      "sequence": 2
+    },
+    {
+      "component": "dfs.DataNode",
+      "file": "hdfs-datanode-misc.log",
+      "line": 472,
+      "role": "consequence",
+      "sequence": 3
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 
 .PHONY: default static oracle-nop unit validate-all rebuild-curated
 
-PYTHON ?= .venv-tools/bin/python
+PYTHON ?= $(shell if [ -x .venv-tools/bin/python ]; then echo .venv-tools/bin/python; elif [ -x .venv/bin/python ]; then echo .venv/bin/python; else echo python3; fi)
 TASKS  := $(shell ls tasks 2>/dev/null | grep -v '^\.')
 
 default:

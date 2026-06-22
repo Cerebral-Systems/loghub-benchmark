@@ -1,0 +1,113 @@
+{
+  "incident_locations": [
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1001
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1002
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1003
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1004
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1005
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1006
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1007
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1008
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1009
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1015
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1016
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1017
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1024
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1025
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1026
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1027
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1028
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1029
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1033
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1034
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1035
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1036
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1037
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1038
+    },
+    {
+      "file": "openstack-nova-compute.log",
+      "line": 1051
+    }
+  ],
+  "indicator_locations": [],
+  "is_incident": true,
+  "why_not_anomalous_choices": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ]
+}

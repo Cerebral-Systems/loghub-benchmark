@@ -1,11 +1,13 @@
 # Baselines
 
 This page records substrate-correctness baselines for the committed
-180-task Harbor benchmark (60 v1 anomaly localization + 100 v2 across
-5 skill axes + 20 v3 outcome remediation). Real-agent leaderboard
-numbers live in the top-level `README.md`; this doc covers only the
-oracle/nop and rubric gates that validate the benchmark substrate
-itself.
+180-task scored Harbor benchmark (60 v1 anomaly localization + 100 v2
+across 4 skill axes — false-positive 25, sequence 28, correlation 32,
+severity 15 — + 20 v3 outcome remediation). A 20-task log-template
+extraction tooling track ships unscored under `tracks/tooling/`.
+Real-agent leaderboard numbers live in the top-level `README.md`; this
+doc covers only the oracle/nop and rubric gates that validate the
+benchmark substrate itself.
 
 ## Oracle vs nop on the curated 180-task set
 

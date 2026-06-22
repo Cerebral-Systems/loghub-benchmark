@@ -1,0 +1,48 @@
+{
+  "allowed_roles": [
+    "trigger",
+    "propagation",
+    "consequence",
+    "noise"
+  ],
+  "allowed_root_causes": [
+    "chk_dsk",
+    "cpu",
+    "ecc",
+    "ext_fs",
+    "mpt",
+    "nmi",
+    "pbs_bfd",
+    "pbs_con",
+    "scsi",
+    "vapi",
+    "other_alert"
+  ],
+  "files": [
+    "thunderbird-misc.log"
+  ],
+  "is_incident": true,
+  "kendall_tau_threshold": 0.8,
+  "root_cause_type": "nmi",
+  "schema_version": "loghub-sre-answer-v2-seq",
+  "timeline": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2516,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2517,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 2580,
+      "role": "propagation",
+      "sequence": 2
+    }
+  ]
+}

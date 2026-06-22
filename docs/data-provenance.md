@@ -9,8 +9,8 @@ weaknesses are. This page documents that, per dataset.
 |---|---|---|---|
 | HDFS_v1 | `preprocessed/anomaly_label.csv` (575k labelled blocks; from Xu et al. 2009) | per-block | The block labels are known in the literature to contain a minority of mislabels/ambiguous traces; root-cause subtypes (`datanode_unreachable` vs `other`) are heuristic refinements by our adapter, not upstream gold. |
 | Hadoop | `abnormal_label.txt` (55 applications) | per-application (coarse) | Gold fault injection (machine_down / disk_full / network_disconnect), but app-level: every line window from an abnormal app inherits the app's label, so some windows show mostly-normal activity. |
-| BGL | inline 0th-column alert tag (`KERNDTLB`, `APPSEV`, …) | per-line | Highest-fidelity labels in the corpus (operator-assigned alert categories). The tag is visible in the log text — see the inline-label caveat in [scoring.md](scoring.md). |
-| Thunderbird | inline 0th-column alert tag | per-line | Same fidelity as BGL, but heavily skewed: VAPI is ~99.6% of tagged anomalies, so root-cause diversity is structurally limited. |
+| BGL | inline 0th-column alert tag (`KERNDTLB`, `APPSEV`, …) | per-line | Highest-fidelity labels in the corpus (operator-assigned alert categories). Exported task logs strip this visible tag before scoring. |
+| Thunderbird | inline 0th-column alert tag | per-line | Same fidelity as BGL, but heavily skewed: VAPI is ~99.6% of tagged anomalies, so root-cause diversity is structurally limited. Exported task logs strip this visible tag before scoring. |
 | OpenStack | `anomaly_labels.txt` (4 anomalous VM UUIDs) | per-VM-instance | Only 4 anomalous instances exist, all the same injected fault (abrupt VM destruction) — root-cause classification on this dataset is constant by construction; scoring weights evidence, not the category. |
 
 ## Family-level notes

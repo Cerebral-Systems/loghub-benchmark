@@ -1,0 +1,40 @@
+{
+  "allowed_why_not_anomalous": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ],
+  "false_positive_indicators": [],
+  "files": [
+    "hdfs-datanode-a.log",
+    "hdfs-datanode-b.log",
+    "hdfs-datanode-misc.log",
+    "hdfs-misc.log",
+    "hdfs-namenode.log"
+  ],
+  "incident_evidence": [
+    {
+      "file": "hdfs-namenode.log",
+      "line": 4360
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 3065
+    },
+    {
+      "file": "hdfs-datanode-b.log",
+      "line": 3072
+    },
+    {
+      "file": "hdfs-datanode-a.log",
+      "line": 3756
+    }
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "min_indicator_count": 0,
+  "root_cause_type": "other",
+  "schema_version": "loghub-sre-answer-v2-fp"
+}

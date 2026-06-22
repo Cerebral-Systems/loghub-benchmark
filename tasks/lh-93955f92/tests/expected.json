@@ -1,0 +1,125 @@
+{
+  "allowed_root_causes": [
+    "appread",
+    "appres",
+    "appsev",
+    "appunav",
+    "kerndtlb",
+    "kernmntf",
+    "kernrec",
+    "kernrtsp",
+    "kernstor",
+    "kernterm",
+    "other_alert"
+  ],
+  "anomaly_keys": [
+    "KERNBIT",
+    "KERNRTSP",
+    "KERNMC",
+    "KERNNOETH",
+    "KERNNOETH"
+  ],
+  "evidence": [
+    {
+      "file": "bgl-racks-a.log",
+      "line": 551
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 552
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 595
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 3782
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 3786
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 678
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 758
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 800
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4905
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4907
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4908
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4909
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4910
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4911
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1742
+    },
+    {
+      "file": "bgl-racks-b.log",
+      "line": 1787
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 4935
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2040
+    },
+    {
+      "file": "bgl-racks-a.log",
+      "line": 2085
+    },
+    {
+      "file": "bgl-racks-c.log",
+      "line": 5394
+    }
+  ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
+  "files": [
+    "bgl-misc.log",
+    "bgl-racks-a.log",
+    "bgl-racks-b.log",
+    "bgl-racks-c.log"
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "root_cause_scored": true,
+  "root_cause_type": "kernrtsp",
+  "safe_recommendations": [
+    "escalate",
+    "investigate",
+    "no_action",
+    "open_incident",
+    "page_owner"
+  ],
+  "schema_version": "loghub-sre-answer-v2"
+}

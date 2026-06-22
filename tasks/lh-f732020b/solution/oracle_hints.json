@@ -1,0 +1,29 @@
+{
+  "causal_chain": [
+    {
+      "component": "bgl-racks-b.log",
+      "evidence_line": 1,
+      "role": "root",
+      "snippet": "KERNSTOR 1118709404 2005.06.13 R16-M1-NB-C:J11-U11 2005-06-13-17.36.44.894568 R16-M1-NB-C:J11-U11 RAS KERNEL FATAL data storage interrupt",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "bgl-racks-c.log",
+      "evidence_line": 1,
+      "role": "downstream",
+      "snippet": "KERNSTOR 1118709405 2005.06.13 R17-M1-N5-C:J09-U11 2005-06-13-17.36.45.781256 R17-M1-N5-C:J09-U11 RAS KERNEL FATAL data storage interrupt",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "bgl-racks-a.log",
+      "evidence_line": 1,
+      "role": "downstream",
+      "snippet": "KERNSTOR 1118709406 2005.06.13 R12-M1-N9-C:J09-U11 2005-06-13-17.36.46.750817 R12-M1-N9-C:J09-U11 RAS KERNEL FATAL data storage interrupt",
+      "step": 2
+    }
+  ],
+  "root_cause_type": "kernstor",
+  "root_component": "bgl-racks-b.log"
+}

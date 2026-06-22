@@ -1,0 +1,145 @@
+{
+  "root_cause_type": "kernrtsp",
+  "timeline": [
+    {
+      "component": "R30-M0-N7-C:J08-U01",
+      "file": "bgl-racks-a.log",
+      "line": 364,
+      "role": "trigger",
+      "sequence": 0
+    },
+    {
+      "component": "R30-M0-N7-C:J08-U01",
+      "file": "bgl-racks-a.log",
+      "line": 365,
+      "role": "propagation",
+      "sequence": 1
+    },
+    {
+      "component": "R15-M0-N6-C:J15-U01",
+      "file": "bgl-racks-a.log",
+      "line": 408,
+      "role": "consequence",
+      "sequence": 2
+    },
+    {
+      "component": "R53-M1-NC-I:J18-U01",
+      "file": "bgl-racks-c.log",
+      "line": 597,
+      "role": "consequence",
+      "sequence": 3
+    },
+    {
+      "component": "R53-M1-NC-I:J18-U01",
+      "file": "bgl-racks-c.log",
+      "line": 601,
+      "role": "consequence",
+      "sequence": 4
+    },
+    {
+      "component": "R15-M0-N6-C:J15-U01",
+      "file": "bgl-racks-a.log",
+      "line": 491,
+      "role": "consequence",
+      "sequence": 5
+    },
+    {
+      "component": "R15-M0-N6-C:J15-U01",
+      "file": "bgl-racks-a.log",
+      "line": 571,
+      "role": "consequence",
+      "sequence": 6
+    },
+    {
+      "component": "R15-M0-N6-C:J15-U01",
+      "file": "bgl-racks-a.log",
+      "line": 613,
+      "role": "consequence",
+      "sequence": 7
+    },
+    {
+      "component": "R02-M1-N6-C:J12-U01",
+      "file": "bgl-racks-c.log",
+      "line": 1720,
+      "role": "consequence",
+      "sequence": 8
+    },
+    {
+      "component": "R02-M1-N6-C:J12-U01",
+      "file": "bgl-racks-c.log",
+      "line": 1722,
+      "role": "consequence",
+      "sequence": 9
+    },
+    {
+      "component": "R02-M1-N6-C:J12-U01",
+      "file": "bgl-racks-c.log",
+      "line": 1723,
+      "role": "consequence",
+      "sequence": 10
+    },
+    {
+      "component": "R02-M1-N6-C:J12-U01",
+      "file": "bgl-racks-c.log",
+      "line": 1724,
+      "role": "consequence",
+      "sequence": 11
+    },
+    {
+      "component": "R02-M1-N6-C:J12-U01",
+      "file": "bgl-racks-c.log",
+      "line": 1725,
+      "role": "consequence",
+      "sequence": 12
+    },
+    {
+      "component": "R35-M0-N0-I:J18-U11",
+      "file": "bgl-racks-c.log",
+      "line": 1726,
+      "role": "consequence",
+      "sequence": 13
+    },
+    {
+      "component": "R25-M0-NE-C:J03-U11",
+      "file": "bgl-racks-b.log",
+      "line": 1557,
+      "role": "consequence",
+      "sequence": 14
+    },
+    {
+      "component": "R25-M0-NE-C:J03-U11",
+      "file": "bgl-racks-b.log",
+      "line": 1602,
+      "role": "consequence",
+      "sequence": 15
+    },
+    {
+      "component": "R20-M1-N4-I:J18-U11",
+      "file": "bgl-racks-c.log",
+      "line": 1750,
+      "role": "consequence",
+      "sequence": 16
+    },
+    {
+      "component": "R75-M0-N1-C:J14-U01",
+      "file": "bgl-racks-a.log",
+      "line": 1853,
+      "role": "consequence",
+      "sequence": 17
+    },
+    {
+      "component": "R75-M0-N1-C:J14-U01",
+      "file": "bgl-racks-a.log",
+      "line": 1898,
+      "role": "consequence",
+      "sequence": 18
+    },
+    {
+      "component": "R35-M0-NA-C:J13-U11",
+      "file": "bgl-racks-c.log",
+      "line": 2209,
+      "role": "consequence",
+      "sequence": 19
+    }
+  ]
+}

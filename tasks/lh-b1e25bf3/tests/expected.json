@@ -1,0 +1,50 @@
+{
+  "allowed_root_causes": [
+    "machine_down",
+    "network_disconnect",
+    "disk_full"
+  ],
+  "causal_chain": [
+    {
+      "component": "hadoop-mrappmaster.log",
+      "evidence_line": 13,
+      "role": "root",
+      "snippet": "2015-10-17 16:47:38,896 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445062781478_0017_000001",
+      "step": 0
+    },
+    {
+      "caused_by_step": 0,
+      "component": "hadoop-yarn.log",
+      "evidence_line": 139,
+      "role": "downstream",
+      "snippet": "2015-10-17 16:47:41,036 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler",
+      "step": 1
+    },
+    {
+      "caused_by_step": 1,
+      "component": "hadoop-mapreduce.log",
+      "evidence_line": 1478,
+      "role": "downstream",
+      "snippet": "2015-10-17 16:47:41,130 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000]",
+      "step": 2
+    },
+    {
+      "caused_by_step": 2,
+      "component": "hadoop-misc.log",
+      "evidence_line": 1417,
+      "role": "downstream",
+      "snippet": "2015-10-17 16:47:41,599 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties",
+      "step": 3
+    }
+  ],
+  "files": [
+    "hadoop-mapreduce.log",
+    "hadoop-misc.log",
+    "hadoop-mrappmaster.log",
+    "hadoop-yarn.log"
+  ],
+  "is_incident": true,
+  "root_cause_type": "machine_down",
+  "root_component": "hadoop-mrappmaster.log",
+  "schema_version": "loghub-sre-answer-v2-corr"
+}

@@ -1,0 +1,36 @@
+{
+  "allowed_why_not_anomalous": [
+    "rate_limit_warning",
+    "recoverable_retry",
+    "benign_info",
+    "expected_event",
+    "transient_state"
+  ],
+  "false_positive_indicators": [],
+  "files": [
+    "thunderbird-misc.log"
+  ],
+  "incident_evidence": [
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3247
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 3737
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4262
+    },
+    {
+      "file": "thunderbird-misc.log",
+      "line": 4279
+    }
+  ],
+  "is_incident": true,
+  "min_evidence_count": 3,
+  "min_indicator_count": 0,
+  "root_cause_type": "chk_dsk",
+  "schema_version": "loghub-sre-answer-v2-fp"
+}

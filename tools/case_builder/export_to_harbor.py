@@ -477,6 +477,7 @@ def _build_expected(case: dict, anomaly_locations: list[dict], files: dict[str, 
         "safe_recommendations": list(SAFE_ACTIONS),
         "min_evidence_count": max(1, min(3, len(anomaly_locations))),
         "files": sorted(files),
+        "evidence_validation": {"mode": "exact_location"},
         # OpenStack's corpus carries a single injected fault across all 4
         # anomalous instances, so root-cause classification is constant by
         # construction — it is not scored there (evidence localization is).
@@ -596,7 +597,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 
@@ -897,8 +898,8 @@ def test_evidence_within_ground_truth(answer: dict, expected: dict):
 
 
 def test_inline_label_evidence_matches_root_cause(answer: dict, expected: dict, files_to_lines: dict):
-    """For inline-labelled corpora such as BGL and Thunderbird, accept any
-    cited line whose visible alert tag maps to the expected root cause."""
+    """For legacy inline-labelled tasks, accept any cited line whose visible
+    alert tag maps to the expected root cause."""
     if _validation_mode(expected) != "inline_label":
         pytest.skip("exact-location evidence validation uses fixed locations")
     distinct = {{(e["file"], e["line"]) for e in answer["evidence"]}}
@@ -1207,7 +1208,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 
@@ -1848,7 +1849,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 
@@ -2253,6 +2254,7 @@ def _export_corr_case(
             "step": k,
             "component": entry["file"],
             "evidence_line": entry["line"],
+            "snippet": files[entry["file"]][entry["line"] - 1][:300],
         }
         if k == 0:
             step["role"] = "root"
@@ -2348,11 +2350,13 @@ Write **`/app/answer.json`** with this shape:
   "root_component": "<filename of the root component>",
   "causal_chain": [
     {{ "step": 0, "component": "<filename>", "role": "root",
-       "evidence_line": <int> }},
+       "evidence_line": <int>, "snippet": "<verbatim excerpt>" }},
     {{ "step": 1, "component": "<filename>", "role": "downstream",
-       "evidence_line": <int>, "caused_by_step": 0 }},
+       "evidence_line": <int>, "snippet": "<verbatim excerpt>",
+       "caused_by_step": 0 }},
     {{ "step": 2, "component": "<filename>", "role": "downstream",
-       "evidence_line": <int>, "caused_by_step": 1 }}
+       "evidence_line": <int>, "snippet": "<verbatim excerpt>",
+       "caused_by_step": 1 }}
   ],
   "root_cause_type": "<one of {allowed}>"
 }}
@@ -2369,6 +2373,7 @@ Rules:
   in that component's file.
 - No cycles. `caused_by_step` chains must be acyclic.
 - `evidence_line` is 1-based within the cited component file.
+- `snippet` must be a non-empty verbatim excerpt from that exact line.
 - `root_cause_type` is one of the allowed values for this dataset.
 """
 
@@ -2442,7 +2447,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 
@@ -2504,11 +2509,12 @@ def main() -> None:
     chain = []
     for entry in hints["causal_chain"]:
         # Confirm the cited line exists; raises on mismatch.
-        _read_line(args.app_dir, entry["component"], entry["evidence_line"])
+        snippet = _read_line(args.app_dir, entry["component"], entry["evidence_line"])
         step = {{
             "step": entry["step"],
             "component": entry["component"],
             "evidence_line": entry["evidence_line"],
+            "snippet": snippet[:300],
             "role": entry["role"],
         }}
         if "caused_by_step" in entry:
@@ -2592,6 +2598,13 @@ def test_root_component_matches(answer: dict, expected: dict):
 def test_gate_causal_chain_structure(answer: dict):
     chain = answer.get("causal_chain", [])
     assert chain, "causal_chain is empty"
+    for step in chain:
+        assert isinstance(step.get("step"), int), "each causal_chain step needs integer step"
+        assert isinstance(step.get("component"), str), "each causal_chain step needs component"
+        assert isinstance(step.get("evidence_line"), int), (
+            "each causal_chain step needs integer evidence_line"
+        )
+        assert isinstance(step.get("snippet"), str), "each causal_chain step needs snippet"
     first = chain[0]
     assert first.get("role") == "root", "first step must have role=root"
     assert first.get("step") == 0, "first step must be step 0"
@@ -2682,6 +2695,20 @@ def test_gate_evidence_lines_in_range(answer: dict, files_to_lines: dict):
         n = len(files_to_lines[component])
         line = step["evidence_line"]
         assert 1 <= line <= n, f"line {{line}} out of range 1..{{n}} for {{component}}"
+
+
+def test_causal_chain_snippets_match_log_text(answer: dict, files_to_lines: dict):
+    for step in answer.get("causal_chain", []):
+        actual = files_to_lines[step["component"]][step["evidence_line"] - 1]
+        snippet = step["snippet"]
+        assert len(snippet.strip()) >= 12, (
+            f"causal_chain snippet must be a non-trivial verbatim excerpt "
+            f"(>=12 chars), got {{snippet!r}}"
+        )
+        assert snippet in actual, (
+            f"snippet {{snippet!r}} not present on "
+            f"{{step['component']}} line {{step['evidence_line']}}"
+        )
 
 
 def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
@@ -2974,7 +3001,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 
@@ -3182,7 +3209,7 @@ def test_justification_consistent_with_severity(answer: dict):
 def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
     # Anti-guess binding: root_cause credit requires actually localizing the
     # incident -- citing >= min_evidence_count ground-truth evidence lines --
-    # so the slug-predictable category is not free.
+    # so a guessed category is not free.
     gt = {{(e["file"], e["line"]) for e in expected["evidence"]}}
     grounded = {{(e["file"], e["line"]) for e in answer["evidence"]}} & gt
     assert len(grounded) >= expected["min_evidence_count"], (
@@ -3453,7 +3480,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 
@@ -4383,7 +4410,7 @@ build_timeout_sec = 600.0
 cpus = 1
 memory_mb = 2048
 storage_mb = 10240
-allow_internet = true
+allow_internet = false
 """
 
 

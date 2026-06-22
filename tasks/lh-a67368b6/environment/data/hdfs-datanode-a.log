@@ -1,0 +1,373 @@
+081111 105109 25559 INFO dfs.DataNode$DataXceiver: Receiving block blk_-799869788259283942 src: /10.251.106.10:53647 dest: /10.251.106.10:50010
+081111 105109 26807 INFO dfs.DataNode$DataXceiver: Receiving block blk_-799869788259283942 src: /10.251.106.10:44183 dest: /10.251.106.10:50010
+081111 105109 26860 INFO dfs.DataNode$DataXceiver: Receiving block blk_616789037725999626 src: /10.250.11.194:51184 dest: /10.250.11.194:50010
+081111 105109 26881 INFO dfs.DataNode$PacketResponder: Received block blk_3029216223251849300 of size 67108864 from /10.251.65.203
+081111 105109 26904 INFO dfs.DataNode$PacketResponder: Received block blk_4916023363266884042 of size 67108864 from /10.251.110.160
+081111 105109 26986 INFO dfs.DataNode$PacketResponder: Received block blk_9118769628039785789 of size 67108864 from /10.251.39.179
+081111 105109 27018 INFO dfs.DataNode$PacketResponder: Received block blk_3029216223251849300 of size 67108864 from /10.251.90.239
+081111 105109 27039 INFO dfs.DataNode$DataXceiver: Receiving block blk_3186850556548274712 src: /10.250.7.146:49208 dest: /10.250.7.146:50010
+081111 105109 27074 INFO dfs.DataNode$PacketResponder: Received block blk_-290039301982827923 of size 67108864 from /10.251.30.101
+081111 105109 27081 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2262332360460983756 src: /10.251.71.146:37104 dest: /10.251.71.146:50010
+081111 105109 27111 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5200689343110413420 src: /10.250.7.146:42496 dest: /10.250.7.146:50010
+081111 105109 27113 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2262332360460983756 src: /10.251.73.220:51459 dest: /10.251.73.220:50010
+081111 105109 27125 INFO dfs.DataNode$DataXceiver: Receiving block blk_4510656486442617910 src: /10.251.214.32:47059 dest: /10.251.214.32:50010
+081111 105109 27128 INFO dfs.DataNode$DataXceiver: Receiving block blk_-536280773733125152 src: /10.251.43.115:36473 dest: /10.251.43.115:50010
+081111 105109 27139 INFO dfs.DataNode$PacketResponder: Received block blk_-7548479696355933486 of size 67108864 from /10.250.15.101
+081111 105109 27146 INFO dfs.DataNode$PacketResponder: Received block blk_3029216223251849300 of size 67108864 from /10.251.90.239
+081111 105109 27157 INFO dfs.DataNode$DataXceiver: Receiving block blk_104388949937877105 src: /10.251.90.239:36631 dest: /10.251.90.239:50010
+081111 105109 27204 INFO dfs.DataNode$PacketResponder: Received block blk_-369776516758151365 of size 67108864 from /10.251.43.115
+081111 105109 27207 INFO dfs.DataNode$PacketResponder: Received block blk_-290039301982827923 of size 67108864 from /10.250.14.143
+081111 105109 27211 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4671347620732414644 src: /10.251.105.189:47525 dest: /10.251.105.189:50010
+081111 105109 27211 INFO dfs.DataNode$DataXceiver: Receiving block blk_-536280773733125152 src: /10.251.43.115:59310 dest: /10.251.43.115:50010
+081111 105109 27224 INFO dfs.DataNode$PacketResponder: Received block blk_-2371322355949117578 of size 67108864 from /10.251.71.240
+081111 105109 27226 INFO dfs.DataNode$PacketResponder: Received block blk_4916023363266884042 of size 67108864 from /10.251.110.160
+081111 105109 27241 INFO dfs.DataNode$DataXceiver: Receiving block blk_7121184279003827161 src: /10.251.110.160:32810 dest: /10.251.110.160:50010
+081111 105109 27248 INFO dfs.DataNode$DataXceiver: Receiving block blk_-236114138398867422 src: /10.251.91.32:33401 dest: /10.251.91.32:50010
+081111 105109 27339 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7395702387240707241 src: /10.251.214.112:48454 dest: /10.251.214.112:50010
+081111 105109 27342 INFO dfs.DataNode$PacketResponder: Received block blk_9118769628039785789 of size 67108864 from /10.251.71.240
+081111 105109 27389 INFO dfs.DataNode$PacketResponder: Received block blk_-2371322355949117578 of size 67108864 from /10.251.71.240
+081111 105110 21597 INFO dfs.DataNode$PacketResponder: Received block blk_8738163166453254630 of size 67108864 from /10.251.39.242
+081111 105110 26518 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1806020729639655273 src: /10.251.214.67:50184 dest: /10.251.214.67:50010
+081111 105110 26598 INFO dfs.DataNode$DataXceiver: Receiving block blk_3248778564252011327 src: /10.251.126.227:36046 dest: /10.251.126.227:50010
+081111 105110 26850 INFO dfs.DataNode$PacketResponder: Received block blk_-1189465874370037398 of size 67108864 from /10.251.197.161
+081111 105110 26887 INFO dfs.DataNode$DataXceiver: Receiving block blk_2283505571008563662 src: /10.250.5.237:51964 dest: /10.250.5.237:50010
+081111 105110 26947 INFO dfs.DataNode$PacketResponder: Received block blk_8630957324293466914 of size 67108864 from /10.251.74.134
+081111 105110 26956 INFO dfs.DataNode$PacketResponder: Received block blk_-1189465874370037398 of size 67108864 from /10.251.197.161
+081111 105110 26959 INFO dfs.DataNode$DataXceiver: Receiving block blk_2487812818190734004 src: /10.251.91.229:39365 dest: /10.251.91.229:50010
+081111 105110 26969 INFO dfs.DataNode$PacketResponder: Received block blk_-7782492785415710096 of size 67108864 from /10.251.39.64
+081111 105110 26982 INFO dfs.DataNode$PacketResponder: Received block blk_-5670174647957963714 of size 67108864 from /10.251.91.32
+081111 105110 27014 INFO dfs.DataNode$PacketResponder: Received block blk_-7197859246168950046 of size 67108864 from /10.251.91.229
+081111 105110 27020 INFO dfs.DataNode$PacketResponder: Received block blk_-7782492785415710096 of size 67108864 from /10.251.39.64
+081111 105110 27034 INFO dfs.DataNode$PacketResponder: Received block blk_-2017595273240919453 of size 67108864 from /10.251.125.174
+081111 105110 27039 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4213895707833442054 src: /10.251.39.64:51787 dest: /10.251.39.64:50010
+081111 105110 27041 INFO dfs.DataNode$DataXceiver: Receiving block blk_3696952049021578981 src: /10.251.125.174:34171 dest: /10.251.125.174:50010
+081111 105110 27046 INFO dfs.DataNode$PacketResponder: Received block blk_-7197859246168950046 of size 67108864 from /10.251.65.203
+081111 105110 27060 INFO dfs.DataNode$DataXceiver: Receiving block blk_2622318594376470873 src: /10.250.15.198:53056 dest: /10.250.15.198:50010
+081111 105110 27082 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1806020729639655273 src: /10.251.30.101:59673 dest: /10.251.30.101:50010
+081111 105110 27083 INFO dfs.DataNode$DataXceiver: Receiving block blk_3696952049021578981 src: /10.250.10.213:39272 dest: /10.250.10.213:50010
+081111 105110 27086 INFO dfs.DataNode$DataXceiver: Receiving block blk_6946256705296724142 src: /10.251.66.192:56794 dest: /10.251.66.192:50010
+081111 105110 27092 INFO dfs.DataNode$DataXceiver: Receiving block blk_2579381095537462131 src: /10.251.74.134:55442 dest: /10.251.74.134:50010
+081111 105110 27106 INFO dfs.DataNode$PacketResponder: Received block blk_-4915659963413732185 of size 67108864 from /10.251.122.65
+081111 105110 27125 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4681967447346421480 src: /10.251.71.240:40852 dest: /10.251.71.240:50010
+081111 105110 27144 INFO dfs.DataNode$PacketResponder: Received block blk_-4915659963413732185 of size 67108864 from /10.251.122.65
+081111 105110 27187 INFO dfs.DataNode$DataXceiver: Receiving block blk_7121184279003827161 src: /10.251.110.160:33122 dest: /10.251.110.160:50010
+081111 105110 27213 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4998075368020470179 src: /10.251.71.240:44991 dest: /10.251.71.240:50010
+081111 105110 27216 INFO dfs.DataNode$DataXceiver: Receiving block blk_104388949937877105 src: /10.251.90.239:48380 dest: /10.251.90.239:50010
+081111 105110 27217 INFO dfs.DataNode$DataXceiver: Receiving block blk_3696952049021578981 src: /10.251.125.174:34587 dest: /10.251.125.174:50010
+081111 105110 27301 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5988433132115230045 src: /10.251.197.226:46146 dest: /10.251.197.226:50010
+081111 105110 27302 INFO dfs.DataNode$DataXceiver: Receiving block blk_104388949937877105 src: /10.250.10.213:41166 dest: /10.250.10.213:50010
+081111 105110 27327 INFO dfs.DataNode$PacketResponder: Received block blk_-7197859246168950046 of size 67108864 from /10.251.91.229
+081111 105110 27341 INFO dfs.DataNode$PacketResponder: Received block blk_-2017595273240919453 of size 67108864 from /10.251.30.101
+081111 105110 27348 INFO dfs.DataNode$DataXceiver: Receiving block blk_2487812818190734004 src: /10.251.91.229:39809 dest: /10.251.91.229:50010
+081111 105110 27393 INFO dfs.DataNode$PacketResponder: Received block blk_9118769628039785789 of size 67108864 from /10.251.71.240
+081111 105110 27404 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4681967447346421480 src: /10.251.71.240:37571 dest: /10.251.71.240:50010
+081111 105110 27405 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4998075368020470179 src: /10.251.71.240:37572 dest: /10.251.71.240:50010
+081111 105110 27475 INFO dfs.DataNode$PacketResponder: Received block blk_-2017595273240919453 of size 67108864 from /10.251.125.174
+081111 105110 27477 INFO dfs.DataNode$PacketResponder: Received block blk_-290039301982827923 of size 67108864 from /10.251.30.101
+081111 105110 27488 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1806020729639655273 src: /10.251.30.101:60582 dest: /10.251.30.101:50010
+081111 105111 26674 INFO dfs.DataNode$PacketResponder: Received block blk_8084188396082053598 of size 67108864 from /10.251.199.150
+081111 105111 26855 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6200168537494835265 src: /10.251.197.161:35456 dest: /10.251.197.161:50010
+081111 105111 26983 INFO dfs.DataNode$PacketResponder: Received block blk_-891055748763680491 of size 67108864 from /10.250.15.198
+081111 105111 26994 INFO dfs.DataNode$DataXceiver: Receiving block blk_1071801282648904841 src: /10.250.15.198:55254 dest: /10.250.15.198:50010
+081111 105111 27087 INFO dfs.DataNode$DataXceiver: Receiving block blk_3131328902229674413 src: /10.251.65.203:49872 dest: /10.251.65.203:50010
+081111 105111 27088 INFO dfs.DataNode$PacketResponder: Received block blk_-891055748763680491 of size 67108864 from /10.251.67.225
+081111 105111 27090 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6200168537494835265 src: /10.251.91.159:43212 dest: /10.251.91.159:50010
+081111 105111 27094 INFO dfs.DataNode$DataXceiver: Receiving block blk_3131328902229674413 src: /10.250.14.143:43291 dest: /10.250.14.143:50010
+081111 105111 27107 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6200168537494835265 src: /10.251.197.161:36859 dest: /10.251.197.161:50010
+081111 105111 27115 INFO dfs.DataNode$DataXceiver: Receiving block blk_9129981175834514338 src: /10.251.122.65:44791 dest: /10.251.122.65:50010
+081111 105111 27128 INFO dfs.DataNode$DataXceiver: Receiving block blk_3132894573349799148 src: /10.251.106.37:33983 dest: /10.251.106.37:50010
+081111 105111 27133 INFO dfs.DataNode$PacketResponder: Received block blk_-3118387227908905470 of size 67108864 from /10.251.197.226
+081111 105111 27198 INFO dfs.DataNode$DataXceiver: Receiving block blk_-3764787442359554010 src: /10.250.6.4:32883 dest: /10.250.6.4:50010
+081111 105111 27260 INFO dfs.DataNode$PacketResponder: Received block blk_-8017529447765675881 of size 67108864 from /10.251.106.37
+081111 105111 27272 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4213895707833442054 src: /10.251.39.64:39450 dest: /10.251.39.64:50010
+081111 105111 27274 INFO dfs.DataNode$PacketResponder: Received block blk_-8017529447765675881 of size 67108864 from /10.251.106.37
+081111 105111 27275 INFO dfs.DataNode$DataXceiver: Receiving block blk_3132894573349799148 src: /10.251.106.37:48817 dest: /10.251.106.37:50010
+081111 105111 27361 INFO dfs.DataNode$PacketResponder: Received block blk_-891055748763680491 of size 67108864 from /10.250.15.198
+081111 105112 21616 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2344298460635082200 src: /10.251.89.155:42047 dest: /10.251.89.155:50010
+081111 105112 26632 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7966846635850250481 src: /10.251.125.237:44921 dest: /10.251.125.237:50010
+081111 105112 26835 INFO dfs.DataNode$PacketResponder: Received block blk_8568590983468401767 of size 67108864 from /10.250.10.223
+081111 105112 26851 INFO dfs.DataNode$PacketResponder: Received block blk_3007864892000653191 of size 67108864 from /10.251.42.207
+081111 105112 26925 INFO dfs.DataNode$DataXceiver: Receiving block blk_2468909011890686102 src: /10.251.110.68:52853 dest: /10.251.110.68:50010
+081111 105112 26943 INFO dfs.DataNode$PacketResponder: Received block blk_-4870421150501347174 of size 67108864 from /10.250.7.146
+081111 105112 26960 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2006065608963104113 src: /10.250.7.146:52639 dest: /10.250.7.146:50010
+081111 105112 27007 INFO dfs.DataNode$PacketResponder: Received block blk_-4870421150501347174 of size 67108864 from /10.250.7.146
+081111 105112 27062 INFO dfs.DataNode$PacketResponder: Received block blk_3007864892000653191 of size 67108864 from /10.250.14.196
+081111 105112 27073 INFO dfs.DataNode$DataXceiver: Receiving block blk_4430015003146104688 src: /10.250.14.196:57512 dest: /10.250.14.196:50010
+081111 105112 27108 INFO dfs.DataNode$PacketResponder: Received block blk_-3118387227908905470 of size 67108864 from /10.251.111.130
+081111 105112 27122 INFO dfs.DataNode$DataXceiver: Receiving block blk_4819855095785227463 src: /10.251.111.130:35570 dest: /10.251.111.130:50010
+081111 105112 27124 INFO dfs.DataNode$PacketResponder: Received block blk_-1191126866230377859 of size 67108864 from /10.251.193.224
+081111 105112 27134 INFO dfs.DataNode$PacketResponder: Received block blk_8568590983468401767 of size 67108864 from /10.251.110.68
+081111 105112 27135 INFO dfs.DataNode$PacketResponder: Received block blk_3007864892000653191 of size 67108864 from /10.250.14.196
+081111 105112 27143 INFO dfs.DataNode$PacketResponder: Received block blk_-2147780301968089719 of size 67108864 from /10.251.39.64
+081111 105112 27148 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2006065608963104113 src: /10.250.7.146:39951 dest: /10.250.7.146:50010
+081111 105112 27220 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8322110366648135171 src: /10.251.111.130:46850 dest: /10.251.111.130:50010
+081111 105112 27221 INFO dfs.DataNode$DataXceiver: Receiving block blk_3132894573349799148 src: /10.251.71.146:50186 dest: /10.251.71.146:50010
+081111 105112 27229 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2006065608963104113 src: /10.251.194.147:46895 dest: /10.251.194.147:50010
+081111 105112 27234 INFO dfs.DataNode$PacketResponder: Received block blk_-4870421150501347174 of size 67108864 from /10.251.67.113
+081111 105112 27261 INFO dfs.DataNode$PacketResponder: Received block blk_-7432202486641377545 of size 67108864 from /10.251.89.155
+081111 105112 27298 INFO dfs.DataNode$PacketResponder: Received block blk_-7432202486641377545 of size 67108864 from /10.251.89.155
+081111 105112 27307 INFO dfs.DataNode$DataXceiver: Receiving block blk_-471598346510678363 src: /10.251.89.155:55769 dest: /10.251.89.155:50010
+081111 105112 27340 INFO dfs.DataNode$PacketResponder: Received block blk_8568590983468401767 of size 67108864 from /10.251.110.68
+081111 105112 27343 INFO dfs.DataNode$DataXceiver: Receiving block blk_-471598346510678363 src: /10.251.89.155:60968 dest: /10.251.89.155:50010
+081111 105112 27349 INFO dfs.DataNode$DataXceiver: Receiving block blk_2468909011890686102 src: /10.251.110.68:51338 dest: /10.251.110.68:50010
+081111 105112 27416 INFO dfs.DataNode$PacketResponder: Received block blk_-3118387227908905470 of size 67108864 from /10.251.111.130
+081111 105112 27641 INFO dfs.DataNode$PacketResponder: Received block blk_2959215065643409687 of size 67108864 from /10.251.30.179
+081111 105113 26613 INFO dfs.DataNode$PacketResponder: Received block blk_1971358373955265164 of size 67108864 from /10.251.203.80
+081111 105113 26634 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1623459186413688389 src: /10.251.203.80:48090 dest: /10.251.203.80:50010
+081111 105113 26848 INFO dfs.DataNode$DataXceiver: Receiving block blk_4819855095785227463 src: /10.251.111.130:47146 dest: /10.251.111.130:50010
+081111 105113 26882 INFO dfs.DataNode$PacketResponder: Received block blk_1971358373955265164 of size 67108864 from /10.251.203.80
+081111 105113 26915 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8046645338189437925 src: /10.251.71.146:37625 dest: /10.251.71.146:50010
+081111 105113 26948 INFO dfs.DataNode$PacketResponder: Received block blk_-8980622990943535743 of size 67108864 from /10.251.39.192
+081111 105113 26952 INFO dfs.DataNode$PacketResponder: Received block blk_7869923956433750840 of size 67108864 from /10.251.214.67
+081111 105113 26953 INFO dfs.DataNode$DataXceiver: Receiving block blk_-3450197845742007838 src: /10.251.39.192:53348 dest: /10.251.39.192:50010
+081111 105113 27075 INFO dfs.DataNode$PacketResponder: Received block blk_7869923956433750840 of size 67108864 from /10.251.109.209
+081111 105113 27115 INFO dfs.DataNode$PacketResponder: Received block blk_2678408045321807254 of size 67108864 from /10.251.43.192
+081111 105113 27124 INFO dfs.DataNode$DataXceiver: Receiving block blk_-3450197845742007838 src: /10.251.39.192:38942 dest: /10.251.39.192:50010
+081111 105113 27131 INFO dfs.DataNode$DataXceiver: Receiving block blk_1071801282648904841 src: /10.250.15.198:34340 dest: /10.250.15.198:50010
+081111 105113 27137 INFO dfs.DataNode$PacketResponder: Received block blk_7869923956433750840 of size 67108864 from /10.251.109.209
+081111 105113 27141 INFO dfs.DataNode$PacketResponder: Received block blk_2959215065643409687 of size 67108864 from /10.251.30.179
+081111 105113 27154 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1390654812155892718 src: /10.251.109.209:41156 dest: /10.251.109.209:50010
+081111 105113 27157 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1663892524857890291 src: /10.251.30.179:35212 dest: /10.251.30.179:50010
+081111 105113 27207 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8657194316800398036 src: /10.251.106.10:56915 dest: /10.251.106.10:50010
+081111 105113 27214 INFO dfs.DataNode$DataXceiver: Receiving block blk_4819855095785227463 src: /10.251.202.134:55594 dest: /10.251.202.134:50010
+081111 105113 27230 INFO dfs.DataNode$DataXceiver: Receiving block blk_1071801282648904841 src: /10.250.14.38:50216 dest: /10.250.14.38:50010
+081111 105113 27234 INFO dfs.DataNode$DataXceiver: Receiving block blk_8743267373685006631 src: /10.251.110.196:54856 dest: /10.251.110.196:50010
+081111 105113 27271 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6105944200106002253 src: /10.251.125.237:49601 dest: /10.251.125.237:50010
+081111 105113 27350 INFO dfs.DataNode$DataXceiver: Receiving block blk_-3450197845742007838 src: /10.251.111.130:37941 dest: /10.251.111.130:50010
+081111 105113 27415 INFO dfs.DataNode$PacketResponder: Received block blk_-1273508256727224864 of size 67108864 from /10.251.126.255
+081111 105113 27464 INFO dfs.DataNode$PacketResponder: Received block blk_-8980622990943535743 of size 67108864 from /10.251.39.192
+081111 105113 27531 INFO dfs.DataNode$PacketResponder: Received block blk_2678408045321807254 of size 67108864 from /10.251.43.192
+081111 105113 27536 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8657194316800398036 src: /10.251.43.192:45884 dest: /10.251.43.192:50010
+081111 105114 15935 INFO dfs.DataNode$PacketResponder: Received block blk_-3409549895095980930 of size 67108864 from /10.251.203.166
+081111 105114 25552 INFO dfs.DataNode$PacketResponder: Received block blk_4867941288705800917 of size 67108864 from /10.251.111.228
+081111 105114 25561 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8657194316800398036 src: /10.251.43.192:52524 dest: /10.251.43.192:50010
+081111 105114 26874 INFO dfs.DataNode$PacketResponder: Received block blk_4867941288705800917 of size 67108864 from /10.251.106.10
+081111 105114 26879 INFO dfs.DataNode$PacketResponder: Received block blk_-3409549895095980930 of size 67108864 from /10.251.203.166
+081111 105114 26888 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2584893349055290008 src: /10.251.203.166:51517 dest: /10.251.203.166:50010
+081111 105114 26908 INFO dfs.DataNode$PacketResponder: Received block blk_2339460572327960977 of size 67108864 from /10.251.215.50
+081111 105114 26928 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1390654812155892718 src: /10.251.122.38:60302 dest: /10.251.122.38:50010
+081111 105114 26996 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1663892524857890291 src: /10.251.30.179:42734 dest: /10.251.30.179:50010
+081111 105114 27061 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1390654812155892718 src: /10.251.109.209:43751 dest: /10.251.109.209:50010
+081111 105114 27070 INFO dfs.DataNode$PacketResponder: Received block blk_-5008637402797040113 of size 67108864 from /10.251.73.220
+081111 105114 27130 INFO dfs.DataNode$DataXceiver: Receiving block blk_9070140353948610800 src: /10.251.30.179:39210 dest: /10.251.30.179:50010
+081111 105114 27137 INFO dfs.DataNode$PacketResponder: Received block blk_-5008637402797040113 of size 67108864 from /10.251.73.220
+081111 105114 27152 INFO dfs.DataNode$PacketResponder: Received block blk_-84237484510954226 of size 67108864 from /10.251.90.239
+081111 105114 27153 INFO dfs.DataNode$PacketResponder: Received block blk_-608648857699364253 of size 67108864 from /10.251.39.144
+081111 105114 27159 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6644310144918133152 src: /10.251.90.239:36633 dest: /10.251.90.239:50010
+081111 105114 27170 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1623459186413688389 src: /10.251.107.19:51310 dest: /10.251.107.19:50010
+081111 105114 27207 INFO dfs.DataNode$PacketResponder: Received block blk_-84237484510954226 of size 67108864 from /10.251.90.239
+081111 105114 27211 INFO dfs.DataNode$PacketResponder: Received block blk_-5008637402797040113 of size 67108864 from /10.251.42.207
+081111 105114 27217 INFO dfs.DataNode$DataXceiver: Receiving block blk_1546882248055320553 src: /10.251.39.144:36638 dest: /10.251.39.144:50010
+081111 105114 27220 INFO dfs.DataNode$PacketResponder: Received block blk_-608648857699364253 of size 67108864 from /10.251.71.97
+081111 105114 27226 INFO dfs.DataNode$DataXceiver: Receiving block blk_7628662427658674408 src: /10.251.110.68:46297 dest: /10.251.110.68:50010
+081111 105114 27329 INFO dfs.DataNode$PacketResponder: Received block blk_4867941288705800917 of size 67108864 from /10.251.111.228
+081111 105114 27333 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6644310144918133152 src: /10.251.90.239:33107 dest: /10.251.90.239:50010
+081111 105114 27340 INFO dfs.DataNode$DataXceiver: Receiving block blk_7628662427658674408 src: /10.251.111.228:46800 dest: /10.251.111.228:50010
+081111 105114 27340 INFO dfs.DataNode$PacketResponder: Received block blk_-608648857699364253 of size 67108864 from /10.251.39.144
+081111 105114 27342 INFO dfs.DataNode$PacketResponder: Received block blk_-1182469321298435274 of size 67108864 from /10.250.14.196
+081111 105114 27344 INFO dfs.DataNode$DataXceiver: Receiving block blk_1546882248055320553 src: /10.251.39.144:60337 dest: /10.251.39.144:50010
+081111 105114 27351 INFO dfs.DataNode$DataXceiver: Receiving block blk_7628662427658674408 src: /10.251.111.228:59069 dest: /10.251.111.228:50010
+081111 105114 27353 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1663892524857890291 src: /10.250.15.198:59578 dest: /10.250.15.198:50010
+081111 105114 27426 INFO dfs.DataNode$PacketResponder: Received block blk_-84237484510954226 of size 67108864 from /10.250.10.213
+081111 105114 27434 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1623459186413688389 src: /10.251.203.80:47039 dest: /10.251.203.80:50010
+081111 105114 27600 INFO dfs.DataNode$PacketResponder: Received block blk_6079146321598482166 of size 67108864 from /10.250.7.146
+081111 105115 26552 INFO dfs.DataNode$PacketResponder: Received block blk_5389989534125526517 of size 67108864 from /10.251.106.37
+081111 105115 26829 INFO dfs.DataNode$PacketResponder: Received block blk_2139721778649885354 of size 67108864 from /10.251.38.53
+081111 105115 26923 INFO dfs.DataNode$PacketResponder: Received block blk_5759776950603632526 of size 67108864 from /10.251.214.32
+081111 105115 26930 INFO dfs.DataNode$DataXceiver: Receiving block blk_109038846498922091 src: /10.251.214.32:40481 dest: /10.251.214.32:50010
+081111 105115 26962 INFO dfs.DataNode$DataXceiver: Receiving block blk_7123632360664453079 src: /10.251.73.220:59060 dest: /10.251.73.220:50010
+081111 105115 26999 INFO dfs.DataNode$PacketResponder: Received block blk_7614786083674650542 of size 67108864 from /10.251.214.175
+081111 105115 27008 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8021618099471790502 src: /10.251.214.175:33916 dest: /10.251.214.175:50010
+081111 105115 27014 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8021618099471790502 src: /10.251.214.175:45467 dest: /10.251.214.175:50010
+081111 105115 27083 INFO dfs.DataNode$DataXceiver: Receiving block blk_7123632360664453079 src: /10.251.73.220:56097 dest: /10.251.73.220:50010
+081111 105115 27175 INFO dfs.DataNode$PacketResponder: Received block blk_2139721778649885354 of size 67108864 from /10.251.214.130
+081111 105115 27213 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8021618099471790502 src: /10.251.30.6:34512 dest: /10.251.30.6:50010
+081111 105115 27215 INFO dfs.DataNode$PacketResponder: Received block blk_-8636254038296988911 of size 67108864 from /10.251.74.192
+081111 105115 27231 INFO dfs.DataNode$PacketResponder: Received block blk_5759776950603632526 of size 67108864 from /10.251.214.32
+081111 105115 27241 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2584893349055290008 src: /10.251.203.166:47654 dest: /10.251.203.166:50010
+081111 105115 27296 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7100223654517641998 src: /10.251.39.192:37359 dest: /10.251.39.192:50010
+081111 105115 27345 INFO dfs.DataNode$PacketResponder: Received block blk_-2834359322379070427 of size 67108864 from /10.251.26.131
+081111 105115 27393 INFO dfs.DataNode$DataXceiver: Receiving block blk_5033591453035501998 src: /10.251.30.6:48557 dest: /10.251.30.6:50010
+081111 105115 27398 INFO dfs.DataNode$PacketResponder: Received block blk_7614786083674650542 of size 67108864 from /10.251.214.175
+081111 105115 27407 INFO dfs.DataNode$DataXceiver: Receiving block blk_109108032655231837 src: /10.251.127.243:55209 dest: /10.251.127.243:50010
+081111 105115 27423 INFO dfs.DataNode$PacketResponder: Received block blk_5389989534125526517 of size 67108864 from /10.251.203.246
+081111 105115 27500 INFO dfs.DataNode$DataXceiver: Receiving block blk_-640524826708405426 src: /10.250.15.240:45102 dest: /10.250.15.240:50010
+081111 105116 26480 INFO dfs.DataNode$PacketResponder: Received block blk_7908275534570175913 of size 67108864 from /10.251.110.8
+081111 105116 26703 INFO dfs.DataNode$DataXceiver: Receiving block blk_-9177745906252585179 src: /10.251.43.192:34588 dest: /10.251.43.192:50010
+081111 105116 26756 INFO dfs.DataNode$PacketResponder: Received block blk_7432075352678110261 of size 67108864 from /10.251.201.204
+081111 105116 26770 INFO dfs.DataNode$DataXceiver: Receiving block blk_4988508910806160560 src: /10.251.201.204:51085 dest: /10.251.201.204:50010
+081111 105116 26866 INFO dfs.DataNode$DataXceiver: Receiving block blk_4988508910806160560 src: /10.251.201.204:43700 dest: /10.251.201.204:50010
+081111 105116 26953 INFO dfs.DataNode$PacketResponder: Received block blk_-8547482298040173782 of size 67108864 from /10.250.10.213
+081111 105116 27018 INFO dfs.DataNode$DataXceiver: Receiving block blk_4430015003146104688 src: /10.251.26.131:43804 dest: /10.251.26.131:50010
+081111 105116 27035 INFO dfs.DataNode$PacketResponder: Received block blk_-5138364436449313656 of size 67108864 from /10.251.107.196
+081111 105116 27053 INFO dfs.DataNode$DataXceiver: Receiving block blk_4430015003146104688 src: /10.250.14.196:47477 dest: /10.250.14.196:50010
+081111 105116 27063 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5450718293514831240 src: /10.250.14.143:49852 dest: /10.250.14.143:50010
+081111 105116 27089 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5450718293514831240 src: /10.251.66.192:37679 dest: /10.251.66.192:50010
+081111 105116 27112 INFO dfs.DataNode$DataXceiver: Receiving block blk_2007310696443526 src: /10.251.214.175:47637 dest: /10.251.214.175:50010
+081111 105116 27112 INFO dfs.DataNode$PacketResponder: Received block blk_7432075352678110261 of size 67108864 from /10.251.201.204
+081111 105116 27124 INFO dfs.DataNode$PacketResponder: Received block blk_7908275534570175913 of size 67108864 from /10.251.66.192
+081111 105116 27127 INFO dfs.DataNode$DataXceiver: Receiving block blk_192887298666463007 src: /10.251.71.97:43317 dest: /10.251.71.97:50010
+081111 105116 27131 INFO dfs.DataNode$DataXceiver: Receiving block blk_1192038594311139716 src: /10.251.111.80:48379 dest: /10.251.111.80:50010
+081111 105116 27139 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5450718293514831240 src: /10.251.66.192:52845 dest: /10.251.66.192:50010
+081111 105116 27146 INFO dfs.DataNode$DataXceiver: Receiving block blk_192887298666463007 src: /10.251.111.130:56214 dest: /10.251.111.130:50010
+081111 105116 27156 INFO dfs.DataNode$PacketResponder: Received block blk_-8847518652470816940 of size 67108864 from /10.251.39.242
+081111 105116 27158 INFO dfs.DataNode$PacketResponder: Received block blk_2139721778649885354 of size 67108864 from /10.251.214.130
+081111 105116 27161 INFO dfs.DataNode$DataXceiver: Receiving block blk_192887298666463007 src: /10.251.71.97:33357 dest: /10.251.71.97:50010
+081111 105116 27209 INFO dfs.DataNode$PacketResponder: Received block blk_7908275534570175913 of size 67108864 from /10.251.66.192
+081111 105116 27265 INFO dfs.DataNode$PacketResponder: Received block blk_7143283819407254680 of size 67108864 from /10.251.42.191
+081111 105116 27268 INFO dfs.DataNode$PacketResponder: Received block blk_5389989534125526517 of size 67108864 from /10.251.106.37
+081111 105116 27326 INFO dfs.DataNode$DataXceiver: Receiving block blk_-471598346510678363 src: /10.251.39.144:53349 dest: /10.251.39.144:50010
+081111 105116 27408 INFO dfs.DataNode$DataXceiver: Receiving block blk_269956622994521859 src: /10.251.38.53:53666 dest: /10.251.38.53:50010
+081111 105117 21599 INFO dfs.DataNode$PacketResponder: Received block blk_1392307245848171829 of size 67108864 from /10.251.30.179
+081111 105117 26549 INFO dfs.DataNode$PacketResponder: Received block blk_6953163957710570864 of size 67108864 from /10.251.202.134
+081111 105117 26702 INFO dfs.DataNode$DataXceiver: Receiving block blk_5084244246614808367 src: /10.251.126.227:58366 dest: /10.251.126.227:50010
+081111 105117 26837 INFO dfs.DataNode$PacketResponder: Received block blk_6953163957710570864 of size 67108864 from /10.251.126.227
+081111 105117 26891 INFO dfs.DataNode$DataXceiver: Receiving block blk_-3522062043721673202 src: /10.251.111.37:57748 dest: /10.251.111.37:50010
+081111 105117 26895 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4224268519994891922 src: /10.251.106.37:48041 dest: /10.251.106.37:50010
+081111 105117 27013 INFO dfs.DataNode$PacketResponder: Received block blk_6953163957710570864 of size 67108864 from /10.251.126.227
+081111 105117 27022 INFO dfs.DataNode$DataXceiver: Receiving block blk_5084244246614808367 src: /10.251.126.227:49393 dest: /10.251.126.227:50010
+081111 105117 27044 INFO dfs.DataNode$PacketResponder: Received block blk_8153512374691258688 of size 67108864 from /10.251.26.131
+081111 105117 27047 INFO dfs.DataNode$PacketResponder: Received block blk_-9196933454674356958 of size 67108864 from /10.251.193.224
+081111 105117 27055 INFO dfs.DataNode$DataXceiver: Receiving block blk_9051619295305166371 src: /10.251.26.131:44574 dest: /10.251.26.131:50010
+081111 105117 27079 INFO dfs.DataNode$PacketResponder: Received block blk_7419551262707688474 of size 67108864 from /10.251.123.1
+081111 105117 27083 INFO dfs.DataNode$PacketResponder: Received block blk_7419551262707688474 of size 67108864 from /10.251.67.225
+081111 105117 27102 INFO dfs.DataNode$PacketResponder: Received block blk_8153512374691258688 of size 67108864 from /10.251.26.131
+081111 105117 27109 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7432828358881093260 src: /10.251.111.37:33104 dest: /10.251.111.37:50010
+081111 105117 27129 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6027132439431972738 src: /10.251.126.255:42485 dest: /10.251.126.255:50010
+081111 105117 27149 INFO dfs.DataNode$PacketResponder: Received block blk_8194522772447530334 of size 67108864 from /10.251.75.79
+081111 105117 27180 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5598280554725301397 src: /10.251.214.130:45317 dest: /10.251.214.130:50010
+081111 105117 27183 INFO dfs.DataNode$PacketResponder: Received block blk_-9196933454674356958 of size 67108864 from /10.251.193.224
+081111 105117 27186 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5598280554725301397 src: /10.251.71.16:59533 dest: /10.251.71.16:50010
+081111 105117 27194 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8245125498416896906 src: /10.251.193.224:46466 dest: /10.251.193.224:50010
+081111 105117 27224 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5598280554725301397 src: /10.251.214.130:45821 dest: /10.251.214.130:50010
+081111 105117 27277 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4224268519994891922 src: /10.251.106.37:48819 dest: /10.251.106.37:50010
+081111 105117 27333 INFO dfs.DataNode$PacketResponder: Received block blk_8194522772447530334 of size 67108864 from /10.251.107.19
+081111 105117 27341 INFO dfs.DataNode$DataXceiver: Receiving block blk_8392081179678020021 src: /10.251.107.19:50842 dest: /10.251.107.19:50010
+081111 105117 27359 INFO dfs.DataNode$PacketResponder: Received block blk_7419551262707688474 of size 67108864 from /10.251.123.1
+081111 105117 27373 INFO dfs.DataNode$DataXceiver: Receiving block blk_9051619295305166371 src: /10.251.26.131:60835 dest: /10.251.26.131:50010
+081111 105117 27421 INFO dfs.DataNode$PacketResponder: Received block blk_8194522772447530334 of size 67108864 from /10.251.107.19
+081111 105117 27436 INFO dfs.DataNode$DataXceiver: Receiving block blk_8592535237875306619 src: /10.250.5.237:36217 dest: /10.250.5.237:50010
+081111 105117 27437 INFO dfs.DataNode$DataXceiver: Receiving block blk_8392081179678020021 src: /10.251.107.19:40264 dest: /10.251.107.19:50010
+081111 105118 26704 INFO dfs.DataNode$DataXceiver: Receiving block blk_2524654874304253934 src: /10.251.125.193:38420 dest: /10.251.125.193:50010
+081111 105118 26704 INFO dfs.DataNode$PacketResponder: Received block blk_-9177745906252585179 of size 3541363 from /10.251.43.192
+081111 105118 26749 INFO dfs.DataNode$PacketResponder: Received block blk_-5962657847888397500 of size 67108864 from /10.251.66.192
+081111 105118 26833 INFO dfs.DataNode$PacketResponder: Received block blk_7665512580951295483 of size 67108864 from /10.251.125.193
+081111 105118 26847 INFO dfs.DataNode$PacketResponder: Received block blk_2468922820956627566 of size 67108864 from /10.251.214.112
+081111 105118 26923 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4087009142555998513 src: /10.250.10.223:49029 dest: /10.250.10.223:50010
+081111 105118 26998 INFO dfs.DataNode$DataXceiver: Receiving block blk_9051619295305166371 src: /10.251.193.175:37667 dest: /10.251.193.175:50010
+081111 105118 27009 INFO dfs.DataNode$PacketResponder: Received block blk_-1987105415326991093 of size 67108864 from /10.251.214.175
+081111 105118 27018 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8159881882518832428 src: /10.251.214.175:45470 dest: /10.251.214.175:50010
+081111 105118 27030 INFO dfs.DataNode$PacketResponder: Received block blk_7665512580951295483 of size 67108864 from /10.251.125.193
+081111 105118 27030 INFO dfs.DataNode$PacketResponder: Received block blk_7665512580951295483 of size 67108864 from /10.251.202.134
+081111 105118 27039 INFO dfs.DataNode$DataXceiver: Receiving block blk_2524654874304253934 src: /10.251.125.193:37450 dest: /10.251.125.193:50010
+081111 105118 27057 INFO dfs.DataNode$DataXceiver: Receiving block blk_8769292387313231848 src: /10.251.123.1:46066 dest: /10.251.123.1:50010
+081111 105118 27064 INFO dfs.DataNode$PacketResponder: Received block blk_7604318773967018750 of size 67108864 from /10.250.13.240
+081111 105118 27088 INFO dfs.DataNode$DataXceiver: Receiving block blk_8769292387313231848 src: /10.251.123.1:56928 dest: /10.251.123.1:50010
+081111 105118 27093 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8245125498416896906 src: /10.251.122.65:47821 dest: /10.251.122.65:50010
+081111 105118 27097 INFO dfs.DataNode$PacketResponder: Received block blk_-5109144548044899231 of size 67108864 from /10.250.19.16
+081111 105118 27118 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8245125498416896906 src: /10.251.193.224:40110 dest: /10.251.193.224:50010
+081111 105118 27173 INFO dfs.DataNode$PacketResponder: Received block blk_6404814346423205361 of size 67108864 from /10.251.30.101
+081111 105118 27175 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4080488940896859536 src: /10.251.89.155:43974 dest: /10.251.89.155:50010
+081111 105118 27177 INFO dfs.DataNode$PacketResponder: Received block blk_-1987105415326991093 of size 67108864 from /10.251.214.175
+081111 105118 27184 INFO dfs.DataNode$DataXceiver: Receiving block blk_1207160544811805066 src: /10.251.39.242:48017 dest: /10.251.39.242:50010
+081111 105118 27189 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8159881882518832428 src: /10.251.214.175:39475 dest: /10.251.214.175:50010
+081111 105118 27211 INFO dfs.DataNode$PacketResponder: Received block blk_-1428124074976191924 of size 67108864 from /10.251.39.242
+081111 105118 27244 INFO dfs.DataNode$PacketResponder: Received block blk_7604318773967018750 of size 67108864 from /10.250.13.240
+081111 105118 27258 INFO dfs.DataNode$PacketResponder: Received block blk_7604318773967018750 of size 67108864 from /10.251.73.220
+081111 105118 27263 INFO dfs.DataNode$DataXceiver: Receiving block blk_7590229439851472767 src: /10.250.13.240:58060 dest: /10.250.13.240:50010
+081111 105118 27272 INFO dfs.DataNode$DataXceiver: Receiving block blk_109038846498922091 src: /10.251.214.32:52786 dest: /10.251.214.32:50010
+081111 105118 27288 INFO dfs.DataNode$PacketResponder: Received block blk_-5109144548044899231 of size 67108864 from /10.250.19.16
+081111 105118 27305 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7119030852985901076 src: /10.250.19.16:43674 dest: /10.250.19.16:50010
+081111 105118 27357 INFO dfs.DataNode$PacketResponder: Received block blk_-1428124074976191924 of size 67108864 from /10.251.39.242
+081111 105118 27374 INFO dfs.DataNode$DataXceiver: Receiving block blk_1207160544811805066 src: /10.251.39.242:33614 dest: /10.251.39.242:50010
+081111 105118 27395 INFO dfs.DataNode$PacketResponder: Received block blk_-4139293502926523344 of size 67108864 from /10.251.193.224
+081111 105118 27397 INFO dfs.DataNode$PacketResponder: Received block blk_6404814346423205361 of size 67108864 from /10.251.195.33
+081111 105118 27481 INFO dfs.DataNode$PacketResponder: Received block blk_6404814346423205361 of size 67108864 from /10.251.195.33
+081111 105118 27552 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7119030852985901076 src: /10.250.19.16:56142 dest: /10.250.19.16:50010
+081111 105119 26687 INFO dfs.DataNode$PacketResponder: Received block blk_5143403345024392598 of size 67108864 from /10.251.122.65
+081111 105119 26695 INFO dfs.DataNode$PacketResponder: Received block blk_-5156353218758608079 of size 67108864 from /10.250.15.240
+081111 105119 26855 INFO dfs.DataNode$PacketResponder: Received block blk_-2663719757851477256 of size 67108864 from /10.251.214.67
+081111 105119 26875 INFO dfs.DataNode$PacketResponder: Received block blk_-2692072951297781233 of size 67108864 from /10.251.30.101
+081111 105119 26885 INFO dfs.DataNode$PacketResponder: Received block blk_-2692072951297781233 of size 67108864 from /10.251.203.166
+081111 105119 26906 INFO dfs.DataNode$PacketResponder: Received block blk_4375704578871003515 of size 67108864 from /10.251.203.149
+081111 105119 27024 INFO dfs.DataNode$DataXceiver: Receiving block blk_7590229439851472767 src: /10.250.13.240:42975 dest: /10.250.13.240:50010
+081111 105119 27026 INFO dfs.DataNode$PacketResponder: Received block blk_-7142423608367767918 of size 67108864 from /10.251.122.38
+081111 105119 27041 INFO dfs.DataNode$DataXceiver: Receiving block blk_2802539023268523272 src: /10.251.195.33:57543 dest: /10.251.195.33:50010
+081111 105119 27045 INFO dfs.DataNode$DataXceiver: Receiving block blk_2802539023268523272 src: /10.251.125.193:50256 dest: /10.251.125.193:50010
+081111 105119 27048 INFO dfs.DataNode$PacketResponder: Received block blk_-2663719757851477256 of size 67108864 from /10.251.203.149
+081111 105119 27079 INFO dfs.DataNode$PacketResponder: Received block blk_-2663719757851477256 of size 67108864 from /10.251.214.67
+081111 105119 27084 INFO dfs.DataNode$DataXceiver: Receiving block blk_5195647010713868911 src: /10.251.214.67:44896 dest: /10.251.214.67:50010
+081111 105119 27121 INFO dfs.DataNode$DataXceiver: Receiving block blk_7590229439851472767 src: /10.251.126.227:55590 dest: /10.251.126.227:50010
+081111 105119 27122 INFO dfs.DataNode$DataXceiver: Receiving block blk_7276778287120621869 src: /10.250.14.38:57204 dest: /10.250.14.38:50010
+081111 105119 27122 INFO dfs.DataNode$PacketResponder: Received block blk_-5962657847888397500 of size 67108864 from /10.251.110.196
+081111 105119 27133 INFO dfs.DataNode$DataXceiver: Receiving block blk_7276778287120621869 src: /10.251.110.196:51375 dest: /10.251.110.196:50010
+081111 105119 27133 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8970895230325630467 src: /10.251.91.229:52682 dest: /10.251.91.229:50010
+081111 105119 27153 INFO dfs.DataNode$DataXceiver: Receiving block blk_-7119030852985901076 src: /10.250.11.53:48699 dest: /10.250.11.53:50010
+081111 105119 27175 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1089943443126004709 src: /10.251.30.101:40402 dest: /10.251.30.101:50010
+081111 105119 27192 INFO dfs.DataNode$PacketResponder: Received block blk_-4434457441357061488 of size 67108864 from /10.251.110.196
+081111 105119 27199 INFO dfs.DataNode$PacketResponder: Received block blk_-5156353218758608079 of size 67108864 from /10.251.195.33
+081111 105119 27232 INFO dfs.DataNode$DataXceiver: Receiving block blk_5195647010713868911 src: /10.251.214.67:34976 dest: /10.251.214.67:50010
+081111 105119 27233 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5574729743105742243 src: /10.251.195.33:57172 dest: /10.251.195.33:50010
+081111 105119 27254 INFO dfs.DataNode$DataXceiver: Receiving block blk_4180038094642953085 src: /10.251.107.19:49670 dest: /10.251.107.19:50010
+081111 105119 27335 INFO dfs.DataNode$PacketResponder: Received block blk_-5962657847888397500 of size 67108864 from /10.251.110.196
+081111 105119 27358 INFO dfs.DataNode$DataXceiver: Receiving block blk_7276778287120621869 src: /10.251.110.196:45737 dest: /10.251.110.196:50010
+081111 105119 27401 INFO dfs.DataNode$PacketResponder: Received block blk_-5156353218758608079 of size 67108864 from /10.251.195.33
+081111 105119 27406 INFO dfs.DataNode$DataXceiver: Receiving block blk_2802539023268523272 src: /10.251.195.33:59366 dest: /10.251.195.33:50010
+081111 105119 27407 INFO dfs.DataNode$DataXceiver: Receiving block blk_-5574729743105742243 src: /10.251.195.33:59367 dest: /10.251.195.33:50010
+081111 105119 27474 INFO dfs.DataNode$PacketResponder: Received block blk_-2692072951297781233 of size 67108864 from /10.251.30.101
+081111 105119 27490 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1089943443126004709 src: /10.251.30.101:60584 dest: /10.251.30.101:50010
+081111 105120 24374 INFO dfs.DataNode$PacketResponder: Received block blk_458238825557757968 of size 67108864 from /10.250.10.176
+081111 105120 26623 INFO dfs.DataNode$PacketResponder: Received block blk_4404647793901647164 of size 67108864 from /10.251.125.237
+081111 105120 26759 INFO dfs.DataNode$PacketResponder: Received block blk_5151179072134948598 of size 67108864 from /10.251.107.242
+081111 105120 26764 INFO dfs.DataNode$DataXceiver: Receiving block blk_8888472256223563539 src: /10.251.107.242:36291 dest: /10.251.107.242:50010
+081111 105120 26857 INFO dfs.DataNode$DataXceiver: Receiving block blk_3311978657476456721 src: /10.251.215.50:46384 dest: /10.251.215.50:50010
+081111 105120 26879 INFO dfs.DataNode$PacketResponder: Received block blk_4201156078843470823 of size 67108864 from /10.251.194.147
+081111 105120 27003 INFO dfs.DataNode$PacketResponder: Received block blk_3283853179975629608 of size 67108864 from /10.251.67.113
+081111 105120 27007 INFO dfs.DataNode$PacketResponder: Received block blk_4404647793901647164 of size 67108864 from /10.251.125.237
+081111 105120 27016 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4729246109802270254 src: /10.251.125.237:46126 dest: /10.251.125.237:50010
+081111 105120 27030 INFO dfs.DataNode$PacketResponder: Received block blk_-8541827260838193430 of size 67108864 from /10.251.39.64
+081111 105120 27034 INFO dfs.DataNode$PacketResponder: Received block blk_458238825557757968 of size 67108864 from /10.251.125.193
+081111 105120 27041 INFO dfs.DataNode$DataXceiver: Receiving block blk_1972004464509444279 src: /10.251.39.64:51789 dest: /10.251.39.64:50010
+081111 105120 27043 INFO dfs.DataNode$DataXceiver: Receiving block blk_2100743376636544490 src: /10.251.125.193:37453 dest: /10.251.125.193:50010
+081111 105120 27075 INFO dfs.DataNode$DataXceiver: Receiving block blk_8606039573893367249 src: /10.250.15.240:51547 dest: /10.250.15.240:50010
+081111 105120 27083 INFO dfs.DataNode$PacketResponder: Received block blk_-2311933249858916070 of size 67108864 from /10.251.123.1
+081111 105120 27087 INFO dfs.DataNode$PacketResponder: Received block blk_4404647793901647164 of size 67108864 from /10.251.203.80
+081111 105120 27090 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6666075959903869489 src: /10.251.123.1:56930 dest: /10.251.123.1:50010
+081111 105120 27101 INFO dfs.DataNode$DataXceiver: Receiving block blk_-6666075959903869489 src: /10.251.123.1:44314 dest: /10.251.123.1:50010
+081111 105120 27123 INFO dfs.DataNode$DataXceiver: Receiving block blk_7169111129965826970 src: /10.251.30.6:41939 dest: /10.251.30.6:50010
+081111 105120 27138 INFO dfs.DataNode$PacketResponder: Received block blk_-313637434566273199 of size 67108864 from /10.250.5.237
+081111 105120 27143 INFO dfs.DataNode$PacketResponder: Received block blk_4201156078843470823 of size 67108864 from /10.250.10.176
+081111 105120 27151 INFO dfs.DataNode$PacketResponder: Received block blk_-313637434566273199 of size 67108864 from /10.250.10.223
+081111 105120 27163 INFO dfs.DataNode$DataXceiver: Receiving block blk_3311978657476456721 src: /10.251.197.161:48370 dest: /10.251.197.161:50010
+081111 105120 27164 INFO dfs.DataNode$PacketResponder: Received block blk_4201156078843470823 of size 67108864 from /10.250.10.176
+081111 105120 27166 INFO dfs.DataNode$PacketResponder: Received block blk_458238825557757968 of size 67108864 from /10.251.125.193
+081111 105120 27186 INFO dfs.DataNode$PacketResponder: Received block blk_-2311933249858916070 of size 67108864 from /10.251.123.1
+081111 105120 27219 INFO dfs.DataNode$DataXceiver: Receiving block blk_8939286949921643538 src: /10.251.91.229:34285 dest: /10.251.91.229:50010
+081111 105120 27224 INFO dfs.DataNode$DataXceiver: Receiving block blk_8888472256223563539 src: /10.251.107.242:49468 dest: /10.251.107.242:50010
+081111 105120 27229 INFO dfs.DataNode$DataXceiver: Receiving block blk_-4729246109802270254 src: /10.251.125.237:34544 dest: /10.251.125.237:50010
+081111 105120 27241 INFO dfs.DataNode$PacketResponder: Received block blk_-8541827260838193430 of size 67108864 from /10.251.39.64
+081111 105120 27243 INFO dfs.DataNode$PacketResponder: Received block blk_3471234654228861940 of size 67108864 from /10.251.214.130
+081111 105120 27255 INFO dfs.DataNode$DataXceiver: Receiving block blk_1972004464509444279 src: /10.251.39.64:49560 dest: /10.251.39.64:50010
+081111 105120 27272 INFO dfs.DataNode$DataXceiver: Receiving block blk_9129981175834514338 src: /10.251.122.65:59623 dest: /10.251.122.65:50010
+081111 105120 27282 INFO dfs.DataNode$PacketResponder: Received block blk_-313637434566273199 of size 67108864 from /10.250.5.237
+081111 105120 27286 INFO dfs.DataNode$PacketResponder: Received block blk_3283853179975629608 of size 67108864 from /10.251.27.63
+081111 105120 27327 INFO dfs.DataNode$PacketResponder: Received block blk_-4434457441357061488 of size 67108864 from /10.251.215.50
+081111 105120 27327 INFO dfs.DataNode$PacketResponder: Received block blk_-7585137963799348647 of size 67108864 from /10.251.214.112
+081111 105120 27343 INFO dfs.DataNode$PacketResponder: Received block blk_-4434457441357061488 of size 67108864 from /10.251.215.50
+081111 105120 27344 INFO dfs.DataNode$DataXceiver: Receiving block blk_3311978657476456721 src: /10.251.215.50:43696 dest: /10.251.215.50:50010
+081111 105120 27385 INFO dfs.DataNode$PacketResponder: Received block blk_-812414537613507560 of size 67108864 from /10.251.67.225
+081111 105120 27419 INFO dfs.DataNode$PacketResponder: Received block blk_5151179072134948598 of size 67108864 from /10.251.107.242
+081111 105120 27529 INFO dfs.DataNode$PacketResponder: Received block blk_7682172120520778630 of size 67108864 from /10.251.203.166
+081111 105120 27595 INFO dfs.DataNode$PacketResponder: Received block blk_3283853179975629608 of size 67108864 from /10.251.67.113
+081111 105120 27646 INFO dfs.DataNode$PacketResponder: Received block blk_5151179072134948598 of size 67108864 from /10.251.126.83
+081111 105121 26486 INFO dfs.DataNode$PacketResponder: Received block blk_8503625834553739304 of size 67108864 from /10.251.203.179
+081111 105121 26491 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2443940930966621640 src: /10.251.203.179:54620 dest: /10.251.203.179:50010
+081111 105121 26706 INFO dfs.DataNode$DataXceiver: Receiving block blk_6105553680036689 src: /10.250.10.176:53151 dest: /10.250.10.176:50010
+081111 105121 26800 INFO dfs.DataNode$PacketResponder: Received block blk_2598036984538933869 of size 67108864 from /10.251.214.130
+081111 105121 26921 INFO dfs.DataNode$PacketResponder: Received block blk_-8055061182285365644 of size 67108864 from /10.250.11.85
+081111 105121 26925 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2679149154126993888 src: /10.251.111.80:55346 dest: /10.251.111.80:50010
+081111 105121 26930 INFO dfs.DataNode$DataXceiver: Receiving block blk_-8877692180974926482 src: /10.250.11.85:44453 dest: /10.250.11.85:50010
+081111 105121 26985 INFO dfs.DataNode$PacketResponder: Received block blk_8503625834553739304 of size 67108864 from /10.251.111.80
+081111 105121 26996 INFO dfs.DataNode$PacketResponder: Received block blk_-812414537613507560 of size 67108864 from /10.251.30.6
+081111 105121 27014 INFO dfs.DataNode$DataXceiver: Receiving block blk_-3168247103316870637 src: /10.251.30.6:40071 dest: /10.251.30.6:50010
+081111 105121 27021 INFO dfs.DataNode$DataXceiver: Receiving block blk_-2679149154126993888 src: /10.251.67.113:36792 dest: /10.251.67.113:50010
