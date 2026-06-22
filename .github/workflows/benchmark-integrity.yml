@@ -1,0 +1,57 @@
+name: Benchmark Integrity
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/benchmark-integrity.yml"
+      - "Makefile"
+      - "ci_checks/**"
+      - "docs/**"
+      - "tasks/**"
+      - "tests/**"
+      - "tools/case_builder/**"
+      - "tracks/tooling/**"
+  pull_request:
+    paths:
+      - ".github/workflows/benchmark-integrity.yml"
+      - "Makefile"
+      - "ci_checks/**"
+      - "docs/**"
+      - "tasks/**"
+      - "tests/**"
+      - "tools/case_builder/**"
+      - "tracks/tooling/**"
+  workflow_dispatch:
+
+concurrency:
+  group: benchmark-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - uses: astral-sh/setup-uv@v4
+
+      - name: Check committed verifier templates
+        run: python3 -m tools.case_builder.rebuild_tests --check
+
+      - name: Run static task checks
+        run: make static
+
+      - name: Run unit and invariant tests
+        env:
+          PYTHONPATH: .
+          UV_CACHE_DIR: /tmp/uv-cache
+          UV_TOOL_DIR: /tmp/uv-tools
+        run: uvx --with pytest pytest tests tools/case_builder/tests -q
