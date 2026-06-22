@@ -148,8 +148,8 @@ def test_evidence_within_ground_truth(answer: dict, expected: dict):
 
 
 def test_inline_label_evidence_matches_root_cause(answer: dict, expected: dict, files_to_lines: dict):
-    """For inline-labelled corpora such as BGL and Thunderbird, accept any
-    cited line whose visible alert tag maps to the expected root cause."""
+    """For legacy inline-labelled tasks, accept any cited line whose visible
+    alert tag maps to the expected root cause."""
     if _validation_mode(expected) != "inline_label":
         pytest.skip("exact-location evidence validation uses fixed locations")
     distinct = {(e["file"], e["line"]) for e in answer["evidence"]}

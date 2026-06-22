@@ -6,12 +6,9 @@ degenerate/forgery answers the release audit found scoring ~0.85-1.0 now
 score materially below the oracle. These lock in the WS1a-e hardening so the
 exploits cannot silently return.
 
-Known, documented limitation: BGL/Thunderbird inline-label LOCALIZATION is
-inherently easy (the alert tag is in the log text), so a "smart" attacker who
-greps tagged lines and pastes real snippets still scores high there. Fully
-fixing that needs corpus regeneration with injected-incident ground truth
-(tracked as a follow-up). We still assert the *empty-snippet* no-read path is
-closed for inline.
+BGL/Thunderbird labels are stripped from agent-visible logs and scored via
+exact locations, so a "smart" attacker still has to cite the committed
+ground-truth coordinates with real snippets rather than grep visible tags.
 """
 
 from __future__ import annotations
@@ -30,7 +27,7 @@ TASKS = Path(__file__).resolve().parent.parent / "tasks"
 
 REP = {
     "v1_exact": "lh-f53d4948",
-    "v1_inline": "lh-84158338",
+    "v1_bgl_exact": "lh-84158338",
     "fp": "lh-a67368b6",
     "seq": "lh-95c71c89",
     "corr": "lh-c3d5deec",
@@ -136,6 +133,30 @@ def _rem_forge(td: Path, app: Path) -> dict:
     }
 
 
+def _corr_coordinate_only(td: Path, *, blank_snippets: bool) -> dict:
+    exp = json.loads((td / "tests" / "expected.json").read_text())
+    chain = []
+    for step in exp["causal_chain"]:
+        out = {
+            "step": step["step"],
+            "component": step["component"],
+            "role": step["role"],
+            "evidence_line": step["evidence_line"],
+        }
+        if blank_snippets:
+            out["snippet"] = ""
+        if "caused_by_step" in step:
+            out["caused_by_step"] = step["caused_by_step"]
+        chain.append(out)
+    return {
+        "schema_version": exp["schema_version"],
+        "is_incident": True,
+        "root_component": exp["root_component"],
+        "causal_chain": chain,
+        "root_cause_type": exp["root_cause_type"],
+    }
+
+
 # Ceilings are set a little above measured values so the tests are stable but
 # still fail loudly if a future change re-opens an exploit.
 @pytest.mark.parametrize("slug,builder,ceiling", [
@@ -171,6 +192,18 @@ def test_empty_snippet_never_full_credit():
         ans = {"schema_version": exp["schema_version"], "is_incident": True, "evidence": ev,
                "anomaly_keys": exp.get("anomaly_keys") or ["x"],
                "root_cause_type": exp["root_cause_type"], "recommended_action": "investigate"}
+        assert H.score(td, ans) < 1.0
+
+
+@pytest.mark.parametrize("blank_snippets", [False, True])
+def test_corr_chain_requires_verbatim_snippets(blank_snippets):
+    """Correct corr coordinates alone must not score full credit."""
+    td = TASKS / "lh-c3d5deec"
+    with tempfile.TemporaryDirectory() as t:
+        app = Path(t) / "app"
+        app.mkdir()
+        H._setup_app(td, app)
+        ans = _corr_coordinate_only(td, blank_snippets=blank_snippets)
         assert H.score(td, ans) < 1.0
 
 

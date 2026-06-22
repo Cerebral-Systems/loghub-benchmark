@@ -21,6 +21,10 @@ verifier grades it with **gate-aware scoring**: format/integrity checks are gate
 **0.000**. Full layout and grading:
 **[docs/structure-and-grading.md](docs/structure-and-grading.md)**.
 
+Committed tasks set `[environment].allow_internet = false`; verifier
+dependencies are baked into the task image, and agent/runtime dependencies must
+come from the local harness setup rather than task-time installs.
+
 Status: ready for community testing. The committed set passes every gate —
 adapter/exporter/repo-invariant tests, `make static` (12 checks × 180 tasks),
 and `make oracle-nop` (oracle 180/180, nop 0/180).

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Function to check if task.toml or instruction.md contains global/system-wide keywords
+# Function to check if task.toml or instruction.md explains that verifier
+# dependencies are provided outside test.sh.
 check_task_for_global() {
     local task_dir="$1"
     local task_toml="$task_dir/task.toml"
@@ -8,14 +9,14 @@ check_task_for_global() {
 
     # Check task.toml
     if [ -f "$task_toml" ]; then
-        if grep -i -E "(global|system-wide)" "$task_toml" > /dev/null 2>&1; then
+        if grep -i -E "(global|system-wide|baked into the image|baked into the task image)" "$task_toml" > /dev/null 2>&1; then
             return 0
         fi
     fi
 
     # Check instruction.md
     if [ -f "$instruction_md" ]; then
-        if grep -i -E "(global|system-wide)" "$instruction_md" > /dev/null 2>&1; then
+        if grep -i -E "(global|system-wide|baked into the image|baked into the task image)" "$instruction_md" > /dev/null 2>&1; then
             return 0
         fi
     fi
@@ -80,7 +81,7 @@ FAILED=0
 for file in $FILES_TO_CHECK; do
     [ -f "$file" ] || continue
     if ! check_run_tests_file "$file"; then
-        echo "FAIL $file: lacks 'uv' or 'npm/npx/pnpm', and task.toml/instruction.md doesn't mention 'global' or 'system-wide'"
+        echo "FAIL $file: lacks 'uv' or 'npm/npx/pnpm', and task.toml/instruction.md doesn't explain external verifier deps"
         FAILED=1
     fi
 done

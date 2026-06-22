@@ -120,7 +120,7 @@ def test_justification_consistent_with_severity(answer: dict):
 def test_root_cause_matches_ground_truth(answer: dict, expected: dict):
     # Anti-guess binding: root_cause credit requires actually localizing the
     # incident -- citing >= min_evidence_count ground-truth evidence lines --
-    # so the slug-predictable category is not free.
+    # so a guessed category is not free.
     gt = {(e["file"], e["line"]) for e in expected["evidence"]}
     grounded = {(e["file"], e["line"]) for e in answer["evidence"]} & gt
     assert len(grounded) >= expected["min_evidence_count"], (

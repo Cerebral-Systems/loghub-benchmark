@@ -276,6 +276,9 @@ def test_oracle_solve_produces_valid_answer(task_dir: Path, tmp_path: Path):
         gt_evidence = {(e["component"], e["evidence_line"]) for e in expected["causal_chain"]}
         pred_evidence = {(e["component"], e["evidence_line"]) for e in chain}
         assert not (gt_evidence - pred_evidence), "missing causal-chain steps"
+        for step in chain:
+            actual = (app_dir / step["component"]).read_text(errors="replace").splitlines()
+            assert step["snippet"] in actual[step["evidence_line"] - 1]
         assert answer["root_cause_type"] == expected["root_cause_type"]
     elif schema.endswith("-v2-sev"):
         # v2-sev severity classification assertions

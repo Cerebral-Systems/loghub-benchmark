@@ -496,13 +496,14 @@ def _structured_output_schema(schema_version: str) -> dict[str, Any]:
                     "type": "array",
                     "items": {
                         "type": "object",
-                        "required": ["step", "component", "role", "evidence_line"],
+                        "required": ["step", "component", "role", "evidence_line", "snippet"],
                         "additionalProperties": True,
                         "properties": {
                             "step": {"type": "integer", "minimum": 0},
                             "component": {"type": "string"},
                             "role": {"enum": ["root", "downstream"]},
                             "evidence_line": {"type": "integer", "minimum": 1},
+                            "snippet": {"type": "string"},
                             "caused_by_step": {"type": "integer", "minimum": 0},
                         },
                     },

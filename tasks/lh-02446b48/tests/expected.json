@@ -41,6 +41,9 @@
       "line": 2134
     }
   ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
   "files": [
     "bgl-misc.log",
     "bgl-racks-a.log",

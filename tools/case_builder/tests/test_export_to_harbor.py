@@ -186,7 +186,7 @@ def test_bgl_expected_json_carries_partitioned_locations(tmp_path: Path):
     expected = json.loads((out / "bgl-kerndtlb-1234567" / "tests" / "expected.json").read_text())
     assert expected["evidence"]
     assert all({"file", "line"}.issubset(e) for e in expected["evidence"])
-    assert "evidence_validation" not in expected
+    assert expected["evidence_validation"] == {"mode": "exact_location"}
     hints = json.loads((out / "bgl-kerndtlb-1234567" / "solution" / "oracle_hints.json").read_text())
     assert hints["anomaly_locations"] == expected["evidence"]
 
@@ -228,7 +228,7 @@ def test_task_toml_uses_new_schema(tmp_path: Path):
     assert 'name = "loghub-sre/hdfs-datanode-abcdef1"' in toml_text
     assert 'difficulty = "medium"' in toml_text
     assert 'category = "sre-log-investigation"' in toml_text
-    assert "allow_internet = true" in toml_text
+    assert "allow_internet = false" in toml_text
     assert '"multi-file"' in toml_text
     for forbidden in ("difficulty_explanation", "solution_explanation", "expert_time_estimate_hours"):
         assert forbidden not in toml_text

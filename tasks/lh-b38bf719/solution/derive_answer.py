@@ -38,11 +38,12 @@ def main() -> None:
     chain = []
     for entry in hints["causal_chain"]:
         # Confirm the cited line exists; raises on mismatch.
-        _read_line(args.app_dir, entry["component"], entry["evidence_line"])
+        snippet = _read_line(args.app_dir, entry["component"], entry["evidence_line"])
         step = {
             "step": entry["step"],
             "component": entry["component"],
             "evidence_line": entry["evidence_line"],
+            "snippet": snippet[:300],
             "role": entry["role"],
         }
         if "caused_by_step" in entry:

@@ -9,6 +9,7 @@
       "component": "hadoop-mrappmaster.log",
       "evidence_line": 13,
       "role": "root",
+      "snippet": "2015-10-17 16:47:38,896 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445062781478_0017_000001",
       "step": 0
     },
     {
@@ -16,6 +17,7 @@
       "component": "hadoop-yarn.log",
       "evidence_line": 139,
       "role": "downstream",
+      "snippet": "2015-10-17 16:47:41,036 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler",
       "step": 1
     },
     {
@@ -23,6 +25,7 @@
       "component": "hadoop-mapreduce.log",
       "evidence_line": 1478,
       "role": "downstream",
+      "snippet": "2015-10-17 16:47:41,130 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://msra-sa-41:9000]",
       "step": 2
     },
     {
@@ -30,6 +33,7 @@
       "component": "hadoop-misc.log",
       "evidence_line": 1417,
       "role": "downstream",
+      "snippet": "2015-10-17 16:47:41,599 INFO [main] org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties",
       "step": 3
     }
   ],

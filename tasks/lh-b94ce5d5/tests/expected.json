@@ -12,6 +12,7 @@
       "component": "hdfs-namenode.log",
       "evidence_line": 1001,
       "role": "root",
+      "snippet": "081110 002806 33 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/sortrand/_temporary/_task_200811092030_0002_r_000222_0/part-00222. blk_-1009284756580063377",
       "step": 0
     },
     {
@@ -19,6 +20,7 @@
       "component": "hdfs-datanode-a.log",
       "evidence_line": 483,
       "role": "downstream",
+      "snippet": "081110 002806 4494 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1009284756580063377 src: /10.251.106.10:41067 dest: /10.251.106.10:50010",
       "step": 1
     },
     {
@@ -26,6 +28,7 @@
       "component": "hdfs-datanode-b.log",
       "evidence_line": 1000,
       "role": "downstream",
+      "snippet": "081110 002806 4556 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1009284756580063377 src: /10.251.123.99:51432 dest: /10.251.123.99:50010",
       "step": 2
     },
     {
@@ -33,6 +36,7 @@
       "component": "hdfs-datanode-misc.log",
       "evidence_line": 890,
       "role": "downstream",
+      "snippet": "081110 002837 4495 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_-1009284756580063377 terminating",
       "step": 3
     }
   ],

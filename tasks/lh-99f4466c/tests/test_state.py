@@ -59,6 +59,13 @@ def test_root_component_matches(answer: dict, expected: dict):
 def test_gate_causal_chain_structure(answer: dict):
     chain = answer.get("causal_chain", [])
     assert chain, "causal_chain is empty"
+    for step in chain:
+        assert isinstance(step.get("step"), int), "each causal_chain step needs integer step"
+        assert isinstance(step.get("component"), str), "each causal_chain step needs component"
+        assert isinstance(step.get("evidence_line"), int), (
+            "each causal_chain step needs integer evidence_line"
+        )
+        assert isinstance(step.get("snippet"), str), "each causal_chain step needs snippet"
     first = chain[0]
     assert first.get("role") == "root", "first step must have role=root"
     assert first.get("step") == 0, "first step must be step 0"
@@ -149,6 +156,20 @@ def test_gate_evidence_lines_in_range(answer: dict, files_to_lines: dict):
         n = len(files_to_lines[component])
         line = step["evidence_line"]
         assert 1 <= line <= n, f"line {line} out of range 1..{n} for {component}"
+
+
+def test_causal_chain_snippets_match_log_text(answer: dict, files_to_lines: dict):
+    for step in answer.get("causal_chain", []):
+        actual = files_to_lines[step["component"]][step["evidence_line"] - 1]
+        snippet = step["snippet"]
+        assert len(snippet.strip()) >= 12, (
+            f"causal_chain snippet must be a non-trivial verbatim excerpt "
+            f"(>=12 chars), got {snippet!r}"
+        )
+        assert snippet in actual, (
+            f"snippet {snippet!r} not present on "
+            f"{step['component']} line {step['evidence_line']}"
+        )
 
 
 def test_root_cause_matches_ground_truth(answer: dict, expected: dict):

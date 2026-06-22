@@ -106,9 +106,9 @@ described in `docs/scoring.md`; `tmpl` validates template-grouping
 recall against ground-truth `EventTemplate`s; `rem` grades recovery by
 **replaying** the agent's declared mitigation against a verifier-only
 `tests/initial_state.json` (the agent-writable `/app/service_state.json`
-is not trusted). HDFS, Hadoop, and OpenStack use exact `(file, line)` evidence
-checks; BGL and Thunderbird use inline-label validation so large
-slices stay reviewable.
+is not trusted). The committed scored tasks use exact `(file, line)` evidence
+checks; BGL and Thunderbird load upstream inline labels but strip the visible
+tag before agents see the exported logs.
 
 ## Regeneration
 

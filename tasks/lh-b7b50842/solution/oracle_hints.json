@@ -4,6 +4,7 @@
       "component": "hdfs-namenode.log",
       "evidence_line": 514,
       "role": "root",
+      "snippet": "081111 081714 31 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/rand7/_temporary/_task_200811101024_0014_m_000623_0/part-00623. blk_-1000723577943457888",
       "step": 0
     },
     {
@@ -11,6 +12,7 @@
       "component": "hdfs-datanode-a.log",
       "evidence_line": 356,
       "role": "downstream",
+      "snippet": "081111 081714 24114 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1000723577943457888 src: /10.251.30.179:54915 dest: /10.251.30.179:50010",
       "step": 1
     },
     {
@@ -18,6 +20,7 @@
       "component": "hdfs-datanode-misc.log",
       "evidence_line": 472,
       "role": "downstream",
+      "snippet": "081111 081718 24114 INFO dfs.DataNode$DataXceiver: writeBlock blk_-1000723577943457888 received exception java.io.IOException: Could not read from stream",
       "step": 2
     }
   ],

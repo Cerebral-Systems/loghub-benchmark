@@ -12,6 +12,7 @@
       "component": "hdfs-namenode.log",
       "evidence_line": 911,
       "role": "root",
+      "snippet": "081110 011423 27 INFO dfs.FSNamesystem: BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_000371_0/part-00371. blk_-1009207079038502874",
       "step": 0
     },
     {
@@ -19,6 +20,7 @@
       "component": "hdfs-datanode-b.log",
       "evidence_line": 638,
       "role": "downstream",
+      "snippet": "081110 011424 5275 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1009207079038502874 src: /10.251.122.79:40097 dest: /10.251.122.79:50010",
       "step": 1
     },
     {
@@ -26,6 +28,7 @@
       "component": "hdfs-datanode-a.log",
       "evidence_line": 996,
       "role": "downstream",
+      "snippet": "081110 011428 5308 INFO dfs.DataNode$DataXceiver: Receiving block blk_-1009207079038502874 src: /10.251.27.63:47062 dest: /10.251.27.63:50010",
       "step": 2
     },
     {
@@ -33,6 +36,7 @@
       "component": "hdfs-datanode-misc.log",
       "evidence_line": 1447,
       "role": "downstream",
+      "snippet": "081110 011449 5278 INFO dfs.DataNode$PacketResponder: PacketResponder 2 for block blk_-1009207079038502874 terminating",
       "step": 3
     },
     {
@@ -40,6 +44,7 @@
       "component": "hdfs-misc.log",
       "evidence_line": 77,
       "role": "downstream",
+      "snippet": "081110 011504 19 INFO dfs.FSDataset: Deleting block blk_-1009207079038502874 file /mnt/hadoop/dfs/data/current/subdir37/blk_-1009207079038502874",
       "step": 4
     }
   ],

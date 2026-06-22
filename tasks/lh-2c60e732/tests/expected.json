@@ -45,6 +45,9 @@
       "line": 7790
     }
   ],
+  "evidence_validation": {
+    "mode": "exact_location"
+  },
   "files": [
     "thunderbird-misc.log"
   ],

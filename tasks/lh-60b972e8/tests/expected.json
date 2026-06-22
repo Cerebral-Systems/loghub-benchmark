@@ -17,6 +17,7 @@
       "component": "bgl-racks-c.log",
       "evidence_line": 2433,
       "role": "root",
+      "snippet": "APPSEV 1133929445 2005.12.06 R41-M1-N0-I:J18-U11 2005-12-06-20.24.05.939993 R41-M1-N0-I:J18-U11 RAS APP FATAL ciod: Error reading message prefix on CioStream socket to 172.16.96.116:49395, Link has been severed",
       "step": 0
     },
     {
@@ -24,6 +25,7 @@
       "component": "bgl-racks-a.log",
       "evidence_line": 3745,
       "role": "downstream",
+      "snippet": "APPSEV 1133929446 2005.12.06 R54-M1-N0-I:J18-U11 2005-12-06-20.24.06.206406 R54-M1-N0-I:J18-U11 RAS APP FATAL ciod: Error reading message prefix on CioStream socket to 172.16.96.116:49574, Link has been severed",
       "step": 1
     },
     {
@@ -31,6 +33,7 @@
       "component": "bgl-racks-b.log",
       "evidence_line": 3232,
       "role": "downstream",
+      "snippet": "APPSEV 1133929446 2005.12.06 R55-M1-NC-I:J18-U11 2005-12-06-20.24.06.847742 R55-M1-NC-I:J18-U11 RAS APP FATAL ciod: Error reading message prefix on CioStream socket to 172.16.96.116:49590, Link has been severed",
       "step": 2
     },
     {
@@ -38,6 +41,7 @@
       "component": "bgl-misc.log",
       "evidence_line": 4,
       "role": "downstream",
+      "snippet": "MASABNORM 1133929449 2005.12.06 NULL 2005-12-06-20.24.09.566159 NULL RAS BGLMASTER FAILURE ciodb exited abnormally due to signal: Aborted",
       "step": 3
     }
   ],

@@ -97,8 +97,8 @@ appear **verbatim** (non-empty, ≥12 chars), evidence is **within the
 ground-truth set**, `root_cause_type` is in the dataset taxonomy and matches the
 gold label, and `recommended_action` is in the safe set. Evidence-validation
 modes:
-- **exact-location** (HDFS / Hadoop / OpenStack): cited `(file, line)` must be in the GT set.
-- **inline-label** (BGL / Thunderbird): each cited line's visible alert tag must map to the expected root cause, over ≥ `min_evidence_count` distinct lines.
+- **exact-location** (committed scored tasks): cited `(file, line)` must be in the GT set.
+- **inline-label** (legacy/future-only): each cited line's visible alert tag must map to the expected root cause, over ≥ `min_evidence_count` distinct lines.
 
 **Anti-gaming.** Credit is bound to evidence (a slug-guessable category earns
 nothing without grounded citations), empty/trivial snippets are rejected, and

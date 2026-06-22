@@ -66,14 +66,10 @@ as `test_gate_*`, required but unscored. Items 7, 9, 10, 11 and 13 are the
 9. `test_evidence_within_ground_truth` — for exact-location tasks,
    every cited evidence location must be in `expected.json`. The agent
    does not have to cite every anomaly, only real ones.
-10. `test_inline_label_evidence_matches_root_cause` — for inline-label
-    tasks, the agent must cite `>= min_evidence_count` **distinct** lines,
-    each with a non-trivial verbatim snippet (via #7) and a visible alert
-    tag that maps to the expected root cause. This keeps BGL/Thunderbird
-    ground truth compact without accepting arbitrary normal lines, and
-    closes the "cite blank snippets / repeat one line" shortcut. (Inline-
-    label *localization* remains inherently easy because the tag is in the
-    log text — see "Known limitations".)
+10. `test_inline_label_evidence_matches_root_cause` — legacy support for
+    inline-label tasks. The committed scored set uses exact-location mode,
+    including BGL/Thunderbird after tag stripping; this assertion is kept
+    only for future corpora that intentionally expose label tags.
 11. `test_minimum_evidence_count` — `len(evidence) >= min_evidence_count`
    (3, or `len(anomaly_locations)` if smaller). Prevents
    one-citation-and-done.
@@ -82,14 +78,14 @@ as `test_gate_*`, required but unscored. Items 7, 9, 10, 11 and 13 are the
 13. `test_root_cause_matches_ground_truth` — `root_cause_type` matches the
     gold label, **bound to evidence**: in exact-location mode the agent must
     also have cited `>= min_evidence_count` ground-truth evidence lines, so
-    the slug-predictable category is not free credit without real
-    localization. (Inline-label mode binds it via #10.)
+    the category is not free credit without real localization. Inline-label
+    mode, if used by a future task, binds it via #10.
 14. `test_recommended_action_is_safe` — `recommended_action` is in
     `{escalate, investigate, no_action, open_incident, page_owner}`.
     Prevents the agent from inventing dangerous actions.
 
 `test_no_cross_file_line_confusion` and `test_evidence_within_ground_truth`
-are skipped for inline-label tasks. `test_inline_label_evidence_matches_root_cause`
+are active for the committed scored tasks. The legacy inline-label assertion
 is skipped for exact-location tasks.
 
 ## Why this design
@@ -106,11 +102,10 @@ is skipped for exact-location tasks.
   300-char prefix is normal and still proves the agent read the actual
   file. A non-empty / ≥12-char floor is enforced so the empty-string
   substring trick (`"" in line` is always true) can't bypass it.
-- **Inline-label validation for BGL/Thunderbird** because those corpora
-  can contain thousands of anomaly-tagged lines in one slice. Storing
-  every anomalous line made `expected.json` huge while adding little
-  verifier value; validating the visible alert tag preserves correctness
-  and keeps the benchmark reviewable.
+- **Exact-location validation for BGL/Thunderbird** because visible
+  upstream alert tags are stripped from exported logs. This prevents
+  label-grep localization while still requiring each citation to hit the
+  generated ground-truth `(file, line)` set with a real snippet.
 - **Safe-action enumeration** because the benchmark has no sandboxed
   prod system to verify destructive actions against. The closed-set
   check is a cheap proxy for "agent didn't invent `rm -rf /` or
@@ -126,7 +121,7 @@ answer. The measures, by family:
   anti-hallucination check without reading any line.
 - **Exact-location v1 + sev**: `root_cause_type` credit is bound to citing
   `>= min_evidence_count` ground-truth evidence locations, so a guess at the
-  slug-predictable category earns nothing without real localization. `sev`
+  category earns nothing without real localization. `sev`
   additionally checks all cited evidence is within ground truth.
 - **fp (false-positive triage)**: cited indicators must overlap ground truth
   with ≥ 0.7 precision **and** cover `>= min_indicator_count` real indicators
@@ -150,17 +145,10 @@ answer. The measures, by family:
 
 ### Known limitations
 
-- **BGL/Thunderbird inline-label localization is inherently easy**: the alert
-  tag (`KERNSTOR`, …) is in the log text, so a reader can find tagged lines
-  directly. The hardening above forces real reads (non-empty snippets,
-  distinct lines, correct tag→cause mapping) but cannot make tag recognition
-  *hard*. Making it hard requires regenerating those tasks with a specific
-  injected-incident ground-truth set — tracked as a follow-up.
-- **Slug-predictable categories**: task slugs encode the dataset/component
-  (e.g. `bgl-kernstor`), which correlates with `root_cause_type`. Rather than
-  rename every task (which would break published run IDs and snapshots), the
-  scoring binds categorical credit to correct evidence so the leak is not
-  freely scorable. `tests/test_gameability.py` regression-locks these bounds.
+- **Raw BGL/Thunderbird labels remain corpus-visible upstream**: the source
+  files carry first-column alert tags, but exported task logs strip those
+  tags before agents see them. Scoring stays exact-location and
+  snippet-bound.
 
 ## Ground truth
 
