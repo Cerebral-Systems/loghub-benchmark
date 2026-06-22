@@ -17,6 +17,7 @@ from pathlib import Path
 
 import pytest
 
+from tools.case_builder import build_rem_tasks as brt
 from tools.case_builder import remediation as rem
 from tools.case_builder import export_to_harbor as ex
 
@@ -225,3 +226,73 @@ def test_rem_apply_mitigation_runs_in_subprocess(tmp_path: Path) -> None:
     state = json.loads((app / "service_state.json").read_text())
     states = {info["state"] for info in state["components"].values()}
     assert states == {"healthy"}
+
+
+def _write_opaque_corr_source(tasks_dir: Path, slug: str) -> Path:
+    task_dir = tasks_dir / slug
+    (task_dir / "tests").mkdir(parents=True)
+    (task_dir / "environment" / "data").mkdir(parents=True)
+    (task_dir / "environment" / "data" / "hdfs-namenode.log").write_text(
+        "root block allocation\n"
+    )
+    (task_dir / "environment" / "data" / "hdfs-datanode-a.log").write_text(
+        "downstream block receive\n"
+    )
+    (task_dir / "tests" / "expected.json").write_text(
+        json.dumps(
+            {
+                "schema_version": ex.ANSWER_SCHEMA_VERSION_CORR,
+                "files": ["hdfs-namenode.log", "hdfs-datanode-a.log"],
+                "root_component": "hdfs-namenode.log",
+                "root_cause_type": "datanode_unreachable",
+                "causal_chain": [
+                    {
+                        "step": 0,
+                        "component": "hdfs-namenode.log",
+                        "role": "root",
+                        "evidence_line": 1,
+                        "snippet": "root block allocation",
+                    },
+                    {
+                        "step": 1,
+                        "component": "hdfs-datanode-a.log",
+                        "role": "downstream",
+                        "caused_by_step": 0,
+                        "evidence_line": 1,
+                        "snippet": "downstream block receive",
+                    },
+                ],
+            }
+        )
+        + "\n"
+    )
+    return task_dir
+
+
+def test_synthesize_rem_case_supports_opaque_task_ids(tmp_path: Path) -> None:
+    tasks_dir = tmp_path / "tasks"
+    source = _write_opaque_corr_source(tasks_dir, "lh-12345678")
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "docs" / "task-id-map.json").write_text(
+        json.dumps({"lh-12345678": "corr-hdfs-other-legacy123"}) + "\n"
+    )
+
+    case = brt.synthesize_rem_case(source)
+
+    assert case is not None
+    assert case["dataset_name"] == "HDFS_v1"
+    assert case["extra"]["rem"]["source_task"] == "corr-hdfs-other-legacy123"
+    assert case["extra"]["rem"]["files"]["hdfs-namenode.log"] == [
+        "root block allocation"
+    ]
+
+
+def test_default_rem_selection_uses_task_id_map_for_opaque_dirs(tmp_path: Path) -> None:
+    tasks_dir = tmp_path / "tasks"
+    source = _write_opaque_corr_source(tasks_dir, "lh-abcdef12")
+    (tmp_path / "docs").mkdir()
+    (tmp_path / "docs" / "task-id-map.json").write_text(
+        json.dumps({"lh-abcdef12": "corr-hdfs-other-legacy456"}) + "\n"
+    )
+
+    assert brt.build_default_selection(tasks_dir) == [source]

@@ -39,12 +39,30 @@ ADAPTER_INPUT_SUBDIR = {
     "openstack": "OpenStack",
 }
 
+LOCALIZATION_SCHEMA = "loghub-sre-answer-v2"
+
 
 def _load_case(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
+def _load_task_id_map(tasks_dir: Path) -> dict[str, str]:
+    """Load opaque -> legacy task ids when auditing a v1.0 task tree."""
+    map_path = tasks_dir.parent / "docs" / "task-id-map.json"
+    if not map_path.is_file():
+        return {}
+    data = json.loads(map_path.read_text())
+    if not isinstance(data, dict):
+        raise SystemExit(f"{map_path} must be an object mapping opaque ids to legacy ids")
+    return {str(k): str(v) for k, v in data.items()}
+
+
+def _legacy_slug(task_dir: Path, task_id_map: dict[str, str]) -> str:
+    return task_id_map.get(task_dir.name, task_dir.name)
+
+
 def write_manifest(tasks_dir: Path, cases_dirs: list[str], output: Path, seed: int) -> None:
+    task_id_map = _load_task_id_map(tasks_dir)
     cases_by_slug: dict[str, dict] = {}
     for spec in cases_dirs:
         if "=" not in spec:
@@ -66,14 +84,15 @@ def write_manifest(tasks_dir: Path, cases_dirs: list[str], output: Path, seed: i
     selections = []
     missing = []
     for task_dir in sorted(d for d in tasks_dir.iterdir() if d.is_dir()):
-        record = cases_by_slug.get(task_dir.name)
+        slug = _legacy_slug(task_dir, task_id_map)
+        record = cases_by_slug.get(slug)
         if record is None:
             missing.append(task_dir.name)
             continue
         case = record["case"]
         selections.append(
             {
-                "slug": task_dir.name,
+                "slug": slug,
                 "adapter": record["adapter"],
                 "dataset_name": case["dataset_name"],
                 "adapter_version": case["adapter_version"],
@@ -114,13 +133,21 @@ def refresh_from_existing(
     author_name: str,
     author_email: str,
 ) -> None:
-    existing_slugs = sorted(d.name for d in tasks_dir.iterdir() if d.is_dir())
+    task_id_map = _load_task_id_map(tasks_dir)
+    existing_slugs = sorted(
+        _legacy_slug(d, task_id_map) for d in tasks_dir.iterdir() if d.is_dir()
+    )
     desired_counts: dict[tuple[str, str], int] = {}
     for task_dir in sorted(d for d in tasks_dir.iterdir() if d.is_dir()):
         expected = json.loads((task_dir / "tests" / "expected.json").read_text())
-        dataset = expected_dataset_from_slug(task_dir.name)
+        if expected.get("schema_version") != LOCALIZATION_SCHEMA:
+            continue
+        dataset = expected_dataset_from_expected(expected)
         key = (dataset, expected["root_cause_type"])
         desired_counts[key] = desired_counts.get(key, 0) + 1
+
+    if not desired_counts:
+        raise SystemExit("no localization tasks found to refresh")
 
     cases: list[tuple[str, dict]] = []
     for spec in cases_dirs:
@@ -212,7 +239,32 @@ def refresh_from_existing(
     print(f"wrote curated manifest to {manifest_output}")
 
 
+def expected_dataset_from_expected(expected: dict) -> str:
+    """Infer the source dataset from expected.files.
+
+    Task directories are opaque (`lh-<hash>`) after v1.0, so rebuild tooling
+    cannot recover the dataset from the slug anymore. Log basenames still carry
+    the stable dataset prefix.
+    """
+    files = expected.get("files") or []
+    if not files:
+        raise SystemExit("expected.json missing non-empty files list")
+    prefix = files[0].split("-", 1)[0].split(".", 1)[0]
+    by_prefix = {
+        "hdfs": "HDFS_v1",
+        "hadoop": "Hadoop",
+        "bgl": "BGL",
+        "thunderbird": "Thunderbird",
+        "openstack": "OpenStack",
+    }
+    try:
+        return by_prefix[prefix]
+    except KeyError as exc:
+        raise SystemExit(f"cannot infer dataset from expected.files prefix {prefix!r}") from exc
+
+
 def expected_dataset_from_slug(slug: str) -> str:
+    """Legacy helper retained for old descriptive task slugs."""
     prefix = slug.split("-", 1)[0]
     by_prefix = {
         "hdfs": "HDFS_v1",
@@ -221,7 +273,12 @@ def expected_dataset_from_slug(slug: str) -> str:
         "thunderbird": "Thunderbird",
         "openstack": "OpenStack",
     }
-    return by_prefix[prefix]
+    try:
+        return by_prefix[prefix]
+    except KeyError as exc:
+        raise SystemExit(
+            f"cannot infer dataset from opaque slug {slug!r}; read tests/expected.json instead"
+        ) from exc
 
 
 def _case_has_enough_files(case: dict) -> bool:

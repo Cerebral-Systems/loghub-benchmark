@@ -10,12 +10,12 @@ name = "loghub-sre/lh-22d95c8b"
 description = "Loghub SRE investigation: locate and classify the incident across partitioned Thunderbird logs."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "hard"
 category = "sre-log-investigation"
 tags = ["thunderbird", "anomaly-detection", "log-analysis", "ecc", "multi-file"]

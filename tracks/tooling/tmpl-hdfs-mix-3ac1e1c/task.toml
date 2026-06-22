@@ -14,12 +14,12 @@ name = "loghub-sre-v2/tmpl-hdfs-mix-3ac1e1c"
 description = "Loghub-SRE T5 template extraction: partition HDFS log lines into EventTemplate groups."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "medium"
 category = "sre-log-investigation"
 tags = ["hdfs", "template-extraction", "drain", "logparser", "single-file"]

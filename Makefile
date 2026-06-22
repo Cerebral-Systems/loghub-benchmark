@@ -12,6 +12,7 @@
 
 PYTHON ?= $(shell if [ -x .venv-tools/bin/python ]; then echo .venv-tools/bin/python; elif [ -x .venv/bin/python ]; then echo .venv/bin/python; else echo python3; fi)
 TASKS  := $(shell ls tasks 2>/dev/null | grep -v '^\.')
+CURATED_OUTPUT ?= .benchmark/rebuilt-curated-v1
 
 default:
 	@grep -E '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) 2>/dev/null \
@@ -56,9 +57,10 @@ validate-all: unit static oracle-nop ## Run every validation gate
 	@echo ""
 	@echo "All validation gates green."
 
-rebuild-curated: ## Rebuild the committed v1 curated-selection manifest (needs LOGHUB_CORPUS + corpus on disk)
+rebuild-curated: ## Rebuild legacy v1 curated-selection tasks into $(CURATED_OUTPUT)
 	@test -n "$(LOGHUB_CORPUS)" || { echo "set LOGHUB_CORPUS to your loghub-full corpus path"; exit 1; }
 	$(PYTHON) -m tools.case_builder.rebuild_curated rebuild \
 	  --manifest tools/case_builder/curated_selection.json \
 	  --corpus-root "$(LOGHUB_CORPUS)" \
-	  --output-dir tasks
+	  --output-dir "$(CURATED_OUTPUT)" \
+	  --clear-output

@@ -18,7 +18,7 @@ from a path configured by `--input`.
 | `tracks/tooling/` | 20 unscored log-template-extraction tasks (contaminated GT + mechanizable; kept off the leaderboard). | Optional |
 | `docs/task-id-map.json` | Maps each opaque `lh-<hash>` id back to its descriptive build slug. | Reference |
 | `tools/case_builder/` | Adapters, exporter, curated rebuild, and the in-place test re-render (`rebuild_tests.py`). | Needed for regeneration |
-| `tools/case_builder/curated_selection.json` | Exact manifest for the committed task set. | Needed for reproducible rebuilds |
+| `tools/case_builder/curated_selection.json` | Legacy v1 localization manifest for the original 60 descriptive-slug tasks. | Needed for v1 reproducible rebuilds |
 | `tools/rubric_check/` | Moonshot-backed rubric checker. | Optional quality review |
 | `tools/stress_pack_generator/` | Large non-curated stress pack generator. | Optional stress testing |
 | `ci_checks/` | Static checks plus negative fixtures. | Needed for CI/static validation |
@@ -57,7 +57,7 @@ instruction and log files; they do not see `solution/` or `tests/`.
 raw Loghub corpus
   -> adapter in tools/case_builder/adapters/
   -> candidate case JSON
-  -> tools/case_builder/curated_selection.json
+  -> tools/case_builder/curated_selection.json (v1 localization)
   -> tools/case_builder/export_to_harbor.py
   -> tasks/<slug>/
   -> harbor run
@@ -112,13 +112,18 @@ tag before agents see the exported logs.
 
 ## Regeneration
 
-Rebuild the v1 curated tasks from the corpus manifest (needs `LOGHUB_CORPUS`
-and the corpus on disk; non-destructive to the v2/v3 families):
+Rebuild the legacy v1 curated tasks from the corpus manifest (needs
+`LOGHUB_CORPUS` and the corpus on disk). This writes descriptive-slug
+tasks into `.benchmark/rebuilt-curated-v1` by default; it does not
+overwrite the committed opaque-ID benchmark in `tasks/`:
 
 ```bash
 export LOGHUB_CORPUS=/path/to/loghub-full
 make rebuild-curated
 ```
+
+Set `CURATED_OUTPUT=/path/to/output` to choose a different rebuild
+directory.
 
 Re-render the per-task verifier/test files in place from the templates
 (no corpus needed; CI asserts they never drift):

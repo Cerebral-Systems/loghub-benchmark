@@ -106,10 +106,11 @@ than label-grep.
    `tools/case_builder/export_to_harbor.py`. The function takes a log
    line and returns a basename for the file that line belongs in (or
    `None` to drop the line).
-6. Run `make rebuild-curated` to reproduce the committed curated set,
-   or run `tools.case_builder.rebuild_curated refresh-from-existing`
-   with fresh case-builder outputs when intentionally refreshing the
-   curation manifest.
+6. Run `make rebuild-curated` to reproduce the legacy v1 localization
+   manifest into `.benchmark/rebuilt-curated-v1`. The committed public
+   benchmark uses opaque `lh-<hash>` IDs, so `refresh-from-existing` reads
+   `docs/task-id-map.json` when deriving the old descriptive slugs from
+   current task directories.
 7. Refresh `tests/snapshots/case_ids.json` to include the new
    adapter's fixture-derived ids.
 

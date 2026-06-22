@@ -14,12 +14,12 @@ name = "loghub-sre-v2/tmpl-bgl-mix-179eff1"
 description = "Loghub-SRE T5 template extraction: partition BGL log lines into EventTemplate groups."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "medium"
 category = "sre-log-investigation"
 tags = ["bgl", "template-extraction", "drain", "logparser", "single-file"]

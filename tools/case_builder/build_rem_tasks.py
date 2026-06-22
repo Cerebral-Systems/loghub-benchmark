@@ -16,8 +16,11 @@ driver reads those task dirs and re-exports them as rem-* tasks, so we get
 Usage:
     python -m tools.case_builder.build_rem_tasks \\
         --tasks-dir tasks \\
-        --selection tools/case_builder/remediation_selection.json \\
-        --output-dir tasks
+        --selection tools/case_builder/remediation_selection.json
+
+This writes generated rem-* directories under `.benchmark/rebuilt-rem-v3`
+by default. Pass `--output-dir tasks` only when intentionally rebuilding a
+task tree.
 """
 
 from __future__ import annotations
@@ -39,12 +42,37 @@ DATASET_BY_PREFIX = {
     "openstack": "OpenStack",
 }
 
+DEFAULT_OUTPUT_DIR = Path(".benchmark/rebuilt-rem-v3")
+
 
 def _dataset_from_slug(slug: str) -> str:
     parts = slug.split("-")
     # corr-hdfs-other-2015555 -> hdfs ; seq-openstack-vmtask-0965b62 -> openstack
     prefix = parts[1] if parts[0] in {"corr", "seq", "fp", "sev", "tmpl", "rem"} else parts[0]
     return DATASET_BY_PREFIX[prefix]
+
+
+def _dataset_from_expected(expected: dict) -> str:
+    files = expected.get("files") or []
+    if not files:
+        raise ValueError("expected.json missing non-empty files list")
+    prefix = files[0].split("-", 1)[0].split(".", 1)[0]
+    return DATASET_BY_PREFIX[prefix]
+
+
+_TASK_ID_MAP_CACHE: dict[Path, dict[str, str]] = {}
+
+
+def _legacy_slug_for(task_dir: Path) -> str:
+    """Return the pre-opaque task id when docs/task-id-map.json is present."""
+    repo_root = task_dir.parent.parent
+    map_path = repo_root / "docs" / "task-id-map.json"
+    if map_path not in _TASK_ID_MAP_CACHE:
+        if map_path.is_file():
+            _TASK_ID_MAP_CACHE[map_path] = json.loads(map_path.read_text())
+        else:
+            _TASK_ID_MAP_CACHE[map_path] = {}
+    return _TASK_ID_MAP_CACHE[map_path].get(task_dir.name, task_dir.name)
 
 
 def _stable_short_id(source_slug: str) -> str:
@@ -180,11 +208,12 @@ def synthesize_rem_case(source_task_dir: Path) -> dict | None:
     else:
         return None
 
-    dataset = _dataset_from_slug(source_task_dir.name)
+    dataset = _dataset_from_expected(expected)
     root_cause = expected["root_cause_type"]
-    short_id = _stable_short_id(source_task_dir.name)
+    source_id = _legacy_slug_for(source_task_dir)
+    short_id = _stable_short_id(source_id)
     case_id = hashlib.sha256(
-        f"rem|{source_task_dir.name}|{root_cause}".encode("utf-8")
+        f"rem|{source_id}|{root_cause}".encode("utf-8")
     ).hexdigest()
     # Pad to 64 hex chars (sha256 already 64, but keep the format explicit).
     case_id = (case_id + "0" * 64)[:64]
@@ -203,7 +232,7 @@ def synthesize_rem_case(source_task_dir: Path) -> dict | None:
                 "root_component": root_file,
                 "causal_chain": chain,
                 "anomaly_locations": anomaly_locations,
-                "source_task": source_task_dir.name,
+                "source_task": source_id,
             },
         },
         "task_type": "rem",
@@ -228,7 +257,7 @@ def build_default_selection(tasks_dir: Path) -> list[Path]:
                 break
             if not path.is_dir():
                 continue
-            if not path.name.startswith(prefix_pattern):
+            if not _legacy_slug_for(path).startswith(prefix_pattern):
                 continue
             selection.append(path)
 
@@ -256,11 +285,11 @@ def build_default_selection(tasks_dir: Path) -> list[Path]:
 def main(argv: list[str] | None = None) -> None:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--tasks-dir", type=Path, default=Path("tasks"))
-    p.add_argument("--output-dir", type=Path, default=Path("tasks"))
+    p.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     p.add_argument("--selection", type=Path, default=None,
                    help="JSON file with a 'sources' list of slug strings (under --tasks-dir).")
-    p.add_argument("--author-name", default="Madhav Goyal")
-    p.add_argument("--author-email", default="madhav@campnetwork.xyz")
+    p.add_argument("--author-name", default="madhav")
+    p.add_argument("--author-email", default="madhavgoyal007@pm.me")
     p.add_argument("--print-only", action="store_true", help="List source tasks and exit.")
     args = p.parse_args(argv)
 

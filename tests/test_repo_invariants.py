@@ -13,7 +13,7 @@ PLAN.md M8 spells out five invariants that catch silent regressions:
      `TaskConfig` (no invented sections / fields).
   5. The oracle's `solution/derive_answer.py` produces a JSON answer
      that satisfies the M3.5 invariants test_state.py asserts — sampled
-     one task per dataset to keep this fast in CI.
+     one task per schema/dataset family to keep this fast in CI.
 """
 
 from __future__ import annotations
@@ -134,6 +134,27 @@ def test_no_oracle_leak(task_dir: Path):
     )
 
 
+# --- 3b. runtime log inventory matches expected.files ----------------------
+
+
+@pytest.mark.parametrize("task_dir", _task_dirs(), ids=lambda p: p.name)
+def test_expected_files_match_runtime_logs(task_dir: Path):
+    """The files listed in expected.json are the log files visible to the
+    agent/verifier. Dead .log files under environment/data confuse audits and
+    can drift from instructions even when Dockerfile COPY lines ignore them."""
+    expected = json.loads((task_dir / "tests" / "expected.json").read_text())
+    expected_files = set(expected.get("files", []))
+    log_dir = task_dir / "environment" / "data"
+    if expected.get("schema_version") == "loghub-sre-answer-v3-remediation":
+        log_dir = log_dir / "logs"
+    actual_files = {p.name for p in log_dir.glob("*.log")}
+    assert actual_files == expected_files, (
+        f"{task_dir.name}: runtime log files differ from expected.files; "
+        f"extra={sorted(actual_files - expected_files)}, "
+        f"missing={sorted(expected_files - actual_files)}"
+    )
+
+
 # --- 4. task.toml schema ----------------------------------------------------
 
 
@@ -153,9 +174,8 @@ def test_task_toml_only_has_valid_fields(task_dir: Path):
 # --- 5. oracle solve produces a valid answer (one per dataset) --------------
 
 
-# Sample one task per dataset rather than running all 60 — keeps the
-# invariant suite under a few seconds while still proving the oracle
-# path is intact.
+# Sample one task per schema/dataset family — keeps the invariant suite
+# under a few seconds while still proving the oracle path is intact.
 def _dataset_of(task_dir: Path) -> str:
     """Infer the dataset from a log filename. Task slugs are opaque
     (`lh-<hash>`) so they no longer encode the dataset; the log basenames

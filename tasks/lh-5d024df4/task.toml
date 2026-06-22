@@ -14,12 +14,12 @@ name = "loghub-sre-v2/lh-5d024df4"
 description = "Loghub-SRE T1 triage: decide whether this partitioned HDFS_v1 log window is a real incident or benign noise, with cited evidence."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "medium"
 category = "sre-log-investigation"
 tags = ["hdfs", "false-positive", "triage", "discrimination", "multi-file"]

@@ -13,12 +13,12 @@ name = "loghub-sre-v2/lh-dfb002d1"
 description = "Loghub-SRE T3 cross-component correlation: identify root + chain for Hadoop incident."
 
 [[task.authors]]
-name = "Madhav Goyal"
-email = "madhav@campnetwork.xyz"
+name = "madhav"
+email = "madhavgoyal007@pm.me"
 
 [metadata]
-author_name = "Madhav Goyal"
-author_email = "madhav@campnetwork.xyz"
+author_name = "madhav"
+author_email = "madhavgoyal007@pm.me"
 difficulty = "easy"
 category = "sre-log-investigation"
 tags = ["hadoop", "cross-component", "causal-chain", "multi-file"]
